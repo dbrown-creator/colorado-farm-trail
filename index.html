@@ -10,6 +10,7 @@
 <meta property="og:title" content="Colorado Farm Trail — Summer 2026" />
 <meta property="og:description" content="163 Colorado farms, markets, U-picks & stands on one map. Opens in Google Maps on your phone. Eat local this summer!" />
 <meta property="og:type" content="website" />
+<meta property="og:url" content="https://dbrown-creator.github.io/colorado-farm-trail/" />
 
 <!-- ============================================================= -->
 <!-- GOOGLE ANALYTICS 4 — Measurement ID G-PC4YFC13N6                 -->
@@ -26,6 +27,44 @@
   // This is your "conversion" — how many visitors actually opened the map.
   function trackOpenMap(where){
     gtag('event', 'open_map', { placement: where });
+  }
+
+  // Fire a GA4 event whenever someone shares the site.
+  function trackShare(method){
+    gtag('event', 'share', { method: method });
+  }
+
+  // Share the site. Uses the phone's native share sheet when available,
+  // otherwise copies the link to the clipboard.
+  function shareSite(){
+    var url = 'https://dbrown-creator.github.io/colorado-farm-trail/';
+    var text = 'Find your next farm stop. 163 Colorado farms, markets & U-picks on one map:';
+    if (navigator.share){
+      navigator.share({ title: 'Colorado Farm Trail', text: text, url: url })
+        .then(function(){ trackShare('native'); })
+        .catch(function(){});
+    } else {
+      copyLink();
+    }
+  }
+
+  // Copy the site link to the clipboard and flash a confirmation.
+  function copyLink(){
+    var url = 'https://dbrown-creator.github.io/colorado-farm-trail/';
+    var label = document.getElementById('copyLabel');
+    function flash(){
+      trackShare('copy_link');
+      if (label){
+        var prev = label.textContent;
+        label.textContent = 'Copied!';
+        setTimeout(function(){ label.textContent = prev; }, 1500);
+      }
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(flash).catch(flash);
+    } else {
+      flash();
+    }
   }
 </script>
 
@@ -56,6 +95,20 @@
     font-size:1.05rem;box-shadow:0 2px 10px rgba(0,0,0,.12);
   }
   .cta.secondary{background:transparent;color:var(--accent);border:2px solid var(--accent);box-shadow:none}
+  .share{border:0;cursor:pointer;font-family:inherit}
+  .share-primary{
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    width:fit-content;margin:14px auto 0;padding:14px 28px;border-radius:999px;
+    background:var(--accent);color:var(--accent-ink);font-weight:700;
+    font-size:1.05rem;box-shadow:0 2px 10px rgba(0,0,0,.12);
+  }
+  .share-row{display:flex;gap:10px;margin:10px auto 0;max-width:420px}
+  .share-alt{
+    flex:1;display:flex;align-items:center;justify-content:center;gap:7px;
+    padding:12px;border-radius:999px;background:transparent;
+    border:2px solid var(--accent);color:var(--accent);font-weight:700;
+    font-size:.98rem;text-decoration:none;
+  }
   .mapcard{
     margin:22px 0;border:1px solid var(--line);border-radius:16px;overflow:hidden;
     background:var(--card);box-shadow:0 4px 20px rgba(0,0,0,.06);
@@ -65,12 +118,18 @@
   .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
   .stat b{display:block;font-size:1.5rem;color:var(--accent)}
   .stat span{color:var(--muted);font-size:.9rem}
+  @media (max-width:520px){
+    .grid{display:flex;flex-wrap:wrap;justify-content:center}
+    .stat{flex:0 1 calc(50% - 7px)}
+  }
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:16px 0}
   .card h2{margin:.1em 0 .4em;font-size:1.15rem}
   ol{margin:.3em 0;padding-left:1.2em}
   ol li{margin:.35em 0}
-  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;justify-content:center}
-  .chip{background:var(--chip);color:var(--muted);border-radius:999px;padding:5px 12px;font-size:.85rem}
+  .chips{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;justify-content:center;align-items:center}
+  .chips-label{display:block;text-align:center;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;margin-top:14px}
+  .chip{color:var(--muted);font-size:.9rem;position:relative}
+  .chip:not(:last-child)::after{content:"·";position:absolute;right:-9px;color:var(--line)}
   footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:28px}
   a{color:var(--accent)}
 </style>
@@ -87,8 +146,9 @@
   </header>
 
   <div class="grid">
-    <div class="stat"><b>163</b><span>farms &amp; markets</span></div>
+    <div class="stat"><b>47</b><span>farmers' markets</span></div>
     <div class="stat"><b>36</b><span>counties</span></div>
+    <div class="stat"><b>59</b><span>farms</span></div>
     <div class="stat"><b>39</b><span>offer activities</span></div>
   </div>
 
@@ -97,6 +157,7 @@
             loading="lazy" title="Colorado Farm Trail Directory Map"></iframe>
   </div>
 
+  <span class="chips-label">What you'll find on the map</span>
   <div class="chips">
     <span class="chip">Farmers' Markets</span><span class="chip">U-Picks</span>
     <span class="chip">Roadside Stands</span><span class="chip">CSA Farms</span>
@@ -116,7 +177,13 @@
 
   <div class="card">
     <h2>💚 Help it spread</h2>
-    <p style="margin:.2em 0;color:var(--muted)">The goal is to get as many Coloradans as possible eating local this summer. If you found this useful, text it to a friend, post it, or share it with your community. Every share helps a local grower.</p>
+    <p style="margin:.2em 0 4px;color:var(--muted)">The goal is to get as many Coloradans as possible eating local this summer. If you found this useful, text it to a friend, post it, or share it with your community. Every share helps a local grower.</p>
+    <button type="button" class="share share-primary" onclick="shareSite()">📤 Share this map</button>
+    <div class="share-row">
+      <a class="share-alt" href="sms:?&body=Find your next farm stop. 163 Colorado farms, markets %26 U-picks on one map: https://dbrown-creator.github.io/colorado-farm-trail/"
+         onclick="trackShare('sms')">💬 Text a friend</a>
+      <button type="button" class="share share-alt" onclick="copyLink()">🔗 <span id="copyLabel">Copy link</span></button>
+    </div>
   </div>
 
   <footer>
