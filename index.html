@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Colorado Farm Fresh Finder — Summer 2026</title>
+<meta name="description" content="A free map of 163 Colorado farms, farmers' markets, U-picks, roadside stands and wineries. Opens right in Google Maps on your phone." />
+
+<!-- Social share preview -->
+<meta property="og:title" content="Colorado Farm Fresh Finder — Summer 2026" />
+<meta property="og:description" content="163 Colorado farms, markets, U-picks & stands on one map. Opens in Google Maps on your phone. Eat local this summer!" />
+<meta property="og:type" content="website" />
+
+<!-- ============================================================= -->
+<!-- GOOGLE ANALYTICS 4 — replace G-PC4YFC13N6 with your real ID    -->
+<!-- (Admin → Data Streams → your stream → "Measurement ID")        -->
+<!-- ============================================================= -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PC4YFC13N6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PC4YFC13N6');
+
+  // Fire a GA4 event whenever someone clicks through to the actual map.
+  // This is your "conversion" — how many visitors actually opened the map.
+  function trackOpenMap(where){
+    gtag('event', 'open_map', { placement: where });
+  }
+</script>
+
+<style>
+  :root{
+    --bg:#f7f6f1; --card:#ffffff; --ink:#20301f; --muted:#5c6b57;
+    --accent:#3f7d3a; --accent-ink:#ffffff; --line:#e3e0d5; --chip:#eef2e6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141712; --card:#1d221a; --ink:#e9ecdf; --muted:#a6b09b;
+           --accent:#7bb56f; --accent-ink:#0f1410; --line:#2c3327; --chip:#252c1f; }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:900px;margin:0 auto;padding:20px 18px 64px}
+  header{text-align:center;padding:14px 0 8px}
+  h1{font-size:clamp(1.6rem,5vw,2.4rem);margin:.2em 0;letter-spacing:-.01em}
+  .tag{color:var(--muted);font-size:1.02rem;max-width:38ch;margin:0 auto}
+  .cta{
+    display:inline-block;margin:18px 6px 6px;padding:14px 22px;border-radius:999px;
+    background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:700;
+    font-size:1.05rem;box-shadow:0 2px 10px rgba(0,0,0,.12);
+  }
+  .cta.secondary{background:transparent;color:var(--accent);border:2px solid var(--accent);box-shadow:none}
+  .mapcard{
+    margin:22px 0;border:1px solid var(--line);border-radius:16px;overflow:hidden;
+    background:var(--card);box-shadow:0 4px 20px rgba(0,0,0,.06);
+  }
+  .mapcard iframe{display:block;width:100%;height:70vh;min-height:420px;border:0}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:8px 0 4px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
+  .stat b{display:block;font-size:1.5rem;color:var(--accent)}
+  .stat span{color:var(--muted);font-size:.9rem}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .card h2{margin:.1em 0 .4em;font-size:1.15rem}
+  ol{margin:.3em 0;padding-left:1.2em}
+  ol li{margin:.35em 0}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;justify-content:center}
+  .chip{background:var(--chip);color:var(--muted);border-radius:999px;padding:5px 12px;font-size:.85rem}
+  footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:28px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🌽 Colorado Farm Fresh Finder</h1>
+    <p class="tag">163 local farms, farmers' markets, U-picks, roadside stands &amp; wineries — all on one map. Eat local all summer.</p>
+    <a class="cta" href="https://www.google.com/maps/d/viewer?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE"
+       target="_blank" rel="noopener" onclick="trackOpenMap('hero')">Open the full map →</a>
+  </header>
+
+  <div class="grid">
+    <div class="stat"><b>163</b><span>farms &amp; markets</span></div>
+    <div class="stat"><b>36</b><span>counties</span></div>
+    <div class="stat"><b>10</b><span>types, color-coded</span></div>
+  </div>
+
+  <div class="mapcard">
+    <iframe src="https://www.google.com/maps/d/embed?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE&ehbc=2E312F"
+            loading="lazy" title="Colorado Farm Fresh Directory Map"></iframe>
+  </div>
+
+  <div class="chips">
+    <span class="chip">Farmers' Markets</span><span class="chip">U-Picks</span>
+    <span class="chip">Roadside Stands</span><span class="chip">CSA Farms</span>
+    <span class="chip">Wineries</span><span class="chip">On-Farm Sales</span>
+    <span class="chip">Garden Centers</span><span class="chip">Agritourism</span>
+  </div>
+
+  <div class="card">
+    <h2>📲 Put it on your phone</h2>
+    <ol>
+      <li>Tap <b>Open the full map</b> above (on the phone you carry).</li>
+      <li>It opens in Google Maps — tap the <b>☆ Save / star</b> if prompted.</li>
+      <li>Find it anytime in the <b>Google Maps app → Saved → Maps</b>.</li>
+      <li>Your farm layer now sits right on top of your regular map — navigate straight to fresh food wherever you are.</li>
+    </ol>
+    <div style="text-align:center">
+      <a class="cta secondary" href="https://www.google.com/maps/d/viewer?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE"
+         target="_blank" rel="noopener" onclick="trackOpenMap('phone_section')">Add to my Google Maps →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>💚 Help it spread</h2>
+    <p style="margin:.2em 0;color:var(--muted)">The goal is to get as many Coloradans as possible eating local this summer. If you found this useful, text it to a friend, post it, or share it with your community. Every share helps a local grower.</p>
+  </div>
+
+  <footer>
+    Made with love for Colorado's growers · Summer 2026<br/>
+    Data: Colorado Proud Farm Fresh Directory
+  </footer>
+
+</div>
+</body>
+</html>
