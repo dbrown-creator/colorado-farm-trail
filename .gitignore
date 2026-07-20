@@ -11,3 +11,9 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Local working materials (kept on disk, not versioned)
+Farm Fresh Map/
+
+# Generated QA reports
+data-compiled/link_check_report.csv
