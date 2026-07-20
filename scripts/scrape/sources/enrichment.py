@@ -19,7 +19,9 @@ from ..normalize import clean_url, phone, yesno
 from ..schema import Market
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ENRICH_DIR = os.path.normpath(os.path.join(HERE, "..", "..", "..", "data", "enrichment"))
+REPO = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
+# PHASE 2 enrichment inputs (collected by the Sonnet subagents) live under source-data/phase2.
+ENRICH_DIR = os.path.join(REPO, "source-data", "phase2", "enrichment")
 RESULTS_DIR = os.path.join(ENRICH_DIR, "results")
 TARGETS = os.path.join(ENRICH_DIR, "targets.json")
 SOURCE = "official-site"

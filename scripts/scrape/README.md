@@ -1,7 +1,13 @@
-# Colorado farmers-market scraper
+# Colorado farmers-market scraper — PHASE 2 (in development, NOT live)
+
+> **This is Phase 2.** It does not touch the live Phase 1 product
+> (`data-compiled/farm_fresh_directory_mymaps.csv`, built by `scripts/fetch_farm_data.py`).
+> See [`../../PHASE2.md`](../../PHASE2.md) for the Phase 1 / Phase 2 boundary.
+> Outputs are isolated: compiled → `data-compiled/phase2/`, raw + enrichment →
+> `source-data/phase2/`. No cutover yet.
 
 Collects **all** Colorado farmers markets into the same 22-column schema the Farm
-Fresh pipeline emits (see `../../DATA.md`), so the output imports into the same
+Fresh pipeline emits (see `../../docs/DATA.md`), so the output imports into the same
 Google My Maps setup. Confidence rule: **a field is only filled when a source states
 it explicitly** — nothing is guessed. Every populated field records its source in a
 provenance column.
@@ -88,15 +94,15 @@ python scripts/scrape/build.py                    # no key: Colorado Proud + thi
 USDA_API_KEY=xxxx python scripts/scrape/build.py  # adds the rich statewide USDA pull
 ```
 
-Outputs (new files; Farm Fresh CSVs untouched):
-- `data/co_farmers_markets_all_mymaps.csv` — 22 columns, My Maps import-ready
-- `data/co_farmers_markets_all_raw.csv` — same + `Source` / `Geo Source` /
+Outputs (Phase 2, isolated; live Phase 1 Farm Fresh CSV untouched):
+- `data-compiled/phase2/co_farmers_markets_all_mymaps.csv` — 22 columns, My Maps import-ready
+- `source-data/phase2/co_farmers_markets_all_raw.csv` — same + `Source` / `Geo Source` /
   `Possible Dup Of` / `Provenance`
 
-Current build: **139 markets** (34 Colorado Proud only, 91 USDA only, 14 both);
-100% have address/city/county/zip/coordinates. `Possible Dup Of` flags ~12 name-stem
-pairs for human review (some are true duplicates, some are distinct seasonal editions —
-decide per pair; nothing is auto-merged).
+Enrichment inputs read from `source-data/phase2/enrichment/results/*.json` (folded at
+top priority). Latest full build: **149 markets** + official-site enrichment across 109
+of them (`Possible Dup Of` flags name-stem pairs for human review; nothing is
+auto-merged).
 
 ## Test
 
