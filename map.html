@@ -240,14 +240,23 @@
   // even if fitBounds races the flex layout before the container has a size.
   var map = L.map("map", { zoomControl:true, scrollWheelZoom:true, center:[39.0, -105.55], zoom:7 });
   window.__map = map; // debugging handle
+  var didFit = false;
   function fitCO(){
     map.invalidateSize();
     var s = map.getSize();
-    if(s.x > 0 && s.y > 0) map.fitBounds(CO_BOUNDS.pad(0.02)); // only fit once laid out
+    if(!didFit && s.x > 0 && s.y > 0){ // fit once the container actually has a size
+      map.fitBounds(CO_BOUNDS.pad(0.02));
+      didFit = true;
+    }
   }
   requestAnimationFrame(fitCO);
   window.addEventListener("load", fitCO);
   window.addEventListener("resize", function(){ map.invalidateSize(); });
+  // Robust against flex/iframe/lazy-load layout: re-measure whenever #map resizes
+  // (e.g. 0 -> real width when embedded in the homepage iframe).
+  if (window.ResizeObserver){
+    new ResizeObserver(function(){ fitCO(); }).observe(document.getElementById("map"));
+  }
 
   var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
   var tileUrl = dark
