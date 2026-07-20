@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Colorado Farm Trail — Summer 2026</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%8C%BD</text></svg>" />
-<meta name="description" content="A free map of 163 Colorado farms, farmers' markets, U-picks, roadside stands and wineries. Opens right in Google Maps on your phone." />
+<meta name="description" content="A free, filterable map of 163 Colorado farms, farmers' markets, U-picks, roadside stands and wineries. Eat local this summer." />
 
 <!-- Social share preview -->
 <meta property="og:title" content="Colorado Farm Trail — Summer 2026" />
-<meta property="og:description" content="163 Colorado farms, markets, U-picks & stands on one map. Opens in Google Maps on your phone. Eat local this summer!" />
+<meta property="og:description" content="163 Colorado farms, markets, U-picks & stands on one filterable map. Eat local this summer!" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://coloradofarmtrail.com/" />
 <meta property="og:image" content="https://coloradofarmtrail.com/og-image.png" />
@@ -19,10 +19,14 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://coloradofarmtrail.com/og-image.png" />
 
-<!-- ============================================================= -->
-<!-- GOOGLE ANALYTICS 4 — Measurement ID G-PC4YFC13N6                 -->
-<!-- (Admin → Data Streams → your stream → "Measurement ID")        -->
-<!-- ============================================================= -->
+<!-- Leaflet + MarkerCluster (CDN) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<!-- Google Analytics 4 — G-PC4YFC13N6 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC4YFC13N6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -30,66 +34,29 @@
   gtag('js', new Date());
   gtag('config', 'G-PC4YFC13N6');
 
-  // Fire a GA4 event whenever someone clicks through to the actual map.
-  // This is your "conversion" — how many visitors actually opened the map.
-  function trackOpenMap(where){
-    gtag('event', 'open_map', { placement: where });
-  }
+  function trackOpenMap(where){ gtag('event', 'open_map', { placement: where }); }
+  function trackShare(method){ gtag('event', 'share', { method: method }); }
 
-  // Route the hero button by device. The default href is the Google My Maps link,
-  // so phones and any no-JS visitor get the "save the whole farm layer into the
-  // Google Maps app" flow. On desktop we rewrite it to open the interactive
-  // Leaflet map instead (richer, filterable). Detection is deliberately
-  // conservative and always has the My Maps link as a safe fallback.
-  function isMobileDevice(){
-    return window.matchMedia('(pointer: coarse)').matches
-        && window.matchMedia('(max-width: 820px)').matches;
-  }
-  document.addEventListener('DOMContentLoaded', function(){
-    var cta = document.getElementById('mapCta');
-    if (cta && !isMobileDevice()){
-      cta.href = 'map.html';
-      cta.textContent = 'Open the interactive map →';
-      cta.setAttribute('onclick', "trackOpenMap('hero_leaflet')");
-    }
-  });
+  var SITE_URL = 'https://coloradofarmtrail.com/';
+  var SHARE_TEXT = 'Find your next farm stop. 163 Colorado farms, markets & U-picks on one map:';
 
-  // Fire a GA4 event whenever someone shares the site.
-  function trackShare(method){
-    gtag('event', 'share', { method: method });
-  }
-
-  // Share the site. Uses the phone's native share sheet when available,
-  // otherwise copies the link to the clipboard.
+  // Native share sheet when available, else copy to clipboard.
   function shareSite(){
-    var url = 'https://coloradofarmtrail.com/';
-    var text = 'Find your next farm stop. 163 Colorado farms, markets & U-picks on one map:';
     if (navigator.share){
-      navigator.share({ title: 'Colorado Farm Trail', text: text, url: url })
-        .then(function(){ trackShare('native'); })
-        .catch(function(){});
-    } else {
-      copyLink();
-    }
+      navigator.share({ title: 'Colorado Farm Trail', text: SHARE_TEXT, url: SITE_URL })
+        .then(function(){ trackShare('native'); }).catch(function(){});
+    } else { copyLink(); }
   }
-
-  // Copy the site link to the clipboard and flash a confirmation.
   function copyLink(){
-    var url = 'https://coloradofarmtrail.com/';
     var label = document.getElementById('copyLabel');
     function flash(){
       trackShare('copy_link');
-      if (label){
-        var prev = label.textContent;
-        label.textContent = 'Copied!';
-        setTimeout(function(){ label.textContent = prev; }, 1500);
-      }
+      if (label){ var p = label.textContent; label.textContent = 'Copied!';
+        setTimeout(function(){ label.textContent = p; }, 1500); }
     }
     if (navigator.clipboard && navigator.clipboard.writeText){
-      navigator.clipboard.writeText(url).then(flash).catch(flash);
-    } else {
-      flash();
-    }
+      navigator.clipboard.writeText(SITE_URL).then(flash).catch(flash);
+    } else { flash(); }
   }
 </script>
 
@@ -97,124 +64,545 @@
   :root{
     --bg:#f7f6f1; --card:#ffffff; --ink:#20301f; --muted:#5c6b57;
     --accent:#3f7d3a; --accent-ink:#ffffff; --line:#e3e0d5; --chip:#eef2e6;
+    --shadow:0 10px 40px rgba(0,0,0,.16);
+    --glass:rgba(255,255,255,.74); --glass-2:rgba(255,255,255,.55); --glass-line:rgba(255,255,255,.6);
+    --side-w:360px;
   }
   @media (prefers-color-scheme: dark){
     :root{ --bg:#141712; --card:#1d221a; --ink:#e9ecdf; --muted:#a6b09b;
-           --accent:#7bb56f; --accent-ink:#0f1410; --line:#2c3327; --chip:#252c1f; }
+           --accent:#7bb56f; --accent-ink:#0f1410; --line:#2c3327; --chip:#252c1f;
+           --shadow:0 10px 40px rgba(0,0,0,.5);
+           --glass:rgba(24,28,21,.74); --glass-2:rgba(24,28,21,.5); --glass-line:rgba(255,255,255,.09); }
   }
   *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
+  html,body{margin:0;padding:0;height:100%}
   body{
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    background:var(--bg); color:var(--ink); line-height:1.5;
-    -webkit-font-smoothing:antialiased;
+    background:var(--bg); color:var(--ink); line-height:1.45;
+    -webkit-font-smoothing:antialiased; overflow:hidden;
   }
-  .wrap{max-width:900px;margin:0 auto;padding:20px 18px 64px}
-  header{text-align:center;padding:14px 0 8px}
-  h1{font-size:clamp(1.6rem,5vw,2.4rem);margin:.2em 0;letter-spacing:-.01em}
-  .tagline{font-size:clamp(1.1rem,3.2vw,1.4rem);font-weight:600;margin:.1em 0 .4em;letter-spacing:-.01em}
-  .tag{color:var(--muted);font-size:1.02rem;max-width:38ch;margin:0 auto}
-  .cta{
-    display:inline-block;margin:18px 6px 6px;padding:14px 22px;border-radius:999px;
-    background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:700;
-    font-size:1.05rem;box-shadow:0 2px 10px rgba(0,0,0,.12);
+
+  /* ---- Full-bleed map ---- */
+  #map{ position:fixed; inset:0; z-index:0; background:var(--bg); }
+  .scrim-top{ position:fixed; left:0; right:0; top:0; height:42vh; z-index:1; pointer-events:none;
+    background:linear-gradient(180deg, rgba(255,255,255,.55), transparent); transition:opacity .4s ease; }
+  @media (prefers-color-scheme: dark){ .scrim-top{ background:linear-gradient(180deg, rgba(0,0,0,.42), transparent) } }
+  body.exploring .scrim-top{ opacity:0; }
+
+  /* ---- Shared primitives ---- */
+  .glass{ background:var(--glass); backdrop-filter:blur(14px) saturate(1.1);
+    -webkit-backdrop-filter:blur(14px) saturate(1.1); border:1px solid var(--glass-line); box-shadow:var(--shadow); }
+  .brand{ display:flex; align-items:center; gap:9px; font-weight:800; letter-spacing:-.02em; }
+  .btn{ display:inline-flex; align-items:center; gap:7px; cursor:pointer; border:0; font:inherit;
+    font-weight:700; padding:12px 20px; border-radius:999px; text-decoration:none; color:var(--ink); }
+  .btn-primary{ background:var(--accent); color:var(--accent-ink); box-shadow:0 2px 12px rgba(0,0,0,.18); }
+  .btn-glass{ background:var(--glass); color:var(--ink); border:1px solid var(--glass-line); }
+  .chip{ display:inline-flex; align-items:center; gap:6px; cursor:pointer; user-select:none; white-space:nowrap;
+    padding:7px 12px; border-radius:999px; font-size:.84rem; font-weight:600;
+    background:transparent; border:1px solid transparent; color:var(--ink); }
+  .chip.on{ background:var(--accent); color:var(--accent-ink); }
+
+  /* ---- Landing hero ---- */
+  .hero{ position:fixed; z-index:8; top:0; left:0; right:0; padding:38px 30px 0;
+    transition:opacity .45s ease, transform .45s ease; }
+  .hero h1{ font-size:clamp(2.4rem,7vw,4.6rem); line-height:.98; letter-spacing:-.03em;
+    margin:.06em 0 .1em; max-width:12ch; text-shadow:0 1px 20px rgba(255,255,255,.4); }
+  .hero h1 .mark{ font-size:.72em; margin-right:.04em; }
+  @media (prefers-color-scheme: dark){ .hero h1{ text-shadow:0 1px 24px rgba(0,0,0,.55) } }
+  .hero p.tag{ font-size:clamp(1rem,2.4vw,1.35rem); font-weight:600; color:var(--muted); margin:0 0 20px; }
+  .hero .cta-row{ display:flex; gap:10px; flex-wrap:wrap; }
+  body.exploring .hero{ opacity:0; transform:translateY(-22px); pointer-events:none; }
+
+  /* ---- Type pill bar (single-select), explore only ---- */
+  .typebar-wrap{ position:fixed; z-index:8; top:18px; left:var(--side-w); right:0; display:flex; justify-content:center;
+    padding:0 16px; opacity:0; transform:translateY(-14px); pointer-events:none;
+    transition:opacity .4s ease .1s, transform .4s ease .1s; }
+  body.exploring .typebar-wrap{ opacity:1; transform:translateY(0); pointer-events:auto; }
+  .typebar{ display:flex; gap:6px; padding:7px; border-radius:999px; max-width:100%; overflow-x:auto; }
+  .typebar::-webkit-scrollbar{ display:none }
+
+  /* ---- Sidebar (explore) ---- */
+  .sidebar{ position:fixed; z-index:9; top:0; left:0; bottom:0; width:var(--side-w); max-width:86vw;
+    padding:20px 22px 22px; overflow-y:auto; border-radius:0 22px 22px 0; display:flex; flex-direction:column; gap:15px;
+    transform:translateX(-104%); transition:transform .45s cubic-bezier(.2,.8,.2,1); }
+  body.exploring .sidebar{ transform:translateX(0); }
+  .sidebar .head{ display:flex; align-items:center; gap:10px; }
+  .sidebar .brand{ font-size:1.12rem; flex:1; }
+  .icon-btn{ flex:0 0 auto; width:34px; height:34px; border-radius:10px; cursor:pointer; font:inherit;
+    display:flex; align-items:center; justify-content:center; font-size:1rem;
+    background:var(--glass-2); border:1px solid var(--glass-line); color:var(--ink); }
+  .grouplabel{ font-size:.7rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); font-weight:700; }
+  .search input, .county-search input{ width:100%; padding:10px 12px 10px 34px; border:1px solid var(--glass-line);
+    border-radius:11px; background:var(--glass-2); color:var(--ink); font:inherit; font-size:.92rem; }
+  .search, .county-search{ position:relative; }
+  .search::before, .county-search::before{ content:"🔍"; position:absolute; left:11px; top:50%;
+    transform:translateY(-50%); font-size:.8rem; opacity:.7; }
+  .search input:focus, .county-search input:focus{ outline:none; border-color:var(--accent); }
+  .county-search{ margin-top:10px; }
+  .county-selected{ display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  .county-tag{ display:inline-flex; align-items:center; gap:6px; padding:5px 6px 5px 11px; border-radius:999px;
+    background:var(--accent); color:var(--accent-ink); font-size:.82rem; font-weight:600; }
+  .county-tag button{ border:0; background:transparent; color:inherit; cursor:pointer; font-size:1rem;
+    line-height:1; padding:0 2px; opacity:.85; }
+  .county-tag button:hover{ opacity:1; }
+  /* Hidden until the user types in the county search (avoids a 36-item wall on load). */
+  .county-list{ margin-top:8px; max-height:190px; overflow-y:auto; display:none; flex-direction:column; gap:1px;
+    border:1px solid var(--glass-line); border-radius:12px; padding:8px 12px; background:var(--glass-2); }
+  .county-list.show{ display:flex; }
+  .county-list label{ display:flex; align-items:center; gap:9px; font-size:.9rem; padding:4px 0; cursor:pointer; }
+  .county-list label.hide{ display:none; }
+  .county-list input{ width:16px; height:16px; accent-color:var(--accent); }
+  .toggles{ display:flex; flex-direction:column; gap:9px; font-size:.92rem; margin-top:10px; }
+  .toggles label{ display:flex; align-items:center; gap:9px; cursor:pointer; }
+  .toggles input{ width:17px; height:17px; accent-color:var(--accent); }
+  .reset{ width:100%; padding:10px; border-radius:11px; border:1px solid var(--glass-line);
+    background:transparent; color:var(--muted); font:inherit; font-weight:600; cursor:pointer; }
+  .reset:hover{ border-color:var(--accent); color:var(--accent); }
+  .sidebar-foot{ margin-top:auto; display:flex; gap:8px; padding-top:6px; }
+  .sidebar-foot .btn{ flex:1; justify-content:center; padding:10px; font-size:.88rem; }
+
+  /* ---- Floating chrome ---- */
+  .map-credit{ position:fixed; z-index:8; left:12px; bottom:10px; padding:5px 12px; border-radius:999px;
+    font-size:.76rem; font-weight:600; color:var(--ink); text-decoration:none; transition:left .35s ease;
+    background:var(--glass); border:1px solid var(--glass-line); backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px); box-shadow:0 2px 10px rgba(0,0,0,.12); }
+  .map-credit:hover{ color:var(--accent); }
+  body.exploring .map-credit{ left:calc(var(--side-w) + 12px); }
+  .countpill{ position:fixed; z-index:8; left:calc(var(--side-w) + (100vw - var(--side-w))/2); transform:translateX(-50%);
+    bottom:20px; padding:8px 16px; border-radius:999px; font-size:.85rem; font-weight:600;
+    opacity:0; pointer-events:none; transition:opacity .4s ease .15s; }
+  body.exploring .countpill{ opacity:1; }
+  .countpill b{ color:var(--accent); }
+
+  /* ---- About & Share sheet ---- */
+  .sheet-overlay{ position:fixed; inset:0; z-index:40; display:none; align-items:center; justify-content:center;
+    padding:18px; background:rgba(0,0,0,.4); }
+  .sheet-overlay.open{ display:flex; }
+  .sheet{ width:min(460px,100%); max-height:88vh; overflow-y:auto; border-radius:20px; padding:22px 24px 24px;
+    background:var(--card); border:1px solid var(--line); box-shadow:var(--shadow); position:relative; }
+  .sheet h2{ font-size:1.12rem; margin:.4em 0 .3em; }
+  .sheet h2:first-of-type{ margin-top:0; }
+  .sheet ol{ margin:.3em 0 .8em; padding-left:1.2em; color:var(--ink); font-size:.94rem; }
+  .sheet ol li{ margin:.35em 0; }
+  .sheet p{ color:var(--muted); font-size:.94rem; margin:.2em 0 .8em; }
+  .sheet .btn-primary{ width:100%; justify-content:center; }
+  .sheet-close{ position:absolute; top:12px; right:12px; width:32px; height:32px; border-radius:50%; cursor:pointer;
+    border:0; background:var(--chip); color:var(--muted); font-size:1rem; }
+  .share-primary{ display:flex; align-items:center; justify-content:center; gap:8px; width:100%; margin-top:4px;
+    padding:13px; border-radius:999px; background:var(--accent); color:var(--accent-ink); font-weight:700;
+    font:inherit; font-weight:700; border:0; cursor:pointer; }
+  .share-row{ display:flex; gap:10px; margin-top:10px; }
+  .share-alt{ flex:1; display:flex; align-items:center; justify-content:center; gap:7px; padding:12px; border-radius:999px;
+    background:transparent; border:2px solid var(--accent); color:var(--accent); font-weight:700; font:inherit;
+    font-weight:700; font-size:.95rem; text-decoration:none; cursor:pointer; }
+  .hr{ height:1px; background:var(--line); margin:18px 0; border:0; }
+
+  /* ---- Marker pins ---- */
+  .pin{ width:30px; height:30px; border-radius:50% 50% 50% 0; transform:rotate(-45deg);
+    border:2px solid rgba(255,255,255,.9); box-shadow:0 2px 5px rgba(0,0,0,.35);
+    display:flex; align-items:center; justify-content:center; }
+  .pin span{ transform:rotate(45deg); font-size:14px; line-height:1; }
+  @media (prefers-color-scheme: dark){ .pin{ border-color:rgba(0,0,0,.35) } }
+
+  /* ---- Popup (theme-aware) ---- */
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip{ background:var(--card); color:var(--ink); }
+  .leaflet-popup-content-wrapper{ border-radius:14px; box-shadow:var(--shadow); }
+  .leaflet-popup-content{ margin:14px 16px; line-height:1.4; color:var(--ink); }
+  .leaflet-container a.leaflet-popup-close-button{ color:var(--muted); }
+  .pop h3{ margin:0 0 2px; font-size:1.05rem; letter-spacing:-.01em; color:var(--ink); }
+  .pop .cat{ display:inline-block; font-size:.72rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.05em; color:var(--accent); margin-bottom:8px; }
+  .pop .row{ margin:4px 0; font-size:.86rem; color:var(--ink); display:flex; gap:6px; }
+  .pop .row .ic{ opacity:.7; flex:0 0 16px; }
+  .pop .flags{ margin:8px 0 2px; display:flex; flex-wrap:wrap; gap:5px; }
+  .pop .flag{ font-size:.7rem; font-weight:700; padding:2px 8px; border-radius:999px; background:var(--chip); color:var(--muted); }
+  .pop a{ color:var(--accent); }
+  .pop .dir{ display:inline-flex; align-items:center; gap:6px; margin-top:11px; padding:9px 15px; border-radius:999px;
+    background:var(--accent); color:var(--accent-ink); text-decoration:none; font-weight:700; font-size:.88rem; }
+  .pop .links{ margin-top:9px; display:flex; flex-wrap:wrap; gap:12px; font-size:.85rem; font-weight:600; }
+
+  /* ---- Mobile ---- */
+  .sheet-handle{ display:none; }
+  @media (max-width:760px){
+    :root{ --side-w:0px; }
+    .hero{ padding:26px 18px 0; }
+    .typebar-wrap{ left:0; top:14px; }
+    .sidebar{ top:auto; left:0; right:0; bottom:0; width:100%; max-width:100%; height:auto; max-height:82vh;
+      border-radius:20px 20px 0 0; padding-top:6px; transform:translateY(100%); }
+    body.exploring .sidebar{ transform:translateY(calc(100% - 62px)); }   /* peek */
+    body.exploring .sidebar.expanded{ transform:translateY(0); }
+    .sheet-handle{ display:flex; align-items:center; justify-content:center; gap:8px; height:50px; cursor:pointer;
+      font-weight:700; position:relative; margin:-6px -22px 4px; }
+    .sheet-handle .grip{ position:absolute; top:7px; left:50%; transform:translateX(-50%);
+      width:38px; height:4px; border-radius:2px; background:var(--line); }
+    .sheet-handle .badge{ background:var(--accent); color:var(--accent-ink); border-radius:999px; padding:1px 9px; font-size:.82rem; }
+    .countpill{ display:none; }
+    body.exploring .map-credit{ display:none; left:12px; }
   }
-  .cta.secondary{background:transparent;color:var(--accent);border:2px solid var(--accent);box-shadow:none}
-  .share{border:0;cursor:pointer;font-family:inherit}
-  .share-primary{
-    display:flex;align-items:center;justify-content:center;gap:8px;
-    width:fit-content;margin:14px auto 0;padding:14px 28px;border-radius:999px;
-    background:var(--accent);color:var(--accent-ink);font-weight:700;
-    font-size:1.05rem;box-shadow:0 2px 10px rgba(0,0,0,.12);
-  }
-  .share-row{display:flex;gap:10px;margin:10px auto 0;max-width:420px}
-  .share-alt{
-    flex:1;display:flex;align-items:center;justify-content:center;gap:7px;
-    padding:12px;border-radius:999px;background:transparent;
-    border:2px solid var(--accent);color:var(--accent);font-weight:700;
-    font-size:.98rem;text-decoration:none;
-  }
-  .mapcard{
-    margin:22px 0;border:1px solid var(--line);border-radius:16px;overflow:hidden;
-    background:var(--card);box-shadow:0 4px 20px rgba(0,0,0,.06);
-  }
-  .mapcard iframe{display:block;width:100%;height:70vh;min-height:420px;border:0}
-  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:8px 0 4px}
-  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
-  .stat b{display:block;font-size:1.5rem;color:var(--accent)}
-  .stat span{color:var(--muted);font-size:.9rem}
-  @media (max-width:520px){
-    .grid{display:flex;flex-wrap:wrap;justify-content:center}
-    .stat{flex:0 1 calc(50% - 7px)}
-  }
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:16px 0}
-  .card h2{margin:.1em 0 .4em;font-size:1.15rem}
-  ol{margin:.3em 0;padding-left:1.2em}
-  ol li{margin:.35em 0}
-  .chips{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;justify-content:center;align-items:center}
-  .chips-label{display:block;text-align:center;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;margin-top:14px}
-  .chip{color:var(--muted);font-size:.9rem;position:relative}
-  .chip:not(:last-child)::after{content:"·";position:absolute;right:-9px;color:var(--line)}
-  footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:28px}
-  a{color:var(--accent)}
 </style>
 </head>
 <body>
-<div class="wrap">
 
-  <header>
-    <h1>🌽 Colorado Farm Trail</h1>
-    <p class="tagline">Find your next farm stop.</p>
-    <p class="tag">163 local farms, farmers' markets, U-picks, roadside stands &amp; wineries — all on one map. Eat local all summer.</p>
-    <a id="mapCta" class="cta" href="https://www.google.com/maps/d/viewer?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE"
-       target="_blank" rel="noopener" onclick="trackOpenMap('hero')">Open in Google Maps →</a>
+  <div id="map"></div>
+  <div class="scrim-top"></div>
+
+  <!-- LANDING -->
+  <header class="hero" id="hero">
+    <h1><span class="mark">🌽</span> Colorado Farm Trail</h1>
+    <p class="tag">Find your next farm stop.</p>
+    <div class="cta-row">
+      <button class="btn btn-primary" id="exploreBtn">Explore the map →</button>
+      <button class="btn btn-glass" id="phoneHero">📲 Put it on your phone</button>
+      <button class="btn btn-glass" id="helpHero">💚 Help it spread</button>
+    </div>
   </header>
 
-  <div class="grid">
-    <div class="stat"><b>47</b><span>farmers' markets</span></div>
-    <div class="stat"><b>36</b><span>counties</span></div>
-    <div class="stat"><b>59</b><span>farms</span></div>
-    <div class="stat"><b>39</b><span>offer activities</span></div>
+  <!-- Type filter (single-select) -->
+  <div class="typebar-wrap">
+    <div class="typebar glass" id="typebar" data-single-select></div>
   </div>
 
-  <div class="mapcard">
-    <iframe src="map.html" loading="lazy" title="Colorado Farm Trail — interactive map"></iframe>
-  </div>
+  <!-- Sidebar -->
+  <aside class="sidebar glass" id="sidebar">
+    <div class="sheet-handle" id="sheetHandle">
+      <span class="grip"></span>
+      🔎 Filters <span class="badge"><span id="showingM">163</span> shown</span>
+    </div>
+    <div class="head">
+      <button class="icon-btn" id="backBtn" title="Back to intro">←</button>
+      <div class="brand"><span>🌽</span> Colorado Farm Trail</div>
+    </div>
 
-  <span class="chips-label">What you'll find on the map</span>
-  <div class="chips">
-    <span class="chip">Farmers' Markets</span><span class="chip">U-Picks</span>
-    <span class="chip">Roadside Stands</span><span class="chip">CSA Farms</span>
-    <span class="chip">Wineries</span><span class="chip">On-Farm Sales</span>
-    <span class="chip">Garden Centers</span><span class="chip">Agritourism</span>
-  </div>
+    <div class="search">
+      <input type="search" id="q" placeholder="Search a farm, town or product…" autocomplete="off" />
+    </div>
 
-  <div class="card">
-    <h2>📲 Put it on your phone</h2>
-    <ol>
-      <li>Tap <b>Open in Google Maps</b> above (on the phone you carry).</li>
-      <li>It opens in Google Maps — tap the <b>☆ Save / star</b> if prompted.</li>
-      <li>Find it anytime in the <b>Google Maps app → Saved → Maps</b>.</li>
-      <li>Your farm layer now sits right on top of your regular map — navigate straight to fresh food wherever you are.</li>
-    </ol>
-  </div>
+    <div>
+      <div class="grouplabel">County</div>
+      <div class="county-search"><input type="search" id="countyFilter" placeholder="Type to find a county…" autocomplete="off" /></div>
+      <div class="county-selected" id="countySelected"></div>
+      <div class="county-list" id="countyList"></div>
+    </div>
 
-  <div class="card">
-    <h2>💚 Help it spread</h2>
-    <p style="margin:.2em 0 4px;color:var(--muted)">The goal is to get as many Coloradans as possible eating local this summer. If you found this useful, text it to a friend, post it, or share it with your community. Every share helps a local grower.</p>
-    <button type="button" class="share share-primary" onclick="shareSite()">📤 Share this map</button>
-    <div class="share-row">
-      <a class="share-alt" href="sms:?&body=Find your next farm stop. 163 Colorado farms, markets %26 U-picks on one map: https://coloradofarmtrail.com/"
-         onclick="trackShare('sms')">💬 Text a friend</a>
-      <button type="button" class="share share-alt" onclick="copyLink()">🔗 <span id="copyLabel">Copy link</span></button>
+    <div>
+      <div class="grouplabel">Filters</div>
+      <div class="toggles">
+        <label><input type="checkbox" id="fOpen" /> Open this month (<span id="monthName"></span>)</label>
+        <label><input type="checkbox" id="fSnap" /> Accepts SNAP / EBT</label>
+        <label><input type="checkbox" id="fAda" /> ADA accessible</label>
+        <label><input type="checkbox" id="fOrg" /> Certified organic</label>
+      </div>
+    </div>
+
+    <button class="reset" id="reset">Reset filters</button>
+
+    <div class="sidebar-foot">
+      <button class="btn btn-glass" id="phoneFoot">📲 On your phone</button>
+      <button class="btn btn-glass" id="helpFoot">💚 Help it spread</button>
+    </div>
+  </aside>
+
+  <!-- Floating chrome -->
+  <a class="map-credit" href="credits.html">🙏 Data &amp; credits</a>
+  <div class="countpill glass"><b id="showing">163</b> of <span id="total">163</span> stops shown</div>
+
+  <!-- Popups (each opens on its own) -->
+  <div class="sheet-overlay" id="sheetOverlay">
+    <div class="sheet">
+      <button class="sheet-close" id="sheetClose" title="Close">✕</button>
+
+      <section id="sec-phone">
+        <h2>📲 Put it on your phone</h2>
+        <ol>
+          <li>Tap <b>Open in Google Maps</b> below (on the phone you carry).</li>
+          <li>It opens in Google Maps — tap the <b>☆ Save / star</b> if prompted.</li>
+          <li>Find it anytime in the <b>Google Maps app → Saved → Maps</b>.</li>
+          <li>Your farm layer now sits on top of your regular map — navigate straight to fresh food anywhere.</li>
+        </ol>
+        <a class="btn btn-primary" href="https://www.google.com/maps/d/viewer?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE"
+           target="_blank" rel="noopener" onclick="trackOpenMap('mymaps_save')">Open in Google Maps →</a>
+      </section>
+
+      <section id="sec-share">
+        <h2>💚 Help it spread</h2>
+        <p>The goal is to get as many Coloradans as possible eating local this summer. If this is useful,
+           text it to a friend, post it, or share it with your community — every share helps a local grower.</p>
+        <button type="button" class="share-primary" onclick="shareSite()">📤 Share this map</button>
+        <div class="share-row">
+          <a class="share-alt" href="sms:?&body=Find your next farm stop. 163 Colorado farms, markets %26 U-picks on one map: https://coloradofarmtrail.com/"
+             onclick="trackShare('sms')">💬 Text a friend</a>
+          <button type="button" class="share-alt" onclick="copyLink()">🔗 <span id="copyLabel">Copy link</span></button>
+        </div>
+      </section>
     </div>
   </div>
 
-  <footer>
-    Made with love for Colorado's growers · Summer 2026<br/>
-    Data: Colorado Proud Farm Fresh Directory
-  </footer>
+<script>
+(function(){
+  "use strict";
 
-</div>
+  // ---- Category styling: color + emoji + short label ----
+  var CATS = {
+    "Farmers' Market":            { color:"#3f7d3a", emoji:"🧺", short:"Markets" },
+    "CSA Farm":                   { color:"#c77d24", emoji:"🚜", short:"CSA" },
+    "On-Farm / Ranch Sales":      { color:"#8a6d3b", emoji:"🐄", short:"On-Farm" },
+    "Roadside Market":            { color:"#d94f4f", emoji:"🛻", short:"Stands" },
+    "U-Pick":                     { color:"#c2417a", emoji:"🍓", short:"U-Pick" },
+    "Winery":                     { color:"#7a4fb0", emoji:"🍷", short:"Wineries" },
+    "Garden Center / Greenhouse": { color:"#4a9d5b", emoji:"🌱", short:"Garden" },
+    "Agritourism":                { color:"#2f8f8f", emoji:"🌻", short:"Agritourism" },
+    "Restaurant":                 { color:"#5a6b8c", emoji:"🍽️", short:"Dining" },
+    "Other":                      { color:"#7c7c7c", emoji:"📍", short:"Other" }
+  };
+  var TYPE_ORDER = Object.keys(CATS);
+  function catStyle(c){ return CATS[c] || CATS["Other"]; }
+  function catKeyOf(m){ return CATS[m.category] ? m.category : "Other"; }
+
+  var MONTHS = ["January","February","March","April","May","June","July",
+                "August","September","October","November","December"];
+  var THIS_MONTH = MONTHS[new Date().getMonth()];
+
+  // ---- Map + basemap ----
+  var CO_BOUNDS = L.latLngBounds([36.9, -109.06], [41.01, -102.04]);
+  var map = L.map("map", { zoomControl:true, scrollWheelZoom:true, center:[39.0,-105.55], zoom:7 });
+  window.__map = map;
+  var didFit = false;
+  function fitCO(){
+    map.invalidateSize();
+    var s = map.getSize();
+    if(!didFit && s.x > 0 && s.y > 0){ map.fitBounds(CO_BOUNDS.pad(0.02)); didFit = true; }
+  }
+  requestAnimationFrame(fitCO);
+  window.addEventListener("load", fitCO);
+  window.addEventListener("resize", function(){ map.invalidateSize(); });
+  if (window.ResizeObserver){ new ResizeObserver(function(){ fitCO(); }).observe(document.getElementById("map")); }
+
+  var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  L.tileLayer(dark
+      ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+      : "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+    { subdomains:"abcd", maxZoom:19,
+      attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>' }
+  ).addTo(map);
+
+  var cluster = L.markerClusterGroup({
+    maxClusterRadius:30, disableClusteringAtZoom:10, spiderfyOnMaxZoom:true, showCoverageOnHover:false
+  });
+  map.addLayer(cluster);
+
+  // ---- State ----
+  var ALL = [];
+  var activeType = null;              // null = All; else a category key (single-select)
+  var selectedCounties = {};          // multi-select set; empty = all
+  var els = {
+    q: document.getElementById("q"),
+    countyFilter: document.getElementById("countyFilter"),
+    countyList: document.getElementById("countyList"),
+    typebar: document.getElementById("typebar"),
+    fOpen: document.getElementById("fOpen"), fSnap: document.getElementById("fSnap"),
+    fAda: document.getElementById("fAda"), fOrg: document.getElementById("fOrg"),
+    showing: document.getElementById("showing"), showingM: document.getElementById("showingM"),
+    total: document.getElementById("total")
+  };
+  document.getElementById("monthName").textContent = THIS_MONTH;
+
+  function esc(s){
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+  function makeIcon(cat){
+    var st = catStyle(cat);
+    return L.divIcon({ className:"",
+      html:'<div class="pin" style="background:'+st.color+'"><span>'+st.emoji+'</span></div>',
+      iconSize:[30,30], iconAnchor:[15,28], popupAnchor:[0,-27] });
+  }
+  function popupHtml(m){
+    var st = catStyle(m.category);
+    var h = '<div class="pop"><h3>'+esc(m.name)+'</h3>';
+    h += '<span class="cat" style="color:'+st.color+'">'+st.emoji+' '+esc(m.category)+'</span>';
+    var addr = [m.address, m.city].filter(Boolean).join(", ");
+    if(addr) h += '<div class="row"><span class="ic">📍</span><span>'+esc(addr)+(m.county?', '+esc(m.county)+' County':'')+'</span></div>';
+    if(m.hours) h += '<div class="row"><span class="ic">🕒</span><span>'+esc(m.hours)+'</span></div>';
+    if(m.monthsOpen && m.monthsOpen.length) h += '<div class="row"><span class="ic">📅</span><span>'+esc(m.monthsOpen.join(", "))+'</span></div>';
+    if(m.phone) h += '<div class="row"><span class="ic">📞</span><a href="tel:'+esc(m.phone.replace(/[^0-9+]/g,""))+'">'+esc(m.phone)+'</a>'+(m.callFirst?' <em>(call first)</em>':'')+'</div>';
+    var flags = [];
+    if(m.snap) flags.push("SNAP/EBT");
+    if(m.ada) flags.push("♿ ADA");
+    if(m.organic) flags.push("🌿 Organic");
+    if(flags.length){ h += '<div class="flags">'; flags.forEach(function(f){ h += '<span class="flag">'+esc(f)+'</span>'; }); h += '</div>'; }
+    var links = [];
+    if(m.website) links.push('<a href="'+esc(m.website)+'" target="_blank" rel="noopener">Website ↗</a>');
+    if(m.facebook) links.push('<a href="'+esc(m.facebook)+'" target="_blank" rel="noopener">Facebook</a>');
+    if(m.instagram) links.push('<a href="'+esc(m.instagram)+'" target="_blank" rel="noopener">Instagram</a>');
+    if(links.length) h += '<div class="links">'+links.join("")+'</div>';
+    h += '<a class="dir" href="https://www.google.com/maps/dir/?api=1&destination='+m.lat+','+m.lng+'" target="_blank" rel="noopener">🧭 Directions</a></div>';
+    return h;
+  }
+
+  // ---- Type pill bar (single-select) ----
+  function buildTypeBar(){
+    var all = document.createElement("span");
+    all.className = "chip on"; all.textContent = "All"; all.dataset.type = "";
+    els.typebar.appendChild(all);
+    TYPE_ORDER.forEach(function(cat){
+      var st = CATS[cat];
+      var chip = document.createElement("span");
+      chip.className = "chip"; chip.dataset.type = cat;
+      chip.textContent = st.emoji + " " + st.short;
+      els.typebar.appendChild(chip);
+    });
+    els.typebar.querySelectorAll(".chip").forEach(function(chip){
+      chip.addEventListener("click", function(){
+        els.typebar.querySelectorAll(".chip").forEach(function(x){ x.classList.remove("on"); });
+        chip.classList.add("on");
+        activeType = chip.dataset.type || null;
+        apply();
+      });
+    });
+  }
+
+  // ---- County multi-select ----
+  function buildCounties(){
+    var set = {};
+    ALL.forEach(function(m){ if(m.county) set[m.county] = true; });
+    Object.keys(set).sort().forEach(function(c){
+      var id = "cty_" + c.replace(/\W+/g,"_");
+      var label = document.createElement("label");
+      label.dataset.county = c.toLowerCase();
+      label.innerHTML = '<input type="checkbox" value="'+esc(c)+'" id="'+id+'"> '+esc(c);
+      label.querySelector("input").addEventListener("change", function(e){
+        if(e.target.checked) selectedCounties[c] = true; else delete selectedCounties[c];
+        renderSelectedCounties();
+        apply();
+      });
+      els.countyList.appendChild(label);
+    });
+  }
+  // Show the checkbox list only while the user is typing; keep matches filtered.
+  function filterCountyList(){
+    var q = els.countyFilter.value.trim().toLowerCase();
+    if(!q){ els.countyList.classList.remove("show"); return; }
+    els.countyList.classList.add("show");
+    els.countyList.querySelectorAll("label").forEach(function(l){
+      l.classList.toggle("hide", l.dataset.county.indexOf(q) === -1);
+    });
+  }
+  // Chosen counties persist as removable chips even when the list is collapsed.
+  function renderSelectedCounties(){
+    var box = document.getElementById("countySelected");
+    box.innerHTML = "";
+    Object.keys(selectedCounties).sort().forEach(function(c){
+      var tag = document.createElement("span");
+      tag.className = "county-tag";
+      tag.appendChild(document.createTextNode(c));
+      var x = document.createElement("button");
+      x.type = "button"; x.title = "Remove " + c; x.textContent = "×";
+      x.addEventListener("click", function(){
+        delete selectedCounties[c];
+        var cb = els.countyList.querySelector('input[value="' + c.replace(/"/g,'\\"') + '"]');
+        if(cb) cb.checked = false;
+        renderSelectedCounties();
+        apply();
+      });
+      tag.appendChild(x);
+      box.appendChild(tag);
+    });
+  }
+
+  // ---- Filtering ----
+  function passes(m){
+    if(activeType && catKeyOf(m) !== activeType) return false;
+    var cKeys = Object.keys(selectedCounties);
+    if(cKeys.length && !selectedCounties[m.county]) return false;
+    if(els.fSnap.checked && !m.snap) return false;
+    if(els.fAda.checked && !m.ada) return false;
+    if(els.fOrg.checked && !m.organic) return false;
+    if(els.fOpen.checked && !(m.monthsOpen || []).includes(THIS_MONTH)) return false;
+    var q = els.q.value.trim().toLowerCase();
+    if(q){
+      var hay = (m.name+" "+(m.city||"")+" "+(m.products||[]).join(" ")).toLowerCase();
+      if(hay.indexOf(q) === -1) return false;
+    }
+    return true;
+  }
+  function apply(){
+    cluster.clearLayers();
+    var shown = 0, layers = [];
+    ALL.forEach(function(m){ if(passes(m)){ layers.push(m._marker); shown++; } });
+    cluster.addLayers(layers);
+    els.showing.textContent = shown; els.showingM.textContent = shown;
+  }
+
+  // ---- Overlay wiring (landing/explore, sheet, filters) ----
+  var body = document.body;
+  function openSheet(which){
+    ["phone","share"].forEach(function(k){
+      var sec = document.getElementById("sec-"+k);
+      if(sec) sec.style.display = (k === which) ? "block" : "none";
+    });
+    document.getElementById("sheetOverlay").classList.add("open");
+  }
+  function closeSheet(){ document.getElementById("sheetOverlay").classList.remove("open"); }
+
+  function wire(){
+    els.q.addEventListener("input", apply);
+    els.countyFilter.addEventListener("input", filterCountyList);
+    [els.fOpen, els.fSnap, els.fAda, els.fOrg].forEach(function(x){ x.addEventListener("change", apply); });
+
+    document.getElementById("exploreBtn").addEventListener("click", function(){ body.classList.add("exploring"); trackOpenMap('explore'); });
+    document.getElementById("backBtn").addEventListener("click", function(){ body.classList.remove("exploring"); });
+
+    document.getElementById("reset").addEventListener("click", function(){
+      els.q.value = ""; els.countyFilter.value = ""; filterCountyList();
+      els.fOpen.checked = els.fSnap.checked = els.fAda.checked = els.fOrg.checked = false;
+      selectedCounties = {};
+      els.countyList.querySelectorAll("input").forEach(function(i){ i.checked = false; });
+      renderSelectedCounties();
+      activeType = null;
+      els.typebar.querySelectorAll(".chip").forEach(function(c){ c.classList.toggle("on", c.dataset.type === ""); });
+      apply();
+    });
+
+    // Separate popups: "Put it on your phone" and "Help it spread" each open on their own.
+    ["phoneHero","phoneFoot"].forEach(function(id){
+      var el = document.getElementById(id); if(el) el.addEventListener("click", function(){ openSheet("phone"); });
+    });
+    ["helpHero","helpFoot"].forEach(function(id){
+      var el = document.getElementById(id); if(el) el.addEventListener("click", function(){ openSheet("share"); });
+    });
+    document.getElementById("sheetClose").addEventListener("click", closeSheet);
+    document.getElementById("sheetOverlay").addEventListener("click", function(e){ if(e.target === this) closeSheet(); });
+    document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeSheet(); });
+
+    // Mobile bottom-sheet expand/collapse
+    document.getElementById("sheetHandle").addEventListener("click", function(){
+      document.getElementById("sidebar").classList.toggle("expanded");
+    });
+  }
+
+  // ---- Load ----
+  fetch("./data/markets.json")
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(data){
+      ALL = data;
+      els.total.textContent = data.length;
+      data.forEach(function(m){
+        m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m.category) })
+                     .bindPopup(popupHtml(m), { maxWidth:300, minWidth:230 });
+      });
+      buildTypeBar();
+      buildCounties();
+      wire();
+      apply();
+      fitCO();
+    })
+    .catch(function(err){
+      document.getElementById("map").innerHTML =
+        '<div style="padding:2rem;text-align:center;color:var(--muted)">Could not load map data ('+esc(err.message)+').</div>';
+      console.error(err);
+    });
+})();
+</script>
 </body>
 </html>
