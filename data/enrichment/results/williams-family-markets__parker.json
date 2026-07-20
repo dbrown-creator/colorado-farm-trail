@@ -1,0 +1,33 @@
+{
+  "id": "williams-family-markets__parker",
+  "name": "Williams Family Markets",
+  "city": "Parker",
+  "official_website": "https://thelocalcolorado.com/parker-farmers-market/",
+  "fields": {
+    "Hours": {
+      "value": "Sun: 8:00am - 1:00pm",
+      "source_url": "https://thelocalcolorado.com/parker-farmers-market/"
+    },
+    "Months Open": {
+      "value": "May, June, July, August, September, October",
+      "source_url": "https://thelocalcolorado.com/parker-farmers-market/"
+    },
+    "Products": {
+      "value": "Fresh vegetables, fruit, herbs, flowers, homemade salsa, baked goods, bread, meats, ready-made foods, artwork, and home/body care items from over 100 vendors",
+      "source_url": "https://www.parkercolorado.net/parker-farmers-market-dates-and-times/"
+    },
+    "Facebook": {
+      "value": "https://www.facebook.com/parkerfarmersmarket/",
+      "source_url": "https://thelocalcolorado.com/parker-farmers-market/"
+    },
+    "Instagram": {
+      "value": "https://www.instagram.com/theparkerfarmersmarket/",
+      "source_url": "https://thelocalcolorado.com/parker-farmers-market/"
+    },
+    "Website": {
+      "value": "https://thelocalcolorado.com/parker-farmers-market/",
+      "source_url": "https://thelocalcolorado.com/parker-farmers-market/"
+    }
+  },
+  "notes": "The on-file website was blank and the on-file Facebook URL (facebook.com/pages/Parker-Farmers-Market/84431378316) is a stale, pre-2016-style Facebook Page ID likely tied to the now-delinquent 'Williams Family Markets LLC' (Colorado entity, delinquent since Sept 2017, registered at 18189 E Mainstreet, Parker, CO 80134 -- the market's Old Town Mainstreet location). Multiple sources (Parker Chronicle article, Farmer's Stand) confirm Jason and Jillane Williams' 'Williams Family Markets' bought the Parker Farmers Market (and later Southlands Farmers Market in Aurora); that Parker market is now presented under the operator brand 'the LOCAL Colorado' at thelocalcolorado.com, which I'm treating as the current official site/successor for this entry given the address match (Parker, Mainstreet, 80134) and ownership history. Could not confirm SNAP/EBT acceptance, ADA accessibility, certified-organic status, email, phone, or a mailing/street address better than the on-file P.O. Box from any official source (third-party aggregators like farmersstand.com and colorado.com mention organic/SNAP/phone/zip 80138 but were not used since they are not official sources and conflicted with each other, e.g. zip 80138 vs on-file 80134). Southlands Farmers Market (Aurora) is a distinct, separately-listed market also run by the same operator and was not used for this Parker entry."
+}

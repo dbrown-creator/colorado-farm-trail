@@ -1,0 +1,16 @@
+{
+ "id": "trinidad-community-farmers-market__trinidad",
+ "name": "Trinidad Community Farmers Market",
+ "city": "Trinidad",
+ "official_website": "https://trinidadcofarmersmarket.com/",
+ "fields": {
+   "Website": {"value": "https://trinidadcofarmersmarket.com/", "source_url": "https://trinidadcofarmersmarket.com/"},
+   "Hours": {"value": "Sat: 8:00am - 12:00pm", "source_url": "https://trinidadcofarmersmarket.com/"},
+   "Months Open": {"value": "June, July, August, September", "source_url": "https://trinidadcofarmersmarket.com/"},
+   "SNAP": {"value": "Yes", "source_url": "https://trinidadcofarmersmarket.com/"},
+   "Email": {"value": "theteam@trinidadcofarmersmarket.com", "source_url": "https://trinidadcofarmersmarket.com/"},
+   "Facebook": {"value": "https://www.facebook.com/TrinidadFarmersMktColorado", "source_url": "https://trinidadcofarmersmarket.com/"},
+   "Address": {"value": "Cimino Park, Trinidad, Colorado 81082", "source_url": "https://trinidadcofarmersmarket.com/"}
+ },
+ "notes": "The on-file website (trinidadcofarmersmarket.org) is dead (DNS does not resolve). The correct official site is trinidadcofarmersmarket.com (.com, not .org), which matches the on-file Facebook page. 2026 season per official banner is Saturdays June 13 - September 26, 2026, 8:00am-12:00pm at Cimino Park (a separate blurb elsewhere on the same page says 'June 15- Sept 28th', which appears to be stale leftover copy from a prior year; used the clearer, more prominent banner date for Hours/Months). No phone number, Instagram account, ADA accessibility statement, or organic-certification statement found on the site. Products/vendor types are not clearly itemized on the site (only generic 'farm fresh food' language and vendor-application rules referencing 75% grower requirement), so Products was omitted. Address is the market's on-site location (Cimino Park), consistent with existing on-file street address (836 Stonewall Ave is near/adjacent to Cimino Park in Trinidad) - not changed since not clearly a correction, just supplementary."
+}

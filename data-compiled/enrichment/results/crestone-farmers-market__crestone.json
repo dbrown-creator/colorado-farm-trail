@@ -1,0 +1,14 @@
+{
+ "id": "crestone-farmers-market__crestone",
+ "name": "Crestone Farmers Market",
+ "city": "Crestone",
+ "official_website": "https://www.facebook.com/saturdaymarketcrestone",
+ "fields": {
+  "Hours": {"value": "Sat: 10:00am - 4:00pm", "source_url": "https://www.mixconsciously.com/saturday-market"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://www.mixconsciously.com/saturday-market"},
+  "Products": {"value": "Handmade goods and locally-made items from local artisans", "source_url": "https://www.mixconsciously.com/saturday-market"},
+  "Facebook": {"value": "https://www.facebook.com/saturdaymarketcrestone", "source_url": "https://www.mixconsciously.com/saturday-market"},
+  "Website": {"value": "https://www.facebook.com/saturdaymarketcrestone", "source_url": "https://www.mixconsciously.com/saturday-market"}
+ },
+ "notes": "On-file website was blank; on-file Facebook was a dead/old-format URL (facebook.com/pg/crestone-saturday-market-971362449550294/...). The market (locally called 'Crestone Saturday Market', run under/permitted by the Town of Crestone, per townofcrestone.gov news posts about vendor permits and July 4 schedule changes) has no independent dedicated website; its Facebook page at facebook.com/saturdaymarketcrestone is the best available official-style hub, confirmed via a direct link from mixconsciously.com/saturday-market (a local vendor/sponsor 'Mix Elixirs' page dedicated to this market, with a vendor-application link). Could not read the Facebook page's About section directly (returned a login wall), so SNAP, email, phone, Instagram, ADA, and certified-organic status could not be confirmed and were omitted. Hours/months from mixconsciously.com (May 3-Oct 31, 10am-4pm, Little Pearl Park) conflict somewhat with third-party aggregator colorado.com, which lists 10am-3pm, late April-mid October, at 'Crestone Town Park' -- Little Pearl Park may simply be located on West Silver Avenue (the on-file address) inside Crestone Town Park, but this wasn't independently confirmed, so address was left unchanged. Did not find a market-specific Instagram account (only unrelated markets of similar name in Iowa/Michigan/Canada)."
+}

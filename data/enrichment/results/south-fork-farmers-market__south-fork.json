@@ -1,0 +1,16 @@
+{
+ "id": "south-fork-farmers-market__south-fork",
+ "name": "South Fork Farmers Market",
+ "city": "South Fork",
+ "official_website": "https://www.southfork.org/market-at-south-fork",
+ "fields": {
+  "Hours": {"value": "Fri, Sat: 9:00am - 1:00pm", "source_url": "https://www.southfork.org/market-at-south-fork"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://www.southfork.org/market-at-south-fork"},
+  "Products": {"value": "Artisans, farmers and vendors offering items grown or produced in Colorado, New Mexico and other nearby states; artisan crafts, culinary delights, and handmade treasures", "source_url": "https://www.southfork.org/market-at-south-fork"},
+  "Phone": {"value": "719-873-5512", "source_url": "https://www.southfork.org/market-at-south-fork"},
+  "Facebook": {"value": "https://www.facebook.com/SouthForkCOFarmersMarket/", "source_url": "https://www.facebook.com/SouthForkCOFarmersMarket/"},
+  "Address": {"value": "28 Silver Thread Ln, South Fork, CO 81154", "source_url": "https://www.southfork.org/market-at-south-fork"},
+  "Website": {"value": "https://www.southfork.org/market-at-south-fork", "source_url": "https://www.southfork.org/market-at-south-fork"}
+ },
+ "notes": "On-file website https://www.sffarmersmarket.org/ is dead (DNS does not resolve). The market is now run through the South Fork Visitor Center's site (official town visitor center, which organizes/hosts the market), page https://www.southfork.org/market-at-south-fork gives season dates 'June 5th - Sept 5th' (mapped to June-Sept) and days/hours 'Fridays & Saturdays, 9am-1pm', and lists the market location as the South Fork Visitor Center, 28 Silver Thread Ln, South Fork, CO 81154 (more specific than the on-file 'Intersection of Hwy. 160 & 149', though it's likely the same general junction area). Found an official-looking Facebook page 'South Fork Farmers Market' (facebook.com/SouthForkCOFarmersMarket, ~1,500 likes) but its own description text says the market runs 'every Monday in the Summer', which conflicts with the visitor center site's Fri/Sat schedule — likely a stale/outdated FB post, so Hours/Months were taken from the more detailed and presumably current visitor center page. Could not verify SNAP/EBT acceptance, email, Instagram, ADA accessibility, or certified organic status from any official source, so those fields are omitted. Note there is a separate similarly-named entity in the source list, 'South Fork Farmers, Local Artisan and Antique Market' (id south-fork-farmers-local-artisan-and-antique-market__south-fork, different address at 168 Four Seasons Drive) which appears to be a distinct/unrelated market and was not used as a source here."
+}

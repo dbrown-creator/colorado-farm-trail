@@ -1,0 +1,17 @@
+{
+ "id": "delta-farmers-market__delta",
+ "name": "Delta Farmers Market",
+ "city": "Delta",
+ "official_website": "https://www.deltacofarmersmarket.com/home",
+ "fields": {
+  "Hours": {"value": "Sat: 8:30am - 1:00pm; Wed: 8:30am - 1:00pm (June-August only)", "source_url": "https://www.deltacofarmersmarket.com/home"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://www.deltacofarmersmarket.com/home"},
+  "Products": {"value": "Locally grown produce, eggs, honey, jams, jellies, breads, baked goods, handcrafted pottery, leather goods, artisan/handcrafted works; adjoining bazaar sells antiques, collectibles, and art", "source_url": "https://www.deltacofarmersmarket.com/home"},
+  "SNAP": {"value": "No", "source_url": "https://www.deltacofarmersmarket.com/home"},
+  "Email": {"value": "deltacofarmersmarket@gmail.com", "source_url": "https://www.deltacofarmersmarket.com/home"},
+  "Facebook": {"value": "https://www.facebook.com/groups/246038845197062", "source_url": "https://www.deltacofarmersmarket.com/home"},
+  "Address": {"value": "2195 Southgate Lane, Delta, CO", "source_url": "https://www.deltacofarmersmarket.com/home"},
+  "Website": {"value": "https://www.deltacofarmersmarket.com/home", "source_url": "https://www.deltacofarmersmarket.com/home"}
+ },
+ "notes": "On-file website (deltacofarmersmarket.com/home) is live and is the market's official site (confirmed consistent content across /home and root URL). Market is held at Haven House Thrift Store lot, 2195 Southgate Lane, Delta, CO — this differs from the on-file address '1001 Colorado 92', so address was updated to the site-stated location. Site explicitly states vendors do not accept SNAP/EBT/WIC assistance payments. Phone number, Instagram, ADA accessibility, and certified organic status are not mentioned on the site, so omitted."
+}

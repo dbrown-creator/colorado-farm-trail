@@ -1,0 +1,15 @@
+{
+ "id": "frederick-farmers-market__frederick",
+ "name": "Frederick Farmers Market",
+ "city": "Frederick",
+ "official_website": "https://www.frederickco.gov/241/Frederick-Market",
+ "fields": {
+  "Website": {"value": "https://www.frederickco.gov/241/Frederick-Market", "source_url": "https://www.frederickco.gov/241/Frederick-Market"},
+  "Hours": {"value": "Frederick in Flight (Jun 27): 5:00pm - 9:00pm; Chainsaws and Chuckwagons (Jul 18): 12:00pm - 6:00pm; Miners Day (Sep 19): 11:00am - 4:00pm; Festival of Lights (Dec 5): 5:30pm - 8:00pm", "source_url": "https://www.frederickco.gov/241/Frederick-Market"},
+  "Months Open": {"value": "June, July, September, December", "source_url": "https://www.frederickco.gov/241/Frederick-Market"},
+  "Products": {"value": "Handcrafted goods from local growers, farmers, artisans, crafters, and non-profits; original handcrafted items only (AI-generated art not permitted)", "source_url": "https://www.frederickco.gov/241/Frederick-Market"},
+  "Email": {"value": "events@frederickco.gov", "source_url": "https://www.frederickco.gov/241/Frederick-Market"},
+  "Facebook": {"value": "https://www.facebook.com/TownofFrederick", "source_url": "https://www.frederickco.gov/facebook"}
+ },
+ "notes": "On-file website (https://www.frederickco.gov/241/finale-fridays-frederick-marke) had a broken/truncated slug; corrected to the live official Town of Frederick page https://www.frederickco.gov/241/Frederick-Market (same page ID 241). As of the 2026 season, the Town has restructured the market: it is no longer a standalone weekly Thursday market, but is now folded into four Town signature events (Frederick in Flight, Chainsaws and Chuckwagons, Miners Day, Festival of Lights), each with its own vendor market. Third-party aggregators (coloradolandcan.org, colorado.com, farmersmarket.country) still describe an older format -- a weekly Thursday market June-Sept at 105 5th St/Crist Park with a seasonal phone (720) 382-5513 and crintern@frederickco.gov -- but this appears outdated versus the current official page, so it was not used. No market-specific SNAP/EBT, ADA accessibility, organic certification, phone, Instagram, or address information is clearly stated on the official page, so those fields were omitted. The Facebook link is the Town of Frederick's general official Facebook (confirmed via redirect from frederickco.gov/facebook), not a market-specific page, since no dedicated market social account was found."
+}

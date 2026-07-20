@@ -1,0 +1,16 @@
+{
+ "id": "city-of-edgewater-farmers-market__edgewater",
+ "name": "City of Edgewater Farmers Market",
+ "city": "Edgewater",
+ "official_website": "https://www.edgewaterco.gov/",
+ "fields": {
+  "Hours": {"value":"Thu: 5:00pm - 8:00pm","source_url":"https://www.coloradolandcan.org/local-resources/Edgewater-Market-and-Music/75948"},
+  "Months Open": {"value":"June, July, August, September","source_url":"https://www.coloradolandcan.org/local-resources/Edgewater-Farmers-Market/47831"},
+  "Products": {"value":"Produce (apples, berries, vegetables, herbs), meats (beef, buffalo, lamb, pork, poultry), dairy (cheese, eggs), baked goods, honey, jams, pickles, jerky, sausage","source_url":"https://www.coloradolandcan.org/local-resources/Edgewater-Market-and-Music/75948"},
+  "SNAP": {"value":"Yes","source_url":"https://www.coloradolandcan.org/local-resources/Edgewater-Market-and-Music/75948"},
+  "Email": {"value":"KHardt@EdgewaterCO.com","source_url":"https://www.coloradolandcan.org/local-resources/Edgewater-Market-and-Music/75948"},
+  "Facebook": {"value":"https://www.facebook.com/cityofedgewatermarketandmusic/","source_url":"https://www.facebook.com/cityofedgewatermarketandmusic/"},
+  "Address": {"value":"Historic West 25th Ave. (between Benton/Chase St. and Ames St.), Edgewater, CO 80214","source_url":"https://www.coloradolandcan.org/local-resources/Edgewater-Market-and-Music/75948"}
+ },
+ "notes": "The on-file website www.edgewaterco.com is not dead but 301-redirects to the real city site www.edgewaterco.gov (still official, City of Edgewater). The city's own event/market subpages (e.g. edgewaterco.gov/living-here/city-events and the GovOffice CMS market page confirmed to exist via search, index.asp?SEC=55860D06-D305-4D15-82DF-6A5F37F368E6&DE=F5403AA4-0A6A-4229-BD60-180D283F3324) consistently returned HTTP 403 to automated fetch (bot protection), so they could not be read directly. Event is branded 'Edgewater Market & Music' by the city (same market as 'City of Edgewater Farmers Market'). Facts above were corroborated across two Colorado Land Conservation Assistance Network (coloradolandcan.org) listings whose contact email (KHardt@EdgewaterCO.com) uses the official city domain, plus a local news article (littletonindependent.net) and a 2026 event listing (calypsoincolor.com search snippet: 'every Thursday from June 21-September 6' 2026), both consistent with June-Sept/Thu 5-8pm. Found an apparently-official Facebook page named exactly for this event (facebook.com/cityofedgewatermarketandmusic) but it is login-walled and its content could not be verified beyond existing/matching the market name. Sources disagreed on phone number across years (720-763-3012, -3058, -3030, and 295-3602 all appeared) so Phone was omitted rather than guessed. The on-file address (2401 Sheridan Blvd., which is Edgewater City Hall) is not where the market is actually held; the market takes place on Historic West 25th Ave, so Address was updated accordingly. No Instagram, ADA accessibility, or Certified Organic status found stated anywhere."
+}

@@ -1,0 +1,16 @@
+{
+ "id": "national-celiac-association-of-denver__denver",
+ "name": "National Celiac Association of Denver",
+ "city": "Denver",
+ "official_website": "https://www.denverceliacs.org",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://denverceliacs.org/event/gluten-free-farmers-market-2/"},
+  "Months Open": {"value": "June, July, August, September, October", "source_url": "https://denverceliacs.org/event/gluten-free-farmers-market-2/"},
+  "Products": {"value": "Farm produce, prepared foods and baked goods, food trucks, crafts and art, beauty products, herbs, house plants, canned goods, dog treats, flowers", "source_url": "https://denverceliacs.org/event/gluten-free-farmers-market-2/"},
+  "Address": {"value": "333 W Hampden Ave (North Parking lot next to Chase Tower), Englewood, CO 80110", "source_url": "https://denverceliacs.org/event/gluten-free-farmers-market-2/"},
+  "Facebook": {"value": "https://www.facebook.com/DenverCeliacs", "source_url": "https://sites.google.com/view/gf-farmers-market-denverceliac/home"},
+  "Instagram": {"value": "https://www.instagram.com/denverceliacs", "source_url": "https://sites.google.com/view/gf-farmers-market-denverceliac/home"},
+  "Website": {"value": "https://www.denverceliacs.org", "source_url": "https://www.denverceliacs.org"}
+ },
+ "notes": "The on-file website (denverceliacs.org) is legitimate and current; it is the site for NCA Denver Celiacs, which organizes Colorado's only 'Gluten Free Farmers Market' as an event series. The market itself runs seasonally (2nd Saturday of each month, June-Oct 2026) at 333 W Hampden Ave, Englewood, CO 80110 (Chase Tower parking lot) -- this is a materially better/more accurate address than the on-file PO Box mailing address (PO Box 221742 Apt 127, Denver 80222), so it was included as the Address field. SNAP/EBT/Double Up acceptance could not be confirmed on any official source (organization site, event page, or Google Sites market page) despite searching, so it was omitted rather than guessed. No dedicated market email or phone number was found; ADA accessibility and certified-organic status were not stated anywhere."
+}

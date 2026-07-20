@@ -1,0 +1,17 @@
+{
+ "id": "city-of-rifle-farmer-s-market__rifle",
+ "name": "City of Rifle Farmer's Market",
+ "city": "Rifle",
+ "official_website": "https://riflefarmersmarket.com/",
+ "fields": {
+  "Hours": {"value": "Fri: 4:00pm - 8:00pm", "source_url": "https://riflefarmersmarket.com/"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://riflefarmersmarket.com/"},
+  "Products": {"value": "Fresh produce and artisan goods from Western Slope vendors, including local farms, artisan vendors, arts & crafts, food trucks, and beer & wine", "source_url": "https://riflefarmersmarket.com/"},
+  "Email": {"value": "RifleFarmersMarket@gmail.com", "source_url": "https://riflefarmersmarket.com/"},
+  "Facebook": {"value": "https://www.facebook.com/riflefarmersmarket", "source_url": "https://riflefarmersmarket.com/"},
+  "Instagram": {"value": "https://www.instagram.com/riflefarmersmarket", "source_url": "https://riflefarmersmarket.com/"},
+  "Address": {"value": "Heinze Park, 600 Railroad Avenue, Rifle, CO 81650", "source_url": "https://riflefarmersmarket.com/"},
+  "Website": {"value": "https://riflefarmersmarket.com/", "source_url": "https://riflefarmersmarket.com/"}
+ },
+ "notes": "The on-file website (http://www.rifleco.org/farmersmarket) is dead (404). The market's true official site is https://riflefarmersmarket.com/ (a dedicated market site, not the City of Rifle government site, though the market is City of Rifle-affiliated at Heinze Park). Address on file was '1718 Railroad Ave'; official site states the market location as 'Heinze Park, 600 Railroad Avenue, Rifle CO, 81650' — updated Address field to this clearly-stated location. SNAP/EBT, ADA accessibility, and certified organic status were not mentioned on the official site or its About page, so those fields were omitted. No phone number was listed."
+}

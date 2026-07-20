@@ -1,0 +1,16 @@
+{
+ "id": "sterling-ranch-farmers-market__littleton",
+ "name": "Sterling Ranch Farmers' Market",
+ "city": "Littleton",
+ "official_website": "https://www.denverfarmersmarket.com/",
+ "fields": {
+   "Hours": {"value": "Wed: 3:00pm - 7:00pm (or sellout)", "source_url": "https://www.denverfarmersmarket.com/"},
+   "Months Open": {"value": "June, July, August, September, October", "source_url": "https://www.denverfarmersmarket.com/"},
+   "Products": {"value": "Fresh produce", "source_url": "https://www.denverfarmersmarket.com/"},
+   "Email": {"value": "dfmmgrrich@comcast.net", "source_url": "https://www.denverfarmersmarket.com/"},
+   "Facebook": {"value": "https://www.facebook.com/denverfarmersmarket", "source_url": "https://www.denverfarmersmarket.com/"},
+   "Instagram": {"value": "https://www.instagram.com/metro.denver.farmers.market", "source_url": "https://www.denverfarmersmarket.com/"},
+   "Address": {"value": "Providence Park, 8100 Piney River Avenue", "source_url": "https://www.denverfarmersmarket.com/"}
+ },
+ "notes": "On-file website (denverfarmersmarket.com) is confirmed correct and official: it is the site for the operator 'Metro Denver Farmers' Market', which runs the Sterling Ranch market at Providence Park (Wed 3-7pm, June 24-Oct 14) among three other metro-area locations. On-file Facebook (facebook.com/denverfarmersmarket) confirmed via the site's footer link. Site is a single flat page with no dedicated per-location subpage or URL. Products listed only generically as 'Fresh Produce' with no vendor-type breakdown. Third-party sources (Denverite, Westword) claim SNAP/EBT is accepted at this market, but the official site itself does not state this anywhere, so SNAP was omitted per instructions to only use clearly-stated official info. No ADA accessibility, certified organic status, or phone number stated on the official site. Email listed is the operator's general Market Manager contact (dfmmgrrich@comcast.net), not location-specific. Address confirmed as matching the on-file street address (8100 Piney River Ave), with 'Providence Park' as the venue name added for clarity."
+}

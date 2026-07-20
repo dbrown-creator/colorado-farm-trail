@@ -1,0 +1,13 @@
+{
+ "id": "alameda-mile-high-farmer-s-market__aurora",
+ "name": "Alameda Mile High Farmer's Market",
+ "city": "Aurora",
+ "official_website": "",
+ "fields": {
+  "Hours": {"value": "Sunday 9:00 AM - 2:00 PM", "source_url": "https://ezregister.com/events/10206/"},
+  "Months Open": {"value": "June, July, August, September, October", "source_url": "https://ezregister.com/events/10206/"},
+  "Products": {"value": "Food, handmade crafts, merchandise, and other vendor goods", "source_url": "https://ezregister.com/events/10206/"},
+  "Address": {"value": "Bicentennial Park (Alameda & Potomac), 13655 E Alameda Ave, Aurora, CO 80012", "source_url": "https://ezregister.com/events/10206/"}
+ },
+ "notes": "Organizer is 'Mile High Market Events'; the listed official website www.MileHighEvents.org does not resolve (dead domain, DNS lookup fails). No official Facebook/Instagram page could be located for this specific market (searches surfaced only unrelated 'Mile High' businesses like Mile High Flea Market and a separate Lakewood market at Mile Hi Church run by a different organization, Metro Denver Farmers Market/denverfarmersmarket.com, which does not list an Aurora location). The ezregister.com/events/10206/ page is the organizer's own event listing (registration now closed, likely from a past season) and was used as the best available quasi-official source for hours, season, address, and products. Third-party aggregator listings (Foraged, TopFarmersMarkets) mention possible SNAP acceptance and USDA organic vendors but these are not clearly/officially stated and were excluded per instructions to prefer official sources. Could not confirm the market is still currently active for 2026."
+}

@@ -1,0 +1,16 @@
+{
+ "id": "downtown-grand-junction-market-on-main__grand-junction",
+ "name": "Downtown Grand Junction Market on Main",
+ "city": "Grand Junction",
+ "official_website": "https://downtowngj.org/events/market-on-main/",
+ "fields": {
+  "Hours": {"value": "Thu: 5:30pm - dusk", "source_url": "https://downtowngj.org/events/market-on-main/"},
+  "Months Open": {"value": "July, August, September", "source_url": "https://downtowngj.org/events/market-on-main/"},
+  "Products": {"value": "Farm products from the Western Slope and around Colorado", "source_url": "https://downtowngj.org/events/market-on-main/"},
+  "SNAP": {"value": "Yes", "source_url": "https://downtowngj.org/events/market-on-main/"},
+  "Facebook": {"value": "https://www.facebook.com/downtowngj", "source_url": "https://downtowngj.org/events/market-on-main/"},
+  "Instagram": {"value": "https://www.instagram.com/downtowngj/", "source_url": "https://downtowngj.org/events/market-on-main/"},
+  "Phone": {"value": "970.245.9697", "source_url": "https://downtowngj.org/contact/"}
+ },
+ "notes": "On-file website (downtowngj.org/events/market-on-main/) is confirmed correct and official (run by Downtown Grand Junction, a DDA). 2026 season runs Thursdays, July 9 - Sept 24, 5:30pm until dusk, held near 4th and Main (no separate street address given for the market site itself; the 101 S 3rd Street Suite 100 address on file is the Downtown Grand Junction office address, confirmed via their contact page, so left unchanged rather than treated as a market-site address). Market accepts SNAP and Double Up Food Bucks (up to $20 additional). Phone number (970.245.9697) is the general Downtown Grand Junction office line, not market-specific. No email, ADA accessibility statement, or certified-organic statement found on official pages."
+}

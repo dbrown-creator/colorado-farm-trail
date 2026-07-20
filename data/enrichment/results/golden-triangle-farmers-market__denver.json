@@ -1,0 +1,12 @@
+{
+ "id": "golden-triangle-farmers-market__denver",
+ "name": "Golden Triangle Farmers Market",
+ "city": "Denver",
+ "official_website": "https://goldentrianglefm.com",
+ "fields": {
+  "Website": {"value": "https://goldentrianglefm.com", "source_url": "https://goldentrianglefm.com"},
+  "Facebook": {"value": "https://www.facebook.com/goldentrianglefm/", "source_url": "https://www.facebook.com/goldentrianglefm/"},
+  "Instagram": {"value": "https://www.instagram.com/goldentrianglefm/", "source_url": "https://www.instagram.com/goldentrianglefm/"}
+ },
+ "notes": "On-file website/facebook were both blank. Found the market's own domain goldentrianglefm.com (nav includes a 'Farmers Market' page) plus matching official Facebook (facebook.com/goldentrianglefm) and Instagram (@goldentrianglefm) handles, so filled those three. However goldentrianglefm.com's content is stale (dated 2020, references a defunct 'Holiday Market') and is oddly co-mingled with an unrelated 'Choose a Limo in Denver' blog post, suggesting the domain is neglected/partially repurposed - so I did not treat anything on it as a reliable current fact. Hours/season/address were NOT clearly stated on the official site or Facebook (Facebook page content is login-walled and unreadable via fetch). Multiple third-party aggregators (do303, farmranchhomestead, denvergov special events, cropcart) consistently describe the market as Sundays 9am-1pm, June-September, in the alley behind 1112 Broadway - but per instructions these are not official sources, so Hours/Months Open/Products/SNAP/Email/Phone/ADA/Certified Organic were all omitted as unconfirmed by a legitimate official source."
+}

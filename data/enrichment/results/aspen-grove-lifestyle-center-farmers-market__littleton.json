@@ -1,0 +1,16 @@
+{
+ "id": "aspen-grove-lifestyle-center-farmers-market__littleton",
+ "name": "Aspen Grove Lifestyle Center Farmers' Market",
+ "city": "Littleton",
+ "official_website": "https://aspengrovefarmersmarket.com/",
+ "fields": {
+  "Hours": {"value": "Fri: 10:00am - 2:00pm", "source_url": "https://aspengrovefarmersmarket.com/"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://aspengrovefarmersmarket.com/"},
+  "Products": {"value": "Locally grown produce, baked goods, handcrafted items, fresh vegetables, Palisade peaches, premium meats, artisan pasta, seasonings, hot sauces, tamales, burritos, fresh flowers, and specialty foods", "source_url": "https://aspengrovefarmersmarket.com/"},
+  "Facebook": {"value": "https://www.facebook.com/AspenGroveFarmersMarket/", "source_url": "https://www.facebook.com/AspenGroveFarmersMarket/"},
+  "Instagram": {"value": "https://www.instagram.com/aspengrovefarmersmarket/", "source_url": "https://aspengrovefarmersmarket.com/"},
+  "Address": {"value": "7301 S. Santa Fe Drive, Littleton, CO 80120", "source_url": "https://aspengrovecenter.com/event/aspen-grove-farmers-market/"},
+  "Website": {"value": "https://aspengrovefarmersmarket.com/", "source_url": "https://aspengrovefarmersmarket.com/"}
+ },
+ "notes": "The on-file website (denverfarmersmarket.com) and facebook.com/denverfarmersmarket are WRONG for this market -- that site/page belongs to the unrelated 'Metro Denver Farmers Market' operator (Sterling Ranch, Southwest Plaza, Lakewood, Highlands Ranch locations), not Aspen Grove. Found the correct official market site at aspengrovefarmersmarket.com and its dedicated official Facebook page at facebook.com/AspenGroveFarmersMarket/. Corroborated hours/season/address via the Aspen Grove shopping center's own event page (aspengrovecenter.com), which lists a phone ((303) 794-0640) and email (info@aspengrovecenter.com) but these are the shopping center's general contact info, not confirmed as market-specific, so omitted Email/Phone to avoid inaccuracy. SNAP/EBT, ADA accessibility, and Certified Organic status are not stated on any official source, so omitted. Market relocated within Aspen Grove (parking lot between Ulta and Alamo Drafthouse) for the 2026 season per the official site."
+}

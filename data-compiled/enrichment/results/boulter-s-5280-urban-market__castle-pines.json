@@ -1,0 +1,8 @@
+{
+ "id": "boulter-s-5280-urban-market__castle-pines",
+ "name": "Boulter's 5280 Urban Market",
+ "city": "Castle Pines",
+ "official_website": "https://www.facebook.com/Boulters5280UrbanMarket/",
+ "fields": {},
+ "notes": "On-file website https://boulters5280urbanmarket.com/ is dead: every path tried (homepage, /shop/, a 2020 registration-packet PDF on the same domain) returned a Cloudflare 522 'origin unreachable' error, indicating the site's server is down, not just one broken page. The on-file Facebook page (facebook.com/Boulters5280UrbanMarket/) does appear to be the market's real official page (confirmed to exist via multiple independent search-result listings), but its content is login-walled and could not be read via WebFetch (mobile/basic Facebook variants also blocked). The city page castlepinesgov.com/events/boulters-5280-urban-market, which might have had semi-official schedule info, was unreachable (connection refused) from this environment. Because no field could be CLEARLY read from a legitimate official source, no fields were filled. For reference only (NOT verified official, so excluded from fields): third-party sources (Castle Pines Connection article, LocalHarvest, Foraged, city event listings) describe a market at 560 (E) Castle Pines Pkwy on Wednesdays roughly 3-7pm during a May-October season, selling produce, meats, dairy and wine, with a general operator phone of (720) 885-8618 - none of this is confirmed via an official source and should be re-verified once the website is back online or someone with Facebook access can check the page directly."
+}

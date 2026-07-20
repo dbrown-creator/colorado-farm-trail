@@ -1,0 +1,13 @@
+{
+ "id": "downtown-littleton-farmers-market__littleton",
+ "name": "Downtown Littleton Farmers Market",
+ "city": "Littleton",
+ "official_website": "https://thelocalcolorado.com/downtown-littleton-farmers-market/",
+ "fields": {
+  "Hours": {"value": "Sat: 8:00am - 1:00pm", "source_url": "https://thelocalcolorado.com/downtown-littleton-farmers-market/"},
+  "Months Open": {"value": "May, June, July, August, September", "source_url": "https://thelocalcolorado.com/downtown-littleton-farmers-market/"},
+  "Products": {"value": "Local produce, meats, baked goods, artisan foods, handmade products, and more (nearly 40 curated vendors)", "source_url": "https://thelocalcolorado.com/downtown-littleton-farmers-market/"},
+  "Website": {"value": "https://thelocalcolorado.com/downtown-littleton-farmers-market/", "source_url": "https://thelocalcolorado.com/downtown-littleton-farmers-market/"}
+ },
+ "notes": "The on-file website (https://littletonq.com) is dead/wrong for this purpose — it now belongs to Littleton Q+, an unrelated LGBTQ+ community organization, and a legacy '/2025vendors' page that once may have referenced the market now 404s. The market is run by 'the LOCAL Colorado' (also operates the Parker Farmers Market), whose page at thelocalcolorado.com/downtown-littleton-farmers-market/ is the best official source found and confirms hours, season (Sat, May 23-Sept 26, no market June 13), and products. Location is described as 'Nevada Street from Main Street to Powers Avenue' (a street block, not a single address) so the existing on-file street address (5671 South Nevada Street) was left unchanged rather than guessing a replacement; visitlittleton.org separately listed 2255 W. Berry Avenue for the same event, adding ambiguity. No SNAP/EBT, email, phone, ADA, or organic-certification info was found on the operator's official page. No market-specific Facebook or Instagram page was found (only a generic low-follower 'the LOCAL Colorado' brand Facebook page unrelated specifically to this market), so Facebook/Instagram were omitted rather than guessed. Secondary/organizer sites (Downtown Littleton Development Authority littletondda.org, Visit Littleton visitlittleton.org) corroborate the same hours/dates but returned a City of Littleton general phone number (303-795-3700) rather than a market-specific contact, so phone was omitted."
+}

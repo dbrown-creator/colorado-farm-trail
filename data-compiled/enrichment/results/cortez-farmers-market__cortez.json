@@ -1,0 +1,41 @@
+{
+ "id": "cortez-farmers-market__cortez",
+ "name": "Cortez Farmers Market",
+ "city": "Cortez",
+ "official_website": "https://www.cortezfarmersmarket.com/",
+ "fields": {
+   "Hours": {
+     "value": "Sat: 8:00am - 12:00pm (May 30 - Sep 26); Sat: 8:30am - 12:00pm (Oct 3 - Oct 31)",
+     "source_url": "https://www.cortezfarmersmarket.com/"
+   },
+   "Months Open": {
+     "value": "May, June, July, August, September, October",
+     "source_url": "https://www.cortezfarmersmarket.com/"
+   },
+   "Products": {
+     "value": "Fresh local produce, pork, lamb, eggs, baked goods, beverages, herbs, plants, artisan crafts/goods, plus live music and family-friendly activities",
+     "source_url": "https://www.the-journal.com/articles/cortez-farmers-market-to-open-2025-season-at-new-location/"
+   },
+   "SNAP": {
+     "value": "Yes",
+     "source_url": "https://www.the-journal.com/articles/cortez-farmers-market-to-open-2025-season-at-new-location/"
+   },
+   "Email": {
+     "value": "info@shopcortez.com",
+     "source_url": "https://shopcortez.com/events/saturday-farmers-market-every-saturday-in-july/"
+   },
+   "Phone": {
+     "value": "970-564-4095",
+     "source_url": "https://shopcortez.com/events/saturday-farmers-market-every-saturday-in-july/"
+   },
+   "Facebook": {
+     "value": "https://www.facebook.com/groups/265957719169/",
+     "source_url": "https://www.facebook.com/groups/265957719169/"
+   },
+   "Instagram": {
+     "value": "https://www.instagram.com/cortezfarmersmarket/",
+     "source_url": "https://www.instagram.com/cortezfarmersmarket/"
+   }
+ },
+ "notes": "On-file website https://www.cortezfarmersmarket.com/ is real and current (operated by Onward A Legacy Foundation DBA Cortez Farmers Market); it's a JS-rendered Wix-style site that the fetch tool could not render directly, so Hours/Months Open are taken from search-indexed snapshots of that homepage rather than a direct fetch -- worth a manual spot-check before publishing. Market is hosted/organized by the Cortez Retail Enhancement Association (CREA, shopcortez.com), whose contact info (phone/email) is used as the market's contact since the market has no separate listed contact. On-file address '601 N Mildred Rd' matches the market's stated location (corner of Empire & Mildred, Kiva/Children's Kiva Montessori Charter School parking lot) so it was left unchanged. On-file Facebook (group link) confirmed active/official. Could not confirm ADA accessibility or certified-organic status anywhere -- omitted. A separate CREA-branded Facebook (facebook.com/Cortez-Retail-Enhancement-Association-890695857623789) and Instagram (instagram.com/shopcortez) exist but belong to the parent org, not the market specifically, so were not used."
+}

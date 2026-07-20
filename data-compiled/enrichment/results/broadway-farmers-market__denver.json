@@ -1,0 +1,8 @@
+{
+ "id": "broadway-farmers-market__denver",
+ "name": "Broadway Farmers' Market",
+ "city": "Denver",
+ "official_website": "",
+ "fields": {},
+ "notes": "On-file website and facebook were both blank; no dead link to repair. Extensive search found no current official website or active official Facebook/Instagram page. The only concrete source found is a Sept 2013 Denver Westword article describing the market's inaugural season closing at South Broadway Christian Church, 23 Lincoln St (https://www.westword.com/food-drink/tonight-the-broadway-farmers-market-closes-out-its-first-season-5766657/), which references an old Facebook page (facebook.com/pages/Broadway-Farmers-Market/349219635199618) that could not be verified as still active (page did not load usable content, likely defunct/unclaimed). The market is absent from every current (2025-2026) Denver farmers-market roundup found (Westword 'Every Denver Area Farmers Market Open in 2026', 303Happenings, Mile High on the Cheap, First in Denver, Denverite), strongly suggesting it no longer operates or was a one-season (2013) event. Only third-party aggregators (Yelp, Foraged, topfarmersmarkets) still list it with unsourced generic hours (Wed 5-9pm) and a phone number, but per instructions these are not legitimate official sources, so no fields were extracted. Recommend flagging this market as likely inactive/unverifiable rather than filling speculative data."
+}

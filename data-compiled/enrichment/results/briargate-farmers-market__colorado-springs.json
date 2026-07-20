@@ -1,0 +1,17 @@
+{
+ "id": "briargate-farmers-market__colorado-springs",
+ "name": "Briargate Farmers' Market",
+ "city": "Colorado Springs",
+ "official_website": "https://www.springsfarmersmarkets.com/northern-springs",
+ "fields": {
+   "Hours": {"value": "Wed: 9:00am - 2:00pm", "source_url": "https://www.springsfarmersmarkets.com/northern-springs"},
+   "Months Open": {"value": "May, June, July, August, September", "source_url": "https://www.springsfarmersmarkets.com/northern-springs"},
+   "Products": {"value": "Fresh produce, dairy products, homemade bread, seasonal Palisade peaches, handmade jewelry, crafted wood items, Pampered Chef, microgreens, mushrooms, dog treats, locally ground coffee, and more (about 35 vendors)", "source_url": "https://www.springsfarmersmarkets.com/northern-springs"},
+   "Email": {"value": "corderamarket@yahoo.com", "source_url": "https://www.springsfarmersmarkets.com/contact-us"},
+   "Phone": {"value": "719-351-0012", "source_url": "https://www.springsfarmersmarkets.com/contact-us"},
+   "Facebook": {"value": "https://www.facebook.com/springsfm", "source_url": "https://www.springsfarmersmarkets.com/"},
+   "Address": {"value": "7610 North Union Blvd, Colorado Springs, CO 80920", "source_url": "https://www.springsfarmersmarkets.com/northern-springs"},
+   "Website": {"value": "https://www.springsfarmersmarkets.com/northern-springs", "source_url": "https://www.springsfarmersmarkets.com/northern-springs"}
+ },
+ "notes": "On-file record had no website or Facebook. Found the market's official operator site, Colorado Springs Farmer's Markets (springsfarmersmarkets.com), which runs both the Briargate and Cordera markets; used the /northern-springs page which covers Briargate specifically. Season/hours given for 2026: Wed 9am-2pm, May 27-Sept 30. Contact phone/email are the operator's general contact (shared with Cordera market), not Briargate-exclusive, but appear to be the correct point of contact. A separate 'facebook.com/briargatefarmersmarket' page exists in search results but is not linked from the official site, so it was not used; the site's own linked Facebook is facebook.com/springsfm. No mention found of SNAP/EBT, ADA accessibility, or certified organic status, so those fields were omitted. Instagram not found."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "estes-park-farmers-market__estes-park",
+ "name": "Estes Park Farmers Market",
+ "city": "Estes Park",
+ "official_website": "https://www.facebook.com/EstesValleyFarmersMarket/",
+ "fields": {
+  "Hours": {"value": "Thu: 8:00am - 1:00pm", "source_url": "https://estesvalleyvoice.com/2025/06/06/estes-park-farmers-market-kicks-off-its-29th-year/"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://estesvalleyvoice.com/2025/06/06/estes-park-farmers-market-kicks-off-its-29th-year/"},
+  "Products": {"value": "Fresh produce (heirloom tomatoes, mushrooms, cucumbers, greens), specialty teas, French pastries, jams, jellies, honey, European cheeses, artisan bread, pickles, salsas, smoked salmon, coffee, candles, woven baskets, pet treats, and jewelry from local vendors", "source_url": "https://estesvalleyvoice.com/2025/06/06/estes-park-farmers-market-kicks-off-its-29th-year/"},
+  "Email": {"value": "vickieden3@yahoo.com", "source_url": "https://estesvalleyvoice.com/2025/06/06/estes-park-farmers-market-kicks-off-its-29th-year/"},
+  "Facebook": {"value": "https://www.facebook.com/EstesValleyFarmersMarket/", "source_url": "https://www.facebook.com/EstesValleyFarmersMarket/"},
+  "Address": {"value": "Estes Park Visitor Center parking lot, 500 Big Thompson Ave, Estes Park, CO 80517", "source_url": "https://www.visitestespark.com/blog/post/how-to-farmers-market-in-estes-park/"}
+ },
+ "notes": "The on-file website/facebook fields were both blank; on-file address '2200 Mall Rd' could not be corroborated by any source and appears incorrect (that address matches the Stanley Park Fairgrounds area, not this market). No standalone official market website exists; the market (also called 'Estes Valley Farmers Market') is promoted via its official Facebook page https://www.facebook.com/EstesValleyFarmersMarket/, which could not be scraped directly (Facebook blocks automated fetches), so corroborating facts were sourced from a reputable local news outlet (Estes Valley Voice, June 2025) that directly interviewed market manager Vicki Dennis, plus the official Visit Estes Park tourism site for the specific street address. Multiple sources agree the market runs Thursdays 8am-1pm, June through late September, at the Estes Park Visitor Center parking lot; one lower-confidence aggregator source (estesparkinformation.com) instead named Bond Park downtown as the location, which appears outdated or wrong and was not used. No SNAP/EBT, Instagram, phone, ADA, or certified-organic info was clearly stated on any legitimate source, so those fields were omitted (a third-party aggregator, CropCart, claimed USDA organic certification but was excluded per instructions to avoid unverified aggregator claims)."
+}

@@ -1,0 +1,14 @@
+{
+ "id": "idaho-springs-chamber-of-commerce-farmers-market__idaho-springs",
+ "name": "Idaho Springs Chamber Of Commerce Farmers Market",
+ "city": "Idaho Springs",
+ "official_website": "https://idaho-springs-chamber-of-commerce.square.site/",
+ "fields": {
+  "Website": {"value": "https://idaho-springs-chamber-of-commerce.square.site/", "source_url": "https://idaho-springs-chamber-of-commerce.square.site/"},
+  "Phone": {"value": "303-567-0387", "source_url": "https://idaho-springs-chamber-of-commerce.square.site/"},
+  "Email": {"value": "director@idahospringschamber.org", "source_url": "https://idaho-springs-chamber-of-commerce.square.site/"},
+  "Facebook": {"value": "https://www.facebook.com/idahospringschamber/", "source_url": "https://www.facebook.com/idahospringschamber/"},
+  "Instagram": {"value": "https://www.instagram.com/idahospringschamber/", "source_url": "https://www.instagram.com/idahospringschamber/"}
+ },
+ "notes": "The on-file website was blank; the on-file Facebook URL (facebook.com/home.php#!/pages/Idaho-Springs-Chamber-Farmers-Market/169561026430240) is a dead legacy-format link that now just resolves to a generic Facebook login/home page, so it was replaced with the Chamber's current official Facebook page. The market is run by the Idaho Springs Chamber of Commerce; its current official site is a Square Online storefront (idaho-springs-chamber-of-commerce.square.site) that currently sells 2026-season farmers-market vendor booth spaces, confirming it is the live official site (its embedded contact block lists the same 'PO Box 1641' address on file, plus phone 303-567-0387 and email director@idahospringschamber.org). The site's own nav includes a 'Market Days' section, but its content (and the vendor-booth product descriptions) is loaded dynamically via JavaScript/API calls that could not be retrieved with a static fetch, so I could not confirm Hours, Months Open, Products, or SNAP acceptance directly from an official source and omitted them per instructions rather than guess. For reference only (NOT used, since these are third-party, and one is dated 2019): ColoradoLandCAN (updated 2019) and several current aggregator/Yelp listings consistently describe the market as held Fridays (roughly 10am-3pm, May-August/October) at Courtney-Ryley-Cooper Park, 2300 Colorado Blvd & Miner St, Idaho Springs, CO 80452, selling seasonal produce and artisan crafts/crafts vendors -- worth a manual check against the Square site or Chamber Facebook page directly (e.g. via a browser) to confirm current-season specifics. The abandoned idahospringschamber.org domain (found in search results) is now a parked/for-sale domain and is NOT an official source."
+}

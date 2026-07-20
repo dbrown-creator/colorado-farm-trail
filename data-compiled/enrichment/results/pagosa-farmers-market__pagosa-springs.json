@@ -1,0 +1,18 @@
+{
+ "id": "pagosa-farmers-market__pagosa-springs",
+ "name": "Pagosa Farmers Market",
+ "city": "Pagosa Springs",
+ "official_website": "https://www.pagosafarmersmarket.net/",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Months Open": {"value": "May, June, July, August, September", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Products": {"value": "Garden fresh vegetables, mushrooms, fruit and plant starts; artisan breads; grass-fed meats; farm eggs; coffee; honey; jewelry and crafts", "source_url": "https://www.pagosafarmersmarket.net/market/"},
+  "SNAP": {"value": "Yes", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Email": {"value": "pagosafarmersmarket@gmail.com", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Facebook": {"value": "https://www.facebook.com/PagosaFarmersMarket/", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Phone": {"value": "970-264-5232", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Address": {"value": "225 S. Pagosa Blvd, Pagosa Springs, CO 81147 (at St. Patrick's Episcopal Church)", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Website": {"value": "https://www.pagosafarmersmarket.net/", "source_url": "https://www.pagosafarmersmarket.net/"}
+ },
+ "notes": "On-file record had no website; found the market's official site at pagosafarmersmarket.net (run by Southwest Organization for Sustainability / SOS). On-file Facebook URL (numeric ID 550120111676611) still resolves and matches the same page the official site links to; replaced with the cleaner vanity URL https://www.facebook.com/PagosaFarmersMarket/. Season/hours reflect the most recent posted schedule (2025: early market May 24, full season June 14-Sept 30, Saturdays 9am-1pm) - the site did not show a confirmed 2026 update at time of research. On-file address '2435 Eagle Drive' appears incorrect/outdated; official site consistently lists the market location as 225 S. Pagosa Blvd (St. Patrick's Episcopal Church). Could not confirm ADA accessibility, certified organic status, or an Instagram account from official sources - omitted. Site also references a separate online 'Makers & Producers' pre-order shop with different hours/logistics, which was not treated as the physical market's hours."
+}

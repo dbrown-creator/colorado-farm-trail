@@ -1,0 +1,14 @@
+{
+ "id": "union-station-farmers-market__denver",
+ "name": "Union Station Farmers Market",
+ "city": "Denver",
+ "official_website": "https://unionstationfarmersmarket.com/",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://unionstationfarmersmarket.com/"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://unionstationfarmersmarket.com/"},
+  "Products": {"value": "Coffee, fresh bread, honey, jams, fresh produce", "source_url": "https://unionstationfarmersmarket.com/"},
+  "Website": {"value": "https://unionstationfarmersmarket.com/", "source_url": "https://unionstationfarmersmarket.com/"},
+  "Facebook": {"value": "https://www.facebook.com/unionstationfarmersmarket/", "source_url": "https://www.facebook.com/unionstationfarmersmarket/"}
+ },
+ "notes": "On-file website (https://www.bcfm.org/union-station-farmers-marke) is a dead/truncated link, and BCFM's current site (bcfm.org) no longer lists any Denver/Union Station market at all, only Boulder/Longmont — BCFM appears to no longer run this market. Found the market's own dedicated domain, unionstationfarmersmarket.com, run by 'Jarman and Co. Events,' which is the current official site; used it for Hours/Months/Products. Its listed season dates (June 3-Sept 16) are labeled '2023' but the site (and a May-2026 Yelp listing with recent reviews at the same 1701 Wynkoop St address/hours) suggests it is still the operating market, so month names were generalized rather than year-specific dates. Replaced the on-file generic BoulderCountyFarmersMarkets Facebook with what appears to be the market's own dedicated Facebook page (facebook.com/unionstationfarmersmarket) based on exact name/domain match in search results, though Facebook's page content could not be directly fetched/verified (JS-blocked) to confirm details on the page itself. On-file address (1701 Wynkoop St., 80202) is already correct/confirmed by multiple sources. SNAP/EBT is claimed in some third-party aggregator search snippets (farmersmarketcoalition.org / coloradolandcan.org, describing a 'grower-only' market with '19 Colorado farmers') but that description conflicts with the official site's description (coffee/bread/honey/jams/produce, chef demos, live music) — likely describing a different era/operator of the market — so SNAP was omitted rather than guessed. No email, phone, Instagram, ADA, or certified-organic info found on the official site."
+}

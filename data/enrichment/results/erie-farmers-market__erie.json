@@ -1,0 +1,14 @@
+{
+ "id": "erie-farmers-market__erie",
+ "name": "Erie Farmers Market",
+ "city": "Erie",
+ "official_website": "https://realfarmersmarketco.com/erie-farmers-market/",
+ "fields": {
+  "Hours": {"value": "Thu: 5:00pm - 8:00pm", "source_url": "https://realfarmersmarketco.com/erie-farmers-market/"},
+  "Months Open": {"value": "May, June, July, August, September", "source_url": "https://realfarmersmarketco.com/erie-farmers-market/"},
+  "Products": {"value": "Organic, transitional, and pesticide-free vegetables; fruit from Palisade, CO; meats; eggs; artisan breads; honey; cheese; coffee; baked goods; natural body care; massage services; flowers; plants; jewelry; art; packaged goods", "source_url": "https://realfarmersmarketco.com/erie-farmers-market/"},
+  "Email": {"value": "kellyenterprisesltd@gmail.com", "source_url": "https://realfarmersmarketco.com/contact/"},
+  "Phone": {"value": "(303) 902-2451", "source_url": "https://realfarmersmarketco.com/contact/"}
+ },
+ "notes": "On-file website (realfarmersmarketco.com/erie-farmers-market/) is confirmed correct and official (Real Farmers Market Co is the operator running this market) — no repair needed. On-file Facebook (facebook.com/eriesfarmersmarket/) exists but page content could not be scraped for details (likely login-gated); left as-is since URL appears valid. Market runs Thu 5-8pm, May 7 - Sept 17, 2026, on Briggs St between Wells & Moffat in Erie (the on-file street-number address '515 Briggs St' was not confirmed or contradicted by the official site, so left unchanged). Email/phone are the operator's general contact (Kelly), listed on the official contact page and apply to this market. SNAP/EBT/Double Up acceptance and ADA accessibility were not stated on the official site or found via search, so omitted. No Instagram found on official site."
+}

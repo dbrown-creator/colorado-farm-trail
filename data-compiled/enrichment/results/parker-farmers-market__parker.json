@@ -1,0 +1,25 @@
+{
+ "id": "parker-farmers-market__parker",
+ "name": "Parker Farmers Market",
+ "city": "Parker",
+ "official_website": "https://www.facebook.com/parkerfarmersmarket/",
+ "fields": {
+   "Hours": {
+     "value": "Sun: 8:00am - 1:00pm",
+     "source_url": "https://www.parkercolorado.net/parker-farmers-market-dates-and-times/"
+   },
+   "Months Open": {
+     "value": "May, June, July, August, September, October",
+     "source_url": "https://www.parkercolorado.net/parker-farmers-market-dates-and-times/"
+   },
+   "Products": {
+     "value": "Fresh vegetables, fresh fruit, homemade salsa, flowers, herbs, baked goods, fresh bread, meats, dog treats, pasta, cosmetics, crafts, plus ready-made foods like breakfast burritos, quesadillas, and wine tasting; over 100 vendors",
+     "source_url": "https://www.parkercolorado.net/parker-farmers-market-dates-and-times/"
+   },
+   "Facebook": {
+     "value": "https://www.facebook.com/parkerfarmersmarket/",
+     "source_url": "https://www.facebook.com/parkerfarmersmarket/"
+   }
+ },
+ "notes": "The on-file website (parkercolorado.net/parker-farmers-market-dates-and-time) 404s at that exact path, but the corrected slug parkercolorado.net/parker-farmers-market-dates-and-times/ is live and gives market-specific hours/season/products. IMPORTANT: parkercolorado.net is confirmed (via its own About page) to be an independent volunteer community directory, not run by the Town of Parker or the market itself, so it is not a true 'official' source -- used here only because the market's actual operator site is dead. That operator is 'Colorado Farmers Markets' (coloradofarmersmarkets.com), referenced by parkercolorado.net and other listings as the market's real website, but the domain now resolves to a parked/for-sale landing page (verified via curl: returns a wsimg.com domain-parking lander, not market content), so it could not be used as a source and is not set as official_website. The market's Facebook page (facebook.com/parkerfarmersmarket) is confirmed to exist and match the market name/location, so it is used as official_website, but Facebook's About/info content is behind a login wall and could not be scraped for additional fields (hours/phone/email) via automated fetch. Could not confirm SNAP/EBT acceptance, ADA accessibility, certified organic status, email, Instagram, or a clearly-better street address from any legitimate source -- omitted rather than guessed. Town of Parker's Parks/Calendar page (parkerco.gov) lists a general Town contact (303-841-0353, town@parkerco.gov) but that is the municipal switchboard, not a market-specific contact, so it was not included."
+}

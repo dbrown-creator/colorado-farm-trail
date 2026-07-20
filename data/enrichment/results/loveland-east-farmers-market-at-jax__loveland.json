@@ -1,0 +1,10 @@
+{
+ "id": "loveland-east-farmers-market-at-jax__loveland",
+ "name": "Loveland East Farmers Market at Jax",
+ "city": "Loveland",
+ "official_website": "https://www.facebook.com/p/Loveland-East-Farmers-Market-at-Jax-100083436094676/",
+ "fields": {
+   "Facebook": {"value": "https://www.facebook.com/p/Loveland-East-Farmers-Market-at-Jax-100083436094676/", "source_url": "https://www.facebook.com/p/Loveland-East-Farmers-Market-at-Jax-100083436094676/"}
+ },
+ "notes": "No official standalone website found; no on-file website/facebook to verify (both were blank). Located the market's official Facebook page (100083436094676). Multiple web searches indicate the JAX Loveland East store at 950 E Eisenhower Blvd (this market's address) has permanently closed, and the market's own Facebook page posted that there will be no Loveland East Farmers Market this year due to that closure. Could not directly load the Facebook page content (JS-rendered, not scrapable), so operational details (hours, months, products, SNAP) reported by search-engine summaries are attributed to third-party aggregators (e.g., cropcartmarkets, foraged) rather than a clearly-stated official source, and per instructions were omitted rather than guessed. Do not confuse with the separate, still-operating 'Loveland West Farmers' Market at Jax' at 2665 W Eisenhower Blvd (facebook.com/LovelandWestFarmersMarket), which is a different market entity."
+}

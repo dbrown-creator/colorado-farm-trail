@@ -1,0 +1,33 @@
+{
+ "id": "monument-hill-farmers-market__monument",
+ "name": "Monument Hill Farmers' Market",
+ "city": "Monument",
+ "official_website": "https://www.springsfarmersmarkets.com/monument",
+ "fields": {
+  "Hours": {
+   "value": "Sat: 8:00am - 2:00pm",
+   "source_url": "https://www.townofmonument.org/Calendar.aspx?EID=194"
+  },
+  "Months Open": {
+   "value": "May, June, July, August, September, October",
+   "source_url": "https://www.townofmonument.org/Calendar.aspx?EID=194"
+  },
+  "Address": {
+   "value": "66 Jefferson Street, Monument, CO 80132",
+   "source_url": "https://www.townofmonument.org/Calendar.aspx?EID=194"
+  },
+  "Phone": {
+   "value": "719-351-0012",
+   "source_url": "https://www.springsfarmersmarkets.com/monument"
+  },
+  "Email": {
+   "value": "corderamarket@yahoo.com",
+   "source_url": "https://www.springsfarmersmarkets.com/monument"
+  },
+  "Facebook": {
+   "value": "https://www.facebook.com/monumenthillfarmersmarket/",
+   "source_url": "https://www.facebook.com/monumenthillfarmersmarket/"
+  }
+ },
+ "notes": "On-file record had no website/facebook. The market is operated by 'Colorado Springs Farmer's Markets' (run via Cordera Market); its official operator site (Wix-based, JS-heavy, only header/contact/footer text extractable via fetch) has a dedicated Monument page at springsfarmersmarkets.com/monument, confirmed as the market's official website by the Town of Monument's own event calendar page (which links to it and gives location/hours/season). Phone (719-351-0012) and email (corderamarket@yahoo.com) come from the operator site's general contact section, not a Monument-specific line, so may route to the operator rather than this market directly. Address corrected from file's '146 Jefferson Street' to '66 Jefferson Street, Monument, CO 80132' (Big Red / Lewis Palmer D38 Administration Building), per the Town of Monument calendar listing; multiple other sources (colorado.com, search aggregators) also cite 66 Jefferson St. A dedicated Facebook page (facebook.com/monumenthillfarmersmarket) exists and is referenced by aggregators as the market's page, but Facebook blocked automated content fetch so its contents (hours/products/etc.) could not be independently verified beyond the page's existence/URL. Third-party sources (colorado.com, nfmd.org, springsfarmersmarkets homepage) mention 'organic' produce and roughly 45 vendors/Saturday, but none clearly and authoritatively state Products, SNAP/EBT acceptance, ADA accessibility, or Certified Organic status on an official source, so those fields were omitted. A slightly older/alternate operator URL format (springsfarmersmarkets.com/#!monument/cc1x) also appears in some listings but redirects to the same site."
+}

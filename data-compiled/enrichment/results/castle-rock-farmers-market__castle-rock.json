@@ -1,0 +1,15 @@
+{
+ "id": "castle-rock-farmers-market__castle-rock",
+ "name": "Castle Rock Farmers Market",
+ "city": "Castle Rock",
+ "official_website": "https://originalcastlerockfarmersmarket.com/",
+ "fields": {
+   "Hours": {"value": "Sat: 8:00am - 12:30pm", "source_url": "https://originalcastlerockfarmersmarket.com/"},
+   "Months Open": {"value": "June, July, August, September, October", "source_url": "https://originalcastlerockfarmersmarket.com/"},
+   "Products": {"value": "Fresh fruits, vegetables, and other products from local farmers, ranchers, bakers and other vendors, including meats, dairy, baked goods, prepared foods, coffee, specialty items, and health products", "source_url": "https://originalcastlerockfarmersmarket.com/"},
+   "Email": {"value": "originalcrfm@gmail.com", "source_url": "https://originalcastlerockfarmersmarket.com/"},
+   "Phone": {"value": "719-401-1495", "source_url": "https://originalcastlerockfarmersmarket.com/"},
+   "Address": {"value": "500 Fairgrounds Drive, Upper Parking Lot, Castle Rock, CO 80104", "source_url": "https://originalcastlerockfarmersmarket.com/"}
+ },
+ "notes": "On-file website https://originalcastlerockfarmersmarket.com/ verified as the correct official site (address 500 Fairgrounds Drive matches on-file data exactly, distinguishing it from the separate 'Festival Park Farmers Market' run by Town of Castle Rock/The LOCAL Colorado at a different downtown location). Site confirms hours run mid-June through the first Saturday of October, Saturdays 8am-12:30pm (note: on-file source elsewhere had said 1pm; site itself states 12:30pm, used clearly-stated site value). Facebook page on file (https://www.facebook.com/castlerockfarmersmarket) could not be independently verified via fetch (Facebook blocks scraping) so it was not re-stated as a newly-confirmed field, but nothing found contradicts it; the official site's own Facebook links were non-functional placeholders. No SNAP/EBT/Double Up Food Bucks, ADA accessibility, certified organic status, or Instagram info was found stated anywhere on the official site (checked homepage plus /faq and /about which both 404'd), so those fields were omitted rather than guessed."
+}

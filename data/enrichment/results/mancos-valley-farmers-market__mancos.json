@@ -1,0 +1,16 @@
+{
+ "id": "mancos-valley-farmers-market__mancos",
+ "name": "Mancos Valley Farmers Market",
+ "city": "Mancos",
+ "official_website": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/",
+ "fields": {
+  "Hours": {"value": "Thu: 4:00pm - 7:00pm", "source_url": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/"},
+  "Months Open": {"value": "June, July, August, September, October", "source_url": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/"},
+  "Products": {"value": "High-quality products from local Mancos Valley producers of all kinds", "source_url": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/"},
+  "Email": {"value": "info@mancosvalleyresources.com", "source_url": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/"},
+  "Facebook": {"value": "https://www.facebook.com/MancosValleyFarmersMarket", "source_url": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/"},
+  "Instagram": {"value": "https://www.instagram.com/mancos_valley_farmers_market/", "source_url": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/"},
+  "Website": {"value": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/", "source_url": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/"}
+ },
+ "notes": "On-file website https://mancosvalleyresources.com is the homepage of Mancos Valley Resources (MVR), the market's fiscal sponsor/parent org; the homepage itself has no market info, but MVR hosts a dedicated, actively-maintained market page (recent-posts widget shows 2026 newsletters, confirming the site is current) at the URL used above -- treated as the official source. Market takes place at Boyle Park in downtown Mancos; the on-file street address (150 Grand Ave) was not confirmed or contradicted by this source, so it was left unchanged. On-file Facebook URL was confirmed correct. SNAP/EBT acceptance, phone number, ADA accessibility, and certified-organic status were not stated on this official page and were omitted (third-party sites like Colorado.com/AARP mention SNAP but were not used as they are not official sources)."
+}

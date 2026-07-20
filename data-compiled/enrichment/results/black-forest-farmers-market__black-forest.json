@@ -1,0 +1,18 @@
+{
+ "id": "black-forest-farmers-market__black-forest",
+ "name": "Black Forest Farmers Market",
+ "city": "Black Forest",
+ "official_website": "https://www.thebackyardmarkets.com/black-forest-market",
+ "fields": {
+  "Hours": {"value": "Saturday 9am-1pm", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"},
+  "Products": {"value": "Over 70 producers-only vendors selling Colorado-grown produce, baked goods, prepared foods, coffee, honey, flowers, crafts, and artisanal products; each vendor makes, bakes, grows, or raises what they sell", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"},
+  "SNAP": {"value": "Yes", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"},
+  "Phone": {"value": "719-747-2586", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"},
+  "Facebook": {"value": "https://www.facebook.com/backyardfarmshop", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"},
+  "Instagram": {"value": "https://www.instagram.com/backyardfarmshop", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"},
+  "Address": {"value": "6845 Shoup Rd, Black Forest, CO 80908", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"},
+  "Website": {"value": "https://www.thebackyardmarkets.com/black-forest-market", "source_url": "https://www.thebackyardmarkets.com/black-forest-market"}
+ },
+ "notes": "The 'Black Forest Farmers Market' is the same entity as the 'Backyard Market in Black Forest' — it is operated by Backyard Market Inc. (thebackyardmarkets.com), whose page for this location is titled 'Black Forest Farmers Market' and is promoted elsewhere (e.g. Facebook page 'Backyard Market in Black Forest', KOAA news coverage) under the Backyard Market name. Season runs May 23 - October 17 (dates may shift year to year; months given are approximate). Location is described as 'at the corners of Shoup Rd and Black Forest Rd' in the Black Forest Community Church parking lot; official site lists street address as 6845 Shoup Rd, which differs from the address on file (10915 Black Forest Road) but is the address as clearly stated on the official site — may refer to the same corner/parking lot. Facebook/Instagram links found are the organization's general 'backyardfarmshop' handles rather than a market-specific handle, but are the accounts referenced from the official market page. No ADA accessibility or certified organic status was stated on the site; no email was found."
+}

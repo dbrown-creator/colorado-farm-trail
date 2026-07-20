@@ -1,0 +1,45 @@
+{
+ "id": "buena-vista-farmers-market__buena-vista",
+ "name": "Buena Vista Farmers' Market",
+ "city": "Buena Vista",
+ "official_website": "https://www.foodshedalliance.com/",
+ "fields": {
+  "Website": {
+   "value": "https://www.foodshedalliance.com/",
+   "source_url": "https://www.foodshedalliance.com/meet-our-vendors"
+  },
+  "Facebook": {
+   "value": "https://www.facebook.com/FoodshedAllianceCO/",
+   "source_url": "https://www.facebook.com/FoodshedAllianceCO/"
+  },
+  "Instagram": {
+   "value": "https://www.instagram.com/buena_vista_farmers_market/",
+   "source_url": "https://www.instagram.com/buena_vista_farmers_market/"
+  },
+  "Email": {
+   "value": "info@foodshedalliance.com",
+   "source_url": "https://www.foodshedalliance.com/contact"
+  },
+  "Phone": {
+   "value": "(913) 904-8207",
+   "source_url": "https://www.foodshedalliance.com/contact"
+  },
+  "Address": {
+   "value": "Columbine Park, 51 Linderman Ave, Buena Vista, CO 81211",
+   "source_url": "https://arkvalleyvoice.com/first-buena-vista-farmers-market-of-the-season-is-coming-to-columbine-park-on-june-7/"
+  },
+  "Hours": {
+   "value": "Sat: 9:00am - 1:00pm",
+   "source_url": "https://arkvalleyvoice.com/first-buena-vista-farmers-market-of-the-season-is-coming-to-columbine-park-on-june-7/"
+  },
+  "Months Open": {
+   "value": "June, July, August, September, October",
+   "source_url": "https://arkvalleyvoice.com/first-buena-vista-farmers-market-of-the-season-is-coming-to-columbine-park-on-june-7/"
+  },
+  "Products": {
+   "value": "Locally grown produce, jewelry, breakfast/prepared food, pottery, art, crafts",
+   "source_url": "https://arkvalleyvoice.com/first-buena-vista-farmers-market-of-the-season-is-coming-to-columbine-park-on-june-7/"
+  }
+ },
+ "notes": "On-file website (foodshedalliance.com) is confirmed correct: Foodshed Alliance (a Chaffee County nonprofit, formerly 'Central Colorado Foodshed Alliance'/CCFA) is the confirmed operator of the Buena Vista Farmers' Market, per its own vendor/insurance pages ('Proof of insurance... required to be a vendor at Salida and Buena Vista Markets'). However, as of this research (Jul 2026) the site's own 'Discover the Market' and 'new-page' pages only publish a live schedule for the Salida and Chaffee County Winter markets, not a dedicated Buena Vista page/section, so Hours/Months Open/Address/Products could not be sourced directly from foodshedalliance.com. Those four fields instead come from Ark Valley Voice (local news outlet, reporting the market's 2025 season announcement), and are corroborated independently by Colorado LandCAN, Yelp, and Heart of the Rockies Radio (all citing the same Columbine Park location, 9am-1pm Saturdays, and June-October season) - treat as very likely but not site-confirmed for the current 2026 season. On-file address 'South Main Town Square' appears outdated/incorrect; the market is consistently located at Columbine Park (behind K's Dairy Delite/K's Burger Shack), 51 Linderman Ave. On-file facebook field was blank; found and used Foodshed Alliance's main Facebook page (content could not be fetched directly due to Facebook access restrictions, so it's confirmed by name/URL match only, not by reading its post content). SNAP acceptance is claimed by a third-party LandCAN listing ('We accept SNAP') but not confirmed on any official Foodshed Alliance page for Buena Vista specifically, so it was omitted rather than guessed. ADA accessibility and certified-organic status are not stated anywhere found."
+}

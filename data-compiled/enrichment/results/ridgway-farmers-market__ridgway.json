@@ -1,0 +1,17 @@
+{
+ "id": "ridgway-farmers-market__ridgway",
+ "name": "Ridgway Farmers Market",
+ "city": "Ridgway",
+ "official_website": "https://www.ridgwayfarmersmarket.com",
+ "fields": {
+  "Hours": {"value": "Fri: 10:00am - 2:00pm", "source_url": "https://www.ridgwayfarmersmarket.com"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://www.ridgwayfarmersmarket.com"},
+  "Products": {"value": "Fresh produce and handcrafted goods from local farmers, ranchers, bakers, and artisans", "source_url": "https://www.ridgwayfarmersmarket.com"},
+  "SNAP": {"value": "Yes", "source_url": "https://www.ridgwayfarmersmarket.com"},
+  "Email": {"value": "manager@ridgwayfarmersmarket.com", "source_url": "https://www.ridgwayfarmersmarket.com"},
+  "Phone": {"value": "970-497-0755", "source_url": "https://www.ridgwayfarmersmarket.com"},
+  "Facebook": {"value": "https://www.facebook.com/RidgwayFarmersMarket", "source_url": "https://www.ridgwayfarmersmarket.com"},
+  "Instagram": {"value": "https://www.instagram.com/ridgway_farmersmarket", "source_url": "https://www.ridgwayfarmersmarket.com"}
+ },
+ "notes": "On-file website (ridgwayfarmersmarket.com) is live and confirmed as the official site; on-file Facebook URL also confirmed correct. Site states market runs 'Every Friday 10am - 2pm May 22nd - October 16th' at Hartwell Park, Downtown Ridgway (mailing address PO Box 2118, Ridgway, CO 81432, but the physical market address of Hartwell Park was already correct on file, so no address change made). Site lists nutrition assistance programs as 'WIC/SNAP/DUFB' implying SNAP acceptance. No mention found of ADA accessibility or certified organic status, so those fields were omitted."
+}

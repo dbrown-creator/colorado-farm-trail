@@ -1,0 +1,17 @@
+{
+ "id": "edwards-corner-farmers-market__edwards",
+ "name": "Edwards Corner Farmers' Market",
+ "city": "Edwards",
+ "official_website": "",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://www.edwards-colorado.com/farmer-s-market"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://www.edwards-colorado.com/farmer-s-market"},
+  "Products": {"value": "Fresh, local and organic foods, crafts and other products from more than 30 vendors", "source_url": "https://www.edwards-colorado.com/farmer-s-market"},
+  "Email": {"value": "shawandassoc@sbcglobal.net", "source_url": "https://www.edwards-colorado.com/farmer-s-market"},
+  "Phone": {"value": "414-975-5952", "source_url": "https://www.edwards-colorado.com/farmer-s-market"},
+  "Facebook": {"value": "https://www.facebook.com/edwardsfarmersmarket/", "source_url": "https://www.edwards-colorado.com/farmer-s-market"},
+  "Instagram": {"value": "https://www.instagram.com/edwardsfarmersmarket/", "source_url": "https://www.edwards-colorado.com/farmer-s-market"},
+  "Address": {"value": "57 Edwards Access Rd, Edwards, CO 81632 (Edwards West Plaza)", "source_url": "https://www.edwards-colorado.com/farmer-s-market"}
+ },
+ "notes": "On-file website http://edwardscornerfarmersmarket.com/ is dead (connection refused). No dedicated market-run website was found; best available official-ish source is the Edwards Metropolitan District page (edwards-colorado.com/farmer-s-market), which explicitly states it is not affiliated with the market but lists current 2026 season hours, dates, location, and direct contact info (phone/email) for market inquiries, plus the market's own Instagram handle. Facebook page https://www.facebook.com/edwardsfarmersmarket/ (title 'Edwards Farmer's Market | Edwards CO') was confirmed via search but its content could not be fetched directly (JS-rendered), so it was not used as a field source. Left official_website empty since no genuinely market-owned site was located. SNAP/EBT, ADA accessibility, and certified organic status were not clearly stated anywhere found, so omitted. Note the on-file address (56 Edwards Village Blvd.) differs slightly from the address given by this source (57 Edwards Access Rd, Edwards West Plaza) -- both likely refer to the same shopping plaza."
+}

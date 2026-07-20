@@ -1,0 +1,16 @@
+{
+ "id": "farmers-market-at-highlands-square__denver",
+ "name": "Farmers' Market at Highlands Square",
+ "city": "Denver",
+ "official_website": "https://thehighlandsfarmersmarket.com/",
+ "fields": {
+  "Hours": {"value": "Sun: 9:00am - 1:00pm", "source_url": "https://thehighlandsfarmersmarket.com/"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://thehighlandsfarmersmarket.com/"},
+  "Products": {"value": "Colorado-grown produce, locally made goods, and ready-to-eat breakfast and lunch; flowers; live music", "source_url": "https://thehighlandsfarmersmarket.com/"},
+  "Email": {"value": "highlandmerchants@gmail.com", "source_url": "https://visitdenverhighlands.com/contact"},
+  "Facebook": {"value": "https://www.facebook.com/profile.php?id=100077076291644", "source_url": "https://visitdenverhighlands.com/highlands-farmers-market"},
+  "Instagram": {"value": "https://www.instagram.com/visitdenverhighlands/", "source_url": "https://visitdenverhighlands.com/highlands-farmers-market"},
+  "Website": {"value": "https://thehighlandsfarmersmarket.com/", "source_url": "https://thehighlandsfarmersmarket.com/"}
+ },
+ "notes": "On-file website http://www.highlands-square.com is dead (404) — not the market's site. The market runs Sundays, May 10 - Oct 25, 9am-1pm at W 32nd Ave & Lowell Blvd (the Highlands Square shopping district, matching the on-file address 3489 W. 32nd Ave.), so left Address unchanged. Two overlapping official-type sources exist: thehighlandsfarmersmarket.com (dedicated market site with vendor/musician sign-up via hobnob-events.mymarket.org, used as primary official_website/Hours/Products source) and visitdenverhighlands.com/highlands-farmers-market, run by the Highland Square Merchants Association, which lists the market's Facebook/Instagram/email — used for those contact fields. The on-file Facebook (facebook.com/FarmersMarketAtHighlandsSquare) appears dead/restricted; replaced with the HMA's active Facebook. Could not confirm SNAP/EBT/Double Up acceptance, phone, ADA accessibility, or certified-organic status on any official source (a third-party aggregator, Foraged, claims SNAP/EBT is accepted, but that's not an official source per instructions, so SNAP was omitted)."
+}

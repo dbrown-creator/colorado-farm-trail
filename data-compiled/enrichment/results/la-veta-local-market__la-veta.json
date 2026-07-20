@@ -1,0 +1,11 @@
+{
+ "id": "la-veta-local-market__la-veta",
+ "name": "La Veta Local Market",
+ "city": "La Veta",
+ "official_website": "https://www.facebook.com/p/La-Veta-Farmers-Market-100081771473675/",
+ "fields": {
+  "Hours": {"value": "Thu: 3:00pm - 5:00pm", "source_url": "https://lvpl.org/events/la-veta-farmers-market/"},
+  "Facebook": {"value": "https://www.facebook.com/p/La-Veta-Farmers-Market-100081771473675/", "source_url": "https://spanishpeakscountry.com/spc-event/la-veta-farmers-market/2025-03-27/"}
+ },
+ "notes": "On-file website http://wahatoya.org/ is dead (DNS does not resolve). No official standalone site found; the market appears to operate primarily via its Facebook page 'La Veta Farmers Market' (facebook.com/p/La-Veta-Farmers-Market-100081771473675), which is referenced consistently across the La Veta Public Library events page and Spanish Peaks Country tourism site, so it is used as the official_website substitute. Content of the Facebook page itself could not be fetched directly (redirect blocked). Name discrepancy: on-file record is 'La Veta Local Market' at 306 S. Main St., while all sources found refer to 'La Veta Farmers Market' at 310 S. Main St. (next to La Veta Public Library) — very likely the same market given identical city, street, and library-adjacent location, but treated cautiously since not 100% confirmed. Address left unchanged due to this ambiguity (one directory, Marketspread, lists an unclaimed/unverified listing at La Veta Town Park, W Ryus Ave, which conflicts with the Main St location and was not used). Sources gave conflicting info on season (one said 'mid-May to mid-October', another said 'year-round') so Months Open was omitted. Products, SNAP, Email, Instagram, Phone, ADA Accessible, and Certified Organic were not clearly/consistently stated on any fetchable legitimate source, so they were omitted."
+}

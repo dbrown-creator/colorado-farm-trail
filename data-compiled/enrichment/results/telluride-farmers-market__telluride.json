@@ -1,0 +1,18 @@
+{
+ "id": "telluride-farmers-market__telluride",
+ "name": "Telluride Farmers' Market",
+ "city": "Telluride",
+ "official_website": "http://www.thetelluridefarmersmarket.com/",
+ "fields": {
+  "Hours": {"value": "Fri: 10:30am - 3:30pm", "source_url": "http://www.thetelluridefarmersmarket.com/"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "http://www.thetelluridefarmersmarket.com/"},
+  "Products": {"value": "Produce, animal products, prepared food, and artisan goods produced within 100 miles of Telluride; organic focus (vendors require minimum 75% organic ingredients)", "source_url": "http://www.thetelluridefarmersmarket.com/our-market"},
+  "SNAP": {"value": "Yes", "source_url": "https://www.telluridenews.com/news/article_223fc0fa-1ed8-11ef-af94-ff303a58f723.html"},
+  "Email": {"value": "telluridefarmersmarket@gmail.com", "source_url": "http://www.thetelluridefarmersmarket.com/contact"},
+  "Phone": {"value": "646.245.6580", "source_url": "http://www.thetelluridefarmersmarket.com/contact"},
+  "Instagram": {"value": "https://www.instagram.com/telluridefarmersmarket/", "source_url": "http://www.thetelluridefarmersmarket.com/contact"},
+  "Facebook": {"value": "https://www.facebook.com/thetelluridefarmersmarket/", "source_url": "https://www.facebook.com/thetelluridefarmersmarket/"},
+  "Website": {"value": "http://www.thetelluridefarmersmarket.com/", "source_url": "http://www.thetelluridefarmersmarket.com/"}
+ },
+ "notes": "On-file website (thetelluridefarmersmarket.com) is confirmed live and official; it lists current 2026 season (Fri May 29-Oct 9, 10:30am-3:30pm) on the homepage and email/phone/Instagram on the /contact page. On-file Facebook URL (facebook.com/pages/Telluride-Farmers-Market/154932191228871) is a stale legacy page ID; replaced with the current official page facebook.com/thetelluridefarmersmarket/ found via search (page could not be fetched directly to confirm content, but title/URL match is a strong signal). SNAP/EBT and WIC acceptance is not stated on the official site itself but is directly quoted from market organizers in a telluridenews.com article ('at the market tent, we can also issue SNAP dollars for those with EBT cards'), used as a fallback since it's local news reporting, not an aggregator. 'Organic' is described as a market/vendor requirement (min 75% organic ingredients) rather than a market-wide 'Certified Organic' designation, so the 'Certified Organic' field was omitted as ambiguous. No ADA accessibility statement found anywhere. Address left unchanged (S. Oak St., matches 'South Oak Street in downtown Telluride' from official site)."
+}

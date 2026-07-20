@@ -1,0 +1,8 @@
+{
+ "id": "conejos-county-farmers-market__la-jara",
+ "name": "Conejos County Farmers' Market",
+ "city": "La Jara",
+ "official_website": "",
+ "fields": {},
+ "notes": "On-file website field was blank. On-file Facebook (https://www.facebook.com/conejoscountymarket) could not be verified: it is JS-rendered and returned no extractable content via WebFetch, and the Chrome browser tool was unavailable (extension not connected) to load it visually, so no facts could be confirmed from it and it was not confirmed as dead either. Extensive web search found no other official market or operator (e.g. Colorado Farmers Markets, Mile High Farmers Markets, Backyard Markets) site, and no Conejos County Chamber of Commerce page for a La Jara market (the Chamber's events page only covers a separate Antonito Farmers Market at PO Box 384, Antonito, (719) 580-9660). Third-party aggregators (Foraged, LocalHarvest) have listings but with vague/generic or seemingly outdated/conflicting details (e.g. LocalHarvest describes a Friday-evening market in a church parking lot off Hwy 285 sponsored by La Jara's Economic Development Committee, contact 'Jay Warner' - inconsistent with the on-file Broadway Ave. address) and were excluded per instructions to use only legitimate official sources. No fields could be confirmed as clearly stated from an official source."
+}

@@ -1,0 +1,18 @@
+{
+ "id": "woodland-park-farmers-market__woodland-park",
+ "name": "Woodland Park Farmers Market",
+ "city": "Woodland Park",
+ "official_website": "https://wpfarmersmarket.com",
+ "fields": {
+  "Hours": {"value": "Fri: 8:00am - 1:00pm", "source_url": "https://wpfarmersmarket.com/faq"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://wpfarmersmarket.com/faq"},
+  "Products": {"value": "Local and regionally grown fruits & vegetables, local and regionally raised meats, plants, flowers & herbs, farm-fresh eggs & dairy products, baked goods, snacks, spices", "source_url": "https://wpfarmersmarket.com/faq"},
+  "SNAP": {"value": "Yes", "source_url": "https://wpfarmersmarket.com/faq"},
+  "Email": {"value": "info@wpfarmersmarket.com", "source_url": "https://wpfarmersmarket.com/contact-us"},
+  "Phone": {"value": "(719) 229-3767", "source_url": "https://wpfarmersmarket.com/contact-us"},
+  "Facebook": {"value": "https://www.facebook.com/wpfarmersmarket", "source_url": "https://wpfarmersmarket.com"},
+  "Instagram": {"value": "https://www.instagram.com/wpfarmersmarket", "source_url": "https://wpfarmersmarket.com"},
+  "Website": {"value": "https://wpfarmersmarket.com", "source_url": "https://wpfarmersmarket.com"}
+ },
+ "notes": "On-file website (https://www.wpfarmersmarket.com) is valid and is the same official site as https://wpfarmersmarket.com (confirmed live, current content). Also accepts Double Up Colorado program (double vouchers up to $20/market day for CO-grown produce) alongside SNAP/EBT, per FAQ page. Market operates Fridays 8am-1pm, first Friday in June through last Friday in September, at Memorial Park (Center St & Henrietta Ave), Woodland Park, CO 80863 -- this is an intersection/park location, not a numbered street address, so the on-file '117 Center Ave' address was left unchanged (not clearly a better/more specific match). The site also mentions a separate one-day Holiday Market the Saturday before Thanksgiving (9am-1pm) at Ute Pass Cultural Center, 210 E. Midland Ave -- treated as a distinct seasonal event, not part of core Hours/Months Open. ADA accessibility and market-wide certified organic status are not clearly stated (FAQ notes some but not all vendors use organic methods), so both fields were omitted. No mailing/physical street number found beyond PO Box 464, Woodland Park, CO 80866."
+}

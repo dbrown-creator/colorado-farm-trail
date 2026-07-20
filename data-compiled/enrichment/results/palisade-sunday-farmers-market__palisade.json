@@ -1,0 +1,33 @@
+{
+  "id": "palisade-sunday-farmers-market__palisade",
+  "name": "Palisade Sunday Farmers' Market",
+  "city": "Palisade",
+  "official_website": "https://palisade.colorado.gov/sunday-farmers-market",
+  "fields": {
+    "Website": {
+      "value": "https://palisade.colorado.gov/sunday-farmers-market",
+      "source_url": "https://palisade.colorado.gov/sunday-farmers-market"
+    },
+    "Hours": {
+      "value": "Sun: 9:00am - 1:00pm",
+      "source_url": "https://palisade.colorado.gov/sunday-farmers-market"
+    },
+    "Months Open": {
+      "value": "June, July, August, September, October",
+      "source_url": "https://palisade.colorado.gov/sunday-farmers-market"
+    },
+    "Products": {
+      "value": "Fresh produce and an ever-changing collection of handcrafted/artisan goods (baked goods, lavender, soaps, jewelry, juice, flowers), plus rotating food trucks and live music",
+      "source_url": "https://palisade.colorado.gov/sunday-farmers-market"
+    },
+    "Facebook": {
+      "value": "https://www.facebook.com/PalisadeFarmersMarket",
+      "source_url": "https://palisade.colorado.gov/sunday-farmers-market"
+    },
+    "Phone": {
+      "value": "970-464-5602",
+      "source_url": "https://palisade.colorado.gov/sunday-farmers-market"
+    }
+  },
+  "notes": "The on-file website (townofpalisade.org/departments/sunday-market-page) 301-redirects to the current official Town of Palisade page https://palisade.colorado.gov/sunday-farmers-market, which was used as the primary source. Address '3rd St. & Main St.' on file matches the official page's 'Third and Main Streets, Downtown Palisade' so no change made. On-file Facebook URL confirmed correct (embedded on the official page). Could not verify Email (a market@townofpalisade.org address surfaced in general web search but was not found stated on the official Town page or its contact-directory/contact-us pages, so omitted per source-quality rule), Instagram (only individual musical performers have Instagram links, not the market itself), SNAP/EBT acceptance, ADA accessibility, or Certified Organic status — none of these were clearly stated on the official site, so they were left out."
+}

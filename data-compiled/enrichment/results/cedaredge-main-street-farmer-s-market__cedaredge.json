@@ -1,0 +1,15 @@
+{
+ "id": "cedaredge-main-street-farmer-s-market__cedaredge",
+ "name": "Cedaredge Main Street Farmer's Market",
+ "city": "Cedaredge",
+ "official_website": "https://www.cedaredgecolorado.com/",
+ "fields": {
+  "Hours": {"value": "Wed: 4:00pm - 7:00pm", "source_url": "https://deltacountycolorado.com/event/cedaredge-main-street-farmers-market/2026-07-15/"},
+  "Months Open": {"value": "July, August, September", "source_url": "https://deltacountycolorado.com/event/cedaredge-main-street-farmers-market/2026-07-15/"},
+  "Products": {"value": "Local produce, baked goods, and handmade artisan/craft goods from local growers, backyard gardeners, bakers, crafters, and makers", "source_url": "https://deltacountycolorado.com/event/cedaredge-main-street-farmers-market/2026-07-15/"},
+  "Email": {"value": "aalfaro@cedaredgecolorado.com", "source_url": "https://deltacountycolorado.com/event/cedaredge-main-street-farmers-market/2026-07-15/"},
+  "Phone": {"value": "970-856-3123", "source_url": "https://deltacountycolorado.com/event/cedaredge-main-street-farmers-market/2026-07-15/"},
+  "Facebook": {"value": "https://www.facebook.com/CedaredgeMainStreetMarket/", "source_url": "https://www.facebook.com/CedaredgeMainStreetMarket/"}
+ },
+ "notes": "On-file website was blank and the on-file Facebook URL (facebook.com//pages/Cedaredge-Main-Street-Farmers-Market/315722935169618) is a stale/legacy-format link. The market is a weekly pop-up organized directly by the Town of Cedaredge (contact: Amy Alfaro, aalfaro@cedaredgecolorado.com, 970-856-3123); it has no dedicated market domain, so official_website is set to the Town's general site (cedaredgecolorado.com), which did not surface a market-specific subpage in search. Identified a current, name-matching official Facebook page (facebook.com/CedaredgeMainStreetMarket, aka 'Cedaredge Artisan and Farmers Market') via search, but Facebook content could not be fetched directly (blocked/JS-rendered), so hours/products/months/contact facts were instead sourced from the Delta County Tourism event listing, which itself cites the Town of Cedaredge organizer contact. A second, seemingly distinct Facebook page 'Cedaredge Farmers Market' (facebook.com/CedaredgeFarmersMarket) also exists in the area but was not used since its relation to this specific listing (address 175 E Main St) is unclear. SNAP acceptance was mentioned only as speculative ('vendors may accept SNAP, EBT, FMNP, WIC' / 'might accept SNAP, contact them') in secondary sources, so it was omitted as not clearly stated. No ADA accessibility or certified-organic statements found. Address (175 E Main St) was not contradicted or clearly improved by any source found."
+}

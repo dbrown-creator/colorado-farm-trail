@@ -1,0 +1,15 @@
+{
+ "id": "florence-farmers-market__florence",
+ "name": "Florence Farmers Market",
+ "city": "Florence",
+ "official_website": "https://www.facebook.com/MarketinFlorence/",
+ "fields": {
+  "Hours": {"value": "Thu: 8:00am - 1:00pm", "source_url": "https://www.coloradolandcan.org/local-resources/Florence-Farmers-Market/40484"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://www.facebook.com/MarketinFlorence/"},
+  "Products": {"value": "Fresh fruit and vegetables, crafts, bakery items, stained glass, wood items, flowers, herbs, jams & jellies, honey, eggs, grass-fed beef, tamales, hot dogs and sausages", "source_url": "https://www.colorado.com/florence/florence-farmers'-market"},
+  "Email": {"value": "FlorenceCoFarmersMarket@gmail.com", "source_url": "https://www.coloradolandcan.org/local-resources/Florence-Farmers-Market/40484"},
+  "Phone": {"value": "(719) 784-6489", "source_url": "https://www.coloradolandcan.org/local-resources/Florence-Farmers-Market/40484"},
+  "Facebook": {"value": "https://www.facebook.com/MarketinFlorence/", "source_url": "https://www.facebook.com/MarketinFlorence/"}
+ },
+ "notes": "No on-file website existed (blank) and no dedicated market website could be found; the market's only official web presence is its Facebook page 'Florence Farmers Market | Florence CO' (facebook.com/MarketinFlorence), which is active (~2,481 likes) and matches the facebook already on file. Facebook's content could not be directly fetched by the tool (JS-rendered/blocked), so Hours/Email/Phone were corroborated via coloradolandcan.org (Colorado Land Conservation Assistance Network, a state agricultural resource directory) which lists the same address (3rd St & Pikes Peak / Pioneer Park) and season as search-indexed snippets of the Facebook page itself. Products list sourced from colorado.com (Colorado Tourism Office). Season end-date is ambiguous across sources: coloradolandcan.org says 'June 3 - September 30', a Facebook-derived search snippet says 'June 4 - Sept 24' (2026), while colorado.com says 'June 4 thru Oct 8' — all agree on June-September core months, so end date/day precision beyond Thursdays was left out of Hours. SNAP/EBT acceptance, Instagram, ADA accessibility, and certified-organic status were not stated in any source found and are omitted. Address on file (E 3rd St & N Pikes Peak Ave, zip 81226) matches sources (one third-party source listed zip 80440, which appears to be an error) and was not changed."
+}

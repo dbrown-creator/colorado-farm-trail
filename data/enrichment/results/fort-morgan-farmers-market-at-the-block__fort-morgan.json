@@ -1,0 +1,15 @@
+{
+ "id": "fort-morgan-farmers-market-at-the-block__fort-morgan",
+ "name": "Fort Morgan Farmers Market at The Block",
+ "city": "Fort Morgan",
+ "official_website": "https://www.theblock-mc.com",
+ "fields": {
+  "Website": {"value": "https://www.theblock-mc.com", "source_url": "https://www.theblock-mc.com/the-block-farmers-market"},
+  "Address": {"value": "19592 E 8th Ave, Fort Morgan, CO 80701", "source_url": "https://www.theblock-mc.com/contact"},
+  "Email": {"value": "julie@theblock-mc.com", "source_url": "https://www.theblock-mc.com/contact"},
+  "Phone": {"value": "(970) 867-7887", "source_url": "https://www.theblock-mc.com/contact"},
+  "Facebook": {"value": "https://www.facebook.com/theblockfortmorgan/", "source_url": "https://www.theblock-mc.com/about"},
+  "Instagram": {"value": "https://www.instagram.com/theblockfortmorgan/", "source_url": "https://www.theblock-mc.com/about"}
+ },
+ "notes": "On-file website (theblock-mc.com) is confirmed correct/live and is the market's official venue/operator site (The Block, a commissary kitchen & events space); it hosts a dedicated 'The Block Farmers Market' page (theblock-mc.com/the-block-farmers-market) but that page (and the site generally) does not clearly state Hours, Months Open, Products, SNAP/EBT acceptance, ADA accessibility, or organic certification -- likely because this content loads dynamically via JS/embedded social widget that the fetch tool could not render, or is only posted seasonally on Facebook. On-file Facebook URL confirmed correct but could not be scraped for hours/schedule details (Facebook blocks automated fetching). Third-party sources (Visit Morgan County tourism site, Fort Morgan Chamber, DiscoverRural) suggest the market runs 'select Saturdays, June-September, 9:00am-1:00pm' with produce, flowers, coffee, honey, canned goods, and breads, but per instructions these are not official/operator sources so were NOT included as fields -- only used to help confirm plausibility of the lead. Address obtained from the operator's own contact page matches the on-file address. No clearly-stated SNAP/EBT, ADA, or organic-certification info found on any official source."
+}

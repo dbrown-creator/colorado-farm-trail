@@ -1,0 +1,16 @@
+{
+ "id": "greeley-winter-farmers-market__greeley",
+ "name": "Greeley Winter Farmers' Market",
+ "city": "Greeley",
+ "official_website": "https://greeleyco.gov/events/farmers-market/",
+ "fields": {
+  "Website": {"value": "https://greeleyco.gov/events/farmers-market/", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Products": {"value": "Seasonal fruits, vegetables, flowers, seafood and meats, cheese, eggs, coffee, tea, bakery and bread, and handmade goods", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "SNAP": {"value": "Yes", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "ADA Accessible": {"value": "Yes", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Email": {"value": "farmers.market@greeleygov.com", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Facebook": {"value": "https://www.facebook.com/greeleyfarmersmarket/", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Instagram": {"value": "https://www.instagram.com/greeleyfarmersmarket/", "source_url": "https://greeleyco.gov/events/farmers-market/"}
+ },
+ "notes": "The on-file website (greeleygov.com/fm and greeleyco.gov/fm) both 404/dead-end; the market's real official page is the City of Greeley 'Farmers' Market' page at greeleyco.gov/events/farmers-market/, which covers both the summer market and this winter market under one umbrella. That page's FAQ explicitly confirms 'the summer and winter markets allow for wheelchair, stroller and ADA access,' and its SNAP/Double Up Food Bucks, products list, email, and social links apply to the market program as a whole (winter included). However, the page's structured schedule/address data is only populated for the 'Summer Farmers' Market' (7th St, North of Lincoln Park, May 2-Oct 31, 2026, Sat 8am-12pm) -- I could not find winter-specific Hours, Months Open, or Address stated verbatim on this official page or on the official Facebook (which requires login and could not be scraped), so those fields are omitted per the no-guessing rule. Multiple third-party/news sources (nocostyle.com, 1310kfka.com, nfmd.org, foraged.com) consistently describe the winter market as 1st & 3rd Saturday, 9am-12pm, November-April, at Zoe's Cafe and Events, 715 10th St, Greeley -- likely accurate but not sourced from an official page per the task's rules, so left out. No Phone or Certified Organic status was stated on the official page."
+}

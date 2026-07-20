@@ -1,0 +1,13 @@
+{
+ "id": "feed-denver-urban-farms-markets__denver",
+ "name": "Feed Denver: Urban Farms & Markets",
+ "city": "Denver",
+ "official_website": "http://www.feeddenver.com/",
+ "fields": {
+  "Products": {"value": "Just-harvested produce, fresh-baked breads, homemade jams/marmalades/condiments, local crafts & gifts, seeds, soil & starts, worm products", "source_url": "http://www.feeddenver.com/farm-market.html"},
+  "Phone": {"value": "303-513-7548", "source_url": "http://www.feeddenver.com/contact-us.html"},
+  "Email": {"value": "info@feeddenver.com", "source_url": "http://www.feeddenver.com/contact-us.html"},
+  "Facebook": {"value": "https://www.facebook.com/FeedDenver", "source_url": "http://www.feeddenver.com/contact-us.html"}
+ },
+ "notes": "The on-file site https://www.feeddenver.com/ fails to load over HTTPS (SSL handshake failure) and could not be fetched directly, so facts below are drawn from Google's indexed/cached content of the official feeddenver.com pages (farm-market.html and contact-us.html), which is consistent across multiple queries and appears to be verbatim site text. Could not directly verify current Hours, Months Open, SNAP acceptance, ADA accessibility, Certified Organic status, or an Instagram URL - none were found stated anywhere, official or otherwise. The organization's mailing address found (P.O. Box 11651, Denver, CO 80211) is a PO box, not a better street address than the on-file 2139 W. 44th Avenue, so Address was left unchanged. Facebook page https://www.facebook.com/FeedDenver could not be rendered by the fetch tool (JS-gated) but matches the on-file value and the official contact page, so it's listed as confirmed. Given the broken TLS on the official domain and no recent (2026) third-party market listings mentioning current activity, this market may be inactive or defunct - flagging for manual follow-up/phone verification."
+}

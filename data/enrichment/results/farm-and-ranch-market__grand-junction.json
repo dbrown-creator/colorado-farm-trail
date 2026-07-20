@@ -1,0 +1,17 @@
+{
+ "id": "farm-and-ranch-market__grand-junction",
+ "name": "Farm and Ranch Market",
+ "city": "Grand Junction",
+ "official_website": "https://www.farmmarketgj.com/",
+ "fields": {
+  "Hours": {"value": "Wed: 8:00am - 12:00pm; Sat: 8:00am - 12:00pm", "source_url": "https://www.farmmarketgj.com/"},
+  "Months Open": {"value": "June, July, August, September, October", "source_url": "https://www.farmmarketgj.com/"},
+  "Products": {"value": "Locally grown produce from family-owned farms and orchards", "source_url": "https://www.farmmarketgj.com/"},
+  "Email": {"value": "farmandranchmarket@gmail.com", "source_url": "https://www.farmmarketgj.com/"},
+  "Facebook": {"value": "https://www.facebook.com/GrandJunctionFarmandRanchMarket/", "source_url": "https://www.farmmarketgj.com/"},
+  "Phone": {"value": "970-778-1781", "source_url": "https://www.farmmarketgj.com/"},
+  "Address": {"value": "3073 F Rd, Grand Junction, CO 81504 (Cross Orchard Historic Site)", "source_url": "https://www.farmmarketgj.com/"},
+  "Website": {"value": "https://www.farmmarketgj.com/", "source_url": "https://www.farmmarketgj.com/"}
+ },
+ "notes": "On-file website www.farmmarketgj.com (http) is live and is the market's official Wix site; updated to https. On-file address '28th and North Ave.' appears outdated/incorrect — official site states the market is held at the Museums of Western Colorado Cross Orchards Historic Site, 3073 F Rd, Grand Junction, CO 81504. Hours per official site: Wed & Sat, 8:00am-12:00pm, June through October (a third-party aggregator listed 7:30am start, but official site says 8am, so 8am used). SNAP/EBT, ADA accessibility, Instagram, and certified organic status are not stated on the official site or its Facebook page (Facebook content could not be fetched directly). Facebook URL taken from official site link (GrandJunctionFarmandRanchMarket)."
+}

@@ -1,0 +1,45 @@
+{
+ "id": "evergreen-farmers-market__evergreen",
+ "name": "Evergreen Farmers Market",
+ "city": "Evergreen",
+ "official_website": "https://evergreenarts.org/cae/evergreen-farmers-market/",
+ "fields": {
+  "Hours": {
+   "value": "Tue: 10:00am - 2:00pm",
+   "source_url": "https://www.facebook.com/farmersmarketevergreen/"
+  },
+  "Months Open": {
+   "value": "May, June, July, August, September",
+   "source_url": "https://www.facebook.com/farmersmarketevergreen/"
+  },
+  "Products": {
+   "value": "Fresh produce, local goodies, and handmade treats from Colorado growers and makers",
+   "source_url": "https://evergreenarts.org/cae/evergreen-farmers-market/"
+  },
+  "Email": {
+   "value": "info@evergreenarts.org",
+   "source_url": "https://evergreenarts.org/cae/evergreen-farmers-market/"
+  },
+  "Phone": {
+   "value": "(303) 674-0056",
+   "source_url": "https://evergreenarts.org/cae/evergreen-farmers-market/"
+  },
+  "Facebook": {
+   "value": "https://www.facebook.com/farmersmarketevergreen/",
+   "source_url": "https://www.facebook.com/farmersmarketevergreen/"
+  },
+  "Instagram": {
+   "value": "https://www.instagram.com/evergreenfarmersmarket/",
+   "source_url": "https://evergreenarts.org/cae/evergreen-farmers-market/"
+  },
+  "Address": {
+   "value": "31880 Rocky Village Dr",
+   "source_url": "https://evergreenarts.org/cae/evergreen-farmers-market/"
+  },
+  "Website": {
+   "value": "https://evergreenarts.org/cae/evergreen-farmers-market/",
+   "source_url": "https://evergreenarts.org/cae/evergreen-farmers-market/"
+  }
+ },
+ "notes": "The on-file website (coloradooutdoormarkets.com) was WRONG for this record: that site's own embedded content (checked via raw HTML/JSON) explicitly identifies it as 'The Original Evergreen Farmers' Market' at 28253 Meadow Drive, Evergreen (a separate market entity in this dataset, id evergreen-farmers-market-the-original__evergreen), not the market at 1240 Bergen Pkwy. Evergreen, CO has confusingly had several similarly-named farmers markets at different addresses over the years. Research (multiple search-indexed snippets plus the market's own Facebook page, confirmed via direct HTML fetch of facebook.com/farmersmarketevergreen showing '...Our 2026 market runs from 10am-2pm every Tuesday 05/26-9/22 at Center For The Arts...') indicates this market (formerly at Bergen Village / 1240 Bergen Pkwy) has RELOCATED to the Center for the Arts Evergreen parking lot, 31880 Rocky Village Dr, Evergreen, CO 80439, which now hosts and lists the market on its own official page (evergreenarts.org). Updated address and website accordingly. Phone/email are the Center for the Arts' general contact info listed on that page (may not be market-specific). Instagram @evergreenfarmersmarket is distinct from the Original market's @_the_evergreen_farmers_market_ handle. Could not confirm SNAP/EBT acceptance, ADA accessibility, or organic certification status from any official source; a separate third-party listing (AARP local, referencing 'El Rancho Colorado' / 29260 US-40 / phone 303-884-8735) could not be reliably confirmed as belonging to this same market entity, so that data was not used."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "south-fork-farmers-local-artisan-and-antique-market__south-fork",
+ "name": "South Fork Farmers, Local Artisan and Antique Market",
+ "city": "South Fork",
+ "official_website": "https://www.southfork.org/market-at-south-fork",
+ "fields": {
+   "Hours": {"value": "Fri-Sat: 9:00am - 1:00pm", "source_url": "https://www.southfork.org/market-at-south-fork"},
+   "Months Open": {"value": "June, July, August, September", "source_url": "https://www.southfork.org/market-at-south-fork"},
+   "Products": {"value": "Artisans, farmers and vendors offering items grown or produced in Colorado, New Mexico and other nearby states, including fine art, crafts, culinary items, and handmade goods", "source_url": "https://www.southfork.org/market-at-south-fork"},
+   "Phone": {"value": "719-873-5512", "source_url": "https://www.southfork.org/market-at-south-fork"},
+   "Facebook": {"value": "https://www.facebook.com/SouthForkCOFarmersMarket/", "source_url": "https://www.facebook.com/SouthForkCOFarmersMarket/"},
+   "Website": {"value": "https://www.southfork.org/market-at-south-fork", "source_url": "https://www.southfork.org/market-at-south-fork"}
+ },
+ "notes": "On-file record had no website/facebook. The market's own domain southforkfarmersmarket.com resolves but returns empty/no content when fetched (appears dead or JS-only), so it was not used as a source despite appearing in search snippets. Official info instead found on the South Fork, CO Visitor Center/Chamber site (www.southfork.org), which runs 'Market at South Fork' and links a 2026 vendor registration form, making it the current authoritative source. That page lists the market's schedule as Fri-Sat 9am-1pm, June 5 - Sept 5 (rounded to full months June-September), and gives the South Fork Visitor Center address/phone (28 Silver Thread Ln, 719-873-5512) as the contact point -- this is the Visitor Center's own address, not necessarily verified as a better street address than the on-file 168 Four Seasons Drive, so the on-file Address field was left unchanged. Other search results (not used as sources) mentioned SNAP acceptance and a Monday market at Junction Routes 160 & 149, but these could not be confirmed on any official page actually fetched, so SNAP, Email, Instagram, ADA Accessible, and Certified Organic were omitted as not clearly stated on a verified official source. A Facebook page (@SouthForkCOFarmersMarket) exists but its content could not be scraped (WebFetch returned only the page title, likely due to Facebook's anti-scraping/login wall)."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "downtown-sunday-market__colorado-springs",
+ "name": "Downtown Sunday Market",
+ "city": "Colorado Springs",
+ "official_website": "https://huntandgathercos.com/pages/sunday-market",
+ "fields": {
+  "Hours": {"value": "Sun: 9:00am - 2:00pm", "source_url": "https://www.downtowncs.com/event/sunday-market-in-acacia-park/2026-05-10/"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://huntandgathercos.com/pages/sunday-market"},
+  "Products": {"value": "Farm-fresh food, handcrafted goods, and small-batch creations from local makers, bakers, growers, and doers", "source_url": "https://huntandgathercos.com/pages/sunday-market"},
+  "Email": {"value": "info@downtowncs.com", "source_url": "https://www.downtowncs.com/event/sunday-market-in-acacia-park/2026-05-10/"},
+  "Facebook": {"value": "https://www.facebook.com/profile.php?id=61574759233647", "source_url": "https://www.downtowncs.com/event/sunday-market-in-acacia-park/2026-05-10/"},
+  "Instagram": {"value": "https://www.instagram.com/huntandgathercos", "source_url": "https://huntandgathercos.com/pages/sunday-market"}
+ },
+ "notes": "The on-file website (downtowncs.com/experience-downtown/sunday-market-downtown.html) is dead (404). The market is now branded 'Colorado Springs Sunday Market' / 'Sunday Market in Acacia Park', held Sundays 9am-2pm, May 10-Oct 25, at Acacia Park (115 E Platte Ave, Colorado Springs, CO 80903 - matches the on-file address, so no change made). It is organized by Hunt + Gather (huntandgathercos.com), a downtown Colorado Springs shop, and is also listed as an event by the Downtown Partnership (downtowncs.com), which provided the email and Facebook link. The on-file Facebook URL (facebook.com/DowntownSundayMarket) could not be verified as active/current; used the Facebook link currently published by downtowncs.com instead, which points to a newer profile ID. Instagram href on huntandgathercos.com contains a typo (instgram.com instead of instagram.com); corrected the domain since the handle 'huntandgathercos' is unambiguous. No SNAP/EBT, ADA accessibility, or organic certification information was found on any official source."
+}

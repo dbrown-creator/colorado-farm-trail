@@ -1,0 +1,19 @@
+{
+ "id": "pagosa-springs-farmers-market__pagosa-spgs",
+ "name": "Pagosa Springs Farmers Market",
+ "city": "Pagosa Spgs",
+ "official_website": "https://www.pagosafarmersmarket.net/",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Months Open": {"value": "May, June, July, August, September", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Products": {"value": "Garden-fresh vegetables, mushrooms, fruit, and plant starts from growers; artisan breads, prepared foods, grass-fed meat, eggs, and coffee from producers; jewelry, cards, and fabric goods from makers", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "SNAP": {"value": "Yes", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Email": {"value": "Info@PagosaFarmersMarket.net", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Phone": {"value": "970-264-5232", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Facebook": {"value": "https://www.facebook.com/PagosaFarmersMarket/", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Instagram": {"value": "https://www.instagram.com/pagosafarmersmarket/", "source_url": "https://www.instagram.com/pagosafarmersmarket/"},
+  "Address": {"value": "225 S. Pagosa Blvd, Pagosa Springs, CO 81147", "source_url": "https://www.pagosafarmersmarket.net/"},
+  "Website": {"value": "https://www.pagosafarmersmarket.net/", "source_url": "https://www.pagosafarmersmarket.net/"}
+ },
+ "notes": "On-file website (sospagosa.org/farmers-market-pagosa-springs) is the original sponsoring nonprofit's (Southwest Organization for Sustainability) page and still works, but the market now has its own dedicated official site at pagosafarmersmarket.net, which was used as the primary source since it has clearer current-season details (email domain PagosaFarmersMarket.net confirms it's official). The on-file Facebook URL (facebook.com/Pagosa-Farmers-Market-550120111676611) and the vanity URL facebook.com/PagosaFarmersMarket both resolve to the same page (numeric ID matches); used the cleaner vanity URL. On-file address '191 Pagosa St' appears outdated -- both sospagosa.org and pagosafarmersmarket.net list the 2025 market location as 225 S. Pagosa Blvd (St. Patrick's Episcopal Church parking lot), so that was recorded as the better address. ADA accessibility and certified-organic status are not stated on either official source, so they were omitted. 2025 season noted an 'early market' opening May 24 plus full season June 14-Sept 30; Months Open field reflects the overall May-September window."
+}

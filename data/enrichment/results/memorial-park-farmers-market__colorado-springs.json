@@ -1,0 +1,8 @@
+{
+ "id": "memorial-park-farmers-market__colorado-springs",
+ "name": "Memorial Park Farmers' Market",
+ "city": "Colorado Springs",
+ "official_website": "",
+ "fields": {},
+ "notes": "On-file website (springsbargains.com/colorado-springs-farmers-market-schedule/) is not an official market site (it's a Colorado Springs deals/bargains blog aggregating schedules), and it is unreachable by automated tools (curl gets no response over https; two WebFetch attempts timed out; http version 301-redirects to https which then hangs). No official market-run website or official Facebook/Instagram page could be located via web search. The market (Union Blvd & Pikes Peak Ave, ~80909/80931) only appears in third-party aggregators/directories (Colorado.com, ColoradoLandCAN, bestfarmersmarkets.org, Foraged, local-farmers-markets.com) which per instructions are not treated as legitimate official sources. Checked whether the operator of the nearby Old Colorado City Farmers Market (Pikes Peak Farmers Markets, pikespeakfarmersmarkets.com) also runs Memorial Park - it does not (their site lists only Old Colorado City). Current (2025/2026) official Colorado Springs farmers market roundups from Visit Colorado Springs do not list a Memorial Park market at all, suggesting it may no longer be active or has been absorbed/renamed. No fields could be confirmed from a legitimate official source, so all fields are omitted."
+}

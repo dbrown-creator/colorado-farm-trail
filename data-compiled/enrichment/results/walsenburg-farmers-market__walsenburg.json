@@ -1,0 +1,12 @@
+{
+ "id": "walsenburg-farmers-market__walsenburg",
+ "name": "Walsenburg Farmers Market",
+ "city": "Walsenburg",
+ "official_website": "https://www.facebook.com/walsenburgfarmersmarket/",
+ "fields": {
+  "Hours": {"value": "Sun: 12:00pm - 2:00pm", "source_url": "https://www.facebook.com/walsenburgfarmersmarket/"},
+  "Months Open": {"value": "May, June, July, August, September", "source_url": "https://www.facebook.com/walsenburgfarmersmarket/"},
+  "Facebook": {"value": "https://www.facebook.com/walsenburgfarmersmarket/", "source_url": "https://www.facebook.com/walsenburgfarmersmarket/"}
+ },
+ "notes": "On-file website field was blank; found a candidate domain walsenburgfarmersmarket.com but it is only a 'coming soon / opening spring 2026' placeholder page with no real market info (and an odd hardcoded login form), so it was not used as the official website or a source. The market's real official presence is its Facebook page, run under the name 'Walsenburg Farm & Makers Market' (same page as the on-file facebook URL, confirmed via direct HTML fetch). That page's post/photo captions state 'Sunday Market 12-2p Heritage Park Walsenburg, Rain or Shine!' and '2025 Season May 25 - Sept 28', which gave Hours and Months Open. The on-file address (400 Main Street, 81089) matches Heritage Park's known address, so no address change was made. A third-party site (spanishpeakscountry.com) lists slightly different hours (Sun 10am-1pm, June-Sept) and describes products as 'locally grown food and hand-crafted goods,' but since that's not an official source and conflicts with the Facebook page's own captions, Products was omitted and the Facebook-stated hours/season were preferred. Could not find clearly-stated Email, Instagram, Phone, SNAP/EBT, ADA accessibility, or Certified Organic status from any official source; Facebook's full About section is behind a login wall."
+}

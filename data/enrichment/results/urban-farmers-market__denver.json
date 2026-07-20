@@ -1,0 +1,14 @@
+{
+ "id": "urban-farmers-market__denver",
+ "name": "Urban Farmers' Market",
+ "city": "Denver",
+ "official_website": "https://coloradoevents.org/urbanmarket",
+ "fields": {
+  "Hours": {"value": "Sat-Sun: 12:00pm - 6:00pm", "source_url": "https://coloradoevents.org/urbanmarket"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://coloradoevents.org/urbanmarket"},
+  "Products": {"value": "Art, handmade crafts, antiques, clothing, jewelry, home decor, and other unique treasures from local artists and small businesses", "source_url": "https://coloradoevents.org/urbanmarket"},
+  "Email": {"value": "coloradoevents@gmail.com", "source_url": "https://www.coloradoevents.org/contact"},
+  "Phone": {"value": "720-272-7467", "source_url": "https://www.coloradoevents.org/contact"}
+ },
+ "notes": "On-file website http://urbanmarketdenver.com/ is a live frameset that forwards to the operator's page at coloradoevents.org/urbanmarket (Colorado Events, Boulder CO) - kept as the true official source rather than a dead/wrong lead. Note this is an arts/crafts/antiques open-air market, not a produce farmers market despite the directory name; product list reflects that. Per the current official schedule the market now runs at Union Station/Wynkoop Plaza, whereas the on-file address is 16th St. Mall and Arapahoe (Skyline Park) - third-party aggregators (farmersstand.com, eatwellguide.org) still list the old Skyline Park address, so the market appears to have relocated; did not overwrite Address since no precise street number was stated on the official page and it's unclear which era is current. Found a Facebook page (facebook.com/urbanmktdenver) that appears related but could not confirm its content/authenticity, so Facebook was omitted rather than guessed. No SNAP, ADA accessibility, or Certified Organic info found on official sources."
+}

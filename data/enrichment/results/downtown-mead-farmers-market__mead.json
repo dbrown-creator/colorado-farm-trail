@@ -1,0 +1,11 @@
+{
+ "id": "downtown-mead-farmers-market__mead",
+ "name": "Downtown Mead Farmers' Market",
+ "city": "Mead",
+ "official_website": "https://www.townofmead.org/parksandrec/page/downtown-mead-farmers-market",
+ "fields": {
+  "Website": {"value": "https://www.townofmead.org/parksandrec/page/downtown-mead-farmers-market", "source_url": "https://www.townofmead.org/parksandrec/page/downtown-mead-farmers-market"},
+  "Facebook": {"value": "https://www.facebook.com/DMFM2017/", "source_url": "https://www.facebook.com/DMFM2017/"}
+ },
+ "notes": "On-file website was blank and the on-file Facebook URL (facebook.com//pages/Downtown-Mead-Farmers-Market/869282329791286?ref=hl) is a malformed/dead link format for the same Facebook page ID (869282329791286), now reachable at the vanity URL facebook.com/DMFM2017. The market's official site is the Town of Mead Parks & Recreation page (townofmead.org/parksandrec/page/downtown-mead-farmers-market) - confirmed as the correct official page via multiple independent search results, but the live page returned HTTP 403 on every fetch attempt (site blocks automated fetchers) and the Facebook page also could not be read (login wall/browser-compat block), so its content could not be directly read to confirm Hours, Months Open, Products, SNAP, Email, Phone, Instagram, ADA, or Certified Organic status. Third-party aggregators (farmersmarket.country, farmersstand.com, cropcartmarkets.com) list an address of 441 Third Street, Mead, CO 80542 and hours/season figures, but these appear to be stale (one source cites a 2015 season) or unverifiable against the official source, so per instructions those fields were omitted rather than guessed. A separate 'Mead Farmers Market' website (meadfarmersmarket.com) found in search results is an unrelated market in Mead, WA, not Mead, CO, and was excluded."
+}

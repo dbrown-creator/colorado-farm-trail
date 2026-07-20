@@ -1,0 +1,17 @@
+{
+ "id": "mercadillo-en-el-rio__alamosa",
+ "name": "Mercadillo en el Rio",
+ "city": "Alamosa",
+ "official_website": "https://www.riograndefarmpark.org/mercadillo",
+ "fields": {
+   "Hours": {"value": "Wed: 3:00pm - 7:00pm", "source_url": "https://www.riograndefarmpark.org/mercadillo"},
+   "Months Open": {"value": "July, August, September", "source_url": "https://www.riograndefarmpark.org/mercadillo"},
+   "Products": {"value": "Produce, Herbs, Prepared Food (food trucks), Regional Vendor Goods", "source_url": "https://www.riograndefarmpark.org/mercadillo"},
+   "SNAP": {"value": "Yes", "source_url": "https://www.riograndefarmpark.org/mercadillo"},
+   "Facebook": {"value": "https://www.facebook.com/riograndefarmpark/", "source_url": "https://www.riograndefarmpark.org/mercadillo"},
+   "Instagram": {"value": "https://www.instagram.com/riograndefarmpark/", "source_url": "https://www.riograndefarmpark.org/mercadillo"},
+   "Phone": {"value": "(719) 937-2319", "source_url": "https://www.riograndefarmpark.org/mercadillo"},
+   "Address": {"value": "6935 CO-17, Alamosa, CO 81101", "source_url": "https://www.riograndefarmpark.org/mercadillo"}
+ },
+ "notes": "Website on file (https://www.riograndefarmpark.org) is the correct parent org site; the market has its own dedicated page at /mercadillo which was used as the primary source for hours, season, products, SNAP, and social links. Season/hours reflect the most recent published schedule (Wed 3-7pm, July-Sept) found on the site, which may shift slightly year to year (weather pending, per site notes). No dedicated Mercadillo email found (only general SLV Local Foods Coalition phone number was listed, which is included as Phone). ADA accessibility and certified organic status not stated anywhere on official sources."
+}

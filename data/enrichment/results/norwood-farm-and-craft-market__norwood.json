@@ -1,0 +1,29 @@
+{
+ "id": "norwood-farm-and-craft-market__norwood",
+ "name": "Norwood Farm and Craft Market",
+ "city": "Norwood",
+ "official_website": "",
+ "fields": {
+  "Hours": {
+   "value": "Sat: 9:00am - 1:00pm (June-September); Sat: 10:00am - 12:00pm (October-May)",
+   "source_url": "https://www.localharvest.org/norwood-farm-and-craft-market-M36178"
+  },
+  "Months Open": {
+   "value": "January, February, March, April, May, June, July, August, September, October, November, December",
+   "source_url": "https://www.localharvest.org/norwood-farm-and-craft-market-M36178"
+  },
+  "Products": {
+   "value": "Fruits, vegetables, flowers, and herbs in season (organic and conventional); grass-fed beef and pastured pork; farm fresh eggs; artisan baked goods; honey; homemade jams; lavender products; hard shell gourds; handcrafted glass jewelry; handspun alpaca and wool yarn and handmade garments; local silversmith jewelry; handcrafted quilts and sewn items; also children's activities, music, cooking and canning demonstrations, flea market items, and CSU Extension information",
+   "source_url": "https://www.localharvest.org/norwood-farm-and-craft-market-M36178"
+  },
+  "SNAP": {
+   "value": "Yes",
+   "source_url": "https://www.topfarmersmarkets.com/colorado/norwood/norwood-farm-and-craft-market"
+  },
+  "Facebook": {
+   "value": "https://www.facebook.com/Norwood-Farm-Craft-Market-349308959339/",
+   "source_url": "https://www.facebook.com/Norwood-Farm-Craft-Market-349308959339/"
+  }
+ },
+ "notes": "The on-file website https://www.norwoodfarmmarket.org/ is dead (DNS does not resolve). No live replacement official site was found. An official-looking Facebook page exists (facebook.com/Norwood-Farm-Craft-Market-349308959339, also mirrored at facebook.com/p/Norwood-Farm-Craft-Market-100067753140460) but Facebook blocks automated fetching, so its content could not be directly read/verified; that URL is included as the best-known Facebook lead but official_website was left empty since no working official site was confirmed. Hours/Products text is consistent and identical across LocalHarvest and multiple independent web-search summaries, and reads like it originated from the market's own former site, so it is used here as the best available substitute despite being a third-party listing. Phone number conflicts between sources ((970) 327-4393 per LocalHarvest vs (970) 859-7207 per another aggregator) so it was omitted rather than guessed. Email norwoodfarmmarket@yahoo.com appeared in one aggregator summary only (unverified) so it was omitted. Address on file (1165 Summit Street) could not be confirmed or improved: other sources gave conflicting addresses (an old 2015 county calendar listing showed 1120 Summit St for a specific event location, and LocalHarvest showed 'Grand Ave and Lucrene St' with a PO Box 130 mailing address), so Address was left unchanged. No ADA accessibility or Certified Organic statements were found in any source."
+}

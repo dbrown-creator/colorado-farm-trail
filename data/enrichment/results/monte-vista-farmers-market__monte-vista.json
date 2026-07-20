@@ -1,0 +1,18 @@
+{
+ "id": "monte-vista-farmers-market__monte-vista",
+ "name": "Monte Vista Farmers Market",
+ "city": "Monte Vista",
+ "official_website": "https://www.facebook.com/MonteVistaFarmersMarket",
+ "fields": {
+  "Hours": {"value": "Fri: 9:00am - 1:00pm", "source_url": "https://www.coloradolandcan.org/local-resources/Monte-Vista-Farmers-Market/40560"},
+  "Months Open": {"value": "July, August, September", "source_url": "https://www.coloradolandcan.org/local-resources/Monte-Vista-Farmers-Market/40560"},
+  "Products": {"value": "Apples, apricots, beets, bell peppers, broccoli, cantaloupe, carrots, cherries, chile peppers, roasted chiles, cucumbers, garlic, green beans, herbs, honeydew, kale, lettuce, microgreens, nectarines, onion, peaches, pears, peas, pinto beans, potatoes, pumpkins, radishes, rhubarb, spinach, squash, sweet corn, tomatoes, turnips, watermelon, zucchini, baked goods, cheese, honey, jams/jellies, pickles, handcrafted gifts, goat milk soap, lotion, salvage art sculptures, fudge, local specialty drinks and lunches", "source_url": "https://www.coloradolandcan.org/local-resources/Monte-Vista-Farmers-Market/40560"},
+  "SNAP": {"value": "Yes", "source_url": "https://www.coloradolandcan.org/local-resources/Monte-Vista-Farmers-Market/40560"},
+  "Email": {"value": "montefarmersmarket@gmail.com", "source_url": "https://www.coloradolandcan.org/local-resources/Monte-Vista-Farmers-Market/40560"},
+  "Phone": {"value": "(719) 469-7381", "source_url": "https://www.coloradolandcan.org/local-resources/Monte-Vista-Farmers-Market/40560"},
+  "Facebook": {"value": "https://www.facebook.com/MonteVistaFarmersMarket", "source_url": "https://www.facebook.com/MonteVistaFarmersMarket"},
+  "Address": {"value": "947 1st Ave (at 1st Ave & Jefferson St), Monte Vista, CO 81144", "source_url": "https://www.coloradolandcan.org/local-resources/Monte-Vista-Farmers-Market/40560"},
+  "Website": {"value": "https://www.facebook.com/MonteVistaFarmersMarket", "source_url": "https://www.coloradolandcan.org/local-resources/Monte-Vista-Farmers-Market/40560"}
+ },
+ "notes": "On-file website (monte-vista.org/Events_Calendar.htm) is a dead/generic link that now redirects to the city's homepage with no market info -- it is not a real market website. The market's official presence is its Facebook page (on-file URL, confirmed live and current). No separate operator/market website exists; the third-party LandCAN directory's own 'Visit Website' button for this listing redirects directly to this same Facebook page, confirming it as the market's true official link. Detailed operational facts (hours, dates, products, SNAP, phone, email, address) were only found on the LandCAN aggregator listing (last updated 05/2022, so may be slightly dated) -- direct scraping of the Facebook/Instagram pages via WebFetch was blocked/truncated by those platforms, but an independent web search and the market's Instagram bio corroborated the Friday 9am-1pm July-September schedule. Address found (947 1st Ave / 1st Ave & Jefferson St) differs from the on-file address (1101 Park Ave); flagging as a likely correction since it is corroborated across two independent sources (LandCAN and a third-party market-listing aggregator), but could not verify against a primary market source. Could not confirm Instagram URL, ADA accessibility, or certified-organic status from any legitimate source."
+}

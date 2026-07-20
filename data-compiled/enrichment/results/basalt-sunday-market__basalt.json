@@ -1,0 +1,15 @@
+{
+ "id": "basalt-sunday-market__basalt",
+ "name": "Basalt Sunday Market",
+ "city": "Basalt",
+ "official_website": "https://www.basalt.net/606/Basalt-Sunday-Market",
+ "fields": {
+  "Hours": {"value": "Sun: 10:00am - 2:00pm", "source_url": "https://www.basalt.net/606/Basalt-Sunday-Market"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://www.basalt.net/606/Basalt-Sunday-Market"},
+  "Email": {"value": "sundaymarket@basalt.net", "source_url": "https://www.basalt.net/606/Basalt-Sunday-Market"},
+  "Phone": {"value": "(970) 279-2319", "source_url": "https://www.basalt.net/606/Basalt-Sunday-Market"},
+  "Facebook": {"value": "https://www.facebook.com/BasaltSundayMarket/", "source_url": "https://www.facebook.com/BasaltSundayMarket/"},
+  "Website": {"value": "https://www.basalt.net/606/Basalt-Sunday-Market", "source_url": "https://www.basalt.net/606/Basalt-Sunday-Market"}
+ },
+ "notes": "On-file website https://www.basaltsundaymarket.com is dead (connection refused). The market is run by the Town of Basalt; its official page is https://www.basalt.net/606/Basalt-Sunday-Market, listing 2026 season dates (June 14 - Sept 27, Sundays 10am-2pm), location along Midland Spur adjacent to Lions Park and Basalt Town Hall, manager contact email/phone. Confirmed the Facebook page facebook.com/BasaltSundayMarket/ exists and matches the market name/city via search, but its content could not be fetched (blocked), so no additional fields (products, SNAP, Instagram, ADA, organic) could be verified from it. Did not change on-file address (101 Midland Avenue) since the official page describes the same general location (near Basalt Town Hall) without a distinct clearer street address. Products, SNAP/EBT, ADA accessibility, and certified organic status not stated on the official page."
+}

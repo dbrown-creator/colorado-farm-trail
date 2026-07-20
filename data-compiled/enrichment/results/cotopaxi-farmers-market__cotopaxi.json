@@ -1,0 +1,8 @@
+{
+ "id": "cotopaxi-farmers-market__cotopaxi",
+ "name": "Cotopaxi Farmers Market",
+ "city": "Cotopaxi",
+ "official_website": "",
+ "fields": {},
+ "notes": "No official website is on file (blank in source data). The on-file Facebook page (https://www.facebook.com/pages/Cotopaxi-Farmers-Market/1384847291754517?fref=ts) could not be read: WebFetch returned only a generic 'Facebook is not available on this browser' placeholder, and a bot-user-agent curl fetch returned no og:title/meta content (just the generic Facebook homepage), suggesting the page may be removed, renamed, or otherwise inaccessible to automated tools - could not confirm current active status. Web search found no other dedicated official site or active Facebook page for this specific market (searches for 'Cotopaxi Farmers Market' site:facebook.com did not surface it). The only substantive content found was a 2014 Colorado Central Magazine press article (coloradocentralmagazine.com/cotopaxi-farm-market) describing a market begun in 2013 by the producer-owned 'Big Sky Cooperative,' held Fridays 9am-1pm from mid-June through late September at the Cotopaxi Community Church on US Hwy 50 near CR 1-A, selling organic produce, fruit, canned goods, baked goods, honey, eggs, local art, pottery, soap, and grass-fed burgers, contact phone (719) 942-3700 (contact: Kathy Reese). This is a third-party press article, not an official market source, and is 10+ years old, so per instructions it was not used to populate fields - current operating status is unverified. Third-party aggregators (Foraged, Soil Mate, nfmd) were checked but contained only generic/templated 'may offer' language with no market-specific confirmed facts, so nothing from them was used either."
+}

@@ -1,0 +1,13 @@
+{
+ "id": "bennett-community-market__bennett",
+ "name": "Bennett Community Market",
+ "city": "Bennett",
+ "official_website": "",
+ "fields": {
+  "Hours": {"value": "Saturdays (alternating), 9 a.m. - 2 p.m.", "source_url": "https://www.coloradolandcan.org/local-resources/Bennett-Community-Market/40417"},
+  "Months Open": {"value": "May, June, July, August, September", "source_url": "https://www.coloradolandcan.org/local-resources/Bennett-Community-Market/40417"},
+  "Products": {"value": "Seasonal organic vegetables, fruit, frozen meats (beef, buffalo, lamb, pork, yak, poultry - USDA-inspected retail packages), dry goods, artisan crafts, cheese, eggs, honey, pickles, popcorn, baked goods", "source_url": "https://www.coloradolandcan.org/local-resources/Bennett-Community-Market/40417"},
+  "Email": {"value": "Bennettcommarket@gmail.com", "source_url": "https://www.coloradolandcan.org/local-resources/Bennett-Community-Market/40417"}
+ },
+ "notes": "The market's official Facebook page (https://www.facebook.com/Bennett-Community-Market-1592527727628410/) could not be programmatically fetched - it returns a JS-only 'not available on this browser' page with no extractable content, and no standalone official website could be found via search. Fields above come from the Colorado Land Conservation Assistance Network market listing, the most detailed third-party directory found, used per the 'prefer official, but usable if none available' guidance; treat as unverified. Two conflicting phone numbers were found across sources - coloradolandcan.org lists (303) 502-6946 while colorado.com lists (303) 304-6112 - so phone was omitted rather than guessed. SNAP acceptance, ADA accessibility, certified organic status, and Instagram were not clearly stated on any source found. The known street address (401 S. 1st St., Bennett, CO 80102) was confirmed by both third-party sources but is unchanged from the file, so not re-added."
+}

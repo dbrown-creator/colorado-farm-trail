@@ -1,0 +1,15 @@
+{
+ "id": "southlands-farmers-market__aurora",
+ "name": "Southlands Farmers' Market",
+ "city": "Aurora",
+ "official_website": "https://www.shopsouthlands.com/eventprograms/farmers-market/",
+ "fields": {
+   "Website": {"value": "https://www.shopsouthlands.com/eventprograms/farmers-market/", "source_url": "https://www.shopsouthlands.com/eventprograms/farmers-market/"},
+   "Hours": {"value": "Saturday 8AM-1PM", "source_url": "https://www.shopsouthlands.com/eventprograms/farmers-market/"},
+   "Months Open": {"value": "May, June, July, August, September", "source_url": "https://www.shopsouthlands.com/eventprograms/farmers-market/"},
+   "Products": {"value": "Organic, pesticide-free produce, fresh dairy products, baked goods, salsas, honey, and more", "source_url": "https://www.shopsouthlands.com/eventprograms/farmers-market/"},
+   "ADA Accessible": {"value": "Yes", "source_url": "https://www.shopsouthlands.com/eventprograms/farmers-market/"},
+   "Phone": {"value": "(303) 627-5000", "source_url": "https://www.shopsouthlands.com/eventprograms/farmers-market/"}
+ },
+ "notes": "The original coloradofarmersmarkets.com/southlands/ page returned no content (appears dead/defunct). The market is now promoted directly on the Southlands shopping center's official site (shopsouthlands.com), which hosts the market on Main Street between E. State Ave. and E. Commons Ave., within the Southlands center in Aurora, 80016. Season for 2026 listed as May 9 - September 26 (Saturdays only). Phone number found is the general Southlands shopping center office line listed on the market page, not a market-specific line. SNAP/EBT acceptance, email, certified organic status, and a market-specific street address distinct from the known 6155 S. Main St. were not clearly stated on the official page and were left unset. Facebook page found via search (facebook.com/southlandsfarmersmarket/) appears to match the market's on-file Facebook page (same title, likely same page under a different URL format); left unchanged since not clearly a different/better official URL and could not be verified live (Facebook content not accessible via fetch)."
+}

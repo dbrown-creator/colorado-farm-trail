@@ -1,0 +1,8 @@
+{
+ "id": "larimer-street-market__denver",
+ "name": "Larimer Street Market",
+ "city": "Denver",
+ "official_website": "",
+ "fields": {},
+ "notes": "On-file website http://www.LarimerStreetMarket.com is dead (DNS fails for both www and bare domain, confirmed via WebFetch). No official Facebook or Instagram page could be located despite multiple targeted searches. All findable info traces back to third-party aggregators (LocalHarvest, CropCart/USDA directory) that themselves cite the now-dead larimerstreetmarket.com as the source, and they disagree on the market's phone number (303-534-5140 vs 303-808-0804 in different search snippets), which further undermines confidence in using them as authoritative. A Facebook page 'themarketatlarimer' surfaced repeatedly but is for the unrelated, permanently-closed 'Market at Larimer Square' restaurant (1445 Larimer St), not this outdoor Saturday market at 2301 Larimer St. Since no legitimate official source could be verified, no fields were filled per instructions; aggregator-only claims (Sat 8am-2pm, Apr 26-Nov 1 season, ~140 merchants selling produce/flowers/baked goods/antiques/crafts) are omitted as unverifiable against an official source."
+}

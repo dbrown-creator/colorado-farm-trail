@@ -1,0 +1,13 @@
+{
+ "id": "lusk-farms-farmers-market__la-junta",
+ "name": "Lusk Farms Farmers Market",
+ "city": "La Junta",
+ "official_website": "",
+ "fields": {
+  "Facebook": {
+   "value": "https://www.facebook.com/p/Lusk-Farms-Farmers-Market-100057364211893/",
+   "source_url": "https://www.facebook.com/p/Lusk-Farms-Farmers-Market-100057364211893/"
+  }
+ },
+ "notes": "No dedicated official website exists for Lusk Farms Farmers Market; it appears to be a farm-stand market run by Lusk Farms with only a Facebook presence. The on-file Facebook URL (old 'pages/category' format) now redirects to the canonical page https://www.facebook.com/p/Lusk-Farms-Farmers-Market-100057364211893/ (title 'Lusk Farms Farmer's Market | Rocky Ford CO'), confirming the page is still active, so I recorded that as the repaired Facebook field. However, the Facebook page's content (about/hours/contact info) could not be scraped via fetch tools (blocked by Facebook's login wall, only the page title was retrievable), so no other fields could be verified from an official source. Multiple third-party aggregators (colorado.com, foraged.com, visitlajunta.net, bluebookservices.com) consistently report: address 26020 West US Highway 50, La Junta, CO 81050; phone (719) 384-6200; hours Mid-July-Mid-October, daily 8am-7pm; and a large produce list (apples, beets, peppers, cantaloupe, cucumbers, eggplant, green beans, honeydew, okra, onions, peaches, pears, pinto beans, plums, potatoes, pumpkins, squash, sweet corn, tomatoes, watermelon, zucchini, cider, honey, beef/lamb) plus Rocky Ford watermelon/cantaloupe. These are NOT included as fields per instructions to prefer official/operator sources over third-party aggregators, but are noted here in case a human reviewer wants to spot-check or manually verify via phone before adding them. SNAP acceptance is not clearly stated anywhere found (one source explicitly says to contact the market to confirm)."
+}

@@ -1,0 +1,15 @@
+{
+ "id": "highland-farmers-market__denver",
+ "name": "Highland Farmers' Market",
+ "city": "Denver",
+ "official_website": "",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://www.coloradolandcan.org/local-resources/Highland-Farmers-Market/49419"},
+  "Months Open": {"value": "June, July, August, September, October", "source_url": "https://www.coloradolandcan.org/local-resources/Highland-Farmers-Market/49419"},
+  "Products": {"value": "Fresh produce, baked goods, preserved foods, flowers, plants, and locally produced merchandise", "source_url": "https://www.coloradolandcan.org/local-resources/Highland-Farmers-Market/49419"},
+  "Phone": {"value": "(303) 734-0718", "source_url": "https://www.coloradolandcan.org/local-resources/Highland-Farmers-Market/49419"},
+  "Email": {"value": "info@denverhighland.org", "source_url": "https://www.coloradolandcan.org/local-resources/Highland-Farmers-Market/49419"},
+  "Facebook": {"value": "https://www.facebook.com/DenverHighlandFarmersMarket/", "source_url": "https://www.facebook.com/DenverHighlandFarmersMarket/"}
+ },
+ "notes": "This market is organized by Highland United Neighbors Inc. (HUNI), located on Boulder St between 15th and 16th Streets, run Saturdays (distinct from the Sunday 'Highlands Square Farmers Market' at 32nd Ave, which is a separate market/entry). No website was on file and none could be verified: HUNI's official site (denverhighland.org) has no dedicated farmers-market page reachable via search or direct guesses (tried /farmers-market.html, /market.html — both 400 errors), so official_website is left empty. The on-file Facebook page (facebook.com/DenverHighlandFarmersMarket) could not be read directly (login-walled, returns only 'Facebook' via fetch) but appears active per search-index snippets, so it is kept as the Facebook field and best available official contact channel. Hours/Months/Products/Phone/Email were pulled from a directory listing (coloradolandcan.org) whose contact email matches HUNI's own domain (denverhighland.org), giving reasonable confidence; these were not independently confirmable via HUNI's own site or Facebook due to access limits. Address on file (1576 Boulder St.) is consistent with search results ('Boulder Street between 15th and 16th'); not changed. Could not find Instagram, SNAP acceptance, ADA accessibility, or certified-organic status clearly stated anywhere for this specific market (search results kept conflating it with the separate Highland Square Sunday market)."
+}

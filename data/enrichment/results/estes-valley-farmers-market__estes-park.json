@@ -1,0 +1,25 @@
+{
+ "id": "estes-valley-farmers-market__estes-park",
+ "name": "Estes Valley Farmers Market",
+ "city": "Estes Park",
+ "official_website": "https://www.facebook.com/EstesValleyFarmersMarket/",
+ "fields": {
+  "Hours": {
+   "value": "Thu: 8:00am - 1:00pm",
+   "source_url": "https://dms.estes.org/WebLink/ElectronicFile.aspx?docid=322898&dbid=0"
+  },
+  "Products": {
+   "value": "Traditional farmers market with consumable products",
+   "source_url": "https://dms.estes.org/WebLink/ElectronicFile.aspx?docid=322898&dbid=0"
+  },
+  "Email": {
+   "value": "Vickieden3@yahoo.com",
+   "source_url": "https://dms.estes.org/WebLink/ElectronicFile.aspx?docid=322898&dbid=0"
+  },
+  "Facebook": {
+   "value": "https://www.facebook.com/EstesValleyFarmersMarket/",
+   "source_url": "https://dms.estes.org/WebLink/ElectronicFile.aspx?docid=322898&dbid=0"
+  }
+ },
+ "notes": "No dedicated market website exists; the Town of Estes Park special-event permit application (organization: Estes Valley Farmers Market, applicant Vickie Dennis) lists 'Facebook' as the related website, confirming https://www.facebook.com/EstesValleyFarmersMarket/ is the official page (could not render its content directly - Facebook blocks non-browser fetches and no browser tool was available this session). That permit is weekly, Thursday 8-1pm, with 'Visitors Center' checked as the desired location - this conflicts with the on-file address of 1209 Manford Ave (which appears to be the Stanley Park Fairgrounds, a location cited by some third-party aggregators/Foraged). Other aggregators (colorado.com, coloradolandcan.org, Yelp, estesparkinformation.com) give conflicting venues across years - Estes Park Visitor Center (500 Big Thompson Ave), Bond Park downtown, and the fairgrounds - suggesting the market's site has moved between seasons; since no single official source gives a full clean street address, I left Address unchanged rather than guess. Season/Months Open, SNAP/EBT, phone, Instagram, ADA accessibility, and organic certification were not stated in any official source I could access, so they are omitted (third-party sites suggest June-September Thursdays and phone (303) 775-9058, but that is unverified against an official source)."
+}

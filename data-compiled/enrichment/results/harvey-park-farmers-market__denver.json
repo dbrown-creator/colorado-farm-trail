@@ -1,0 +1,16 @@
+{
+ "id": "harvey-park-farmers-market__denver",
+ "name": "Harvey Park Farmers Market",
+ "city": "Denver",
+ "official_website": "https://www.harveyparkfarmersmarket.com",
+ "fields": {
+   "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://www.harveyparkfarmersmarket.com"},
+   "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://www.harveyparkfarmersmarket.com"},
+   "Products": {"value": "Farmers, ranchers, and dairy (vegetables, fruits, flowers, dairy); bakeries (bread, bagels, pastries); specialty foods (cheese, chocolate, pickles, kimchi, nut butters, tortillas, sauces); beverages (coffee, tea, juice); ready-to-eat food (tacos, sandwiches, pupusas, crepes, samosas); cut flowers", "source_url": "https://www.harveyparkfarmersmarket.com/vendors"},
+   "SNAP": {"value": "Yes", "source_url": "https://www.harveyparkfarmersmarket.com/snapdufb"},
+   "Instagram": {"value": "https://www.instagram.com/harveyparkfarmersmarket", "source_url": "https://www.harveyparkfarmersmarket.com"},
+   "Facebook": {"value": "https://www.facebook.com/profile.php?id=61574977833612", "source_url": "https://www.harveyparkfarmersmarket.com"},
+   "Address": {"value": "Kunsmiller Creative Arts Academy (North Parking Lot), 2250 S Quitman Way, Denver, CO 80219", "source_url": "https://www.harveyparkfarmersmarket.com"}
+ },
+ "notes": "On-file website is live and official; matches the market's own site. Season listed as 'May 2nd through October 31st' (2026 dates shown on site) so mapped to full month names May-October. No phone, email address, ADA accessibility, or certified organic status was clearly stated on the site (only a newsletter signup form was found, no direct email). Address confirmed same street (2250 S Quitman Wy/Way) but site adds venue name Kunsmiller Creative Arts Academy and specifies North Parking Lot."
+}

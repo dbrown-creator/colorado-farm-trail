@@ -1,0 +1,18 @@
+{
+ "id": "granby-farmers-market__granby",
+ "name": "Granby Farmers Market",
+ "city": "Granby",
+ "official_website": "https://www.destinationgranby.com/events/music-market/",
+ "fields": {
+  "Website": {"value": "https://www.destinationgranby.com/events/music-market/", "source_url": "https://www.destinationgranby.com/events/music-market/"},
+  "Hours": {"value": "Thu: 5:30pm - 8:00pm", "source_url": "https://www.destinationgranby.com/events/music-market/"},
+  "Months Open": {"value": "June, July, August", "source_url": "https://www.destinationgranby.com/events/music-market/"},
+  "Products": {"value": "Honey, meat, eggs, art, fresh produce, baked goods, and more (plus food trucks and live music)", "source_url": "https://www.destinationgranby.com/events/music-market/"},
+  "Email": {"value": "wiki@destinationgranby.com", "source_url": "https://www.destinationgranby.com/events/music-market/"},
+  "Phone": {"value": "(970) 887-2311", "source_url": "https://www.destinationgranby.com/events/music-market/"},
+  "Facebook": {"value": "https://www.facebook.com/VisitGranbyCO/", "source_url": "https://www.destinationgranby.com/events/music-market/"},
+  "Instagram": {"value": "https://www.instagram.com/visitgranbyco/", "source_url": "https://www.destinationgranby.com/events/music-market/"},
+  "Address": {"value": "Polhamus Park, 99 W Jasper Ave, Granby, CO 80446", "source_url": "https://www.destinationgranby.com/events/music-market/"}
+ },
+ "notes": "On-file website http://www.granbychamber.com now redirects through a safebrowse.io warning page (dead/hijacked domain) — confirmed via curl (302 to safebrowse.io/warn.html). No usable market info found there. The market is branded 'Music & Market' and organized by Destination Granby (the town's official tourism organization) at Polhamus Park; treated this as the official source. Facebook/Instagram listed are Destination Granby's official accounts (VisitGranbyCO), which promote this event — no separate dedicated market social account was found. Months Open inferred from the published 2026 concert/market schedule on the page (Thursdays June 25 - Aug 13, 2026), not an explicit 'months open' statement. No mention of SNAP/EBT acceptance, ADA accessibility, or certified-organic status on the official page, so those fields were omitted. Third-party aggregators (nfmd.org, cropcartmarkets.com, colorado.com) had some overlapping info but were not used as sources per instructions."
+}

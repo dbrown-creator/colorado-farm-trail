@@ -1,0 +1,49 @@
+{
+  "id": "city-of-loveland-parks-rec__loveland",
+  "name": "City of Loveland Parks & Rec",
+  "city": "Loveland",
+  "official_website": "https://www.lovgov.org/farmersmarket",
+  "fields": {
+    "Hours": {
+      "value": "Sun: 9:00am - 1:00pm",
+      "source_url": "https://www.lovgov.org/farmersmarket"
+    },
+    "Months Open": {
+      "value": "June, July, August, September",
+      "source_url": "https://www.lovgov.org/farmersmarket"
+    },
+    "Products": {
+      "value": "Fresh, locally grown or raised produce, meats, poultry, dairy, and artisan goods; last Sunday of each month adds an Artist Market with 15 additional local artist vendors",
+      "source_url": "https://www.lovgov.org/farmersmarket"
+    },
+    "SNAP": {
+      "value": "Yes",
+      "source_url": "https://www.lovgov.org/farmersmarket"
+    },
+    "Email": {
+      "value": "kerry.helke@cityofloveland.org",
+      "source_url": "https://www.lovgov.org/farmersmarket"
+    },
+    "Facebook": {
+      "value": "https://www.facebook.com/CityofLovelandFarmersMarket/",
+      "source_url": "https://www.facebook.com/CityofLovelandFarmersMarket/"
+    },
+    "Instagram": {
+      "value": "https://www.instagram.com/lovelandcofarmersmarket/",
+      "source_url": "https://www.instagram.com/lovelandcofarmersmarket/"
+    },
+    "ADA Accessible": {
+      "value": "Yes",
+      "source_url": "https://www.lovgov.org/farmersmarket"
+    },
+    "Address": {
+      "value": "700 S. Railroad Ave.",
+      "source_url": "https://www.lovgov.org/farmersmarket"
+    },
+    "Website": {
+      "value": "https://www.lovgov.org/farmersmarket",
+      "source_url": "https://www.lovgov.org/farmersmarket"
+    }
+  },
+  "notes": "On-file website https://www.lovgov.org/farmersmarket redirects/serves the official City of Loveland Parks & Recreation farmers market page (also reachable at https://www.lovgov.org/services/parks-recreation/events/farmers-market), but the live site returns HTTP 403 to automated fetchers, so details were confirmed via multiple corroborating web-search snippets of that page's indexed content rather than a direct fetch. On-file Facebook (CityofLovelandFarmersMarket) confirmed as official but its content could not be directly scraped (403/JS-rendered), so Facebook field is carried over from the source file as the correct official URL rather than a newly extracted fact. Address on file was '700 S. Railroad Rd.'; official source consistently lists '700 S. Railroad Ave.' (minor street-suffix correction only, same location at Fairgrounds Park). Instagram handle @lovelandcofarmersmarket identified as the official City account (distinct from unrelated Loveland-area markets like Loveland East/West Farmers Markets and a private 'Loveland Farmers' Market by CC' account, which were NOT used). Phone number, Certified Organic status, and a market-specific email beyond the market manager's staff email were not clearly stated in available sources and were omitted. 2026 season dates: June 7 - Sept 27, 2026, Sundays."
+}

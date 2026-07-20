@@ -1,0 +1,15 @@
+{
+ "id": "eagle-farmers-market__edwards",
+ "name": "Eagle Farmers Market",
+ "city": "Edwards",
+ "official_website": "https://www.eaglefarmersmarketandartshow.com/",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://www.eaglefarmersmarketandartshow.com/"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://www.eaglefarmersmarketandartshow.com/"},
+  "Products": {"value": "Fresh produce, protein, baked goods, and artisanal/homemade goods", "source_url": "https://www.eaglefarmersmarketandartshow.com/"},
+  "Facebook": {"value": "https://www.facebook.com/eaglefarmersmarketandartshow", "source_url": "https://www.eaglefarmersmarketandartshow.com/"},
+  "Instagram": {"value": "https://www.instagram.com/eaglefarmersmarket/", "source_url": "https://www.eaglefarmersmarketandartshow.com/"},
+  "Website": {"value": "https://www.eaglefarmersmarketandartshow.com/", "source_url": "https://www.eaglefarmersmarketandartshow.com/"}
+ },
+ "notes": "On-file record had no website/facebook. Found what appears to be the official site for the market named 'Eagle Farmers Market' (eaglefarmersmarketandartshow.com), but its stated physical location is Eagle Town Park, 500-598 Washington St, Eagle, CO 81631 -- NOT Edwards, CO as listed in this record (address on file: 275 N Main Street, Edwards, CO 81632). That Edwards address matches a USDA National Farmers Market Directory listing (via third-party aggregator CropCart) for a market of the same name, 'Eagle Farmers Market', at '275 N Main Street Garnet Bldg U201, Edwards, CO 81632' -- this is likely a business/mailing address (e.g., market management office) rather than the actual market site, and USDA directory entries commonly list such addresses. Did not find any SNAP/EBT, ADA accessibility, certified organic, email, or phone info clearly stated on the official site. Did NOT update the 'Address' field because doing so would conflict with the record's 'city' field (Edwards) -- the actual market operates in the town of Eagle, not Edwards. Also checked and ruled out two other, unrelated Edwards-area markets that do not match this record's name or address: 'Edwards Corners Farmers Market' (57 Edwards Access Rd / Edwards West Plaza) and 'The Community Market Edwards' (429 Edwards Access Rd, a free-grocery program run by Eagle Valley Community Foundation)."
+}

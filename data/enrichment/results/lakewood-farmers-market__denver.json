@@ -1,0 +1,16 @@
+{
+ "id": "lakewood-farmers-market__denver",
+ "name": "Lakewood Farmers' Market",
+ "city": "Denver",
+ "official_website": "https://www.denverfarmersmarket.com/",
+ "fields": {
+   "Hours": {"value": "Sat: 10:00am - 2:00pm", "source_url": "https://www.denverfarmersmarket.com"},
+   "Months Open": {"value": "June, July, August, September, October", "source_url": "https://www.denverfarmersmarket.com"},
+   "Products": {"value": "Fresh produce and goods from local farmers, vendors, and artisans", "source_url": "https://www.denverfarmersmarket.com"},
+   "Email": {"value": "dfmmgrrich@comcast.net", "source_url": "https://www.denverfarmersmarket.com/contact"},
+   "Phone": {"value": "303-513-7610", "source_url": "https://www.denverfarmersmarket.com/contact"},
+   "Facebook": {"value": "https://www.facebook.com/denverfarmersmarket", "source_url": "https://www.denverfarmersmarket.com"},
+   "Instagram": {"value": "https://www.instagram.com/metro.denver.farmers.market/", "source_url": "https://www.denverfarmersmarket.com"}
+ },
+ "notes": "On-file website (denverfarmersmarket.com) is confirmed correct and official - it's the 'Metro Denver Farmers Market' operator site running 4 locations (Sterling Ranch, Southwest Plaza, Lakewood, Highlands Ranch). The Lakewood market is at 9077 W Alameda Ave (Alameda & Garrison, at Mile Hi Church), Saturdays, hours listed as '10am-2pm or until sellout' (used listed start/end times; sellout caveat omitted from Hours field). Season listed as June 13 - October 3 (year not specified on site, likely current/upcoming season), converted to month list. On-file Facebook URL confirmed matching the link on the official site. No SNAP/EBT, ADA accessibility, or certified organic information found anywhere on the site - omitted rather than guessed. No dedicated Instagram/Facebook page specific to the Lakewood location alone; these are shared across all 4 Metro Denver Farmers Market locations. Address on file (9077 W Alameda Ave) matches site exactly, so not changed."
+}

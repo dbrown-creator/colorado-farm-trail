@@ -1,0 +1,33 @@
+{
+  "id": "golden-farmers-market__golden",
+  "name": "Golden Farmers Market",
+  "city": "Golden",
+  "official_website": "https://www.goldenfarmersmarket.org",
+  "fields": {
+    "Hours": {
+      "value": "Sat: 8:00am - 1:00pm; Wed: 3:00pm - 6:00pm",
+      "source_url": "https://www.goldenfarmersmarket.org"
+    },
+    "Months Open": {
+      "value": "May, June, July, August, September, October",
+      "source_url": "https://www.goldenfarmersmarket.org"
+    },
+    "Products": {
+      "value": "Fresh produce, artisan foods, hand-crafted drinks, artwork, and clothing items",
+      "source_url": "https://www.goldenfarmersmarket.org"
+    },
+    "SNAP": {
+      "value": "Yes",
+      "source_url": "https://www.goldenfarmersmarket.org"
+    },
+    "Facebook": {
+      "value": "https://www.facebook.com/goldenfarmersmarket/",
+      "source_url": "https://www.goldenfarmersmarket.org/contact"
+    },
+    "Instagram": {
+      "value": "https://www.instagram.com/goldenfarmersmarket/",
+      "source_url": "https://www.goldenfarmersmarket.org/contact"
+    }
+  },
+  "notes": "On-file website (goldenfarmersmarket.org) is live and confirmed as the official market site, run under the Golden Chamber of Commerce; on-file Facebook link also confirmed correct. Saturday market runs 8am-1pm (May 30-Oct 3) at 10th and Illinois in downtown Golden; midweek market Wed 3-6pm (June 10-July 29) only, so full Wed date range not reflected in Months Open field (Wed market only runs June-July but Sat runs May-Oct, so combined Months Open spans May-October). Contact page lists an email address but it is Cloudflare-obfuscated (email-protection script) and could not be reliably decoded from static fetch, so Email was omitted rather than guessed. No phone number found on site. ADA accessibility and certified organic status not mentioned anywhere on the official site. The contact page address (1010 Washington Avenue) is the Golden Chamber of Commerce office address, not the market's physical location, so it was not used to overwrite the on-file market address (1019 10th St / 10th and Illinois)."
+}

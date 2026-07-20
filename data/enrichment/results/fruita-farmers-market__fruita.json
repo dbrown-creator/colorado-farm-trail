@@ -1,0 +1,18 @@
+{
+ "id": "fruita-farmers-market__fruita",
+ "name": "Fruita Farmers' Market",
+ "city": "Fruita",
+ "official_website": "https://www.fruitachamber.org/events/farmers-market",
+ "fields": {
+  "Website": {"value": "https://www.fruitachamber.org/events/farmers-market", "source_url": "https://www.fruitachamber.org/events/farmers-market"},
+  "Hours": {"value": "Sat: 8:30am - 12:00pm", "source_url": "https://thebusinesstimes.com/fruita-farmers-market-returns-june-13-with-family-fun-day/"},
+  "Months Open": {"value": "June, July, August, September, October", "source_url": "https://thebusinesstimes.com/fruita-farmers-market-returns-june-13-with-family-fun-day/"},
+  "Products": {"value": "Local agriculture, artisan goods, fresh foods, and live entertainment", "source_url": "https://thebusinesstimes.com/fruita-farmers-market-returns-june-13-with-family-fun-day/"},
+  "SNAP": {"value": "Yes", "source_url": "https://thebusinesstimes.com/fruita-farmers-market-returns-june-13-with-family-fun-day/"},
+  "Email": {"value": "events@fruitachamber.org", "source_url": "https://gofruita.com/event/farmers-market/2026-10-03/"},
+  "Phone": {"value": "970-858-3894", "source_url": "https://gofruita.com/event/farmers-market/2026-10-03/"},
+  "Facebook": {"value": "https://www.facebook.com/GoFruita/", "source_url": "https://gofruita.com/event/farmers-market/2026-10-03/"},
+  "Instagram": {"value": "https://www.instagram.com/gofruita/", "source_url": "https://gofruita.com/event/farmers-market/2026-10-03/"}
+ },
+ "notes": "The on-file website (fruitafarmersmarket.com) is a stale/outdated independent site with vague hours and an old Facebook group link (facebook.com/groups/391636954812/) with no useful content. The market is now organized by the Fruita Area Chamber of Commerce; the modern domain fruitafarmersmarket.org 301-redirects to the Chamber's official event page (https://www.fruitachamber.org/events/farmers-market), which I used as the corrected official website. Some sources refer to the market as 'Fruita Farmers and Makers Market' (rebrand), with a market-specific Instagram at instagram.com/fruita_farmersandmakers, but I used the Chamber's own GoFruita Facebook/Instagram accounts since those are directly tied to the Chamber's official event listing. One secondary source (thebusinesstimes.com) listed a different Chamber phone (970-424-5133) but the Chamber's own contact info (via search of fruitachamber.org contact page) confirms 970-858-3894, which matches gofruita.com, so I used that number. Address on file (325 E. Aspen Ave., Fruita Civic Center Park) was confirmed correct by multiple sources; not changed. ADA accessibility and certified organic status were not stated anywhere found."
+}

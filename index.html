@@ -11,7 +11,13 @@
 <meta property="og:title" content="Colorado Farm Trail — Summer 2026" />
 <meta property="og:description" content="163 Colorado farms, markets, U-picks & stands on one map. Opens in Google Maps on your phone. Eat local this summer!" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://dbrown-creator.github.io/colorado-farm-trail/" />
+<meta property="og:url" content="https://coloradofarmtrail.com/" />
+<meta property="og:image" content="https://coloradofarmtrail.com/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Map of 163 Colorado farms, markets, U-picks and wineries, color-coded by type." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://coloradofarmtrail.com/og-image.png" />
 
 <!-- ============================================================= -->
 <!-- GOOGLE ANALYTICS 4 — Measurement ID G-PC4YFC13N6                 -->
@@ -38,7 +44,7 @@
   // Share the site. Uses the phone's native share sheet when available,
   // otherwise copies the link to the clipboard.
   function shareSite(){
-    var url = 'https://dbrown-creator.github.io/colorado-farm-trail/';
+    var url = 'https://coloradofarmtrail.com/';
     var text = 'Find your next farm stop. 163 Colorado farms, markets & U-picks on one map:';
     if (navigator.share){
       navigator.share({ title: 'Colorado Farm Trail', text: text, url: url })
@@ -51,7 +57,7 @@
 
   // Copy the site link to the clipboard and flash a confirmation.
   function copyLink(){
-    var url = 'https://dbrown-creator.github.io/colorado-farm-trail/';
+    var url = 'https://coloradofarmtrail.com/';
     var label = document.getElementById('copyLabel');
     function flash(){
       trackShare('copy_link');
@@ -181,7 +187,7 @@
     <p style="margin:.2em 0 4px;color:var(--muted)">The goal is to get as many Coloradans as possible eating local this summer. If you found this useful, text it to a friend, post it, or share it with your community. Every share helps a local grower.</p>
     <button type="button" class="share share-primary" onclick="shareSite()">📤 Share this map</button>
     <div class="share-row">
-      <a class="share-alt" href="sms:?&body=Find your next farm stop. 163 Colorado farms, markets %26 U-picks on one map: https://dbrown-creator.github.io/colorado-farm-trail/"
+      <a class="share-alt" href="sms:?&body=Find your next farm stop. 163 Colorado farms, markets %26 U-picks on one map: https://coloradofarmtrail.com/"
          onclick="trackShare('sms')">💬 Text a friend</a>
       <button type="button" class="share share-alt" onclick="copyLink()">🔗 <span id="copyLabel">Copy link</span></button>
     </div>

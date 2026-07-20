@@ -1,0 +1,16 @@
+{
+ "id": "cherry-creek-fresh-market__denver",
+ "name": "Cherry Creek Fresh Market",
+ "city": "Denver",
+ "official_website": "https://www.coloradofreshmarkets.com",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 2:00pm", "source_url": "https://www.coloradofreshmarkets.com/visit"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://www.coloradofreshmarkets.com/visit"},
+  "Products": {"value": "Fresh in-season produce, prepared foods, flowers, baked goods, local meats and dairy, and handcrafted/artisan goods", "source_url": "https://www.coloradofreshmarkets.com/vendors"},
+  "Address": {"value": "Cherry Creek Shopping Center, east side, on Steele St. next to Macy's, Denver, CO", "source_url": "https://www.coloradofreshmarkets.com/visit"},
+  "Facebook": {"value": "https://www.facebook.com/ColoradoFreshMarkets", "source_url": "https://www.facebook.com/ColoradoFreshMarkets"},
+  "Instagram": {"value": "https://www.instagram.com/coloradofreshmarkets/", "source_url": "https://www.coloradofreshmarkets.com/visit"},
+  "Website": {"value": "https://www.coloradofreshmarkets.com", "source_url": "https://www.coloradofreshmarkets.com"}
+ },
+ "notes": "On-file website www.coloradofreshmarkets.com is live and is the official site for the market operator 'Colorado Fresh Markets', confirmed as running Cherry Creek Fresh Market (est. 1997, at Cherry Creek Shopping Center). Season confirmed as every Saturday, May 2 - Oct 10 (2026 dates cited on site; assumed to recur seasonally each year). No explicit SNAP/EBT/Double Up, ADA accessibility, certified organic, email, or phone info found on official site pages (Visit, About, Vendors) or Instagram/Facebook, so those fields were omitted rather than guessed. Facebook confirmed via facebook.com/ColoradoFreshMarkets, titled 'Colorado Fresh Markets | Denver CO'; a secondary numeric-ID Facebook page (facebook.com/384894068249001) also surfaced in search but the vanity-URL page was used as canonical. Street address on file (1st Ave. & University Blvd.) is an older/approximate description; the site instead describes the location relative to the mall (Steele St., near Macy's) rather than giving a numbered street address, so Address was updated to that clearer official description rather than a full mailing address."
+}

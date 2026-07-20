@@ -1,0 +1,16 @@
+{
+ "id": "gluten-free-farmers-market__englewood",
+ "name": "Gluten Free Farmers Market",
+ "city": "Englewood",
+ "official_website": "https://www.denverceliacs.org",
+ "fields": {
+  "Hours": {"value": "Sat: 9:00am - 1:00pm", "source_url": "https://denverceliacs.org/event/gluten-free-farmers-market-2/"},
+  "Months Open": {"value": "June, July, August, September, October", "source_url": "https://denverceliacs.org/event/gluten-free-farmers-market-2/"},
+  "Products": {"value": "Farm produce, prepared foods and baked goods, food trucks, crafts and art, beauty products, herbs, house plants, canned goods, dog treats, flowers", "source_url": "https://denverceliacs.org/event/gluten-free-farmers-market-2/"},
+  "Address": {"value": "333 W Hampden Ave (North Parking lot next to Chase Tower), Englewood, CO 80110", "source_url": "https://denverceliacs.org/event/gluten-free-farmers-market-2/"},
+  "Facebook": {"value": "https://www.facebook.com/DenverCeliacs", "source_url": "https://sites.google.com/view/gf-farmers-market-denverceliac/home"},
+  "Instagram": {"value": "https://www.instagram.com/denverceliacs", "source_url": "https://sites.google.com/view/gf-farmers-market-denverceliac/home"},
+  "Website": {"value": "https://www.denverceliacs.org", "source_url": "https://www.denverceliacs.org"}
+ },
+ "notes": "This market is organized by the National Celiac Association Denver chapter (denverceliacs.org), which was already independently researched for the 'National Celiac Association of Denver' entry (same organization, same market). Reused that verified data here since it directly describes this Gluten Free Farmers Market. The on-file website (sites.google.com/view/gf-farmers-market-denverceliac/home) is a legitimate secondary/informational page but denverceliacs.org is the organization's primary official site with the live event listing. The market runs seasonally (2nd Saturday of each month, June-Oct) at 333 W Hampden Ave, Englewood, CO 80110 (Chase Tower parking lot), matching the address already on file. SNAP/EBT acceptance, ADA accessibility, certified-organic status, dedicated email, and phone number could not be confirmed on any official source and were omitted rather than guessed."
+}

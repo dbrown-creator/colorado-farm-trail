@@ -1,0 +1,17 @@
+{
+ "id": "old-south-pearl-street-association-farmers-market__denver",
+ "name": "Old South Pearl Street Association - Farmers Market",
+ "city": "Denver",
+ "official_website": "https://southpearlstreet.com/farmers-market/",
+ "fields": {
+  "Hours": {"value": "Sun: 9:00am - 1:00pm", "source_url": "https://southpearlstreet.com/farmers-market/"},
+  "Months Open": {"value": "May, June, July, August, September, October, November", "source_url": "https://southpearlstreet.com/farmers-market/"},
+  "Products": {"value": "Fresh Colorado produce, baked goods/pastries, craft coffee, cut flowers, and prepared/chef-made foods from 170+ local vendors; all products must be grown, raised, produced or gathered in Colorado or in bordering counties", "source_url": "https://southpearlstreet.com/farmers-market/"},
+  "Email": {"value": "events@JarmanandCoEvents.com", "source_url": "https://southpearlstreet.com/farmers-market/"},
+  "Facebook": {"value": "https://www.facebook.com/SouthPearlStreet", "source_url": "https://southpearlstreet.com/farmers-market/"},
+  "Instagram": {"value": "https://www.instagram.com/southpearlst", "source_url": "https://southpearlstreet.com/farmers-market/"},
+  "Address": {"value": "1400 + 1500 blocks of South Pearl Street (between Iowa and Arkansas), Denver, CO 80210", "source_url": "https://southpearlstreet.com/farmers-market/"},
+  "Website": {"value": "https://southpearlstreet.com/farmers-market/", "source_url": "https://southpearlstreet.com/farmers-market/"}
+ },
+ "notes": "The on-file website oldsouthpearlstreet.com is a dead/parked default WordPress install with no content - not usable. The real official site is southpearlstreet.com (run by the Old South Pearl Street merchant association; market itself is managed by Jarman and Co Events), specifically the /farmers-market/ page. On-file Facebook (facebook.com/SouthPearlStreet) was confirmed correct/official via the same site's social links. No phone number, SNAP/EBT, ADA accessibility, or certified-organic statements were found anywhere on the official site (checked farmers-market and contact pages) or on the linked Facebook/Instagram, so those fields are omitted. Market runs every Sunday, May 3 - November 8, 2026, 9am-1pm, at 1400-1500 South Pearl St, Denver, CO 80210 (rain/snow/shine, closed only in extreme weather; no pets except task-trained service animals)."
+}

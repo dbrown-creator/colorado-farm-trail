@@ -1,0 +1,18 @@
+{
+ "id": "greeley-farmers-market__greeley",
+ "name": "Greeley Farmers Market",
+ "city": "Greeley",
+ "official_website": "https://greeleyco.gov/events/farmers-market/",
+ "fields": {
+  "Hours": {"value": "Sat: 8:00am - 12:00pm", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Products": {"value": "Seasonal fruits, vegetables, flowers, seafood and meats, cheese, eggs, coffee, tea, bakery and bread, and a sampling of handmade goods", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "SNAP": {"value": "Yes", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Email": {"value": "farmers.market@greeleygov.com", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Facebook": {"value": "https://www.facebook.com/greeleyfarmersmarket/", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Instagram": {"value": "https://www.instagram.com/greeleyfarmersmarket/", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "ADA Accessible": {"value": "Yes", "source_url": "https://greeleyco.gov/events/farmers-market/"},
+  "Website": {"value": "https://greeleyco.gov/events/farmers-market/", "source_url": "https://greeleyco.gov/events/farmers-market/"}
+ },
+ "notes": "The on-file website (https://greeleygov.com/activities/fm/home) is dead/redirected: greeleygov.com now 301-redirects to greeleyco.gov, and the /activities/fm/home path itself now 404s. The correct current official City of Greeley page is https://greeleyco.gov/events/farmers-market/. Market runs Saturdays 8am-12pm, May-October 2026 (closed July 4th for Stampede parade), at 7th Street between 9th & 10th Ave, north of Lincoln Park, downtown Greeley (differs slightly from the on-file address of 902 7th Ave, so address was not changed since the market's exact block location isn't a single street address). A separate winter market (1st & 3rd Saturdays, Nov-Apr, indoors at Zoe's Cafe and Events, 715 10th St) also exists per the city page but was not included since it's a distinct seasonal listing. No phone number or certified-organic status stated on the official page."
+}

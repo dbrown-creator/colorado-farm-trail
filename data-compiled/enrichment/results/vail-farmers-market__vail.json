@@ -1,0 +1,14 @@
+{
+ "id": "vail-farmers-market__vail",
+ "name": "Vail Farmers' Market",
+ "city": "Vail",
+ "official_website": "https://www.vailfarmersmarket.com/",
+ "fields": {
+  "Hours": {"value": "Sun: 9:30am - 3:00pm; Thu: 1:00pm - 5:30pm", "source_url": "https://www.vailfarmersmarket.com/vendor-opportunities/event-one-mbxeg"},
+  "Months Open": {"value": "June, July, August, September, October", "source_url": "https://www.vailfarmersmarket.com/sunday-market-1"},
+  "Products": {"value": "Farm-fresh produce, artisan foods, Colorado-made art, handcrafted goods, clothing, jewelry, and prepared foods from over 155 vendors", "source_url": "https://www.vailfarmersmarket.com/sunday-market-1"},
+  "Facebook": {"value": "https://www.facebook.com/VailFarmersMarket", "source_url": "https://www.vailfarmersmarket.com/"},
+  "Instagram": {"value": "https://www.instagram.com/vailfarmersmarket/", "source_url": "https://www.vailfarmersmarket.com/"}
+ },
+ "notes": "On-file website (www.vailfarmersmarket.com) is live and IS the official site, confirmed as operator of both the Sunday Market (Meadow Dr., Vail Village, June 14-Oct 4 2026, 9:30am-3pm) and Thursday Meadow Market (Willow Bridge Rd/International Bridge, June 18-Sept 2026, 1:00-5:30pm). On-file Facebook URL (facebook.com//pages/Vail-Farmers-Market-and-Art-Show/108065899218940) is outdated/malformed; replaced with current official page facebook.com/VailFarmersMarket linked directly from the site. Site is JS-rendered (Squarespace-style) so exact hours were not in raw HTML but were confirmed via rendered event subpages. Could not find SNAP/EBT status, email, phone, ADA accessibility, or certified organic status clearly stated anywhere on the official site or its subpages (contact-us and become-a-vendor pages returned 404). Address on file (Meadow Dr.) matches the Sunday Market location; Thursday market is at a different location (Willow Bridge Rd) but that is a separate weekly event under the same organization, not a market address correction."
+}

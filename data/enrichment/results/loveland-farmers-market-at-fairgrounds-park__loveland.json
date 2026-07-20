@@ -1,0 +1,14 @@
+{
+ "id": "loveland-farmers-market-at-fairgrounds-park__loveland",
+ "name": "Loveland Farmers Market at Fairgrounds Park",
+ "city": "Loveland",
+ "official_website": "https://www.lovgov.org/services/parks-recreation/events/farmers-market",
+ "fields": {
+  "Hours": {"value": "Sun: 9:00am - 1:00pm", "source_url": "https://www.lovgov.org/services/parks-recreation/events/farmers-market"},
+  "Months Open": {"value": "June, July, August, September", "source_url": "https://www.lovgov.org/services/parks-recreation/events/farmers-market"},
+  "Products": {"value": "Local produce, dairy, meat, poultry, baked goods, craft beer, bath and body care, artisan goods, and concessions", "source_url": "https://www.lovgov.org/services/parks-recreation/events/farmers-market"},
+  "SNAP": {"value": "Yes", "source_url": "https://www.lovgov.org/services/parks-recreation/events/farmers-market"},
+  "Facebook": {"value": "https://www.facebook.com/CityofLovelandFarmersMarket/", "source_url": "https://www.facebook.com/CityofLovelandFarmersMarket/"}
+ },
+ "notes": "The on-file website (lovgov.org/services/parks-recreation/events/farmers-market) is confirmed as the correct official City of Loveland page for this market, though it blocks direct automated fetches (HTTP 403); details were confirmed via search-engine cached snippets of that same page. Confirmed: market runs Sundays 9am-1pm, June 7 - Sept 27 (2026 season dates), at Fairgrounds Park, 700 S Railroad Ave, and accepts SNAP/Double Up (up to $20/week matched for CO-grown produce). Facebook on file (City of Loveland Farmers Market) matches. Could not find a clearly stated market-specific email, phone, Instagram, ADA accessibility statement, or certified-organic status on official sources, so these were omitted. No better/more specific address than the one already on file (700 S Railroad Ave, 80537) was found."
+}

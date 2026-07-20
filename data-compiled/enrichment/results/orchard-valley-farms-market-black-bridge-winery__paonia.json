@@ -1,0 +1,15 @@
+{
+ "id": "orchard-valley-farms-market-black-bridge-winery__paonia",
+ "name": "Orchard Valley Farms & Market.   Black Bridge Winery",
+ "city": "Paonia",
+ "official_website": "https://orchardvalleyfarms.com",
+ "fields": {
+   "Hours": {"value": "Daily: 10:00am - 6:00pm", "source_url": "https://orchardvalleyfarms.com/visit"},
+   "Months Open": {"value": "May, June, July, August, September, October", "source_url": "https://orchardvalleyfarms.com/visit"},
+   "Products": {"value": "U-pick raspberries, cherries, peaches, pumpkins, fresh fruits and vegetables, wine grapes, Black Bridge wines, balsamic vinegars, infused olive oils, jams, salsas, mustards, chutneys, honey, jerky, cheese, pickles, Black Bridge Beef, jewelry, decor and yard sculpture", "source_url": "https://orchardvalleyfarms.com/farm-market"},
+   "Phone": {"value": "970-527-6838", "source_url": "https://orchardvalleyfarms.com"},
+   "Facebook": {"value": "https://www.facebook.com/OrchardValleyFarms/", "source_url": "https://www.facebook.com/OrchardValleyFarms/"},
+   "Instagram": {"value": "https://www.instagram.com/orchardvalleyfarms/", "source_url": "https://www.instagram.com/orchardvalleyfarms/"}
+ },
+ "notes": "On-file website https://orchardvalleyfarms.com confirmed live and official (matches address 15836 Black Bridge Rd, Paonia, CO 81428). This is a farm market/U-pick/winery operation rather than a traditional multi-vendor farmers market, open daily (not just specific market days) Memorial Day weekend through Halloween. Old Facebook link on the site itself is a legacy '/home.php?#!/pages/...' URL; replaced with the current canonical facebook.com/OrchardValleyFarms/ page found via search. Instagram handle @orchardvalleyfarms found via search (location shown as Paonia, CO) but is not linked directly from the official site. No mention found on official site of SNAP/EBT acceptance, ADA accessibility, certified organic status, or a public email address (site only offers a newsletter signup and contact form), so those fields were omitted."
+}
