@@ -6,10 +6,15 @@ counts, no visitor data). So tracking lives on the landing page, not the map.
 
 ## Google Analytics 4
 
-- **Measurement ID:** `G-PC4YFC13N6` (already embedded in `index.html`, two places).
-- **Property:** created under the owner's personal Google account for now (move to
-  the brand Gmail later — see `branding.md`).
-- After hosting is live, set the **Data Stream URL** in GA4 to the real site URL.
+- **Measurement ID:** `G-PC4YFC13N6` (embedded in `index.html`, two places). It is
+  domain-independent — it kept collecting through the move to the custom domain with
+  no code change.
+- **Data stream:** "Colorado Farm Trail" (Stream ID `15232716864`), **Stream URL set to
+  `https://coloradofarmtrail.com`** (the live custom domain). Data collection confirmed
+  active.
+- **Property:** created under the owner's personal Google account. Add the brand Gmail
+  (`coloradofarmtrail@gmail.com`) as an Admin to move analytics onto the project
+  identity — see [`BRANDING.md`](BRANDING.md).
 
 ### The custom conversion event
 `index.html` fires a GA4 event whenever someone clicks through to the actual map:
