@@ -36,6 +36,24 @@
     gtag('event', 'open_map', { placement: where });
   }
 
+  // Route the hero button by device. The default href is the Google My Maps link,
+  // so phones and any no-JS visitor get the "save the whole farm layer into the
+  // Google Maps app" flow. On desktop we rewrite it to open the interactive
+  // Leaflet map instead (richer, filterable). Detection is deliberately
+  // conservative and always has the My Maps link as a safe fallback.
+  function isMobileDevice(){
+    return window.matchMedia('(pointer: coarse)').matches
+        && window.matchMedia('(max-width: 820px)').matches;
+  }
+  document.addEventListener('DOMContentLoaded', function(){
+    var cta = document.getElementById('mapCta');
+    if (cta && !isMobileDevice()){
+      cta.href = 'map.html';
+      cta.textContent = 'Open the interactive map →';
+      cta.setAttribute('onclick', "trackOpenMap('hero_leaflet')");
+    }
+  });
+
   // Fire a GA4 event whenever someone shares the site.
   function trackShare(method){
     gtag('event', 'share', { method: method });
@@ -148,7 +166,7 @@
     <h1>🌽 Colorado Farm Trail</h1>
     <p class="tagline">Find your next farm stop.</p>
     <p class="tag">163 local farms, farmers' markets, U-picks, roadside stands &amp; wineries — all on one map. Eat local all summer.</p>
-    <a class="cta" href="https://www.google.com/maps/d/viewer?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE"
+    <a id="mapCta" class="cta" href="https://www.google.com/maps/d/viewer?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE"
        target="_blank" rel="noopener" onclick="trackOpenMap('hero')">Open in Google Maps →</a>
   </header>
 
@@ -160,8 +178,7 @@
   </div>
 
   <div class="mapcard">
-    <iframe src="https://www.google.com/maps/d/embed?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE&ehbc=2E312F"
-            loading="lazy" title="Colorado Farm Trail Directory Map"></iframe>
+    <iframe src="map.html" loading="lazy" title="Colorado Farm Trail — interactive map"></iframe>
   </div>
 
   <span class="chips-label">What you'll find on the map</span>
