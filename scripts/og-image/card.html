@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!--
+  Source for og-image.png (the 1200x630 social-share card).
+  Regenerate:  see scripts/og-image/README.md
+  Self-contained (no external fonts/tiles) so headless Chrome captures it instantly.
+-->
+<style>
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  html,body{ width:1200px; height:630px; overflow:hidden; }
+  body{
+    position:relative;
+    font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    color:#20301f; background:#e9ecdf;
+  }
+
+  /* Faux map background (light, Positron-like) */
+  .map{ position:absolute; inset:0;
+    background:
+      radial-gradient(760px 520px at 80% 28%, #eef3e7, transparent 62%),
+      radial-gradient(620px 560px at 96% 92%, #e6ecdd, transparent 60%),
+      linear-gradient(#edefe4,#e4e8da); }
+  .map::before{ content:""; position:absolute; inset:0;
+    background-image:
+      linear-gradient(rgba(90,110,80,.09) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(90,110,80,.09) 1px, transparent 1px);
+    background-size:72px 72px; }
+  .map::after{ content:""; position:absolute; inset:0;
+    background:
+      linear-gradient(118deg, transparent 61.6%, rgba(120,150,170,.30) 62%, rgba(120,150,170,.30) 62.5%, transparent 63%),
+      linear-gradient(52deg, transparent 79.6%, rgba(120,150,170,.28) 80%, rgba(120,150,170,.28) 80.35%, transparent 81%); }
+
+  /* Left scrim so the branding reads cleanly */
+  .scrim{ position:absolute; inset:0;
+    background:linear-gradient(102deg, rgba(247,246,241,.98) 40%, rgba(247,246,241,.72) 55%, rgba(247,246,241,0) 76%); }
+
+  /* Pins */
+  .pin{ position:absolute; transform:translate(-50%,-100%); }
+  .pin i{ display:flex; align-items:center; justify-content:center; width:56px; height:56px;
+    background:var(--c); border:3px solid rgba(255,255,255,.92); border-radius:50% 50% 50% 0;
+    transform:rotate(-45deg); box-shadow:0 6px 14px rgba(0,0,0,.28); }
+  .pin i b{ transform:rotate(45deg); font-size:27px; line-height:1; font-weight:400; }
+  .cluster{ position:absolute; transform:translate(-50%,-50%); width:74px; height:74px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:26px;
+    background:rgba(63,125,58,.9); border:5px solid rgba(255,255,255,.75); box-shadow:0 6px 16px rgba(0,0,0,.28); }
+
+  /* Content */
+  .content{ position:absolute; left:76px; top:0; height:100%; width:660px;
+    display:flex; flex-direction:column; justify-content:center; }
+  .brand{ display:flex; align-items:center; gap:12px; font-size:30px; font-weight:800;
+    letter-spacing:.04em; text-transform:uppercase; color:#3f7d3a; }
+  h1{ font-size:92px; line-height:.96; letter-spacing:-.03em; margin:14px 0 18px; max-width:11ch; }
+  .sub{ font-size:33px; line-height:1.28; color:#3c4a37; font-weight:600; max-width:20ch; }
+  .stats{ display:flex; gap:26px; margin-top:30px; }
+  .stat b{ font-size:44px; color:#3f7d3a; line-height:1; }
+  .stat span{ display:block; font-size:19px; color:#5c6b57; margin-top:4px; font-weight:600; }
+  .url{ position:absolute; left:78px; bottom:40px; font-size:24px; font-weight:800; color:#3f7d3a; letter-spacing:.01em; }
+</style>
+</head>
+<body>
+  <div class="map">
+    <span class="pin" style="left:64%;top:30%;--c:#3f7d3a"><i><b>🧺</b></i></span>
+    <span class="pin" style="left:78%;top:22%;--c:#c77d24"><i><b>🚜</b></i></span>
+    <span class="pin" style="left:90%;top:34%;--c:#c2417a"><i><b>🍓</b></i></span>
+    <span class="pin" style="left:71%;top:52%;--c:#7a4fb0"><i><b>🍷</b></i></span>
+    <span class="pin" style="left:86%;top:58%;--c:#8a6d3b"><i><b>🐄</b></i></span>
+    <span class="pin" style="left:62%;top:72%;--c:#d94f4f"><i><b>🛻</b></i></span>
+    <span class="pin" style="left:79%;top:80%;--c:#4a9d5b"><i><b>🌱</b></i></span>
+    <span class="pin" style="left:94%;top:78%;--c:#2f8f8f"><i><b>🌻</b></i></span>
+    <span class="cluster" style="left:70%;top:41%;">12</span>
+  </div>
+  <div class="scrim"></div>
+
+  <div class="content">
+    <div class="brand"><span>🌽</span> Colorado Farm Trail</div>
+    <h1>Find your next farm stop.</h1>
+    <div class="sub">163 farms, farmers' markets, U-picks &amp; wineries across Colorado — on one map.</div>
+    <div class="stats">
+      <div class="stat"><b>163</b><span>local stops</span></div>
+      <div class="stat"><b>47</b><span>farmers' markets</span></div>
+      <div class="stat"><b>36</b><span>counties</span></div>
+    </div>
+  </div>
+  <div class="url">coloradofarmtrail.com</div>
+</body>
+</html>
