@@ -23,8 +23,14 @@ from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
 from scrape.sources import cfma, colorado_proud, enrichment, usda
 
+# PHASE 2 (in development — NOT the live product). Outputs are isolated under phase2/
+# so they never touch the live Phase 1 file data-compiled/farm_fresh_directory_mymaps.csv.
+# Canonical split: compiled map-ready CSV -> data-compiled/phase2/;
+# full raw+provenance export -> source-data/phase2/.
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.normpath(os.path.join(HERE, "..", "..", "data"))
+REPO = os.path.normpath(os.path.join(HERE, "..", ".."))
+COMPILED_DIR = os.path.join(REPO, "data-compiled", "phase2")
+SOURCE_DIR = os.path.join(REPO, "source-data", "phase2")
 
 
 def collect() -> list:
@@ -82,9 +88,10 @@ def fill_geography(markets: list) -> None:
 
 
 def write(markets: list) -> None:
-    os.makedirs(DATA_DIR, exist_ok=True)
-    mymaps = os.path.join(DATA_DIR, "co_farmers_markets_all_mymaps.csv")
-    raw = os.path.join(DATA_DIR, "co_farmers_markets_all_raw.csv")
+    os.makedirs(COMPILED_DIR, exist_ok=True)
+    os.makedirs(SOURCE_DIR, exist_ok=True)
+    mymaps = os.path.join(COMPILED_DIR, "co_farmers_markets_all_mymaps.csv")
+    raw = os.path.join(SOURCE_DIR, "co_farmers_markets_all_raw.csv")
 
     with open(mymaps, "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.DictWriter(fh, fieldnames=COLUMNS)

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Colorado Farm Trail — Map</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%8C%BD</text></svg>" />
+<meta name="description" content="Filterable map of 163 Colorado farms, farmers' markets, U-picks, roadside stands and wineries." />
+
+<!-- Leaflet + MarkerCluster (CDN) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<style>
+  :root{
+    --bg:#f7f6f1; --card:#ffffff; --ink:#20301f; --muted:#5c6b57;
+    --accent:#3f7d3a; --accent-ink:#ffffff; --line:#e3e0d5; --chip:#eef2e6;
+    --shadow:0 4px 20px rgba(0,0,0,.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141712; --card:#1d221a; --ink:#e9ecdf; --muted:#a6b09b;
+           --accent:#7bb56f; --accent-ink:#0f1410; --line:#2c3327; --chip:#252c1f;
+           --shadow:0 4px 20px rgba(0,0,0,.4); }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;height:100%}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.45;
+    -webkit-font-smoothing:antialiased; overflow:hidden;
+  }
+
+  /* ---- Layout: sidebar + map ---- */
+  .app{display:flex;height:100dvh;width:100%}
+  .panel{
+    width:320px;flex:0 0 320px;height:100%;overflow-y:auto;
+    background:var(--card);border-right:1px solid var(--line);
+    display:flex;flex-direction:column;
+  }
+  .map-wrap{flex:1;position:relative;height:100%}
+  #map{position:absolute;inset:0;background:var(--bg)}
+
+  /* ---- Panel header ---- */
+  .panel-head{padding:16px 18px 12px;border-bottom:1px solid var(--line)}
+  .panel-head h1{font-size:1.15rem;margin:0;letter-spacing:-.01em;display:flex;align-items:center;gap:7px}
+  .count{color:var(--muted);font-size:.85rem;margin:5px 0 0}
+  .count b{color:var(--accent)}
+
+  .panel-body{padding:6px 18px 22px}
+  .fgroup{margin-top:16px}
+  .fgroup > label.h{
+    display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;
+    color:var(--muted);font-weight:700;margin-bottom:8px;
+  }
+
+  /* ---- Search ---- */
+  .search{position:relative}
+  .search input{
+    width:100%;padding:11px 12px 11px 34px;border:1px solid var(--line);border-radius:10px;
+    background:var(--bg);color:var(--ink);font:inherit;font-size:.95rem;
+  }
+  .search input:focus{outline:none;border-color:var(--accent)}
+  .search::before{content:"🔍";position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:.85rem;opacity:.7}
+
+  /* ---- Category chips ---- */
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{
+    display:inline-flex;align-items:center;gap:6px;cursor:pointer;user-select:none;
+    padding:6px 11px;border-radius:999px;border:1.5px solid var(--line);
+    background:var(--bg);color:var(--ink);font-size:.85rem;font-weight:600;
+    transition:all .12s ease;
+  }
+  .chip .dot{width:10px;height:10px;border-radius:50%;flex:0 0 auto}
+  .chip.on{border-color:currentColor}
+  .chip[data-on="0"]{opacity:.5}
+
+  /* ---- Toggles ---- */
+  .toggles{display:flex;flex-direction:column;gap:2px}
+  .tog{display:flex;align-items:center;gap:10px;padding:7px 2px;cursor:pointer;font-size:.92rem}
+  .tog input{width:18px;height:18px;accent-color:var(--accent);cursor:pointer}
+
+  select{
+    width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;
+    background:var(--bg);color:var(--ink);font:inherit;font-size:.95rem;cursor:pointer;
+  }
+  select:focus{outline:none;border-color:var(--accent)}
+
+  .reset{
+    margin-top:18px;width:100%;padding:10px;border-radius:10px;border:1.5px solid var(--line);
+    background:transparent;color:var(--muted);font:inherit;font-weight:600;cursor:pointer;
+  }
+  .reset:hover{border-color:var(--accent);color:var(--accent)}
+
+  .panel-foot{
+    margin-top:auto;padding:14px 18px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--muted)
+  }
+  .panel-foot a{color:var(--accent)}
+
+  /* ---- Custom marker pins ---- */
+  .pin{
+    width:30px;height:30px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);
+    border:2px solid rgba(255,255,255,.9);box-shadow:0 2px 5px rgba(0,0,0,.35);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .pin span{transform:rotate(45deg);font-size:14px;line-height:1}
+  @media (prefers-color-scheme: dark){ .pin{border-color:rgba(0,0,0,.35)} }
+
+  /* ---- Popup (theme-aware: Leaflet's default is a hard-coded white box,
+         which washes out light text in dark mode — so theme it explicitly) ---- */
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip{ background:var(--card); color:var(--ink); }
+  .leaflet-popup-content-wrapper{border-radius:14px;box-shadow:var(--shadow)}
+  .leaflet-popup-content{margin:14px 16px;line-height:1.4;color:var(--ink)}
+  .leaflet-container a.leaflet-popup-close-button{color:var(--muted)}
+  .pop h3{margin:0 0 2px;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink)}
+  .pop .cat{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;
+    letter-spacing:.05em;color:var(--accent);margin-bottom:8px}
+  .pop .row{margin:4px 0;font-size:.86rem;color:var(--ink);display:flex;gap:6px}
+  .pop .row .ic{opacity:.7;flex:0 0 16px}
+  .pop .flags{margin:8px 0 2px;display:flex;flex-wrap:wrap;gap:5px}
+  .pop .flag{font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--muted)}
+  .pop a{color:var(--accent)}
+  .pop .dir{
+    display:inline-flex;align-items:center;gap:6px;margin-top:11px;padding:9px 15px;border-radius:999px;
+    background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:700;font-size:.88rem;
+  }
+  .pop .links{margin-top:9px;display:flex;flex-wrap:wrap;gap:12px;font-size:.85rem;font-weight:600}
+
+  /* ---- Mobile: panel becomes a bottom sheet ---- */
+  .sheet-toggle{display:none}
+  @media (max-width:760px){
+    body{overflow:auto}
+    .app{flex-direction:column;height:100dvh}
+    .map-wrap{order:1;flex:1;min-height:0}
+    .panel{
+      order:2;position:fixed;left:0;right:0;bottom:0;width:100%;flex-basis:auto;
+      max-height:72dvh;border-right:0;border-top:1px solid var(--line);
+      border-radius:18px 18px 0 0;box-shadow:0 -6px 24px rgba(0,0,0,.18);
+      transform:translateY(calc(100% - 60px));transition:transform .28s ease;z-index:1200;
+    }
+    .panel.open{transform:translateY(0)}
+    .sheet-toggle{
+      display:flex;align-items:center;justify-content:center;gap:8px;
+      height:60px;flex:0 0 60px;cursor:pointer;font-weight:700;color:var(--ink);
+      border-bottom:1px solid var(--line);
+    }
+    .sheet-toggle .grip{position:absolute;top:8px;left:50%;transform:translateX(-50%);
+      width:38px;height:4px;border-radius:2px;background:var(--line)}
+    .sheet-toggle .badge{background:var(--accent);color:var(--accent-ink);border-radius:999px;
+      padding:1px 9px;font-size:.82rem}
+    .panel-head{padding-top:6px}
+    .panel-head h1{font-size:1.05rem}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="map-wrap">
+    <div id="map"></div>
+  </div>
+
+  <aside class="panel" id="panel">
+    <div class="sheet-toggle" id="sheetToggle">
+      <span class="grip"></span>
+      🔎 Filters <span class="badge" id="sheetCount">163</span>
+    </div>
+
+    <div class="panel-head">
+      <h1>🌽 Colorado Farm Trail</h1>
+      <p class="count"><b id="showing">163</b> of <span id="total">163</span> stops shown</p>
+    </div>
+
+    <div class="panel-body">
+      <div class="fgroup search">
+        <input type="search" id="q" placeholder="Search name, city or product…" autocomplete="off" />
+      </div>
+
+      <div class="fgroup">
+        <label class="h">Type</label>
+        <div class="chips" id="cats"></div>
+      </div>
+
+      <div class="fgroup">
+        <label class="h">County</label>
+        <select id="county"><option value="">All counties</option></select>
+      </div>
+
+      <div class="fgroup">
+        <label class="h">Filters</label>
+        <div class="toggles">
+          <label class="tog"><input type="checkbox" id="fOpen" /> Open this month (<span id="monthName"></span>)</label>
+          <label class="tog"><input type="checkbox" id="fSnap" /> Accepts SNAP / EBT</label>
+          <label class="tog"><input type="checkbox" id="fAda" /> ADA accessible</label>
+          <label class="tog"><input type="checkbox" id="fOrg" /> Certified organic</label>
+        </div>
+      </div>
+
+      <button class="reset" id="reset">Reset filters</button>
+    </div>
+
+    <div class="panel-foot">
+      Data: Colorado Proud Farm Fresh Directory ·
+      <a href="/">back to home</a>
+    </div>
+  </aside>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---- Category styling: color + emoji, brand-consistent ----
+  var CATS = {
+    "Farmers' Market":            { color:"#3f7d3a", emoji:"🧺" },
+    "CSA Farm":                   { color:"#c77d24", emoji:"🚜" },
+    "On-Farm / Ranch Sales":      { color:"#8a6d3b", emoji:"🐄" },
+    "Roadside Market":            { color:"#d94f4f", emoji:"🛻" },
+    "U-Pick":                     { color:"#c2417a", emoji:"🍓" },
+    "Agritourism":                { color:"#2f8f8f", emoji:"🌻" },
+    "Winery":                     { color:"#7a4fb0", emoji:"🍷" },
+    "Garden Center / Greenhouse": { color:"#4a9d5b", emoji:"🌱" },
+    "Restaurant":                 { color:"#5a6b8c", emoji:"🍽️" },
+    "Other":                      { color:"#7c7c7c", emoji:"📍" }
+  };
+  function catStyle(c){ return CATS[c] || CATS["Other"]; }
+
+  var MONTHS = ["January","February","March","April","May","June","July",
+                "August","September","October","November","December"];
+  var THIS_MONTH = MONTHS[new Date().getMonth()];
+
+  // ---- Map + basemap (light/dark aware) ----
+  var CO_BOUNDS = L.latLngBounds([36.9, -109.06], [41.01, -102.04]);
+  // Baseline center/zoom on Colorado so the map is never stuck at world-view,
+  // even if fitBounds races the flex layout before the container has a size.
+  var map = L.map("map", { zoomControl:true, scrollWheelZoom:true, center:[39.0, -105.55], zoom:7 });
+  window.__map = map; // debugging handle
+  function fitCO(){
+    map.invalidateSize();
+    var s = map.getSize();
+    if(s.x > 0 && s.y > 0) map.fitBounds(CO_BOUNDS.pad(0.02)); // only fit once laid out
+  }
+  requestAnimationFrame(fitCO);
+  window.addEventListener("load", fitCO);
+  window.addEventListener("resize", function(){ map.invalidateSize(); });
+
+  var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  var tileUrl = dark
+    ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+    : "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+  L.tileLayer(tileUrl, {
+    subdomains:"abcd", maxZoom:19,
+    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  }).addTo(map);
+
+  var cluster = L.markerClusterGroup({
+    maxClusterRadius:30,          // smaller radius -> fewer/looser clusters, more individual pins
+    disableClusteringAtZoom:10,   // show every pin individually once zoomed in
+    spiderfyOnMaxZoom:true,
+    showCoverageOnHover:false
+  });
+  map.addLayer(cluster);
+
+  // ---- State ----
+  var ALL = [];                 // all market records (with a built marker each)
+  var activeCats = {};          // category -> bool (true = shown)
+  var els = {
+    showing: document.getElementById("showing"),
+    total: document.getElementById("total"),
+    sheetCount: document.getElementById("sheetCount"),
+    cats: document.getElementById("cats"),
+    county: document.getElementById("county"),
+    q: document.getElementById("q"),
+    fOpen: document.getElementById("fOpen"),
+    fSnap: document.getElementById("fSnap"),
+    fAda: document.getElementById("fAda"),
+    fOrg: document.getElementById("fOrg")
+  };
+  document.getElementById("monthName").textContent = THIS_MONTH;
+
+  // ---- Helpers ----
+  function esc(s){
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+
+  function makeIcon(cat){
+    var st = catStyle(cat);
+    return L.divIcon({
+      className:"",
+      html:'<div class="pin" style="background:'+st.color+'"><span>'+st.emoji+'</span></div>',
+      iconSize:[30,30], iconAnchor:[15,28], popupAnchor:[0,-27]
+    });
+  }
+
+  function popupHtml(m){
+    var st = catStyle(m.category);
+    var h = '<div class="pop">';
+    h += '<h3>'+esc(m.name)+'</h3>';
+    h += '<span class="cat" style="color:'+st.color+'">'+st.emoji+' '+esc(m.category)+'</span>';
+    var addr = [m.address, m.city].filter(Boolean).join(", ");
+    if(addr) h += '<div class="row"><span class="ic">📍</span><span>'+esc(addr)+(m.county?', '+esc(m.county)+' County':'')+'</span></div>';
+    if(m.hours) h += '<div class="row"><span class="ic">🕒</span><span>'+esc(m.hours)+'</span></div>';
+    if(m.monthsOpen && m.monthsOpen.length) h += '<div class="row"><span class="ic">📅</span><span>'+esc(m.monthsOpen.join(", "))+'</span></div>';
+    if(m.phone) h += '<div class="row"><span class="ic">📞</span><a href="tel:'+esc(m.phone.replace(/[^0-9+]/g,""))+'">'+esc(m.phone)+'</a>'+(m.callFirst?' <em>(call first)</em>':'')+'</div>';
+
+    var flags = [];
+    if(m.snap) flags.push("SNAP/EBT");
+    if(m.ada) flags.push("♿ ADA");
+    if(m.organic) flags.push("🌿 Organic");
+    if(flags.length){
+      h += '<div class="flags">';
+      flags.forEach(function(f){ h += '<span class="flag">'+esc(f)+'</span>'; });
+      h += '</div>';
+    }
+
+    var links = [];
+    if(m.website) links.push('<a href="'+esc(m.website)+'" target="_blank" rel="noopener">Website ↗</a>');
+    if(m.facebook) links.push('<a href="'+esc(m.facebook)+'" target="_blank" rel="noopener">Facebook</a>');
+    if(m.instagram) links.push('<a href="'+esc(m.instagram)+'" target="_blank" rel="noopener">Instagram</a>');
+    if(links.length) h += '<div class="links">'+links.join("")+'</div>';
+
+    var dir = "https://www.google.com/maps/dir/?api=1&destination="+m.lat+","+m.lng;
+    h += '<a class="dir" href="'+dir+'" target="_blank" rel="noopener">🧭 Directions</a>';
+    h += '</div>';
+    return h;
+  }
+
+  // ---- Build category chips ----
+  function buildChips(){
+    Object.keys(CATS).forEach(function(cat){
+      activeCats[cat] = true;
+      var st = CATS[cat];
+      var chip = document.createElement("span");
+      chip.className = "chip on";
+      chip.dataset.cat = cat;
+      chip.dataset.on = "1";
+      chip.style.color = st.color;
+      chip.innerHTML = '<span class="dot" style="background:'+st.color+'"></span>'+esc(cat);
+      chip.addEventListener("click", function(){
+        var on = chip.dataset.on === "1";
+        chip.dataset.on = on ? "0" : "1";
+        chip.classList.toggle("on", !on);
+        activeCats[cat] = !on;
+        apply();
+      });
+      els.cats.appendChild(chip);
+    });
+  }
+
+  // ---- Filtering ----
+  function passes(m){
+    // Categories not in the CATS map are bucketed as "Other".
+    var catKey = CATS[m.category] ? m.category : "Other";
+    if(!activeCats[catKey]) return false;
+
+    var cc = els.county.value;
+    if(cc && m.county !== cc) return false;
+
+    if(els.fSnap.checked && !m.snap) return false;
+    if(els.fAda.checked && !m.ada) return false;
+    if(els.fOrg.checked && !m.organic) return false;
+    if(els.fOpen.checked && !(m.monthsOpen || []).includes(THIS_MONTH)) return false;
+
+    var q = els.q.value.trim().toLowerCase();
+    if(q){
+      var hay = (m.name+" "+(m.city||"")+" "+(m.products||[]).join(" ")).toLowerCase();
+      if(hay.indexOf(q) === -1) return false;
+    }
+    return true;
+  }
+
+  function apply(){
+    cluster.clearLayers();
+    var shown = 0, layers = [];
+    ALL.forEach(function(m){
+      if(passes(m)){ layers.push(m._marker); shown++; }
+    });
+    cluster.addLayers(layers);
+    els.showing.textContent = shown;
+    els.sheetCount.textContent = shown;
+  }
+
+  // ---- County dropdown ----
+  function buildCounties(){
+    var set = {};
+    ALL.forEach(function(m){ if(m.county) set[m.county] = true; });
+    Object.keys(set).sort().forEach(function(c){
+      var o = document.createElement("option");
+      o.value = c; o.textContent = c + " County";
+      els.county.appendChild(o);
+    });
+  }
+
+  // ---- Wire controls ----
+  function wire(){
+    ["input"].forEach(function(ev){ els.q.addEventListener(ev, apply); });
+    els.county.addEventListener("change", apply);
+    [els.fOpen, els.fSnap, els.fAda, els.fOrg].forEach(function(x){ x.addEventListener("change", apply); });
+
+    document.getElementById("reset").addEventListener("click", function(){
+      els.q.value = ""; els.county.value = "";
+      els.fOpen.checked = els.fSnap.checked = els.fAda.checked = els.fOrg.checked = false;
+      Object.keys(CATS).forEach(function(cat){ activeCats[cat] = true; });
+      Array.prototype.forEach.call(els.cats.children, function(chip){
+        chip.dataset.on = "1"; chip.classList.add("on");
+      });
+      apply();
+    });
+
+    // Mobile bottom-sheet toggle
+    var panel = document.getElementById("panel");
+    document.getElementById("sheetToggle").addEventListener("click", function(){
+      panel.classList.toggle("open");
+    });
+  }
+
+  // ---- Load data ----
+  fetch("./data/markets.json")
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(data){
+      ALL = data;
+      els.total.textContent = data.length;
+      data.forEach(function(m){
+        m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m.category) })
+                     .bindPopup(popupHtml(m), { maxWidth:300, minWidth:230 });
+      });
+      buildChips();
+      buildCounties();
+      wire();
+      apply();
+      fitCO();
+    })
+    .catch(function(err){
+      document.getElementById("map").innerHTML =
+        '<div style="padding:2rem;text-align:center;color:var(--muted)">Could not load map data ('+esc(err.message)+').<br>Run <code>python scripts/build_map_data.py</code> first.</div>';
+      console.error(err);
+    });
+})();
+</script>
+</body>
+</html>
