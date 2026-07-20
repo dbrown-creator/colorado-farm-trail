@@ -26,5 +26,6 @@ notable design changes, so we can see how the site has evolved over time.
   cards, footer).
 - [`2026-07-20_map-first-redesign/`](2026-07-20_map-first-redesign/) — the
   **after**: the full-bleed, map-first homepage (dark mode). Landing with the
-  branding over the map, the "Put it on your phone" and "Help it spread" popups,
-  and the new data & credits page.
+  branding over the map, the explore view (sidebar filters + type pills), the
+  "Put it on your phone" and "Help it spread" popups, and the new data & credits
+  page.
