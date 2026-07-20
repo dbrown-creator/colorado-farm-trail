@@ -88,6 +88,48 @@ Pair with the **QR code** from your Bitly link:
 
 ---
 
+## 🗺️ Content channel — weekend farm-trip itineraries *(future)*
+
+> Status: **idea, parked.** A content-marketing channel to explore once the core map
+> has traction. Captured here so it's not lost.
+
+**The concept:** publish **weekend / day-trip plans built around farm visits** —
+curated routes that string together stops from the map. Each article is a ready-made
+reason to visit farms *and* a natural showcase for the map.
+
+**Why it's a strong fit:**
+- **Search intent** — people literally Google "things to do in [town] this weekend,"
+  "Colorado farm day trip," "Palisade peach trip." Itineraries own those terms.
+- **Seasonal + evergreen** — tie each to what's ripe (peaches in Aug, apples/pumpkins
+  in Sept–Oct); republish/refresh yearly.
+- **Every article embeds the map** and specific pins → drives traffic *and* proves the
+  map's value in context.
+
+**Example titles:**
+- "A Perfect Palisade Peach Weekend on the Western Slope"
+- "The Front Range U-Pick Loop: 5 Farms in One Saturday"
+- "Wine & Farm Trail: A Grand Valley Day Trip"
+- "Fall Harvest Road Trip — Apples, Pumpkins & Corn Mazes"
+
+**Format:** 3–6 map stops + a route, what's in season, where to eat, rough timing,
+and a CTA to open the full map on your phone.
+
+**The hard part = distribution (getting it to the right audience):**
+- **SEO** — own the search terms above (the long game, but compounding).
+- **Pinterest** — itineraries/trip-planning content performs unusually well there.
+- **Syndication / guest posts** — pitch to Colorado tourism blogs, local outlets
+  (5280, regional papers), and DMO sites (ties into the tourism-partnership angle in
+  [`MONETIZATION.md`](MONETIZATION.md)).
+- **The farms + tourism boards share it** — same distribution flywheel as the map:
+  an itinerary featuring their farm is something they'll happily promote.
+- **Email + local FB groups / subreddits** — seed each new itinerary.
+
+**Sequencing:** validate core map traffic first; start with 1–2 flagship itineraries
+tied to peak harvest, measure whether they pull search/referral traffic (GA4), then
+scale the ones that work.
+
+---
+
 ## Launch checklist
 
 1. ✅ Map set to **Anyone with the link → Viewer**.

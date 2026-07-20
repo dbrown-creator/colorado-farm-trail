@@ -22,6 +22,30 @@ This is a stronger position than the original 2025 pitch: instead of asking CDA 
 
 Danielle proposed an August meeting with Emma's team. I'm cc'd. Natural moment to re-engage by offering to host/onboard Guidestone's Chaffee data onto my site and partner on promotion — ideally before or at that August meeting.
 
+## The Colorado Proud interactive map (May 2026) — press release & the timing question
+
+On **May 21, 2026**, the Colorado Department of Agriculture announced its own public
+interactive Farm Fresh map: *"Eat Local, Explore More: Discover the Farm Fresh
+Interactive Map."* This is the ArcGIS map now embedded on coloradoproud.com — the same
+feature service this project's data pulls from (see [`DATA.md`](DATA.md)).
+
+Press release: https://ag.colorado.gov/press-release/eat-local-explore-more-discover-the-farm-fresh-interactive-map
+
+**Origin note — my involvement, stated honestly (no credit claimed):**
+
+- In **spring 2025** I pitched this exact idea — turning the CO Farm Fresh Directory
+  into an interactive statewide map — to the Colorado Proud team, introduced through
+  Emma Lietz Bilecky (GuideStone), and built a prototype.
+- That conversation **fell off**. I did not follow up, and the 2025 pitch did not
+  formally go anywhere.
+- About a year later CDA launched its own interactive map (the **May 21, 2026** release
+  above), and in **July 2026** Emma bumped the thread back into my inbox with
+  congratulations to the Colorado Proud folks on the rollout.
+- **I had no involvement in developing CDA's map.** I can neither confirm nor deny that
+  my 2025 suggestion fed into their strategic decision to launch for 2026 — but the
+  idea and the timing overlap closely enough to be worth recording. This is noted only
+  because it's part of how this product came to be; it is **not** a claim of credit.
+
 ## Key contacts
 
 | Name | Role / Org | Email | Notes |
