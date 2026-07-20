@@ -94,6 +94,11 @@ def check_url(url):
         except urllib.error.URLError as e:
             reason = e.reason
             name = type(reason).__name__ if not isinstance(reason, str) else reason
+            # A TLS handshake failure -> unreachable in a real browser (we already
+            # disabled cert verification, so this is a protocol/cipher failure such as
+            # ERR_SSL_VERSION_OR_CIPHER_MISMATCH, not a fixable cert-trust warning).
+            if isinstance(reason, ssl.SSLError):
+                return "BROKEN", "SSLError"
             # Dead domain / refused connection -> broken (but not for social hosts,
             # whose domains always resolve; a dead social page shows up as 404).
             if not social and isinstance(reason, (socket.gaierror, ConnectionRefusedError,

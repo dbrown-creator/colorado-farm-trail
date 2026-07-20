@@ -48,6 +48,11 @@ Full spec in [`gamification.md`](gamification.md).
 - [ ] Logo / wordmark.
 - [ ] Instagram + Facebook accounts.
 - [ ] Refresh the dataset mid-season (`python scripts/fetch_farm_data.py`).
+- [ ] **Automated weekly link check** — low-weight GitHub Action that runs
+      `scripts/check_links.py` (report-only) and opens/updates a single issue when
+      links go dead or move. Design + limitations in [`LINK_CHECKING.md`](LINK_CHECKING.md).
+      (One-time manual sweep already done 2026-07-20; `check_links.py` +
+      `build_map_data.py` normalization are in place.)
 
 ---
 
