@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>About — Colorado Farm Trail</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%8C%BD</text></svg>" />
+<meta name="description" content="About Colorado Farm Trail — a free, independent map of local farms and markets, the story of the data behind it, and how to add your farm, market or stand." />
+
+<style>
+  :root{
+    --bg:#f7f6f1; --card:#ffffff; --ink:#20301f; --muted:#5c6b57;
+    --accent:#3f7d3a; --accent-ink:#ffffff; --line:#e3e0d5; --chip:#eef2e6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141712; --card:#1d221a; --ink:#e9ecdf; --muted:#a6b09b;
+           --accent:#7bb56f; --accent-ink:#0f1410; --line:#2c3327; --chip:#252c1f; }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:20px 18px 64px}
+  header{text-align:center;padding:14px 0 8px}
+  .brand{font-size:1.05rem;font-weight:700;color:var(--muted);margin:0}
+  h1{font-size:clamp(1.5rem,4.5vw,2.1rem);margin:.15em 0 .3em;letter-spacing:-.01em}
+  .tag{color:var(--muted);font-size:1.02rem;max-width:52ch;margin:0 auto}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .card h2{margin:.1em 0 .5em;font-size:1.15rem}
+  .card p{margin:.5em 0}
+  .card p:first-of-type{margin-top:0}
+  .card p:last-child{margin-bottom:0}
+  ol{margin:.4em 0;padding-left:1.2em}
+  ol li{margin:.4em 0}
+  .cta{
+    display:inline-block;margin:10px 0 2px;padding:12px 20px;border-radius:999px;
+    background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:700;
+    font-size:1rem;box-shadow:0 2px 10px rgba(0,0,0,.12);
+  }
+  .note{color:var(--muted);font-size:.9rem}
+  .sources{list-style:none;margin:.6em 0;padding:0}
+  .sources li{display:flex;align-items:baseline;gap:.6em;margin:.45em 0}
+  .status{flex-shrink:0;font-size:.72rem;font-weight:700;letter-spacing:.03em;
+    text-transform:uppercase;background:var(--chip);color:var(--muted);
+    border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+  .status.live{color:var(--accent)}
+  footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:28px}
+  .disclaimer{max-width:56ch;margin:14px auto 0;font-size:.75rem;color:var(--muted);opacity:.85}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="brand">🌽 Colorado Farm Trail</p>
+    <h1>About this project</h1>
+    <p class="tag">A free, independent map for finding local food across Colorado — who we are, and the story of the data behind it.</p>
+  </header>
+
+  <div class="card">
+    <h2>🌽 What this is</h2>
+    <p>Colorado Farm Trail is a free, independent map that helps you find local farms,
+      farmers' markets, U-picks, roadside stands and wineries across Colorado — all in
+      one place, right on your phone.</p>
+    <p>This is our project — an independent community effort, built by folks who love
+      Colorado's growers and wanted an easier way to find them. We're on a mission to
+      connect people with the local food grown around them, and just as much, to build
+      and maintain the most up-to-date database of Colorado growers there is. The two
+      go hand in hand: the better the data, the easier the find — and the more of your
+      grocery budget lands in the hands of the growers in your own community.</p>
+  </div>
+
+  <div class="card">
+    <h2>🗺️ The data — and how to be part of it</h2>
+    <p>Colorado Farm Trail started from the <b>Colorado Proud Farm Fresh Directory</b> —
+      the public list of farms and markets published by the Colorado Department of
+      Agriculture. That gave the map its foundation: hundreds of Colorado farms,
+      markets, U-picks and stands to build around on day one.</p>
+    <p>From there, we grow on our own. We independently collect, verify and maintain our
+      own listings — correcting details, keeping hours and seasons current, and weaving
+      in new sources as we go. Here's where things stand:</p>
+    <ul class="sources">
+      <li><span class="status live">Live</span> <span><b>Colorado Proud Farm Fresh Directory</b> — the foundation the map launched on.</span></li>
+      <li><span class="status live">Live</span> <span><b>Submissions from growers</b> — listings added and updated directly through this site.</span></li>
+      <li><span class="status">Planned</span> <span><b>Colorado Farmers Market Association</b> (CFMA / MarketWurks) — next round.</span></li>
+      <li><span class="status">Planned</span> <span><b>USDA local food directories</b> — part of our expanded all-Colorado farmers' market dataset.</span></li>
+    </ul>
+    <p>That second one is where you come in. If you run a farm, market or stand, we'd
+      love to have you on the map — add or update your listing right here, and we'll
+      review it and get your pin up:</p>
+    <p>
+      <a class="cta" href="https://forms.gle/NFoVsEQURggzTBSX9" target="_blank" rel="noopener">🚜 Add your business to the map ↗</a>
+    </p>
+    <p class="note">Getting listed in the official
+      <a href="https://coloradoproud.com/find-farm-fresh-favorites/" target="_blank" rel="noopener">Colorado Proud directory ↗</a>
+      is worth doing too — it's a valuable resource in its own right, and listings
+      there feed into this map as well.</p>
+  </div>
+
+  <div class="card">
+    <h2>🙏 Thank you, Colorado Proud</h2>
+    <p>Colorado Farm Trail wouldn't exist without the <b>Colorado Proud Farm Fresh
+      Directory</b>, published by the <b>Colorado Department of Agriculture</b>. It gave
+      this project its starting foundation — hundreds of Colorado farms, markets,
+      U-picks and stands to build a map around on day one.</p>
+    <p>The directory isn't a one-time list — it's a genuinely <b>robust,
+      community-driven effort that happens every year</b>. Growers submit and update
+      their listings, and the Colorado Proud team gathers, verifies and maintains
+      hundreds of listings across all ~36 counties, keeping it current as the season
+      grows. That yearly legwork is the reason a project like this could launch at all.
+      We're grateful for it.</p>
+    <p>
+      <a class="cta" href="https://coloradoproud.com/find-farm-fresh-favorites/" target="_blank" rel="noopener">Explore the official directory ↗</a>
+    </p>
+    <p class="note">Learn more about the program at
+      <a href="https://coloradoproud.com/" target="_blank" rel="noopener">coloradoproud.com</a>.</p>
+  </div>
+
+  <footer>
+    Made with love for Colorado's growers · Summer 2026<br/>
+    <a href="/">← back to home</a>
+    <p class="disclaimer">* Colorado Farm Trail is an independent community project.
+      We are not affiliated with or endorsed by the State of Colorado, the Colorado
+      Department of Agriculture, the Colorado Proud program, or any of the other
+      programs and data sources named above.</p>
+  </footer>
+
+</div>
+</body>
+</html>

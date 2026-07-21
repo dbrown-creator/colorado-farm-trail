@@ -14,6 +14,7 @@ venv/
 
 # Local working materials (kept on disk, not versioned)
 Farm Fresh Map/
+wireframes/
 
 # Generated QA reports
 data-compiled/link_check_report.csv

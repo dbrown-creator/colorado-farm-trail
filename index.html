@@ -36,6 +36,7 @@
 
   function trackOpenMap(where){ gtag('event', 'open_map', { placement: where }); }
   function trackShare(method){ gtag('event', 'share', { method: method }); }
+  function trackAddBusiness(where){ gtag('event', 'add_business_click', { placement: where }); }
 
   var SITE_URL = 'https://coloradofarmtrail.com/';
   var SHARE_TEXT = 'Find your next farm stop. 163 Colorado farms, markets & U-picks on one map:';
@@ -160,14 +161,16 @@
   .reset:hover{ border-color:var(--accent); color:var(--accent); }
   .sidebar-foot{ margin-top:auto; display:flex; gap:8px; padding-top:6px; }
   .sidebar-foot .btn{ flex:1; justify-content:center; padding:10px; font-size:.88rem; }
-
   /* ---- Floating chrome ---- */
-  .map-credit{ position:fixed; z-index:8; left:12px; bottom:10px; padding:5px 12px; border-radius:999px;
-    font-size:.76rem; font-weight:600; color:var(--ink); text-decoration:none; transition:left .35s ease;
+  .corner-actions{ position:fixed; z-index:8; left:12px; bottom:10px; display:flex; gap:8px; align-items:center;
+    flex-wrap:wrap; max-width:calc(100vw - 24px); transition:left .35s ease; }
+  body.exploring .corner-actions{ left:calc(var(--side-w) + 12px); }
+  .map-credit{ padding:5px 12px; border-radius:999px;
+    font-size:.76rem; font-weight:600; color:var(--ink); text-decoration:none;
     background:var(--glass); border:1px solid var(--glass-line); backdrop-filter:blur(10px);
     -webkit-backdrop-filter:blur(10px); box-shadow:0 2px 10px rgba(0,0,0,.12); }
   .map-credit:hover{ color:var(--accent); }
-  body.exploring .map-credit{ left:calc(var(--side-w) + 12px); }
+  .map-credit.accent{ color:var(--accent); border-color:var(--accent); }
   .countpill{ position:fixed; z-index:8; left:calc(var(--side-w) + (100vw - var(--side-w))/2); transform:translateX(-50%);
     bottom:20px; padding:8px 16px; border-radius:999px; font-size:.85rem; font-weight:600;
     opacity:0; pointer-events:none; transition:opacity .4s ease .15s; }
@@ -303,7 +306,11 @@
   </aside>
 
   <!-- Floating chrome -->
-  <a class="map-credit" href="credits.html">🙏 Data &amp; credits</a>
+  <div class="corner-actions">
+    <a class="map-credit" href="about.html">ℹ️ About</a>
+    <a class="map-credit accent" href="https://forms.gle/NFoVsEQURggzTBSX9"
+       target="_blank" rel="noopener" onclick="trackAddBusiness('corner')">🚜 Add my business to the map</a>
+  </div>
   <div class="countpill glass"><b id="showing">163</b> of <span id="total">163</span> stops shown</div>
 
   <!-- Popups (each opens on its own) -->
@@ -364,7 +371,10 @@
 
   // ---- Map + basemap ----
   var CO_BOUNDS = L.latLngBounds([36.9, -109.06], [41.01, -102.04]);
-  var map = L.map("map", { zoomControl:true, scrollWheelZoom:true, center:[39.0,-105.55], zoom:7 });
+  var map = L.map("map", { zoomControl:false, scrollWheelZoom:true, center:[39.0,-105.55], zoom:7 });
+  // Zoom control lives bottom-right — top-left collides with the hero title on
+  // landing and with the sidebar while exploring.
+  L.control.zoom({ position:"bottomright" }).addTo(map);
   window.__map = map;
   var didFit = false;
   function fitCO(){
