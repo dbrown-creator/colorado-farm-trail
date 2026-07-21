@@ -371,7 +371,10 @@
 
   // ---- Map + basemap ----
   var CO_BOUNDS = L.latLngBounds([36.9, -109.06], [41.01, -102.04]);
-  var map = L.map("map", { zoomControl:true, scrollWheelZoom:true, center:[39.0,-105.55], zoom:7 });
+  var map = L.map("map", { zoomControl:false, scrollWheelZoom:true, center:[39.0,-105.55], zoom:7 });
+  // Zoom control lives bottom-right — top-left collides with the hero title on
+  // landing and with the sidebar while exploring.
+  L.control.zoom({ position:"bottomright" }).addTo(map);
   window.__map = map;
   var didFit = false;
   function fitCO(){
