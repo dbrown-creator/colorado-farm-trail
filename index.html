@@ -67,13 +67,15 @@
     --accent:#3f7d3a; --accent-ink:#ffffff; --line:#e3e0d5; --chip:#eef2e6;
     --shadow:0 10px 40px rgba(0,0,0,.16);
     --glass:rgba(255,255,255,.74); --glass-2:rgba(255,255,255,.55); --glass-line:rgba(255,255,255,.6);
+    --map-bg:#efefef;
     --side-w:360px;
   }
   @media (prefers-color-scheme: dark){
     :root{ --bg:#141712; --card:#1d221a; --ink:#e9ecdf; --muted:#a6b09b;
            --accent:#7bb56f; --accent-ink:#0f1410; --line:#2c3327; --chip:#252c1f;
            --shadow:0 10px 40px rgba(0,0,0,.5);
-           --glass:rgba(24,28,21,.74); --glass-2:rgba(24,28,21,.5); --glass-line:rgba(255,255,255,.09); }
+           --glass:rgba(24,28,21,.74); --glass-2:rgba(24,28,21,.5); --glass-line:rgba(255,255,255,.09);
+           --map-bg:#414143; }
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0;height:100%}
@@ -84,7 +86,9 @@
   }
 
   /* ---- Full-bleed map ---- */
-  #map{ position:fixed; inset:0; z-index:0; background:var(--bg); }
+  /* --map-bg matches the Esri canvas base colour, so the hairline gaps Leaflet
+     leaves between tiles on fractional-DPI screens don't read as a grid. */
+  #map{ position:fixed; inset:0; z-index:0; background:var(--map-bg); }
   .scrim-top{ position:fixed; left:0; right:0; top:0; height:42vh; z-index:1; pointer-events:none;
     background:linear-gradient(180deg, rgba(255,255,255,.55), transparent); transition:opacity .4s ease; }
   @media (prefers-color-scheme: dark){ .scrim-top{ background:linear-gradient(180deg, rgba(0,0,0,.42), transparent) } }
@@ -387,13 +391,23 @@
   window.addEventListener("resize", function(){ map.invalidateSize(); });
   if (window.ResizeObserver){ new ResizeObserver(function(){ fitCO(); }).observe(document.getElementById("map")); }
 
-  var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  L.tileLayer(dark
-      ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-      : "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-    { subdomains:"abcd", maxZoom:19,
-      attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>' }
+  var scheme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)");
+  function basemapUrl(isDark){
+    return "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_"
+      + (isDark ? "Dark" : "Light") + "_Gray_Base/MapServer/tile/{z}/{y}/{x}";
+  }
+  var basemap = L.tileLayer(basemapUrl(scheme && scheme.matches),
+    { maxZoom:19, maxNativeZoom:16,
+      attribution:'Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Esri, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }
   ).addTo(map);
+
+  // The CSS follows the OS theme on its own, so the basemap has to as well —
+  // otherwise flipping the theme leaves light tiles under dark chrome.
+  if (scheme){
+    var onScheme = function(e){ basemap.setUrl(basemapUrl(e.matches)); };
+    if (scheme.addEventListener) scheme.addEventListener("change", onScheme);
+    else if (scheme.addListener) scheme.addListener(onScheme);
+  }
 
   var cluster = L.markerClusterGroup({
     maxClusterRadius:30, disableClusteringAtZoom:10, spiderfyOnMaxZoom:true, showCoverageOnHover:false
