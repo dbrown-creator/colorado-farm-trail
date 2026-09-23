@@ -67,7 +67,7 @@
     --accent:#3f7d3a; --accent-ink:#ffffff; --line:#e3e0d5; --chip:#eef2e6;
     --shadow:0 10px 40px rgba(0,0,0,.16);
     --glass:rgba(255,255,255,.74); --glass-2:rgba(255,255,255,.55); --glass-line:rgba(255,255,255,.6);
-    --map-bg:#efefef;
+    --map-bg:#fafaf8;
     --side-w:360px;
   }
   @media (prefers-color-scheme: dark){
@@ -75,7 +75,7 @@
            --accent:#7bb56f; --accent-ink:#0f1410; --line:#2c3327; --chip:#252c1f;
            --shadow:0 10px 40px rgba(0,0,0,.5);
            --glass:rgba(24,28,21,.74); --glass-2:rgba(24,28,21,.5); --glass-line:rgba(255,255,255,.09);
-           --map-bg:#414143; }
+           --map-bg:#090909; }
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0;height:100%}
@@ -86,8 +86,8 @@
   }
 
   /* ---- Full-bleed map ---- */
-  /* --map-bg matches the Esri canvas base colour, so the hairline gaps Leaflet
-     leaves between tiles on fractional-DPI screens don't read as a grid. */
+  /* --map-bg matches the basemap's own base colour, so tile gaps and
+     not-yet-loaded tiles don't flash the page's chrome colour. */
   #map{ position:fixed; inset:0; z-index:0; background:var(--map-bg); }
   .scrim-top{ position:fixed; left:0; right:0; top:0; height:42vh; z-index:1; pointer-events:none;
     background:linear-gradient(180deg, rgba(255,255,255,.55), transparent); transition:opacity .4s ease; }
@@ -391,14 +391,20 @@
   window.addEventListener("resize", function(){ map.invalidateSize(); });
   if (window.ResizeObserver){ new ResizeObserver(function(){ fitCO(); }).observe(document.getElementById("map")); }
 
+  // CARTO basemap key. Public by necessity — this is a static site, so the key
+  // ships in the page like any client-side map key. Free tier, non-commercial:
+  // 5M tile requests/month. Request one at https://carto.com/basemaps/apikey/
+  var CARTO_KEY = "cb1_3vh9_1_2876c53a17aa6fd35517591d";
+
   var scheme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)");
   function basemapUrl(isDark){
-    return "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_"
-      + (isDark ? "Dark" : "Light") + "_Gray_Base/MapServer/tile/{z}/{y}/{x}";
+    return "https://basemaps.cartocdn.com/rastertiles/"
+      + (isDark ? "dark_all" : "light_all")
+      + "/{z}/{x}/{y}{r}.png?key=" + CARTO_KEY;
   }
   var basemap = L.tileLayer(basemapUrl(scheme && scheme.matches),
-    { maxZoom:19, maxNativeZoom:16,
-      attribution:'Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Esri, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }
+    { maxZoom:19,
+      attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>' }
   ).addTo(map);
 
   // The CSS follows the OS theme on its own, so the basemap has to as well —
