@@ -29,11 +29,21 @@ SRC = REPO / "data-compiled" / "farm_fresh_directory_mymaps.csv"
 OUT = REPO / "data" / "markets.json"
 
 
+def _lf(value):
+    """Normalize CRLF/CR line endings to LF.
+
+    Git checks the source CSV out with native line endings, so on Windows the
+    newlines *inside* quoted multi-line cells (Notes, Products) arrive as CRLF.
+    Without this the same CSV builds a different markets.json per platform.
+    """
+    return value.replace("\r\n", "\n").replace("\r", "\n")
+
+
 def clean(value):
     """Trim whitespace; treat empty as None."""
     if value is None:
         return None
-    v = value.strip()
+    v = _lf(value).strip()
     return v or None
 
 
@@ -46,7 +56,7 @@ def split_list(value):
     """Split a comma-joined cell into a trimmed, de-blanked list."""
     if not value:
         return []
-    return [part.strip() for part in value.split(",") if part.strip()]
+    return [part.strip() for part in _lf(value).split(",") if part.strip()]
 
 
 def _has_scheme(v):
