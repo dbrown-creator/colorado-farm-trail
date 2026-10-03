@@ -39,6 +39,9 @@ def _fold(base: Market, other: Market) -> None:
     if base.latitude is None and other.latitude is not None:
         base.latitude, base.longitude = other.latitude, other.longitude
         base.geo_source = other.geo_source or other.source
+    if not base.source_id and other.source_id:
+        # keep the source's stable id + update stamp for change detection
+        base.source_id, base.source_updated = other.source_id, other.source_updated
     if other.source and other.source not in base.source.split("+"):
         base.source = f"{base.source}+{other.source}" if base.source else other.source
 

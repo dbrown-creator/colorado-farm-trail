@@ -37,7 +37,9 @@ class Market:
     CSV output is clean and merge logic can treat "" uniformly as 'missing'."""
 
     business_name: str = ""
-    category: str = "Farmers' Market"   # constant for this project
+    category: str = "Farmers' Market"   # default; USDA directory sources override
+                                        # (CSA Farm, On-Farm / Ranch Sales, Food Hub,
+                                        # Agritourism — see sources/usda.py DIRECTORIES)
     address: str = ""
     city: str = ""
     county: str = ""
@@ -64,6 +66,8 @@ class Market:
     geo_source: str = ""             # "source" | "census-geocoder" | "" (none)
     dup_hint: str = ""               # name of a suspected duplicate, for human review
     provenance: dict = field(default_factory=dict)   # column -> source label
+    source_id: str = ""              # stable id at the source (e.g. USDA listing_id)
+    source_updated: str = ""         # source's own last-updated stamp (change detection)
 
     def set(self, attr: str, value, source: str) -> None:
         """Set a field only if `value` is non-empty and the field is currently

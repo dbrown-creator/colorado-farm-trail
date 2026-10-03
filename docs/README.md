@@ -37,6 +37,7 @@ https://www.google.com/maps/d/viewer?mid=15fDxNgQN1yxO7xc2FR27Kq6NND3GjvE
 | [`gamification.md`](gamification.md) | The Farm Trail Passport concept — check-ins, leaderboards, badges, phased build |
 | [`ANALYTICS.md`](ANALYTICS.md) | GA4 setup, the `open_map` event, Bitly + UTM tracking plan, metrics to watch |
 | [`DATA.md`](DATA.md) | Where the data came from (ArcGIS), the endpoint, fields, and how to refresh it |
+| [`UPDATE_ENGINE.md`](UPDATE_ENGINE.md) | Design for the auto-update engine — scheduled multi-source re-scans, diffs, auto-apply rules, review queue (Phase 2) |
 | [`MARKETING.md`](MARKETING.md) | Ready-to-post share copy for every channel + the launch checklist |
 | [`ROADMAP.md`](ROADMAP.md) | Phases 0 → 1 → 2, what's next tonight, and the backlog |
 | [`ROLLOUT.md`](ROLLOUT.md) | This year's go-to-market — the multi-season frame + a week-by-week launch plan |

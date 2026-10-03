@@ -5,8 +5,9 @@ Outputs (new files; Farm Fresh CSVs are left untouched):
   data/co_farmers_markets_all_raw.csv     : same + source/geo_source/provenance audit
 
 Run:
-  python scripts/scrape/build.py              # uses no key (Colorado Proud + datashare)
-  USDA_API_KEY=xxxx python scripts/scrape/build.py   # adds the rich USDA statewide pull
+  python scripts/scrape/build.py
+The USDA key is read from the git-ignored .env at the repo root (USDA_API_KEY=...);
+a real environment variable of the same name overrides it. No key -> keyless fallback.
 """
 from __future__ import annotations
 
@@ -33,6 +34,25 @@ COMPILED_DIR = os.path.join(REPO, "data-compiled", "phase2")
 SOURCE_DIR = os.path.join(REPO, "source-data", "phase2")
 
 
+def load_env(path: str = os.path.join(REPO, ".env")) -> None:
+    """Load KEY=VALUE lines from the git-ignored .env at the repo root (secrets like
+    USDA_API_KEY live there, never in git). Real environment variables win; missing
+    file is fine. Lines starting with # are comments."""
+    try:
+        fh = open(path, encoding="utf-8")
+    except OSError:
+        return
+    with fh:
+        for line in fh:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            k, v = k.strip(), v.strip().strip("'\"")
+            if k and k not in os.environ:
+                os.environ[k] = v
+
+
 def collect() -> list:
     """Gather records from every available source, in priority order."""
     # Order = field-value priority (first source to fill a field wins):
@@ -55,16 +75,21 @@ def collect() -> list:
     except Exception as e:
         print(f"  CFMA fetch failed: {e}")
 
+    # All five USDA Local Food Portal directories by default; narrow with e.g.
+    # USDA_DIRECTORIES=farmersmarket,onfarmmarket
+    dirs = [d.strip() for d in
+            os.environ.get("USDA_DIRECTORIES", "").split(",") if d.strip()] or None
     key = os.environ.get("USDA_API_KEY", "").strip()
     if key:
-        print("USDA keyed API (statewide grid)...", flush=True)
-        records += usda.fetch_api(key)
+        print(f"USDA keyed API ({', '.join(dirs or usda.DIRECTORIES)})...", flush=True)
+        records += usda.fetch_api(key, dirs)
+        # data_share is not a strict subset of the keyed view (observed 2026-07:
+        # CO csa = 21 keyed vs 41 opt-in data_share), so fold it in as a gap-filler.
+        print("USDA data_share (keyless cross-check)...", flush=True)
+        records += usda.fetch_datashare(dirs)
     else:
         print("USDA key absent -> keyless data_share only (thin).", flush=True)
-        try:
-            records += usda.parse_datashare(usda.fetch_datashare_raw())
-        except Exception as e:
-            print(f"  data_share failed: {e}")
+        records += usda.fetch_datashare(dirs)
 
     # TODO(enrichment): cfma.fetch(), curated.fetch(), per-site enrichment.
     return records
@@ -99,7 +124,8 @@ def write(markets: list) -> None:
         for m in markets:
             w.writerow(m.to_mymaps_row())
 
-    extra = ["Source", "Geo Source", "Possible Dup Of", "Provenance"]
+    extra = ["Source", "Geo Source", "Possible Dup Of", "Provenance",
+             "Source ID", "Source Updated"]
     with open(raw, "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.DictWriter(fh, fieldnames=COLUMNS + extra)
         w.writeheader()
@@ -109,12 +135,15 @@ def write(markets: list) -> None:
             row["Geo Source"] = m.geo_source
             row["Possible Dup Of"] = m.dup_hint
             row["Provenance"] = json.dumps(m.provenance, separators=(",", ":"))
+            row["Source ID"] = m.source_id
+            row["Source Updated"] = m.source_updated
             w.writerow(row)
 
     print(f"Wrote {len(markets)} markets:\n  {mymaps}\n  {raw}")
 
 
 def main() -> None:
+    load_env()
     records = collect()
     markets = merge(records)
     fill_geography(markets)

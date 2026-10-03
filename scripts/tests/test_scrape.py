@@ -69,6 +69,36 @@ def test_datashare_parses_fixture():
     assert pueblo.provenance["Phone"] == "usda"
 
 
+# ---- USDA data_share: the four non-farmersmarket directories ------------------
+
+@pytest.mark.parametrize("directory,name,category", [
+    ("onfarmmarket", "RK Creations Farm", "On-Farm / Ranch Sales"),
+    ("csa", "Two Roots Farm", "CSA Farm"),
+    ("foodhub", "Food to Power", "Food Hub"),
+    ("agritourism", "Colorado Aromatics", "Agritourism"),
+])
+def test_datashare_other_directories(directory, name, category):
+    fix = json.load(open(os.path.join(FIX, "usda_datashare_directories_co_sample.json")))
+    markets = usda.parse_datashare(fix[directory], directory)
+    m = next(x for x in markets if x.business_name == name)
+    assert m.category == category
+    assert m.state == "CO"
+
+
+def test_datashare_handles_messy_values():
+    """Real data_share quirks: null street, ' City' with leading space, '80504.0' zip,
+    truncated phone ('719-470-27' -> dropped by the 10-digit rule)."""
+    fix = json.load(open(os.path.join(FIX, "usda_datashare_directories_co_sample.json")))
+    hub = usda.parse_datashare(fix["foodhub"], "foodhub")[0]
+    assert hub.city == "Colorado Springs"     # leading space stripped
+    assert hub.phone == ""                    # truncated source phone rejected
+    agri = usda.parse_datashare(fix["agritourism"], "agritourism")[0]
+    assert agri.zip == "80504"                # '80504.0' float-ish zip recovered
+    csa = next(m for m in usda.parse_datashare(fix["csa"], "csa")
+               if "Sunshine" in m.business_name)
+    assert csa.address == ""                  # null street stays empty
+
+
 # ---- USDA keyed API mapping (synthetic fixture until a real key exists) --------
 
 def test_api_parse_real_fixture():
@@ -85,6 +115,23 @@ def test_api_parse_real_fixture():
     assert m.latitude == pytest.approx(39.7444, abs=1e-3) and m.geo_source == "source"
     # documents the API's thinness: these never come from USDA
     assert m.hours == "" and m.months_open == "" and m.products == "" and m.snap == ""
+    # update-engine hooks: stable id + source update stamp captured
+    assert m.source_id == "309128"
+    assert m.source_updated == "Mar 20th, 2023"
+    # category from the record's own directory_type discriminator
+    assert m.category == "Farmers' Market"
+
+
+def test_api_category_from_directory_type():
+    """The same parser serves all five directories: directory_type on the record
+    wins; the fetched-from directory is the fallback."""
+    rec = {"listing_name": "Ute Farmstand", "location_state": "Colorado",
+           "location_city": "Olathe", "directory_type": "onfarmmarket"}
+    m = usda.parse_api([rec], directory="csa")[0]
+    assert m.category == "On-Farm / Ranch Sales"      # record discriminator wins
+    m2 = usda.parse_api([{"listing_name": "Veggie Box", "location_state": "Colorado",
+                          "location_city": "Denver"}], directory="csa")[0]
+    assert m2.category == "CSA Farm"                  # fallback to fetched directory
 
 
 def test_api_filters_non_colorado():
@@ -148,6 +195,14 @@ def test_merge_collapses_overlap_and_fills_gaps():
     assert "colorado_proud" in row.source and "usda" in row.source
 
 
+def test_merge_carries_source_id_for_change_detection():
+    cp = _mk("Pueblo Farmers' Market", "Pueblo", "colorado_proud")
+    us = _mk("Pueblo Farmers Market", "Pueblo", "usda")
+    us.source_id, us.source_updated = "309128", "Mar 20th, 2023"
+    row = merge_mod.merge([cp, us])[0]
+    assert row.source_id == "309128" and row.source_updated == "Mar 20th, 2023"
+
+
 def test_merge_keeps_distinct_markets():
     a = _mk("Boulder Farmers Market", "Boulder", "usda")
     b = _mk("Longmont Farmers Market", "Longmont", "usda")
@@ -172,3 +227,4 @@ def test_merge_by_coordinate_proximity():
     b = _mk("Old Town Farmers Mkt", "Fort Collins", "usda")  # name drift, ~50m away
     b.latitude, b.longitude = 40.5857, -105.0844
     assert len(merge_mod.merge([a, b])) == 1
+
