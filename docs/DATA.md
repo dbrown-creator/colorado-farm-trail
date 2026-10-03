@@ -45,21 +45,29 @@ Query all records (attributes + lat/long) as JSON:
 - **22 columns**: Business Name, **Category**, Address, City, County, State, Zip,
   Phone, Call first?, Website, Email, Facebook, Instagram, Hours, Months Open,
   Products, Certified Organic, SNAP, ADA Accessible, Notes, **Latitude, Longitude**.
-- **`Category`** was derived from the messy raw `Operation type` field (61
-  pipe-delimited combos) into **10 clean, priority-ranked buckets** for map styling:
+- **`Category`** is derived from the raw, multi-valued `Operation type` field
+  (pipe-delimited, e.g. `U-pick|On-Farm/Ranch sales`). Each value maps exactly to a
+  clean bucket, and **a listing keeps every bucket it qualifies for**, comma-joined
+  in priority order (`U-Pick, On-Farm / Ranch Sales`). The **first is the primary**:
+  it sets the pin's color and icon (and is what My Maps groups by if you style on
+  this column). The site's type filter matches a listing under *any* of its
+  categories. `Centennial Farm/Ranch` (a heritage designation) and `Community
+  Gardens` aren't buckets; a Centennial ranch with nothing else listed counts as
+  On-Farm / Ranch Sales. `Sells to Schools` is kept in the data but has no filter.
 
-  | Category | Count |
-  |---|---|
-  | Farmers' Market | 47 |
-  | CSA Farm | 23 |
-  | On-Farm / Ranch Sales | 22 |
-  | Roadside Market | 17 |
-  | U-Pick | 14 |
-  | Other | 12 |
-  | Agritourism | 10 |
-  | Winery | 8 |
-  | Garden Center / Greenhouse | 8 |
-  | Restaurant | 2 |
+  | Category | Primary | Listed under (any) |
+  |---|---|---|
+  | On-Farm / Ranch Sales | 22 | 63 |
+  | Farmers' Market | 47 | 48 |
+  | Agritourism | 10 | 39 |
+  | Roadside Market | 17 | 34 |
+  | CSA Farm | 23 | 30 |
+  | Garden Center / Greenhouse | 8 | 21 |
+  | U-Pick | 14 | 16 |
+  | Sells to Schools | 0 | 15 |
+  | Other | 12 | 12 |
+  | Winery | 8 | 8 |
+  | Restaurant | 2 | 5 |
 
 - `Products`, `Hours`, and `Months Open` were consolidated from ~15 scattered raw
   columns into single readable cells (pipes → commas).

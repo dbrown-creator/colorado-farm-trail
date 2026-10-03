@@ -217,8 +217,9 @@
   .leaflet-popup-content{ margin:14px 16px; line-height:1.4; color:var(--ink); }
   .leaflet-container a.leaflet-popup-close-button{ color:var(--muted); }
   .pop h3{ margin:0 0 2px; font-size:1.05rem; letter-spacing:-.01em; color:var(--ink); }
+  .pop .cats{ display:flex; flex-wrap:wrap; gap:2px 10px; margin-bottom:8px; }
   .pop .cat{ display:inline-block; font-size:.72rem; font-weight:700; text-transform:uppercase;
-    letter-spacing:.05em; color:var(--accent); margin-bottom:8px; }
+    letter-spacing:.05em; color:var(--accent); }
   .pop .row{ margin:4px 0; font-size:.86rem; color:var(--ink); display:flex; gap:6px; }
   .pop .row .ic{ opacity:.7; flex:0 0 16px; }
   .pop .flags{ margin:8px 0 2px; display:flex; flex-wrap:wrap; gap:5px; }
@@ -367,7 +368,12 @@
   };
   var TYPE_ORDER = Object.keys(CATS);
   function catStyle(c){ return CATS[c] || CATS["Other"]; }
-  function catKeyOf(m){ return CATS[m.category] ? m.category : "Other"; }
+  // A listing can belong to several categories (primary first). Labels with no style
+  // of their own (e.g. "Sells to Schools") are skipped; "Other" only if nothing is known.
+  function catKeysOf(m){
+    var keys = (m.categories || [m.category]).filter(function(c){ return c !== "Other" && CATS[c]; });
+    return keys.length ? keys : ["Other"];
+  }
 
   var MONTHS = ["January","February","March","April","May","June","July",
                 "August","September","October","November","December"];
@@ -422,7 +428,8 @@
 
   // ---- State ----
   var ALL = [];
-  var activeType = null;              // null = All; else a category key (single-select)
+  var activeType = null;              // null = All; else a category key (single-select;
+                                      // matches a listing under any of its categories)
   var selectedCounties = {};          // multi-select set; empty = all
   var els = {
     q: document.getElementById("q"),
@@ -448,9 +455,12 @@
       iconSize:[30,30], iconAnchor:[15,28], popupAnchor:[0,-27] });
   }
   function popupHtml(m){
-    var st = catStyle(m.category);
-    var h = '<div class="pop"><h3>'+esc(m.name)+'</h3>';
-    h += '<span class="cat" style="color:'+st.color+'">'+st.emoji+' '+esc(m.category)+'</span>';
+    var h = '<div class="pop"><h3>'+esc(m.name)+'</h3><div class="cats">';
+    catKeysOf(m).forEach(function(c){
+      var st = catStyle(c);
+      h += '<span class="cat" style="color:'+st.color+'">'+st.emoji+' '+esc(c)+'</span>';
+    });
+    h += '</div>';
     var addr = [m.address, m.city].filter(Boolean).join(", ");
     if(addr) h += '<div class="row"><span class="ic">📍</span><span>'+esc(addr)+(m.county?', '+esc(m.county)+' County':'')+'</span></div>';
     if(m.hours) h += '<div class="row"><span class="ic">🕒</span><span>'+esc(m.hours)+'</span></div>';
@@ -542,7 +552,7 @@
 
   // ---- Filtering ----
   function passes(m){
-    if(activeType && catKeyOf(m) !== activeType) return false;
+    if(activeType && catKeysOf(m).indexOf(activeType) === -1) return false;
     var cKeys = Object.keys(selectedCounties);
     if(cKeys.length && !selectedCounties[m.county]) return false;
     if(els.fSnap.checked && !m.snap) return false;
@@ -559,7 +569,14 @@
   function apply(){
     cluster.clearLayers();
     var shown = 0, layers = [];
-    ALL.forEach(function(m){ if(passes(m)){ layers.push(m._marker); shown++; } });
+    ALL.forEach(function(m){
+      if(!passes(m)) return;
+      // While filtering by type, pin every match with that type's icon (a U-Pick that is
+      // primarily a CSA still shows 🍓 under the U-Pick filter); otherwise its primary.
+      var iconCat = activeType || catKeysOf(m)[0];
+      if(m._iconCat !== iconCat){ m._marker.setIcon(makeIcon(iconCat)); m._iconCat = iconCat; }
+      layers.push(m._marker); shown++;
+    });
     cluster.addLayers(layers);
     els.showing.textContent = shown; els.showingM.textContent = shown;
   }
@@ -618,7 +635,8 @@
       ALL = data;
       els.total.textContent = data.length;
       data.forEach(function(m){
-        m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m.category) })
+        m._iconCat = catKeysOf(m)[0];
+        m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m._iconCat) })
                      .bindPopup(popupHtml(m), { maxWidth:300, minWidth:230 });
       });
       buildTypeBar();

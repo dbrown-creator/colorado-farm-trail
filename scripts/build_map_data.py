@@ -122,7 +122,10 @@ def main():
     skipped = []
     for i, row in enumerate(rows, start=2):  # start=2 -> CSV line incl. header
         name = clean(row.get("Business Name"))
-        category = clean(row.get("Category"))
+        # Category may list several labels, primary first ("U-Pick, On-Farm / Ranch Sales").
+        # `category` stays the primary (pin color/icon); `categories` drives the type filter.
+        categories = split_list(row.get("Category"))
+        category = categories[0] if categories else None
         try:
             lat = float(row["Latitude"])
             lng = float(row["Longitude"])
@@ -142,6 +145,7 @@ def main():
             {
                 "name": name,
                 "category": category,
+                "categories": categories,
                 "address": clean(row.get("Address")),
                 "city": clean(row.get("City")),
                 "county": clean(row.get("County")),
@@ -174,9 +178,10 @@ def main():
     print(f"Skipped {len(skipped)} rows")
     for line_no, name, reason in skipped:
         print(f"  - line {line_no}: {name or '(no name)'} -> {reason}")
-    print("\nCategory distribution:")
-    for cat, count in Counter(m["category"] for m in markets).most_common():
-        print(f"  {count:3}  {cat}")
+    print("\nCategory distribution (primary / listed under):")
+    primary = Counter(m["category"] for m in markets)
+    for cat, count in Counter(c for m in markets for c in m["categories"]).most_common():
+        print(f"  {primary.get(cat, 0):3} / {count:3}  {cat}")
 
 
 if __name__ == "__main__":

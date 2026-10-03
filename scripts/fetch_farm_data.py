@@ -23,15 +23,23 @@ QUERY = "?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=json"
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(HERE, "..", "data")
 
-# priority-ordered buckets -> single Category for map styling
+# Colorado Proud "Operation type" is pipe-separated and multi-valued. Each value maps
+# exactly to one of our Category labels; this list's order is the priority order, and
+# the first match is the record's primary category (it sets the map pin's color/icon).
+# Values that aren't a way to buy from the farm ("Centennial Farm/Ranch" is a heritage
+# designation, "Community Gardens") are dropped. Exception: a Centennial ranch with no
+# other type (e.g. Princess Beef, which sells beef direct) is On-Farm / Ranch Sales,
+# since it is listed in a farm-direct directory. Nothing mapped at all -> "Other".
 PRIORITY = [
     ("Winery", "Winery"), ("U-pick", "U-Pick"), ("Farmers' Market", "Farmers' Market"),
-    ("CSA", "CSA Farm"), ("Roadside Market", "Roadside Market"),
+    ("CSA Farm", "CSA Farm"), ("Roadside Market", "Roadside Market"),
     ("Greenhouse", "Garden Center / Greenhouse"), ("Garden Center", "Garden Center / Greenhouse"),
     ("Agritourism", "Agritourism"), ("Restaurant", "Restaurant"),
-    ("On-Farm", "On-Farm / Ranch Sales"), ("Ranch", "On-Farm / Ranch Sales"),
+    ("On-Farm/Ranch sales", "On-Farm / Ranch Sales"),
     ("Sell to Schools", "Sells to Schools"),
 ]
+CATEGORY_SEP = ", "  # Category column joins multiple labels, primary first
+
 DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 PROD_FIELDS = [
     "Produce Categories 1", "Produce Categories 2", "Produce Categories 3",
@@ -44,12 +52,16 @@ def pipes(s):
     return ", ".join(p.strip() for p in (s or "").split("|") if p.strip())
 
 
-def category(op):
-    op = op or ""
+def categories(op):
+    """'U-pick|On-Farm/Ranch sales' -> ['U-Pick', 'On-Farm / Ranch Sales'] (priority order)."""
+    values = {p.strip().lower() for p in (op or "").split("|") if p.strip()}
+    out = []
     for key, label in PRIORITY:
-        if key.lower() in op.lower():
-            return label
-    return "Other"
+        if key.lower() in values and label not in out:
+            out.append(label)
+    if not out and "centennial farm/ranch" in values:
+        out.append("On-Farm / Ranch Sales")
+    return out or ["Other"]
 
 
 def fetch():
@@ -109,7 +121,7 @@ def write_mymaps(d, path):
             g = ft.get("geometry") or {}
             w.writerow({
                 "Business Name": get(ft, "Business Name"),
-                "Category": category(get(ft, "Operation type")),
+                "Category": CATEGORY_SEP.join(categories(get(ft, "Operation type"))),
                 "Address": addr(ft), "City": get(ft, "City"), "County": get(ft, "County"),
                 "State": get(ft, "State"), "Zip": get(ft, "Zip"),
                 "Phone": get(ft, "Telephone Number"),
