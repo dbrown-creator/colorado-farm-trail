@@ -20,6 +20,7 @@ provenance column.
 | **USDA Local Food Portal — keyed API, all 5 directories** | free key (self-service) | statewide (~105 CO markets + farms/CSAs/hubs) | `farmersmarket` + `onfarmmarket` + `csa` + `foodhub` + `agritourism`, each mapped to a `Category`. **Verified fields (farmersmarket):** name, street, city, state, zip, lat/lng, phone, email, website, Facebook/Instagram, description, `listing_id` + `updatetime` (kept as `Source ID` / `Source Updated` for the update engine). **NOT provided:** hours, season, products, SNAP, organic, county. Set `USDA_API_KEY`; narrow with `USDA_DIRECTORIES=csa,foodhub`. |
 | USDA — keyless `data_share`, all 5 directories | public, no key | opt-in only: ~6 markets, 37 on-farm, 41 CSA, 12 hubs, 12 agritourism (CO, 2026-07) | Thin (name/contact/address/website, no coords). Used automatically when no key is set; real coverage for the non-market directories. |
 | **CFMA member markets** (MarketWurks API) | public JSON, no key | 37 members | **Tested & confirmed.** The map is a MarketWurks embed; data is a public REST endpoint (below). Rich fields — fills exactly what USDA lacks. 26 overlap our data (enrich), 11 are new. |
+| **Chaffee Provides** (chaffeeprovides.org, Guidestone Colorado) | public HTML, no key | 36 Chaffee-area providers (42 listed; 6 held for review) | **Built** (`sources/chaffee_provides.py`). Crawls the 7 category listings (paginated) → one detail page per provider, plus the `/provider-map/` page's `map-asset` attributes for **source coordinates** (32 of 36) and the per-provider *hide address* flag, which we honor. Mostly farms/ranches the statewide directories miss, plus food banks, orgs, a restaurant. Honors `Crawl-delay: 10` → ~8 min. Held-out providers: `source-data/phase2/chaffee_provides_exclusions.json`; maintainer-confirmed fixes: `chaffee_provides_overrides.json`; open questions: [`docs/CHAFFEE_PROVIDES_REVIEW.md`](../../docs/CHAFFEE_PROVIDES_REVIEW.md). Spec: [`docs/CHAFFEE_PROVIDES.md`](../../docs/CHAFFEE_PROVIDES.md). |
 | **Operator / organizer sites** — *not yet built* | HTML | multiple markets each | Market-management companies that run several markets, with first-party season/hours. **One site → many markets**, so high value for both discovery and enrichment. Seed list below. |
 | Curated guides — *not yet built* | HTML | coverage gaps | coloradoinfo.com, ag.colorado.gov — cross-check + fill missing markets. |
 | Per-site enrichment — *prototyped* | HTML + search | fills gaps | Visit each market's own website (+ search fallback) for hours/season/products/SNAP. Validated on 3 markets; see the sampling in git history. |
@@ -79,8 +80,11 @@ Proud, CFMA, USDA) are best for *discovering* markets and for coordinates; but f
 2. **Colorado Proud** (vetted state directory) — for markets not (yet) confirmed on
    their own site.
 3. **CFMA / MarketWurks** (member-maintained, rich).
-4. **USDA** (broad but thin/sometimes stale).
-5. **Multi-aggregator consensus** > single aggregator (5280, coloradoinfo, etc.).
+4. **Chaffee Provides** (community-maintained, Chaffee County only). Maintainer-
+   confirmed corrections in `chaffee_provides_overrides.json` win over its scraped
+   values (provenance `maintainer`).
+5. **USDA** (broad but thin/sometimes stale).
+6. **Multi-aggregator consensus** > single aggregator (5280, coloradoinfo, etc.).
 
 So the merge order is *coverage-first* (directories create records + coords), but a
 **confirmed official-site value overrides** the directory value for the fields it
@@ -146,6 +150,9 @@ other four directories' field names on the first keyed run**.
   (design: [`../../docs/UPDATE_ENGINE.md`](../../docs/UPDATE_ENGINE.md))
 - ✅ merge/dedup, possible-dup review flag, geocode + county backfill, writer, 19 tests
 - ✅ statewide build producing 139 markets
+- ✅ Chaffee Provides source (category crawl + provider-map coords, exclusions/overrides
+  files, offline tests). Link check + presence research for all 42 providers on
+  2026-10-03 → 6 held for review with the Chaffee Provides team
 - ⏳ CFMA map scrape, curated guides, per-site enrichment (to fill hours/season/
   products/SNAP for the ~91 USDA-only markets that lack them)
 - ⏳ Operator-site scrape — **Jarman & Co Events** (jarmanandcoevents.com) first;

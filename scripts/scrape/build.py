@@ -22,7 +22,7 @@ from scrape import geocode
 from scrape.merge import flag_possible_dups, merge
 from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
-from scrape.sources import cfma, colorado_proud, enrichment, usda
+from scrape.sources import cfma, chaffee_provides, colorado_proud, enrichment, usda
 
 # PHASE 2 (in development — NOT the live product). Outputs are isolated under phase2/
 # so they never touch the live Phase 1 file data-compiled/farm_fresh_directory_mymaps.csv.
@@ -56,7 +56,8 @@ def load_env(path: str = os.path.join(REPO, ".env")) -> None:
 def collect() -> list:
     """Gather records from every available source, in priority order."""
     # Order = field-value priority (first source to fill a field wins):
-    # Colorado Proud (vetted) > CFMA (rich, member-maintained) > USDA (broad, thin).
+    # Colorado Proud (vetted) > CFMA (rich, member-maintained) > Chaffee Provides
+    # (community-maintained, Chaffee County) > USDA (broad, thin).
     # A later per-site enrichment pass can override any of these from the market's own
     # official website (see README "Field-value priority").
     records = []
@@ -74,6 +75,13 @@ def collect() -> list:
         records += cfma.fetch()
     except Exception as e:
         print(f"  CFMA fetch failed: {e}")
+
+    # Polite crawl (robots Crawl-delay: 10) -> ~8 minutes. Never fatal to the build.
+    print("Chaffee Provides (chaffeeprovides.org, ~8 min crawl)...", flush=True)
+    try:
+        records += chaffee_provides.fetch()
+    except Exception as e:
+        print(f"  Chaffee Provides fetch failed: {e}")
 
     # All five USDA Local Food Portal directories by default; narrow with e.g.
     # USDA_DIRECTORIES=farmersmarket,onfarmmarket
