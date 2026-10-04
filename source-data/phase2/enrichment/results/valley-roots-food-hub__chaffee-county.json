@@ -1,0 +1,23 @@
+{
+ "id": "valley-roots-food-hub__chaffee-county",
+ "name": "Valley Roots Food Hub",
+ "city": "",
+ "official_website": "https://www.valleyrootsfoodhub.com/",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Phone": {
+   "value": "719-206-2839",
+   "source_url": "https://www.valleyrootsfoodhub.com/contact"
+  },
+  "Address": {
+   "value": "5401 Terry Street, Mosca, CO 81146",
+   "source_url": "https://www.valleyrootsfoodhub.com/contact"
+  },
+  "Products": {
+   "value": "Produce, meat, cheese, eggs",
+   "source_url": "https://www.valleyrootsfoodhub.com/"
+  }
+ },
+ "notes": "Phone differs from dataset (719-657-7265). Site: order deadline Monday 4 pm, Thursday delivery; Friday delivery for Boulder/Denver; wholesale minimum $250; serves San Luis Valley, Salida, Buena Vista; fresh box subscription (site says 20 weeks; dataset says 13, discrepancy). Second location 1745 N Erie Ave, Pueblo. Emails are obfuscated in fetch so not recorded. Hours, Chaffee pickup spots, social, SNAP not found."
+}

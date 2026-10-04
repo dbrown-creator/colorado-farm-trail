@@ -1,0 +1,19 @@
+{
+ "id": "cottonwood-spirit-ranch__chaffee-county",
+ "name": "Cottonwood Spirit Ranch",
+ "city": "",
+ "official_website": "https://cottonwoodspiritranch.com",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Products": {
+   "value": "Beef, eggs, honey, produce",
+   "source_url": "https://cottonwoodspiritranch.com"
+  },
+  "Facebook": {
+   "value": "https://www.facebook.com/CottonwoodSpiritRanch/",
+   "source_url": "https://cottonwoodspiritranch.com"
+  }
+ },
+ "notes": "Site is live; located in Buena Vista (no street address given). Describes 15 acres and a vacation rental. Hours, season, phone, email, Instagram, SNAP not stated. Site says 'organic beef' as product wording only; no certification stated, so not recorded."
+}

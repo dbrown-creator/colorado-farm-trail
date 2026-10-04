@@ -1,0 +1,19 @@
+{
+ "id": "mountain-goat-lodge__salida",
+ "name": "Mountain Goat Lodge",
+ "city": "Salida",
+ "official_website": "https://mountaingoatlodge.com",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Phone": {
+   "value": "206-218-8201",
+   "source_url": "https://mountaingoatlodge.com"
+  },
+  "Email": {
+   "value": "mtglodge@gmail.com",
+   "source_url": "https://mountaingoatlodge.com"
+  }
+ },
+ "notes": "Site live; lodging/Hipcamp with cheese-making, goat husbandry and poultry classes. Site makes NO mention of goat milk herd shares (dataset claims $50/month share), so that cannot be verified. Phone on site differs from dataset (719-539-7173). Hours, season, social, SNAP not stated."
+}

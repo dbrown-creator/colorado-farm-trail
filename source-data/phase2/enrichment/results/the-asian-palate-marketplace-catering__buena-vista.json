@@ -1,0 +1,15 @@
+{
+ "id": "the-asian-palate-marketplace-catering__buena-vista",
+ "name": "The Asian Palate Marketplace & Catering",
+ "city": "Buena Vista",
+ "official_website": "https://www.theasianpalate.com",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Instagram": {
+   "value": "https://www.instagram.com/the_asian_palate/",
+   "source_url": "https://www.theasianpalate.com"
+  }
+ },
+ "notes": "Site live; says business transitioned from full-service restaurant to catering and special events (private chef, sushi, poke, noodles, locally sourced ingredients). Street address, hours, phone, email, Facebook, SNAP not stated on fetched page. Questionable fit as a farmers' market listing."
+}

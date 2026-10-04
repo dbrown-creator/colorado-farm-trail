@@ -1,0 +1,23 @@
+{
+ "id": "phytology-flowers-farm__chaffee-county",
+ "name": "Phytology Flowers Farm",
+ "city": "",
+ "official_website": "https://www.phytologyflowers.com",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Hours": {
+   "value": "By appointment",
+   "source_url": "https://www.phytologyflowers.com"
+  },
+  "Products": {
+   "value": "Flowers, wedding and event florals, summer flower subscriptions, bouquets",
+   "source_url": "https://www.phytologyflowers.com"
+  },
+  "Instagram": {
+   "value": "https://www.instagram.com/phytologyflowers/",
+   "source_url": "https://www.instagram.com/phytologyflowers/"
+  }
+ },
+ "notes": "Active: Instagram posts through Sept 18, 2026. Farm not open to public; orders online or by phone; grab-and-go bouquets from retail cooler at Salida Garden Supply, 1242 C Street, Salida. Flower subscriptions offered 'in the summer' (no months given). Phone/email/Facebook/SNAP not stated on site."
+}

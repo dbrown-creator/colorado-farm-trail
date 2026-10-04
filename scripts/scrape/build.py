@@ -154,6 +154,13 @@ def main() -> None:
     load_env()
     records = collect()
     markets = merge(records)
+    # An enrichment result that merged with nothing has drifted from its target's
+    # name+city key (e.g. it filled in a town the directory record lacks) and would
+    # ship as a coordinate-less duplicate. Surface it loudly.
+    orphans = [m.business_name for m in markets if m.source == enrichment.SOURCE]
+    if orphans:
+        print(f"WARNING: {len(orphans)} official-site results matched no directory record "
+              f"(check name/city in enrichment/results): {orphans}")
     # Reviewed dedup decisions (merge / confirmed-distinct) — applied every build so a
     # human call is never undone by a rebuild.
     decisions = load_decisions(os.path.join(SOURCE_DIR, "dedup_decisions.csv"))

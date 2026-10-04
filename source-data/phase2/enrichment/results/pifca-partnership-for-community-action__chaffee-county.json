@@ -1,0 +1,23 @@
+{
+ "id": "pifca-partnership-for-community-action__chaffee-county",
+ "name": "PIFCA – Partnership for Community Action",
+ "city": "",
+ "official_website": "https://www.gopfca.com/",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Phone": {
+   "value": "(719) 398-0363",
+   "source_url": "https://www.gopfca.com/"
+  },
+  "Email": {
+   "value": "hello@goPfCA.com",
+   "source_url": "https://www.gopfca.com/"
+  },
+  "Products": {
+   "value": "Food pantry, health & beauty aids, Rainbow Closet",
+   "source_url": "https://www.gopfca.com/"
+  }
+ },
+ "notes": "Official site states pantry hours as Mon-Fri 10am-4pm (weekends by appointment), which conflicts with the directory's Tue-Fri 10-4; the page fetched may be a different section, so Hours NOT recorded - needs manual review. Address not on the fetched page (directory notes mention Starpoint Community Center basement). SNAP and social links not found. Town per official source: Salida (city left blank in this result so it merges with the directory record, whose city is blank)."
+}
