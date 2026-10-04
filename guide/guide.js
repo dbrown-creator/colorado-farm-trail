@@ -493,7 +493,6 @@
       </ul>
       <h2>Get listed or fix a listing</h2>
       <p>If you're a chef, grocer or producer, send us who you buy from or sell to, with a link if you publish it. We add confirmed links as <b>high</b> confidence.</p>
-      <p class="muted"><i>Draft note: this button should go to the Farm Trail business-submission form (docs/BUSINESS_SUBMISSIONS.md) once the guide has a home.</i></p>
       <p><a class="btn" href="https://coloradofarmtrail.com/about.html">Send us your sourcing</a></p>
     </div></section>`;
   }
