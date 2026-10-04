@@ -88,7 +88,7 @@ Blue Barrel Farm,Fort Collins,Website,set,https://www.bluebarrel.farm/,"Site mov
 Edwards Corner Farmers' Market,Edwards,Website,clear,,Removed compromised link http://edwardscornerfarmersmarket.com/: domain is parked for sale (link check 2026-10-03),2026-10-03
 "Heritage Lavender, LLC",Berthoud,Website,clear,,Removed compromised link http://heritagelavender.com/: redirects to expireddomains.com (domain lapsed) (link check 2026-10-03),2026-10-03
 Bolton's Orchards,Grand Junction,Website,set,https://boltonorchards.co/,"Site moved: http://www.boltonorchards.net redirects to https://boltonorchards.co/, verified same business (link check 2026-10-03)",2026-10-03
-"Borden Farms, LLC",Delta,Website,clear,,Removed http://www.bordenfarms.com: now redirects to pedrosfarm.com (Pedro's Farm); same business not confirmed (link check 2026-10-03),2026-10-03
+"Borden Farms, LLC",Delta,Website,set,https://pedrosfarm.com/,"Site moved: bordenfarms.com redirects to pedrosfarm.com, which says 'Formerly Borden Farms' (organic produce and flowers, Delta; verified 2026-10-03)",2026-10-03
 High Plains Food Cooperative,Denver Tech Center,Website,clear,,"Removed compromised link http://www.highplainsfood.org: redirects through safebrowse.io, a malware-style redirector (link check 2026-10-03)",2026-10-03
 Johnson's Acres,Brighton,Website,clear,,"Removed compromised link http://www.johnsonsacres.com: redirects to 11jelas777.com, a gambling spam site (link check 2026-10-03)",2026-10-03
 The Grainery Ministries,Salida,Website,clear,,"Removed compromised link http://www.thegraineryministries.org: redirects through safebrowse.io, a malware-style redirector (link check 2026-10-03)",2026-10-03
@@ -100,7 +100,6 @@ East Denver Food Hub,Montbello,Website,clear,,Removed compromised link https://w
 Rekaivery Food Hub,Fort Collins,Website,clear,,"Removed https://www.endhungerco.org/partner-stories/rekaivery-food-hub-launches-kickstarter: now redirects to provechocollective.org's home page, which doesn't mention Rekaivery (link check 2026-10-03)",2026-10-03
 Harvest Farm,Wellington,Website,set,https://fortcollinsrescuemission.org/who-we-are/locations/harvest-farm/,"Site moved: https://www.harvestfarm.net redirects to https://fortcollinsrescuemission.org/who-we-are/locations/harvest-farm/, verified same business (link check 2026-10-03)",2026-10-03
 Market on the Plaza,Mountain Village,Website,set,https://townofmountainvillage.com/explore/market-on-the-plaza/,"Site moved: https://www.marketontheplaza.com redirects to https://townofmountainvillage.com/explore/market-on-the-plaza/, verified same business (link check 2026-10-03)",2026-10-03
-Platte River Fort,Greeley,Website,clear,,"Removed https://www.platteriverfort.com: now redirects to riverfortranch.com (River Fort Ranch, a wedding venue); same place not confirmed (link check 2026-10-03)",2026-10-03
 Fort Collins Winter Farmers Market,Fort Collins,Website,set,https://www.wildcraftmarkets.com/,"Site moved: https://www.winterfarmersmarket.com/ redirects to https://www.wildcraftmarkets.com/, verified same business (link check 2026-10-03)",2026-10-03
 Ledingham Livestock,Carr,Category,set,On-Farm / Ranch Sales,Was 'Other' (Colorado Proud stated no type): Beef and lamb ranch; recategorized in the 2026-10-03 category review,2026-10-03
 Oswald Grassfed Beef,Cotopaxi,Category,set,On-Farm / Ranch Sales,Was 'Other' (Colorado Proud stated no type): Grass-fed beef ranch; recategorized in the 2026-10-03 category review,2026-10-03
@@ -117,3 +116,26 @@ Food to Power,Colorado Springs,Category,set,Community Food Hub,"Community food-a
 The Action Center Community Food Hub,Lakewood,Category,set,Community Food Hub,"Community food-access hub, not a wholesale distributor (2026-10-03 category review)",2026-10-03
 East Denver Food Hub,Montbello,Category,set,Community Food Hub,"Community food-access hub, not a wholesale distributor (2026-10-03 category review)",2026-10-03
 US Potato Board,Denver Tech Center,,remove,,"A trade association, not a place to get food (2026-10-03 category review)",2026-10-03
+"Borden Farms, LLC",Delta,Business Name,set,Pedro's Farm (formerly Borden Farms),Renamed: its site now reads 'Pedro's Farm ... Formerly Borden Farms' (verified 2026-10-03),2026-10-03
+Platte River Fort,Greeley,,remove,,"Now River Fort Ranch, a barn wedding venue (riverfortranch.com); no farm stand, produce or tours described, so not a food stop (reviewed 2026-10-03)",2026-10-03
+Boulder Creek Winery,Boulder,,remove,,"Closed: Yelp 'CLOSED - Updated January 2026', Foursquare 'Now Closed' (closed-org check 2026-10-03)",2026-10-03
+Spotted Horse Barnyard,Elbert,,remove,,Closed: owner confirmed permanent closure (pumpkinpatchesandmore.org closed-farms page) (closed-org check 2026-10-03),2026-10-03
+Freeman Apple Orchard,Lakewood,,remove,,Closed: pickyourown.org lists it permanently closed; domain gone (closed-org check 2026-10-03),2026-10-03
+Lyons Outdoor Market,Lyons,,remove,,"Removed on review: Tripadvisor 'temporarily closed until 10/04/2026', absent from the town's 2026 events, website gone (closed-org check 2026-10-03)",2026-10-03
+Hugs Farm,Walsenburg,,remove,,"Removed on review: visithugsfarm.com now offers mindfulness/animal-therapy services, no food sales (closed-org check 2026-10-03)",2026-10-03
+Morton's Organic Orchards,Palisade,Website,set,https://mortonsorganicorchards.com/,Site moved; 2026 season updates on the new domain (closed-org check 2026-10-03),2026-10-03
+Fritzler Farms Inc dba Fritzler Corn Maze and Scream Acres,La Salle,Website,set,https://www.fritzlerfarmpark.com/,Renamed Fritzler Farm Park; official site shows 2026 Fall Fest Sept 19 - Nov 1 (closed-org check 2026-10-03),2026-10-03
+Fritzler Farms Inc dba Fritzler Corn Maze and Scream Acres,La Salle,Business Name,set,Fritzler Farm Park (Scream Acres),Renamed; same address and phone (closed-org check 2026-10-03),2026-10-03
+Studt's Pumpkin Patch and Corn Maze,Grand Junction,Website,set,https://studtfarms.com/,"Renamed Studt Farms; official site: open Oct 1-31, 2026 (closed-org check 2026-10-03)",2026-10-03
+Studt's Pumpkin Patch and Corn Maze,Grand Junction,Business Name,set,Studt Farms (Pumpkin Patch and Corn Maze),Renamed (closed-org check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Website,set,https://adamsapplecolorado.com/,U-pick sold to new owner (Mantooth Company post); new business site current for 2026 (closed-org check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Address,set,42135 Weld County Road 43,Address per adamsapplecolorado.com (the old '135 WCR 43' was truncated; pin unchanged) (closed-org check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Notes,prepend,"Formerly Masonville Orchards' Ault U-pick, now under new ownership as Adam's Apple Orchard & Country Store.",Ownership change (closed-org check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Business Name,set,Adam's Apple Orchard & Country Store,Successor business at the same orchard (closed-org check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Website,set,https://somethingfromthefarm.com/,Official site (non-www host) lists the 2026 season Sept 26 - Oct 31 (closed-org check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Address,set,8020 S Timberline Rd,Address per official site (closed-org check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Latitude,set,40.474164077008,Census geocode of 8020 S Timberline Rd (closed-org check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Longitude,set,-105.039379419209,Census geocode of 8020 S Timberline Rd (closed-org check 2026-10-03),2026-10-03
+Lost Greens Farm,Denver,Website,set,https://lostgreensfarm.substack.com,"Farm's Substack (Aug 2025 post: continuing at Gilpin St, planning 2026) (closed-org check 2026-10-03)",2026-10-03
+Metro Denver Farmers' Market-Lakewood,Lakewood,Hours,set,Sat: 10:00am - 2:00pm,"2026 schedule at Mile Hi Church per Denverite (May 1, 2026) (closed-org check 2026-10-03)",2026-10-03
+Metro Denver Farmers' Market-Lakewood,Lakewood,Months Open,set,"June, July, August, September, October","2026 season June 13 - Oct 3 per Denverite (May 1, 2026) (closed-org check 2026-10-03)",2026-10-03
