@@ -18,3 +18,9 @@ wireframes/
 
 # Generated QA reports
 data-compiled/link_check_report.csv
+
+# Secrets (never commit) — read by scripts/scrape/build.py
+.env
+
+# Scraper page caches (re-downloadable; see scripts/scrape/sources/chaffee_provides.py)
+.cache/

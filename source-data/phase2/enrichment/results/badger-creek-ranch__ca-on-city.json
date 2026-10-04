@@ -1,0 +1,31 @@
+{
+ "id": "badger-creek-ranch__ca-on-city",
+ "name": "Badger Creek Ranch",
+ "city": "Cañon City",
+ "official_website": "https://www.badgercreekranch.com/",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Website": {
+   "value": "https://www.badgercreekranch.com/",
+   "source_url": "https://www.badgercreekranch.com/"
+  },
+  "Email": {
+   "value": "info@badgercreekranch.com",
+   "source_url": "https://www.badgercreekranch.com/"
+  },
+  "Products": {
+   "value": "Grass-fed beef, eggs",
+   "source_url": "https://www.badgercreekranch.com/"
+  },
+  "Facebook": {
+   "value": "https://facebook.com/badgercreekranch",
+   "source_url": "https://www.badgercreekranch.com/"
+  },
+  "Instagram": {
+   "value": "https://instagram.com/badgercreekranch",
+   "source_url": "https://www.badgercreekranch.com/"
+  }
+ },
+ "notes": "Dataset URL /grass-fed-meat now returns 404; site root works. Site gives mailing address PO Box 21, Coaldale CO 81222 (not recorded as street address) and online stores at store.badgercreekranch.com. No hours, season, SNAP or organic certification stated on the home page (it mentions Audubon Bird-Friendly Land certification only). Phone not shown."
+}

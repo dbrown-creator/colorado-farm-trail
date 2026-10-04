@@ -4,9 +4,12 @@ Outputs (new files; Farm Fresh CSVs are left untouched):
   data/co_farmers_markets_all_mymaps.csv  : the 22 My Maps columns, import-ready
   data/co_farmers_markets_all_raw.csv     : same + source/geo_source/provenance audit
 
-Run:
-  python scripts/scrape/build.py              # uses no key (Colorado Proud + datashare)
-  USDA_API_KEY=xxxx python scripts/scrape/build.py   # adds the rich USDA statewide pull
+Run (offline; reads the saved source snapshots, never the network for source data):
+  python scripts/scrape/build.py
+Check sources for new data on purpose, separately (writes snapshots + a change report):
+  python scripts/scrape/refresh_sources.py [source ...]
+The USDA key is read from the git-ignored .env at the repo root (USDA_API_KEY=...);
+a real environment variable of the same name overrides it. No key -> keyless fallback.
 """
 from __future__ import annotations
 
@@ -17,11 +20,11 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from scrape import geocode
-from scrape.merge import flag_possible_dups, merge
+from scrape import geocode, snapshots
+from scrape.merge import apply_decisions, flag_possible_dups, load_decisions, merge
 from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
-from scrape.sources import cfma, colorado_proud, enrichment, usda
+from scrape.sources import curated, enrichment
 
 # PHASE 2 (in development — NOT the live product). Outputs are isolated under phase2/
 # so they never touch the live Phase 1 file data-compiled/farm_fresh_directory_mymaps.csv.
@@ -33,58 +36,79 @@ COMPILED_DIR = os.path.join(REPO, "data-compiled", "phase2")
 SOURCE_DIR = os.path.join(REPO, "source-data", "phase2")
 
 
-def collect() -> list:
-    """Gather records from every available source, in priority order."""
+def load_env(path: str = os.path.join(REPO, ".env")) -> None:
+    """Load KEY=VALUE lines from the git-ignored .env at the repo root (secrets like
+    USDA_API_KEY live there, never in git). Real environment variables win; missing
+    file is fine. Lines starting with # are comments."""
+    try:
+        fh = open(path, encoding="utf-8")
+    except OSError:
+        return
+    with fh:
+        for line in fh:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            k, v = k.strip(), v.strip().strip("'\"")
+            if k and k not in os.environ:
+                os.environ[k] = v
+
+
+def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
+    """Gather records in priority order, offline: local inputs plus the saved source
+    snapshots. Network sources are only contacted by refresh_sources.py."""
     # Order = field-value priority (first source to fill a field wins):
-    # Colorado Proud (vetted) > CFMA (rich, member-maintained) > USDA (broad, thin).
-    # A later per-site enrichment pass can override any of these from the market's own
-    # official website (see README "Field-value priority").
+    # official-site enrichment > Colorado Proud (vetted) > CFMA (rich, member-maintained)
+    # > Chaffee Provides (community-maintained, Chaffee County) > curated research
+    # > USDA (broad, thin). See README "Field-value priority".
     records = []
 
     enr = enrichment.fetch()
     if enr:
-        print(f"Official-site enrichment: {len(enr)} records (top priority)...", flush=True)
+        print(f"Official-site enrichment: {len(enr)} records (top priority)", flush=True)
         records += enr
 
-    print("Colorado Proud (ArcGIS)...", flush=True)
-    records += colorado_proud.fetch()
-
-    print("CFMA member markets (MarketWurks)...", flush=True)
-    try:
-        records += cfma.fetch()
-    except Exception as e:
-        print(f"  CFMA fetch failed: {e}")
-
-    key = os.environ.get("USDA_API_KEY", "").strip()
-    if key:
-        print("USDA keyed API (statewide grid)...", flush=True)
-        records += usda.fetch_api(key)
-    else:
-        print("USDA key absent -> keyless data_share only (thin).", flush=True)
-        try:
-            records += usda.parse_datashare(usda.fetch_datashare_raw())
-        except Exception as e:
-            print(f"  data_share failed: {e}")
-
-    # TODO(enrichment): cfma.fetch(), curated.fetch(), per-site enrichment.
+    for name in snapshots.NETWORK_SOURCES:
+        if name == "usda_api":
+            # Hand-researched businesses no directory carries (curated_records.csv).
+            cur = curated.fetch()
+            if cur:
+                print(f"Curated new records: {len(cur)}", flush=True)
+                records += cur
+        recs, fetched = snapshots.load(name, snapshot_dir)
+        if fetched is None:
+            print(f"{name}: no snapshot (run refresh_sources.py {name})", flush=True)
+            continue
+        print(f"{name}: {len(recs)} records (snapshot {fetched})", flush=True)
+        records += recs
     return records
 
 
-def fill_geography(markets: list) -> None:
+def fill_geography(markets: list, cache=None) -> None:
     """Geocode missing coordinates and backfill county. Derived coords are flagged
-    geo_source='census-geocoder'; source-provided coords are left as-is."""
+    geo_source='census-geocoder'; source-provided coords are left as-is. Lookups go
+    through a persistent GeoCache, so only records new since the last build hit the
+    network (GEOCODE_REFRESH=1 redoes them all)."""
+    own_cache = cache is None
+    if own_cache:
+        refresh = os.environ.get("GEOCODE_REFRESH", "").strip().lower() in ("1", "true", "yes")
+        cache = geocode.GeoCache(refresh=refresh)
     for m in markets:
         if m.latitude is None or not in_colorado(m.latitude, m.longitude):
-            r = geocode.geocode_address(m.address, m.city, m.zip)
+            r = cache.geocode_address(m.address, m.city, m.zip)
             if r and in_colorado(r[0], r[1]):
                 m.latitude, m.longitude, county = r
                 m.geo_source = "census-geocoder"
                 if not m.county and county:
                     m.set("county", county, "census-geocoder")
         if not m.county and m.latitude is not None:
-            county = geocode.county_for(m.latitude, m.longitude)
+            county = cache.county_for(m.latitude, m.longitude)
             if county:
                 m.set("county", county, "census-geocoder")
+    if own_cache:
+        cache.save()
+        print(f"Geography: {cache.hits} cached answers, {cache.lookups} network lookups.")
 
 
 def write(markets: list) -> None:
@@ -99,7 +123,8 @@ def write(markets: list) -> None:
         for m in markets:
             w.writerow(m.to_mymaps_row())
 
-    extra = ["Source", "Geo Source", "Possible Dup Of", "Provenance"]
+    extra = ["Source", "Geo Source", "Possible Dup Of", "Provenance",
+             "Source ID", "Source Updated"]
     with open(raw, "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.DictWriter(fh, fieldnames=COLUMNS + extra)
         w.writeheader()
@@ -109,16 +134,32 @@ def write(markets: list) -> None:
             row["Geo Source"] = m.geo_source
             row["Possible Dup Of"] = m.dup_hint
             row["Provenance"] = json.dumps(m.provenance, separators=(",", ":"))
+            row["Source ID"] = m.source_id
+            row["Source Updated"] = m.source_updated
             w.writerow(row)
 
     print(f"Wrote {len(markets)} markets:\n  {mymaps}\n  {raw}")
 
 
 def main() -> None:
+    load_env()
     records = collect()
     markets = merge(records)
+    # An enrichment result that merged with nothing has drifted from its target's
+    # name+city key (e.g. it filled in a town the directory record lacks) and would
+    # ship as a coordinate-less duplicate. Surface it loudly.
+    orphans = [m.business_name for m in markets if m.source == enrichment.SOURCE]
+    if orphans:
+        print(f"WARNING: {len(orphans)} official-site results matched no directory record "
+              f"(check name/city in enrichment/results): {orphans}")
+    # Reviewed dedup decisions (merge / confirmed-distinct) — applied every build so a
+    # human call is never undone by a rebuild.
+    decisions = load_decisions(os.path.join(SOURCE_DIR, "dedup_decisions.csv"))
+    markets, distinct = apply_decisions(markets, decisions)
+    if decisions:
+        print(f"Applied {len(decisions)} dedup decisions.")
     fill_geography(markets)
-    flag_possible_dups(markets)
+    flag_possible_dups(markets, distinct=distinct)
     markets.sort(key=lambda m: (m.city.lower(), m.business_name.lower()))
     write(markets)
     dups = sum(1 for m in markets if m.dup_hint)

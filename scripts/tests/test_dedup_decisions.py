@@ -1,0 +1,89 @@
+"""Multi-category merge + reviewed dedup decisions (source-data/phase2/dedup_decisions.csv)."""
+import csv
+import os
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
+from scrape import merge as merge_mod
+from scrape.schema import Market
+
+REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+
+
+def _m(name, city, category="Farmers' Market", source="usda", **kw):
+    m = Market(source=source, category=category)
+    m.set("business_name", name, source)
+    m.set("city", city, source)
+    for k, v in kw.items():
+        m.set(k, v, source)
+    return m
+
+
+def test_add_categories_unions_in_order():
+    m = _m("X", "Y", category="Agritourism")
+    m.add_categories(["On-Farm / Ranch Sales", "Agritourism", ""])
+    assert m.category == "Agritourism, On-Farm / Ranch Sales"
+    assert m.categories == ["Agritourism", "On-Farm / Ranch Sales"]
+
+
+def test_merge_unions_categories_across_directories():
+    a = _m("Sunny Farm", "Paonia", category="CSA Farm", phone="(970) 555-0100")
+    b = _m("Sunny Farm", "Paonia", category="On-Farm / Ranch Sales")
+    [out] = merge_mod.merge([a, b])
+    assert out.category == "CSA Farm, On-Farm / Ranch Sales"
+
+
+def test_category_less_source_adds_no_label():
+    a = Market(source="official-site", category="")
+    a.business_name, a.city = "Sunny Farm", "Paonia"
+    b = _m("Sunny Farm", "Paonia", category="CSA Farm")
+    [out] = merge_mod.merge([a, b])
+    assert out.category == "CSA Farm"
+
+
+def test_merge_decision_folds_and_renames():
+    keep = _m("Golden Farmers Market", "Golden", website="https://goldenfarmersmarket.org")
+    dupe = _m("Golden Chamber of Commerce", "Golden", source="colorado_proud",
+              hours="Sat: 8am-1pm")
+    other = _m("Golden Creamery", "Golden", category="Agritourism")
+    out, distinct = merge_mod.apply_decisions([keep, dupe, other], [
+        {"action": "merge", "name": "Golden Chamber of Commerce", "city": "Golden",
+         "target_name": "Golden Farmers Market", "target_city": "Golden",
+         "keep_name": "Golden Farmers Market (Golden)"},
+    ])
+    assert [m.business_name for m in out] == ["Golden Farmers Market (Golden)", "Golden Creamery"]
+    assert out[0].hours == "Sat: 8am-1pm"                     # gap filled from the dupe
+    assert out[0].website == "https://goldenfarmersmarket.org"  # target value kept
+    assert out[0].provenance["Business Name"] == "dedup-decision"
+    assert distinct == set()
+
+
+def test_merge_decision_with_missing_record_is_reported_not_fatal(capsys):
+    a = _m("Only Market", "Town")
+    out, _ = merge_mod.apply_decisions([a], [
+        {"action": "merge", "name": "Gone Market", "city": "Town",
+         "target_name": "Only Market", "target_city": "Town"}])
+    assert out == [a]
+    assert "not applied" in capsys.readouterr().out
+
+
+def test_distinct_decision_suppresses_dup_flag():
+    a = _m("Pueblo Farmers Market", "Pueblo")
+    b = _m("Pueblo Farmers Market Eastside Pop-ups", "Pueblo")
+    c = _m("Pueblo Farmers Market North", "Pueblo")
+    ms, distinct = merge_mod.apply_decisions([a, b, c], [
+        {"action": "distinct", "name": "Pueblo Farmers Market Eastside Pop-ups",
+         "city": "Pueblo", "target_name": "Pueblo Farmers Market", "target_city": "Pueblo"}])
+    merge_mod.flag_possible_dups(ms, distinct=distinct)
+    assert b.dup_hint == ""                         # confirmed distinct from a; unrelated to c
+    assert a.dup_hint == "Pueblo Farmers Market North"   # an unreviewed pair still flags
+
+
+def test_committed_decisions_file_is_well_formed():
+    path = os.path.join(REPO, "source-data", "phase2", "dedup_decisions.csv")
+    rows = merge_mod.load_decisions(path)
+    assert rows, "decisions file should not be empty"
+    for r in rows:
+        assert r["action"] in ("merge", "distinct"), r
+        assert r["name"] and r["city"] and r["target_name"], r

@@ -17,7 +17,7 @@ import re
 import urllib.request
 from typing import List
 
-from ..normalize import clean_url, zipcode
+from ..normalize import clean_url, facebook_url, instagram_url, zipcode
 from ..schema import Market
 
 # CFMA org id, read from the homepage MarketWurks embed (data-org-id). Stable per-tenant.
@@ -86,13 +86,9 @@ def _split_address(text: str):
 
 def _instagram(v: str) -> str:
     v = (v or "").strip()
-    if not v:
-        return ""
-    if v.startswith("http"):
-        return clean_url(v)
-    handle = v.lstrip("@").strip().rstrip("/")
-    handle = re.sub(r"\.com$", "", handle)  # some values are '@name.com' typos
-    return f"https://www.instagram.com/{handle}" if handle else ""
+    if v.startswith("@"):
+        v = re.sub(r"\.com/?$", "", v)  # some values are '@name.com' typos
+    return instagram_url(v)
 
 
 def _hours(days: List[str], opens: str, closes: str) -> str:
@@ -132,7 +128,7 @@ def parse(vendors, form) -> List[Market]:
                 pass
 
         m.set("website", clean_url(f.get("Website")), SOURCE)
-        m.set("facebook", clean_url(f.get("Facebook")), SOURCE)
+        m.set("facebook", facebook_url(f.get("Facebook")), SOURCE)
         m.set("instagram", _instagram(f.get("Instagram")), SOURCE)
 
         days = [days_map.get(c, c) for c in (f.get("Market Day(s)") or [])]

@@ -17,6 +17,7 @@ This is a stronger position than the original 2025 pitch: instead of asking CDA 
 - **Thread went quiet** until Jul 2026.
 - **Jul 8, 2026 — Emma revived it:** CO Proud has now published its own Farm Fresh Directory map. Emma asked Danielle whether Guidestone could migrate its local data to CDA's site and/or link to the new CO Proud producer map, and whether Guidestone could submit farm profiles on behalf of local producers.
 - **Jul 8, 2026 — Danielle replied:** Wants to meet "in the next few weeks" and asked Emma for **August availability** for her and her team.
+- **Oct 3, 2026 — Chaffee Provides data scraped (Phase 2 bootstrap):** all 42 chaffeeprovides.org providers pulled into the Phase 2 pipeline (`scripts/scrape/sources/chaffee_provides.py`), with their own map coordinates and "hide address" flags honored. Every link was checked: 6 providers held out pending review, plus a list of proposed contact fixes. That list ([`CHAFFEE_PROVIDES_REVIEW.md`](CHAFFEE_PROVIDES_REVIEW.md)) is a concrete agenda item for the Guidestone conversation. If Guidestone hands over its source data, that export supersedes the scrape (see [`CHAFFEE_PROVIDES.md`](CHAFFEE_PROVIDES.md)).
 
 ## Immediate opening
 

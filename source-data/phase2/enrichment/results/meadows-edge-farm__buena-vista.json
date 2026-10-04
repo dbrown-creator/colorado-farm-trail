@@ -1,0 +1,19 @@
+{
+ "id": "meadows-edge-farm__buena-vista",
+ "name": "Meadows Edge Farm",
+ "city": "Buena Vista",
+ "official_website": "",
+ "status": "unknown",
+ "checked": "2026-10-03",
+ "fields": {
+  "Facebook": {
+   "value": "https://www.facebook.com/meadowsedgefarmbv/",
+   "source_url": "https://www.facebook.com/meadowsedgefarmbv/"
+  },
+  "Instagram": {
+   "value": "https://www.instagram.com/meadowsedgefarmbv/",
+   "source_url": "https://www.instagram.com/meadowsedgefarmbv/"
+  }
+ },
+ "notes": "No own website found. Own Facebook and Instagram pages exist (@meadowsedgefarmbv); fetched content was minimal. Instagram bio: growing vegetables in Buena Vista; latest visible post May 30, 2025, so activity is not clearly current (not marked closed). A SOIL Sangre de Cristo farmer-members page (third party, not recorded) lists email meadowsedgefarmbv@gmail.com, PO Box 1252 Buena Vista, and markets (Salida and Buena Vista). Not certified organic per search snippet (not recorded)."
+}

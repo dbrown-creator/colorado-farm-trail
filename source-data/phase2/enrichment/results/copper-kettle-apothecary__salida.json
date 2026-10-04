@@ -1,0 +1,15 @@
+{
+ "id": "copper-kettle-apothecary__salida",
+ "name": "Copper Kettle Apothecary",
+ "city": "Salida",
+ "official_website": "",
+ "status": "unknown",
+ "checked": "2026-10-03",
+ "fields": {
+  "Facebook": {
+   "value": "https://www.facebook.com/copperkettleapothecary/",
+   "source_url": "https://www.facebook.com/copperkettleapothecary/"
+  }
+ },
+ "notes": "copperkettleapothecary.com returned 404 (http and https); could not confirm whether the domain is gone or the fetch failed. Official Facebook page found via search (content not retrievable). Hours (Tue-Sat 11-5:30) and a different phone appear only on aggregators, so not recorded. Not marked closed: aggregator listings still show 138 W 1st St, but no official 2026 evidence."
+}

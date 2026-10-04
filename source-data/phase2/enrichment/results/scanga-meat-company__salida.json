@@ -1,0 +1,19 @@
+{
+ "id": "scanga-meat-company__salida",
+ "name": "Scanga Meat Company",
+ "city": "Salida",
+ "official_website": "http://www.scangameat.com/",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Address": {
+   "value": "9250 County Road 156, Salida, CO",
+   "source_url": "http://www.scangameat.com/"
+  },
+  "Phone": {
+   "value": "719-539-3511",
+   "source_url": "http://www.scangameat.com/"
+  }
+ },
+ "notes": "Site live and confirms address and phone. Hours not on official site; aggregators show Mon-Sat 8:30-5 but not recorded (third-party). Facebook @SCANGAMEATCO page unreadable by fetch. Products, SNAP not stated on site fetch. Dataset category 'Farmers Market' is really a meat market."
+}

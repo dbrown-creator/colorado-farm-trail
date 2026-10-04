@@ -1,0 +1,35 @@
+{
+ "id": "hutchinson-ranch__salida",
+ "name": "Hutchinson Ranch",
+ "city": "Salida",
+ "official_website": "https://www.hutchranchsalida.com",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Address": {
+   "value": "6700 Old Corral Road, Salida, CO 81201",
+   "source_url": "https://www.hutchranchsalida.com/beef"
+  },
+  "Phone": {
+   "value": "719.221.4672",
+   "source_url": "https://www.hutchranchsalida.com/beef"
+  },
+  "Email": {
+   "value": "HutchSalida@gmail.com",
+   "source_url": "https://www.hutchranchsalida.com/beef"
+  },
+  "Facebook": {
+   "value": "https://www.facebook.com/HutchinsonRanch/",
+   "source_url": "https://www.hutchranchsalida.com"
+  },
+  "Instagram": {
+   "value": "https://www.instagram.com/hutchranch/",
+   "source_url": "https://www.hutchranchsalida.com"
+  },
+  "Products": {
+   "value": "Grass-fed beef",
+   "source_url": "https://www.hutchranchsalida.com/beef"
+  }
+ },
+ "notes": "Beef orders by phone/email; site states beef is raised on pasture, free of antibiotics, hormones and GMOs. Site also lists wedding venue and guest house. Site address (6700 Old Corral Rd) differs from dataset (9181 US Hwy 50); no hours, season, SNAP or organic certification stated."
+}

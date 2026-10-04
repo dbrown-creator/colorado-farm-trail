@@ -15,7 +15,7 @@ import json
 import os
 from typing import List
 
-from ..normalize import clean_url, phone, yesno
+from ..normalize import clean_url, facebook_url, instagram_url, phone, yesno
 from ..schema import Market
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -35,8 +35,8 @@ COL_ATTR = {
     "Certified Organic": "certified_organic", "SNAP": "snap",
     "ADA Accessible": "ada_accessible", "Notes": "notes",
 }
-NORMALIZE = {"phone": phone, "website": clean_url, "facebook": clean_url,
-             "instagram": clean_url, "snap": yesno, "certified_organic": yesno,
+NORMALIZE = {"phone": phone, "website": clean_url, "facebook": facebook_url,
+             "instagram": instagram_url, "snap": yesno, "certified_organic": yesno,
              "ada_accessible": yesno}
 
 
@@ -55,7 +55,7 @@ def parse(results: List[dict], targets_by_id: dict) -> List[Market]:
         city = res.get("city") or t.get("city", "")
         if not name:
             continue
-        m = Market(source=SOURCE)
+        m = Market(source=SOURCE, category="")  # enrichment states no category
         m.business_name, m.city = name, city  # merge key (not counted as provenance)
         fields = res.get("fields", {})
         for col, attr in COL_ATTR.items():

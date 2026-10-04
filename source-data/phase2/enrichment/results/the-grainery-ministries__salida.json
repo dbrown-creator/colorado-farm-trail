@@ -1,0 +1,10 @@
+{
+ "id": "the-grainery-ministries__salida",
+ "name": "The Grainery Ministries",
+ "city": "Salida",
+ "official_website": "",
+ "status": "unknown",
+ "checked": "2026-10-03",
+ "fields": {},
+ "notes": "thegraineryministries.org fetch fails with SSL error (could not load). A Facebook page exists (https://www.facebook.com/graineryministries/) per search but content could not be read, so no activity evidence. Third-party listings give hours (Mon/Fri 10-4) and phone 719-530-9050 conflicting with dataset (Fri 10-3:30, 719-207-2359); not recorded. Not enough evidence to mark closed."
+}

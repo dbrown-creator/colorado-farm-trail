@@ -64,6 +64,21 @@ def categories(op):
     return out or ["Other"]
 
 
+# Hand-checked corrections to Colorado Proud's operation types, reapplied on every
+# re-fetch so a refresh can't undo them. Keyed by business name (trimmed).
+CATEGORY_CORRECTIONS = {
+    # Year-round nonprofit local-food store with daily hours; CP files it as a
+    # farmers' market. Its farm-to-table dinners keep the Agritourism label.
+    "Yampa Valley Foods": ["Grocery Store", "Agritourism"],
+    # CP has no store type; it's listed only as "Retail Market" in the free-text field.
+    "Mountain Market & Supply": ["Grocery Store"],
+}
+
+
+def categories_for(name, op):
+    return CATEGORY_CORRECTIONS.get((name or "").strip()) or categories(op)
+
+
 def fetch():
     req = urllib.request.Request(FS + QUERY, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=60) as r:
@@ -121,7 +136,7 @@ def write_mymaps(d, path):
             g = ft.get("geometry") or {}
             w.writerow({
                 "Business Name": get(ft, "Business Name"),
-                "Category": CATEGORY_SEP.join(categories(get(ft, "Operation type"))),
+                "Category": CATEGORY_SEP.join(categories_for(get(ft, "Business Name"), get(ft, "Operation type"))),
                 "Address": addr(ft), "City": get(ft, "City"), "County": get(ft, "County"),
                 "State": get(ft, "State"), "Zip": get(ft, "Zip"),
                 "Phone": get(ft, "Telephone Number"),

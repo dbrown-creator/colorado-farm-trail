@@ -1,0 +1,13 @@
+{
+ "id": "rocky-mountain-garlic__salida", "name": "Rocky Mountain Garlic", "city": "Salida",
+ "official_website": "http://rockymountaingarlic.net/",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Email": {"value": "rockymountaingarlicllc@gmail.com", "source_url": "http://rockymountaingarlic.net/"},
+  "Facebook": {"value": "https://www.facebook.com/RockyMountainGarlic", "source_url": "http://rockymountaingarlic.net/"},
+  "Instagram": {"value": "https://www.instagram.com/rockymountaingarlic1", "source_url": "http://rockymountaingarlic.net/"},
+  "Products": {"value": "Hardneck garlic, vegetables", "source_url": "http://rockymountaingarlic.net/"}
+ },
+ "notes": "Site current: shows 2026 Fall CSA Sign Up and 2026 garlic varieties; has online shop and newsletter. Site describes Certified Naturally Grown and biodynamic/low-till practices; this is NOT USDA Certified Organic, so Certified Organic not recorded. No hours, phone or street address on homepage. SNAP not mentioned."
+}

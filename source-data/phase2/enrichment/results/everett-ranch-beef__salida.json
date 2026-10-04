@@ -1,0 +1,15 @@
+{
+ "id": "everett-ranch-beef__salida",
+ "name": "Everett Ranch Beef",
+ "city": "Salida",
+ "official_website": "",
+ "status": "unknown",
+ "checked": "2026-10-03",
+ "fields": {
+  "Facebook": {
+   "value": "https://www.facebook.com/everettranchbeef/",
+   "source_url": "https://www.facebook.com/everettranchbeef/"
+  }
+ },
+ "notes": "No own website found. Facebook page exists (appeared in search; content not readable by fetch, so activity unverified). Phone 719-530-1597 and Salida Farmers Market June-October seen only on third-party eatwellguide.org, not recorded per rules. Hours/season/email not verified."
+}
