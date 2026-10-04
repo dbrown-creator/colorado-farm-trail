@@ -549,6 +549,11 @@
       html:'<div class="pin" style="background:'+st.color+'"><span>'+st.emoji+'</span></div>',
       iconSize:[30,30], iconAnchor:[15,28], popupAnchor:[0,-27] });
   }
+  // When a popup opens, pan it clear of the floating chip bar (top) and the
+  // "stops shown" pill (bottom); Leaflet's default only keeps it inside the map edge,
+  // which left the place name hidden under the chips.
+  var POPUP_OPTS = { maxWidth:300, minWidth:230, autoPanPaddingTopLeft:[20, 100],
+                     autoPanPaddingBottomRight:[20, 80] };
   function popupHtml(m){
     var h = '<div class="pop"><h3>'+esc(m.name)+'</h3><div class="cats">';
     catKeysOf(m).forEach(function(c){
@@ -747,7 +752,7 @@
       data.forEach(function(m){
         m._iconCat = catKeysOf(m)[0];
         m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m._iconCat) })
-                     .bindPopup(popupHtml(m), { maxWidth:300, minWidth:230 });
+                     .bindPopup(popupHtml(m), POPUP_OPTS);
       });
       buildTypeBar();
       buildCounties();
