@@ -15,3 +15,6 @@ Four Seasons Farmers and Artisans Market,Wheat Ridge,Website,clear,,Removed comp
 Golden Triangle Farmers Market,Denver,Website,clear,,Removed compromised link: goldentrianglefm.com is abandoned (last updated 2020) and carries an injected spam link (checked 2026-10-03),2026-10-03
 Rocky Mountain Indoor Farmers Market,Fort Collins,Website,clear,,Removed compromised link: rockymountainfarmersmarket.com is a parked domain serving an ad-tracking page (checked 2026-10-03),2026-10-03
 Florence Farmers Market,Florence,Website,clear,,Removed compromised link: florencecoloradochamber.com/calendar redirects to a 'Potential Threat Detected' warning page (checked 2026-10-03),2026-10-03
+Hutchinson Ranch,Salida,Latitude,set,38.5165519,"6700 Old Corral Rd doesn't geocode (Census, OSM); pin from the Google Maps listing for Hutchinson Ranch Wedding & Events at that exact address (checked 2026-10-03), consistent with the ranch site's '2 miles west of Salida off Hwy 50'",2026-10-03
+Hutchinson Ranch,Salida,Longitude,set,-106.0435714,Same Google Maps listing as the Latitude row,2026-10-03
+Hutchinson Ranch,Salida,County,set,Chaffee,"Overrides run after the county lookup, so a hand-set pin needs its county set too (Salida is in Chaffee County)",2026-10-03

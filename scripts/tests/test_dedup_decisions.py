@@ -134,3 +134,14 @@ def test_snapshot_load_renormalizes_link_fields(tmp_path):
     assert got.website == "https://www.yakmeat.us"
     assert got.facebook == ""                      # a page name is not a link
     assert got.instagram == "https://instagram.com/yaks"
+
+
+def test_coordinate_override_sets_a_float_pin():
+    m = _m("Hutchinson Ranch", "Salida")
+    merge_mod.apply_overrides([m], [
+        {"name": "Hutchinson Ranch", "city": "Salida", "column": "Latitude", "mode": "set", "value": "38.5165519"},
+        {"name": "Hutchinson Ranch", "city": "Salida", "column": "Longitude", "mode": "set", "value": "-106.0435714"},
+        {"name": "Hutchinson Ranch", "city": "Salida", "column": "Latitude", "mode": "set", "value": "north-ish"},
+    ])
+    assert (m.latitude, m.longitude) == (38.5165519, -106.0435714)   # the bad row is skipped
+    assert m.geo_source == "override" and m.provenance["Latitude"] == "override"

@@ -125,6 +125,8 @@ def apply_overrides(markets: List[Market], overrides: List[dict]) -> None:
     A row whose record isn't in this build is reported, not fatal."""
     col_attr = {col: attr for attr, col in ATTR_TO_COLUMN.items()}
     col_attr["Category"] = "category"
+    # Coordinates for places no geocoder can find (rural roads); value is a number.
+    col_attr["Latitude"], col_attr["Longitude"] = "latitude", "longitude"
     index = {_rkey(m.business_name, m.city): m for m in markets}
     for o in overrides:
         m = index.get(_rkey(o["name"], o.get("city", "")))
@@ -137,6 +139,13 @@ def apply_overrides(markets: List[Market], overrides: List[dict]) -> None:
         value = "" if mode == "clear" else (o.get("value") or "").strip()
         if mode == "prepend" and getattr(m, attr):
             value = f"{value} {getattr(m, attr)}"
+        if attr in ("latitude", "longitude"):
+            try:
+                value = float(value) if value else None
+            except ValueError:
+                print(f"  override not applied (not a number): {o['name']} / {o['column']} = {value!r}")
+                continue
+            m.geo_source = "override"
         setattr(m, attr, value)
         m.provenance[o["column"].strip()] = "override"
 
