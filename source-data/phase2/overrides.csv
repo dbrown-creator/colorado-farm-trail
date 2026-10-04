@@ -188,3 +188,6 @@ Cloud City Conservation Center,Leadville,Notes,prepend,"Cloud City Farm's Thursd
 Cloud City Conservation Center,Leadville,Latitude,set,39.244555,"Google Maps listing 'Cloud City Farm & Community Garden', 440 McWethy Dr (Census can't geocode it); the old pin was Leadville's town centre",2026-10-04
 Cloud City Conservation Center,Leadville,Longitude,set,-106.3062659,Same Google Maps listing,2026-10-04
 Cloud City Conservation Center,Leadville,Business Name,set,Cloud City Farm (Cloud City Conservation Center),The farm is what visitors find; the nonprofit runs it,2026-10-04
+Eagle Rock Ranch,Fairplay,Hours,set,"Fri, Sat, Sun, Mon: 11:00am - 5:00pm (winter 2026 hours; subject to change)","buyeaglerockbeef.com 'Visit our store' (maintainer screenshot, 2026-10-04)",2026-10-04
+Eagle Rock Ranch,Fairplay,Email,set,erin@eaglerockbeef.com,"buyeaglerockbeef.com 'Visit our store' (maintainer screenshot, 2026-10-04)",2026-10-04
+Eagle Rock Ranch,Fairplay,Notes,prepend,"Ranch store (Eagle Rock Ranch Mercantile) at 530 Front Street, Fairplay: winter 2026 hours Friday-Monday 11am-5pm, subject to change; beef also ships via buyeaglerockbeef.com.","buyeaglerockbeef.com 'Visit our store' (maintainer screenshot, 2026-10-04)",2026-10-04
