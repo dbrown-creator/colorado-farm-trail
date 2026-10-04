@@ -4,8 +4,10 @@ Outputs (new files; Farm Fresh CSVs are left untouched):
   data/co_farmers_markets_all_mymaps.csv  : the 22 My Maps columns, import-ready
   data/co_farmers_markets_all_raw.csv     : same + source/geo_source/provenance audit
 
-Run:
+Run (offline; reads the saved source snapshots, never the network for source data):
   python scripts/scrape/build.py
+Check sources for new data on purpose, separately (writes snapshots + a change report):
+  python scripts/scrape/refresh_sources.py [source ...]
 The USDA key is read from the git-ignored .env at the repo root (USDA_API_KEY=...);
 a real environment variable of the same name overrides it. No key -> keyless fallback.
 """
@@ -18,11 +20,11 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from scrape import geocode
+from scrape import geocode, snapshots
 from scrape.merge import apply_decisions, flag_possible_dups, load_decisions, merge
 from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
-from scrape.sources import cfma, chaffee_provides, colorado_proud, enrichment, usda
+from scrape.sources import curated, enrichment
 
 # PHASE 2 (in development — NOT the live product). Outputs are isolated under phase2/
 # so they never touch the live Phase 1 file data-compiled/farm_fresh_directory_mymaps.csv.
@@ -53,71 +55,60 @@ def load_env(path: str = os.path.join(REPO, ".env")) -> None:
                 os.environ[k] = v
 
 
-def collect() -> list:
-    """Gather records from every available source, in priority order."""
+def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
+    """Gather records in priority order, offline: local inputs plus the saved source
+    snapshots. Network sources are only contacted by refresh_sources.py."""
     # Order = field-value priority (first source to fill a field wins):
-    # Colorado Proud (vetted) > CFMA (rich, member-maintained) > Chaffee Provides
-    # (community-maintained, Chaffee County) > USDA (broad, thin).
-    # A later per-site enrichment pass can override any of these from the market's own
-    # official website (see README "Field-value priority").
+    # official-site enrichment > Colorado Proud (vetted) > CFMA (rich, member-maintained)
+    # > Chaffee Provides (community-maintained, Chaffee County) > curated research
+    # > USDA (broad, thin). See README "Field-value priority".
     records = []
 
     enr = enrichment.fetch()
     if enr:
-        print(f"Official-site enrichment: {len(enr)} records (top priority)...", flush=True)
+        print(f"Official-site enrichment: {len(enr)} records (top priority)", flush=True)
         records += enr
 
-    print("Colorado Proud (ArcGIS)...", flush=True)
-    records += colorado_proud.fetch()
-
-    print("CFMA member markets (MarketWurks)...", flush=True)
-    try:
-        records += cfma.fetch()
-    except Exception as e:
-        print(f"  CFMA fetch failed: {e}")
-
-    # Polite crawl (robots Crawl-delay: 10) -> ~8 minutes. Never fatal to the build.
-    print("Chaffee Provides (chaffeeprovides.org, ~8 min crawl)...", flush=True)
-    try:
-        records += chaffee_provides.fetch()
-    except Exception as e:
-        print(f"  Chaffee Provides fetch failed: {e}")
-
-    # All five USDA Local Food Portal directories by default; narrow with e.g.
-    # USDA_DIRECTORIES=farmersmarket,onfarmmarket
-    dirs = [d.strip() for d in
-            os.environ.get("USDA_DIRECTORIES", "").split(",") if d.strip()] or None
-    key = os.environ.get("USDA_API_KEY", "").strip()
-    if key:
-        print(f"USDA keyed API ({', '.join(dirs or usda.DIRECTORIES)})...", flush=True)
-        records += usda.fetch_api(key, dirs)
-        # data_share is not a strict subset of the keyed view (observed 2026-07:
-        # CO csa = 21 keyed vs 41 opt-in data_share), so fold it in as a gap-filler.
-        print("USDA data_share (keyless cross-check)...", flush=True)
-        records += usda.fetch_datashare(dirs)
-    else:
-        print("USDA key absent -> keyless data_share only (thin).", flush=True)
-        records += usda.fetch_datashare(dirs)
-
-    # TODO(enrichment): cfma.fetch(), curated.fetch(), per-site enrichment.
+    for name in snapshots.NETWORK_SOURCES:
+        if name == "usda_api":
+            # Hand-researched businesses no directory carries (curated_records.csv).
+            cur = curated.fetch()
+            if cur:
+                print(f"Curated new records: {len(cur)}", flush=True)
+                records += cur
+        recs, fetched = snapshots.load(name, snapshot_dir)
+        if fetched is None:
+            print(f"{name}: no snapshot (run refresh_sources.py {name})", flush=True)
+            continue
+        print(f"{name}: {len(recs)} records (snapshot {fetched})", flush=True)
+        records += recs
     return records
 
 
-def fill_geography(markets: list) -> None:
+def fill_geography(markets: list, cache=None) -> None:
     """Geocode missing coordinates and backfill county. Derived coords are flagged
-    geo_source='census-geocoder'; source-provided coords are left as-is."""
+    geo_source='census-geocoder'; source-provided coords are left as-is. Lookups go
+    through a persistent GeoCache, so only records new since the last build hit the
+    network (GEOCODE_REFRESH=1 redoes them all)."""
+    own_cache = cache is None
+    if own_cache:
+        refresh = os.environ.get("GEOCODE_REFRESH", "").strip().lower() in ("1", "true", "yes")
+        cache = geocode.GeoCache(refresh=refresh)
     for m in markets:
         if m.latitude is None or not in_colorado(m.latitude, m.longitude):
-            r = geocode.geocode_address(m.address, m.city, m.zip)
+            r = cache.geocode_address(m.address, m.city, m.zip)
             if r and in_colorado(r[0], r[1]):
                 m.latitude, m.longitude, county = r
                 m.geo_source = "census-geocoder"
                 if not m.county and county:
                     m.set("county", county, "census-geocoder")
         if not m.county and m.latitude is not None:
-            county = geocode.county_for(m.latitude, m.longitude)
+            county = cache.county_for(m.latitude, m.longitude)
             if county:
                 m.set("county", county, "census-geocoder")
+    if own_cache:
+        cache.save()
+        print(f"Geography: {cache.hits} cached answers, {cache.lookups} network lookups.")
 
 
 def write(markets: list) -> None:

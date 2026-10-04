@@ -21,6 +21,7 @@ provenance column.
 | USDA — keyless `data_share`, all 5 directories | public, no key | opt-in only: ~6 markets, 37 on-farm, 41 CSA, 12 hubs, 12 agritourism (CO, 2026-07) | Thin (name/contact/address/website, no coords). Used automatically when no key is set; real coverage for the non-market directories. |
 | **CFMA member markets** (MarketWurks API) | public JSON, no key | 37 members | **Tested & confirmed.** The map is a MarketWurks embed; data is a public REST endpoint (below). Rich fields — fills exactly what USDA lacks. 26 overlap our data (enrich), 11 are new. |
 | **Chaffee Provides** (chaffeeprovides.org, Guidestone Colorado) | public HTML, no key | 36 Chaffee-area providers (42 listed; 6 held for review) | **Built** (`sources/chaffee_provides.py`). Crawls the 7 category listings (paginated) → one detail page per provider, plus the `/provider-map/` page's `map-asset` attributes for **source coordinates** (32 of 36) and the per-provider *hide address* flag, which we honor. Mostly farms/ranches the statewide directories miss, plus food banks, orgs, a restaurant. Honors `Crawl-delay: 10` → ~8 min. Held-out providers: `source-data/phase2/chaffee_provides_exclusions.json`; maintainer-confirmed fixes: `chaffee_provides_overrides.json`; open questions: [`docs/CHAFFEE_PROVIDES_REVIEW.md`](../../docs/CHAFFEE_PROVIDES_REVIEW.md). Spec: [`docs/CHAFFEE_PROVIDES.md`](../../docs/CHAFFEE_PROVIDES.md). |
+| **Curated new records** (`source-data/phase2/curated_records.csv`) | hand research | 7 records (first batch) | **Built** (`sources/curated.py`). For businesses no directory carries. One row per researched business with a `Status` (`add` → record; `market-only` / `skip` kept as the research log so names aren't re-researched), `Source URLs`, `Researched` date and `Found Via`. Coordinates optional (else geocoded). Provenance `curated`. First batch: the 19 food vendors on the 2026 Salida Farmers Market list that were missing from our data (7 add, 10 market-only, 3 skip). Corrections to *existing* records go in `overrides.csv` instead. |
 | **Operator / organizer sites** — *not yet built* | HTML | multiple markets each | Market-management companies that run several markets, with first-party season/hours. **One site → many markets**, so high value for both discovery and enrichment. Seed list below. |
 | Curated guides — *not yet built* | HTML | coverage gaps | coloradoinfo.com, ag.colorado.gov — cross-check + fill missing markets. |
 | Per-site enrichment — *prototyped* | HTML + search | fills gaps | Visit each market's own website (+ search fallback) for hours/season/products/SNAP. Validated on 3 markets; see the sampling in git history. |
@@ -91,23 +92,48 @@ So the merge order is *coverage-first* (directories create records + coords), bu
 states, and provenance records that the override came from the official site. "Clearly
 stated + legit-looking site" is the bar — ambiguous or sketchy pages don't override.
 
-## Run
+## Run — find, approve, push
+
+Getting new data and building are separate steps, and a build repeats no work.
+
+**1. Find: check the sources for new data (on purpose, not per build)**
 
 ```bash
-python scripts/scrape/build.py    # reads USDA_API_KEY from the git-ignored .env
+python scripts/scrape/refresh_sources.py                 # all network sources
+python scripts/scrape/refresh_sources.py cfma usda_api   # just these
 ```
 
-The USDA key lives in **`.env` at the repo root** (git-ignored; never commit it):
+Sources: `colorado_proud`, `cfma`, `chaffee_provides`, `usda_api`, `usda_datashare`.
+Each writes:
+- a snapshot, `source-data/phase2/snapshots/<source>.json`: the parsed records the build reads
+- a change report, `snapshots/changes/<source>.csv`: what's **new / removed / changed**,
+  field by field, versus the previous snapshot
 
-```
-USDA_API_KEY=...
+A source that fails keeps its previous snapshot. Chaffee Provides reads its page cache
+(`.cache/chaffee_provides/`, reused for 7 days). `CHAFFEE_REFRESH=1` forces the polite
+~8-minute recrawl. After a parser change, re-run the refresh for that source.
+
+**2. Approve:** review the change reports. Committing the snapshots (a PR) is the
+approval. Hand research goes in `curated_records.csv` (new businesses) and corrections
+go in `overrides.csv` (existing ones). Both are reviewed the same way.
+
+**3. Push: build offline**
+
+```bash
+python scripts/scrape/build.py
 ```
 
-An environment variable of the same name overrides `.env`. With no key anywhere,
-the build falls back to Colorado Proud + thin keyless data_share. With a key, the
-keyed pull runs **and** data_share is folded in as a gap-filler (the two views
-don't fully overlap — observed 2026-07: CO csa had 21 keyed vs 41 opt-in
-data_share listings).
+The build reads only local files: snapshots, enrichment results, curated records,
+dedup decisions and overrides. It merges, fills blanks and writes the outputs.
+Geocode and county answers, including misses, are remembered in `.cache/geocode.json`.
+Only records that are new or still blank get a lookup; misses are retried after 30
+days, and `GEOCODE_REFRESH=1` redoes everything. A rebuild with nothing new takes
+about a second.
+
+The USDA key lives in **`.env` at the repo root** (git-ignored; never commit it),
+as `USDA_API_KEY=...`. Only `refresh_sources.py usda_api` needs it. With a key, the
+keyed pull runs and data_share is kept as a gap-filler, because the two views don't
+fully overlap (observed 2026-07: CO csa had 21 keyed vs 41 opt-in data_share listings).
 
 Outputs (Phase 2, isolated; live Phase 1 Farm Fresh CSV untouched):
 - `data-compiled/phase2/co_farmers_markets_all_mymaps.csv` — 22 columns, My Maps import-ready
@@ -122,7 +148,7 @@ with spaces are dropped rather than written as broken links.
 
 Enrichment inputs read from `source-data/phase2/enrichment/results/*.json` (folded at
 top priority). Latest full build: **149 markets** + official-site enrichment across 109
-of them (`Possible Dup Of` flags name-stem pairs for human review; nothing is
+of them (`  Possible Dup Of` flags name-stem pairs for human review; nothing is
 auto-merged).
 
 ## Test
