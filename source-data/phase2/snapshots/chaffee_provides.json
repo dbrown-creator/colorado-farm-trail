@@ -1,7 +1,7 @@
 {
  "source": "chaffee_provides",
- "fetched": "2026-10-03T19:19:09-06:00",
- "count": 36,
+ "fetched": "2026-10-03T23:48:14-06:00",
+ "count": 37,
  "records": [
   {
    "business_name": "Arrowpoint Cattle Company",
@@ -246,7 +246,7 @@
    "zip": "",
    "phone": "(719) 221-2267",
    "call_first": "",
-   "website": "Http://www.salidacattlecompany.com",
+   "website": "http://www.salidacattlecompany.com",
    "email": "salidacattlecompany@gmail.com",
    "facebook": "",
    "instagram": "",
@@ -504,6 +504,44 @@
     "Notes": "chaffee_provides"
    },
    "source_id": "headwater-farms",
+   "source_updated": ""
+  },
+  {
+   "business_name": "Moonstone Farm",
+   "category": "On-Farm / Ranch Sales",
+   "address": "",
+   "city": "Salida",
+   "county": "",
+   "state": "CO",
+   "zip": "",
+   "phone": "(719) 239-2021",
+   "call_first": "",
+   "website": "",
+   "email": "jen@moonstoneventures.com",
+   "facebook": "",
+   "instagram": "",
+   "hours": "",
+   "months_open": "",
+   "products": "Flowers, Poultry/Eggs, Spices/Garlic, Veggies",
+   "certified_organic": "",
+   "snap": "",
+   "ada_accessible": "",
+   "notes": "Moonstone Farm is owned and operated by Jen Visitacion in Salida. Jen runs a small CSA and buyers club and offers on farm events & workshops, a farm-stay in the historic barn turned retreat cottage.",
+   "latitude": 38.5240098,
+   "longitude": -105.9986479,
+   "source": "chaffee_provides",
+   "geo_source": "source",
+   "dup_hint": "",
+   "provenance": {
+    "Business Name": "chaffee_provides",
+    "Phone": "maintainer",
+    "Email": "chaffee_provides",
+    "Website": "chaffee_provides",
+    "Products": "chaffee_provides",
+    "Notes": "chaffee_provides",
+    "City": "maintainer"
+   },
+   "source_id": "moonstone-farm",
    "source_updated": ""
   },
   {
