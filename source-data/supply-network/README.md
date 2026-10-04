@@ -44,8 +44,11 @@ stockist is classified by hand as food-service, food retail or non-food retail
 
 ## Known gaps
 
-- About 50 suppliers that appear on only one restaurant's list are not loaded yet. Element 47
-  and Clean Kitchen are complete, checked name by name against their own pages on 2026-10-03.
+- About 30 suppliers that appear on only one restaurant's list are not loaded yet. These are
+  mostly Potager and Duo, whose pages give no towns. Every list whose source gives towns is
+  complete, with names checked against the live source on 2026-10-03. Entries the source no
+  longer shows were dropped: three of Floradora's and The Regional's "Raisin' Roots".
+- Colorado suppliers only: Bootheel 7 Ranch (Lusk, WY) on Urban Farmer's list is left out.
 - Element 47's purveyor page lists a lamb processor that closed in 2020, so its other links
   may be stale even though the page is live.
 - Distributors (Growers Organic, UNFI, Farm Runners, Loco, What Chefs Want) publish no
