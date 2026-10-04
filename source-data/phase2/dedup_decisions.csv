@@ -40,7 +40,6 @@ merge,Bartels Land and Livestock Upick and Pumpkin Patch,Ft. Collins,Bartels Lan
 merge,DeVries Fruit & Veggie Roadside Stand / The Friend-ly Farm,Olathe,DeVries Fruit & Veggie Roadside Stand,Olathe,DeVries Fruit & Veggie Roadside Stand / The Friend-ly Farm,Same stand/farm already merged from USDA; now joins the live Colorado Proud listing (reviewed 2026-10-03)
 merge,Sandys Way Microfarm,Sedalia,Sandy's Way Microfarm,SEDALIA,,Same farm; apostrophe only (reviewed 2026-10-03)
 distinct,Boulder Valley Honey,Boulder,Boulder Farmers Market,Boulder,,Apiary vs market (reviewed 2026-10-03)
-distinct,Tagawa Gardens,Centennial,The Saturday Market at Tagawa Gardens,Centennial,,Garden center vs the market it hosts (reviewed 2026-10-03)
 distinct,San Luis Valley Food Company,Del Norte,Raisin' Rye,Del Norte,,Different businesses: caterer at 515 Columbia Ave vs bakery at 675 Grand Ave (reviewed 2026-10-04)
 merge,National Celiac Association of Denver,Denver,Gluten Free Farmers Market,Englewood,,"Same market: Colorado Proud lists it under its organizer's name and mailing PO box (denverceliacs.org event page, checked 2026-10-04). Becomes a no-op once the live fix (#24) reaches this data"
 merge,Highlands Farmers Market,Denver,Highland Farmers' Market,Denver,,Same market spelled two ways; was merged only by proximity before the name-word rule (reviewed 2026-10-04)
@@ -152,3 +151,5 @@ distinct,Northern Colorado Winters Market,Fort Collins,"S. A. Wiley Sustainable 
 distinct,Southwest Farm Fresh Harvest Shares,Mancos,The Grasshopper Collective,Mancos,,Different businesses sharing a town pin (Colorado Proud member review 2026-10-04)
 distinct,The Buffalo Rose,Golden,The Flower Shack,Golden,,Different businesses sharing a town pin (Colorado Proud member review 2026-10-04)
 distinct,Forest Trail Farm LLC,Elizabeth,Kold Prairie Mead,Elizabeth,,Different businesses sharing a town pin (Colorado Proud member review 2026-10-04)
+merge,Williams Family Markets,Parker,Parker Farmers Market,Parker,,Williams Family Markets is the company that runs the Parker Farmers Market (same Sunday hours; parkerchronicle.net) (review 2026-10-04)
+merge,Southern Colorado Farmers Market and Craft Fair,Pueblo,Pueblo Farmers Market,Pueblo,,Earlier name of the Pueblo Farmers Market (both at Mineral Palace Park; pueblofarmersmarket.org) (review 2026-10-04)

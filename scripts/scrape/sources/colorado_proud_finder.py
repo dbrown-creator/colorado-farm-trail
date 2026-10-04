@@ -262,11 +262,44 @@ _COMBINED = re.compile(r"^(?P<street>[^,]*\d[^,]*),\s*(?P<city>[A-Za-z .'-]+?),\
                        r"[^\d]*(?P<zip>\d{5})?")
 
 
-def categories_for(types: List[str]) -> List[str]:
+# "Farmers' Market" means a recurring gathering of several vendors (maintainer, 2026-10-04).
+# Colorado Proud's "Farmers Market" business type is also ticked by members who *sell at*
+# markets (salsa makers, ranches, a bird-seed company), so it only counts for a member
+# that is itself a market: its name says so, or it's named below. Organizers count too,
+# since dedup merges them into the market they run.
+_MARKET_NAME = re.compile(r"\b(market|marketplace|mercado|mercadillo|bazaar)s?\b", re.I)
+MARKET_ORGANIZERS = {
+    "Grateful Garden LLC",            # runs the Green Valley Ranch NE Denver Farmers Market
+    "Rocky Mountain Events, LLC.",    # runs the Breckenridge Sunday Market
+    "Wildcraft Farmers Markets",
+}
+NOT_MARKETS = {
+    "Young's Market & Garden Center",  # a garden center that sells produce
+    "The Farmers Market, LLC",         # an online store (FarmersMarket.store)
+}
+# Members whose only in-scope type was "Farmers Market" but who are a place to visit.
+NON_MARKET_CATEGORY = {
+    "Young's Market & Garden Center": "Garden Center / Greenhouse",
+    "the LOCAL": "Grocery Store",      # Parker local-goods shop run by the Parker market's owners
+}
+
+
+def is_market(name: str) -> bool:
+    name = (name or "").strip()
+    if name in NOT_MARKETS:
+        return False
+    return name in MARKET_ORGANIZERS or bool(_MARKET_NAME.search(name))
+
+
+def categories_for(types: List[str], name: str = "") -> List[str]:
     out = []
     for t in sorted((t for t in types if t in _TYPE_LABEL), key=_TYPE_ORDER.index):
+        if t == "Farmers Market" and not is_market(name):
+            continue
         if _TYPE_LABEL[t] not in out:
             out.append(_TYPE_LABEL[t])
+    if not out and "Farmers Market" in types and name.strip() in NON_MARKET_CATEGORY:
+        out.append(NON_MARKET_CATEGORY[name.strip()])
     return out
 
 
@@ -276,7 +309,7 @@ def to_market(card: Dict, prof: Dict) -> Optional[Market]:
         return None
     if card.get("state") and card["state"].strip().lower() not in ("colorado", "co"):
         return None
-    cats = categories_for(prof.get("business_types", []))
+    cats = categories_for(prof.get("business_types", []), card["name"] or prof.get("name", ""))
     if not cats:
         return None
     m = Market(category=", ".join(cats), source=SOURCE, source_id=card["bid"])
