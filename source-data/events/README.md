@@ -2,7 +2,8 @@
 
 Seasonal events that celebrate Colorado food and farming. The first batch is the seven
 events on the Roaring Fork + Farm Map (carbondale.com/roaring-fork-farm-map), researched
-2026-10-04. The local food guide reads this file.
+2026-10-04, followed by five Chaffee County events from research for the guide's
+Chaffee day plan. The local food guide reads this file.
 
 **`events.csv`**: one row per event.
 
