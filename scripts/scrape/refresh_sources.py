@@ -3,16 +3,14 @@
   python scripts/scrape/refresh_sources.py                  # every source
   python scripts/scrape/refresh_sources.py cfma usda_api    # just these
 
-Sources: colorado_proud, cfma, chaffee_provides, colorado_proud_finder, usda_api,
-usda_datashare.
+Sources: colorado_proud, cfma, chaffee_provides, usda_api, usda_datashare.
 Each writes source-data/phase2/snapshots/<source>.json (what build.py reads, offline)
 and snapshots/changes/<source>.csv: what's new, removed or changed versus the previous
 snapshot. Review that report, then commit the snapshot (= approve) and build. A source
 that fails keeps its previous snapshot.
 
 Chaffee Provides goes through its page cache (7-day reuse; CHAFFEE_REFRESH=1 forces a
-full ~8-minute polite recrawl). The Colorado Proud member finder fetches profiles only
-for members it has not seen before (CPF_REFRESH=1 recrawls all ~1,550, ~40 minutes). USDA reads USDA_API_KEY from the repo .env (no key ->
+full ~8-minute polite recrawl). USDA reads USDA_API_KEY from the repo .env (no key ->
 usda_api is skipped); narrow directories with USDA_DIRECTORIES=csa,foodhub.
 """
 from __future__ import annotations
@@ -24,7 +22,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from scrape import snapshots
 from scrape.build import load_env
-from scrape.sources import cfma, chaffee_provides, colorado_proud, colorado_proud_finder, usda
+from scrape.sources import cfma, chaffee_provides, colorado_proud, usda
 
 
 def _usda_dirs():
@@ -42,7 +40,6 @@ FETCHERS = {
     "colorado_proud": colorado_proud.fetch,
     "cfma": cfma.fetch,
     "chaffee_provides": chaffee_provides.fetch,
-    "colorado_proud_finder": colorado_proud_finder.fetch,
     "usda_api": _usda_api,
     # data_share is not a strict subset of the keyed view, so it's kept as a gap-filler.
     "usda_datashare": lambda: usda.fetch_datashare(_usda_dirs()),

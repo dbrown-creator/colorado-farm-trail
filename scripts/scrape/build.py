@@ -21,7 +21,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from scrape import geocode, snapshots
-from scrape.merge import apply_decisions, flag_possible_dups, load_decisions, merge
+from scrape.merge import (apply_decisions, apply_overrides, flag_possible_dups,
+                          load_decisions, load_overrides, merge)
 from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
 from scrape.sources import curated, enrichment
@@ -61,8 +62,7 @@ def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
     # Order = field-value priority (first source to fill a field wins):
     # official-site enrichment > Colorado Proud (vetted) > CFMA (rich, member-maintained)
     # > Chaffee Provides (community-maintained, Chaffee County) > curated research
-    # > Colorado Proud member finder (self-reported, all member types) > USDA (broad,
-    # thin). See README "Field-value priority".
+    # > USDA (broad, thin). See README "Field-value priority".
     records = []
 
     enr = enrichment.fetch()
@@ -71,7 +71,7 @@ def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
         records += enr
 
     for name in snapshots.NETWORK_SOURCES:
-        if name == "colorado_proud_finder":
+        if name == "usda_api":
             # Hand-researched businesses no directory carries (curated_records.csv).
             cur = curated.fetch()
             if cur:
@@ -160,6 +160,11 @@ def main() -> None:
     if decisions:
         print(f"Applied {len(decisions)} dedup decisions.")
     fill_geography(markets)
+    # Curated corrections win over every source and survive every rebuild.
+    overrides = load_overrides(os.path.join(SOURCE_DIR, "overrides.csv"))
+    apply_overrides(markets, overrides)
+    if overrides:
+        print(f"Applied {len(overrides)} curated overrides.")
     flag_possible_dups(markets, distinct=distinct)
     markets.sort(key=lambda m: (m.city.lower(), m.business_name.lower()))
     write(markets)

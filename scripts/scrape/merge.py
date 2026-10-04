@@ -6,8 +6,7 @@ field wins; later sources only fill gaps. Provenance is preserved per field.
 
 Dedup key: normalized-name + city. A light second pass also merges two groups whose
 coordinates sit within ~200 m of each other (catches name spelling drift), so long
-as they are in the same city AND share a distinctive name word - dense directories
-(the Colorado Proud member finder) put unrelated businesses on the same block.
+as they are in the same city.
 """
 from __future__ import annotations
 
@@ -20,15 +19,6 @@ from .normalize import name_key
 from .schema import ATTR_TO_COLUMN, Market
 
 MERGE_METERS = 200
-# Words too common to show two names are the same business (on top of name_key's stops).
-GENERIC_NAME_WORDS = {"farm", "farms", "ranch", "ranches", "and", "company", "csa",
-                      "family", "organic", "organics", "garden", "gardens", "u", "pick"}
-
-
-def _shares_name_word(a: Market, b: Market) -> bool:
-    ta = set(name_key(a.business_name).split()) - GENERIC_NAME_WORDS
-    tb = set(name_key(b.business_name).split()) - GENERIC_NAME_WORDS
-    return bool(ta & tb)
 
 
 def _haversine_m(a: Market, b: Market) -> float:
@@ -116,6 +106,50 @@ def apply_decisions(markets: List[Market], decisions: List[dict]) -> Tuple[List[
     return kept, distinct
 
 
+def load_overrides(path: str) -> List[dict]:
+    """Curated corrections (source-data/phase2/overrides.csv). Columns: name, city,
+    column (a My Maps column label, e.g. Category / Notes / Hours), mode (set |
+    prepend | clear), value, note, date. Missing file -> none."""
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8-sig", newline="") as fh:
+        return [r for r in csv.DictReader(fh) if (r.get("name") or "").strip()]
+
+
+def apply_overrides(markets: List[Market], overrides: List[dict]) -> None:
+    """Apply human corrections last, so they beat every source (UPDATE_ENGINE.md
+    principle 5: manual beats automatic, permanently). `set` replaces the value;
+    `prepend` puts the value in front of what the sources said (for status notes that
+    should sit above a provider's own description); `clear` empties the field (e.g. a
+    website that now points somewhere unsafe). Provenance becomes "override".
+    A row whose record isn't in this build is reported, not fatal."""
+    col_attr = {col: attr for attr, col in ATTR_TO_COLUMN.items()}
+    col_attr["Category"] = "category"
+    # Coordinates for places no geocoder can find (rural roads); value is a number.
+    col_attr["Latitude"], col_attr["Longitude"] = "latitude", "longitude"
+    index = {_rkey(m.business_name, m.city): m for m in markets}
+    for o in overrides:
+        m = index.get(_rkey(o["name"], o.get("city", "")))
+        attr = col_attr.get((o.get("column") or "").strip())
+        if m is None or attr is None:
+            print(f"  override not applied ({'record missing' if m is None else 'unknown column'}): "
+                  f"{o['name']} / {o.get('column')}")
+            continue
+        mode = (o.get("mode") or "set").strip().lower()
+        value = "" if mode == "clear" else (o.get("value") or "").strip()
+        if mode == "prepend" and getattr(m, attr):
+            value = f"{value} {getattr(m, attr)}"
+        if attr in ("latitude", "longitude"):
+            try:
+                value = float(value) if value else None
+            except ValueError:
+                print(f"  override not applied (not a number): {o['name']} / {o['column']} = {value!r}")
+                continue
+            m.geo_source = "override"
+        setattr(m, attr, value)
+        m.provenance[o["column"].strip()] = "override"
+
+
 def flag_possible_dups(markets: List[Market], radius_m: int = 150,
                        distinct: Set[frozenset] = frozenset()) -> None:
     """Non-destructive: set m.dup_hint to a sibling's name when two markets in the
@@ -151,8 +185,7 @@ def merge(records: List[Market]) -> List[Market]:
         # second-chance merge on coordinate proximity within the same city
         merged = False
         for (nk, city), base in groups.items():
-            if city == key[1] and _haversine_m(base, rec) <= MERGE_METERS \
-                    and _shares_name_word(base, rec):
+            if city == key[1] and _haversine_m(base, rec) <= MERGE_METERS:
                 _fold(base, rec)
                 merged = True
                 break
