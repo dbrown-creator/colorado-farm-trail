@@ -102,6 +102,10 @@ def build_page(n: int) -> None:
             shutil.copy2(REPO / extra, OUT_DIR / extra)
     # Phase 2 pages wait in _phase2/ (GitHub Pages' Jekyll build skips "_" folders,
     # so they can't go live before the cutover). The preview gets them with the banner.
+    # Town + ZIP coordinates for the calendar's "near a place" search (build_places.py).
+    places = REPO / "source-data" / "phase2" / "places" / "co_places.json"
+    if places.exists():
+        shutil.copy2(places, OUT_DIR / "data" / "places.json")
     for page in sorted((REPO / "_phase2").glob("*.html")):
         text = re.sub(r"(<body[^>]*>)", r"\1" + banner, page.read_text(encoding="utf-8"), count=1)
         (OUT_DIR / page.name).write_text(text, encoding="utf-8")

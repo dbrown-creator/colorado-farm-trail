@@ -55,6 +55,13 @@
     border:1px solid var(--line);background:var(--card);color:var(--ink);min-width:0}
   .filters input[type=search]{flex:1 1 150px;max-width:220px}
   .filters label{font-size:.88rem;display:inline-flex;gap:5px;align-items:center;white-space:nowrap}
+  .near{font:inherit;font-size:.88rem;font-weight:600;border:1px solid var(--line);background:var(--card);
+    color:var(--ink);border-radius:10px;padding:7px 10px;cursor:pointer;white-space:nowrap}
+  .status{margin:10px 0 0;font-size:.9rem;color:var(--muted);min-height:1.2em}
+  .status b{color:var(--ink)}
+  .status button{font:inherit;font-size:.85rem;border:0;background:none;color:var(--accent);
+    text-decoration:underline;cursor:pointer;padding:0 0 0 6px}
+  .dist{font-size:.78rem;font-weight:700;color:var(--accent);white-space:nowrap}
 
   /* ---- List view ---- */
   .day{margin:22px 0 6px}
@@ -115,7 +122,7 @@
   <header>
     <a class="brand" href="./">🌽 Colorado Farm Trail</a>
     <h1>Farmers' Market Calendar</h1>
-    <p class="tag">Which markets are open, and when. Pick a day or browse the month; filter by county or town.</p>
+    <p class="tag">Which markets are open, and when. Search a town or ZIP, or use your location, to see what&#39;s nearby.</p>
   </header>
 
   <div class="controls" role="toolbar" aria-label="Calendar controls">
@@ -131,11 +138,21 @@
       <input type="date" id="pick" aria-label="Go to date" />
     </div>
     <div class="filters">
-      <input type="search" id="q" placeholder="Market or town" aria-label="Search markets or towns" />
+      <input type="search" id="q" list="placeList" placeholder="Town, ZIP or market"
+             aria-label="Search by town, ZIP code or market name" autocomplete="off" />
+      <datalist id="placeList"></datalist>
+      <button type="button" class="near" id="nearMe" title="Use my location">📍 Near me</button>
+      <select id="radius" aria-label="Distance">
+        <option value="10">Within 10 mi</option>
+        <option value="25" selected>Within 25 mi</option>
+        <option value="50">Within 50 mi</option>
+        <option value="100">Within 100 mi</option>
+      </select>
       <select id="county" aria-label="County"><option value="">All counties</option></select>
       <label><input type="checkbox" id="snap" /> SNAP/EBT</label>
     </div>
   </div>
+  <p class="status" id="status" aria-live="polite"></p>
 
   <main id="out" aria-live="polite"></main>
 
@@ -156,8 +173,11 @@
   var DOW = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
   var MONTHS = ["January","February","March","April","May","June","July","August",
                 "September","October","November","December"];
-  var state = { view:"list", date:todayISO(), q:"", county:"", snap:false };
+  var state = { view:"list", date:todayISO(), q:"", county:"", snap:false, radius:25 };
   var markets = [], unlisted = [];
+  // Where "near" searches measure from: a town or ZIP typed in the search box, or the
+  // visitor's location (never written to the URL). null = plain name search.
+  var origin = null, myLocation = null, PLACES = [], ZIPS = {};
 
   // ---------- dates (local, no time zones: everything is a YYYY-MM-DD string) ----------
   function pad(n){ return (n < 10 ? "0" : "") + n; }
@@ -196,9 +216,30 @@
   }
   function hours(x){ return clock(x.open) + "–" + (x.close ? clock(x.close) : x.closeText); }
 
+  // ---------- "near" search ----------
+  function miles(lat1, lng1, lat2, lng2){
+    var R = 3958.8, r = Math.PI / 180, dLat = (lat2 - lat1) * r, dLng = (lng2 - lng1) * r;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
+  function norm(s){ return s.toLowerCase().replace(/,?\s*(co|colorado)\.?$/, "").replace(/\s+/g, " ").trim(); }
+  // The search text as a place: a 5-digit ZIP or a Colorado town name ("Breckenridge",
+  // "breckenridge, co"). Market names win only when no town matches.
+  function placeFor(q){
+    var t = norm(q), zip = t.match(/^(\d{5})(-\d{4})?$/);
+    if (zip) return ZIPS[zip[1]] ? { name:"ZIP " + zip[1], lat:ZIPS[zip[1]][0], lng:ZIPS[zip[1]][1] } : null;
+    for (var i = 0; i < PLACES.length; i++){
+      if (PLACES[i][0].toLowerCase() === t) return { name:PLACES[i][0], lat:PLACES[i][1], lng:PLACES[i][2] };
+    }
+    return null;
+  }
+  function distTo(m){ return origin ? miles(origin.lat, origin.lng, m.lat, m.lng) : null; }
+
   function matches(m){
     if (state.county && m.county !== state.county) return false;
     if (state.snap && !m.snap) return false;
+    if (origin) return distTo(m) <= state.radius;
     if (state.q){
       var hay = (m.name + " " + (m.city || "") + " " + (m.county || "")).toLowerCase();
       if (hay.indexOf(state.q.toLowerCase()) < 0) return false;
@@ -209,12 +250,15 @@
     var rows = [];
     markets.forEach(function(m){
       if (!matches(m)) return;
-      sessionsOn(m, s).forEach(function(x){ rows.push({ m:m, x:x }); });
+      sessionsOn(m, s).forEach(function(x){ rows.push({ m:m, x:x, d:distTo(m) }); });
     });
-    rows.sort(function(a, b){ return a.x.open < b.x.open ? -1 : a.x.open > b.x.open ? 1
-                                    : a.m.name.localeCompare(b.m.name); });
+    // Near a place: closest first. Otherwise by opening time.
+    rows.sort(origin ? function(a, b){ return a.d - b.d || (a.x.open < b.x.open ? -1 : 1); }
+                     : function(a, b){ return a.x.open < b.x.open ? -1 : a.x.open > b.x.open ? 1
+                                              : a.m.name.localeCompare(b.m.name); });
     return rows;
   }
+  function distLabel(d){ return d < 1 ? "under 1 mi" : Math.round(d) + " mi"; }
 
   // ---------- rendering ----------
   function el(tag, cls, text){
@@ -235,7 +279,9 @@
     var m = r.m, x = r.x, c = el("article", "mk");
     c.appendChild(el("div", "time", hours(x)));
     var body = el("div");
-    body.appendChild(el("div", "name", m.name));
+    var nm = el("div", "name", m.name);
+    if (r.d != null){ nm.appendChild(document.createTextNode(" ")); nm.appendChild(el("span", "dist", distLabel(r.d))); }
+    body.appendChild(nm);
     body.appendChild(el("div", "where", [street(m), m.city, m.county ? m.county + " County" : ""]
       .filter(Boolean).join(" · ")));
     c.appendChild(body);
@@ -264,7 +310,7 @@
       h.appendChild(el("span", "n", rows.length ? rows.length + (rows.length === 1 ? " market" : " markets") : ""));
       sec.appendChild(h);
       if (!rows.length) sec.appendChild(el("p", "empty", "No markets listed for this day" +
-        (state.county || state.q || state.snap ? " with these filters." : ".")));
+        (origin ? " within " + state.radius + " mi." : state.county || state.q || state.snap ? " with these filters." : ".")));
       rows.forEach(function(r){ sec.appendChild(card(r)); });
       out.appendChild(sec);
     }
@@ -298,6 +344,7 @@
 
   function renderUnlisted(){
     var box = document.getElementById("unlisted"), list = unlisted.filter(matches);
+    if (origin) list.sort(function(a, b){ return distTo(a) - distTo(b); });
     box.style.display = list.length ? "" : "none";
     box.querySelector("summary").textContent = list.length + " more market" + (list.length === 1 ? "" : "s") +
       " not on the calendar";
@@ -306,6 +353,7 @@
       var li = el("li"), site = m.website || m.facebook || m.instagram;
       if (site) li.appendChild(link(site, m.name)); else li.appendChild(document.createTextNode(m.name));
       if (m.city) li.appendChild(document.createTextNode(" · " + m.city));
+      if (origin){ li.appendChild(document.createTextNode(" ")); li.appendChild(el("span", "dist", distLabel(distTo(m)))); }
       if (m.hours) li.appendChild(el("div", "raw", m.hours + " (season not listed)"));
       ul.appendChild(li);
     });
@@ -315,6 +363,7 @@
     var out = document.getElementById("out"); out.textContent = "";
     if (state.view === "month") renderMonth(out); else renderList(out);
     renderUnlisted();
+    renderStatus();
     document.getElementById("pick").value = state.date;
     var p = new URLSearchParams();
     if (state.view !== "list") p.set("view", state.view);
@@ -322,8 +371,29 @@
     if (state.county) p.set("county", state.county);
     if (state.q) p.set("q", state.q);
     if (state.snap) p.set("snap", "1");
+    if (origin && origin !== myLocation && state.radius !== 25) p.set("r", state.radius);
     var qs = p.toString();
     history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+  }
+
+  function renderStatus(){
+    var st = document.getElementById("status"); st.textContent = "";
+    document.getElementById("radius").style.display = origin ? "" : "none";
+    if (!origin) return;
+    st.appendChild(document.createTextNode("Markets within " + state.radius + " miles of "));
+    st.appendChild(el("b", null, origin.name));
+    st.appendChild(document.createTextNode(", closest first. Distances are straight-line, so mountain drives run longer."));
+    var clear = el("button", null, "Clear");
+    clear.type = "button";
+    clear.onclick = function(){ origin = myLocation = null; state.q = ""; q.value = ""; render(); };
+    st.appendChild(clear);
+  }
+  function setQuery(text){
+    state.q = text.trim();
+    var place = state.q ? placeFor(state.q) : null;
+    if (place) origin = place;
+    else if (state.q || origin !== myLocation) origin = null;
+    if (state.q) myLocation = null;
   }
 
   function setView(v){
@@ -347,6 +417,7 @@
   if (p.get("view") === "month") state.view = "month";
   if (/^\d{4}-\d{2}-\d{2}$/.test(p.get("date") || "")) state.date = p.get("date");
   state.county = p.get("county") || ""; state.q = p.get("q") || ""; state.snap = p.get("snap") === "1";
+  if (/^(10|25|50|100)$/.test(p.get("r") || "")) state.radius = +p.get("r");
 
   document.getElementById("vList").onclick = function(){ setView("list"); };
   document.getElementById("vMonth").onclick = function(){ setView("month"); };
@@ -355,13 +426,34 @@
   document.getElementById("today").onclick = function(){ state.date = todayISO(); render(); };
   document.getElementById("pick").onchange = function(){ if (this.value){ state.date = this.value; render(); } };
   var q = document.getElementById("q"); q.value = state.q;
-  q.oninput = function(){ state.q = this.value.trim(); render(); };
+  q.oninput = function(){ setQuery(this.value); render(); };
+  var radius = document.getElementById("radius"); radius.value = String(state.radius);
+  radius.onchange = function(){ state.radius = +this.value; render(); };
+  var nearBtn = document.getElementById("nearMe");
+  if (!navigator.geolocation) nearBtn.style.display = "none";
+  nearBtn.onclick = function(){
+    nearBtn.textContent = "📍 Locating…";
+    navigator.geolocation.getCurrentPosition(function(pos){
+      nearBtn.textContent = "📍 Near me";
+      myLocation = origin = { name:"your location", lat:pos.coords.latitude, lng:pos.coords.longitude };
+      state.q = ""; q.value = ""; render();
+    }, function(){
+      nearBtn.textContent = "📍 Near me";
+      document.getElementById("status").textContent = "Couldn't get your location. Try typing a town or ZIP instead.";
+    }, { timeout:10000, maximumAge:600000 });
+  };
   var county = document.getElementById("county");
   county.onchange = function(){ state.county = this.value; render(); };
   var snap = document.getElementById("snap"); snap.checked = state.snap;
   snap.onchange = function(){ state.snap = this.checked; render(); };
 
-  fetch("data/markets.json").then(function(r){ return r.json(); }).then(function(all){
+  var placesReady = fetch("data/places.json").then(function(r){ return r.json(); }).then(function(d){
+    PLACES = d.places; ZIPS = d.zips;
+    var dl = document.getElementById("placeList");
+    PLACES.forEach(function(pl){ var o = el("option"); o.value = pl[0]; dl.appendChild(o); });
+  }).catch(function(){});   // without it, search falls back to matching names
+  Promise.all([fetch("data/markets.json").then(function(r){ return r.json(); }), placesReady]).then(function(res){
+    var all = res[0];
     all.forEach(function(m){
       if (!m.schedule) return;
       var ok = m.schedule.sessions.some(function(x){ return placeable(m, x); });
@@ -374,6 +466,7 @@
       var o = el("option", null, c); o.value = c; county.appendChild(o);
     });
     county.value = state.county;
+    setQuery(state.q);
     setView(state.view);
   }).catch(function(){
     document.getElementById("out").appendChild(el("p", "empty", "Couldn't load the market list. Try reloading the page."));
