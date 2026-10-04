@@ -1,7 +1,7 @@
 """Normalized schema for the Colorado farmers-market scrape.
 
 Every source is mapped into a `Market` record whose public columns are exactly the
-22 My Maps columns that the Colorado Proud / Farm Fresh pipeline emits
+23 My Maps columns that the Colorado Proud / Farm Fresh pipeline emits
 (see scripts/fetch_farm_data.py and DATA.md). This lets the output import into the
 same Google My Maps setup with no changes.
 
@@ -14,12 +14,12 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Optional
 
-# The 22 output columns, in the exact order fetch_farm_data.py writes them.
+# The 23 output columns, in the exact order fetch_farm_data.py writes them.
 COLUMNS = [
     "Business Name", "Category", "Address", "City", "County", "State", "Zip",
     "Phone", "Call first?", "Website", "Email", "Facebook", "Instagram",
     "Hours", "Months Open", "Products", "Certified Organic", "SNAP",
-    "ADA Accessible", "Notes", "Latitude", "Longitude",
+    "ADA Accessible", "Notes", "Where to Get It", "Latitude", "Longitude",
 ]
 
 CATEGORY_SEP = ", "   # Category holds several labels, primary first
@@ -29,7 +29,7 @@ CATEGORY_SEP = ", "   # Category holds several labels, primary first
 PROVENANCED = [
     "Business Name", "Address", "City", "County", "Zip", "Phone", "Website",
     "Email", "Facebook", "Instagram", "Hours", "Months Open", "Products",
-    "Certified Organic", "SNAP", "ADA Accessible", "Notes",
+    "Certified Organic", "SNAP", "ADA Accessible", "Notes", "Where to Get It",
 ]
 
 
@@ -63,6 +63,9 @@ class Market:
     snap: str = ""
     ada_accessible: str = ""
     notes: str = ""
+    # For growers that don't sell on site: "Whole Foods Market (Colorado stores); ..."
+    # (semicolon-separated, as in the live Phase 1 file's "Where to Get It" column).
+    where_to_get: str = ""
     latitude: Optional[float] = None
     longitude: Optional[float] = None
 
@@ -124,6 +127,7 @@ class Market:
             "SNAP": self.snap,
             "ADA Accessible": self.ada_accessible,
             "Notes": self.notes,
+            "Where to Get It": self.where_to_get,
             "Latitude": "" if self.latitude is None else self.latitude,
             "Longitude": "" if self.longitude is None else self.longitude,
         }
@@ -137,4 +141,5 @@ ATTR_TO_COLUMN = {
     "hours": "Hours", "months_open": "Months Open", "products": "Products",
     "certified_organic": "Certified Organic", "snap": "SNAP",
     "ada_accessible": "ADA Accessible", "notes": "Notes",
+    "where_to_get": "Where to Get It",
 }

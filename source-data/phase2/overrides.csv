@@ -18,3 +18,4 @@ Florence Farmers Market,Florence,Website,clear,,Removed compromised link: floren
 Hutchinson Ranch,Salida,Latitude,set,38.5165519,"6700 Old Corral Rd doesn't geocode (Census, OSM); pin from the Google Maps listing for Hutchinson Ranch Wedding & Events at that exact address (checked 2026-10-03), consistent with the ranch site's '2 miles west of Salida off Hwy 50'",2026-10-03
 Hutchinson Ranch,Salida,Longitude,set,-106.0435714,Same Google Maps listing as the Latitude row,2026-10-03
 Hutchinson Ranch,Salida,County,set,Chaffee,"Overrides run after the county lookup, so a hand-set pin needs its county set too (Salida is in Chaffee County)",2026-10-03
+Sandy's Way Microfarm,SEDALIA,City,set,Sedalia,Colorado Proud lists the town in capitals,2026-10-03
