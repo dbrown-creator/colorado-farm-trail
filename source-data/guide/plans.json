@@ -1,0 +1,237 @@
+[
+  {
+    "id": "roaring-fork",
+    "region": "Roaring Fork",
+    "title": "A day of local food in the Roaring Fork Valley",
+    "lede": "From the valley's first homestead to a Michelin-starred dinner: a ranch walk, a farm-shop lunch, a ride up Maroon Creek, and kitchens that name the farms on your plate.",
+    "best": "Wednesday–Saturday, June–September",
+    "route": "Carbondale → Basalt → Aspen, about 45 minutes of driving in all (Hwy 82). The evening has an up-valley and a down-valley option.",
+    "inspired": {
+      "label": "Roaring Fork + Farm Map",
+      "url": "https://www.carbondale.com/roaring-fork-farm-map/",
+      "note": "The valley tourism boards' guide to local food champions, farms and visitor ranches. Plan built 2026-10-04."
+    },
+    "stops": [
+      {
+        "time": "9:00 am",
+        "title": "Start where valley farming began",
+        "place": {
+          "listing": "Thompson House Museum"
+        },
+        "why": "An 1885 homestead kept with the Thompson family's own furniture and belongings. The Roaring Fork + Farm Map calls it the starting point for any farm visit.",
+        "tip": "Tours are by appointment only. Book through the historical society before you go."
+      },
+      {
+        "time": "10:30 am",
+        "title": "Walk a working regenerative ranch",
+        "place": {
+          "listing": "Rock Bottom Ranch (ACES)"
+        },
+        "why": "A 113-acre regenerative-agriculture and education ranch between Carbondale and Basalt, with farm tours and hayrides. Its vegetables turn up at Element 47.",
+        "tip": "Open Wed–Fri 9am–4pm, plus Saturday mornings in summer.",
+        "alt": [
+          {
+            "place": {
+              "listing": "Two Roots Farm LLC"
+            },
+            "why": "On a Friday morning, pick your own at the Basalt farm whose vegetables supply Bosq."
+          }
+        ]
+      },
+      {
+        "time": "12:30 pm",
+        "title": "Lunch at a farmhouse kitchen",
+        "place": {
+          "node": "Meat & Cheese Restaurant and Farm Shop"
+        },
+        "why": "Aspen's farm-shop restaurant: local eggs, produce and cheese at the counter, Mesa Microgreens from Silt on the plate.",
+        "tip": "Hours change with the season, and it closes in November. Check before you go."
+      },
+      {
+        "time": "2:30 pm",
+        "title": "Get out on the ranch",
+        "place": {
+          "listing": "T-Lazy-7 Ranch"
+        },
+        "why": "A family ranch on Maroon Creek Road since 1938. Maroon Bells Outfitters runs its summer trail rides.",
+        "tip": "Book rides ahead.",
+        "alt": [
+          {
+            "place": {
+              "listing": "The Farm Collaborative"
+            },
+            "why": "Prefer to stay on foot? Visit the nonprofit farm at Cozy Point Ranch for classes, tours and the farm market."
+          }
+        ]
+      },
+      {
+        "time": "6:30 pm",
+        "title": "Dinner up valley",
+        "place": {
+          "node": "Bosq"
+        },
+        "why": "Barclay Dodge's Michelin-starred kitchen, cooking with Two Roots Farm vegetables and Mesa Microgreens.",
+        "tip": "Reserve ahead.",
+        "alt": [
+          {
+            "place": {
+              "node": "Element 47"
+            },
+            "why": "The Little Nell's dining room publishes its full purveyor list, from Rock Bottom Ranch vegetables to Cross Creek Farms Wagyu."
+          }
+        ]
+      },
+      {
+        "time": "Or",
+        "title": "Head back down valley for the evening",
+        "place": {
+          "node": "Woody Creek Distillers"
+        },
+        "why": "Stop for a tasting in Basalt. Nearly everything in the bottle is grown in Colorado, and its apple brandy goes into Il Porcellino's salami.",
+        "tip": "Tasting room open Wed–Sat 2–8pm.",
+        "alt": [
+          {
+            "place": {
+              "node": "Marble Distilling Co."
+            },
+            "why": "Carbondale's distillery runs on grain grown less than a mile away by partners like Nieslanik Beef."
+          },
+          {
+            "place": {
+              "node": "The Pullman"
+            },
+            "why": "Seasonal dinner in Glenwood Springs, with Mesa Microgreens from just down the road."
+          },
+          {
+            "event": "Carbondale Wild West Rodeo",
+            "why": "On a summer Thursday, finish at the rodeo in Carbondale."
+          }
+        ],
+        "label": "Or, down valley"
+      }
+    ],
+    "pantry": {
+      "title": "Take the valley home",
+      "why": "Pick up local meat and eggs before you leave.",
+      "places": [
+        {
+          "listing": "Nieslanik Beef"
+        },
+        {
+          "node": "Roaring Fork Valley Co-op"
+        }
+      ]
+    }
+  },
+  {
+    "id": "chaffee-county",
+    "region": "Upper Arkansas Valley",
+    "title": "A day of local food in Chaffee County",
+    "lede": "Saturday market in Salida, a self-serve garlic farm stand, a 150-year-old homestead, lunch in Buena Vista on beef raised at 8,000 feet, a goat creamery, and dinner back in Salida.",
+    "best": "Saturday, June–October (the Salida Farmers Market season)",
+    "route": "Salida → Buena Vista → Salida on US-285 and US-24, about 60 miles of driving in all.",
+    "inspired": {
+      "label": "Chaffee Provides",
+      "url": "https://chaffeeprovides.org/",
+      "note": "Envision Chaffee County and Guidestone's local food map, plus the farms' own sites and local press. Chaffee has no tourism-board farm map, so this plan was researched directly on 2026-10-04."
+    },
+    "stops": [
+      {
+        "time": "8:00 am",
+        "title": "Start at the Saturday market",
+        "place": {
+          "listing": "Salida Farmers Market"
+        },
+        "why": "Two acres of farm stands in Alpine Park, a block from downtown. The Triangle Oasis hands out its CSA shares here.",
+        "tip": "8am–noon through Sept 11, then 9am–noon to Oct 24. Accepts SNAP and Double Up Food Bucks.",
+        "alt": [
+          {
+            "place": {
+              "listing": "Market on Main St. (The Triangle Oasis)"
+            },
+            "why": "Off-season or off a Saturday? The Triangle Oasis's downtown store sells its produce and flowers plus locally made goods."
+          }
+        ]
+      },
+      {
+        "time": "10:00 am",
+        "title": "Fill a bag at a garlic farm",
+        "place": {
+          "listing": "Rocky Mountain Garlic"
+        },
+        "why": "A Certified Naturally Grown market garden known for hardneck garlic, with a self-serve farm stand. Its spring thyme went into Mantis Kitchen's syrups.",
+        "tip": "Self-serve, May–November. Bring cash, a check or Venmo. Scanga Meat Company is next door."
+      },
+      {
+        "time": "11:00 am",
+        "title": "Step back 150 years on a working homestead",
+        "place": {
+          "listing": "Guidestone Colorado",
+        "name": "Hutchinson Homestead (Guidestone)"
+        },
+        "why": "Guidestone runs the Hutchinson Homestead & Learning Center on the 1867 Hutchinson family homestead. It hosts heritage tours, summer farm brunches and October's pumpkin patch.",
+        "tip": "Opening varies by event. Check Guidestone's calendar before you drive out."
+      },
+      {
+        "time": "12:30 pm",
+        "title": "Lunch on Arrowpoint beef in Buena Vista",
+        "place": {
+          "node": "Eddyline Restaurant at Southmain"
+        },
+        "why": "A wood-fired kitchen whose beef is grass-fed Highland cattle from Arrowpoint Cattle Company, raised at 8,000 feet outside Nathrop.",
+        "tip": "Open from 11am; closed Mondays."
+      },
+      {
+        "time": "2:00 pm",
+        "title": "Meet the goats",
+        "place": {
+          "listing": "Buck and Bloom Cheese Co"
+        },
+        "why": "A creamery at the BV Farm General Store, making goat and cow cheeses (chèvre, feta, bloomy rinds, cave-aged) where Jumpin' Good Goat Dairy used to be.",
+        "tip": "The farm store is self-serve. Guided farm tours run on scheduled Saturdays at 10am ($25 adults, $15 ages 3–17): book a date on the creamery's website, and start the day in Buena Vista if you take one.",
+        "alt": [
+          {
+            "place": {
+              "node": "The Lettucehead Food Company"
+            },
+            "why": "Buena Vista's natural grocer stocks Headwater Farms produce year round."
+          }
+        ]
+      },
+      {
+        "time": "6:30 pm",
+        "title": "Dinner back in Salida",
+        "place": {
+          "node": "Lago Trattoria"
+        },
+        "why": "Salida's new Italian trattoria, from the team behind Shavano, cooks with produce and beef from Hutchinson Ranch.",
+        "tip": "New in 2026. Check hours and book ahead."
+      },
+      {
+        "time": "Or",
+        "label": "Or, stay on the farm",
+        "title": "Spend the night with the goats",
+        "place": {
+          "listing": "Mountain Goat Lodge"
+        },
+        "why": "A goat-farm B&B six miles out of Salida, with cheesemaking, goat-care and poultry classes. Farm tours are free for guests.",
+        "tip": "Book rooms and classes ahead."
+      }
+    ],
+    "pantry": {
+      "title": "Take Chaffee home",
+      "why": "Local beef and produce to pack in the cooler.",
+      "places": [
+        {
+          "listing": "Scanga Meat Company"
+        },
+        {
+          "listing": "Hutchinson Ranch"
+        },
+        {
+          "node": "The Triangle Oasis"
+        }
+      ]
+    }
+  }
+]
