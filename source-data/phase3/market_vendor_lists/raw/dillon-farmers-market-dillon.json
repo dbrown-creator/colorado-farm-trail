@@ -1,0 +1,853 @@
+{
+ "slug": "dillon-farmers-market-dillon",
+ "market": "Dillon Farmers Market",
+ "city": "Dillon",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://townofdillon.mymarket.org/profiles",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Official town page links to MarketWurks Vendor Profiles (2026 season, ended Sep 25). Includes nonprofits/info booths under \"Other\". Descriptions are the vendors' own profile text, trimmed.",
+ "vendors": [
+  {
+   "name": "Forte Fruits",
+   "list_category": "Farmer: Fruit",
+   "location_stated": null,
+   "description_stated": "Fresh Palisade, CO fruit for over 50 years! We have some of the most unique fruit!"
+  },
+  {
+   "name": "Grounded Produce",
+   "list_category": "Farmer: Fruit",
+   "location_stated": null,
+   "description_stated": "Grounded Produce has developed strong relationships with Colorado Farmers across the entire state for over 15 years. This ensures that they are able to bring provide mountain communities with local fr"
+  },
+  {
+   "name": "PALISADE PEACH SHACK",
+   "list_category": "Farmer: Fruit",
+   "location_stated": null,
+   "description_stated": "We are a farm to table that brings fresh produces ,that benefits both market and the customers."
+  },
+  {
+   "name": "The Stone Fruit Company",
+   "list_category": "Farmer: Fruit",
+   "location_stated": null,
+   "description_stated": "At The Stone Fruit Company, we are passionate about growing certified organic stone fruits, including lavender, peaches, sweet cherries, nectarines, and a variety of plums. In addition to our fresh fr"
+  },
+  {
+   "name": "Fox Fungi",
+   "list_category": "Farmer: Veggies",
+   "location_stated": null,
+   "description_stated": "Kevin and Rachel started growing mushrooms in 2018 as a hobby. In 2019, we expanded our business in Denver in a converted RTD repair shop. This is our 7th year in business. Our mission is to operate a"
+  },
+  {
+   "name": "Microgreen Creations LLC",
+   "list_category": "Farmer: Veggies",
+   "location_stated": null,
+   "description_stated": "Microgreen Creations LLC was formed on the basis of 10 years of indoor farming love for local patrons and family. This company specializes in herbs and vegitables grown in the flavorful and highly nut"
+  },
+  {
+   "name": "Alice's Cookie Jar",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "Alice's Cookie Jar is based on one idea: less crying, more cookies. We aim to bring peace and happiness through baking and stick to what we know best. Based in Frisco, Colorado, Alice spent years perf"
+  },
+  {
+   "name": "Areemo Greek Dessert",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "Specialist in authentic Greek baklava, this indulgent pastry is made using traditional methods, Layers of crispy filo dough envelop savory crispy Pistachio, Walnuts, hazelnuts, Gluten Free Baklava Veg"
+  },
+  {
+   "name": "Baked in Breck",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "Baked in Breck specializes in creating mouthwatering & memorable desserts. From our s'mores brownie, to our homemade ice cream sandwiches & our signature gourmet cupcakes -- these desserts will keep y"
+  },
+  {
+   "name": "Coloradough Bakery",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "Coloradough Bakery As well known for our fresh breads and pastries, especially our Strudel and Quiche."
+  },
+  {
+   "name": "Desirable Desserts",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "Jeff Webner, Founder and Executive Pastry Chef of Desirable Desserts and original founding vendor of Chicago’s famous Taste of Chicago returns to the Colorado Farmers Markets with his award-winning Ch"
+  },
+  {
+   "name": "Pat + Bear Macarons",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "Pat + Bear Macarons is a small batch, artisan macaron bakery located in Keystone! Known for our unique flavor combinations and eye-catching colors, we have something delicious for everyone. Stop by to"
+  },
+  {
+   "name": "Snow Loaf Bakery",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "Snow Loaf Bakery specializes in focaccia - a bread that will enhance your meal, celebration, or snack."
+  },
+  {
+   "name": "Styria Bakery II",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "We are a family owned and operated bakery in Denver, Colorado. We make everything by hand, from scratch. We also use a special flour that is different than what you find on the grocery store shelves."
+  },
+  {
+   "name": "Wagon wheel smoke house",
+   "list_category": "Baked Goods",
+   "location_stated": null,
+   "description_stated": "Maker of Smoked Spices and Dry Rubs, locally raised pork, and baked goods."
+  },
+  {
+   "name": "2R BAR",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "2R Bar is a family workshop in Florissant, Colorado, built around a deep appreciation for craftsmanship, authentic materials, and the simple beauty of well-made goods. What started as a small woodshop"
+  },
+  {
+   "name": "AloeMoist Organics",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "AloeMoist Organics is a minority, woman owned and family-run company with deep experience in vitamins and personal care. Our expertise drives the AloeMoist beauty line and ensures product excellence e"
+  },
+  {
+   "name": "Balanced School of Massage and Wellness",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "Balanced School of Massage and Wellness offers a comprehensive, hands on education designed to prepare students for a rewarding career in massage therapy. Our program combines in depth anatomy and phy"
+  },
+  {
+   "name": "Bjorn's Colorado Honey",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "Björn's Colorado Honey offers local Colorado honey and bee-pollen plus hive-based skincare featuring beeswax, honey, and propolis. We are small-batch, local, honey producers based in Brighton with hiv"
+  },
+  {
+   "name": "Breckenridge Candle Cabin",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "Here at Breckenridge Candle Cabin we have been hand pouring a US grown soy bean wax scented with only essential oils locally for over ten years. Our choice to scent the candles with only essential oil"
+  },
+  {
+   "name": "Jo's Body Shop",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "We sell plant powered self-care that’s colorful and fun because nature is, and our products are designed with earth in mind, and handmade with love. Jo’s Body Shop is a local self care and wellness br"
+  },
+  {
+   "name": "Magic Within Wellness",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "Magic Within Wellness is a woman owned, Herbal Wellness company out of Breckenridge, Colorado. Our owner, Logahn is a certified Herbalist, plant lover, and adventurer who discovered Magic Within Welln"
+  },
+  {
+   "name": "NOCO CBD CO",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "We at the Northern Colorado CBD Company specialize in high quality, high potency, hemp based full spectrum solutions tailored to each individuals needs. Whether it be for pain, sleep or daytime suppor"
+  },
+  {
+   "name": "Root and the Hearth",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "Root & the Hearth is a celebration of plants, fungi, and old-world craft through a modern, soulful lens. At the market you’ll find a thoughtfully curated collection of herbal apothecary remedies, mush"
+  },
+  {
+   "name": "sofratextiles",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "Our Sofra Textiles come in beautiful colors for your home, patio, a day at the beach, and during travel. They're hand-loomed, quick to dry, and will last a lifetime, as far as adding a pattern to your"
+  },
+  {
+   "name": "Taspens Organics",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "Taspen's Organics handcrafts over 200 organic healing and wellness products. We offer herbal remedies, CBD products, facial care, and more."
+  },
+  {
+   "name": "The Eden Company Industries, Inc.",
+   "list_category": "Bath & Body",
+   "location_stated": null,
+   "description_stated": "Welcome to The Eden Company, Inc., where we celebrate the art of handcrafting luxurious olive oil skin care products. Our fresh body butter is made from scratch, using only the finest sourced from loc"
+  },
+  {
+   "name": "Alpine Lily Designs",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Handmade, locally made jewelry created by a Summit County artist. Products include necklaces, bracelets, earrings, rings, anklets, and thoughtfully curated gift sets. Each piece is individually handcr"
+  },
+  {
+   "name": "anne franklin designs",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Since 2010, {anne franklin designs} has been designing and creating affordable jewelry and small home goods with a handmade, repurposed flair. A solopreneur, Anne Franklin enjoys creating and is alway"
+  },
+  {
+   "name": "Czech Out The Rock",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "My family and I hand craft each and every piece of jewelry incorporating real pressed flowers preserved in resin. Each and every piece allows you to carry nature with you through everyday!"
+  },
+  {
+   "name": "Deb Fine Design aka Fine Dezine",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Deb Fine sources, designs, and creates one of a kind natural colored gemstone jewelry using a variety of techniques such as silk knotting, sterling silver wire wrapping and beading."
+  },
+  {
+   "name": "Exquisite Creations by JD",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Exquisite Creations by JD was established in 2015. I was pleased to be accepted into the Dillon Farmers annually since 2023. I use high quality glass beads which are made in the Czech Republic or Japa"
+  },
+  {
+   "name": "Fungirl Network",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "ungirl Network // “Fungi”rl Network is a woman owned craft brand creating small-batch, mushroom-inspired apparel and accessories rooted in nature, design, and community. Our offerings include hand sew"
+  },
+  {
+   "name": "Heavenly Flower Jewelry",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "I specialize in seed-bead jewelry handcrafted from the smallest beads available! My method of beading is called off-loom weaving, a technique that involves using a needle and thread to weave individua"
+  },
+  {
+   "name": "Jewelry Collection by Erika",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "We are a small business that started 20 years ago selling and distributing handmade sterling silver (0.925) jewelry. Our jewelry collection began as a door-to-door and appointment-based business. The"
+  },
+  {
+   "name": "KP Mountain Metals",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "KP Mountain Metals is a one woman owned Jewely business based in the heart of the Rocket Mountains. Each piece is thoughtfully handmade using sterling silver and natural stones, inspired by alpine lan"
+  },
+  {
+   "name": "mercer & jayne",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Delicate and refined handcrafted jewelry for the modern day tastemaker. Handcrafted using jeweler quality metals and semi precious stones."
+  },
+  {
+   "name": "Quirks of Art co.",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Quirks of Arts Co. is a Dillon, Colorado–based studio creating handmade goods and original illustrations. I’m the self-taught maker and designer behind it all, drawing inspiration from my backyard chi"
+  },
+  {
+   "name": "Silly Clay Creations",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Silly Clay Creations is a handmade jewelry and trinkets business that focuses on colorful and playful designs made with care and creativity. Each piece is thoughtfully crafted to celebrate individuali"
+  },
+  {
+   "name": "Snowflakes & Silver",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Inspired by the beauty of the mountains, I am an artisan jeweler specializing in \"The Elephant Hair Bracelet\", which is based on a 1,200 year old African tradition. This bracelet is a unique adjustabl"
+  },
+  {
+   "name": "Soul Creations",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Kerri Anne with Soul Creations creates handcrafted sterling silver jewelry designed to celebrate individuality and everyday elegance. Every piece is made by hand using traditional silversmithing techn"
+  },
+  {
+   "name": "Star Lux Jewels",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Star Lux is a handcrafted jewelry line rooted in earth, intuition, and individuality. Each piece is thoughtfully designed and made by hand using raw and polished gemstones, warm brass, and natural ele"
+  },
+  {
+   "name": "The Humble Stone",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "The Humble Stone offers high-quality Handmade Semi-Precious Gemstone, Crystal and Fossil Jewelry for all ages and financial demographics. We are a family friendly business offering a \"build-your-own-n"
+  },
+  {
+   "name": "TIBET MART",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Hand jewelry, artifacts and clothings"
+  },
+  {
+   "name": "Treasured Wellness",
+   "list_category": "Jewelry",
+   "location_stated": null,
+   "description_stated": "Treasured Wellness focuses on the natural beauty of stones and the metaphysical properties of stones that can help someone find their wellness."
+  },
+  {
+   "name": "Art by Agostina",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Inspired by nature and slow living. I create highly detailed drawings using ink and watercolor."
+  },
+  {
+   "name": "Better Birdwatching",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Better Birdwatching- publisher of a Pocket Field Guide for identifying 125 of the more commonly found birds in the Colorado Mountains. Ideal for beginners! Bird ID made easy- Identification info provi"
+  },
+  {
+   "name": "Colorado Botanical Luxury Living",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "A curated collection of original greeting cards crafted from Colorado botanicals, featuring pressed flower art and printed nature mandalas. Each card transforms locally gathered florals into elegant,"
+  },
+  {
+   "name": "Dillon Coffee Lab & Espresso Bar",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Brew good, Do good—that is what the Dillon Coffee Lab is all about. We are on a mission to create a vibrant and inviting space that honors the coffee journey—from the farmers who grow the beans, the r"
+  },
+  {
+   "name": "Dubs Mountain Designs",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Dubs Mountain Designs is a local photographer, artist, tinkerer and lover of the beautiful Colorado outdoors. I take my vision of Colorado and the west and put it on display through my photography. I"
+  },
+  {
+   "name": "Forever Rock Candles",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "A family business of over 10 years, Forever Rock Candles collects, cuts and polishes local stones, fossils and crystals from all over turning them into one of a kind oil lamp candles. Using Lamp Oil,"
+  },
+  {
+   "name": "Glenbrook Gallery",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Santa and Wood Spirit carvings made from collected wood from the local Rocky Mountain region. These collectable one of a kind carvings are created from ancient Bristlecone Pine and Cottonwood bark."
+  },
+  {
+   "name": "Inspired by Summit",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "I’m a local teacher! My business creates handmade goods inspired by mountain summers and the bright, refreshing feeling of the season. I offer rustic, hand-carved wooden charcuterie and cutting boards"
+  },
+  {
+   "name": "Kelly’s Creations",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Kelly Triolo is a Colorado-based visual artist creating paintings, murals, and sculptural works, all made in Colorado. Inspired by the cosmos, nature, and human experience, her work invites viewers to"
+  },
+  {
+   "name": "Knots, Wood & Stone",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Knots,Wood & Stone creates culinary accessories from domestic hardwoods that are marked with flaws like cracks,voids and knots. These flaws are masterfully enhanced with turquoise and other semi preci"
+  },
+  {
+   "name": "La Cumbre Art",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Inspired by the breathtaking beauty of the mountains and deserts that surround us, LA CUMBRE ART brings nature’s colors, textures, and landscapes to life through art. From rugged alpine scenes to warm"
+  },
+  {
+   "name": "Landreaux Ceramics",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Handmade functional pottery with textures and tones of the Earth. Wares are made by hand from start to finish with surface decorations that include local soils, textures from rocks, and unique carving"
+  },
+  {
+   "name": "Leashes by Liz",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "At Leashes by Liz, we handcraft dog products to make every adventure with your fur friend amazing. Our leashes are the perfect combination of form and function, featuring beautiful color palettes and"
+  },
+  {
+   "name": "Magicolor Maria Design",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Our business specializes in handcrafted jewelry, including unique pieces made from polymer clay, wood, beads and leather. We also offer permanent jewelry at our booth. We focus on high-quality, artist"
+  },
+  {
+   "name": "Matavoli Creative Art Studio",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Matavoli Art Studio is a local business that creates original artwork of wild life, landscape, still life and more. Teaching art locally and working with Art Spot in Silverthorne as well. With attenti"
+  },
+  {
+   "name": "Montane Pottery",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Montane Pottery was born to fulfill my creative ambitions and my passion for \"family\" gatherings. These thoughtfully handmade wares are designed to perhaps hold that morning cuppa or to share home coo"
+  },
+  {
+   "name": "SCUMUGS POTTERY",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Based in the heart of the county, this woman-owned studio features the work of a master ceramicist with over 20 years of experience in the craft. Specializing in one-of-kind, functional art, every pie"
+  },
+  {
+   "name": "She Shed That Designs",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "I'm Shannon. A Colorado transplant since 1999, originally from the Pacific Northwest. My art is constantly evolving, but it's always going to involve wood. Wood from the store, the streets, and quite"
+  },
+  {
+   "name": "sweetcedar Woodworking",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "woodworking shop that sources local products such as Tamarisk,cedar, Juniper for your home."
+  },
+  {
+   "name": "Tia Woven Goods",
+   "list_category": "Arts",
+   "location_stated": null,
+   "description_stated": "Tia Woven Goods is a Fair Trade–verified company that partners with over 800 women artisans from Bolgatanga, Ghana — a region world-renowned for its exquisite handwoven baskets. For more than 25 years"
+  },
+  {
+   "name": "5Seeds",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "I am an eco-conscious fashion designer using remnant designer fabrics meant for landfill. All of my products are one of a kind or small batch. I take pride is sourcing all fabrics myself, doing all of"
+  },
+  {
+   "name": "Alpenglow Threads Co",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "My three favorite things to do are reading books, making blankets, and watching the alpenglow in the sunrise. That is why this business means so much to me. I started making blankets in 2021 and only"
+  },
+  {
+   "name": "Golden Designs",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "I create hand tied/ hand dyed clothing for men women & kiddos!:)"
+  },
+  {
+   "name": "Luma Turkish Towels",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "Luma Turkish Towels also knowm Cappadocia Turkish Towels is a women-owned small business offering ultra-soft, handmade towels, robes, kimonos and blankets. All products are crafted from 100% organic T"
+  },
+  {
+   "name": "Mountain Girl Creations",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "Mountain Girl Creations stands as a beacon of sustainable craftsmanship in the realm of handmade kitchen soft goods and textiles. I am dedicated to producing top-notch and eco-friendly products that w"
+  },
+  {
+   "name": "Ojo Fashions",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "Ojo Fashions is sustainable clothing for your family that is designed and handmade in Colorado using dead stock fabrics. Eco chic and unique!"
+  },
+  {
+   "name": "Penni Olive",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "My goal has always been to make quality handmade wares that will get plenty of everyday use and bring color and brightness to your home. I offer a wide selection of functional everyday fabric products"
+  },
+  {
+   "name": "PK Fine Imports",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "PK Fine Imports offers a wonderful selection of beautiful table linens from the South of France. We carry vibrant and authentic French tablecloths, napkins, kitchen towels, table runners and placemats"
+  },
+  {
+   "name": "Rocky mountain Outback hats",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "We are Colorado's oldest festival based hat stand. Our fans love the unique styles and the sun protection qualities. WE love interacting with all the victors and locals who stop by the booth each seas"
+  },
+  {
+   "name": "Shawls by Veronika",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "Shawls by Veronika is a woman owned business. I like to focus on functional fashion that is comfortable, made for all body sizes and types and that is colorful. I believe that when you wear something"
+  },
+  {
+   "name": "Talfourd Jones LLC",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "Talfourd Jones handmakes items for the discerning woman and their pet pooch. Each one of a kind piece is constructed to the highest quality, using only the finest fabrics and hardware"
+  },
+  {
+   "name": "The Unbroken Circle",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "I design and make girl’s reversible clothing. My sizes range from 6 months to 12 years old. Each piece is very unique and made of all cotton printed fabrics. I create dresses, skirts and hats that rev"
+  },
+  {
+   "name": "Trapper of Colorado",
+   "list_category": "Textiles or Clothing",
+   "location_stated": null,
+   "description_stated": "Trapper of Colorado is a woman-owned, independent business out of Frisco. I create unique, mountain-inspired, sustainable, limited edition and one-of-a-kind accessories and clothing. Fabrics used are"
+  },
+  {
+   "name": "PAKO LAZO POTTERY",
+   "list_category": "Pottery",
+   "location_stated": null,
+   "description_stated": "Fun and functional ceramics! grate cheese with ease, for zest its the best! Come see what everyone in Summit county has been talking about! And they make GRATE gifts!"
+  },
+  {
+   "name": "Feelin’ Fresca",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": "We are a family owned business providing high quality simple ingredient beverages and foods. All our products are made in small batches to ensure high quality. Our products are free of additives, pres"
+  },
+  {
+   "name": "Keystone Nutrition and Energy",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": "Keystone Nutrition & Energy is a mountain-town nutrition club focused on clean energy, wellness, and fueling healthy adventures. We serve loaded teas, protein shakes, protein iced coffees, and wellnes"
+  },
+  {
+   "name": "Peak State Coffee",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": "Peak State is Coffee with Benefits - highest quality coffee possible with powerful benefits from nature for your brain, immunity, and stress, all from adaptogenic mushrooms (and without any weird tast"
+  },
+  {
+   "name": "Summit Cultures",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": "Summit Cultures is a locally handcrafted and small batch kombucha company based out of Silverthorne, Colorado. Summit Cultures is owned and operated by Zach and Nikki Turner. Co-founder and head brewe"
+  },
+  {
+   "name": "Trubucha and Sophias Lemonade",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": "Please use from past"
+  },
+  {
+   "name": "WW Enterprises",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": "WW Enterprises is a local, family owned food vending business for 25 years. We are one of the original Dillon Farmer's Market vendors when it began at the Marina. Our business has thrived over the yea"
+  },
+  {
+   "name": "Cream City Market",
+   "list_category": "Cheese",
+   "location_stated": null,
+   "description_stated": "Born & raised in Southeast Wisconsin, our formative years were spent in corn fields, fishing, waterskiing, wild blueberry picking, and cheese curd eating along the shores of Lake Michigan and the Nort"
+  },
+  {
+   "name": "La Montagne Des Saveurs",
+   "list_category": "Cheese",
+   "location_stated": null,
+   "description_stated": "We are family owned and operated. We age cheeses in Europe and import the finest quality European cheeses along with some US farm cheeses."
+  },
+  {
+   "name": "Antelope Creek Ranch Wagyu",
+   "list_category": "Meat & Seafood",
+   "location_stated": null,
+   "description_stated": "We are a local family owned and operated ranch in North Eastern Colorado, that raises all natural Japanese Wagyu. We provide a farm to fork experience by show casing the most marbled, best tasting bee"
+  },
+  {
+   "name": "Bluestem Bison Ranch",
+   "list_category": "Meat & Seafood",
+   "location_stated": null,
+   "description_stated": "Bluestem Bison Ranch was established on core pillars including regenerative land stewardship, uncompromising animal welfare, and exceptional nutritional quality. Our bison live as nature intended: roa"
+  },
+  {
+   "name": "Climax Jerky Inc.",
+   "list_category": "Meat & Seafood",
+   "location_stated": null,
+   "description_stated": "Climax Jerky is a locally owned business since 1999! We offer the freshest, gourmet, Colorado jerky. Including beef, buffalo, elk, venison, turkey, salmon, alligator, wild boar and duck jerky. Stop by"
+  },
+  {
+   "name": "Bob's Roasted Nuts",
+   "list_category": "Candy and Confections",
+   "location_stated": null,
+   "description_stated": "We believe you should feel good about satisfying your sweet tooth. While using only all natural, gluten free, non-gmo and vegan ingredients. We offer freshly roasted nuts, combined with the right coun"
+  },
+  {
+   "name": "DAR CHOCOLATE",
+   "list_category": "Candy and Confections",
+   "location_stated": null,
+   "description_stated": "DAR is a boutique artisanal factory, meticulously crafting chocolate from selected flavor cacao. Driven by a commitment to quality and taste, we ethically source our cacao through direct connections w"
+  },
+  {
+   "name": "KB Candies",
+   "list_category": "Candy and Confections",
+   "location_stated": null,
+   "description_stated": "KB Candies is the married team of Kalynda and Brandon Grant. We put special attention and care into our gourmet toffee, hand stirring every batch to create our signature soft-crunch texture. And, all"
+  },
+  {
+   "name": "HellBound Sauces",
+   "list_category": "Condiment or Sauce",
+   "location_stated": null,
+   "description_stated": "HellBound Sauces is a Denver-based artisan hot sauce and BBQ seasoning brand built for people who care about real flavor, quality ingredients, and bold creativity. We craft small-batch hot sauces, bar"
+  },
+  {
+   "name": "KREAM Kimchi",
+   "list_category": "Condiment or Sauce",
+   "location_stated": null,
+   "description_stated": "KREAM Kimchi began as a project to share kimchi with friends during Covid. It's mom's kimchi recipe. It's made with love. KREAM started with traditional kimchi and has expanded to other types of kimch"
+  },
+  {
+   "name": "Lori The Dip Lady/ Gourmet Farms of Colorado",
+   "list_category": "Condiment or Sauce",
+   "location_stated": null,
+   "description_stated": "I have been selling my Gourmet Farms dip mixes as Lori The Dip Lady since 1996. There's no salt, no MSG, no gluten or sugar in my mixes (except for desserts which have sugar) and they are the real her"
+  },
+  {
+   "name": "Montañero Hot Sauce",
+   "list_category": "Condiment or Sauce",
+   "location_stated": null,
+   "description_stated": "Montañero traces its roots back to a Summit County mainstay, Angels Hollow. For 25 years, Angels Hollow welcomed hundreds of thousands of guests, each table topped with its signature house-made hot sa"
+  },
+  {
+   "name": "Mountain Jam",
+   "list_category": "Condiment or Sauce",
+   "location_stated": null,
+   "description_stated": "I saw jelly jams, and preservatives out of my Japanese Mini Truck that I’ve converted into a Jam van"
+  },
+  {
+   "name": "Pour Your Art Out",
+   "list_category": "Condiment or Sauce",
+   "location_stated": null,
+   "description_stated": "Pour Your Art Out is a locally owned Summit County, Colorado business dedicated to creating sustainable, earth-friendly goods. We handcraft our products using natural ingredients, including 100% pure"
+  },
+  {
+   "name": "Yummy Yummy Products",
+   "list_category": "Condiment or Sauce",
+   "location_stated": null,
+   "description_stated": "Yummy Yummy Products has introduced many Coloradans to a better way of eating hummus! By mixing unique flavors of hummus with fresh salads and chips, owners Elyes and Aziz have integrated their Tunisi"
+  },
+  {
+   "name": "Beezy’s Granola",
+   "list_category": "Packaged Food",
+   "location_stated": null,
+   "description_stated": "At Beezy’s Granola, we believe good food should fuel great adventures. Born in Louisville, Colorado, our family-owned company handcrafts small-batch granola with simple, wholesome ingredients and a wh"
+  },
+  {
+   "name": "Bliss IV Hydration",
+   "list_category": "Packaged Food",
+   "location_stated": null,
+   "description_stated": "Say hello to the Buzzy Line by Bliss Hydration 🐝 We’re always looking for ways to take your wellness to the next level—and now we’ve bottled that commitment into something special. Introducing Buzzy,"
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": "Packaged Food",
+   "location_stated": null,
+   "description_stated": "We are a small family run business with a passion for food, hospitality and authenticity. We believe there is no better way to spend time with family, get to know a new culture, or to make new friends"
+  },
+  {
+   "name": "Dip Into Life",
+   "list_category": "Packaged Food",
+   "location_stated": null,
+   "description_stated": "I sell all-natural, non GMO spice packs that can be used for marinades, rubs, dips or even baked goods! My spice mixes range from spicy to sweet"
+  },
+  {
+   "name": "Funk and Soul Foods",
+   "list_category": "Packaged Food",
+   "location_stated": null,
+   "description_stated": "Funk and Soul Foods provides locally preserved fruits and vegetables, promoting healthy life style and microbiological (gut) health."
+  },
+  {
+   "name": "Healthy Harvest Gardens LLC",
+   "list_category": "Packaged Food",
+   "location_stated": null,
+   "description_stated": "We build relationships directly with small family farms in Greece and Italy to supply authentic olive oil full of fresh flavor and powerful health benefits. Because we source from small single estates"
+  },
+  {
+   "name": "Pines' Nut Butter",
+   "list_category": "Packaged Food",
+   "location_stated": null,
+   "description_stated": "Pines' Nut Butter produces hand-crafted nut butters that are made fresh for every market! Whether you are looking for a plain peanut butter or something unique like honey pistachio butter - we got you"
+  },
+  {
+   "name": "Summit Pasta",
+   "list_category": "Packaged Food",
+   "location_stated": null,
+   "description_stated": "Handmade egg pasta made by a true Italian. Handmade lasagna made with homemade meat sauce, homemade besciamella sauce and of course, fresh pasta! Topped with Parmesan cheese to make it extra special!"
+  },
+  {
+   "name": "The Family Jones Distillery",
+   "list_category": "Wine or Spirit",
+   "location_stated": null,
+   "description_stated": "Our crafted line uses 100% local, family-farm grains grown using regenerative farming techniques, which helps the grains bolster more flavor. These spirits are rich, complex, and balanced. These spiri"
+  },
+  {
+   "name": "Homemade European Foods",
+   "list_category": "Ready to Eat Food (booth)",
+   "location_stated": null,
+   "description_stated": "Good Smile has been bringing our fun take on Homemade European Foods since 2024 and we are excited to make our way to your market!"
+  },
+  {
+   "name": "I.R. Chef",
+   "list_category": "Ready to Eat Food (booth)",
+   "location_stated": null,
+   "description_stated": "We sell all natural smoked salmon using no sugars or nitrates creating a perfect smoked salmon the whole family can enjoy. They are pieces to go home or fresh to order meals using gluten & dairy free"
+  },
+  {
+   "name": "The Argentos Empanadas",
+   "list_category": "Ready to Eat Food (booth)",
+   "location_stated": null,
+   "description_stated": "Legit Argentina's empanadas"
+  },
+  {
+   "name": "The Crêpe Outdoors",
+   "list_category": "Ready to Eat Food (booth)",
+   "location_stated": null,
+   "description_stated": "We purchased The Crêpe Outdoors from a French crêpe master 21/2 years ago and have enjoyed making this little business our own. Keeping the authenticity is very important to us, so our flours are impo"
+  },
+  {
+   "name": "Astro Coffee",
+   "list_category": "Ready to Eat Food (truck or cart)",
+   "location_stated": null,
+   "description_stated": "At Astro Coffee, our priority is to provide exceptional, locally sourced coffee while uplifting the community we call home. Rooted in Golden, we partner with a local Colorado coffee roaster to bring f"
+  },
+  {
+   "name": "Gyros Delish",
+   "list_category": "Ready to Eat Food (truck or cart)",
+   "location_stated": null,
+   "description_stated": "Traditional Greek food"
+  },
+  {
+   "name": "Kanto x Wasabi",
+   "list_category": "Ready to Eat Food (truck or cart)",
+   "location_stated": null,
+   "description_stated": "Kanto x Wasabi, where street heat meets precision. We bring together the smoky, soulful street flavors of Manila. Set high in the Colorado mountains, our chef driven fusion kitchen is where island mee"
+  },
+  {
+   "name": "Mountain Melt",
+   "list_category": "Ready to Eat Food (truck or cart)",
+   "location_stated": null,
+   "description_stated": "Mountain Melt is a locally female owned and run food truck in Summit County serving up the best grilled cheese sammies and tots in the county! We are known for taking your cheese experience to a highe"
+  },
+  {
+   "name": "The Good Stuff",
+   "list_category": "Ready to Eat Food (truck or cart)",
+   "location_stated": null,
+   "description_stated": "The Good Stuff is a food truck with truly all the good snacks and desserts. Soft serve ice cream treats, Kettle Corn, Frozen Cheesecake and Bananas. Shaved Ice and warm churros."
+  },
+  {
+   "name": "Afia CO Sharpening",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "We are a local knife, scissor, and garden tool sharpening business. We are fast and reasonably priced."
+  },
+  {
+   "name": "Americares - non profit",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "We are a non profit helping families with in state of Colorado that are impacted by wildfires. We help with food, shelter medical supplies and reuniting with pets. We also go to hot spots in Estes and"
+  },
+  {
+   "name": "CommonSpirit Health",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Common Spirit Tent"
+  },
+  {
+   "name": "Ember & Ice",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Ember & Ice is a mobile, nature-immersed sauna and cold plunge experience designed to bring deep relaxation, recovery, and connection wherever people gather. Blending the warmth of wood-fired sauna he"
+  },
+  {
+   "name": "Friends of the Dillon Ranger District",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Friends of the Dillon Ranger District is a nonprofit organization that preserves the local, National Forest through volunteer projects, environmental education and collaborative partnerships"
+  },
+  {
+   "name": "High Rockies Harm Reduction",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "High Rockies Harm Reduction is dedicated to reducing overdose deaths, the spread of disease, economic costs and other negative consequences of substance use in rural Colorado through the expansion of"
+  },
+  {
+   "name": "Kady’s Kollars",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Kady’s Kollars offers handmade dog collars that fit your xsmall-xlarge dogs. All collars are made with high quality, strong materials. Designs are unique, fun and there are so many to choose from."
+  },
+  {
+   "name": "Lifetime Home Remodeling",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "We help make your dream home a reality, with complete peace of mind."
+  },
+  {
+   "name": "MatchBox Candle Co.",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "MatchBox Candle Co. creates small-batch, hand-poured candles made with clean-burning wax and thoughtfully curated fragrances. Inspired by comfort, nostalgia, and everyday moments, each candle is desig"
+  },
+  {
+   "name": "Slifer Smith & Frampton",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "A collection of new condominums in downtown Dillon, CO"
+  },
+  {
+   "name": "Summit County Pet Food Pantry",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "The Summit County Pet Food Pantry is an all-volunteer 501c3 nonprofit organization committed to animal welfare. Our Mission aspires to preserve pets as part of families and help prevent surrendering p"
+  },
+  {
+   "name": "Summit Foundation",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "The Summit Foundation's Great Rubber Duck Race has been raising money and lifting lives for 38 years. Every dollar earned goes right back into our community through programs that make Summit County st"
+  },
+  {
+   "name": "Summit Historical Society",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "The Summit Historical Society, located in Dillon, Colorado, is a non-profit organization dedicated to preserving and promoting the rich cultural and historical heritage of Summit County. Established i"
+  },
+  {
+   "name": "Summit Valley Horse Center",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Stop by our information booth and learn about our mission: making the joy of human-horse connection possible for people of all ages and backgrounds, while giving rescued horses a second chance at life"
+  },
+  {
+   "name": "Sweet Jugs Sugar Shack",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Pure Michigan 100% Maple Syrup. Straight from the tree to the bottle."
+  },
+  {
+   "name": "The Rotary Club of Summit County, Inc.",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Summit County Rotary is a service organization whose members believe in \"Service Above Self\" with a passion to give back locally and globally. We \"Unite for Good\" and actively engage in a variety of h"
+  },
+  {
+   "name": "The Summit County Animal Shelter",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "The Summit County Animal Shelter booth will have information on resources for local and visiting pet owners, info on how to get involved and will also showcase adoptable pets."
+  },
+  {
+   "name": "Theatre SilCo",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Theatre SilCo is a professional theatre committed to enhancing the quality of life in Summit County and the Colorado Front Range by providing unique and accessible cultural experiences through the Per"
+  },
+  {
+   "name": "Town of Dillon",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "The Town of Dillon will host a Community Engagement Tent at this year’s Farmers Market! We’ll be partnering with local organizations to highlight community initiatives and share what’s happening aroun"
+  },
+  {
+   "name": "Unleash The Crunch",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Unleash the Crunch is a Colorado-based, small-batch dog treat company baking all-natural, preservative-free treats with real ingredients you can recognize. We focus on big crunch and even bigger flavo"
+  },
+  {
+   "name": "Wildsyde e bikes",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Fall in love with riding all over again with Wildsyde electric retro styled cruisers. Choose between our moto-inspired or bicycle-style eBikes, combining modern tech with timeless, vintage-design. It'"
+  },
+  {
+   "name": "Wisdom Tree llc",
+   "list_category": "Other: please explain below",
+   "location_stated": null,
+   "description_stated": "Rocks and Crystals for people and pets!"
+  }
+ ]
+}

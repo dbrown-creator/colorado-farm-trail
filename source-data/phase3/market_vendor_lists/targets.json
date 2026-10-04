@@ -1,0 +1,849 @@
+[
+ {
+  "slug": "city-of-edgewater-farmers-market-edgewater",
+  "name": "City of Edgewater Farmers Market",
+  "city": "Edgewater",
+  "website": "https://www.edgewaterco.com/",
+  "facebook": "https://www.facebook.com/cityofedgewatermarketandmusic/"
+ },
+ {
+  "slug": "city-park-farmers-market-denver",
+  "name": "City Park Farmers Market",
+  "city": "Denver",
+  "website": "https://www.cityparkfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/cityparkfarmersmarket/"
+ },
+ {
+  "slug": "colorado-farm-and-art-market-colorado-springs",
+  "name": "Colorado Farm and Art Market",
+  "city": "Colorado Springs",
+  "website": "https://www.farmandartmarket.com",
+  "facebook": "https://www.facebook.com/farmandartmarket"
+ },
+ {
+  "slug": "cortez-farmers-market-cortez",
+  "name": "Cortez Farmers Market",
+  "city": "Cortez",
+  "website": "https://www.cortezfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/groups/265957719169/"
+ },
+ {
+  "slug": "creede-farmers-local-artisan-and-antique-market-creede",
+  "name": "Creede Farmers, Local Artisan and Antique Market",
+  "city": "Creede",
+  "website": "https://creedefarmersmarket.com/",
+  "facebook": "https://www.facebook.com/creedefarmersmarket/"
+ },
+ {
+  "slug": "crested-butte-farmers-market-crested-butte",
+  "name": "Crested Butte Farmers Market",
+  "city": "Crested Butte",
+  "website": "https://www.cbfarmersmarket.org",
+  "facebook": "Crested Butte Farmers Market"
+ },
+ {
+  "slug": "crestone-farmers-market-crestone",
+  "name": "Crestone Farmers Market",
+  "city": "Crestone",
+  "website": "https://www.facebook.com/saturdaymarketcrestone",
+  "facebook": "https://www.facebook.com/saturdaymarketcrestone"
+ },
+ {
+  "slug": "delta-farmers-market-delta",
+  "name": "Delta Farmers Market",
+  "city": "Delta",
+  "website": "https://www.deltacofarmersmarket.com/home",
+  "facebook": "https://www.facebook.com/groups/246038845197062"
+ },
+ {
+  "slug": "dillon-farmers-market-dillon",
+  "name": "Dillon Farmers Market",
+  "city": "Dillon",
+  "website": "https://www.townofdillon.com/events/dillon-farmers-market",
+  "facebook": "https://www.facebook.com/dillonfarmersmarket"
+ },
+ {
+  "slug": "downtown-farmers-market-festival-grand-junction",
+  "name": "Downtown Farmers' Market Festival",
+  "city": "Grand Junction",
+  "website": "https://downtowngj.org/events/market-on-main/",
+  "facebook": "https://www.facebook.com/downtowngj"
+ },
+ {
+  "slug": "downtown-grand-junction-market-on-main-grand-junction",
+  "name": "Downtown Grand Junction Market on Main",
+  "city": "Grand Junction",
+  "website": "https://downtowngj.org/events/market-on-main/",
+  "facebook": "https://www.facebook.com/downtowngj"
+ },
+ {
+  "slug": "downtown-littleton-farmers-market-littleton",
+  "name": "Downtown Littleton Farmers Market",
+  "city": "Littleton",
+  "website": "https://thelocalcolorado.com/downtown-littleton-farmers-market/",
+  "facebook": ""
+ },
+ {
+  "slug": "downtown-mead-farmers-market-mead",
+  "name": "Downtown Mead Farmers' Market",
+  "city": "Mead",
+  "website": "https://www.townofmead.org/parksandrec/page/downtown-mead-farmers-market",
+  "facebook": "https://www.facebook.com/DMFM2017/"
+ },
+ {
+  "slug": "downtown-sunday-market-colorado-springs",
+  "name": "Downtown Sunday Market",
+  "city": "Colorado Springs",
+  "website": "http://www.downtowncs.com/experience-downtown/sunday-market-downtown.html",
+  "facebook": "https://www.facebook.com/profile.php?id=61574759233647"
+ },
+ {
+  "slug": "drake-road-farmers-market-fort-collins",
+  "name": "Drake Road Farmers Market",
+  "city": "Fort Collins",
+  "website": "http://www.drakeroadfarmersmarket.com",
+  "facebook": "http://www.facebook.com/pages/Drake-Road-Farmers-Market/86853613720"
+ },
+ {
+  "slug": "durango-farmers-market-durango",
+  "name": "Durango Farmers Market",
+  "city": "Durango",
+  "website": "https://www.durangofarmersmarket.com",
+  "facebook": "https://www.facebook.com/durangofarmersmarket"
+ },
+ {
+  "slug": "eagle-farmers-market-edwards",
+  "name": "Eagle Farmers Market",
+  "city": "Edwards",
+  "website": "https://www.eaglefarmersmarketandartshow.com/",
+  "facebook": "https://www.facebook.com/eaglefarmersmarketandartshow"
+ },
+ {
+  "slug": "edwards-corner-farmers-market-edwards",
+  "name": "Edwards Corner Farmers' Market",
+  "city": "Edwards",
+  "website": "http://edwardscornerfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/edwardsfarmersmarket/"
+ },
+ {
+  "slug": "erie-farmers-market-erie",
+  "name": "Erie Farmers Market",
+  "city": "Erie",
+  "website": "https://realfarmersmarketco.com/erie-farmers-market/",
+  "facebook": "https://www.facebook.com/eriesfarmersmarket/"
+ },
+ {
+  "slug": "evergreen-farmers-market-evergreen",
+  "name": "Evergreen Farmers Market",
+  "city": "Evergreen",
+  "website": "https://evergreenarts.org/cae/evergreen-farmers-market/",
+  "facebook": "https://www.facebook.com/farmersmarketevergreen/"
+ },
+ {
+  "slug": "evergreen-farmers-market-the-original-evergreen",
+  "name": "Evergreen Farmers Market THE ORIGINAL",
+  "city": "Evergreen",
+  "website": "https://www.coloradooutdoormarkets.com",
+  "facebook": ""
+ },
+ {
+  "slug": "farm-and-ranch-market-grand-junction",
+  "name": "Farm and Ranch Market",
+  "city": "Grand Junction",
+  "website": "https://www.farmmarketgj.com/",
+  "facebook": "https://www.facebook.com/GrandJunctionFarmandRanchMarket/"
+ },
+ {
+  "slug": "farmers-market-at-highlands-square-denver",
+  "name": "Farmers' Market at Highlands Square",
+  "city": "Denver",
+  "website": "https://thehighlandsfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/profile.php?id=100077076291644"
+ },
+ {
+  "slug": "feed-denver-urban-farms-markets-denver",
+  "name": "Feed Denver: Urban Farms & Markets",
+  "city": "Denver",
+  "website": "https://www.feeddenver.com/",
+  "facebook": "https://www.facebook.com/FeedDenver"
+ },
+ {
+  "slug": "florence-farmers-market-florence",
+  "name": "Florence Farmers Market",
+  "city": "Florence",
+  "website": "http://www.florencecoloradochamber.com/calendar",
+  "facebook": "https://www.facebook.com/MarketinFlorence/"
+ },
+ {
+  "slug": "fort-collins-farmers-market-fort-collins",
+  "name": "Fort Collins Farmers' Market",
+  "city": "Fort Collins",
+  "website": "https://www.fortcollinsfarmersmarket.org/",
+  "facebook": "https://www.facebook.com/fortcollinsfarmersmarket"
+ },
+ {
+  "slug": "fort-collins-winter-farmers-market-fort-collins",
+  "name": "Fort Collins Winter Farmers Market",
+  "city": "Fort Collins",
+  "website": "https://www.winterfarmersmarket.com/",
+  "facebook": "@fortcollinsmarkets"
+ },
+ {
+  "slug": "fort-morgan-farmers-market-fort-morgan",
+  "name": "Fort Morgan Farmers Market",
+  "city": "Fort Morgan",
+  "website": "https://www.theblock-mc.com/the-block-farmers-market",
+  "facebook": "https://www.facebook.com/theblockfortmorgan/"
+ },
+ {
+  "slug": "fountain-farmers-market-fountain",
+  "name": "Fountain Farmers Market",
+  "city": "Fountain",
+  "website": "http://localvorecolorado.com",
+  "facebook": ""
+ },
+ {
+  "slug": "four-seasons-farmers-and-artisans-market-wheat-ridge",
+  "name": "Four Seasons Farmers and Artisans Market",
+  "city": "Wheat Ridge",
+  "website": "http://www.fourseasonsfam.com",
+  "facebook": "http://www.facebook.com/fourseasonsfam"
+ },
+ {
+  "slug": "frederick-farmers-market-frederick",
+  "name": "Frederick Farmers Market",
+  "city": "Frederick",
+  "website": "https://www.frederickco.gov/241/Frederick-Market",
+  "facebook": "https://www.facebook.com/TownofFrederick"
+ },
+ {
+  "slug": "fruita-farmers-market-fruita",
+  "name": "Fruita Farmers' Market",
+  "city": "Fruita",
+  "website": "https://www.fruitachamber.org/events/farmers-market",
+  "facebook": "https://www.facebook.com/GoFruita/"
+ },
+ {
+  "slug": "glenwood-springs-downtown-market-on-7th-glenwood-springs",
+  "name": "Glenwood Springs Downtown Market on 7th",
+  "city": "Glenwood Springs",
+  "website": "https://www.glenwoodspringsdda.com/market-on-7th/",
+  "facebook": "https://www.facebook.com/DowntownGlenwoodSprings"
+ },
+ {
+  "slug": "gluten-free-farmers-market-englewood",
+  "name": "Gluten Free Farmers Market",
+  "city": "Englewood",
+  "website": "https://www.denverceliacs.org",
+  "facebook": "https://www.facebook.com/DenverCeliacs"
+ },
+ {
+  "slug": "golden-farmers-market-golden",
+  "name": "Golden Farmers Market",
+  "city": "Golden",
+  "website": "https://www.goldenfarmersmarket.org",
+  "facebook": "https://www.facebook.com/goldenfarmersmarket/"
+ },
+ {
+  "slug": "golden-triangle-farmers-market-denver",
+  "name": "Golden Triangle Farmers Market",
+  "city": "Denver",
+  "website": "https://goldentrianglefm.com",
+  "facebook": "https://www.facebook.com/goldentrianglefm/"
+ },
+ {
+  "slug": "granby-farmers-market-granby",
+  "name": "Granby Farmers Market",
+  "city": "Granby",
+  "website": "https://www.destinationgranby.com/events/music-market/",
+  "facebook": "https://www.facebook.com/VisitGranbyCO/"
+ },
+ {
+  "slug": "greeley-farmers-market-greeley",
+  "name": "Greeley Farmers Market",
+  "city": "Greeley",
+  "website": "https://greeleyco.gov/events/farmers-market/",
+  "facebook": "https://www.facebook.com/greeleyfarmersmarket/"
+ },
+ {
+  "slug": "greeley-winter-farmers-market-greeley",
+  "name": "Greeley Winter Farmers' Market",
+  "city": "Greeley",
+  "website": "https://greeleyco.gov/events/farmers-market/",
+  "facebook": "https://www.facebook.com/greeleyfarmersmarket/"
+ },
+ {
+  "slug": "green-vally-ranch-ne-denver-farmers-market-presented-by-grateful-garden-llc-denver",
+  "name": "Green Vally Ranch NE Denver Farmers Market (Presented by Grateful Garden llc)",
+  "city": "Denver",
+  "website": "https://Gvrfarmersmarket.com",
+  "facebook": "https://www.facebook.com/GVRFarmersMarket"
+ },
+ {
+  "slug": "gunnison-farmers-market-gunnison",
+  "name": "Gunnison Farmers Market",
+  "city": "Gunnison",
+  "website": "https://www.gunnisonfarmersmarket.org",
+  "facebook": "Gunnison Farmers Market"
+ },
+ {
+  "slug": "harvey-park-farmers-market-denver",
+  "name": "Harvey Park Farmers Market",
+  "city": "Denver",
+  "website": "https://www.harveyparkfarmersmarket.com",
+  "facebook": "https://www.facebook.com/profile.php?id=61574977833612"
+ },
+ {
+  "slug": "highland-farmers-market-denver",
+  "name": "Highland Farmers' Market",
+  "city": "Denver",
+  "website": "https://www.hobnobevents.com/",
+  "facebook": "https://www.facebook.com/DenverHighlandFarmersMarket/"
+ },
+ {
+  "slug": "highlands-ranch-farmers-market-highlands-ranch",
+  "name": "Highlands Ranch Farmers' Market",
+  "city": "Highlands Ranch",
+  "website": "https://www.denverfarmersmarket.com/index.html",
+  "facebook": "https://www.facebook.com/denverfarmersmarket"
+ },
+ {
+  "slug": "hoffmann-commercial-real-estate-farmers-market-avon",
+  "name": "Hoffmann Commercial Real Estate Farmers' Market",
+  "city": "Avon",
+  "website": "http://edwardsfarmersmarket.com/",
+  "facebook": ""
+ },
+ {
+  "slug": "idaho-springs-chamber-of-commerce-farmers-market-idaho-springs",
+  "name": "Idaho Springs Chamber Of Commerce Farmers Market",
+  "city": "Idaho Springs",
+  "website": "https://idaho-springs-chamber-of-commerce.square.site/",
+  "facebook": "https://www.facebook.com/idahospringschamber/"
+ },
+ {
+  "slug": "jax-farmer-s-market-in-lafayette-lafayette",
+  "name": "Jax Farmer's Market in Lafayette",
+  "city": "Lafayette",
+  "website": "http://farmersmarketlouis.com",
+  "facebook": "http://www.facebook.com/pages/Jax-Farmers-Market-in-Lafayette/128567847324639"
+ },
+ {
+  "slug": "la-veta-local-market-la-veta",
+  "name": "La Veta Local Market",
+  "city": "La Veta",
+  "website": "http://wahatoya.org/",
+  "facebook": "https://www.facebook.com/p/La-Veta-Farmers-Market-100081771473675/"
+ },
+ {
+  "slug": "lafayette-colorado-farmers-market-lafayette",
+  "name": "Lafayette Colorado Farmers Market",
+  "city": "Lafayette",
+  "website": "https://www.lafayettefm.com/",
+  "facebook": "https://www.facebook.com/p/Lafayette-Farmers-Market-61571202432615/"
+ },
+ {
+  "slug": "lakewood-farmers-market-denver",
+  "name": "Lakewood Farmers' Market",
+  "city": "Denver",
+  "website": "https://www.denverfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/denverfarmersmarket"
+ },
+ {
+  "slug": "landmark-greenwood-village-fresh-market-greenwood-village",
+  "name": "Landmark Greenwood Village Fresh Market",
+  "city": "Greenwood Village",
+  "website": "http://coloradofreshmarkets.com/markets/",
+  "facebook": "https://www.facebook.com/ColoradoFreshMarkets/"
+ },
+ {
+  "slug": "larimer-county-farmers-market-fort-collins",
+  "name": "Larimer County Farmers' Market",
+  "city": "Fort Collins",
+  "website": "https://www.larimer.gov/extension/larimer-county-farmers-market",
+  "facebook": "https://www.facebook.com/larimercountyfm"
+ },
+ {
+  "slug": "larimer-street-market-denver",
+  "name": "Larimer Street Market",
+  "city": "Denver",
+  "website": "http://www.LarimerStreetMarket.com",
+  "facebook": ""
+ },
+ {
+  "slug": "longmont-farmers-market-longmont",
+  "name": "Longmont Farmers Market",
+  "city": "Longmont",
+  "website": "https://bcfm.org/markets/longmont-farmers-market/",
+  "facebook": "https://www.facebook.com/LongmontFarmersMarket"
+ },
+ {
+  "slug": "louisville-farmers-market-louisville",
+  "name": "Louisville Farmers Market",
+  "city": "Louisville",
+  "website": "https://realfarmersmarketco.com",
+  "facebook": "https://www.facebook.com/LouisvilleFarmersMarket/"
+ },
+ {
+  "slug": "loveland-farmers-market-at-fairgrounds-park-loveland",
+  "name": "Loveland Farmers Market at Fairgrounds Park",
+  "city": "Loveland",
+  "website": "https://www.lovgov.org/services/parks-recreation/events/farmers-market",
+  "facebook": "https://www.facebook.com/CityofLovelandFarmersMarket/"
+ },
+ {
+  "slug": "loveland-farmers-market-loveland",
+  "name": "Loveland Farmers' Market",
+  "city": "Loveland",
+  "website": "https://www.fortnet.org/market",
+  "facebook": ""
+ },
+ {
+  "slug": "loveland-green-market-loveland",
+  "name": "Loveland Green Market",
+  "city": "Loveland",
+  "website": "http://www.fortnet.org/market/",
+  "facebook": ""
+ },
+ {
+  "slug": "lowry-farmers-market-denver",
+  "name": "Lowry Farmers' Market",
+  "city": "Denver",
+  "website": "http://www.hangar2lowry.com/farmers-market",
+  "facebook": ""
+ },
+ {
+  "slug": "lulu-s-farm-roadside-market-brighton",
+  "name": "Lulu's Farm Roadside Market",
+  "city": "Brighton",
+  "website": "http://lulusfarm.com",
+  "facebook": "https://www.facebook.com/Lulusfarm/"
+ },
+ {
+  "slug": "lyons-farmers-market-lyons",
+  "name": "Lyons Farmers Market",
+  "city": "Lyons",
+  "website": "https://fosterabundantspaces.com",
+  "facebook": ""
+ },
+ {
+  "slug": "lyons-outdoor-market-lyons",
+  "name": "Lyons Outdoor Market",
+  "city": "Lyons",
+  "website": "http://www.lyonsoutdoormarket.com",
+  "facebook": ""
+ },
+ {
+  "slug": "mancos-valley-farmers-market-mancos",
+  "name": "Mancos Valley Farmers Market",
+  "city": "Mancos",
+  "website": "https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/",
+  "facebook": "https://www.facebook.com/MancosValleyFarmersMarket"
+ },
+ {
+  "slug": "market-on-the-plaza-mountain-village",
+  "name": "Market on the Plaza",
+  "city": "Mountain Village",
+  "website": "https://www.marketontheplaza.com",
+  "facebook": "www.facebook.com/townofmountainvillage"
+ },
+ {
+  "slug": "memorial-park-farmers-market-colorado-springs",
+  "name": "Memorial Park Farmers' Market",
+  "city": "Colorado Springs",
+  "website": "http://springsbargains.com/colorado-springs-farmers-market-schedule/",
+  "facebook": ""
+ },
+ {
+  "slug": "mercadillo-en-el-rio-alamosa",
+  "name": "Mercadillo en el Rio",
+  "city": "Alamosa",
+  "website": "https://www.riograndefarmpark.org",
+  "facebook": "https://www.facebook.com/riograndefarmpark/"
+ },
+ {
+  "slug": "metro-denver-farmers-market-at-wheat-ridge-wheat-ridge",
+  "name": "Metro Denver Farmers' Market at Wheat Ridge",
+  "city": "Wheat Ridge",
+  "website": "http://www.denverfarmersmarket.com",
+  "facebook": "http://www.facebook.com/denverfarmersmarket"
+ },
+ {
+  "slug": "metro-denver-farmers-market-lakewood-lakewood",
+  "name": "Metro Denver Farmers' Market-Lakewood",
+  "city": "Lakewood",
+  "website": "http://www.denverfarmersmarket.com/index.html",
+  "facebook": ""
+ },
+ {
+  "slug": "minturn-market-minturn",
+  "name": "Minturn Market",
+  "city": "Minturn",
+  "website": "https://www.minturn.org",
+  "facebook": "https://www.facebook.com/minturnmarket/"
+ },
+ {
+  "slug": "monte-vista-farmers-market-monte-vista",
+  "name": "Monte Vista Farmers Market",
+  "city": "Monte Vista",
+  "website": "https://www.facebook.com/MonteVistaFarmersMarket",
+  "facebook": "https://www.facebook.com/MonteVistaFarmersMarket"
+ },
+ {
+  "slug": "montrose-farmers-market-montrose",
+  "name": "Montrose Farmers Market",
+  "city": "Montrose",
+  "website": "https://www.valleyfoodpartnership.org",
+  "facebook": "https://www.facebook.com/MontroseFarmersMarket"
+ },
+ {
+  "slug": "national-celiac-association-of-denver-denver",
+  "name": "National Celiac Association of Denver",
+  "city": "Denver",
+  "website": "https://www.denverceliacs.org",
+  "facebook": "https://www.facebook.com/DenverCeliacs"
+ },
+ {
+  "slug": "nederland-farmers-market-nederland",
+  "name": "Nederland Farmers Market",
+  "city": "Nederland",
+  "website": "https://www.nederlandfarmersmarket.org",
+  "facebook": "https://www.facebook.com/NederlandFarmersMarket"
+ },
+ {
+  "slug": "noco-virtual-farmers-market-fort-collins",
+  "name": "Noco Virtual Farmers Market",
+  "city": "Fort Collins",
+  "website": "https://www.nocovirtualfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/groups/499722194053286/"
+ },
+ {
+  "slug": "northern-colorado-winters-market-fort-collins",
+  "name": "Northern Colorado Winters Market",
+  "city": "Fort Collins",
+  "website": "https://www.belocalnc.org/",
+  "facebook": ""
+ },
+ {
+  "slug": "northfield-farmers-market-denver",
+  "name": "Northfield Farmers Market",
+  "city": "Denver",
+  "website": "https://www.stapletondenver.com/whats-happening/stapleton-farmers-market-every-sunday-36043",
+  "facebook": ""
+ },
+ {
+  "slug": "norwood-farm-and-craft-market-norwood",
+  "name": "Norwood Farm and Craft Market",
+  "city": "Norwood",
+  "website": "https://www.norwoodfarmmarket.org/",
+  "facebook": "https://www.facebook.com/Norwood-Farm-Craft-Market-349308959339/"
+ },
+ {
+  "slug": "old-colorado-city-farmers-market-colorado-springs",
+  "name": "Old Colorado City Farmers Market",
+  "city": "Colorado Springs",
+  "website": "https://www.pikespeakfarmersmarkets.com/",
+  "facebook": "https://www.facebook.com/OldColoradoCityFarmersMarket/"
+ },
+ {
+  "slug": "old-south-pearl-street-association-farmers-market-denver",
+  "name": "Old South Pearl Street Association - Farmers Market",
+  "city": "Denver",
+  "website": "https://southpearlstreet.com/farmers-market/",
+  "facebook": "https://www.facebook.com/SouthPearlStreet"
+ },
+ {
+  "slug": "orchard-farmers-market-westminster",
+  "name": "Orchard Farmers MArket",
+  "city": "Westminster",
+  "website": "https://www.orchardfarmersmarket.com",
+  "facebook": "Orchard Farmers Market"
+ },
+ {
+  "slug": "orchard-valley-farms-market-black-bridge-winery-paonia",
+  "name": "Orchard Valley Farms & Market.   Black Bridge Winery",
+  "city": "Paonia",
+  "website": "https://orchardvalleyfarms.com",
+  "facebook": "https://www.facebook.com/OrchardValleyFarms/"
+ },
+ {
+  "slug": "pagosa-farmers-market-pagosa-springs",
+  "name": "Pagosa Farmers Market",
+  "city": "Pagosa Springs",
+  "website": "https://www.pagosafarmersmarket.net/",
+  "facebook": "https://www.facebook.com/PagosaFarmersMarket/"
+ },
+ {
+  "slug": "pagosa-springs-farmers-market-pagosa-spgs",
+  "name": "Pagosa Springs Farmers Market",
+  "city": "Pagosa Spgs",
+  "website": "https://www.pagosafarmersmarket.net/",
+  "facebook": "https://www.facebook.com/PagosaFarmersMarket/"
+ },
+ {
+  "slug": "painted-prairie-open-air-markets-presented-by-grateful-garden-llc-aurora",
+  "name": "Painted Prairie Open Air Markets (Presented by Grateful Garden llc)",
+  "city": "Aurora",
+  "website": "https://gratefulgardenllc.com",
+  "facebook": "https://www.facebook.com/gratefulgardenllc"
+ },
+ {
+  "slug": "palisade-sunday-farmers-market-palisade",
+  "name": "Palisade Sunday Farmers' Market",
+  "city": "Palisade",
+  "website": "https://palisade.colorado.gov/sunday-farmers-market",
+  "facebook": "https://www.facebook.com/PalisadeFarmersMarket"
+ },
+ {
+  "slug": "parker-farmers-market-parker",
+  "name": "Parker Farmers Market",
+  "city": "Parker",
+  "website": "https://www.parkercolorado.net/parker-farmers-market-dates-and-time",
+  "facebook": "https://www.facebook.com/parkerfarmersmarket/"
+ },
+ {
+  "slug": "plateau-valley-farmers-market-collbran",
+  "name": "Plateau Valley Farmers Market",
+  "city": "Collbran",
+  "website": "https://www.collbrancongregationalchurch.org/events_collbran_congregational.html",
+  "facebook": "https://facebook.com/UnitedChurchofChrist"
+ },
+ {
+  "slug": "pueblo-farmers-market-pueblo",
+  "name": "Pueblo Farmers Market",
+  "city": "Pueblo",
+  "website": "https://pueblofarmersmarket.org",
+  "facebook": "https://www.facebook.com/PuebloFarmerMarket"
+ },
+ {
+  "slug": "pueblo-farmers-market-eastside-pop-ups-pueblo",
+  "name": "Pueblo Farmers Market Eastside Pop-ups",
+  "city": "Pueblo",
+  "website": "https://pueblofarmersmarket.org",
+  "facebook": "www.facebook.com/pueblofarmermarket"
+ },
+ {
+  "slug": "ridgway-farmers-market-ridgway",
+  "name": "Ridgway Farmers Market",
+  "city": "Ridgway",
+  "website": "https://www.ridgwayfarmersmarket.com",
+  "facebook": "https://www.facebook.com/RidgwayFarmersMarket"
+ },
+ {
+  "slug": "rifle-farmers-market-rifle",
+  "name": "Rifle Farmers Market",
+  "city": "Rifle",
+  "website": "https://riflefarmersmarket.com",
+  "facebook": "https://www.facebook.com/riflefarmersmarket?mibextid=LQQJ4d"
+ },
+ {
+  "slug": "rocky-mountain-indoor-farmers-market-fort-collins",
+  "name": "Rocky Mountain Indoor Farmers Market",
+  "city": "Fort Collins",
+  "website": "https://rockymountainfarmersmarket.com/",
+  "facebook": ""
+ },
+ {
+  "slug": "royal-gorge-farmers-market-ca-on-city",
+  "name": "Royal Gorge Farmers Market",
+  "city": "Ca\u00c3\u00b1on City",
+  "website": "https://www.royalgorgechamberalliance.org/royal-gorge-farmers-market/",
+  "facebook": "https://www.facebook.com/royalgorgefarmersmarket"
+ },
+ {
+  "slug": "royal-gorge-farmers-market-ca-on-city",
+  "name": "Royal Gorge Farmers Market",
+  "city": "Ca\u00f1on City",
+  "website": "https://www.royalgorgechamberalliance.org/royal-gorge-farmers-market/faceb",
+  "facebook": "https://www.facebook.com/royalgorgefarmersmarket"
+ },
+ {
+  "slug": "scanga-meat-company-salida",
+  "name": "Scanga Meat Company",
+  "city": "Salida",
+  "website": "http://www.scangameat.com/",
+  "facebook": ""
+ },
+ {
+  "slug": "south-fork-farmers-market-south-fork",
+  "name": "South Fork Farmers Market",
+  "city": "South Fork",
+  "website": "https://www.southfork.org/market-at-south-fork",
+  "facebook": "https://www.facebook.com/SouthForkCOFarmersMarket/"
+ },
+ {
+  "slug": "south-university-farmers-market-greenwood-village",
+  "name": "South University Farmers Market",
+  "city": "Greenwood Village",
+  "website": "https://southuniversityfarmersmarket.com",
+  "facebook": "https://www.facebook.com/SouthUniversityFridayFarmersMarket/"
+ },
+ {
+  "slug": "southlands-farmers-market-aurora",
+  "name": "Southlands Farmers' Market",
+  "city": "Aurora",
+  "website": "https://www.shopsouthlands.com/eventprograms/farmers-market/",
+  "facebook": "https://www.facebook.com/pages/Southlands-Farmers-Market/285277572341"
+ },
+ {
+  "slug": "southwest-plaza-farmers-market-littleton",
+  "name": "Southwest Plaza Farmers' Market",
+  "city": "Littleton",
+  "website": "https://www.denverfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/denverfarmersmarket"
+ },
+ {
+  "slug": "stapleton-farmers-market-denver",
+  "name": "Stapleton Farmers' Market",
+  "city": "Denver",
+  "website": "https://www.mca80238.com/programs/signature-events/summer-markets",
+  "facebook": ""
+ },
+ {
+  "slug": "sterling-ranch-farmers-market-littleton",
+  "name": "Sterling Ranch Farmers' Market",
+  "city": "Littleton",
+  "website": "https://www.denverfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/denverfarmersmarket"
+ },
+ {
+  "slug": "telluride-farmers-market-telluride",
+  "name": "Telluride Farmers' Market",
+  "city": "Telluride",
+  "website": "http://www.thetelluridefarmersmarket.com/",
+  "facebook": "https://www.facebook.com/thetelluridefarmersmarket/"
+ },
+ {
+  "slug": "the-arbol-farmers-market-paonia",
+  "name": "The Arbol Farmers Market",
+  "city": "Paonia",
+  "website": "https://thelearningcouncil.org",
+  "facebook": ""
+ },
+ {
+  "slug": "the-asian-palate-marketplace-catering-buena-vista",
+  "name": "The Asian Palate Marketplace & Catering",
+  "city": "Buena Vista",
+  "website": "https://www.theasianpalate.com",
+  "facebook": ""
+ },
+ {
+  "slug": "the-backyard-market-in-black-forest-colorado-springs",
+  "name": "The Backyard Market in Black Forest",
+  "city": "Colorado Springs",
+  "website": "https://thebackyardmarkets.com",
+  "facebook": "@backyardmarketinbf"
+ },
+ {
+  "slug": "the-community-market-at-naropa-boulder",
+  "name": "The Community Market at Naropa",
+  "city": "Boulder",
+  "website": "http://www.naropa.edu/campuslife/communitymarket.cfm",
+  "facebook": ""
+ },
+ {
+  "slug": "the-larkspur-farmers-market-larkspur",
+  "name": "The Larkspur Farmers Market",
+  "city": "Larkspur",
+  "website": "https://www.thelarkspurfarmersmarket.com",
+  "facebook": "The Larkspur Farmers Market"
+ },
+ {
+  "slug": "the-lettucehead-food-company-buena-vista",
+  "name": "The Lettucehead Food Company",
+  "city": "Buena Vista",
+  "website": "http://www.thelettucehead.com",
+  "facebook": ""
+ },
+ {
+  "slug": "the-saturday-market-at-tagawa-gardens-centennial",
+  "name": "The Saturday Market at Tagawa Gardens",
+  "city": "Centennial",
+  "website": "https://www.tagawagardens.com/",
+  "facebook": ""
+ },
+ {
+  "slug": "tiri-s-garden-farmers-market-denver",
+  "name": "Tiri's Garden Farmers Market",
+  "city": "Denver",
+  "website": "http://www.concertsforkids.org",
+  "facebook": ""
+ },
+ {
+  "slug": "town-of-windsor-windsor",
+  "name": "Town of Windsor",
+  "city": "Windsor",
+  "website": "https://www.recreationliveshere.com",
+  "facebook": ""
+ },
+ {
+  "slug": "trinidad-community-farmers-market-trinidad",
+  "name": "Trinidad Community Farmers Market",
+  "city": "Trinidad",
+  "website": "https://trinidadcofarmersmarket.com/",
+  "facebook": "https://www.facebook.com/TrinidadFarmersMktColorado"
+ },
+ {
+  "slug": "union-station-farmers-market-denver",
+  "name": "Union Station Farmers Market",
+  "city": "Denver",
+  "website": "https://unionstationfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/unionstationfarmersmarket/"
+ },
+ {
+  "slug": "urban-farmers-market-denver",
+  "name": "Urban Farmers' Market",
+  "city": "Denver",
+  "website": "http://urbanmarketdenver.com/",
+  "facebook": ""
+ },
+ {
+  "slug": "vail-farmers-market-vail",
+  "name": "Vail Farmers' Market",
+  "city": "Vail",
+  "website": "http://www.vailfarmersmarket.com/",
+  "facebook": "https://www.facebook.com/VailFarmersMarket"
+ },
+ {
+  "slug": "wellington-farmers-market-wellington",
+  "name": "Wellington Farmers Market",
+  "city": "Wellington",
+  "website": "http://www.wellingtoncofarmersmarket.org/",
+  "facebook": "https://www.facebook.com/wellingtoncofarmersmarket"
+ },
+ {
+  "slug": "westcliffe-farmers-market-westcliffe",
+  "name": "Westcliffe Farmers Market",
+  "city": "Westcliffe",
+  "website": "https://www.westcliffefarmersmarket.com/",
+  "facebook": "https://www.facebook.com/WestcliffeFarmersMarket"
+ },
+ {
+  "slug": "williams-family-markets-parker",
+  "name": "Williams Family Markets",
+  "city": "Parker",
+  "website": "https://thelocalcolorado.com/parker-farmers-market/",
+  "facebook": "https://www.facebook.com/parkerfarmersmarket/"
+ },
+ {
+  "slug": "wolf-creek-fresh-strasburg",
+  "name": "Wolf Creek Fresh",
+  "city": "Strasburg",
+  "website": "https://Www.wolfcreekfresh.com",
+  "facebook": "Wolf Creek Fresh"
+ },
+ {
+  "slug": "woodland-park-farmers-market-woodland-park",
+  "name": "Woodland Park Farmers Market",
+  "city": "Woodland Park",
+  "website": "https://wpfarmersmarket.com",
+  "facebook": "https://www.facebook.com/wpfarmersmarket"
+ },
+ {
+  "slug": "yampa-valley-foods-steamboat-springs",
+  "name": "Yampa Valley Foods",
+  "city": "Steamboat Springs",
+  "website": "https://communityagalliance.org/programs/valley-foods/",
+  "facebook": "https://www.facebook.com/AgAlliance/"
+ }
+]

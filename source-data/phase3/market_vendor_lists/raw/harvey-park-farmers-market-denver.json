@@ -1,0 +1,313 @@
+{
+ "slug": "harvey-park-farmers-market-denver",
+ "market": "Harvey Park Farmers Market",
+ "city": "Denver",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.harveyparkfarmersmarket.com/vendors",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "'2026 vendor team' page. Ready-to-eat heading sits in a separate block from its list, so category assignment for that group (Hopelands Coffee onward) is by page layout.",
+ "vendors": [
+  {
+   "name": "Big Day Farm",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Black Gold Family Farm",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Centennial Cuts",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ela Family Farms",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Five Freedoms Dairy",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fox Fungi",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Harvey Park Flowers",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Homestead in the Hood",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Peony Provisions Farm & Flower",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rebel Farm",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Skinny P Ranch",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Fleischer Family Farm",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Topp Fruits/Rancho Durazno",
+   "list_category": "Farmers, Ranchers, & Dairy",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Boulder Olive Oil Company",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Buck & Bloom Cheese Company",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cocinita Mexicana",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cultura Chocolate",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Denver Pops",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Doughology",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Full Stop. Bakery",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Get Right’s Bakery",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hearth Bakery",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hummus Capara",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Know Your Roots Pickles",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KREAM Kimchi",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lemonade Daydream",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Magia Botánica",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mamas Peri Peri",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MisoHeat",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MUNBUN",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nabo Bakehouse",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "not bad cooks",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ray Road Nut Butter",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Send Flours Baking Co.",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sfoglina",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Three Kings Non Alcoholic Beverages",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WKND Bake",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Yummy Lotus",
+   "list_category": "Specialty & Pre-Packaged Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hopelands Coffee",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Luhu’s Kitchen",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MAC MAC",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Migas Coffee/Hollow Coffee",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "New Friends Breakfast Sandwiches",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Paborito",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pupusas Familia",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "R&R’s Texas Tacos & BBQ",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Séllé Dibiterie",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Taco Bella",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Crêpe Outdoors",
+   "list_category": "Ready-to-Eat Food",
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

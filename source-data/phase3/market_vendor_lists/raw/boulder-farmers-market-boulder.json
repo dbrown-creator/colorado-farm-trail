@@ -1,0 +1,559 @@
+{
+ "slug": "boulder-farmers-market-boulder",
+ "market": "Boulder Farmers Market",
+ "city": "Boulder",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://bcfm.org/vendors/meet-our-vendors/",
+ "list_season": "2025",
+ "site_status": "live",
+ "notes": "STALE: page text says it lists full-time vendors for the 2025 season; no 2026 list found and no Canva link present in the fetched HTML. List covers all BCFM markets (BSAT=Boulder Sat, BWED=Boulder Wed, LSAT=Longmont Sat, Online); only the 91 unique vendors tagged BSAT and/or BWED are captured, grouped by the page's section headings (Food Hub repeats de-duplicated). Page has 202 entries (171 unique) incl. Longmont-only and online-only vendors, not captured.",
+ "vendors": [
+  {
+   "name": "Aspen Moon Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Hygiene, CO, Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Belafonte Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Fort Collins, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Black Cat Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Croft Family Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Kersey, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Eden Valley Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Loveland, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Ela Family Farms",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Hotchkiss, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Fifer Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "First Fruits Organic Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Paonia, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Front Range Flower Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Berthoud, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Hazel Dell Mushrooms",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Fort Collins, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Joy Botanicals",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Lyons, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Kiowa Valley Organics",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Roggen, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Little Hollow Flowers",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Berthoud, CO",
+   "description_stated": null
+  },
+  {
+   "name": "MASA Seed Foundation",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Miller Farms",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Platteville, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Monroe Family Farms",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Kersey, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Morton's Organic Orchards",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Palisade, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Mother Mycelium",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Broomfield, CO",
+   "description_stated": null
+  },
+  {
+   "name": "MycoCosm Mushroom Company",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Broomfield, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Off Beet Farm",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Rancho Durazno",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Palisade, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Rocky Mountain Fresh",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Rocky Mountain Superfoods",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Simply Fresh Microgreens",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Broomfield, CO",
+   "description_stated": null
+  },
+  {
+   "name": "The Fresh Herb Company",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "The Stone Fruit Company",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Palisade, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Toohey & Sons Organic",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Hygiene, CO",
+   "description_stated": null
+  },
+  {
+   "name": "WeeBee Farms",
+   "list_category": "Produce Farms, Flowers, and Plants",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Buck and Bloom Cheese Co.",
+   "list_category": "Meat, Dairy, Eggs",
+   "location_stated": "Buena Vista, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Grama Grass & Livestock",
+   "list_category": "Meat, Dairy, Eggs",
+   "location_stated": "Boulder, CO, Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Homestead Ranch",
+   "list_category": "Meat, Dairy, Eggs",
+   "location_stated": "Greeley, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Lazy Acres Ranch",
+   "list_category": "Meat, Dairy, Eggs",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Memphis Bison Ranch",
+   "list_category": "Meat, Dairy, Eggs",
+   "location_stated": "Carr, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Miraflora Wagyu",
+   "list_category": "Meat, Dairy, Eggs",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Wisdom Natural Poultry",
+   "list_category": "Meat, Dairy, Eggs",
+   "location_stated": "Haxtun, CO",
+   "description_stated": null
+  },
+  {
+   "name": "47 Bakery",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Thornton, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Amaizing Corn Tamales",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Best French Cookies",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Best One Yet Vegan",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Boujee Biscuit",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Cafe Fritz",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Hygiene, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Denver Pops",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Izzio Artisan Bakery",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Louisville, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Lenin Wood Fired Pizza",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Lafayette, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Moon Raccoon Baking Co.",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Pupusas Familia",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Rang Tang Craft Barbecue",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Rice & Shine Paella",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Savory Saigon",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Superior, CO",
+   "description_stated": null
+  },
+  {
+   "name": "SouperStar",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "SukNuh Catering",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Sunflower Foods",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Arvada, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Tacos del Norte",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "The Orange Tent",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Verb Coffee Roasters",
+   "list_category": "Prepared Food & Drink",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Eldorado Springs Water",
+   "list_category": "Specialty, Services, and Subscriptions",
+   "location_stated": "Louisville, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Johnson's Sharpening",
+   "list_category": "Specialty, Services, and Subscriptions",
+   "location_stated": "Lafayette, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Bean Boy Foods",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Bibamba Artisan Chocolate",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Bjorn's Colorado Honey",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Boulder Broth",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO, Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Boulder Valley Honey",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Chiporro Sauce Company",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Cocktail Caravan",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Ferment Culture",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Fort Collins, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Green Belly Foods",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Green Yams",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Hävenly Baked Goods",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO, Englewood, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Haykin Family Cider",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Aurora, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Healthy Harvest",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Golden, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Heaven's Choice Popcorn",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Loveland, CO",
+   "description_stated": null
+  },
+  {
+   "name": "I Love HeartBeets",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Kinship Bread",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Know Your Roots",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "La Esmeralda's",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Greeley, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Little House of Tempeh",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Fort Collins, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Girl Pickles",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "On Tap Kitchen",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Lafayette, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Outrageous Baking",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "OverAchieving Tea",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Pappardelle's Pasta",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Porcellino Artisanal Meats",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Denver, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Ray Road Nut Butter",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Rev Kombucha",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Silver Canyon Coffee",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Spark and Honey",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "State 38 Distilling",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Golden, CO",
+   "description_stated": null
+  },
+  {
+   "name": "The Good Juice Co.",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Boulder, CO",
+   "description_stated": null
+  },
+  {
+   "name": "The Happy Pickle Company of Boulder Colorado",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Longmont, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Yummy Yummy Products",
+   "list_category": "Packaged Food, Drink, and Honey",
+   "location_stated": "Denver, CO, Thornton, CO",
+   "description_stated": null
+  }
+ ]
+}

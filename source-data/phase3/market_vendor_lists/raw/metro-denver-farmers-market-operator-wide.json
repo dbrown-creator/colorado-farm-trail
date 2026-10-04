@@ -1,0 +1,217 @@
+{
+ "slug": "metro-denver-farmers-market-operator-wide",
+ "market": "Metro Denver Farmers' Market (all locations)",
+ "city": "Denver metro",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://denverfarmersmarket.com/mdfm-legends/",
+ "list_season": null,
+ "site_status": "live",
+ "notes": "Operator-wide 'MDFM Legends' page (long-time vendors) covering Sterling Ranch, Southwest Plaza, Lakewood and Highlands Ranch; not tied to any one location. Consolidated from the Highlands Ranch and Lakewood captures.",
+ "vendors": [
+  {
+   "name": "Ant D’s Fine Foods Produce",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Produce"
+  },
+  {
+   "name": "Avanti Winery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Colorado Wine"
+  },
+  {
+   "name": "Baba & Pop’s Handmade Pierogi",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Pierogi"
+  },
+  {
+   "name": "Bavarian Sausage Express",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Sausages"
+  },
+  {
+   "name": "Brad B Jammin",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Jams"
+  },
+  {
+   "name": "Cream City Market Cheese Curds",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Wisconsin Cheese Curds"
+  },
+  {
+   "name": "Dippies.com",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Dips"
+  },
+  {
+   "name": "DiRenzo Creations and Gallery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Nuwati Herbals"
+  },
+  {
+   "name": "Domenico Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Organic Farmer"
+  },
+  {
+   "name": "Forte Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Produce"
+  },
+  {
+   "name": "High Country Products, Inc.",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Water Bottles & Socks"
+  },
+  {
+   "name": "Hungry Gene, LLC.",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Spices"
+  },
+  {
+   "name": "J & J Salsa",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Salsa"
+  },
+  {
+   "name": "Juice Plus Susan",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Supplements"
+  },
+  {
+   "name": "Justin Matott Childrens Books",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Children’s Books"
+  },
+  {
+   "name": "Koglers Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Quiches"
+  },
+  {
+   "name": "Little Kettle Popcorn",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Popcorn"
+  },
+  {
+   "name": "LuLaRoe",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Clothing"
+  },
+  {
+   "name": "Mama Montoya",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Chili Sauce"
+  },
+  {
+   "name": "Martindale Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Farmer"
+  },
+  {
+   "name": "Mazzotti Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Farmer"
+  },
+  {
+   "name": "Mikel’s Sharpening",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Sharpening"
+  },
+  {
+   "name": "Mumm Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Farmer"
+  },
+  {
+   "name": "New Era Distributing",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Baskets & Scarf’s"
+  },
+  {
+   "name": "Pawfee Pups",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Dog Treats"
+  },
+  {
+   "name": "Royal Crest Dairy 2020",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Milk Delivery"
+  },
+  {
+   "name": "Shinkle Chic Boutique LuLaRoe",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Clothing"
+  },
+  {
+   "name": "Snow Creek Ranch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Beef"
+  },
+  {
+   "name": "Styria Bakery II",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Bakery"
+  },
+  {
+   "name": "Sweet Almande",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Nuts"
+  },
+  {
+   "name": "Tales & Legends for Reluctant Readers",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Books"
+  },
+  {
+   "name": "Taspen Organics",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Skin Care"
+  },
+  {
+   "name": "TruBucha Kombucha",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Tea"
+  },
+  {
+   "name": "Wild Alaskan Seafood",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Seafood & Pasta"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "slug": "delta-farmers-market-delta",
+ "market": "Delta Farmers Market",
+ "city": "Delta",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "no",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "live",
+ "notes": "Homepage shows only a strip of 6 featured vendor names (Barajas Dream Orchard, Twilight Coffee Roasters, McBees Farm, JAB Plants, smittyslittlefarm, DaizyMarieCreates) with no full list; not treated as a list.",
+ "vendors": []
+}

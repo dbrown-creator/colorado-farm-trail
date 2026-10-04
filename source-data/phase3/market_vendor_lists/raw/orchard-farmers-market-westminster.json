@@ -1,0 +1,337 @@
+{
+ "slug": "orchard-farmers-market-westminster",
+ "market": "Orchard Farmers Market",
+ "city": "Westminster",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://orchardfarmersmarket.com/sunday-farmers-market/",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "\"Our 2026 lineup\" on the Sunday Farmers Market page; page says vendor participation varies each week. Names kept as written (some lowercase).",
+ "vendors": [
+  {
+   "name": "AJ's Roasted Chilis",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "It wouldn’t be a farmers market without roasted green chilis!!"
+  },
+  {
+   "name": "Bamber beef ranch",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Grass fed, locally raised beef."
+  },
+  {
+   "name": "Bjorns Colorado Honey",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Small batch local honey and honey products like CBD honey, beeswax and propolis."
+  },
+  {
+   "name": "Colorado Fresh Connect Produce",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Delicious fresh in-season produce such as tomatoes, greens, herbs, lettuce, and more!"
+  },
+  {
+   "name": "Fox Fungi",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Speciality and gourmet mushrooms, powders, supplements and more!"
+  },
+  {
+   "name": "Golden Pastures Regenerative Farms",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Local farm featuring non-GMO rainbow eggs, fresh herbs and in-season veggies!"
+  },
+  {
+   "name": "longmont dairy",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Longmont Dairy Farm delivers fresh milk and other products directly to homes along the Front Range. They are a family owned and operated business dedicated to providing great milk, from our cows to ou"
+  },
+  {
+   "name": "Marlene's Garden",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Handmade jams and jellies, plant starts and in-season tomatoes and peppers."
+  },
+  {
+   "name": "Miller Farms",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Family owned and operated since 1949, the Miller Family Farm provides incredibly fresh, local vegetables and fruits at the peak of their season."
+  },
+  {
+   "name": "palisade peach shack",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "It’s always summertime with Palisade Peach Shack! With over 80 acres of peaches, cherries, apricots, nectarines, plums, pears, and apples, you’ll find many favorites each week!"
+  },
+  {
+   "name": "simply fresh microgreens",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Simply Fresh Microgreens is an indoor urban farm located in Broomfield, Colorado."
+  },
+  {
+   "name": "Big Dog Bakery",
+   "list_category": "baked goods",
+   "location_stated": null,
+   "description_stated": "Fresh sourdough loaves and specialty baked goods."
+  },
+  {
+   "name": "cake pops by Judy",
+   "list_category": "baked goods",
+   "location_stated": null,
+   "description_stated": "Handmade cake pops and sweet treats."
+  },
+  {
+   "name": "Italian cookie co",
+   "list_category": "baked goods",
+   "location_stated": null,
+   "description_stated": "A taste of the old world featuring specialty Italian cookies."
+  },
+  {
+   "name": "Styria bakery II",
+   "list_category": "baked goods",
+   "location_stated": null,
+   "description_stated": "A Taste of the Alps! This bakery features delicious savory traditional breads as well as pastries, pretzels, scones and turnovers!"
+  },
+  {
+   "name": "The perfect crumb",
+   "list_category": "baked goods",
+   "location_stated": null,
+   "description_stated": "A cottage bakery specializing in sourdough breads, cookies, brownies, English muffins, bagels and more!"
+  },
+  {
+   "name": "wakery bakery",
+   "list_category": "baked goods",
+   "location_stated": null,
+   "description_stated": "Delicious gluten free baked goods!"
+  },
+  {
+   "name": "AlcheMeats",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Gourmet seasonings and spices."
+  },
+  {
+   "name": "bubbly bevvies",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Customizable dirty sodas out of a camper!"
+  },
+  {
+   "name": "egg belly food truck",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Asian Mexican Fusion offering breakfast, Bahn mi tacos, pho burritos and mom’s famous pork egg rolls!"
+  },
+  {
+   "name": "farm to tail pet co.",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Freeze dried dog treats."
+  },
+  {
+   "name": "feelin' fresca",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Serving up traditional aguas fresca which is a traditional Mexican beverage featuring one more more fruits, flowers, seeds, or cereals. YUM!"
+  },
+  {
+   "name": "Fioranto Acai Bowls and Freshly Squeezed Lemonade",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Customizable acai bowls, crepes and fresh lemonade."
+  },
+  {
+   "name": "hal's coffee",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Coffee, tea, chai, matcha, Italian sodas and smoothies!"
+  },
+  {
+   "name": "J&J Gourmet Salsa, Burritos and Tamales",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "A farmers market staple featuring homemade burritos, tortillas, tamales, fresh and canned salsa and more!"
+  },
+  {
+   "name": "Jackson's black dog coffee",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Small, local coffee roaster offering specialty whole bean and ground coffees."
+  },
+  {
+   "name": "Mahia coffee and bakery",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Mobile coffee shop and pasteries."
+  },
+  {
+   "name": "mile-hi provisions",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Delicious shelf-stable goods like salsa, pickled vegetables, and preserves."
+  },
+  {
+   "name": "mile high Spice Company",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Gourmet spice blends"
+  },
+  {
+   "name": "pagochea Caribbean hot sauce",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Delivering a taste of the Caribbean in a variety of hot sauces, you’ll be adding this new favorite to everything!"
+  },
+  {
+   "name": "six grill jerky and Food Truck",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Delicious New Mexican inspired cuisine and jerky featuring red and green chili spices as well as other traditional jerky options!"
+  },
+  {
+   "name": "tamales lady",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Gourmet tamales frozen and ready to heat and eat."
+  },
+  {
+   "name": "the happy pickle company",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Gourmet pickles and kimchi."
+  },
+  {
+   "name": "5280 Mermaid",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Dry drink mixers, cocktail infusion kits, soup kits and more."
+  },
+  {
+   "name": "azalea Engraving",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Handmade cutting boards and signs."
+  },
+  {
+   "name": "Buffalo Squared Designs",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Handmade jewelry and candles from a mother-daughter team."
+  },
+  {
+   "name": "chiropractic works north",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Local chiropractor offering on site assessment and more."
+  },
+  {
+   "name": "Kjell Knife Sharpening",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "On-site knife sharpening services! Bring your kitchen knives in for a tune-up."
+  },
+  {
+   "name": "kp clay ltd",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Functional stoneware ceramics such as mugs, bowls, dishes, planters and more."
+  },
+  {
+   "name": "Leanna Organics",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "An Orchard Town Center tenant with fabulous self care products featuring CBD bath bombs, hemp creams and soaps."
+  },
+  {
+   "name": "Lilac Reverie",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Handmade soaps and lotions."
+  },
+  {
+   "name": "Lindsey Reid Handmade Blankets and Quilts",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Wrapped in love…these handmade, incredibly soft blankets come in a variety of sizes. For each one purchased, one is donated to the Children’s Hospital PICU."
+  },
+  {
+   "name": "LulaRoe Clothing",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "A popular clothing brand, you’ll find comfortable, colorful and stylish options!"
+  },
+  {
+   "name": "magnificent garden",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "All purpose plant food for vibrant healthy plants."
+  },
+  {
+   "name": "mia bella's candles",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "This vendor features a wide variety of delicious smelling candles."
+  },
+  {
+   "name": "momma's suds and Body love",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Handmade soaps, scrubs, body butters and more!"
+  },
+  {
+   "name": "pampered chef",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Popular cookware, bakeware, kitchen tools and so much more!"
+  },
+  {
+   "name": "rendered tranquility",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Tallow based body care products such as lotions, body butter, soaps and bath bombs"
+  },
+  {
+   "name": "Rocky Mountain Puzzles",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "A fun variety of colorful puzzles for all ages."
+  },
+  {
+   "name": "Rooster's roll and stitch",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Handmade crochet, hand painted cards as well as a few surprise baked goods too!"
+  },
+  {
+   "name": "sirens shelf",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Books and book-lover gift items!"
+  },
+  {
+   "name": "Solani Jewelry bar",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Permanent jewelry and bling you never have to remember to take off or put on!"
+  },
+  {
+   "name": "Sprinkle spa/Pink zebra",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Offering home fragrance in candles and room scents!"
+  },
+  {
+   "name": "wrap it",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Handmade dog items such as seasonal bandanas and more!"
+  }
+ ]
+}

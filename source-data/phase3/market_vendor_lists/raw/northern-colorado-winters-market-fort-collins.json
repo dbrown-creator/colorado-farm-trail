@@ -1,0 +1,12 @@
+{
+ "slug": "northern-colorado-winters-market-fort-collins",
+ "market": "Northern Colorado Winters Market",
+ "city": "Fort Collins",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "dead",
+ "notes": "belocalnc.org connections reset and the TLS certificate belongs to a different host; site appears lapsed.",
+ "vendors": []
+}

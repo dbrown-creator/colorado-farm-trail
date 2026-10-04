@@ -1,0 +1,12 @@
+{
+ "slug": "rifle-farmers-market-rifle",
+ "market": "Rifle Farmers Market",
+ "city": "Rifle",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "no",
+ "vendor_list_url": "https://riflefarmersmarket.com/vendors/",
+ "list_season": null,
+ "site_status": "live",
+ "notes": "Vendors page has only application info and vendor categories; no named vendors.",
+ "vendors": []
+}

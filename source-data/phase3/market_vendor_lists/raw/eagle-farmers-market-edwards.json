@@ -1,0 +1,139 @@
+{
+ "slug": "eagle-farmers-market-edwards",
+ "market": "Eagle Farmers Market",
+ "city": "Edwards",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.eaglefarmersmarketandartshow.com/2024-vendors",
+ "list_season": "2024",
+ "site_status": "live",
+ "notes": "Stale: the only vendor page is titled '2024 Vendors' and the homepage still shows the 2024 season (June 22-Sept 28). Names are in uppercase as shown.",
+ "vendors": [
+  {
+   "name": "BEACH YOGA LOVE",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BLACK CAT BLOSSOMS",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CAT SCHMITZ ART",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DESSERT LAB CO",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "FLOUR POWER",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "GULA WELLNESS",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "JUNIPERS EVE LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KOGLER'S BAKERY",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LA MONTAGNE DES SAVEURS",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LIFETIME WINDOWS & SIDING",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LOREDANAS",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MTN GARFIELD FARM",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MYSTICAL WONDERS",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PASTATIVELY",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SOFRA TEXTILES",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SPINNIN' SAMMIES",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "STAR LUX JEWELS",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "THE STONE FRUIT COMPANY LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "THE WHOLE EMPANADA",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TRANCEPLANT MEDICINIALS",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "VAIL MEAT CO",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

@@ -1,0 +1,457 @@
+{
+ "slug": "yampa-valley-foods-steamboat-springs",
+ "market": "Yampa Valley Foods",
+ "city": "Steamboat Springs",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://communityagalliance.org/producer-directory/",
+ "list_season": null,
+ "site_status": "live",
+ "notes": "Community Agricultural Alliance Producer Directory (Yampa Valley Foods program); lists local producers with location and bios; list_category is the directory tag where given. Not a single market; season not stated.",
+ "vendors": [
+  {
+   "name": "4M Ranch",
+   "list_category": "Meat, Beef, Grass Fed & Finished",
+   "location_stated": "Meeker, CO",
+   "description_stated": "The 4M Ranch is an Audubon Certified Ranch, using holistic management practices to produce grass fed and finished beef. We offer a high-quality product that you will be proud to have on your table."
+  },
+  {
+   "name": "5K Ranch",
+   "list_category": "Meat, Beef, Wagyu, Grass Fed & Finished",
+   "location_stated": "Clark, CO",
+   "description_stated": "5K Ranch is owned and operated by Mona and Jon Gibson and their 5 Kids. We are committed to raising animals in a stress free environment and use the most sustainable methods we can. Our beef tastes de"
+  },
+  {
+   "name": "Alpenglow Wicks Candles",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Alpenglow Wicks Candles are hand-poured with love in the heart of Steamboat Springs. Our candles are made using 100% soy wax and eco-friendly practices, ensuring a clean and long-lasting burn."
+  },
+  {
+   "name": "Alpine Bee",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Alpine Bee is a family owned & operated business focused on all-natural beeswax products including candles and wax melts scented with phthalate & GMO-free scent ingredients. We also offer organic seas"
+  },
+  {
+   "name": "Aspen Botanicals",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Aspen Botanicals is your local Community Apothecary specializing in medicinal herbs and wellness products. All ingredients are ethically sourced and crafted with care to support health and harmony."
+  },
+  {
+   "name": "Aspenleaf Microgreens Farm",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": null
+  },
+  {
+   "name": "BAR-U-EAT",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Organic Energy Bars (Gluten Free, Oil Free, Compostable packaging)"
+  },
+  {
+   "name": "Bear River Apiary",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Bears Ears Ranch",
+   "list_category": null,
+   "location_stated": "Hayden, CO",
+   "description_stated": "Owning this ranch is the achievement of my childhood dream to be a rancher. My idea of what it means to ranch has evolved over the last 20 years living in Steamboat. After working on other ranches in "
+  },
+  {
+   "name": "Bee Grateful Farm",
+   "list_category": null,
+   "location_stated": "Oak Creek, CO",
+   "description_stated": "For the love of honey and the bees… At Bee Grateful Farm we are passionate about honey and the bees. We started beekeeping 6 years ago and since then have fallen in love with not only honey but our po"
+  },
+  {
+   "name": "Buffalo Pass Farm",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Spring, Summer and Fall Vegetables from leafy greens to tomatoes"
+  },
+  {
+   "name": "Cooking Until the Cows Come Home",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Hi! My name is Cara Iacovetto. I live on Saddleback Ranch in Steamboat Springs with my husband and two beautiful daughters. “Cooking Until the Cows Come Home” is all about my life on the ranch, my pas"
+  },
+  {
+   "name": "Crafty Bench",
+   "list_category": null,
+   "location_stated": "Yampa, CO",
+   "description_stated": "My name is Roz Rogers, Crafty Bench. We are a small home=based jam and pickling business in Yampa where old-fashioned skills from our grandparents are carried on and we do our best to offer unique foo"
+  },
+  {
+   "name": "Duzik Livestock",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Lamb"
+  },
+  {
+   "name": "Electric Microgreens",
+   "list_category": null,
+   "location_stated": "Oak Creek, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Elk Mountain Ranch",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Eggs and vegetables"
+  },
+  {
+   "name": "Elk River Custom Meats",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Elk River Livestock",
+   "list_category": null,
+   "location_stated": "Clark, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Elkhead Creek Ranch (Yampa Valley Wagyu, Shadow Laine Farm)",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Elkhead Creek Ranch is Family owned and operated by Tim and Laine O’Neal and their three sons. Sitting above Elkhead Creek, below Elkhead Reservoir, on the border of Moffat/ Routt Counties, our 131 ac"
+  },
+  {
+   "name": "Elkstone Farm",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Elkstone Farm is a permaculture-inspired farm located in Strawberry Park, Steamboat Springs. We use sustainable practices to build the health of our soil and, in turn, raise healthy, flavorful fruits,"
+  },
+  {
+   "name": "Garden Goddess Creations",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Garden Goddess Creations is a farmer florist offering specialty cut flowers in the heart of Steamboat Springs, Colorado. Grown on less than 1/8 acre, loose, wild garden style bouquets are available at"
+  },
+  {
+   "name": "Good Vibes River Gear",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Good Vibes River Gear is a small manufacturing business in the Yampa Valley. We sew custom unique gear for rafting, camping, and everyday use. We make reusable grocery bags that are helping to elimina"
+  },
+  {
+   "name": "Great Northwest Caramel Corn Company",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Caramel Corn – Cottage Foods"
+  },
+  {
+   "name": "Gunner Dog Treats / Kathy's Country Honey",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Gunner Dog Treats is a home-based small business founded on a passion for pets, especially Ole Gunner Dog. Gunner was a big yellow lab full of mischief, loved to hunt and lived a wonderful life in Nor"
+  },
+  {
+   "name": "Hayden Fresh Farm",
+   "list_category": null,
+   "location_stated": "Hayden, CO",
+   "description_stated": "Pork, poultry, eggs, and pet products"
+  },
+  {
+   "name": "Home Ranch Livestock",
+   "list_category": null,
+   "location_stated": "Clark, CO",
+   "description_stated": "Grass-finished American Wagyu, individual cuts and shares"
+  },
+  {
+   "name": "Iacovetto Girl's Poultry",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Poultry"
+  },
+  {
+   "name": "IHS Farms",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Fresh vegetables"
+  },
+  {
+   "name": "Island Time Cookies",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Allergy-friendly sweet treats"
+  },
+  {
+   "name": "Isaac's Amazing",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Hot sauce"
+  },
+  {
+   "name": "J & J's Honey",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Honey"
+  },
+  {
+   "name": "Jolly Ranch",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Pork and beef products"
+  },
+  {
+   "name": "Kanyini Farm",
+   "list_category": null,
+   "location_stated": "Hayden, CO",
+   "description_stated": "Tomatoes, cut flowers, veggies"
+  },
+  {
+   "name": "Kate's Garden Pantry",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Cottage foods: jams, jellies, pickled beets"
+  },
+  {
+   "name": "Latigo Ranch",
+   "list_category": null,
+   "location_stated": "Kremmling, CO",
+   "description_stated": "Grass fed & finished Yak"
+  },
+  {
+   "name": "Lazy B Ranch",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Chicken Eggs – pasture/barn raised, non-GMO feed"
+  },
+  {
+   "name": "Leaning Tree Tales",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Books"
+  },
+  {
+   "name": "Little Bee Juice + Provisions",
+   "list_category": null,
+   "location_stated": "Hayden, CO",
+   "description_stated": "Fresh squeezed juices"
+  },
+  {
+   "name": "Lucky 8 Ranch",
+   "list_category": null,
+   "location_stated": "Oak Creek, CO",
+   "description_stated": "Bison"
+  },
+  {
+   "name": "Lupita's Hot Sauces",
+   "list_category": null,
+   "location_stated": "Oak Creek, CO",
+   "description_stated": "Flavored hot sauce"
+  },
+  {
+   "name": "Maureen's Macaroons",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Macaroons, Granola, Handmade Leather Purses"
+  },
+  {
+   "name": "Mo's Doughs",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Cottage Foods: Sourdough Bread & Baked goods"
+  },
+  {
+   "name": "Mollie's of Steamboat",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Cottage Foods: Jams, pickles, hand-painted cards, and more"
+  },
+  {
+   "name": "Moon Hill Dairy",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Cheese"
+  },
+  {
+   "name": "Morning Light Photography",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Photo cards"
+  },
+  {
+   "name": "Mountain Bluebird Farm",
+   "list_category": null,
+   "location_stated": "Hayden, CO",
+   "description_stated": "Fresh vegetables, cut flowers, CSA shares"
+  },
+  {
+   "name": "Mountain Paw Bakery",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Dog Treats"
+  },
+  {
+   "name": "Mountain Tap Brewery",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Popspice"
+  },
+  {
+   "name": "Murr Made Meats",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Pork products"
+  },
+  {
+   "name": "Mystic Hills Farmstead",
+   "list_category": null,
+   "location_stated": "Clark, CO",
+   "description_stated": "Grass-fed and finished beef and lamb products, fresh vegetables"
+  },
+  {
+   "name": "O'Johnson Giardiniera",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Giardiniera"
+  },
+  {
+   "name": "Outlaw Apiaries",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Flavored, creamed, and regular honey"
+  },
+  {
+   "name": "Penny Lane Pepper Co.",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Vegetables, specialty tomatoes and peppers, and more."
+  },
+  {
+   "name": "Romick's High Valley Beef",
+   "list_category": null,
+   "location_stated": "Yampa, CO",
+   "description_stated": "Grass and grain finished Angus beef"
+  },
+  {
+   "name": "Rose West",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Colorado-Grown Certified Organic Fruit: Palisade peaches, cherries, apricots, apples, Charentais melons"
+  },
+  {
+   "name": "Seedhouse Coffee",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "100% organic roasted coffee"
+  },
+  {
+   "name": "Snowden Meats",
+   "list_category": null,
+   "location_stated": "Toponas, CO",
+   "description_stated": "Grain-finished beef"
+  },
+  {
+   "name": "Stanko Ranch",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Chicken eggs"
+  },
+  {
+   "name": "Stay at Home Chef",
+   "list_category": null,
+   "location_stated": "Clark, CO",
+   "description_stated": "Jams, marmalade, pickled goods"
+  },
+  {
+   "name": "Steamboat Coffee Company",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Locally roasted coffee"
+  },
+  {
+   "name": "Steamboat Sourdough",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Sourdough Bread, Baked Goods, & Handmade Cutting Boards"
+  },
+  {
+   "name": "The Backery",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Baked goods, Cottage Foods"
+  },
+  {
+   "name": "The Farm at Home Ranch",
+   "list_category": null,
+   "location_stated": "Clark, CO",
+   "description_stated": "Fresh vegetables, herbs, chicken and duck eggs, body products"
+  },
+  {
+   "name": "Three Springs Cattle Co.",
+   "list_category": null,
+   "location_stated": "Dinosaur, CO",
+   "description_stated": "Grass fed and finished beef"
+  },
+  {
+   "name": "Thorpe Mountain Farms",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Potatoes and root vegetables"
+  },
+  {
+   "name": "Titania's TeaHouse",
+   "list_category": null,
+   "location_stated": "Oak Creek, CO",
+   "description_stated": "Tea blends"
+  },
+  {
+   "name": "Trout Creek Hops",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Hops rhizomes, whole hops"
+  },
+  {
+   "name": "Trout Creek Meats",
+   "list_category": null,
+   "location_stated": "Oak Creek, CO",
+   "description_stated": "Beef and lamb products"
+  },
+  {
+   "name": "Two Lazy 8 Ranch",
+   "list_category": null,
+   "location_stated": "Oak Creek, CO",
+   "description_stated": "Jams, freeze dried fruit, seasoning blends, gift towels"
+  },
+  {
+   "name": "Two Trees Produce",
+   "list_category": null,
+   "location_stated": "Steamboat Springs, CO",
+   "description_stated": "Fresh vegetables, plant starts"
+  },
+  {
+   "name": "Warhorse Ranch",
+   "list_category": null,
+   "location_stated": "Clark, CO",
+   "description_stated": "Local honey, handcrafted pens"
+  },
+  {
+   "name": "Wellman Family Corriedales",
+   "list_category": null,
+   "location_stated": "Hamilton, CO",
+   "description_stated": "Wool products"
+  },
+  {
+   "name": "Winters' Blessing Soap Co.",
+   "list_category": null,
+   "location_stated": "Craig, CO",
+   "description_stated": "Goat Milk Body Products"
+  },
+  {
+   "name": "Yampa Valley Ranch",
+   "list_category": null,
+   "location_stated": "Yampa, CO",
+   "description_stated": "Grass fed/finished American and Fullblood Wagyu"
+  }
+ ]
+}

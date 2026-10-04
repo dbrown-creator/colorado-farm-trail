@@ -1,0 +1,163 @@
+{
+ "slug": "aspen-grove-farmers-market-littleton",
+ "market": "Aspen Grove Farmers Market",
+ "city": "Littleton",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://aspengrovefarmersmarket.com/vendors/",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Vendors page has an \"Our Vendors\" section with category headings and a one-line description per vendor. Names kept in the page's (mostly lowercase) styling.",
+ "vendors": [
+  {
+   "name": "AJ roasted chili",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Green chilis in a variety of heat levels roasted fresh, on-site."
+  },
+  {
+   "name": "Bamber Beef Ranch",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Grass fed, locally raised beef."
+  },
+  {
+   "name": "beejoy farm",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Local wildflower honey, lip balms, salves and candles!"
+  },
+  {
+   "name": "elephant rock Farms",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Delicious, locally grown microgreens freshly cut on site, crisp lettuce and greens, juicy heirloom tomatoes!"
+  },
+  {
+   "name": "Fox Fungi",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Urban Mushroom Farm featuring fresh mushrooms, pantry items, medicinal items and swag."
+  },
+  {
+   "name": "further up Farms",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Family owned in Elizabeth Colorado featuring pesticide and herbicide free local vegetables at the peak of their season."
+  },
+  {
+   "name": "palisade peach shack",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "It’s always summertime with Palisade Peach Shack! With over 80 acres of peaches, cherries, apricots, nectarines, plums, pears, and apples, you’ll find many favorites each week!"
+  },
+  {
+   "name": "pipers lane flowers",
+   "list_category": "Produce, Dairy + Flowers",
+   "location_stated": null,
+   "description_stated": "Enjoy a beautiful fresh cut bouquet or arrangement from a local gardener and florist!"
+  },
+  {
+   "name": "Styria Bakery II",
+   "list_category": "baked goods",
+   "location_stated": null,
+   "description_stated": "A Taste of the Alps! This bakery features delicious savory traditional breads as well as pastries, pretzels, scones and turnovers!"
+  },
+  {
+   "name": "Wakery Bakery",
+   "list_category": "baked goods",
+   "location_stated": null,
+   "description_stated": "Featuring all gluten free sweet treats!"
+  },
+  {
+   "name": "alchemeats",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Gourmet dry spices, seasonings and rubs."
+  },
+  {
+   "name": "farm to tail pet co",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Handmade freeze dried pet treats."
+  },
+  {
+   "name": "I don't know what i'm doing jams",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Homemade jams, preserves and apple butters."
+  },
+  {
+   "name": "kmp provisions",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Freeze dried, shelf stable foods such as eggs, fruits, meals and snacks."
+  },
+  {
+   "name": "pagochea Caribbean Hot sauce",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Enjoy the taste of the Caribbean in this handmade sauce. Always offering samples!"
+  },
+  {
+   "name": "Pappardelle's Pasta",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Artisanal pasta made by hand using quality ingredients and traditional methods."
+  },
+  {
+   "name": "retro sips",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Customizable dirty sodas, matcha, and boba drinks."
+  },
+  {
+   "name": "Sweet almande",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Sweet and Savory roasted pecans, almonds and cashews."
+  },
+  {
+   "name": "tamales y empanadas el rey",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Tamales, empanadas and tortillas."
+  },
+  {
+   "name": "wild alaskan seafood",
+   "list_category": "Specialty Foods",
+   "location_stated": null,
+   "description_stated": "Seafood products such as fish, dips and more."
+  },
+  {
+   "name": "bloomin threads",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Reusable kitchen towels, paper towels and dryer sheets."
+  },
+  {
+   "name": "hydrate iv bar southglenn",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Learn about wellness from within featuring vitamin injections and vitamin iv therapy."
+  },
+  {
+   "name": "leanna organics cbd",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Handmade CBD products such as bath bombs, lotions and other self care products."
+  },
+  {
+   "name": "mia Bella's candles",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "This vendor features a wide variety of delicious smelling candles."
+  },
+  {
+   "name": "o dark thirty",
+   "list_category": "Handmade + household items",
+   "location_stated": null,
+   "description_stated": "Try your hand a geo cracking in this fun booth filled with gems and crystals."
+  }
+ ]
+}

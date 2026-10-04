@@ -1,0 +1,601 @@
+{
+ "slug": "crested-butte-farmers-market-crested-butte",
+ "market": "Crested Butte Farmers Market",
+ "city": "Crested Butte",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://cbfarmersmarket.org/our-farmers-artisans/",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Vendors page embeds a Marketspread widget (market 24962); page last modified 2026-04. list_category is the Marketspread vendor type, or \"Non Profits\" for the separate nonprofit widget.",
+ "vendors": [
+  {
+   "name": "225 grand",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I sell handcrafted copperjewelry."
+  },
+  {
+   "name": "Abra Karbin Ceramics",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Functional pottery"
+  },
+  {
+   "name": "Alice & Lois",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Handmade home goods – from locally made ceramics, hand-dyed kitchen textiles and pillows made from vintage textiles."
+  },
+  {
+   "name": "Allonetrucks",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I make beeswax candles and design apparel."
+  },
+  {
+   "name": "Anette Akselsen",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I create one of a kind jewelry"
+  },
+  {
+   "name": "Anthracite Spirits",
+   "list_category": "Other",
+   "location_stated": null,
+   "description_stated": "We are a distillery and tasting room located in Crested Butte. We produce all of our spirits locally (in Riverland). We are committed to providing a fun experience for all of our guests using fresh in"
+  },
+  {
+   "name": "Bees Co.",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I hand paint shopping bags, table cloths, tea towels, hand towels and hat. I make homemade jam in small batches from locally sourced ingredients."
+  },
+  {
+   "name": "Big B's Fruit Company",
+   "list_category": "Farmer/Dealer",
+   "location_stated": null,
+   "description_stated": "Big B's has an organic orchard in Hotchkiss, CO growing apples, cherries, peaches, pears, garden vegetables. We also have a full line of apple juices, lemonades, and seasonal ciders as well as honey, "
+  },
+  {
+   "name": "Birdstory Nursery",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "We are a brand new nursery offering native and beneficial plants and woodcraft items for pollinators, habitat, and restoration. We grow most of our plants from seed at our home in Paonia, CO. In this "
+  },
+  {
+   "name": "Bo-Spirit Designs",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I do hand-dyed scarves and skirts in a couple different dying methods. Also, I work with precious metal clay and wax casted, bronze jewelry, with beading, suede and leather or silver chains."
+  },
+  {
+   "name": "bound beaded",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I make beaded earrings, bracelets, and necklaces with a silversmith twist. Some of my defining pieces include large handmade sterling silver hoops that I bead glass seed beads onto and my beaded laria"
+  },
+  {
+   "name": "Buck & Bloom Cheese Co.",
+   "list_category": "Specialty Food Artisan",
+   "location_stated": null,
+   "description_stated": "Buck & Bloom Cheese Co. is a group of artisan cheesemakers in Buena Vista, CO. Established in July 2025, we hand craft both cow and goat cheeses at our creamery. This includes fresh cheese like chevre"
+  },
+  {
+   "name": "Buckel Family Wine",
+   "list_category": "Specialty Food Artisan",
+   "location_stated": null,
+   "description_stated": "Nestled in the Colorado Rockies, Buckel Family Wine is Colorado’s premier family-owned winery producing Old-World styled wines with minimal intervention. With 300 days of sun a year and an altitude of"
+  },
+  {
+   "name": "Coffee by Topo",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": "Topo is a queer-owned and community centered specialty coffee company. Our mobile units offer batch brewed coffee, chai, golden milk, nitro cold brews, lemonades, organic cold pressed juices, as well "
+  },
+  {
+   "name": "Crepe Magouille",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": "Crepe Magouille is a solar-powered, horse-trailer-turned-food-cart that has been in operation in Salida, CO since September 2024. We keep things simple, just like our trailer with a focus on sustainab"
+  },
+  {
+   "name": "Damselfly Organic Clothing",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Originally designed organic yoga and lifestyle apparel."
+  },
+  {
+   "name": "Daydreams and Joy",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I make handmade polymer clay jewelry, 3D shadow boxes, and creative garlands."
+  },
+  {
+   "name": "Doughp Pizza Company",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": "We sell delicious flame-fired pizzas topped with seasonal ingredients. Think lots of veggies, peaches, fruits, etc. Most of our stuff is local and organic to the Crested Butte/Western Slope region."
+  },
+  {
+   "name": "Effervescent Botanicals",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "We at Effervescent Botanicals are a high end skin care company that focuses on utilizing clean organic ingredients to formulate complex yet highly functional topical products to help repair, hydrate, "
+  },
+  {
+   "name": "Elk Mountain Farmacy",
+   "list_category": "Dealer",
+   "location_stated": null,
+   "description_stated": "We produce natural remedies and medicinally fermented foods; our company’s focus is health and wellness for humans, our community and the environment. Inspired to make products of the upmost effective"
+  },
+  {
+   "name": "Ellen's Pickled Products",
+   "list_category": "Specialty Food Artisan",
+   "location_stated": null,
+   "description_stated": "all sorts of pickled products"
+  },
+  {
+   "name": "Emily Patricia Jewelry",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Emily Patricia Jewelry is based in Crested Butte, Colorado, Founded in 2017 in my parents' garage, my journey began. What started as a passion project has blossomed into a personal brand inspired by C"
+  },
+  {
+   "name": "Feral Friends Co.",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Feral Friends Co. is a mobile vintage shop curating secondhand outdoor wear, upcycled pieces, and lifestyle vintage with an adventurous, eco-conscious twist. Our collection blends functional outdoor g"
+  },
+  {
+   "name": "Figure 8 Farming",
+   "list_category": "Farmer/Dealer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Gothic Mountain Jewelers",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Alex and Kristi produce wearable art inspired by nature. Each piece is made by hand in our mountain studio using a variety of silversmithing techniques. We pride ourselves on creating durable, one of "
+  },
+  {
+   "name": "ground dweller baskets",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "ground dweller baskets is a Paonia based basket company. All of our materials are 100% wildcrafted in a sustainable way. We use willow, cottonwood, dogwood, cattail and bulrush to make strong and beau"
+  },
+  {
+   "name": "Gunnison Gardens",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "Gunnison Gardens grows nutrient-dense vegetables, eggs, and cold-hard fruits using all natural growing practices. Established in 2014, our farm helps feed the Gunnison Valley through farmers markets, "
+  },
+  {
+   "name": "Haefeli's Honey Farm",
+   "list_category": "Specialty Food Artisan",
+   "location_stated": null,
+   "description_stated": "Haefeli's Honey Farm is a sixth generation beekeeping and honey-producing family business located in the San Luis Valley of southern Colorado. We produce raw honey from the regions' sweet clover and a"
+  },
+  {
+   "name": "Hanovi Ceramics",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Hi! My business, Hanovi Ceramics, is a handmade, functional pottery business. Everything is made by me, and is designed to spark joy in my customer's everyday lives. Some of my products include, but a"
+  },
+  {
+   "name": "HAPPY WRAPS",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "HAPPY WRAPS are a sustainable alternative to plastic wraps. They are reusable, biodegradable, washable wax wraps to cover foods instead of using conventional plastic wrap/ Saran wraps."
+  },
+  {
+   "name": "Harvest Sips",
+   "list_category": "Food Cart",
+   "location_stated": null,
+   "description_stated": "Refreshment/Drink Vender"
+  },
+  {
+   "name": "Honey Moon Mesa",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "Honey Moon Mesa is a small family owned apiary located in the beautiful North Fork Valley of Colorado with a focus on sustainable and ethical beekeeping. Our bees in the valley feed on local pastures,"
+  },
+  {
+   "name": "HUGZ",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I sew microwaveable flaxseed & lavender products for heat therapy!"
+  },
+  {
+   "name": "JH by Jill",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "JH by Jill is a block printing clothing line where original drawings are transformed into custom blocks. These blocks are then used to print unique designs onto fabric, creating one-of-a-kind dresses,"
+  },
+  {
+   "name": "Ladybug Living Art",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I make jewelry and pottery"
+  },
+  {
+   "name": "Laz ewe 2 bar farm and dairy",
+   "list_category": "Specialty Food Artisan",
+   "location_stated": null,
+   "description_stated": "We are a centennial ranch producing cheeses, beef lamb and pork. Occasionally we have other items such as rings and body products or hides from our animals"
+  },
+  {
+   "name": "Lonewolf Collective",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Handcrafted Jewelry and Accessories, established in Crested Butte, currently in Salida, CO. Wares made from American mined gemstones, and recycled metals, creating simple and everyday jewelry meant fo"
+  },
+  {
+   "name": "Lore Cacao",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": "Lore Cacao is a craft chocolate company based in Paonia, Colorado that uses ethically and transparently sourced cacao beans from trusted cooperatives, farmers, and fair-trade purveyors. Our dedication"
+  },
+  {
+   "name": "Luke Schroeder Design",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Luke Schroeder Design is a locally-based design studio that specializes in graphic design, illustration, murals and branding. in addition to it's commissioned design work, the studio also sells its or"
+  },
+  {
+   "name": "Market Tent",
+   "list_category": "Other",
+   "location_stated": null,
+   "description_stated": "The Crested Butte Farmers Market tent is your one-stop place for information and market merchandise. We accept SNAP and can match up to $20 in Double Up Food Bucks! Stop by to see us."
+  },
+  {
+   "name": "Menagerie Woodworking",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Wood-working artisan creating custom-made tree furniture with repurposed materials & local hardwood"
+  },
+  {
+   "name": "Miss Penn's Mountain Seeds",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "All of my seed is grown at 8,120' in the Wet Mountains. Wild-collected seed is sustainably hand gathered between 5-11,000' on my property and in the San Isabel and Pike National Forest and 4 counties "
+  },
+  {
+   "name": "Molly Makes Pottery",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Handmade pottery made in CB! Mugs, planters, bowls, and more."
+  },
+  {
+   "name": "Montanya Distillers",
+   "list_category": "Other",
+   "location_stated": null,
+   "description_stated": "Local craft rum distillery based in Crested Butte, CO. Looking to sell bottles and drinks at farmers market."
+  },
+  {
+   "name": "Morgan Howerton",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "My name is Morgan and I am a local stained glass artist here in Crested Butte. I specialize in nature-inspired sun catchers and honeycomb jewelry holders for those looking for a more practical gift. I"
+  },
+  {
+   "name": "Mountain Bird",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "We raise pastured poultry through holistic management methods, rotational grazing, and on-farm processing."
+  },
+  {
+   "name": "Mountain Oven LLC",
+   "list_category": "Specialty Food Artisan",
+   "location_stated": null,
+   "description_stated": "Mountain Oven is an organic bakery and millhouse devoted to supporting local food systems, run by Chris Sullivan and Dana Whitcomb. Established in 2010 in Crested Butte, now operating in Paonia. We pr"
+  },
+  {
+   "name": "Mountain Roots Food Project",
+   "list_category": "Food Cart",
+   "location_stated": null,
+   "description_stated": "Mountain Roots cultivates a resilient food system in Gunnison Valley, Colorado, by enhancing healthy connections between earth, food, and community. We foster knowledge, teach skills, and provide oppo"
+  },
+  {
+   "name": "Mushroom Mesa",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "My name is Mike, I'm a self taught mushroom farmer, with almost a decade of experience farming mushrooms. I just moved to Colorado from St. Louis and built my new farm here😁 (built it myself too). I s"
+  },
+  {
+   "name": "Osito Farms",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "We are a family-owned, certified organic and pollinator-safe (Bee Better Certified) orchard & vineyard in the North Fork Valley (Hotchkiss) CO. We grow organic cherries, apricots, peaches, plums, pear"
+  },
+  {
+   "name": "Pantoja’s Family Farms.",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "Pantoja’s Family Farms, is an organic farm located in Delta Colorado. We grow organic veggies and organic fruit. Such as specialty peppers, tomatoes, cucumbers, watermelons, cantaloupes, sweet corn, s"
+  },
+  {
+   "name": "Pedro's Farms LLC",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "Our family farm has been growing premium flowers, USDA Certified Organic vegetables, fruit and herbs since 1996. All of our premium produce is grown at our farm on 14 acres in the small farming commun"
+  },
+  {
+   "name": "Phillips Photo",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Local crested butte landscape photographer Eric Phillips aka Phillips photo displaying and selling fire art photography prints of the local area"
+  },
+  {
+   "name": "Ralphie's Glass",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I am is a fused glass artist living in Almont, Colorado. I create one of a kind nightlights, window art, and other functional and decorative glass artwork. I have been experimenting with glass since 2"
+  },
+  {
+   "name": "Ramas Bread LLC - A Traditional Turkish and Kurdish Baked Goods",
+   "list_category": "Specialty Food Artisan",
+   "location_stated": null,
+   "description_stated": "Ramas Bread was established in 2021 in Salida CO dedicated to bring authentic Turkish and Kurdish baked goods especially baklava to rural Colorado. In the previous years we have attended to Salida and"
+  },
+  {
+   "name": "Rebecca Bourke Designs",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I design jewelry for 25 years. I use 14kt gold, sterling silver, precious and semiprecious stones."
+  },
+  {
+   "name": "Rock 'n Roots Farm",
+   "list_category": "Farmer/Dealer",
+   "location_stated": null,
+   "description_stated": "We are a family farm in Paonia, CO on a mission to create the most effective natural skin care, CBD products and herbal remedies on the market. At Rock 'n Roots Farm, we are pioneering the seed-to-bot"
+  },
+  {
+   "name": "Ruby Range Fine Art",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Watercolor, pastels, ceramics, and handmade jewelry"
+  },
+  {
+   "name": "Sage Transformations @ Massage Crested Butte",
+   "list_category": "Service",
+   "location_stated": null,
+   "description_stated": "Massage!!!"
+  },
+  {
+   "name": "Sisu Studios",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Sisu Studios embodies the Finnish philosophy of courage and determination within each design. Linsey Bachofer lives in Crested Butte and is often inspired by the stunning landscapes of the valley. Ori"
+  },
+  {
+   "name": "Stone Cottage Cellars",
+   "list_category": "Farmer/Dealer",
+   "location_stated": null,
+   "description_stated": "Winery"
+  },
+  {
+   "name": "Taproot Mercantile",
+   "list_category": "Dealer",
+   "location_stated": null,
+   "description_stated": "Taproot Mercantile is a small-batch apothecary and provisions maker based in Western Colorado. Founded by Erin Gagnon, Taproot creates body care and everyday goods using time-honored methods, thoughtf"
+  },
+  {
+   "name": "Taylor and Tessier",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Jewelry"
+  },
+  {
+   "name": "Terraforma Studios",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "I create pottery from the textures of our ecosystems. Most notably our rivers, bringing water into the hands of people in a visual pattern and by holding the foods our rivers support."
+  },
+  {
+   "name": "The Gourmet Noodle",
+   "list_category": "Specialty Food Artisan",
+   "location_stated": null,
+   "description_stated": "Italian Restaurant"
+  },
+  {
+   "name": "The Jewelry Smith",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "The Jewelry Smith is a family run artisan jewelry boutique originating in Crested Butte, Colorado. Jewelry is designed and assembled by Teri Smith, who has 20+ years of experience."
+  },
+  {
+   "name": "Theressa Hoots",
+   "list_category": "Entertainment",
+   "location_stated": null,
+   "description_stated": "Facepainter and Henna tattoos"
+  },
+  {
+   "name": "The Stone Fruit Company",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "The Stone Fruit Company is a family owned by my husband and I. my husband is a 4th generation Colorado farmer, I was raised in a farming community, and we are located in Palisade Colorado. We speciali"
+  },
+  {
+   "name": "The Yurtstead, LLC",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "The Yurtstead, LLC is a small, woman owned regenerative farm operation in Montrose, Colorado. Jenn Mueller provides the conduit between her communities and ethical, observant farming practices. Her 10"
+  },
+  {
+   "name": "Thistle Whistle Farm",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "Thistle Whistle Farm grows a diversity of vegetables, herbs and fruit on 15 acres in the North Fork Valley of Colorado. We grow to organic standards, but choose to not certify. We maintain soil health"
+  },
+  {
+   "name": "Vagabondia Vintage & Handmade",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": "Vagabondia Vintage was born in 2012 from a passion for travel and creative connections in new places. Rooted in resourcefulness and reuse, I firmly believe there is a bounty of beautiful \"pre-loved\" t"
+  },
+  {
+   "name": "Xtina L Stillwaggon Glass Designs",
+   "list_category": "Material Goods/Craft/Flea/Art",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Zephyros Farm and Garden",
+   "list_category": "Farmer",
+   "location_stated": null,
+   "description_stated": "We are a small scale, certified Organic, flower and vegetable farm located in Paonia."
+  },
+  {
+   "name": "Adaptive Sports Center of Crested Butte",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "The Adaptive Sports Center enhances the quality of life of people with disabilities through exceptional outdoor adventure activities. The successful programs the ASC provides are inclusive to families"
+  },
+  {
+   "name": "CBCS Basketball",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "Girls and Boys basketball teams at Crested Butte Community School"
+  },
+  {
+   "name": "CBCS HS Volleyball Team",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "HS Volleyball team"
+  },
+  {
+   "name": "Coal Creek Watershed Coalition",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "Coal Creek Watershed Coalition is a local non-profit who's mission is to maintain, restore and enhance the environmental integrity of Crested Butte's local watersheds to ensure those local watersheds "
+  },
+  {
+   "name": "Colorado Foundation for Universal Healthcare",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "Organization hoping to bring universal healthcare to the state of Colorado"
+  },
+  {
+   "name": "Crested Butte Avalanche Center",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "We are a 501c3 avalanche center providing a daily professional weather and avalanche forecast throughout the winter months."
+  },
+  {
+   "name": "Crested Butte Film Festival",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "Crested Butte Film Festival is a non-profit organization that brings films and filmmakers from all over the world for its annual fall film festival and year-round events."
+  },
+  {
+   "name": "Crested Butte Land Trust",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "The Crested Butte Land Trust works to forever protect and steward open lands for vistas, recreation, wildlife, and ranching, thus contributing to Gunnison County’s unique heritage and quality of life."
+  },
+  {
+   "name": "Crested Butte Mountain Bike Association",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Crested Butte Mountain Theatre",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "The Crested Butte Mountain Theatre is a non profit community organization that serves the entire Gunnison Valley. We provide LIVE theatre - \"Black box style\" on Elk Avenue in Crested Butte Colorado. W"
+  },
+  {
+   "name": "Crested Butte Museum",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Crested Butte Rotary",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "Rubber duck race ticket sales to support local youth programs."
+  },
+  {
+   "name": "Crested Butte School of Dance",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "We are a nonprofit community dance organization offering classes and performance opportunities for all ages and backgrounds."
+  },
+  {
+   "name": "Crested Butte State of Mind",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "Crested Butte State of Mind is committed to reducing the high rate of suicide in Gunnison County by reducing barriers, making resources more available, and connecting those in need to free mental heal"
+  },
+  {
+   "name": "Crested Butte Wildflower Festival",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Elk Mountains Backcountry Alliance",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "Elk Mountains Backcountry Alliance (EMBA) is a 501c3 nonprofit organization whose mission is protecting, promoting and enhancing human-powered recreation in the Gunnison Valley, ensuring both current "
+  },
+  {
+   "name": "Endangered Species Coalition",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "The Endangered Species Coalition’s mission is to stop the human-caused extinction of our nation’s at-risk species, to protect and restore their habitats, and to guide these fragile populations along t"
+  },
+  {
+   "name": "Gunnison Country Food Pantry",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "GCFP serves neighbors in need by providing food assistance and connecting them to local, state, and federal resources that promote stability, dignity, and a better quality of life."
+  },
+  {
+   "name": "Gunnison Valley Health Foundation",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "The Gunnison Valley Health Foundation cultivate and manage philanthropic resources to support Gunnison Valley Health’s mission and strategic initiatives, ensuring sustainable growth and innovation in "
+  },
+  {
+   "name": "High Country Conservation Advocates",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "High Country Conservation Advocates (HCCA) is a local grassroots non-profit dedicated to protecting and improving the health, integrity, and beauty of 2 million acres of public lands in Colorado’s Gun"
+  },
+  {
+   "name": "Living Journeys",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "Living Journeys provides essential support, resources, and community connection to individuals and families impacted by cancer in Gunnison County."
+  },
+  {
+   "name": "Not Bookable Space",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Project Hope of Gunnison Valley",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "The mission of Project Hope of Gunnison Valley is to support, educate and provide confidential advocacy to individuals affected by domestic violence, sexual assault, stalking and/or human trafficking."
+  },
+  {
+   "name": "The Trailhead Children's Museum",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "The Trailhead Children's Museum provides an environment and opportunities for children and families to explore, create, and play together."
+  },
+  {
+   "name": "Valley Housing Fund",
+   "list_category": "Non Profits",
+   "location_stated": null,
+   "description_stated": "The Valley Housing Fund is a local nonprofit organization that works collaboratively to create and support affordable and accessible housing opportunities to strengthen the Gunnison Valley community."
+  }
+ ]
+}

@@ -1,0 +1,931 @@
+{
+ "slug": "old-south-pearl-street-association-farmers-market-denver",
+ "market": "Old South Pearl Street Association - Farmers Market",
+ "city": "Denver",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://southpearlstreet.com/farmers-market/",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Captured the \"2026 Vendors\" list only; \"(New!)\" flags stripped, \"(August)\" kept on Silly Goose Granola. A separate \"2026 Merchants\" list of brick-and-mortar street businesses was not captured.",
+ "vendors": [
+  {
+   "name": "5 Star Matcha",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Afia Co Sharpening",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Āina Tacos",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Antelope Creek Ranch Wagyu",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Audacious Truffles",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ba-Nom-a-Nom",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bavarian Sausage Express",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Beejola / Tru Goodness Brands",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Berliner Haus",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bespoke Provisions",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Best French Cookies",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Biker Jim’s Gourmet Dogs",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bjorn’s Colorado Honey",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Board in a Bag",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bob’s Roasted Nuts",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Boulder Broth",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Boulder Flower Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Boulder Olive Oil Company",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Boulder Valley Honey",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Brad’s Bowls / Brad B Jammin’",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Brown Dog Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bruna’s Brazilian Cheese Bread",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Buck and Bloom Cheese Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Candle Culturist",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Captain Crepes",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cheez Me",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cooper’s Small Batch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cream City Market",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Denver Pops",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Denver Sea Moss",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Doughology",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Downslope Distilling",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Draft Coffee",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dragon Meadery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Drizzle & Crunch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Durango Provisions",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ela Family Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Eldorado",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Elevated Elderberry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Elevated Gains",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Familia Pupusas",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fireworks Chef Butters",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Five Freedoms Dairy",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Foliata Cheese",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Forever Spicy",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Forte Fruits",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Foxtown Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Full Stop Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Furst Class Fungi",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Gardening with Chuck",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Green Belly Foods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Green Bus Café",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Green Giraffe Bar",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Green Yams",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Guerreroschile",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Haykin",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Healthy Harvest Gardens",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hearth",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hipnola",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hipster Lettuce",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kallisto Modern Mediterranean",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kream Konsulting",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "La Famiglia Liqueur",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "La Montagne Des Saveurs",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Legacy Pie",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lento Foods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Little House of Tempeh",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LoDough Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lost Arrow Buffalo Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lucky Bee Cut Flowers",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Madams Jams",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mandalina",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mile High Fungi",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mile High Spice Company",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mile High Urban Farmscaping",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Miller Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mi Patio Latin Cuisine",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Moringa Infusions",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Girl Pickles",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Muff Handmade English Muffins",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "My Morning Muffin",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "New Friends Breakfast Sandwiches",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Not Bad Cooks",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Oh My! Empanada",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Olde Crone’s Bewitching Bath Soap",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Panda Bao",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pappardelles Pasta",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Park Pass Coffee",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pat + Bear",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Patterbar Treats",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Picosa Green Sauce",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pierogies Factory",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pines’ Nut Butter",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pint’s Peak Ice Cream",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Porcellino Artisanal Meats",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pupusas Familia",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PPS Denver",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Queen City Collective Coffee",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Radical Sasquatch Dumpling Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rainbow Eggs Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rang Tang Craft BBQ",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rebel Bread",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rich Roots Flower Co.",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rocky Mountain Fresh",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Roxy’s Remixes",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "RxR",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sati Coffee Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sauvage Spectrum Estate Winery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Seasonal Sammiches",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Send Flours Baking Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sfoglina Handmade Pasta",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Short Story Hydration",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Silly Goose Granola (August)",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Smrcka Bagel",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Snow Creek Ranch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Soup Witch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Stoneware by Salazar",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Styria Bakery II",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Styria Catering",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sunny Plant",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sunnyside Soil",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sweet Gold",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Syrupology",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tague Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Talia’s Challahs",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tall Guy Tiny Greens",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tart and Soul Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Taspens / Green Water",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Bread Box",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Conscious Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Easy Vegan",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Family Jones Distillery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Honey People",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Hungry Tree Hugger",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The PB Love Company",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The POMM",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Three Biscuiteers",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Tortilla Project",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Three Kings Kombucha",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tia Woven Goods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tims Toms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tlaquesalsa",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tru Goodness",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Uncle Tim’s Cocktails",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Unleash the Crunch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Wafflerita / NoBadDays",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Wag’s World Orchards",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "White Mountain Chaga",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Wild Alaskan Seafood",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Wild Wick’s Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Yummy Lotus",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Yummy Yummy Products",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

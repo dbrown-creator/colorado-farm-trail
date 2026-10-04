@@ -1,0 +1,12 @@
+{
+ "slug": "downtown-mead-farmers-market-mead",
+ "market": "Downtown Mead Farmers' Market",
+ "city": "Mead",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "blocked",
+ "notes": "Town of Mead page returns a Cloudflare bot challenge / HTTP 403 to curl and WebFetch, so contents could not be read; browser access was denied.",
+ "vendors": []
+}

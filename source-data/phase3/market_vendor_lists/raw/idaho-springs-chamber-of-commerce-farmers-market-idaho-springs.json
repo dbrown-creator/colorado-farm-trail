@@ -1,0 +1,12 @@
+{
+ "slug": "idaho-springs-chamber-of-commerce-farmers-market-idaho-springs",
+ "market": "Idaho Springs Chamber Of Commerce Farmers Market",
+ "city": "Idaho Springs",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "live",
+ "notes": "Square Online site is JavaScript-rendered; has 'Market Days' and 'Dynamite Days Vendors' pages but content not retrievable and /market-days returned 404.",
+ "vendors": []
+}
