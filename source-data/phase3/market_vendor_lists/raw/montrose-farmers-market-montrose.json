@@ -1,0 +1,385 @@
+{
+ "slug": "montrose-farmers-market-montrose",
+ "market": "Montrose Farmers Market",
+ "city": "Montrose",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://montrosefarmersmarket.mymarket.org/profiles",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "MarketWurks vendor profiles read via public API (X-Account-ID b043082d1d2429731ac3d465dbcea4c8). Category codes decoded from the signup form.",
+ "vendors": [
+  {
+   "name": "DGFF LLC (dba Decadence Gourmet)",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Gourmet Fermented Pepper Salts & Sauces, 'Colorado-Style' Southern Chow Chow and Pimento Cheese Spread"
+  },
+  {
+   "name": "Dad's Patchwork Farm",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "muffins, cookies, biscotti,sourdough breads, fruit leather, granola, premade hot food"
+  },
+  {
+   "name": "The Crystal River Valley Nonprofit Food Co-op",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Organic Artisanal Sourdough Bread"
+  },
+  {
+   "name": "Power Greens",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Mushrooms, Microgreens"
+  },
+  {
+   "name": "Wag's World Inc. DBA Wag's World Orchards",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Depending on the year, weather and water -- apricots, cherries, peaches, plums, nectarines, pears, apples, fresh fruit juices, honey, fruit wood, berries, strawberries, grapes, cabbage, garlic, onions"
+  },
+  {
+   "name": "Chamberlain Farms",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Produce, Eggs, Arts/Crafts, cucumbers, squash, tomatoes, onions, garlic, herbs, greens, lettuce, peppers, spinach, chard"
+  },
+  {
+   "name": "Uncompahgre Farms",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Regneratively raised beef, lamb, and sliders"
+  },
+  {
+   "name": "Suck It Fruity",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "We sell fermented fruite ades (applecinnamon, cherry, grapefruit, kiwi, lemonginger, mango, peach, pomegranate, strawberry) and kimchi (cabbage, cucumber, radish, bok choy)."
+  },
+  {
+   "name": "Radiant Render LLC DBA \"Radiant Render Tallow\"",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Tallow Lip Balm, Tallow Hand Salve, Whipped Tallow Body Butter, Rose Body Butter, Whipped Tallow Balm, Rose Face Moisturizer, All Purpose Skin Conditioner, Tallow Soap, Unscented Tallow Soap, Calendul"
+  },
+  {
+   "name": "Colorado Wild Botanicals",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Goat Milk Soap and lotion Bars, pinon salve, beard balms, hand thrown soap dishes, and select other items, essential oil blends and candles, fresh goat chevre, local honey"
+  },
+  {
+   "name": "A-Ware Collaborative",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Ceramic mugs, bowls, spoon rests, earrings and pendents."
+  },
+  {
+   "name": "Peaks to Plateau LLC",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Artisan Sourdough Bread Loaves\n\nArtisan Sourdough baguettes\n\nArtisan Sourdough Ciabatta Rolls\n\nArtisan Sourdough Croissants\n\nArtisan Sourdough Bear claws pastries\n\nArtisan Sourdough Morning buns\n\nArti"
+  },
+  {
+   "name": "Dutch Girl Kitchen",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "baked goods \nartisan breads\nfrittata\npot pies and quiche\nsalads\nsoup\npaninis\ncoffee"
+  },
+  {
+   "name": "Super Fast Kitchen and Bath",
+   "list_category": "Sponsor",
+   "location_stated": null,
+   "description_stated": "Kitchen and Bathroom remodeling promotions"
+  },
+  {
+   "name": "Happy Hive Farmstead",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Pasture Raised Poultry (variety of cuts, whole bird, organ + backs/feet for bone stock - all pre-packaged and frozen) + Eggs (when available)."
+  },
+  {
+   "name": "The Crunchy Kitchen",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Dried Pasta, Pantry Staples, Baked Goods"
+  },
+  {
+   "name": "Happy Hogs",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "meat, poultry, eggs"
+  },
+  {
+   "name": "Teas 2 Please",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Loose Leaf Teas, Spice Mixes, Granola, Lemon Curd, Baked Goods, Some Tea Accessories"
+  },
+  {
+   "name": "Rocky Mountain Leashes",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Dog leashes, traffic and training leashes, hands-free leashes, companion leashes, buddy handles, vehicle safety belts & dog collars.  I also make lanyards, binocular straps, phone straps and phone har"
+  },
+  {
+   "name": "Opus Lingum",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "woodwork, mugs, cutting boards, wine glasses, etc."
+  },
+  {
+   "name": "Gigi Ann's LLC",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Gourmet Soup and Dip Mixes, Jellies, Pickles and Textiles as available"
+  },
+  {
+   "name": "Holy Grounds Coffee LLC",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Coffee+  hot tea"
+  },
+  {
+   "name": "Sandy Seed Farm LLC",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Plant Starts (Spring)\nProduce - Vegetables\nFlowers\nCarrots, radishes, lettuce, greens, garlic, beets, flowers, herbs"
+  },
+  {
+   "name": "Rockyz",
+   "list_category": "Other",
+   "location_stated": null,
+   "description_stated": "One of a kind street tacos! Carefully crafted, scratched made with local ingredients."
+  },
+  {
+   "name": "Italian Food Emporium llc",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "dry pasta : radiatori,ballerine,casarecce ,linguine,pappardelle\nfrozen ravioli : caprese,spinach ricotta, mushrooms ,spicy provolone etc..\nsauces: tomato , bolognese ,pesto etc"
+  },
+  {
+   "name": "Suarez Orchards",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "produce\nPeaches apples pears grapes watermelon cantaloupe plums tomatoes squash zucchini cabbage beans green beans chile corn"
+  },
+  {
+   "name": "YaYas Empanadas",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Authentic Spanish Empanadas, bread, desserts, tortillas. Nut free and non-glutten desserts as well."
+  },
+  {
+   "name": "JML Food Truck LLC DBA Sunny Thai Food Truck",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Thai food"
+  },
+  {
+   "name": "Hartman Gardens of Colorado",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "jams, fruit syrups, pies, apples, pears, grapes, eggs"
+  },
+  {
+   "name": "Abundant Grace Bakery",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Baked Goods"
+  },
+  {
+   "name": "Palisade Peach Shack",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Peaches, Cherries, Apricots, Nectarines, Plums, and Pears"
+  },
+  {
+   "name": "Linda Mackowiak",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "handmade hats, mittens, scarves, purses, etc.. All made by me."
+  },
+  {
+   "name": "Faith & Strength Designs",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Necklaces, earrings, car charms, keychains, hair clips, claw clips, car coasters, home coasters, candles, bookmarks, pocket blessings, faith based items. Everything handmade."
+  },
+  {
+   "name": "Nom Nom Shark",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Guotie, Baozi, Strawberry Soda Water, Milk Tea, Fried Rice"
+  },
+  {
+   "name": "Ladybird Bakery",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Cookies, scones, brownies, bread, quiche, deli items, breakfast burritos"
+  },
+  {
+   "name": "You Dessert This",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Soft Serve ice cream and frozen lemonade"
+  },
+  {
+   "name": "Colorado Pet Pantry",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Nothing to be sold. Signage with information about upcoming pet pantries and info about donating and volunteering for the Montrose monthly pantries."
+  },
+  {
+   "name": "VoiceSign",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "3D-Prints, Magnets, Bowls, Bookmarks, Pencil Holders, Cups, Containers, Refrigerator Magnets, Sign Language Books, Stickers, Sign Language Classes"
+  },
+  {
+   "name": "Atlasta Solar Center",
+   "list_category": "Sponsor",
+   "location_stated": null,
+   "description_stated": "N/A"
+  },
+  {
+   "name": "Letty’s Creations, LLC",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Earrings, bracelets, phone charms, keychains, beaded spiders , painted canvas bags"
+  },
+  {
+   "name": "The Makers' Space",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Handmade pottery, ceramic mugs, ceramic bowls, ceramic planters, handmade jewelry, pressed flower jewelry, handmade earrings, handmade necklaces, sewn goods, quilted hats, quilted hoodies, quilted jac"
+  },
+  {
+   "name": "Nomad cuisines",
+   "list_category": "Prepared-Food Vendor",
+   "location_stated": null,
+   "description_stated": "Biriyani, lentil y okra potato masala, kebabs, dosa, vegan food, tamarind shrimp"
+  },
+  {
+   "name": "New Leaf Mindfulness",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "earrings, hair pieces, and book marks (made of dried/pressed flowers), paintings, prints, and cards, and my self-published books."
+  },
+  {
+   "name": "Ridgway State Park",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "We will promoting our Accessibility and Adaptive equipment which is available for use for free of charge."
+  },
+  {
+   "name": "Simply Magnetic",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Magnetic Jewelry"
+  },
+  {
+   "name": "Macario's Produce",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Produce, Olathe Sweet Corn, chillies, peaches, tomatoes, peppers, onions, garlic, tomatillos, squash, green beans, cabbage, herbs, melons, and more!"
+  },
+  {
+   "name": "ALZHEIMER'S ASSOCIATION",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "N/A"
+  },
+  {
+   "name": "Renewal by Anderson",
+   "list_category": "Sponsor",
+   "location_stated": null,
+   "description_stated": "N/A"
+  },
+  {
+   "name": "Bearfoot Fine Gardening",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Nothing- donations appreciated"
+  },
+  {
+   "name": "Citizens Climate Lobby Montrose CO Chapter",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "We sell no product(s)"
+  },
+  {
+   "name": "The Defiant Garden",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Tomato starts, pepper starts, basil starts, eggplant starts, flower starts, tomato plants, pepper plants, basil plants, flower plants, garden starts, veggie starts"
+  },
+  {
+   "name": "Blades By Bruce",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Sharpen Knives and Tools"
+  },
+  {
+   "name": "Matthews Alpines",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "goat milk soap, lotions, bath items, crochet and knitted items, resin crafts, eggs and goat milk candies"
+  },
+  {
+   "name": "MFM Manager Booth",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "SNAP, DUFB, Loyalty Cards, Information"
+  },
+  {
+   "name": "Repurposebazaar",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Beeswax wraps and bread bags,\nAprons,\nCloth napkins,\nBowl cozies,\nKitchen accessories,\nEtc"
+  },
+  {
+   "name": "CO 150/US 250 Local Organization Committee",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Kids' activities and celebration merch to celebrate Colorado's 150 anniversary as a state."
+  },
+  {
+   "name": "Mountain River Mist LLC",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "Naturally Derived Multi-Purpose Cleaner 16 oz. Spray bottles, Lavender or Citrus scents!"
+  },
+  {
+   "name": "Uncompahgre Valley Alliance (aka Western Colorado Alliance)",
+   "list_category": "Farmer/ Rancher",
+   "location_stated": null,
+   "description_stated": "Non-Profit, community organizing information"
+  },
+  {
+   "name": "Montrose County Historical Museum and Society",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Books and information on local history."
+  },
+  {
+   "name": "Montrose Classical Academy",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "We want to have an informational booth about the school and engage children in educational material."
+  },
+  {
+   "name": "San Juan Landing",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Not selling anything just gving out brochures and spreading information on what we're trying to accomplish"
+  },
+  {
+   "name": "Roaming Rock Creative",
+   "list_category": "Artisan/ Crafter",
+   "location_stated": null,
+   "description_stated": "earrings, necklaces, bookmarks, rings, glasses chains, block printed shirts"
+  }
+ ]
+}

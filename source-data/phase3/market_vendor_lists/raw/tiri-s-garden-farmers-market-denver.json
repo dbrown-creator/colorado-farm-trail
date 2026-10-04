@@ -1,0 +1,12 @@
+{
+ "slug": "tiri-s-garden-farmers-market-denver",
+ "market": "Tiri's Garden Farmers Market",
+ "city": "Denver",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "redirect",
+ "notes": "concertsforkids.org redirects (301) to ampthecause.org, which could not be fetched (certificate mismatch); no vendor list found.",
+ "vendors": []
+}

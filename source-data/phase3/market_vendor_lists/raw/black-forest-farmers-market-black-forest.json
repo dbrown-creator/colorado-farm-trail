@@ -1,0 +1,427 @@
+{
+ "slug": "black-forest-farmers-market-black-forest",
+ "market": "Black Forest Farmers Market",
+ "city": "Black Forest",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.thebackyardmarkets.com/black-forest-market",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Page shows a \"Vendor Line Up: October 3rd\" list of names only (a single-week lineup for the 2026 season, not necessarily the full season roster; page claims over 70 vendors). Operated by Backyard Market Inc.",
+ "vendors": [
+  {
+   "name": "19C Workshop",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "All Natural Homestead Beef",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Arts of SoCo",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bay Water Bagels",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BioBru",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Black Moon Oven",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Black Squirrel",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Blackhat Distillery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bluejays Winery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bob’s Roasted Nuts",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Campfire Coffee",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cheez Me",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Chile Roasting by Booming Blooms of Colorado",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CinnaQueen Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Crafton's Summit Sourdough",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Crossed Arrows Creative Woodworking",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dukkha Pastries & Essentials LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dusty Dog Woodworks",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Elevated Chex",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Elevated Elderberry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ellen's Flowers",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Emily's Flavor Blast",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Erik the Blade Sharpener",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fat Flower",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Forest Green Pottery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fox Meadow Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fungus Farm Colorado",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Further Up Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Gill’s Dills",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Golden Pine Coffee Roasters",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Healthy Harvest Gardens",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hidy Honey",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Jojo's Apothecary",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KnK Soap Haus",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kraken Kernels",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Little Wildflower Co.",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lynda Sue's Kitchen",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lyndsey Rieple Jewelry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Minions Ranch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Tea Leaves",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Wild Kimchi LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nana's Famous Goods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Padilla Produce",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PAWS & Us",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pikes Peak Pours",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pine & Pepper Spice Shop",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pressed and Poured Juice",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ProForm 3D",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Proof & Temper",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "QuintAnnas Roasted Corn",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rustic Peak Sourdough LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sg Cattle Company LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SherBeth's Sweet Shoppe, LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Simply All-Natural",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Skating Designs Children’s Books",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Skye Dawn Studio",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sugar Puff LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Surely Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sweet Awakening Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tamales Lady",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Taste of Mediterranean",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tava Rosa",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Cheese People of Colorado Springs",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Cookie Crew CS",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Sourdough Boulangerie",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TIDYTIEDYE.BKK",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Western General Boutique",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WisCo",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Yummy Yummy Products",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

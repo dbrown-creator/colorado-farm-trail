@@ -1,0 +1,823 @@
+{
+ "slug": "palisade-sunday-farmers-market-palisade",
+ "market": "Palisade Sunday Farmers' Market",
+ "city": "Palisade",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://townofpalisade.mymarket.org/profiles",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Town page links to a MarketWurks \"2026 Vendor Profiles\" list. It includes musical entertainers, non-profits and sponsors under their own categories; all captured as listed. Town site returns 403 to plain curl but loads with browser headers.",
+ "vendors": [
+  {
+   "name": "7SistersCandles&Gifts",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Baker's Burns, LLC",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "busy Bea’s handmade goods and accessories",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "By All Means Arts LLC",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "By George! CBD",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CCRJ Studios",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Comb and Crescent",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "coolstitch",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DarcMoon",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Designs by Kay",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Designs with Altitude",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Eco Bag Lady Says/Design Haus , int'l",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ESM Pottery Farm",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fields of Glory Organic Farm",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Golden Bough Forge",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Haiku Moving Company",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "HICO Limited",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hippie Dickey Designs",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Honey and Gold Jewelry/Permanent Jewelry",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Jabulani Creations, LLC",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "K Rand Designs",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LeGrande Jewelry",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lily Cain Studio",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mom And Anna Stitchcraft",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Never Dull Art and Graphics",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PAKO LAZO POTTERY",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pine Needle Creations",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Preserving Techniques",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pressed Wildflowers",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rocky Mountain Leashes",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Shaviq Designs",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Side Hustle",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SR Designs",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sweet Cedar woodworking",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Trianna's Fine Designs",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Western Slope Custom Hearing Protection, LLC",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Zoe Fortuna Photography",
+   "list_category": "Artisan",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lily’s Bakeshop",
+   "list_category": "Bakery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Little Button Bakery L.L.C",
+   "list_category": "Bakery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Maison la Belle Vie and Amy's Courtyard",
+   "list_category": "Bakery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pinon Kitchen Co",
+   "list_category": "Bakery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rooted in Sweets",
+   "list_category": "Bakery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Trail Cookie",
+   "list_category": "Bakery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cygnus Coffee Bus",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nebula 1 Drinks",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Palisade Kombucha LLC",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Suck It Fruity",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Loaded Pony LLC",
+   "list_category": "Beverages",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Farmhouse Palisade",
+   "list_category": "Downtown Business",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Harlow Lifestyle & Gift",
+   "list_category": "Downtown Business",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Imogene Was Here",
+   "list_category": "Downtown Business",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Palisade Cycle LLC",
+   "list_category": "Downtown Business",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Purple Bee Wine Bar & Gift Shop",
+   "list_category": "Downtown Business",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sage Creations Farm",
+   "list_category": "Downtown Business",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Adobe Creek Farm LLC",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Anita's Pantry & Produce / Palisade Pies",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bella Bolettino Organic Farms, LLC",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Chicken Grit Farms",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Colby Farm",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cunningham Orchards",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Early Morning Produce",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "grand valley micro farms, llc",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Green Junction Farmstead",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Harding Homegrown",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Horse thief Mesa Apiaries",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Jake a Bean",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "JD Heirloom Seeds",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Morehouse Produce",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Moss Rock Corner LLC",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mt. Garfield Fruit & Vegetable",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ollie's Farm",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Palisade Peach Shack",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pasquali Farm",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pothook Farms",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Power plant",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rendezvous Mushroom Co",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Root Rock Farm",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Socorro Suarez",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Stone Fruit Company LLC",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ultreia Farm & Wellness",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Vista Orchard LLC",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Wild Roots Farms",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Z's Orchard",
+   "list_category": "Farm",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Chutes, LLC",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CO & Snow LLC",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Colorado Q, LLC",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dairy Bar Express",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "El Rey ll",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "GJ FUSION FOOD TRUCK",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lonchera La Casita LLc",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nom Nom Shark",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nomad Bowlz",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Sweet Shoppe Shaved Ice LLC",
+   "list_category": "Food Truck",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bill Crick",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Carlos Rivera Band",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Clayton Yeazle (Music)",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ethan J. Perry",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Gerry Goodman",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Liat and the Sirens",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Palisade High School BPO",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rick Mancuso And The Fyvestar Band",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Stone Kitchen",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Vysta Productions (representing Colorado Currys)",
+   "list_category": "Musical Entertainer",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Community Concerts of the Grand Valley",
+   "list_category": "Non-Profit Organization",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grand Junction Symphony Orchestra",
+   "list_category": "Non-Profit Organization",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mesa County Noxious Weed and Pest Management",
+   "list_category": "Non-Profit Organization",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "RiversEdge West",
+   "list_category": "Non-Profit Organization",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Plant Place",
+   "list_category": "Nursery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Alida's Fruits dba STRiVE",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Crack Nuts",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DGFF LLC (dba Decadence Gourmet)",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fruita Freeze Dried Goodies, LLC.",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Gigi Ann's LLC",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Golden Juicery",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KC's Kettle Corn",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lannas Desserts dba Decadence Cheesecakes",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nordic Fox Farm",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pandemic Polly Peppers",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Roths Pretzels",
+   "list_category": "Packaged Foods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "G Force Livestock",
+   "list_category": "Ranch",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "happy hive farmstead",
+   "list_category": "Ranch",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The High Lonesome Ranch",
+   "list_category": "Ranch",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Belle Tige",
+   "list_category": "Skincare",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Colorado Wild Botanicals",
+   "list_category": "Skincare",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Effervescent Botanicals / The Mindful Body Collective",
+   "list_category": "Skincare",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kendra Via Products LLC Dba Turtle Herbals",
+   "list_category": "Skincare",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Misty Moons Elixers & Oddities",
+   "list_category": "Skincare",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sudds Soap Company",
+   "list_category": "Skincare",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Winters' Blessings Soap Co.",
+   "list_category": "Skincare",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mary’s Mountain Cookies Grand Junction",
+   "list_category": "Sponsor",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nu Home - formerly SOCO Solar & Power",
+   "list_category": "Sponsor",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Renewal by Andersen",
+   "list_category": "Sponsor",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Peach Street Distillers",
+   "list_category": "Winery/Distillery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Periphery Cellars, LLC",
+   "list_category": "Winery/Distillery",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sauvage Spectrum LLC",
+   "list_category": "Winery/Distillery",
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

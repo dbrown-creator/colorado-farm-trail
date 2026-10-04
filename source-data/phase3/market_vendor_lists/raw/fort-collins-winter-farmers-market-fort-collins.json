@@ -1,0 +1,655 @@
+{
+ "slug": "fort-collins-winter-farmers-market-fort-collins",
+ "market": "Fort Collins Winter Farmers Market",
+ "city": "Fort Collins",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.wildcraftmarkets.com/vendors",
+ "list_season": "2025-26 winter",
+ "site_status": "redirect",
+ "notes": "Site winterfarmersmarket.com redirects to wildcraftmarkets.com (rebranded Wildcraft Farmers Market). Vendors page lists 2025-26 PAST winter season vendors (stale for 2026-27); live vendor map is on Manage My Market (JS-only).",
+ "vendors": [
+  {
+   "name": "Agustina's Mexican Foods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Airy and Rooted",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ama Coffee",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Buck and Bloom Cheese Company",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Black Cat Bagel Company",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cassavaberry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Chef Sarah’s Family Favorites",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Choice City USA",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dad's Wooden Spoon",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Denver Sea Moss Oceanic Apothecary",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Doughology",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Elevated Elderberry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Esmeralda's Tamale House",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ferment Culture",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Folk Eats",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fort Collins Aguas Frescas",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Frosting!",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Good Smile",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Green Belly Foods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Green Yams",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Gursha",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Healthy Harvest",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Heavens Popcorn",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Heirloom Foods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hopelands Coffee",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hu Baozi",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hundy's Biryanis and Bowls",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "In A Pickle",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KREAM Kimchi",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MeadKrieger Meadery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Moringa Vinga",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MouCo Cheese Company",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Olde World Breads",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Paca Coffee Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Papa Joe's Local Honey",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rise and Pies",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "St. Michael's Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Stoppini",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sub Zero Ice Cream",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sweet European Treats",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Symphony Sweets",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tamburi Winery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tart and Soul Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The 5280 Mermaid",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Bagel Cache",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Bread Chic",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Good Stuff",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Jelly Lady",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Three Kings Non Alcoholic Beverages",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Three Little Pigs Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tuesdays Natural Dog Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Unity Butter",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "3 of Stars",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "AK Apothakary",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Angela's Stamping Creations",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Birchland Clean",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bloomin’ Pots Boutique",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BoCo Home",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Box of Rocks Crystals",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bridging All Gaps",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Canine Candy Biscuits",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Chez Flora",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Christie Leighton Jewelry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Climbers Haul",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Crafted Carry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Crafted Curousities",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Crimson Cryptid",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dafni",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Daisy and Co. Permanent Jewelry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dissolve Art",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dr T Pottery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "EverSoftKnits",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Farmhouse Hemp",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Guided by Gaia Creations",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Happy Pupperz",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "J&A's Creative Creations",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Keep Calm & Flicker On",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lemon Tree Textile Designs",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Little Laz Artisan Goods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Louise Cutler Studio",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "lovelevel",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Martelle Soaps",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mercer & Jayne",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Time Woodworking",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "NoCo Majestic Edge",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nomad Shapes",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ohana Links",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "P&L Laser Creations",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Palafoxia Beauty",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Phthalo Blue",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Press Love Wildflowers",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rainbow House Stories",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ridgewood Workshop",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Silver Bird Creations",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SnowWolf Treasures",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sunshower Media",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tankerchiefz",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Taspens Organics & Dragonfly Botanicals",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The CO Shade Co.",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Happy Pig",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Matriart Collective",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Pottery Bunker",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Source Zero Front Range",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Wandering Oasis",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Two Turner Photo",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Whimla.co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "slug": "granby-farmers-market-granby",
+ "market": "Granby Farmers Market",
+ "city": "Granby",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.destinationgranby.com/events/music-market/",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Music & Market, Thursdays at Polhamus Park; page lists 2026 vendors (vary by week) plus community groups/non-profits.",
+ "vendors": [
+  {
+   "name": "Aloe Goodbye/Stick to the Know",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ARTful Bible",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Baked by Riley",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bald Man's Burritos Food Truck",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Big Country Kettle Corn",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Big Bird Ranch Farmstand",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Blue Hour Artisan",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Change in Altitude Creations",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Charlie's on the Go Food Truck",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grand Massage + MVMT",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "High Peak Hat Co",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Homestead-ISH",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Huntsberry Plants and Things",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kim Shepton Creations",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KMP Provisions",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kogler's Bakery",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Monini's Kitchen Food Truck",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Paella's Restaurant Food Truck",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rhythm & Stone",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rocky Mountain Mushrooms",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SISU Farms",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sky Tacos & More Food Truck",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Soul Vibe Boutique",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Star Trail Woodworks",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Stormy Heights Homestead",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Fizzy Fix",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Twisted Squids Designs LLC",
+   "list_category": "Market Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CSU Extension",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cultural Care Au Pair",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Eternal Hills Christian Preschool",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Every Last One Dog Sanctuary",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Family Mountain Center",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grand County Emergency Management",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grand County Historical Association",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grand County Library District",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grand County Public Health",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grand County Wildfire Council",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Learning By Doing",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sustainable Grand",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Winter Park Film Festival",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Upper Colorado Watershed Environment Team",
+   "list_category": "Community Groups / Non-Profits",
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

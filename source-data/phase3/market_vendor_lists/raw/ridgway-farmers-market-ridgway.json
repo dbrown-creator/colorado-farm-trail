@@ -1,0 +1,415 @@
+{
+ "slug": "ridgway-farmers-market-ridgway",
+ "market": "Ridgway Farmers Market",
+ "city": "Ridgway",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.ridgwayfarmersmarket.com/our-vendors",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Squarespace page \"Our 2026 Vendors\". Heading-to-list grouping was inferred from page order (the layout is a grid); category assignment for some groups may be off by one block.",
+ "vendors": [
+  {
+   "name": "Afton's Garden Center LLC",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Allen Farms West",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Berry Fungi Farms",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Birdstory Nursery",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Blessed Bloom Farm",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Gardens of Eatin'",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Gypsy Chicks and Blooms",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hanks Hens",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Honey Moon Mesa",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hwy 145 Craft Cuts",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "L Bar Bell Ranch",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Lightborne Labs LLC",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Bird",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Power Plant",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "San Juan Blooms",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sandy Seed Farm LLC",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Stone Fruit Company LLC",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Uncompahgre Farms",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Wag's World Orchards",
+   "list_category": "Farm, Ranch & Flowers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dutch Girl Kitchen, LLC",
+   "list_category": "Bakeries & Sweet Treats",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Gus Chocolate",
+   "list_category": "Bakeries & Sweet Treats",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ladybird Bakery",
+   "list_category": "Bakeries & Sweet Treats",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sugar Mama's Bakeshop & Cafe",
+   "list_category": "Bakeries & Sweet Treats",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Harvest Sips LLC",
+   "list_category": "Specialty Food & Drink",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Italian Food Emporium",
+   "list_category": "Specialty Food & Drink",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Marmots Acai LLC",
+   "list_category": "Specialty Food & Drink",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mesa Coffee Company",
+   "list_category": "Specialty Food & Drink",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nom Nom Shark",
+   "list_category": "Specialty Food & Drink",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pandemic Polly Peppers",
+   "list_category": "Specialty Food & Drink",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Suck It Fruity",
+   "list_category": "Specialty Food & Drink",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Blades by Bruce - Knife Sharpening",
+   "list_category": "Specialty Services",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Faery Marilla’s Face Painting",
+   "list_category": "Specialty Services",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fortuna Tierra Club",
+   "list_category": "Not For Profit",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ouray County Sheriff's Posse",
+   "list_category": "Not For Profit",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Praise Him Ministries, Inc",
+   "list_category": "Not For Profit",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ridgway Area Chamber of Commerce",
+   "list_category": "Not For Profit",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Second Chance Humane Society",
+   "list_category": "Not For Profit",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Uncompahgre Watershed Partnership",
+   "list_category": "Not For Profit",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Colorado Wild Botanicals",
+   "list_category": "Body Care & Wellness",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cypress Roots",
+   "list_category": "Body Care & Wellness",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Effervescent Botanicals",
+   "list_category": "Body Care & Wellness",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fields of Glory Organic Farm",
+   "list_category": "Body Care & Wellness",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Misty Moons Elixers & Oddities",
+   "list_category": "Body Care & Wellness",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nordic Fox Farm",
+   "list_category": "Body Care & Wellness",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "A-WARE Collaborative",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Beeware Ceramics",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Belle and the Bear",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Black Burro Clayworks",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cliff Mansanares",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Golden Bough Forge",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Haiku Moving Company",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Heart Centered Design LLC",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Jagged Edge Mountain Gear",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Joyelia Jewelry LLC",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "k2create LLC",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KH Creative",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kris Batchelder ART",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LeGrande Jewelry",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Love Lucky Dog",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Maclaine Eclectic LLC",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rooted In Ridgway",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MetalRock Designs",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Nina Design",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pathfinder",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Shaviq Designs",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Welington Martins Woodwork and Photography",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Winter Moon Gifts",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

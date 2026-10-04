@@ -1,0 +1,589 @@
+{
+ "slug": "golden-farmers-market-golden",
+ "market": "Golden Farmers Market",
+ "city": "Golden",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://goldenfarmersmarket.org/our-merchants/",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Vendor list is published as two images (GFM-2026-Full-Vendor-List1/2.png, '2026 Summer Vendor Partners'), transcribed by eye; names may have minor transcription errors. Includes non-farm vendors (services, nonprofits). Weekly lineup images also exist; Wednesday Midweek Market is separate.",
+ "vendors": [
+  {
+   "name": "5Seeds",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ACAI Bowls",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Adio Chiropractic",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "AliBar",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Alyth Active",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Amihan Artisans",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Après Ski Jewelry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Astro Coffee Van",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Backpack Up Plan",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Baldwin Baked Goods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Better Half Biscuits",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bjorn's Honey",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Blondies Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Blooming Kitchen Co",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Bruna's Brazilian Cheese Brad",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Chin Dribblin Asian Fusion Sauces",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Colorado Sun Tofu",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Couple of Nuts",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Daddy's Homemade",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Darleenz Dillaz",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Deep Roots Winery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Deliciously Global",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Denver Pops",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Eat a Peach Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Elk Fields",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fire Crafted",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fox Fungi",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Forte Fruits",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Foxtown Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fruit Therapy",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Golden Gal",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Har Matok Halvah",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Healing Grace Massage",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Healthy Harvests Gardens",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hearth Baking",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hipster Lettuce",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Honey Bear Bakes",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "International Library Project Jefferson",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kogler's Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kolea Bird Studio",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Kona Kombucha",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "La Montagne des Saveurs",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Legacy Pie Co.",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Little Farmhouse Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Living Market Company",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Loom",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "lovelevel",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Luma Turkish Towels",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Malisa's Thai Street Food",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mama Montoya's",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mandalina Turkish Towels",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mile-Hi Provisions",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Miller Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MisoHeat",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN TIME SOAP",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mushroom Gardens",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mycocosm Mushrooms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Native Raw Eats",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Not Bad Cooks",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Painted With Fire Art Guild",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pambasos",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pappardelle's Pasta Co.",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Park Pass Coffee",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Phenix Rose Designs",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Phun Bar",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pretty Lit",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ramon’s Burritos",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Renewal By Andersen",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sangha Juice",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Science at the Market!",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Scooty's",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Scully’s Coffee Camper",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Seeker Sauce",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Snow Loaf Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SO VERY LOVELY",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Starry Sage",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Starwood Botanicals",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "State 38 Distilling",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sugar Boot Farm Co.",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Summit Pasta",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sunflower Foods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Superganix CBD",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tarta Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tart and Soul Bakery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Taspens Organics",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Bread Box",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Flower Shack",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Springs Bagel Company",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Stone Fruit",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Three Biscuiteers",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Urban Orchard",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tia Woven Goods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Trish Delish Cookies",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Willsport Creatsion",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Yummy Yummy Products",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

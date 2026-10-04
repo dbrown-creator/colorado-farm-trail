@@ -1,0 +1,12 @@
+{
+ "slug": "loveland-farmers-market-at-fairgrounds-park-loveland",
+ "market": "Loveland Farmers Market at Fairgrounds Park",
+ "city": "Loveland",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "blocked",
+ "notes": "City page returned 403 Access Denied to every automated request (Akamai); could not read it. No vendor list could be verified.",
+ "vendors": []
+}

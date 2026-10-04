@@ -1,0 +1,12 @@
+{
+ "slug": "the-saturday-market-at-tagawa-gardens-centennial",
+ "market": "The Saturday Market at Tagawa Gardens",
+ "city": "Centennial",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "blocked",
+ "notes": "Site returned HTTP 403 (bot challenge) to curl and WebFetch, so no vendor list could be checked.",
+ "vendors": []
+}

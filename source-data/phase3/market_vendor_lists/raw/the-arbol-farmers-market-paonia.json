@@ -1,0 +1,85 @@
+{
+ "slug": "the-arbol-farmers-market-paonia",
+ "market": "The Arbol Farmers Market",
+ "city": "Paonia",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.thelearningcouncil.org/arbol-farmers-market",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "'Meet Our Current Vendors' list on the Arbol Farmers Market page of The Learning Council site.",
+ "vendors": [
+  {
+   "name": "Berry Fungi Farms",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fire Mountain Ranch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ground Dweller Baskets",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Honey Moon Mesa",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Living Springs Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Matt's Artisan Bread",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rock n Roots",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Root Rock Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sunshine Beef",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Taylor Bobowicz Designs",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Thistle Whistle Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Woolly Colorado",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

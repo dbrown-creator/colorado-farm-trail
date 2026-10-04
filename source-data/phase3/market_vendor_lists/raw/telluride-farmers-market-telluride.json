@@ -1,0 +1,169 @@
+{
+ "slug": "telluride-farmers-market-telluride",
+ "market": "Telluride Farmers' Market",
+ "city": "Telluride",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.thetelluridefarmersmarket.com/our-vendors",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Our Vendors page links category pages (produce, meat and eggs, prepared food, artisan crafts, nonprofits); all captured.",
+ "vendors": [
+  {
+   "name": "Abundant Life Organic Farms",
+   "list_category": "Produce",
+   "location_stated": "Hotchkiss, CO",
+   "description_stated": "Using a blend of organic practices and cutting edge technologies to bring healthy, organically grown produce to market."
+  },
+  {
+   "name": "Telluride Mushroom Company",
+   "list_category": "Produce",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Zephyros Farm & Gardens",
+   "list_category": "Produce",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Root Rock Farm",
+   "list_category": "Produce",
+   "location_stated": "Orchard City, Colorado",
+   "description_stated": null
+  },
+  {
+   "name": "Uncompahgre Farms",
+   "list_category": "Meat and Eggs",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Happy Hive Farmstead",
+   "list_category": "Meat and Eggs",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Breen Mesa Creamery",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Luv Tempeh",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Stir Fry",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Pie Maker Bakery",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fenceline Cider",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rusty Rhino",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "A Little Twisted",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Meme",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Moon Bear Jewels",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "San Juan Artisans",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Simply Magnetic",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Singing Springs Botanicals",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tim's Naturals",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Southwest Designs in Jewelry",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sue Hill Design",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Thread Metal Stone",
+   "list_category": "Artisan Crafts & More",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tri-County Health Network",
+   "list_category": "Non-profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Second Chance Humane Society",
+   "list_category": "Non-profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Colorado State University Extension",
+   "list_category": "Non-profits",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Telluride Mountain Club",
+   "list_category": "Non-profits",
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "slug": "orchard-valley-farms-market-black-bridge-winery-paonia",
+ "market": "Orchard Valley Farms & Market / Black Bridge Winery",
+ "city": "Paonia",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "no",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "live",
+ "notes": "A single farm market/winery, not a multi-vendor market; no vendor list. Site rejects default curl but loads with browser headers.",
+ "vendors": []
+}

@@ -1,0 +1,859 @@
+{
+ "slug": "louisville-farmers-market-louisville",
+ "market": "Louisville Farmers Market",
+ "city": "Louisville",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://realfarmersmarketco.com/louisville-farmers-market/2026/",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Official full-season 2026 vendor list for Louisville market (all dates combined); location not stated.",
+ "vendors": [
+  {
+   "name": "C R Farms",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Palisade Peaches and Fruit"
+  },
+  {
+   "name": "Downhome Flowers",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "100% Colorado grown fresh flower bouquets, dried flowers, body products."
+  },
+  {
+   "name": "Dragonfly Farms",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Veggie Plants, Crafts, Herbs, Produce, eggs"
+  },
+  {
+   "name": "Eat A Peach Farms",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Fruits and vegetables. Lavender"
+  },
+  {
+   "name": "Father Earth Organic Farm",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Fruits, vegetables, flowers, and herbs grown using organic practices. (non-certified organic) Raw honey when available. Also starter plants from May and June."
+  },
+  {
+   "name": "Forte fruits inc",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Fresh palisade fruit!"
+  },
+  {
+   "name": "Fox Fungi",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "We are a urban mushroom farm."
+  },
+  {
+   "name": "Friends Farm",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Growing No-Till Produce, Eggs, Bread, Fixins’ & Community"
+  },
+  {
+   "name": "Green Yams LLC",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grow Queen",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Annuals (floral and veg) and a wide variety of houseplants both common and exotic"
+  },
+  {
+   "name": "Miller Farms",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Fresh local colorado vegetables. Farm raised beef, pork, lamb, and goat. As well as farm fresh eggs."
+  },
+  {
+   "name": "Mortons Organic Orchards",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Family-farmed. Tree-ripened. Certified Organic: Apples, Apricots, Apriums, Asian Pears, Cherries (sweet & tart), Nectarines, peaches, Pears, Plums, Pluots. YUM! Also Organic: Blackberries, Garden H..."
+  },
+  {
+   "name": "Natural Homestead Beef",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Hi there! We are your local Grass-fed beef and pork products."
+  },
+  {
+   "name": "Patchwork Farms",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Patchwork Farms – unique produce, herbs, spices and garlic"
+  },
+  {
+   "name": "Rockart Guerreros Chile",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Fresh Roasted Chile’s, Hatch and Colorado , Chile spices, Rock Art , Sculptures , Hand made ART"
+  },
+  {
+   "name": "The Neighborhood Plant Plug",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Wild Wiggins Homestead",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Farm-to-Table Microgreen Bar"
+  },
+  {
+   "name": "Discover Chiropractic Broomfield",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "Chiropractic services"
+  },
+  {
+   "name": "Elevated Elderberry",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "We are serving families with a basic goal in mind of providing efficient nourishment. We are taking you back to your roots of nutrition, using elderberry syrup, which has been used for centuries to..."
+  },
+  {
+   "name": "Leanna Organics",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "NOCO CBD CO",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ROOTS.",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "Guided wellness planners to support intentional daily habits."
+  },
+  {
+   "name": "Silver Fox Apothecary LLC",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "Soaps, Lotions & Potions. I formulate & make clean ingredient bodycare products for the whole family, including paw salve for man’s best friend the “dog”."
+  },
+  {
+   "name": "Taspens’s Organics",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "Organic healing and wellness products"
+  },
+  {
+   "name": "Tudor Merchants",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "Candles from The Bard’s Flame, soaps from The Queen’s Bath, and other Tudor-themed treasures!"
+  },
+  {
+   "name": "1 Simple Seed",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Plantable Greeting Cards"
+  },
+  {
+   "name": "Adam Sky Glass",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Stained Glass goodies"
+  },
+  {
+   "name": "Amanda Stringer Jewelry",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Handcrafted jewelry featuring 24k gold fill and semiprecious gemstones."
+  },
+  {
+   "name": "Andres Poterry",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Andre’s Pottery creates handcrafted functional and decorative pieces made using traditional hand-thrown techniques. Working with both high-fire and low-fire processes, I blend craftsmanship with ar..."
+  },
+  {
+   "name": "Beijos Brasil",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Jewelry made with Brazilian grass"
+  },
+  {
+   "name": "Centered in Clay",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Functional pottery/ ceramics, focusing on kitchenware and tableware. Also featuring refillable ceramic soap/lotion dispensers for sustainablility."
+  },
+  {
+   "name": "Colorado Hammock",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Our hammocks are eco-friendly because we use up-cycled fibers in the rope-making process."
+  },
+  {
+   "name": "CREATIVE WOODWWORKING BY STAN",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "hand made charcuterie boards"
+  },
+  {
+   "name": "CrochetCraftsbyAlli",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "I make crochet animal plushies using soft chunky yarn!"
+  },
+  {
+   "name": "Don’s Handcrafted Gifts",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "exotic wood products for cooking and entertaining"
+  },
+  {
+   "name": "Dry Creek Design LLC",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Five Petals Design LLC",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Handmade crochet plushies, bag charms, and more, plus handmade jewelry!"
+  },
+  {
+   "name": "Goddess Gear Natural Fibers",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Locally handcrafted women’s organic and natural fiber clothing."
+  },
+  {
+   "name": "Graphink Fusion",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Not Your Average Custom. Graphink Fusion creates premium apparel, tea towels, gifts, and small-batch accessories with personality, humor, and high-quality craftsmanship."
+  },
+  {
+   "name": "Just Like Lauras Jewelry",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Beautiful handcrafted jewelry for men women& children!"
+  },
+  {
+   "name": "Katie Moore",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Love Letter Co.",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Love Letter Co. creates unique, intentional keepsakes that preserve life’s special moments. From floral preservation in resin to personalized gifts, each piece is handcrafted with care. At markets,..."
+  },
+  {
+   "name": "Marthas Closet LLC",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Imported Italian Clothing"
+  },
+  {
+   "name": "Mineral Oasis",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Rocks and gems"
+  },
+  {
+   "name": "Mongoose Design",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Custom 3D Maps and Laser Art"
+  },
+  {
+   "name": "Nataliia Kaelin Art, LLC",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "cards, prints, and stickers of our original watercolor and graphite artwork."
+  },
+  {
+   "name": "PAMELA DUPLAT @iloveamano",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Purple Press Publishing LLC dba The Vegan Artist",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Art, prints, greeting cards, tote bags, and books."
+  },
+  {
+   "name": "Ruth Evelyn Paints",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Original landscape paintings and high-quality prints."
+  },
+  {
+   "name": "SaiKaART LLC",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Hand made cotton bags and home decor"
+  },
+  {
+   "name": "Samantha Cauchy Art",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Original oil paintings, vinyl stickers, art prints, and more!"
+  },
+  {
+   "name": "Sancho’s Woodworking",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "These Stunning Handmade Bird & Squirrel Feeders Are a Backyard Game-Changer! Looking to elevate your backyard into a wildlife paradise? These artisanal bird and squirrel feeders are a must-have!"
+  },
+  {
+   "name": "Sundial Dog Gear",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Performance-driven gear for dogs (outerwear, beds, bowls, and accessories)."
+  },
+  {
+   "name": "Tibetan Souvenirs",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tyrannosaurus Dyes",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Dino-mite tie dye – something fun for everyone!"
+  },
+  {
+   "name": "BoCo Puzzlers",
+   "list_category": "Non-Profit",
+   "location_stated": null,
+   "description_stated": "Jigsaw Puzzle Exchange – swap your old puzzles for new-to-you puzzles!"
+  },
+  {
+   "name": "Boulder Vet Center-Department of Veterans Affairs",
+   "list_category": "Non-Profit",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Community Roots Midwife Collective",
+   "list_category": "Non-Profit",
+   "location_stated": null,
+   "description_stated": "We’re a midwifery collective supporting the community by providing access to midwife services, educational classes, infant care supplies, and support groups."
+  },
+  {
+   "name": "CSU Extension Master Gardeners",
+   "list_category": "Non-Profit",
+   "location_stated": null,
+   "description_stated": "Free unbiased and science backed information for home gardeners."
+  },
+  {
+   "name": "Living With Harmony",
+   "list_category": "Non-Profit",
+   "location_stated": null,
+   "description_stated": "A local 501c3 nonprofit that is dedicated to educate, motivate and inspire people to live more gently on the planet through the education and demonstration of PLANET-Based Living."
+  },
+  {
+   "name": "Mindful Works",
+   "list_category": "Non-Profit",
+   "location_stated": null,
+   "description_stated": "Mindful Works sells poufs, meditation cushions, bolsters, and smaller items such as eye pillows, neck wraps, and even fidget toys."
+  },
+  {
+   "name": "Albinelli Blends",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Albinelli Blends produces uniquely flavored, individually designed, Balsamic Vinegars in our Colorado Springs kitchen. Each flavor holds a proprietary recipe and is made in small batches to ensure ..."
+  },
+  {
+   "name": "AlcheMeats",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Seasonings and BBQ Rubs"
+  },
+  {
+   "name": "Anthracite Spirits",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Beezy’s Granola",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "At Beezy’s Granola, we believe good food should fuel great adventures. Born in Louisville, Colorado, our family-owned company handcrafts small-batch granola with simple, wholesome ingredients and a..."
+  },
+  {
+   "name": "Bjorn’s Colorado Honey",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Björn’s Colorado Honey offers local Colorado honey and bee-pollen plus hive-based skincare featuring beeswax, honey, and propolis. We are small-batch, local, honey producers based in Brighton with ..."
+  },
+  {
+   "name": "BLISSTIX",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "BLISSTIX provides a premier jerky experience in every taste. Our dedication to quality and health can be experienced in every bite. Each time you bite in to one of our beef sticks you will enjoy th..."
+  },
+  {
+   "name": "Bork Dog Treats",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Human-grade, all natural dog treats."
+  },
+  {
+   "name": "Bruna’s Cheese Bread",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Bruna’s Cheese Bread brings you delicious, gluten-free, grain-free, and soy-free cheese bread balls — golden, cheesy, and ready to bake! Perfect for breakfast, a quick snack, appetizers, or dinner ..."
+  },
+  {
+   "name": "Buffy Belladonna’s Botanicals",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Seasonal botanicals infused into balms, candles, tinctures, honeys, and tisanes—lovingly woven with folkloric story tales and ancestral root connection."
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We are a small family owned business. We make Take & Bake Lasagna and we make everything from scratch. We believe there is no better way to spend time with family, get to know a new culture, or to ..."
+  },
+  {
+   "name": "Cheez Me LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We are a small, local cheese producer specializing in handcrafted fresh cheeses, with a focus on soft styles and cream cheeses made from locally sourced milk. All of our cheeses are produced in sma..."
+  },
+  {
+   "name": "Cream City Market",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Wisconsin-made Cheddar Cheese curds, Mozarella String Cheese, Genuine WI Brick Cheese and flavored butters"
+  },
+  {
+   "name": "Curious Box",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Curious Box offers the best Japanese baked goods."
+  },
+  {
+   "name": "Cync nutrition",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Women’s health company that makes targeted hormone support blends for women in the form of bevarage mixes (and soon to be snacks too!)"
+  },
+  {
+   "name": "Denver Sea Moss",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Sea moss, prepared simply."
+  },
+  {
+   "name": "Doughology",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Gluten free, dairy free, and more allergen friendly baked goods!"
+  },
+  {
+   "name": "Esmeraldas tamale house",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Fisherman’s Pride Wild Alaskan Seafood LLc",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Fresh wild caught, sustainable seafood direct from the icy waters of Alaska"
+  },
+  {
+   "name": "Floreo",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Chocolate made in Belize"
+  },
+  {
+   "name": "Forever Spicy LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We make and produce small batch hot sauce and chili oils with organic and as local to Colorado ingredients as possible."
+  },
+  {
+   "name": "Foxtown Farm",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Honey, Reimagined. Pourable honey syrups made with fresh organic ginger, turmeric, and elderberry—crafted for bold flavor and effortless use in drinks, cooking, and everyday rituals."
+  },
+  {
+   "name": "Garden Fusion Innovations",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Refreshing and unique jams/jelly. Even offer a low sugar type. All vegan. Unique pickle flavors 3d printed items mostly garden related or custom requests Plant vegetables such as tomatoes and peppe..."
+  },
+  {
+   "name": "Great Harvest",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Bread, Sweets, cookies, soup mixes, Jams, Jellies, Baking mixes, etc."
+  },
+  {
+   "name": "Great Harvest Bread Co",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Great Harvest provides fresh, locally baked, artisan breads, sweets, and baking mixes. We also carry soup mixes, jams, jellies, honey spreads, oils and vinegars. We always have glutenless options."
+  },
+  {
+   "name": "HOPELANDS COFFEE",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Specialty Honduran coffee — whole bean, ground, and fresh-brewed."
+  },
+  {
+   "name": "In A Pickle",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Cold packed Pickles! different flavors"
+  },
+  {
+   "name": "Ironton Distillery",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Handcrafted Colorado Spirits"
+  },
+  {
+   "name": "King Pappy’s BBQ Sauce",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Local and specialty food – authentic family recipe BBQ sauce, dry rub and seasoning salt."
+  },
+  {
+   "name": "Kismet Cafe",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Walnut/Pistachio/Pecan Baklava made with herb-infused simple syrups, Greek butter cookies & traditional Turkish coffee with cardamom"
+  },
+  {
+   "name": "KREAM Kimchi",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "we make kimchi. It’s my mom’s recipe. We make a bunch of other products in the kimchi universe."
+  },
+  {
+   "name": "La Montagne Des Saveurs",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We are cheeses agers in France and we import the finest European cheeses and sale them at our local markets."
+  },
+  {
+   "name": "Lavender Fields",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Lavender Blueberry Lemonade"
+  },
+  {
+   "name": "Mary’s Wholesome Living",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Artisanal jams, pickles, raw fermented sauerkrauts, fermented garlic honey, elixirs"
+  },
+  {
+   "name": "Mungfu",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Ortegas Jerky",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "New Mexico Style Beef Jerky"
+  },
+  {
+   "name": "Pet Wants Boulder/Arvada",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Pies in Bloom",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Fresh homemade pies and vibrant annuals: including hanging baskets, starters, and flowers, grown and baked with care for your home and garden."
+  },
+  {
+   "name": "Prehistoric Pedal Frozen Treats",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Pre-packaged, handcrafted cookie ice cream sandwiches, popsicles and popcorn!"
+  },
+  {
+   "name": "Rollin In Daisies",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Roxys Remixes",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Send Bars",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We’re a team of athletes who were convinced there was a better solution to healthy on-the-go. When we couldn’t find adventure food that met our standards, we created SEND Bars. Chock full of superf..."
+  },
+  {
+   "name": "Shine / Martys Meals Organic Pet Food",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Frozen fresh organic pet foods and treats"
+  },
+  {
+   "name": "Styria Catering",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sun With Some Shine Bakery LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Gluten free, processed sugar free sourdough, cookies and other baked goods."
+  },
+  {
+   "name": "Tarta Bakery LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Inspired by the iconic cheesecakes of San Sebastián, our small-batch Basque cheesecakes are crustless, caramelized and ultra-creamy."
+  },
+  {
+   "name": "The 5280 Mermaid",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "The 5280 Mermaid creates all-natural handcrafted goods including dried fruit and herb beverage infusion kits (for cocktails and mocktails), small-batch soup kits, dip mixes, humorous soy candles, a..."
+  },
+  {
+   "name": "The Broke Vagabonds",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Artisan Nuts and gourmet goodies"
+  },
+  {
+   "name": "The Family Jones Distillery",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Tlaquesalsa",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Yummy Yummy Products LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Fresh, small-batch dips made weekly using quality ingredients. Yummy Yummy Products delivers flavorful, locally made dips with a focus on freshness, simple recipes, and great taste, perfect for sha..."
+  },
+  {
+   "name": "Zuna’s Bakery",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "47 Bakery",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "handmade pretzels with love – real ingredients. real local. real good."
+  },
+  {
+   "name": "A Bite Above",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Baked by Joe",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Chef quality baked goods elevating what you know and love."
+  },
+  {
+   "name": "Captain Crepes",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Sweet and Savory Crepes"
+  },
+  {
+   "name": "Chilaquilli LLC",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Chilaquilli began as our Sunday ritual in a tiny camper kitchen during COVID. Richie spent years perfecting our salsas, inspired by Tijuana’s bold flavors and the recipes we grew up with. When we m..."
+  },
+  {
+   "name": "Cocina Salvadoreña",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Salvadoran food consisting of pupusas, tamales, and breakfast burritos."
+  },
+  {
+   "name": "Fair Lady Pastries",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "American pastries made with organic flour and organic eggs."
+  },
+  {
+   "name": "Feelin Fresca",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Agua Frescas"
+  },
+  {
+   "name": "Fioranto Group Solutions Llc",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Acai Bowls and freshly squeezed lemonade"
+  },
+  {
+   "name": "Folk Eats",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Goldies Mini Donuts",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Small-batch donuts fried in avocado oil and dusted with cinnamon sugar."
+  },
+  {
+   "name": "Good Smile LLC",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Good Smile has been bringing our fun take on Homemade European Foods since 2024 and we are excited to make our way to your market!"
+  },
+  {
+   "name": "Hundy’s Biryanis and bowls",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "The Indian Grab-n-Go made with slow cooking techniques and family recipes from Kolkata- The city of Joy"
+  },
+  {
+   "name": "Kogler’s Bakery",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "European Breads, pastries, quiches, croissants, strudels"
+  },
+  {
+   "name": "Papa’s Original Gourmet Caramel Corn",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Simply the finest Caramel Corn you’ll ever taste."
+  },
+  {
+   "name": "Polish Pantry",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Traditional and Handmade Polish Pączki (brioche donuts) and European pastries."
+  },
+  {
+   "name": "Redemption Road Coffee",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Redemption Road Coffee is a single origin coffee roaster out of Mead, Colorado that is funding good in the world through our amazing coffee products and drinks!"
+  },
+  {
+   "name": "Sabor y Salsa",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Homemade, ready-to-eat Mexican food made fresh with traditional recipes."
+  },
+  {
+   "name": "Sweet Serenity",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Argentos Empanadas",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Art Major Studio",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Marketing for Art Major Studio!"
+  },
+  {
+   "name": "Colorado Pet Companion",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Denver Sky Yoga",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Offering all-levels yoga classes at the farmers market"
+  },
+  {
+   "name": "Longmont Dairy Farm",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Delivering fresh milk and more to homes along the Front Range. We are a family owned and operated business dedicated to providing great milk, from our cows to our customers’ doorsteps."
+  },
+  {
+   "name": "Manka Movement",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Manka Movement is a locally-owned reformer Pilates studio in the heart of Downtown Louisville. Led by professional ballet dancer and comprehensively certified Pilates instructor Sterling Manka, the..."
+  },
+  {
+   "name": "Sparkle",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "At Sparkle, we offer wellness-focused hygiene and salon style grooming makes it easy to have a clean, healthy, and happy dog – for less."
+  },
+  {
+   "name": "Tastefully Simple",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Tastefully Simple cakes and spices"
+  },
+  {
+   "name": "The In-Between Groom",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "On Site Dog Grooming Service"
+  },
+  {
+   "name": "Where the Wild Things Art",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Face painting fun for kids (and adults)!"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "green-vally-ranch-ne-denver-farmers-market-presented-by-grateful-garden-llc-denver",
+ "market": "Green Vally Ranch NE Denver Farmers Market",
+ "city": "Denver",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.gratefulgardenllc.com/vendors",
+ "list_season": "2024",
+ "site_status": "redirect",
+ "notes": "Gvrfarmersmarket.com is dead; operator Grateful Garden LLC site /vendors has a '2024 Full Season Vendors' gallery showing only 2 vendors (rest is placeholder text) - stale and incomplete. /vendor-list requires sign-in. 2026 page only says '50+ vendors each week'.",
+ "vendors": [
+  {
+   "name": "Palisade Peach Shack",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Cherries and apricots harvest early June. Peaches will harvest early July!"
+  },
+  {
+   "name": "Rocking HC Ranch",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Delicious farm fresh eggs from happy and healthy chickens!!"
+  }
+ ]
+}

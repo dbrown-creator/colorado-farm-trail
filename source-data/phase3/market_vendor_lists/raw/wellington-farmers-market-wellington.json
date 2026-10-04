@@ -1,0 +1,12 @@
+{
+ "slug": "wellington-farmers-market-wellington",
+ "market": "Wellington Farmers Market",
+ "city": "Wellington",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "dead",
+ "notes": "Homepage returned only a tiny stub page that redirects to '/' (no content, no spam seen); not investigated further per single-curl instruction.",
+ "vendors": []
+}

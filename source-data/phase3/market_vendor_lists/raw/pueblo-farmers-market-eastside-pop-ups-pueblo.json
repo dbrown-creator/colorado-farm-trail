@@ -1,0 +1,67 @@
+{
+ "slug": "pueblo-farmers-market-eastside-pop-ups-pueblo",
+ "market": "Pueblo Farmers Market Eastside Pop-ups",
+ "city": "Pueblo",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://pueblofarmersmarket.org/#vendors",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Homepage \"Meet the vendors\" carousel lists this season's vendors for the Pueblo Farmers Market (Eastside pop-ups are part of the same market). Only 9 shown; may be a partial/featured set.",
+ "vendors": [
+  {
+   "name": "3rd Eye Dyes",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Small batched technical tie dye."
+  },
+  {
+   "name": "Barefoot Cottage Foods",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "we sell, mushroom coffee, pickles, jams & fruit butters, and mycology products"
+  },
+  {
+   "name": "Cassandra Furtick",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Southern Style Soul food."
+  },
+  {
+   "name": "Chopped & Loaded",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "NYC bodega street food. Born in the NYC bodegas and streets, now in Pueblo, CO"
+  },
+  {
+   "name": "Double E's Lemonade & Dirty Sodas",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Best lemonade & dirty sodas around!"
+  },
+  {
+   "name": "Glen Schaffer",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Woodcrafts to include cutting boards, signs, bottle openers, bird houses, custom knives. Also have bbq rub and salsa mix."
+  },
+  {
+   "name": "Joann Magee",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "We make handcrafted keepsake boxes, chess sets building brick jewelry."
+  },
+  {
+   "name": "MBI Pottery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "I create handmade, practical, every-day use pottery."
+  },
+  {
+   "name": "Naomi rosales",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "I am a baker who bakes low calories low sugar high protein baked goods."
+  }
+ ]
+}
