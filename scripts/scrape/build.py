@@ -22,7 +22,7 @@ from scrape import geocode
 from scrape.merge import apply_decisions, flag_possible_dups, load_decisions, merge
 from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
-from scrape.sources import cfma, chaffee_provides, colorado_proud, enrichment, usda
+from scrape.sources import cfma, chaffee_provides, colorado_proud, curated, enrichment, usda
 
 # PHASE 2 (in development — NOT the live product). Outputs are isolated under phase2/
 # so they never touch the live Phase 1 file data-compiled/farm_fresh_directory_mymaps.csv.
@@ -83,6 +83,12 @@ def collect() -> list:
     except Exception as e:
         print(f"  Chaffee Provides fetch failed: {e}")
 
+    # Hand-researched businesses no directory carries (curated_records.csv, Status=add).
+    cur = curated.fetch()
+    if cur:
+        print(f"Curated new records: {len(cur)}...", flush=True)
+        records += cur
+
     # All five USDA Local Food Portal directories by default; narrow with e.g.
     # USDA_DIRECTORIES=farmersmarket,onfarmmarket
     dirs = [d.strip() for d in
@@ -99,7 +105,6 @@ def collect() -> list:
         print("USDA key absent -> keyless data_share only (thin).", flush=True)
         records += usda.fetch_datashare(dirs)
 
-    # TODO(enrichment): cfma.fetch(), curated.fetch(), per-site enrichment.
     return records
 
 
