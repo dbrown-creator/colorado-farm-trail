@@ -19,7 +19,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from scrape import geocode
-from scrape.merge import apply_decisions, flag_possible_dups, load_decisions, merge
+from scrape.merge import (apply_decisions, apply_overrides, flag_possible_dups,
+                          load_decisions, load_overrides, merge)
 from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
 from scrape.sources import cfma, chaffee_provides, colorado_proud, enrichment, usda
@@ -168,6 +169,11 @@ def main() -> None:
     if decisions:
         print(f"Applied {len(decisions)} dedup decisions.")
     fill_geography(markets)
+    # Curated corrections win over every source and survive every rebuild.
+    overrides = load_overrides(os.path.join(SOURCE_DIR, "overrides.csv"))
+    apply_overrides(markets, overrides)
+    if overrides:
+        print(f"Applied {len(overrides)} curated overrides.")
     flag_possible_dups(markets, distinct=distinct)
     markets.sort(key=lambda m: (m.city.lower(), m.business_name.lower()))
     write(markets)
