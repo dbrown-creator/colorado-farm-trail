@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Market Calendar — Colorado Farm Trail</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%8C%BD</text></svg>" />
+<meta name="description" content="Which Colorado farmers' markets are open this week? Day-by-day and month views of market days, hours and seasons." />
+<!--
+  Phase 2 page. It lives in _phase2/ until the Phase 2 cutover: GitHub Pages' Jekyll
+  build skips folders starting with "_", so this can't go live by accident.
+  scripts/build_phase2_preview.py copies it into the local preview next to a
+  data/markets.json whose farmers' markets carry a parsed `schedule`
+  (scripts/market_schedule.py).
+-->
+<style>
+  :root{
+    --bg:#f7f6f1; --card:#ffffff; --ink:#20301f; --muted:#5c6b57;
+    --accent:#3f7d3a; --accent-ink:#ffffff; --line:#e3e0d5; --chip:#eef2e6;
+    --today:#fff6d6; --warn:#8a5a00;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141712; --card:#1d221a; --ink:#e9ecdf; --muted:#a6b09b;
+           --accent:#7bb56f; --accent-ink:#0f1410; --line:#2c3327; --chip:#252c1f;
+           --today:#2f2c17; --warn:#e0b25a; }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.45;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent)}
+  .wrap{max-width:980px;margin:0 auto;padding:20px 16px 64px}
+  header{padding:14px 0 6px}
+  .brand{font-size:1rem;font-weight:700;color:var(--muted);margin:0;text-decoration:none}
+  h1{font-size:clamp(1.6rem,4.8vw,2.3rem);margin:.15em 0 .2em;letter-spacing:-.015em}
+  .tag{color:var(--muted);margin:0;max-width:60ch}
+
+  /* ---- Controls ---- */
+  .controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0 10px;
+    display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid var(--line)}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--card)}
+  .seg button{border:0;background:transparent;color:var(--ink);font:inherit;font-weight:600;
+    padding:8px 14px;cursor:pointer;font-size:.9rem}
+  .seg button.on{background:var(--accent);color:var(--accent-ink)}
+  .nav{display:inline-flex;align-items:center;gap:4px}
+  .nav button, .nav input{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);
+    border-radius:10px;padding:7px 10px;cursor:pointer;font-size:.9rem}
+  .nav input{padding:6px 8px}
+  .nav .label{font-weight:700;min-width:9.5em;text-align:center;font-size:.95rem}
+  .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;flex:1 1 320px;justify-content:flex-end}
+  .filters select, .filters input[type=search]{font:inherit;font-size:.9rem;padding:7px 10px;border-radius:10px;
+    border:1px solid var(--line);background:var(--card);color:var(--ink);min-width:0}
+  .filters input[type=search]{flex:1 1 150px;max-width:220px}
+  .filters label{font-size:.88rem;display:inline-flex;gap:5px;align-items:center;white-space:nowrap}
+  .near{font:inherit;font-size:.88rem;font-weight:600;border:1px solid var(--line);background:var(--card);
+    color:var(--ink);border-radius:10px;padding:7px 10px;cursor:pointer;white-space:nowrap}
+  .status{margin:10px 0 0;font-size:.9rem;color:var(--muted);min-height:1.2em}
+  .status b{color:var(--ink)}
+  .status button{font:inherit;font-size:.85rem;border:0;background:none;color:var(--accent);
+    text-decoration:underline;cursor:pointer;padding:0 0 0 6px}
+  .dist{font-size:.78rem;font-weight:700;color:var(--accent);white-space:nowrap}
+
+  /* ---- List view ---- */
+  .day{margin:22px 0 6px}
+  .day h2{font-size:1.08rem;margin:0 0 8px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+  .day h2 .n{font-weight:600;color:var(--muted);font-size:.88rem}
+  .day.is-today h2::after{content:"Today";font-size:.72rem;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:2px 8px}
+  .empty{color:var(--muted);font-size:.92rem;margin:0;padding:10px 14px;border:1px dashed var(--line);border-radius:12px}
+  .mk{display:grid;grid-template-columns:8.6em 1fr;gap:4px 14px;background:var(--card);border:1px solid var(--line);
+    border-radius:12px;padding:12px 14px;margin:8px 0}
+  .mk .time{font-weight:700;font-variant-numeric:tabular-nums;font-size:.95rem}
+  .mk .name{font-weight:700}
+  .mk .where{color:var(--muted);font-size:.9rem}
+  .mk .meta{grid-column:2;display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:.86rem}
+  .badge{font-size:.72rem;font-weight:700;border-radius:999px;padding:2px 8px;background:var(--chip);
+    color:var(--muted);border:1px solid var(--line);white-space:nowrap}
+  .badge.warn{color:var(--warn)}
+  .badge.snap{color:var(--accent)}
+  .raw{grid-column:2;color:var(--muted);font-size:.82rem}
+  @media (max-width:560px){
+    .mk{grid-template-columns:1fr}
+    .mk .meta,.mk .raw{grid-column:1}
+    .nav .label{min-width:0}
+    .filters{justify-content:flex-start}
+  }
+
+  /* ---- Month view ---- */
+  .month{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:16px}
+  .dow{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);
+    padding:4px 6px}
+  .cell{min-height:96px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px;
+    cursor:pointer;display:flex;flex-direction:column;gap:3px;text-align:left;font:inherit;color:var(--ink);min-width:0}
+  .cell:hover{border-color:var(--accent)}
+  .cell.out{opacity:.45}
+  .cell.today{background:var(--today)}
+  .cell .d{font-weight:700;font-size:.85rem;display:flex;justify-content:space-between;gap:4px}
+  .cell .c{font-size:.72rem;font-weight:700;color:var(--accent-ink);background:var(--accent);border-radius:999px;
+    padding:0 7px}
+  .cell .nm{font-size:.74rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--muted)}
+  @media (max-width:640px){
+    .cell{min-height:52px;align-items:center}
+    .cell .d{flex-direction:column;align-items:center}
+    .cell .nm{display:none}
+    .dow{text-align:center;padding:4px 0}
+  }
+
+  /* ---- Footer bits ---- */
+  details.unlisted{margin-top:32px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+  details.unlisted summary{cursor:pointer;font-weight:700}
+  details.unlisted ul{margin:10px 0 0;padding-left:1.1em;columns:2;column-gap:28px}
+  details.unlisted li{margin:3px 0;break-inside:avoid;font-size:.92rem}
+  @media (max-width:560px){ details.unlisted ul{columns:1} }
+  .note{color:var(--muted);font-size:.85rem;margin-top:22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="./">🌽 Colorado Farm Trail</a>
+    <h1>Farmers' Market Calendar</h1>
+    <p class="tag">Which markets are open, and when. Search a town or ZIP, or use your location, to see what&#39;s nearby.</p>
+  </header>
+
+  <div class="controls" role="toolbar" aria-label="Calendar controls">
+    <div class="seg" role="group" aria-label="View">
+      <button type="button" id="vList" class="on" aria-pressed="true">List</button>
+      <button type="button" id="vMonth" aria-pressed="false">Month</button>
+    </div>
+    <div class="nav">
+      <button type="button" id="prev" aria-label="Previous">‹</button>
+      <span class="label" id="rangeLabel" aria-live="polite"></span>
+      <button type="button" id="next" aria-label="Next">›</button>
+      <button type="button" id="today">Today</button>
+      <input type="date" id="pick" aria-label="Go to date" />
+    </div>
+    <div class="filters">
+      <input type="search" id="q" list="placeList" placeholder="Town, ZIP or market"
+             aria-label="Search by town, ZIP code or market name" autocomplete="off" />
+      <datalist id="placeList"></datalist>
+      <button type="button" class="near" id="nearMe" title="Use my location">📍 Near me</button>
+      <select id="radius" aria-label="Distance">
+        <option value="10">Within 10 mi</option>
+        <option value="25" selected>Within 25 mi</option>
+        <option value="50">Within 50 mi</option>
+        <option value="100">Within 100 mi</option>
+      </select>
+      <select id="county" aria-label="County"><option value="">All counties</option></select>
+      <label><input type="checkbox" id="snap" /> SNAP/EBT</label>
+    </div>
+  </div>
+  <p class="status" id="status" aria-live="polite"></p>
+
+  <main id="out" aria-live="polite"></main>
+
+  <details class="unlisted" id="unlisted">
+    <summary></summary>
+    <p class="note" style="margin-top:8px">Our listing for these markets is missing their days or their season. Check their website before you go.</p>
+    <ul></ul>
+  </details>
+
+  <p class="note">Days and hours come from each market's listing. Many markets only say which months
+    they run, so opening and closing weeks can be off. Check the market's website or social page
+    before a long drive. <a href="./">← Back to the map</a></p>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var DOW = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+  var MONTHS = ["January","February","March","April","May","June","July","August",
+                "September","October","November","December"];
+  var state = { view:"list", date:todayISO(), q:"", county:"", snap:false, radius:25 };
+  var markets = [], unlisted = [];
+  // Where "near" searches measure from: a town or ZIP typed in the search box, or the
+  // visitor's location (never written to the URL). null = plain name search.
+  var origin = null, myLocation = null, PLACES = [], ZIPS = {};
+
+  // ---------- dates (local, no time zones: everything is a YYYY-MM-DD string) ----------
+  function pad(n){ return (n < 10 ? "0" : "") + n; }
+  function iso(d){ return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
+  function parse(s){ var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function todayISO(){ return iso(new Date()); }
+  function addDays(s, n){ var d = parse(s); d.setDate(d.getDate() + n); return iso(d); }
+  function isoDow(s){ var w = parse(s).getDay(); return w === 0 ? 7 : w; }   // Mon=1..Sun=7
+  function mondayOf(s){ return addDays(s, 1 - isoDow(s)); }
+  function nice(s, opts){ return parse(s).toLocaleDateString(undefined, opts); }
+
+  // ---------- schedule ----------
+  // A session can go on the calendar only if we know its season: one-off dates, a
+  // date range, or months. Days with no season ("Mon-Sun 9-6") would otherwise show
+  // every week of the year, winter included.
+  function placeable(m, x){ return !!(x.dates || x.from || (x.months || m.schedule.months).length); }
+  // Sessions on date s for one market: [{open, close, closeText}]
+  function sessionsOn(m, s){
+    var out = [], month = +s.slice(5, 7), dow = isoDow(s);
+    m.schedule.sessions.forEach(function(x){
+      if (!placeable(m, x)) return;
+      if (x.dates){ if (x.dates.indexOf(s) < 0) return; }
+      else {
+        if (x.days.indexOf(dow) < 0) return;
+        if (x.from){ if (s < x.from || s > x.to) return; }
+        else if ((x.months || m.schedule.months).indexOf(month) < 0) return;
+      }
+      out.push({ open:x.open, close:x.close, closeText:x.closeText });
+    });
+    return out;
+  }
+  function clock(t){
+    var h = +t.slice(0, 2), mi = t.slice(3), mer = h >= 12 ? "pm" : "am";
+    h = h % 12 || 12;
+    return h + (mi === "00" ? "" : ":" + mi) + mer;
+  }
+  function hours(x){ return clock(x.open) + "–" + (x.close ? clock(x.close) : x.closeText); }
+
+  // ---------- "near" search ----------
+  function miles(lat1, lng1, lat2, lng2){
+    var R = 3958.8, r = Math.PI / 180, dLat = (lat2 - lat1) * r, dLng = (lng2 - lng1) * r;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
+  function norm(s){ return s.toLowerCase().replace(/,?\s*(co|colorado)\.?$/, "").replace(/\s+/g, " ").trim(); }
+  // The search text as a place: a 5-digit ZIP or a Colorado town name ("Breckenridge",
+  // "breckenridge, co"). Market names win only when no town matches.
+  function placeFor(q){
+    var t = norm(q), zip = t.match(/^(\d{5})(-\d{4})?$/);
+    if (zip) return ZIPS[zip[1]] ? { name:"ZIP " + zip[1], lat:ZIPS[zip[1]][0], lng:ZIPS[zip[1]][1] } : null;
+    for (var i = 0; i < PLACES.length; i++){
+      if (PLACES[i][0].toLowerCase() === t) return { name:PLACES[i][0], lat:PLACES[i][1], lng:PLACES[i][2] };
+    }
+    return null;
+  }
+  function distTo(m){ return origin ? miles(origin.lat, origin.lng, m.lat, m.lng) : null; }
+
+  function matches(m){
+    if (state.county && m.county !== state.county) return false;
+    if (state.snap && !m.snap) return false;
+    if (origin) return distTo(m) <= state.radius;
+    if (state.q){
+      var hay = (m.name + " " + (m.city || "") + " " + (m.county || "")).toLowerCase();
+      if (hay.indexOf(state.q.toLowerCase()) < 0) return false;
+    }
+    return true;
+  }
+  function openOn(s){
+    var rows = [];
+    markets.forEach(function(m){
+      if (!matches(m)) return;
+      sessionsOn(m, s).forEach(function(x){ rows.push({ m:m, x:x, d:distTo(m) }); });
+    });
+    // Near a place: closest first. Otherwise by opening time.
+    rows.sort(origin ? function(a, b){ return a.d - b.d || (a.x.open < b.x.open ? -1 : 1); }
+                     : function(a, b){ return a.x.open < b.x.open ? -1 : a.x.open > b.x.open ? 1
+                                              : a.m.name.localeCompare(b.m.name); });
+    return rows;
+  }
+  function distLabel(d){ return d < 1 ? "under 1 mi" : Math.round(d) + " mi"; }
+
+  // ---------- rendering ----------
+  function el(tag, cls, text){
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function link(href, text){ var a = el("a", null, text); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; }
+  // A PO box is a mailing address, not where the market is.
+  function street(m){ return m.address && !/^\s*p\.?\s*o\.?\s*box\b/i.test(m.address) ? m.address : null; }
+  function directions(m){
+    var q = street(m) ? street(m) + ", " + (m.city || "") + ", CO" : m.lat + "," + m.lng;
+    return "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(q);
+  }
+
+  function card(r){
+    var m = r.m, x = r.x, c = el("article", "mk");
+    c.appendChild(el("div", "time", hours(x)));
+    var body = el("div");
+    var nm = el("div", "name", m.name);
+    if (r.d != null){ nm.appendChild(document.createTextNode(" ")); nm.appendChild(el("span", "dist", distLabel(r.d))); }
+    body.appendChild(nm);
+    body.appendChild(el("div", "where", [street(m), m.city, m.county ? m.county + " County" : ""]
+      .filter(Boolean).join(" · ")));
+    c.appendChild(body);
+    var meta = el("div", "meta");
+    if (m.snap) meta.appendChild(el("span", "badge snap", "SNAP/EBT"));
+    if (m.schedule.approx) meta.appendChild(el("span", "badge warn", "Schedule varies"));
+    meta.appendChild(link(directions(m), "Directions"));
+    var site = m.website || m.facebook || m.instagram;
+    if (site) meta.appendChild(link(site, m.website ? "Website" : "Social page"));
+    c.appendChild(meta);
+    if (m.schedule.approx && m.hours) c.appendChild(el("div", "raw", "Listed as: " + m.hours));
+    return c;
+  }
+
+  function renderList(out){
+    var start = state.date;
+    var end = addDays(start, 6), sameMonth = start.slice(0, 7) === end.slice(0, 7);
+    document.getElementById("rangeLabel").textContent =
+      nice(start, { month:"short", day:"numeric" }) + (sameMonth ? "–" + +end.slice(8) : " – " +
+      nice(end, { month:"short", day:"numeric" })) +
+      (end.slice(0, 4) !== todayISO().slice(0, 4) ? ", " + end.slice(0, 4) : "");
+    var today = todayISO();
+    for (var i = 0; i < 7; i++){
+      var s = addDays(start, i), rows = openOn(s), sec = el("section", "day" + (s === today ? " is-today" : ""));
+      var h = el("h2", null, nice(s, { weekday:"long", month:"long", day:"numeric" }));
+      h.appendChild(el("span", "n", rows.length ? rows.length + (rows.length === 1 ? " market" : " markets") : ""));
+      sec.appendChild(h);
+      if (!rows.length) sec.appendChild(el("p", "empty", "No markets listed for this day" +
+        (origin ? " within " + state.radius + " mi." : state.county || state.q || state.snap ? " with these filters." : ".")));
+      rows.forEach(function(r){ sec.appendChild(card(r)); });
+      out.appendChild(sec);
+    }
+  }
+
+  function renderMonth(out){
+    var first = state.date.slice(0, 8) + "01", d0 = parse(first);
+    document.getElementById("rangeLabel").textContent = MONTHS[d0.getMonth()] + " " + d0.getFullYear();
+    var grid = el("div", "month"), today = todayISO();
+    DOW.forEach(function(n){ grid.appendChild(el("div", "dow", n)); });
+    var s = mondayOf(first);
+    for (var i = 0; i < 42; i++, s = addDays(s, 1)){
+      if (i === 35 && s.slice(5, 7) !== first.slice(5, 7)) break;   // 5 rows are enough
+      var rows = openOn(s), b = el("button", "cell");
+      b.type = "button";
+      if (s.slice(5, 7) !== first.slice(5, 7)) b.className += " out";
+      if (s === today) b.className += " today";
+      b.setAttribute("aria-label", nice(s, { weekday:"long", month:"long", day:"numeric" }) +
+                     ": " + rows.length + (rows.length === 1 ? " market" : " markets"));
+      var top = el("div", "d"); top.appendChild(el("span", null, String(+s.slice(8))));
+      if (rows.length) top.appendChild(el("span", "c", String(rows.length)));
+      b.appendChild(top);
+      rows.slice(0, 3).forEach(function(r){ b.appendChild(el("div", "nm", r.m.name)); });
+      if (rows.length > 3) b.appendChild(el("div", "nm", "+" + (rows.length - 3) + " more"));
+      b.dataset.date = s;
+      b.addEventListener("click", function(){ state.date = this.dataset.date; setView("list"); });
+      grid.appendChild(b);
+    }
+    out.appendChild(grid);
+  }
+
+  function renderUnlisted(){
+    var box = document.getElementById("unlisted"), list = unlisted.filter(matches);
+    if (origin) list.sort(function(a, b){ return distTo(a) - distTo(b); });
+    box.style.display = list.length ? "" : "none";
+    box.querySelector("summary").textContent = list.length + " more market" + (list.length === 1 ? "" : "s") +
+      " not on the calendar";
+    var ul = box.querySelector("ul"); ul.textContent = "";
+    list.forEach(function(m){
+      var li = el("li"), site = m.website || m.facebook || m.instagram;
+      if (site) li.appendChild(link(site, m.name)); else li.appendChild(document.createTextNode(m.name));
+      if (m.city) li.appendChild(document.createTextNode(" · " + m.city));
+      if (origin){ li.appendChild(document.createTextNode(" ")); li.appendChild(el("span", "dist", distLabel(distTo(m)))); }
+      if (m.hours) li.appendChild(el("div", "raw", m.hours + " (season not listed)"));
+      ul.appendChild(li);
+    });
+  }
+
+  function render(){
+    var out = document.getElementById("out"); out.textContent = "";
+    if (state.view === "month") renderMonth(out); else renderList(out);
+    renderUnlisted();
+    renderStatus();
+    document.getElementById("pick").value = state.date;
+    var p = new URLSearchParams();
+    if (state.view !== "list") p.set("view", state.view);
+    if (state.date !== todayISO()) p.set("date", state.date);
+    if (state.county) p.set("county", state.county);
+    if (state.q) p.set("q", state.q);
+    if (state.snap) p.set("snap", "1");
+    if (origin && origin !== myLocation && state.radius !== 25) p.set("r", state.radius);
+    var qs = p.toString();
+    history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+  }
+
+  function renderStatus(){
+    var st = document.getElementById("status"); st.textContent = "";
+    document.getElementById("radius").style.display = origin ? "" : "none";
+    if (!origin) return;
+    st.appendChild(document.createTextNode("Markets within " + state.radius + " miles of "));
+    st.appendChild(el("b", null, origin.name));
+    st.appendChild(document.createTextNode(", closest first. Distances are straight-line, so mountain drives run longer."));
+    var clear = el("button", null, "Clear");
+    clear.type = "button";
+    clear.onclick = function(){ origin = myLocation = null; state.q = ""; q.value = ""; render(); };
+    st.appendChild(clear);
+  }
+  function setQuery(text){
+    state.q = text.trim();
+    var place = state.q ? placeFor(state.q) : null;
+    if (place) origin = place;
+    else if (state.q || origin !== myLocation) origin = null;
+    if (state.q) myLocation = null;
+  }
+
+  function setView(v){
+    state.view = v;
+    ["List", "Month"].forEach(function(n){
+      var b = document.getElementById("v" + n), on = v === n.toLowerCase();
+      b.classList.toggle("on", on); b.setAttribute("aria-pressed", on);
+    });
+    render();
+    window.scrollTo({ top:0 });
+  }
+  function step(dir){
+    if (state.view === "month"){
+      var d = parse(state.date.slice(0, 8) + "01"); d.setMonth(d.getMonth() + dir); state.date = iso(d);
+    } else state.date = addDays(state.date, 7 * dir);
+    render();
+  }
+
+  // ---------- wiring ----------
+  var p = new URLSearchParams(location.search);
+  if (p.get("view") === "month") state.view = "month";
+  if (/^\d{4}-\d{2}-\d{2}$/.test(p.get("date") || "")) state.date = p.get("date");
+  state.county = p.get("county") || ""; state.q = p.get("q") || ""; state.snap = p.get("snap") === "1";
+  if (/^(10|25|50|100)$/.test(p.get("r") || "")) state.radius = +p.get("r");
+
+  document.getElementById("vList").onclick = function(){ setView("list"); };
+  document.getElementById("vMonth").onclick = function(){ setView("month"); };
+  document.getElementById("prev").onclick = function(){ step(-1); };
+  document.getElementById("next").onclick = function(){ step(1); };
+  document.getElementById("today").onclick = function(){ state.date = todayISO(); render(); };
+  document.getElementById("pick").onchange = function(){ if (this.value){ state.date = this.value; render(); } };
+  var q = document.getElementById("q"); q.value = state.q;
+  q.oninput = function(){ setQuery(this.value); render(); };
+  var radius = document.getElementById("radius"); radius.value = String(state.radius);
+  radius.onchange = function(){ state.radius = +this.value; render(); };
+  var nearBtn = document.getElementById("nearMe");
+  if (!navigator.geolocation) nearBtn.style.display = "none";
+  nearBtn.onclick = function(){
+    nearBtn.textContent = "📍 Locating…";
+    navigator.geolocation.getCurrentPosition(function(pos){
+      nearBtn.textContent = "📍 Near me";
+      myLocation = origin = { name:"your location", lat:pos.coords.latitude, lng:pos.coords.longitude };
+      state.q = ""; q.value = ""; render();
+    }, function(){
+      nearBtn.textContent = "📍 Near me";
+      document.getElementById("status").textContent = "Couldn't get your location. Try typing a town or ZIP instead.";
+    }, { timeout:10000, maximumAge:600000 });
+  };
+  var county = document.getElementById("county");
+  county.onchange = function(){ state.county = this.value; render(); };
+  var snap = document.getElementById("snap"); snap.checked = state.snap;
+  snap.onchange = function(){ state.snap = this.checked; render(); };
+
+  var placesReady = fetch("data/places.json").then(function(r){ return r.json(); }).then(function(d){
+    PLACES = d.places; ZIPS = d.zips;
+    var dl = document.getElementById("placeList");
+    PLACES.forEach(function(pl){ var o = el("option"); o.value = pl[0]; dl.appendChild(o); });
+  }).catch(function(){});   // without it, search falls back to matching names
+  Promise.all([fetch("data/markets.json").then(function(r){ return r.json(); }), placesReady]).then(function(res){
+    var all = res[0];
+    all.forEach(function(m){
+      if (!m.schedule) return;
+      var ok = m.schedule.sessions.some(function(x){ return placeable(m, x); });
+      (ok ? markets : unlisted).push(m);
+    });
+    unlisted.sort(function(a, b){ return a.name.localeCompare(b.name); });
+    var counties = {};
+    markets.concat(unlisted).forEach(function(m){ if (m.county) counties[m.county] = 1; });
+    Object.keys(counties).sort().forEach(function(c){
+      var o = el("option", null, c); o.value = c; county.appendChild(o);
+    });
+    county.value = state.county;
+    setQuery(state.q);
+    setView(state.view);
+  }).catch(function(){
+    document.getElementById("out").appendChild(el("p", "empty", "Couldn't load the market list. Try reloading the page."));
+  });
+})();
+</script>
+</body>
+</html>
