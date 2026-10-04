@@ -43,3 +43,10 @@ distinct,Boulder Valley Honey,Boulder,Boulder Farmers Market,Boulder,,Apiary vs 
 distinct,Tagawa Gardens,Centennial,The Saturday Market at Tagawa Gardens,Centennial,,Garden center vs the market it hosts (reviewed 2026-10-03)
 distinct,San Luis Valley Food Company,Del Norte,Raisin' Rye,Del Norte,,Different businesses: caterer at 515 Columbia Ave vs bakery at 675 Grand Ave (reviewed 2026-10-04)
 merge,National Celiac Association of Denver,Denver,Gluten Free Farmers Market,Englewood,,"Same market: Colorado Proud lists it under its organizer's name and mailing PO box (denverceliacs.org event page, checked 2026-10-04). Becomes a no-op once the live fix (#24) reaches this data"
+merge,Highlands Farmers Market,Denver,Highland Farmers' Market,Denver,,Same market spelled two ways; was merged only by proximity before the name-word rule (reviewed 2026-10-04)
+merge,Chaffee Community Resource Center,,Caring & Sharing – Sanctuary Soup Kitchen,,,Same place: 220 W 4th St; Caring & Sharing's own link was its /the-resource-center page (reviewed 2026-10-04)
+merge,Foodshed Alliance,Salida,Salida Farmers Market,Salida,,Foodshed Alliance runs the Salida Farmers Market at Alpine Park; one listing (reviewed 2026-10-04)
+merge,English Farm,Delta,Bills' Pumpkin Patch,Delta,,Same address (52110 Amber Rd): the pumpkin patch is on English Farm (reviewed 2026-10-04)
+merge,Delicious Orchards,Hotchkiss,"Big B's Delicious Orchards U-pick, Cafe & Tasting Room",Hotchkiss,,Same orchard (Big B's Delicious Orchards) (reviewed 2026-10-04)
+distinct,Wishing Star Farm,Colorado Springs,Four Corners Farm,Colorado Springs,,Different farms; neither has an address so both sit on the town centroid (reviewed 2026-10-04)
+distinct,Breckenridge Farmers Market,Breckenridge,Breckenridge Sunday Market,Breckenridge,,Different markets: Thursday evenings at the Exchange Lot vs Sunday Main Street market (reviewed 2026-10-04)
