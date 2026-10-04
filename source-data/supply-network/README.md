@@ -42,6 +42,25 @@ stockist is classified by hand as food-service, food retail or non-food retail
 |---|---|---|
 | `bee_squared` (bethsbees.com) | 75 rows, 68 businesses (chains merged) | 2026-10-03 |
 
+## Roaring Fork + Farm Map (2026-10-04)
+
+The valley tourism boards' Roaring Fork + Farm Map
+(carbondale.com/roaring-fork-farm-map, 2023) names "local food champions". It rarely
+says which farms they buy from, so each champion was checked against its own site and
+the local press. That added 11 links and 10 businesses: Mesa Microgreens (Silt) to seven
+Aspen/Snowmass/Glenwood kitchens, Nieslanik Beef grain to Marble Distilling, Potter
+Farms to the Roaring Fork Valley Co-op, and Woody Creek apple brandy and Carboy Malbec
+in Il Porcellino's salami.
+
+Left out:
+- Free Range Kitchen (Basalt) is closed. Its 2019 farm list (The Other Side Ranch,
+  Erin's Acres, Rocking TT Bar, Rock Bottom Ranch, Two Roots, Farm Runners) isn't loaded.
+- Avalanche Cheese and Meat & Cheese have the same owners; it isn't a supplier link, and
+  the goat dairy closed in 2016.
+- Bosq's "rabbits from Sopris Farm" (Aspen Sojourner, 2020): no such farm could be found.
+- Mawita, Casey Brewing (Palisade/Hotchkiss growers, unnamed) and The Pullman's
+  "Olathe corn" name no specific producer.
+
 ## Known gaps
 
 - Every restaurant sourcing page and town-listing article in the pilot is fully loaded,
