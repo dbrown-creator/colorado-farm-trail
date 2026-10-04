@@ -169,3 +169,8 @@ section { padding: 40px 0; }
 .foot-in p { margin: 4px 0; max-width: 760px; }
 .leaflet-container { background: var(--bg); font: inherit; }
 .leaflet-popup-content a { font-weight: 600; }
+details.older summary { cursor: pointer; list-style: none; }
+details.older summary::-webkit-details-marker { display: none; }
+details.older summary h3::before { content: "▸"; color: var(--muted); font-size: .8em; margin-right: 2px; }
+details.older[open] summary h3::before { content: "▾"; }
+details.older .links li { opacity: .8; }

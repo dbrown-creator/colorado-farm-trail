@@ -19,8 +19,9 @@
   const where = n => n.lat ? `${n.city} · ${n.region}` : (n.city && n.city !== 'unknown' ? `${n.city} · statewide` : 'Statewide');
   const domain = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return 'source'; } };
   const typePill = t => `<span class="pill"><i style="background:${color(t)}"></i>${esc(T[t])}</span>`;
-  const sup = n => n.sup.map(i => E[i]);   // edges into n
-  const buy = n => n.buy.map(i => E[i]);   // edges out of n
+  const sup = n => n.sup.map(i => E[i]);   // current edges into n
+  const buy = n => n.buy.map(i => E[i]);   // current edges out of n
+  const older = n => [...n.supOld.map(i => [E[i], E[i].s]), ...n.buyOld.map(i => [E[i], E[i].b])];
   const isBuyer = n => n.sup.length > 0;
 
   function avgMiles(edges) {
@@ -37,7 +38,8 @@
       const towns = new Set(buy(n).map(e => byId[e.b].city)).size;
       return `Found at <b>${plural(n.buy.length, 'place')}</b> in ${plural(towns, 'town')}`;
     }
-    return `Names <b>${plural(n.sup.length, 'supplier')}</b>`;
+    if (n.sup.length) return `Names <b>${plural(n.sup.length, 'supplier')}</b>`;
+    return `<span class="muted">Older mentions only, not reconfirmed</span>`;
   }
 
   function card(n) {
@@ -176,7 +178,7 @@
       <div class="how">
         <div><b>1</b><h3>We follow the food</h3><p class="muted">Starting from a chef's supplier list, we trace each farm to everywhere else it sells, and each buyer to its other farms.</p></div>
         <div><b>2</b><h3>Every link has a source</h3><p class="muted">A menu, a stockist page, a farm's "where to buy" list or a news story. Tap the source on any listing to check it yourself.</p></div>
-        <div><b>3</b><h3>We flag what's old</h3><p class="muted">Links are rated high, medium or low confidence, and anything from before ${STALE_BEFORE} is marked for re-checking.</p></div>
+        <div><b>3</b><h3>We re-check what's old</h3><p class="muted">Links are rated high, medium or low confidence. Anything from before ${STALE_BEFORE} gets re-checked: closed businesses come off, and links we can't reconfirm move to "older mentions".</p></div>
       </div>
     </div></section>
 
@@ -315,7 +317,7 @@
 
   function linkRow(e, otherId) {
     const o = byId[otherId];
-    const stale = e.y && e.y < STALE_BEFORE;
+    const stale = e.y && e.y < STALE_BEFORE && !e.old;
     const bits = [esc(T[o.type]), esc(o.city && o.city !== 'unknown' ? o.city : 'statewide')];
     if (e.mi != null) bits.push(`${e.mi} mi`);
     if (e.note) bits.push(esc(e.note));
@@ -336,6 +338,17 @@
       <ul class="links">${groups[t].sort((a, b) => rank[a.c] - rank[b.c] || (a.mi ?? 999) - (b.mi ?? 999)).map(e => linkRow(e, e[side])).join('')}</ul>`).join('')}</div>`;
   }
 
+  // Links from pre-2020 press that a later re-check couldn't confirm: both businesses
+  // still operate, but no current source names the connection.
+  function olderSection(n) {
+    const rows = older(n);
+    if (!rows.length) return '';
+    return `<details class="group older"${!n.sup.length && !n.buy.length ? ' open' : ''}>
+      <summary><h3>Older mentions <span class="muted" style="font-family:Inter;font-weight:400;font-size:.9rem">(${rows.length})</span></h3></summary>
+      <p class="muted" style="font-size:.9rem;margin-top:0">These come from press before ${STALE_BEFORE}. Both businesses are still open, but when we re-checked on ${esc(D.stats.rechecked)} no current menu, stockist list or article named the connection. Ask before you count on it.</p>
+      <ul class="links">${rows.map(([e, oid]) => linkRow(e, oid)).join('')}</ul></details>`;
+  }
+
   // Businesses that share at least one supplier (for buyers) or one buyer (for producers).
   function kin(n) {
     const score = {};
@@ -354,7 +367,9 @@
     const localIns = ins.filter(e => e.mi != null && e.mi <= 100).length;
     let head = '';
     if (ins.length && !PRODUCER.has(n.type)) {
-      head = `Buys from <b>${plural(ins.length, 'Colorado supplier')}</b>${am != null ? `, on average <b>${am} miles</b> away` : ''}.${localIns ? ` ${localIns} of them are within 100 miles.` : ''}`;
+      const dist = am == null ? '' : am < 5 ? ', right in town' : `, on average <b>${am} miles</b> away`;
+      const near = ins.length < 2 || !localIns ? '' : localIns === ins.length ? ' All are within 100 miles.' : ` ${localIns} of them are within 100 miles.`;
+      head = `Buys from <b>${plural(ins.length, 'Colorado supplier')}</b>${dist}.${near}`;
     } else if (outs.length) {
       const towns = new Set(outs.map(e => byId[e.b].city)).size;
       const eat = outs.filter(e => byId[e.b].type === 'restaurant').length;
@@ -362,6 +377,7 @@
       head = `Find it at <b>${plural(outs.length, 'place')}</b> across ${plural(towns, 'town')}${eat || shop ? `: ${[eat && plural(eat, 'restaurant'), shop && plural(shop, 'shop or market', 'shops and markets')].filter(Boolean).join(' and ')}` : ''}.`;
     }
     if (ins.length && PRODUCER.has(n.type)) head += ` Sources from ${plural(ins.length, 'other producer')}.`;
+    if (!ins.length && !outs.length) head = 'Only older press mentions so far. We couldn\'t reconfirm them in 2026.';
     const k = kin(n);
     const t = n.trail;
     app.innerHTML = `
@@ -375,6 +391,7 @@
       ${PRODUCER.has(n.type) || !ins.length
         ? grouped(outs, 'b', 'Where to find it', PRODUCER.has(n.type) ? "We haven't traced where this producer sells yet." : '') + grouped(ins, 's', 'Where it comes from', '')
         : grouped(ins, 's', 'Where the food comes from', '') + grouped(outs, 'b', 'Also sells to', '')}
+      ${olderSection(n)}
     </div><aside class="side">
       ${n.lat ? '<div class="minimap" id="pmap"></div>' : ''}
       ${t ? `<div class="box"><h3>Visit the farm</h3><dl class="kv">
@@ -402,6 +419,13 @@
         L.polyline([me, p], { color: cssColor(o.type), weight: e.c === 'high' ? 2 : 1.2, opacity: .55, dashArray: e.c === 'high' ? null : '4 4' }).addTo(map);
         dot(o, map);
       });
+      older(n).forEach(([e, oid]) => {
+        const o = byId[oid];
+        if (!o || !o.lat) return;
+        const p = pos(o); pts.push(p);
+        L.polyline([me, p], { color: cssColor('muted'), weight: 1, opacity: .4, dashArray: '2 5' }).addTo(map);
+        dot(o, map).setStyle({ fillOpacity: .35 });
+      });
       if (pts.length > 1) map.fitBounds(L.latLngBounds(pts).pad(0.2), { maxZoom: 11 }); else map.setView(me, 10);
       dot(n, map, true).bindTooltip(esc(n.name), { permanent: true, direction: 'top', offset: [0, -8] });
     }
@@ -419,7 +443,7 @@
     const wrap = document.getElementById('net'), tip = document.getElementById('tip');
     const W = wrap.clientWidth, H = wrap.clientHeight;
     const nodes = N.map(n => ({ id: n.id, n, deg: n.sup.length + n.buy.length }));
-    const links = E.map(e => ({ source: e.s, target: e.b, c: e.c }));
+    const links = E.filter(e => byId[e.s] && byId[e.b]).map(e => ({ source: e.s, target: e.b, c: e.old ? 'old' : e.c }));
     const svg = d3.select(wrap).append('svg').attr('viewBox', [0, 0, W, H]);
     svg.append('defs').append('marker').attr('id', 'arr').attr('viewBox', '0 -4 8 8').attr('refX', 8).attr('markerWidth', 5).attr('markerHeight', 5).attr('orient', 'auto')
       .append('path').attr('d', 'M0,-4L8,0L0,4').attr('fill', cssColor('muted'));
@@ -482,8 +506,9 @@
         <tr><td><span class="conf high">high</span></td><td>The farm or the restaurant names the other on its own website or menu (${s.high} links).</td></tr>
         <tr><td><span class="conf medium">medium</span></td><td>A news story, a third party, or a distributor's list.</td></tr>
         <tr><td><span class="conf low">low</span></td><td>Old or indirect evidence. Shown faded.</td></tr>
-        <tr><td><span class="stale">older source</span></td><td>The evidence is from before ${STALE_BEFORE}. Menus change; treat these as leads.</td></tr>
+        <tr><td><span class="stale">older mention</span></td><td>From press before ${STALE_BEFORE}. Both businesses are still open, but a re-check found no current source naming the link. These sit in a separate "Older mentions" section and don't count toward totals (${s.older} links).</td></tr>
       </table>
+      <p>On ${esc(s.rechecked)} we re-checked every link that rested on pre-${STALE_BEFORE} press. Links where the restaurant or the farm has since closed were removed. Links a current menu or partner list still confirms were updated, and a few new ones turned up along the way.</p>
       <p>Distances are between town centers, so "miles away" is approximate.</p>
       <h2>What's missing</h2>
       <ul>
