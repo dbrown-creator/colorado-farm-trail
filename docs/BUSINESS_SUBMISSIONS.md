@@ -81,6 +81,7 @@ into `data-compiled/farm_fresh_directory_mymaps.csv`.
 | Certified Organic | `Certified Organic` | Yes/No | | |
 | Accepts SNAP / EBT | `SNAP` | Yes/No | | |
 | ADA Accessible | `ADA Accessible` | Yes/No | | |
+| Where to Get It | `Where to Get It` | Paragraph | | Wholesale growers: stores/markets/restaurants carrying their products, one per line. Maintainer joins lines with `; `. |
 | Notes | `Notes` | Paragraph | | One-line description works well. |
 
 **Not asked of submitters:** `State` (always `CO`), `Latitude`, `Longitude`.

@@ -112,7 +112,7 @@ def write_mymaps(d, path):
     cols = ["Business Name", "Category", "Address", "City", "County", "State", "Zip",
             "Phone", "Call first?", "Website", "Email", "Facebook", "Instagram",
             "Hours", "Months Open", "Products", "Certified Organic", "SNAP",
-            "ADA Accessible", "Notes", "Latitude", "Longitude"]
+            "ADA Accessible", "Notes", "Where to Get It", "Latitude", "Longitude"]
 
     with open(path, "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
@@ -134,6 +134,7 @@ def write_mymaps(d, path):
                 "SNAP": get(ft, "SNAP accepted"),
                 "ADA Accessible": get(ft, "ADA accessible"),
                 "Notes": get(ft, "Additional information"),
+                "Where to Get It": "",  # hand-curated for wholesale growers; not in Colorado Proud
                 "Latitude": g.get("y", ""), "Longitude": g.get("x", ""),
             })
 

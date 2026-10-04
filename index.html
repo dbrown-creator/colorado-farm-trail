@@ -227,6 +227,10 @@
   .pop a{ color:var(--accent); }
   .pop .dir{ display:inline-flex; align-items:center; gap:6px; margin-top:11px; padding:9px 15px; border-radius:999px;
     background:var(--accent); color:var(--accent-ink); text-decoration:none; font-weight:700; font-size:.88rem; }
+  .pop .where{ margin:8px 0 2px; font-size:.84rem; color:var(--ink); }
+  .pop .where b{ display:block; font-size:.72rem; text-transform:uppercase; letter-spacing:.05em;
+    color:var(--muted); margin-bottom:3px; }
+  .pop .where ul{ margin:0; padding-left:18px; }
   .pop .links{ margin-top:9px; display:flex; flex-wrap:wrap; gap:12px; font-size:.85rem; font-weight:600; }
 
   /* ---- Mobile ---- */
@@ -364,6 +368,7 @@
     "Garden Center / Greenhouse": { color:"#4a9d5b", emoji:"🌱", short:"Garden" },
     "Agritourism":                { color:"#2f8f8f", emoji:"🌻", short:"Agritourism" },
     "Restaurant":                 { color:"#5a6b8c", emoji:"🍽️", short:"Dining" },
+    "Wholesale Grower":           { color:"#6f7f2a", emoji:"📦", short:"Wholesale" },
     "Other":                      { color:"#7c7c7c", emoji:"📍", short:"Other" }
   };
   var TYPE_ORDER = Object.keys(CATS);
@@ -471,12 +476,22 @@
     if(m.ada) flags.push("♿ ADA");
     if(m.organic) flags.push("🌿 Organic");
     if(flags.length){ h += '<div class="flags">'; flags.forEach(function(f){ h += '<span class="flag">'+esc(f)+'</span>'; }); h += '</div>'; }
+    // Wholesale growers rarely sell on site: list the stores, markets and restaurants
+    // that carry their products instead.
+    // Only wholesale (no stand/market/u-pick listed): not a place to visit.
+    var wholesaleOnly = catKeysOf(m).join() === "Wholesale Grower";
+    if(m.whereToGet && m.whereToGet.length){
+      h += '<div class="where"><b>'+(wholesaleOnly?'Not open for visits — where to get it':'Where to get it')+'</b><ul>';
+      m.whereToGet.forEach(function(w){ h += '<li>'+esc(w)+'</li>'; });
+      h += '</ul></div>';
+    }
     var links = [];
     if(m.website) links.push('<a href="'+esc(m.website)+'" target="_blank" rel="noopener">Website ↗</a>');
     if(m.facebook) links.push('<a href="'+esc(m.facebook)+'" target="_blank" rel="noopener">Facebook</a>');
     if(m.instagram) links.push('<a href="'+esc(m.instagram)+'" target="_blank" rel="noopener">Instagram</a>');
     if(links.length) h += '<div class="links">'+links.join("")+'</div>';
-    h += '<a class="dir" href="https://www.google.com/maps/dir/?api=1&destination='+m.lat+','+m.lng+'" target="_blank" rel="noopener">🧭 Directions</a></div>';
+    if(!wholesaleOnly) h += '<a class="dir" href="https://www.google.com/maps/dir/?api=1&destination='+m.lat+','+m.lng+'" target="_blank" rel="noopener">🧭 Directions</a>';
+    h += '</div>';
     return h;
   }
 

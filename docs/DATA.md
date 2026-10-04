@@ -38,13 +38,14 @@ Query all records (attributes + lat/long) as JSON:
 | File | What |
 |---|---|
 | `colorado_proud_farm_fresh_directory_raw.csv` | All 47 fields, alias headers, + Latitude/Longitude. The unabridged export. |
-| `farm_fresh_directory_mymaps.csv` | Cleaned, **import-ready for Google My Maps**: 22 tidy columns |
+| `farm_fresh_directory_mymaps.csv` | Cleaned, **import-ready for Google My Maps**: 23 tidy columns |
 
 ### The cleaned My Maps file
 
-- **22 columns**: Business Name, **Category**, Address, City, County, State, Zip,
+- **23 columns**: Business Name, **Category**, Address, City, County, State, Zip,
   Phone, Call first?, Website, Email, Facebook, Instagram, Hours, Months Open,
-  Products, Certified Organic, SNAP, ADA Accessible, Notes, **Latitude, Longitude**.
+  Products, Certified Organic, SNAP, ADA Accessible, Notes, **Where to Get It**,
+  **Latitude, Longitude**.
 - **`Category`** is derived from the raw, multi-valued `Operation type` field
   (pipe-delimited, e.g. `U-pick|On-Farm/Ranch sales`). Each value maps exactly to a
   clean bucket, and **a listing keeps every bucket it qualifies for**, comma-joined
@@ -54,6 +55,15 @@ Query all records (attributes + lat/long) as JSON:
   categories. `Centennial Farm/Ranch` (a heritage designation) and `Community
   Gardens` aren't buckets; a Centennial ranch with nothing else listed counts as
   On-Farm / Ranch Sales. `Sells to Schools` is kept in the data but has no filter.
+  **`Wholesale Grower`** is ours, not a Colorado Proud type: hand-added for farms that
+  sell mainly to stores and restaurants rather than to visitors (e.g. Jones Farms
+  Organics). A farm with a stand as well lists it as a secondary category.
+- **`Where to Get It`** (hand-curated, blank for Colorado Proud rows) lists the
+  stores, markets and restaurants that carry a wholesale grower's products,
+  **semicolon-separated** (entries may contain commas), e.g.
+  `Whole Foods Market, Boulder; Rootstalk, Breckenridge`. The map popup shows it as a
+  "Where to get it" list. `fetch_farm_data.py` writes the column blank, so re-running
+  it drops curated values — copy them back from git.
 
   | Category | Primary | Listed under (any) |
   |---|---|---|
@@ -68,6 +78,7 @@ Query all records (attributes + lat/long) as JSON:
   | Other | 12 | 12 |
   | Winery | 8 | 8 |
   | Restaurant | 2 | 5 |
+  | Wholesale Grower | 2 | 2 |
 
 - `Products`, `Hours`, and `Months Open` were consolidated from ~15 scattered raw
   columns into single readable cells (pipes → commas).
