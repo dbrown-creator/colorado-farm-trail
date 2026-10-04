@@ -87,3 +87,29 @@ def test_committed_decisions_file_is_well_formed():
     for r in rows:
         assert r["action"] in ("merge", "distinct"), r
         assert r["name"] and r["city"] and r["target_name"], r
+
+
+def test_override_set_and_prepend_win_over_sources():
+    m = _m("Scanga Meat Company", "Salida", notes="Family meat market since 1952.")
+    merge_mod.apply_overrides([m], [
+        {"name": "Scanga Meat Company", "city": "Salida", "column": "Category", "mode": "set",
+         "value": "Meat Producer & Packer"},
+        {"name": "Scanga Meat Company", "city": "Salida", "column": "Notes", "mode": "prepend",
+         "value": "Meat producer and meat packer."},
+    ])
+    assert m.category == "Meat Producer & Packer"
+    assert m.notes == "Meat producer and meat packer. Family meat market since 1952."
+    assert m.provenance["Notes"] == "override" and m.provenance["Category"] == "override"
+
+
+def test_override_for_missing_record_is_reported(capsys):
+    merge_mod.apply_overrides([_m("A", "B")], [
+        {"name": "Gone", "city": "B", "column": "Hours", "mode": "set", "value": "x"}])
+    assert "not applied" in capsys.readouterr().out
+
+
+def test_committed_overrides_file_is_well_formed():
+    rows = merge_mod.load_overrides(os.path.join(REPO, "source-data", "phase2", "overrides.csv"))
+    assert rows
+    for r in rows:
+        assert r["column"] and r["value"] and r["mode"] in ("set", "prepend"), r

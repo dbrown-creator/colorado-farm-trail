@@ -106,6 +106,39 @@ def apply_decisions(markets: List[Market], decisions: List[dict]) -> Tuple[List[
     return kept, distinct
 
 
+def load_overrides(path: str) -> List[dict]:
+    """Curated corrections (source-data/phase2/overrides.csv). Columns: name, city,
+    column (a My Maps column label, e.g. Category / Notes / Hours), mode (set |
+    prepend), value, note, date. Missing file -> none."""
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8-sig", newline="") as fh:
+        return [r for r in csv.DictReader(fh) if (r.get("name") or "").strip()]
+
+
+def apply_overrides(markets: List[Market], overrides: List[dict]) -> None:
+    """Apply human corrections last, so they beat every source (UPDATE_ENGINE.md
+    principle 5: manual beats automatic, permanently). `set` replaces the value;
+    `prepend` puts the value in front of what the sources said (for status notes that
+    should sit above a provider's own description). Provenance becomes "override".
+    A row whose record isn't in this build is reported, not fatal."""
+    col_attr = {col: attr for attr, col in ATTR_TO_COLUMN.items()}
+    col_attr["Category"] = "category"
+    index = {_rkey(m.business_name, m.city): m for m in markets}
+    for o in overrides:
+        m = index.get(_rkey(o["name"], o.get("city", "")))
+        attr = col_attr.get((o.get("column") or "").strip())
+        if m is None or attr is None:
+            print(f"  override not applied ({'record missing' if m is None else 'unknown column'}): "
+                  f"{o['name']} / {o.get('column')}")
+            continue
+        value = (o.get("value") or "").strip()
+        if (o.get("mode") or "set").strip().lower() == "prepend" and getattr(m, attr):
+            value = f"{value} {getattr(m, attr)}"
+        setattr(m, attr, value)
+        m.provenance[o["column"].strip()] = "override"
+
+
 def flag_possible_dups(markets: List[Market], radius_m: int = 150,
                        distinct: Set[frozenset] = frozenset()) -> None:
     """Non-destructive: set m.dup_hint to a sibling's name when two markets in the
