@@ -55,6 +55,14 @@ def load(name: str, snapshot_dir: str = SNAPSHOT_DIR):
     with open(p, encoding="utf-8") as fh:
         doc = json.load(fh)
     recs = [Market(**{k: v for k, v in r.items() if k in _FIELDS}) for r in doc.get("records", [])]
+    # Link fields are re-normalized on load: a snapshot captured before a normalizer
+    # fix (e.g. the #15 URL cleanup) would otherwise reintroduce "Http://..." or
+    # "a.com , b.com" on every offline build. The normalizers are idempotent.
+    from .normalize import clean_url, facebook_url, instagram_url
+    for m in recs:
+        m.website = clean_url(m.website) if m.website else m.website
+        m.facebook = facebook_url(m.facebook) if m.facebook else m.facebook
+        m.instagram = instagram_url(m.instagram) if m.instagram else m.instagram
     return recs, doc.get("fetched")
 
 
