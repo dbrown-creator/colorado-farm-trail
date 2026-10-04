@@ -113,3 +113,15 @@ def test_committed_overrides_file_is_well_formed():
     assert rows
     for r in rows:
         assert r["column"] and r["value"] and r["mode"] in ("set", "prepend"), r
+
+
+def test_snapshot_load_renormalizes_link_fields(tmp_path):
+    from scrape import snapshots
+    m = Market(source="usda", business_name="DELYAKS", city="X",
+               website="https://www.yakmeat.us  , www.yaksale.com", facebook="Some Page Name",
+               instagram="@yaks")
+    snapshots.save("t", [m], snapshot_dir=str(tmp_path))
+    [got], _ = snapshots.load("t", snapshot_dir=str(tmp_path))
+    assert got.website == "https://www.yakmeat.us"
+    assert got.facebook == ""                      # a page name is not a link
+    assert got.instagram == "https://instagram.com/yaks"
