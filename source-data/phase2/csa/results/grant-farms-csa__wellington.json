@@ -1,0 +1,28 @@
+{
+ "id": "grant-farms-csa__wellington",
+ "name": "Grant Farms CSA",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Fetched grantfarms.com homepage showed only the 24/7 FarmStand (12155 N County Rd 15) and contact info, no CSA content; /csa returned 404; Facebook page unreadable. Third-party search snippets say it runs a weekly CSA (vegetable, fruit, All-In Kitchen shares; deliveries Colorado Springs to Casper WY) but those are not the farm's own pages, so no details filled. Contact howdy@grantfarms.com. 2026/2027 signup and season unknown."
+}

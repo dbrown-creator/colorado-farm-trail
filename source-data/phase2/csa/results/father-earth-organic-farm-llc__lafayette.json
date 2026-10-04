@@ -1,0 +1,50 @@
+{
+ "id": "father-earth-organic-farm-llc__lafayette",
+ "name": "Father Earth Organic Farm LLC",
+ "offers_csa": true,
+ "csa_status": "closed_season",
+ "signup_url": "https://fatherearthorganicfarm.com/csa.htm",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": 2026,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": "$760 for 20 weeks ($38/week)",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Father Earth Organic Farm",
+   "address": "8881 Elgin Drive, Lafayette, CO 80026",
+   "town": "Lafayette",
+   "day": null,
+   "time": null,
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Member pickup (or send someone)"
+ },
+ "evidence": [
+  {
+   "field": "price",
+   "quote_or_summary": "$760 total, $38 weekly, 20 weeks, first pickup near last week of May 2026",
+   "url": "https://fatherearthorganicfarm.com/csa.htm"
+  },
+  {
+   "field": "signup",
+   "quote_or_summary": "Registration form https://forms.gle/GUTqtfbLk2TVuv5y9, deadline April 30, 2026",
+   "url": "https://fatherearthorganicfarm.com/csa.htm"
+  }
+ ],
+ "notes": "2026 page: 20-week season starting about last week of May (no exact date); registration deadline Apr 30 2026 passed. Pickup site not stated on the page; address is the target farm address (unverified as pickup). 2027 not posted. Registration form: https://forms.gle/GUTqtfbLk2TVuv5y9"
+}

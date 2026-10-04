@@ -1,0 +1,50 @@
+{
+ "id": "monroe-family-farm-llc__kersey",
+ "name": "Monroe Family Farm, LLC",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": "https://monroefarm.com/summer-shares/",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": 2026,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Member-hosted distribution centers (summer: Westminster, Aurora, Centennial, Highlands Ranch, Littleton, Boulder, Denver, Greeley/Kersey, Longmont, Parker, Broomfield, Fort Collins, Lakewood, Louisville, Wheat Ridge)",
+   "address": null,
+   "town": null,
+   "day": null,
+   "time": null,
+   "on_farm": false
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Pickup at member-hosted home distribution centers across the Front Range; also farmers markets"
+ },
+ "evidence": [
+  {
+   "field": "season",
+   "quote_or_summary": "Summer shares mid-June to mid-October; Fall/Winter shares mid-October to mid-December",
+   "url": "https://monroefarm.com/summer-shares/"
+  },
+  {
+   "field": "pickup",
+   "quote_or_summary": "Distribution centers hosted by members from their homes",
+   "url": "https://monroefarm.com/distribution-centers/"
+  }
+ ],
+ "notes": "Summer: Full/Half/Single, weekly, mid-June to mid-Oct (exact dates/year not stated so season dates null). Fall/Winter: mid-Oct to mid-Dec, one size (half share), https://monroefarm.com/fall-winter-shares/. Also Working Shares, add-ons. Prices and signup status not on pages fetched; Barn2Door order page (app.barn2door.com/monroefarm/all) could not be fetched (rate limited). Distribution center addresses/days/times not on pages."
+}

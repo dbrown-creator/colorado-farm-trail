@@ -1,0 +1,45 @@
+{
+ "id": "mountain-roots-produce__mancos",
+ "name": "Mountain Roots Produce",
+ "offers_csa": true,
+ "csa_status": "closed_season",
+ "signup_url": "https://mountainrootsproduce.com/farm-membership",
+ "signup_opens": "2026-02-24",
+ "season_start": "2026-06-03",
+ "season_end": "2026-10-31",
+ "season_year": 2026,
+ "season_precision": "month",
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": "$500 or $300 prepaid farm-stand membership (10% bonus credit)",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Spruce Park Farm Stand",
+   "address": "Spruce Park, next to The Butcher and The Baker",
+   "town": "Telluride",
+   "day": "Wed",
+   "time": "11am-2pm",
+   "on_farm": false
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "In-person shopping only"
+ },
+ "evidence": [
+  {
+   "field": "status",
+   "quote_or_summary": "2026: 'Registration is Closed'; registration opened Feb 24; stand starts June 3, weather dependent through mid-October",
+   "url": "https://mountainrootsproduce.com/farm-membership"
+  }
+ ],
+ "notes": "2026 model is a prepaid 'farm membership' credit used at weekly Telluride farm stand (not fixed boxes); open to public without membership. Pay by check/cash by mail. Season end is 'mid-October' so month precision used. Older /summercsa page is stale (2021: Mancos/Telluride/Rico fixed shares, $515-540, 14 wks). Next season (2027) not announced."
+}

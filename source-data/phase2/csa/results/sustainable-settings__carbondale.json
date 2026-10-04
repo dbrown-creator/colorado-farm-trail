@@ -1,0 +1,28 @@
+{
+ "id": "sustainable-settings__carbondale",
+ "name": "Sustainable Settings",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Farm homepage and nav (About, Workshops, Get Involved, Research, Contact & Visit, Cart) show no CSA/cowshare mention. Third-party directories (LocalHarvest, search snippets) claim cowshares and vegetable CSA, but not confirmed on farm's own pages. Farm store Wed/Sat 11-4 per directory. Worth checking /contactandvisit and cart/shop pages manually."
+}

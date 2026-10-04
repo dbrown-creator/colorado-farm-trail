@@ -1,0 +1,64 @@
+{
+ "id": "headwater-farms__chaffee",
+ "name": "Headwater Farms",
+ "offers_csa": true,
+ "csa_status": "full",
+ "signup_url": "https://www.headwaterfarmco.com/csa",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Farm",
+   "address": null,
+   "town": "Buena Vista",
+   "day": null,
+   "time": null,
+   "on_farm": true
+  },
+  {
+   "name": "Greenhouse",
+   "address": null,
+   "town": "Nathrop",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  },
+  {
+   "name": "Salida pickup location",
+   "address": null,
+   "town": "Salida",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  }
+ ],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "csa_status",
+   "quote_or_summary": "CSA page lists Full Season CSA as sold out; banner says 2026 registration open (stale)",
+   "url": "https://www.headwaterfarmco.com/csa"
+  },
+  {
+   "field": "pickup_sites",
+   "quote_or_summary": "Seasonal CSAs picked up at Farm in Buena Vista, Greenhouse in Nathrop, or Salida pickup location",
+   "url": "https://www.headwaterfarmco.com/purchase"
+  }
+ ],
+ "notes": "CSA page is 2026 content; Full Season CSA sold out; homepage has newsletter signup for when registration opens (no 2027 info yet). No dates, price, addresses, times, or share contents stated in fetched text, so share_types left empty."
+}

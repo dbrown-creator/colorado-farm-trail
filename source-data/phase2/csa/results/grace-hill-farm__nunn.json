@@ -1,0 +1,28 @@
+{
+ "id": "grace-hill-farm__nunn",
+ "name": "Grace Hill Farm",
+ "offers_csa": false,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Website is an online store for pasture-raised meats, goat milk soap, breeding stock; nav is Home/Store/About/Contact. No CSA or share program found. Facebook not checked in detail."
+}

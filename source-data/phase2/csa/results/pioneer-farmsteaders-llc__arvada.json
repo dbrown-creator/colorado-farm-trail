@@ -1,0 +1,28 @@
+{
+ "id": "pioneer-farmsteaders-llc__arvada",
+ "name": "Pioneer Farmsteaders, LLC",
+ "offers_csa": "unknown",
+ "csa_status": "closed_season",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Farm website pioneerfarmsteaders.com no longer resolves (DNS fail); Facebook not readable. A search snippet of the site says owners Ken & Beckie Anderson were moving to Kansas and the garden was closed; only third-party directories (farmersstand.com, localharvest) still list a CSA June-Sept. Likely defunct/closed - verify by phone 303-284-3494 before listing. offers_csa left unknown."
+}

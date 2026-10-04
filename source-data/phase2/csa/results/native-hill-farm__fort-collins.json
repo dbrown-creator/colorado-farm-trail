@@ -1,0 +1,66 @@
+{
+ "id": "native-hill-farm__fort-collins",
+ "name": "Native Hill Farm",
+ "offers_csa": true,
+ "csa_status": "open",
+ "signup_url": "https://www.nativehillfarm.com/winter-share",
+ "signup_opens": null,
+ "season_start": "2026-11-01",
+ "season_end": "2027-03-31",
+ "season_year": 2027,
+ "season_precision": "month",
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Every other week",
+ "price": "Winter share $425 (incl $15 fee); Summer 2026: S $365, M $565, L $765",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Native Hill Farm (winter share, Cooler #1)",
+   "address": "2100 County Rd 54G, Fort Collins, CO 80524",
+   "town": "Fort Collins",
+   "day": "Fri-Mon",
+   "time": "daylight hours",
+   "on_farm": true
+  },
+  {
+   "name": "Larimer County Farmers Market (summer share)",
+   "address": "Larimer County Courthouse, Howes and Oak, Fort Collins",
+   "town": "Fort Collins",
+   "day": "Sat",
+   "time": "9am-1pm",
+   "on_farm": false
+  },
+  {
+   "name": "Native Hill Farm Stand (summer share)",
+   "address": "2100 CR 54G, Fort Collins, CO 80524",
+   "town": "Fort Collins",
+   "day": "Daily",
+   "time": "9am-6pm",
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Members pick up; no delivery mentioned"
+ },
+ "evidence": [
+  {
+   "field": "season",
+   "quote_or_summary": "Winter share early Nov 2026 - end of March 2027, 22 weeks, every two weeks, accepting orders",
+   "url": "https://www.nativehillfarm.com/winter-share"
+  },
+  {
+   "field": "summer",
+   "quote_or_summary": "2026 summer shares May 16-Oct 24, SOLD OUT",
+   "url": "https://www.nativehillfarm.com/summer-farm-share-copy"
+  }
+ ],
+ "notes": "Two programs. Summer 2026 (May 16-Oct 24) sold out; on-demand credit style. Winter 2026/27 open, pre-boxed. 2027 summer signup not posted. Homepage footer looked old (2021) but share pages reference 2026."
+}

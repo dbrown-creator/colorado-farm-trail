@@ -1,0 +1,28 @@
+{
+ "id": "star-view-farm__berthoud",
+ "name": "Star View Farm",
+ "offers_csa": false,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Farm site (starviewfarmltd.com) and store describe meat sold as quarter/half/whole beef, pork, lamb and cuts with deposits; no CSA/farm share or subscription program mentioned. Third-party directories label it CSA, likely from bulk meat shares. Contact 970-691-0623."
+}

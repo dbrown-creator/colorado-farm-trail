@@ -1,0 +1,3529 @@
+[
+ {
+  "id": "headwater-farms__chaffee",
+  "name": "Headwater Farms",
+  "offers_csa": true,
+  "csa_status": "full",
+  "signup_url": "https://www.headwaterfarmco.com/csa",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Farm",
+    "address": null,
+    "town": "Buena Vista",
+    "day": null,
+    "time": null,
+    "on_farm": true
+   },
+   {
+    "name": "Greenhouse",
+    "address": null,
+    "town": "Nathrop",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Salida pickup location",
+    "address": null,
+    "town": "Salida",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "CSA page lists Full Season CSA as sold out; banner says 2026 registration open (stale)",
+    "url": "https://www.headwaterfarmco.com/csa"
+   },
+   {
+    "field": "pickup_sites",
+    "quote_or_summary": "Seasonal CSAs picked up at Farm in Buena Vista, Greenhouse in Nathrop, or Salida pickup location",
+    "url": "https://www.headwaterfarmco.com/purchase"
+   }
+  ],
+  "notes": "CSA page is 2026 content; Full Season CSA sold out; homepage has newsletter signup for when registration opens (no 2027 info yet). No dates, price, addresses, times, or share contents stated in fetched text, so share_types left empty.",
+  "lat": "38.8422178",
+  "lon": "-106.1311288",
+  "city": "",
+  "county": "Chaffee",
+  "address": "",
+  "website": "https://www.headwaterfarmco.com/"
+ },
+ {
+  "id": "mushroom-love-co__chaffee",
+  "name": "Mushroom Love Co",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://www.mushroomloveco.com/product-page/copy-of-mushroom-csa-2026",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Mushrooms"
+  ],
+  "frequency": "Weekly",
+  "price": "$200 for 2026 season (about 15 lbs); monthly subscription $35/month (3 lbs)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Mushroom Love Co farm (monthly subscription pickup)",
+    "address": null,
+    "town": null,
+    "day": "2nd and 4th Monday of each month",
+    "time": null,
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "2026 CSA runs late May through October, ~15 lbs, weekly portions 0.5-1 lb",
+    "url": "https://www.mushroomloveco.com/product-page/copy-of-mushroom-csa-2026"
+   },
+   {
+    "field": "subscription",
+    "quote_or_summary": "One Month Subscription $35, 3 lbs, June-September, local residents only, out of stock; pickup 2nd and 4th Mondays at farm",
+    "url": "https://www.mushroomloveco.com/product-page/mushroom-subscription"
+   }
+  ],
+  "notes": "Season given only as late May through October (no exact dates) so start/end null. 2026 season over; no 2027 info. Mushrooms also sold at Buena Vista Farmers Market Sundays via Headwaters Farm. Pickup address/time not stated. Contact 970-420-8359.",
+  "lat": "38.848625",
+  "lon": "-106.1617464",
+  "city": "",
+  "county": "Chaffee",
+  "address": "",
+  "website": "http://www.mushroomloveco.com"
+ },
+ {
+  "id": "crescendum-flower-farm__arvada",
+  "name": "Crescendum Flower Farm",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.crescendumflowerfarm.com/csa-subscription",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Flowers"
+  ],
+  "frequency": "Weekly",
+  "price": "$250 for 2026 Late Summer CSA Bouquet Share (8 weeks)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Crescendum Flower Farm",
+    "address": "7100 W. 62nd Ave, Arvada, CO 80003",
+    "town": "Arvada",
+    "day": "Thu and Sun",
+    "time": "Thu 5-7pm; Sun 4-6:30pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Farm pickup only; alternate pickup with 24 hours notice."
+  },
+  "evidence": [
+   {
+    "field": "price",
+    "quote_or_summary": "2026 Late Summer CSA Bouquet Share $250, 8 week subscription, available; Summer share out of stock",
+    "url": "http://www.crescendumflowerfarm.com/f"
+   },
+   {
+    "field": "pickup",
+    "quote_or_summary": "Thursdays 5-7pm and Sundays 4-6:30pm at farm; weekly bouquet; 10% member discount",
+    "url": "https://www.crescendumflowerfarm.com/csa-subscription"
+   }
+  ],
+  "notes": "CSA description page carries a 2020 copyright, so pickup days/times may be stale; 2026 product listing is current. Exact season dates not stated. Late Summer share listed available at fetch time (now Oct 2026, likely ended). Farm is by appointment only. Contact 303-507-5483.",
+  "lat": "39.80918669411",
+  "lon": "-105.075885889076",
+  "city": "Arvada",
+  "county": "Jefferson",
+  "address": "7100 W 62nd Ave",
+  "website": "http://www.crescendumflowerfarm.com"
+ },
+ {
+  "id": "gentle-earth-farm__arvada",
+  "name": "Gentle Earth Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://forms.gle/Vy68pbDYkM5B8uTy8",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Instagram bio: We offer CSA shares, wholesale, and an onsite community farmstand",
+    "url": "https://www.instagram.com/gentleearthfarm"
+   },
+   {
+    "field": "signup_url",
+    "quote_or_summary": "Linktree lists 2026 CSA Sign-Up Google Form",
+    "url": "https://linktr.ee/gentleearthfarm"
+   }
+  ],
+  "notes": "No farm website; links via Linktree. Sign-up form not opened. A third-party search snippet (not the farm's own page) said June-October, $450 for 18 weeks, sliding scale/installments; NOT used. Share contents not confirmed on own pages (organic vegetable farm). season_year 2026 reflects the form label only. Farmstand at 8412 Alkire St. Contact gentleearthfarm@gmail.com. Same address as Inti Farms.",
+  "lat": "39.8485161",
+  "lon": "-105.1472437",
+  "city": "Arvada",
+  "county": "Jefferson",
+  "address": "8412 Alkire St",
+  "website": ""
+ },
+ {
+  "id": "grow-girl-organics__arvada",
+  "name": "Grow Girl Organics",
+  "offers_csa": true,
+  "csa_status": "full",
+  "signup_url": "https://growgirlorganics.com/csa",
+  "signup_opens": null,
+  "season_start": "2026-05-01",
+  "season_end": "2026-10-31",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables",
+   "Flowers",
+   "Eggs",
+   "Mushrooms",
+   "Bread/Baked",
+   "Other"
+  ],
+  "frequency": "Weekly",
+  "price": "Large $900/season (6-8 items weekly); Basic $700 (4-6 weekly); Half $425 (4-6 bi-weekly); Working Share: work 12 hrs/month for $250 refund; flower partner share $280/10 weeks",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Arvada Farm",
+    "address": "12229 W. 80th Ave, Unit B, Arvada, CO 80005",
+    "town": "Arvada",
+    "day": "Tue",
+    "time": "4-6pm",
+    "on_farm": true
+   },
+   {
+    "name": "Littleton",
+    "address": "5142 S. Xenophon Ct, Littleton, CO 80127",
+    "town": "Littleton",
+    "day": "Wed",
+    "time": "4-6pm",
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Pickup only or designate a proxy."
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "2026 season is full; no new memberships",
+    "url": "https://growgirlorganics.com/csa"
+   },
+   {
+    "field": "season",
+    "quote_or_summary": "21-week season, May 1 - Oct 31, one-week break mid-July",
+    "url": "https://growgirlorganics.com/csa"
+   }
+  ],
+  "notes": "Partner shares: coffee, pasta, eggs, mushrooms, bread, honey; fruit share closed. No SNAP info. 2027 sign-up not yet announced. Fall Harvest Festival Oct 24, 2026. Contact growgirlorganics@gmail.com, 303-886-5645.",
+  "lat": "39.842802000000006",
+  "lon": "-105.135525",
+  "city": "ARVADA",
+  "county": "Jefferson",
+  "address": "12229 W. 80th Avenue, Unit B",
+  "website": "https://growgirlorganics.com"
+ },
+ {
+  "id": "inti-farms__arvada",
+  "name": "Inti Farms",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://forms.gle/hwmuvc91H8LheFDF9",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "signup_url",
+    "quote_or_summary": "Linktree lists 2026 CSA Sign Up Google Form",
+    "url": "https://linktr.ee/inti.chacra.farms"
+   }
+  ],
+  "notes": "Linktree describes an agroecological organic vegetable farm in Arvada with CSA, wholesale, and farmstand. Google Form could not be read (safety check rate-limited), so dates, price, pickup unknown. Same address as Gentle Earth Farm (8412 Alkire St). Linktree Instagram is inti_farm_co.",
+  "lat": "39.849591290353",
+  "lon": "-105.14768313703",
+  "city": "Arvada",
+  "county": "Jefferson",
+  "address": "8412 Alkire Street",
+  "website": "https://linktr.ee/inti.chacra.farms?utm_source=linktree_profile_share&ltsid=a31e06f5-0479-4fe4-acf7-0fc9b0aa6470"
+ },
+ {
+  "id": "micro-farms__arvada",
+  "name": "Micro Farms",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://microfarmscolorado.com/csa/",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Arvada",
+    "address": "7020 W. 61 Ave, Arvada, CO 80003",
+    "town": "Arvada",
+    "day": "Thu",
+    "time": "3-7pm",
+    "on_farm": true
+   },
+   {
+    "name": "Lakewood",
+    "address": "8090 W. 19 Ave, Lakewood, CO 80214",
+    "town": "Lakewood",
+    "day": "Thu",
+    "time": "3-7pm",
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Customer pickup only."
+  },
+  "evidence": [
+   {
+    "field": "pickup",
+    "quote_or_summary": "Thursdays 3-7pm at Arvada and Lakewood sites",
+    "url": "https://microfarmscolorado.com/csa/"
+   },
+   {
+    "field": "season",
+    "quote_or_summary": "Beginning of June through end of October (2024 season)",
+    "url": "https://microfarmscolorado.com/csa/"
+   }
+  ],
+  "notes": "STALE: CSA page content is for the 2024 season (pre-purchase for 2024 via Square store). Shares: Micro (4-5 items/wk), Half (6-7), Full (11-12). Season dates/year left null since stale. No prices, no SNAP info. No 2026/2027 info found.",
+  "lat": "39.807370606148",
+  "lon": "-105.074661561585",
+  "city": "Arvada",
+  "county": "Jefferson",
+  "address": "7020 W. 61st Ave",
+  "website": "http://microfarmscolorado.com"
+ },
+ {
+  "id": "d-h-farms__ault",
+  "name": "D & H Farms",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": "2026-05-01",
+  "season_end": "2026-10-31",
+  "season_year": 2026,
+  "season_precision": "month",
+  "share_types": [
+   "Vegetables",
+   "Eggs"
+  ],
+  "frequency": null,
+  "price": "$550 summer share; $550 winter share",
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "price",
+    "quote_or_summary": "$550 summer and winter shares, memberships May-Oct (LocalHarvest, third party)",
+    "url": "https://www.localharvest.org/d-h-farms-M7279"
+   }
+  ],
+  "notes": "Own site dhfarms2000.com did not resolve (DNS fail); Facebook not readable. Details come from LocalHarvest listing (third party, last updated 2025-01-21): summer and winter CSA, memberships May-October, $550 each, also Greeley Farmers Market Saturdays. Not confirmed on farm's own pages; season year is unconfirmed (listing is 2025-era, so season_year/dates are a loose inference - treat as low confidence). Phone 970-396-1182.",
+  "lat": "40.5819854",
+  "lon": "-104.7313754",
+  "city": "Ault",
+  "county": "Weld",
+  "address": "41373 Highway 85",
+  "website": ""
+ },
+ {
+  "id": "delaney-community-farm-by-project-worthmore__aurora",
+  "name": "DeLaney Community Farm - by Project Worthmore",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://projectworthmore.org/farmshares/",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Other"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "signup_url",
+    "quote_or_summary": "Learn More button links to farmshares page",
+    "url": "https://projectworthmore.org/programs/delaney-community-farm/"
+   },
+   {
+    "field": "frequency",
+    "quote_or_summary": "weekly shares ~18 weeks mid-June to mid-October",
+    "url": "https://projectworthmore.org/programs/delaney-community-farm/"
+   }
+  ],
+  "notes": "Program page says ~18-week CSA, mid-June to mid-October, weekly seasonal vegetables and herbs with optional add-ons (fruit, eggs); 2026 memberships were being promoted (page is 2026 content; no 2027 info). Exact dates, price, pickup sites, delivery, SNAP not on program page; /farmshares/ returned HTTP 500 on repeated attempts so could not read it - recheck.",
+  "lat": "39.71508162133474",
+  "lon": "-104.8097142745858",
+  "city": "Aurora",
+  "county": "Arapahoe",
+  "address": "170 S Chambers Rd",
+  "website": "https://projectworthmore.org/programs/delaney-community-farm/"
+ },
+ {
+  "id": "rock-bottom-ranch-aces__basalt",
+  "name": "Rock Bottom Ranch (ACES)",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://aspennature.org/locations/rock-bottom-ranch/sign-up-for-rock-bottom-ranch-csa/",
+  "signup_opens": null,
+  "season_start": "2026-06-03",
+  "season_end": "2026-10-04",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables",
+   "Bread/Baked"
+  ],
+  "frequency": "Weekly",
+  "price": "$855 for 19 weeks (sliding scale available); Aspen Saturday Market CSA credit $125-$1,250 at 10% discount",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Rock Bottom Ranch",
+    "address": "2001 Hooks Spur Rd, Basalt, CO 81621",
+    "town": "Basalt",
+    "day": "Wed",
+    "time": "2pm-6pm (late Thursday pickup by request, by 4pm)",
+    "on_farm": true
+   },
+   {
+    "name": "Aspen Saturday Market",
+    "address": null,
+    "town": "Aspen",
+    "day": "Sat",
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "June 3 - Oct 4, 2026, 19 weeks; market CSA Sat June 6 - Oct 3",
+    "url": "https://aspennature.org/locations/rock-bottom-ranch/sign-up-for-rock-bottom-ranch-csa/"
+   }
+  ],
+  "notes": "Page is the 2026 season (just ended); no 2027 info posted. Market CSA is a prepaid credit at Aspen Saturday Market rather than a box. Bread share add-on with Crust and Crumb. Meat/eggs sold separately in store. Delivery and SNAP not stated.",
+  "lat": "39.391085967103",
+  "lon": "-107.111159058848",
+  "city": "Basalt",
+  "county": "Eagle",
+  "address": "2001 Hooks Spur Rd",
+  "website": "https://aspennature.org/locations/rock-bottom-ranch/"
+ },
+ {
+  "id": "two-roots-farm-llc__basalt",
+  "name": "Two Roots Farm LLC",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.tworootsfarm.com/csasignup",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Flowers",
+   "Eggs",
+   "Other"
+  ],
+  "frequency": "Weekly",
+  "price": "Weekly $1,350; every other week $725 (20 weeks); signup page also shows veg shares from $755, flower shares from $160, sliding scale/supported shares",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Two Roots Farm",
+    "address": "100 Sopris Creek Road, Basalt, CO 81621",
+    "town": "Basalt",
+    "day": "Tue & Thu",
+    "time": "2pm-5:30pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "On-farm pickup only"
+  },
+  "evidence": [
+   {
+    "field": "pickup_sites",
+    "quote_or_summary": "20 weeks, last week of May to mid-October; Tue/Thu 2-5:30pm on-farm; weekly $1,350 / EOW $725",
+    "url": "https://www.tworootsfarm.com/csa"
+   }
+  ],
+  "notes": "/csa page undated (references 2020-21 photos); prices there ($1,350/$725) conflict with /csasignup 'from $755' so one is stale or different tiers - verify. Season described generically (last week of May to mid-October, no year), so dates left null. Add-ons: flowers, eggs, fruit shares (hence share_types includes Other for fruit). Farm stand open Fridays through Oct 30, 2026.",
+  "lat": "39.37097700000001",
+  "lon": "-107.0349525",
+  "city": "Basalt",
+  "county": "Pitkin",
+  "address": "100 Sopris Creek Road",
+  "website": "https://www.tworootsfarm.com"
+ },
+ {
+  "id": "homegrown-farm__bayfield",
+  "name": "Homegrown Farm",
+  "offers_csa": true,
+  "csa_status": "full",
+  "signup_url": "https://homegrownbiodynamics.com/csa/",
+  "signup_opens": "2026-02-10",
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "$650 full season plus county sales tax (returning member discount)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Homegrown Farm",
+    "address": "2930 CR 526, Bayfield, CO",
+    "town": "Bayfield",
+    "day": "Tue",
+    "time": "4pm-6pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Market-style on-farm pickup; no delivery stated"
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "2026 CSA is full; waitlist and volunteer work-trade shares available",
+    "url": "https://homegrownbiodynamics.com/csa/"
+   }
+  ],
+  "notes": "2026 content: 15-16 weeks, Tuesdays mid-June through end of September (exact dates not given, so season_start/end null). Registration opened Feb 10, 2026. No 2027 info yet. Also sells at Durango Farmers Market and Pine River Shares.",
+  "lat": "",
+  "lon": "",
+  "city": "Bayfield",
+  "county": "",
+  "address": "",
+  "website": "http://homegrownbiodynamics.com"
+ },
+ {
+  "id": "cure-organic-farm__boulder",
+  "name": "Cure Organic Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://www.cureorganicfarm.com/csa-program",
+  "signup_opens": null,
+  "season_start": "2026-06-01",
+  "season_end": "2026-10-31",
+  "season_year": 2026,
+  "season_precision": "month",
+  "share_types": [
+   "Vegetables",
+   "Fruit",
+   "Eggs",
+   "Flowers",
+   "Other"
+  ],
+  "frequency": "Weekly",
+  "price": "Traditional veg share $700 (20 wks); CSA Card $500 ($550 to spend); Fruit share $300 (15 wks); Egg share $175 (20 wks); Flower share $300 (15 wks)",
+  "snap_accepted": true,
+  "pickup_sites": [
+   {
+    "name": "Cure Organic Farm",
+    "address": "7416 Valmont Road, Boulder, CO 80301",
+    "town": "Boulder",
+    "day": "Wed, Sat",
+    "time": "Wed 12pm-7pm; Sat 12pm-5pm",
+    "on_farm": true
+   },
+   {
+    "name": "Denver - Highlands",
+    "address": null,
+    "town": "Denver",
+    "day": "Thu",
+    "time": "4pm-6pm",
+    "on_farm": false
+   },
+   {
+    "name": "Denver - DU neighborhood / University Hills",
+    "address": null,
+    "town": "Denver",
+    "day": "Thu",
+    "time": "4pm-6pm (winter 5-7pm)",
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "20 weeks from early June through mid-October 2026",
+    "url": "https://www.cureorganicfarm.com/csa-program"
+   },
+   {
+    "field": "snap_accepted",
+    "quote_or_summary": "SNAP and EBT are accepted; Share the Bounty assistance program",
+    "url": "https://www.cureorganicfarm.com/csa-program"
+   }
+  ],
+  "notes": "2026 content. Dates month-precision (early June to mid-Oct; exact days not given). Also an 8-week Winter CSA late Oct-mid Dec (price TBD) with Wed 12-6 Boulder, Thu 4-6 Highlands, Thu 5-7 DU pickups, and spring tulip share Feb-Apr ($125). No open/full status shown. Denver pickup street addresses not given. No delivery mentioned.",
+  "lat": "40.0327259",
+  "lon": "-105.1803587",
+  "city": "Boulder",
+  "county": "Boulder",
+  "address": "7416 Valmont Rd",
+  "website": "http://www.cureorganicfarm.com/"
+ },
+ {
+  "id": "growing-gardens__boulder",
+  "name": "Growing Gardens",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://growinggardens.org/csa/",
+  "signup_opens": null,
+  "season_start": "2026-10-28",
+  "season_end": "2026-12-16",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "Fall share $450 for 8 weeks ($225 half upfront, balance due Oct 21)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Growing Gardens farm",
+    "address": "1630 Hawthorn Avenue, Boulder, CO 80304",
+    "town": "Boulder",
+    "day": "Wed",
+    "time": "3:30pm-6:00pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "Fall 2026 Boulder CSA: Spots available; Summer 2026 (June 3-Oct 21) Full for the season",
+    "url": "https://growinggardens.org/csa/"
+   },
+   {
+    "field": "season",
+    "quote_or_summary": "Fall: October 28 - December 16th, 8 weeks; Tuesday pickup Thanksgiving week",
+    "url": "https://growinggardens.org/csa/"
+   }
+  ],
+  "notes": "Dates shown are the currently open Fall 2026 share (serves 2-4 people; pre-packed weeks 1-5, market-style 6-8; 10% farm stand discount for members). Summer 2026 was June 3-Oct 21, Wednesdays 3:30-6pm, full, price not listed. Longmont Food Project Farm will NOT offer a CSA in 2026. SNAP and Boulder County Fruit and Veg Bucks accepted at farm stands; not stated for the CSA itself, so snap_accepted left null.",
+  "lat": "40.034745000000015",
+  "lon": "-105.2764335",
+  "city": "Boulder",
+  "county": "Boulder",
+  "address": "1630 Hawthorn Avenue",
+  "website": "https://growinggardens.org/"
+ },
+ {
+  "id": "off-beet-farm__boulder",
+  "name": "Off Beet Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://offbeetfarmcolorado.square.site/",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Pickup only; no delivery mentioned"
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Homepage banner: Summer 2026 CSA - NOW OPEN, linking to the Square site",
+    "url": "http://offbeetfarmcolorado.com"
+   }
+  ],
+  "notes": "Homepage (undated banner) says Summer 2026 CSA now open; the Square store itself could not be read (safety check rate-limited / blank). The /join-our-csa/ page is STALE (2025: 22 weeks May 27-Oct 21, Tuesdays 4-6:30pm, pickup at 4300 Spine Rd Gunbarrel, alt pickups at Boulder Wednesday and Longmont Saturday farmers markets, sliding scale, 2025 sold out/waitlist) and its address conflicts with directory (3796 63rd St), so no pickup/season fields filled. Third-party only (not used): 2026 5/26-10/20, $27/$35 per week. Status unknown; season now ending.",
+  "lat": "40.044719181323",
+  "lon": "-105.206803706198",
+  "city": "Boulder",
+  "county": "Boulder",
+  "address": "3796 63rd St",
+  "website": "http://offbeetfarmcolorado.com"
+ },
+ {
+  "id": "berry-patch-farms-llc__brighton",
+  "name": "Berry Patch Farms, LLC",
+  "offers_csa": true,
+  "csa_status": "opens_later",
+  "signup_url": "https://berrypatchfarms.com/csa",
+  "signup_opens": "2027-01-01",
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Other"
+  ],
+  "frequency": "Weekly",
+  "price": "Full share (20 wks) $870 City Park / $850 Brighton; half share (10 wks) $440 City Park / $430 Brighton; CSA Flex Card $300 ($325 value) or $500 ($540 value)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "City Park (Denver)",
+    "address": null,
+    "town": "Denver",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Berry Patch Farms",
+    "address": "13785 Potomac St, Brighton, CO 80601",
+    "town": "Brighton",
+    "day": null,
+    "time": null,
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "A CSA is not a delivery service (farm statement)."
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "Typically starts third week in June, running through October, twenty weeks",
+    "url": "https://berrypatchfarms.com/csa"
+   },
+   {
+    "field": "signup_opens",
+    "quote_or_summary": "Enrollment Jan 1st ends June 1st; homepage says enrollment begins January 1st",
+    "url": "https://berrypatchfarms.com/csa"
+   }
+  ],
+  "notes": "Season only described generically (typically), no dated year, so season_start/end left null. signup_opens 2027-01-01 inferred from recurring Jan 1 enrollment start. Pickup days/times not listed; City Park address not given. Extras (flower picking, hayrides, pumpkins, maze) included. Winter CSA exists at /wintercsa-17 (not read). SNAP not mentioned. Content appears to be the 2026 season.",
+  "lat": "39.94666596877159",
+  "lon": "-104.82816398691948",
+  "city": "Brighton",
+  "county": "Adams",
+  "address": "13785 POTOMAC ST",
+  "website": "https://berrypatchfarms.com"
+ },
+ {
+  "id": "meadows-edge-farm__buena-vista",
+  "name": "Meadows Edge Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Buena Vista pickup (location not specified)",
+    "address": null,
+    "town": "Buena Vista",
+    "day": null,
+    "time": null,
+    "on_farm": null
+   },
+   {
+    "name": "Salida pickup (location not specified)",
+    "address": null,
+    "town": "Salida",
+    "day": null,
+    "time": null,
+    "on_farm": null
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Farm description (target notes, farm's own text): 18-week vegetable CSA first week of June through beginning of October, pick-up in Buena Vista and Salida, large and small shares; email or call for details",
+    "url": "https://www.facebook.com/meadowsedgefarmbv/"
+   }
+  ],
+  "notes": "No website. Facebook/Instagram pages returned no readable content. Year of season not stated so season dates left null (June to early Oct, 18 weeks). Price, signup, pickup days/times/addresses not available. Contact (third-party snippet): meadowsedgefarmbv@gmail.com, (401) 714-1489. Also sells at Buena Vista and Salida farmers markets and weekly prepackaged boxes (third-party).",
+  "lat": "38.8408475",
+  "lon": "-106.1554058",
+  "city": "Buena Vista",
+  "county": "Chaffee",
+  "address": "29135 Co Rd 331",
+  "website": ""
+ },
+ {
+  "id": "songhaven-farm__cahone",
+  "name": "SongHaven Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://www.songhavenfarm.com/community-supported-agriculture.html",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Eggs",
+   "Other"
+  ],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Our 2025 CSA is currently full; season generally beginning of June to middle of October; customizable weekly choice share via Local Harvest storefront",
+    "url": "https://www.songhavenfarm.com/community-supported-agriculture.html"
+   }
+  ],
+  "notes": "CSA page is stale (says 2025 CSA full). No 2026/2027 info, price, or pickup sites on page. A search snippet (not the farm's page text fetched) mentioned Wednesday Dolores / Thursday on-farm pickups; unverified so left null. Contact Michele (970) 403-2895.",
+  "lat": "",
+  "lon": "",
+  "city": "Cahone",
+  "county": "",
+  "address": "",
+  "website": "http://www.songhavenfarm.com"
+ },
+ {
+  "id": "new-roots-farm-llc__canon-city",
+  "name": "New Roots Farm LLC",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.newrootsfarmllc.com/new-roots-farm-csa",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "$660/share Colorado Springs pickup or $640/share Canon City on-farm pickup, plus $20 card fee",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Colorado Farm and Art Market at Pioneers Museum",
+    "address": null,
+    "town": "Colorado Springs",
+    "day": "Wed",
+    "time": "3:30pm-6pm",
+    "on_farm": false
+   },
+   {
+    "name": "New Roots Farm",
+    "address": "1630 Grand Ave, Canon City, CO 81212",
+    "town": "Canon City",
+    "day": "Wed",
+    "time": "2pm-6pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Pickup only"
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "Early June through mid-October, 17 deliveries; limited shares, fill quickly with returning members",
+    "url": "https://www.newrootsfarmllc.com/new-roots-farm-csa"
+   },
+   {
+    "field": "signup_url",
+    "quote_or_summary": "Google form sign-up https://forms.gle/28AV1ur7gG1zor3V7",
+    "url": "https://www.newrootsfarmllc.com/new-roots-farm-csa"
+   }
+  ],
+  "notes": "Season year not stated on page; exact dates not given (early June-mid Oct) so left null. Status open inferred from live page with signup form, not an explicit open statement. Sign-up form: https://forms.gle/28AV1ur7gG1zor3V7",
+  "lat": "38.428380000000004",
+  "lon": "-105.2060895",
+  "city": "Canon City",
+  "county": "Fremont",
+  "address": "1630 Grand Ave Canon City, CO 81212",
+  "website": "https://www.newrootsfarmllc.com"
+ },
+ {
+  "id": "dooley-creek-farm__carbondale",
+  "name": "Dooley Creek Farm",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.dooleycreekfarm.com/shop-csa",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Meat"
+  ],
+  "frequency": "Monthly",
+  "price": "$125/month or $1,500 full year",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Carbondale drop site",
+    "address": null,
+    "town": "Carbondale",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Dooley Creek Farm",
+    "address": "349 Dooley Lane, Carbondale",
+    "town": "Carbondale",
+    "day": null,
+    "time": null,
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": true,
+   "kind": "other",
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Greater Roaring Fork valley, deliveries from Glenwood to Aspen and everything in between"
+  },
+  "evidence": [
+   {
+    "field": "price",
+    "quote_or_summary": "Meat CSA $125/month or $1,500 pay in full",
+    "url": "https://www.dooleycreekfarm.com/shop-csa"
+   },
+   {
+    "field": "delivery",
+    "quote_or_summary": "Deliveries from Glenwood to Aspen",
+    "url": "https://www.dooleycreekfarm.com/csa"
+   },
+   {
+    "field": "pickup_sites",
+    "quote_or_summary": "Homepage: email order for Carbondale drop site or on-farm pickup year-round",
+    "url": "http://www.dooleycreekfarm.com"
+   }
+  ],
+  "notes": "Meat CSA only, year-round subscription (no season dates). Drop-site address/day/time not stated. A pricing PDF is linked from the CSA page but was not read.",
+  "lat": "",
+  "lon": "",
+  "city": "Carbondale",
+  "county": "",
+  "address": "349 Dooley Lane",
+  "website": "http://www.dooleycreekfarm.com"
+ },
+ {
+  "id": "high-on-the-hill-farm__ca-on-city",
+  "name": "High On The Hill Farm",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.highonthehillfarm.com/csa.html",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Fruit"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "We are offering a limited number of weekly CSA memberships for the 2026 season; 16-18 week season",
+    "url": "https://www.highonthehillfarm.com/csa.html"
+   }
+  ],
+  "notes": "Page is current for 2026. No start/end dates, price, pickup sites or delivery on fetched page; homepage says on-farm pickup (2500 Hereford Dr) for CSA and a Frequent Buyer's Club (per directory notes, not verified on farm page). Share types inferred from farm description (fruit, vegetable, herbs). Contact 719-726-9200, fresh@highonthehillfarm.com. As of Oct 2026 the 2026 season is over; 2027 not stated.",
+  "lat": "38.485062",
+  "lon": "-105.213009",
+  "city": "Cañon City",
+  "county": "Fremont",
+  "address": "2500 Hereford Dr",
+  "website": "https://HighOnTheHillFarm.com"
+ },
+ {
+  "id": "green-junction-farmstead__clifton",
+  "name": "Green Junction Farmstead",
+  "offers_csa": true,
+  "csa_status": "waitlist",
+  "signup_url": "https://www.gjfarmstead.com/c-s-a",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2027,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "2026 CSA shares sold out; Get on our 2027 waiting list (mailchi.mp/fc2bcd78de30/2027waitinglist)",
+    "url": "https://www.gjfarmstead.com/c-s-a"
+   }
+  ],
+  "notes": "2026 shares sold out; 2027 waiting list open. Season dates, price, pickup sites, delivery not on fetched page (page references example shares and a member agreement). Share type Vegetables not explicit on page; verify. Waitlist link: https://mailchi.mp/fc2bcd78de30/2027waitinglist. Contact (970) 234-0024.",
+  "lat": "39.09587400000001",
+  "lon": "-108.4133925",
+  "city": "CLIFTON",
+  "county": "Mesa",
+  "address": "3449 Front St",
+  "website": "https://www.gjfarmstead.com"
+ },
+ {
+  "id": "hillbilly-farms__colorado-springs",
+  "name": "Hillbilly Farms",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Eggs",
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "Egg share $140 for 1 dozen/week over 26 weeks",
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "price",
+    "quote_or_summary": "Egg shares $140 for a dozen per week over 26 weeks (10 available); 15 vegetable shares; shares available year round; 3, 6, 12 month contracts",
+    "url": "http://Hillbillyfarms.net"
+   }
+  ],
+  "notes": "Homepage only; no direct share-signup page found; page date unknown (possibly stale). Mentions selling at Mountain Naturals Community Market (Woodland Park) and Colorado Springs Event Center (Palmer Park & Academy); not clearly CSA pickup sites so not listed. Contact Donnajlachey@hotmail.com. /contact page had no extra info; www.hillbillyfarms.net fetch was rate-limited.",
+  "lat": "38.579031323497",
+  "lon": "-104.478786858138",
+  "city": "Colorado Springs",
+  "county": "El Paso",
+  "address": "17245 Milne Rd",
+  "website": "http://Hillbillyfarms.net"
+ },
+ {
+  "id": "pedro-s-farm-formerly-borden-farms__delta",
+  "name": "Pedro's Farm (formerly Borden Farms)",
+  "offers_csa": true,
+  "csa_status": "full",
+  "signup_url": "https://pedrosfarm.com/csa/",
+  "signup_opens": null,
+  "season_start": "2026-06-01",
+  "season_end": "2026-09-30",
+  "season_year": 2026,
+  "season_precision": "month",
+  "share_types": [
+   "Vegetables",
+   "Other"
+  ],
+  "frequency": "Weekly",
+  "price": "$620/share (about $38/week), paid in full before season",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Farm pickup",
+    "address": "51245 Carnation Road",
+    "town": "Delta",
+    "day": "Fri",
+    "time": null,
+    "on_farm": true
+   },
+   {
+    "name": "Aspen Saturday Market",
+    "address": null,
+    "town": "Aspen",
+    "day": "Sat",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Carbondale Farmers Market",
+    "address": null,
+    "town": "Carbondale",
+    "day": "Wed",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Crested Butte Farmers Market",
+    "address": null,
+    "town": "Crested Butte",
+    "day": "Sun",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Edwards Farmers Market",
+    "address": null,
+    "town": "Edwards",
+    "day": "Sat",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Montrose",
+    "address": null,
+    "town": "Montrose",
+    "day": "Thu",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Ridgway",
+    "address": null,
+    "town": "Ridgway",
+    "day": "Thu",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Telluride",
+    "address": null,
+    "town": "Telluride",
+    "day": "Thu",
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "No home delivery stated; pickup sites only."
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "About 16 weeks mid-June to late September 2026, plus a bonus week if no freeze",
+    "url": "https://pedrosfarm.com/csa/"
+   },
+   {
+    "field": "csa_status",
+    "quote_or_summary": "2026 shares available but most pickup locations marked SOLD OUT",
+    "url": "https://pedrosfarm.com/csa/"
+   }
+  ],
+  "notes": "Share = seasonal organic produce plus early-season herb plants. Pickup times and market addresses not captured. Sign-up form on page; phone 970-200-6919. Which sites still have openings not captured. SNAP not mentioned.",
+  "lat": "38.63655500000001",
+  "lon": "-108.129156",
+  "city": "Delta",
+  "county": "Montrose",
+  "address": "51245 Carnation Road",
+  "website": "https://pedrosfarm.com/"
+ },
+ {
+  "id": "bonverts-farm__denver",
+  "name": "Bonverts Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://bonverts-farm.localline.ca/bonverts",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Supplies families with seasonal lettuce, microgreens and herbs once a week via their own version of a CSA; CSA Farm Box Subscription in shop; will contact members in May",
+    "url": "https://www.bonverts.com"
+   }
+  ],
+  "notes": "Hydroponic farm. Online shop (Local Line) page did not render, so price, pickup, delivery, dates unknown; signup_url is the shop, not a dedicated CSA page. /products page has no CSA details. Homepage says they contact you in May about options and schedule (page year unclear). Facebook not checked.",
+  "lat": "39.7817469",
+  "lon": "-104.8602381",
+  "city": "Denver",
+  "county": "Denver",
+  "address": "4690 Joliet Street",
+  "website": "https://www.bonverts.com"
+ },
+ {
+  "id": "denver-urban-gardens-delaney-community-farm-aurora__denver",
+  "name": "Denver Urban Gardens DeLaney Community Farm (Aurora)",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://projectworthmore.org/farmshares/",
+  "signup_opens": null,
+  "season_start": "2026-06-01",
+  "season_end": "2026-10-31",
+  "season_year": 2026,
+  "season_precision": "month",
+  "share_types": [
+   "Vegetables",
+   "Other"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "CSA runs about 18 weeks mid-June through mid-October; shares grow through season; optional add-ons like fruit and eggs",
+    "url": "https://projectworthmore.org/programs/delaney-community-farm/"
+   }
+  ],
+  "notes": "Run with Project Worthmore on DeLaney Community Farm, 170 S. Chambers Rd, Aurora (address from search snippet). Page content is 2026. The farmshares signup page returned HTTP 500 and the dug.org CSA page fetch was rate-limited, so price, pickup, delivery and open/closed status are unknown. Add-ons: fruit, eggs.",
+  "lat": "39.7558119",
+  "lon": "-104.9680914",
+  "city": "Denver",
+  "county": "Denver",
+  "address": "1031 33rd St Suite 100 (Office)",
+  "website": "http://www.dug.org/"
+ },
+ {
+  "id": "frontline-farming__denver",
+  "name": "FrontLine Farming",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.frontlinefarming.org/csa-form",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "2026: Single share (1-2 people) $496; Double share (3-5 people) $988; 16 weeks",
+  "snap_accepted": true,
+  "pickup_sites": [
+   {
+    "name": "Majestic View Farm",
+    "address": "7000 Garrison St, Arvada, CO 80004",
+    "town": "Arvada",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Celebration Garden",
+    "address": "1650 South Birch St, Denver, CO 80222",
+    "town": "Denver",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Sisters Gardens",
+    "address": "2861 52nd Ave, Denver, CO 80221",
+    "town": "Denver",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": true,
+   "kind": "other",
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": "$15/week",
+   "details": "Home delivery available for limited spots; area not stated"
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "Page says 16 weeks June 30 to Oct 18, 2025 while pricing is labeled 2026 (stale dates)",
+    "url": "https://www.frontlinefarming.org/csa"
+   },
+   {
+    "field": "snap_accepted",
+    "quote_or_summary": "EBT in person only; Double Up Food Bucks 50% discount; sponsor CSAs for Denver families",
+    "url": "https://www.frontlinefarming.org/csa"
+   }
+  ],
+  "notes": "Season dates on page are stale (2025), so left null. Pricing labeled 2026 and registration described as open. Pickup days/times only shown at checkout; csa-form returned 403.",
+  "lat": "39.79323329859874",
+  "lon": "-105.02507521001375",
+  "city": "Denver",
+  "county": "Denver",
+  "address": "5270 Federal Blvd",
+  "website": "https://www.frontlinefarming.org/csa"
+ },
+ {
+  "id": "lost-greens-farm__denver",
+  "name": "Lost Greens Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Flowers"
+  ],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Aug 2025 Substack: 2025 CSA ran through mid-October; 2026 plans still being developed by founder and new co-director",
+    "url": "https://lostgreensfarm.substack.com/p/lost-greens-farm-is-changing-shape"
+   }
+  ],
+  "notes": "Runs a CSA (2025 confirmed) but no 2026/2027 sign-up, dates or prices found; farm said 2026 details would follow at lostgreensfarm.com (fetch rate-limited, not read). Older third-party (LocalHarvest) info: May-Oct, Saturday 12-4pm pickup at 3701 Gilpin St, $850/year suggested sliding scale, 35 shares, $100 deposit; likely prior year, not recorded in fields. Farm in transition ('changing shape').",
+  "lat": "39.768210534518",
+  "lon": "-104.967252242995",
+  "city": "Denver",
+  "county": "Denver",
+  "address": "3701 Gilpin St",
+  "website": "https://lostgreensfarm.substack.com"
+ },
+ {
+  "id": "sprout-city-farms__denver",
+  "name": "Sprout City Farms",
+  "offers_csa": true,
+  "csa_status": "waitlist",
+  "signup_url": "https://sproutcityfarms.org/csa-signup",
+  "signup_opens": null,
+  "season_start": "2026-06-17",
+  "season_end": "2026-10-14",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables",
+   "Flowers",
+   "Fruit",
+   "Eggs",
+   "Bread/Baked",
+   "Mushrooms",
+   "Other"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": true,
+  "pickup_sites": [
+   {
+    "name": "Denver Green School Community Farm",
+    "address": "6700 E Virginia Ave, Denver, CO 80224",
+    "town": "Denver",
+    "day": "Wed",
+    "time": "4pm-6pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Only pickup mentioned"
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "2026 CSA June 17 - Oct 14 (18 weeks), Wednesdays 4-6pm at Denver Green School",
+    "url": "https://crimson-springtail-kp3b.squarespace.com/csa-signup"
+   },
+   {
+    "field": "csa_status",
+    "quote_or_summary": "Vegetable share fully enrolled with waitlist; SNAP/EBT half-price shares fully enrolled; flower, fruit, egg, bread, mushroom, herbal, baked-goods add-on shares available",
+    "url": "https://crimson-springtail-kp3b.squarespace.com/csa-signup"
+   }
+  ],
+  "notes": "Vegetable share has a biweekly option. Flower and fruit shares 12 wk, baked goods biweekly 10 wk, herbal monthly. Price not captured (farm stand uses suggested donation; no-cost shares for Denver residents with children; Sponsor-a-Share). Cancel by Apr 30 for refund minus $50. Fetched via squarespace staging domain; canonical sproutcityfarms.org/csa-signup seen in search. Page content is 2026 season.",
+  "lat": "39.70663200000001",
+  "lon": "-104.9090265",
+  "city": "Denver",
+  "county": "Denver",
+  "address": "6700 E. Virginia Ave.",
+  "website": "https://www.sproutcityfarms.org"
+ },
+ {
+  "id": "bluetrane-heritage-farm__elbert",
+  "name": "BlueTrane Heritage Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://bluetranegroup.com/csa",
+  "signup_opens": null,
+  "season_start": "2026-06-05",
+  "season_end": "2026-10-17",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Eggs"
+  ],
+  "frequency": null,
+  "price": "$200/year (small chicken egg share) to $400/year (jumbo)",
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "Search summary of bluetranegroup.com/csa: 2026 CSA June 5 - Oct 17, up to 50 shares, running since 2018, $200-$400/yr",
+    "url": "https://bluetranegroup.com/csa"
+   }
+  ],
+  "notes": "CSA page itself could not be fetched (domain safety check rate-limited); values come from a search-engine summary of that page, so verify. Homepage fetch gave only nav text. Online store at app.barn2door.com/BlueTraneGroup/all. Pickup/delivery/status not found. Other share types (vegetables) unconfirmed.",
+  "lat": "39.219885000000005",
+  "lon": "-104.355576",
+  "city": "Elbert",
+  "county": "Elbert",
+  "address": "16530 County Road 102",
+  "website": "https://www.bluetranegroup.com"
+ },
+ {
+  "id": "back-gate-farm__fort-collins",
+  "name": "Back Gate Farm",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "http://www.backgatefarm.com/farm/csa-membership",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Flowers"
+  ],
+  "frequency": null,
+  "price": "$550 per season",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Back Gate Farm",
+    "address": "1505 North College Ave",
+    "town": "Fort Collins",
+    "day": "Thu",
+    "time": null,
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Delivery not offered per CSA page"
+  },
+  "evidence": [
+   {
+    "field": "price",
+    "quote_or_summary": "2026 CSA $550/season, Thursday farm pickup, limited memberships available, signup via Barn2Door; exact dates not on page",
+    "url": "http://www.backgatefarm.com/farm/csa-membership"
+   }
+  ],
+  "notes": "Listing note says May-September CSA; page gave no exact dates so season dates left null. Includes cut-flower access and Farm Nights. Pickup time not stated. Share types from listing note (vegetables, herbs, flowers); page itself did not list. Content is 2026; 2027 not seen.",
+  "lat": "40.60787408260472",
+  "lon": "-105.0766136630701",
+  "city": "Fort Collins",
+  "county": "Larimer",
+  "address": "1505 North College Ave.",
+  "website": "https://backgatefarm.com"
+ },
+ {
+  "id": "belafonte-farm__fort-collins",
+  "name": "Belafonte Farm",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://belafontefarm.com/csa/",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": "Flexible market-credit eGift cards from $100 (suggested $100-$200 trial up to $1,000-$2,000+ for multiple families); 10% off with code CSA2026",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Larimer County Farmers' Market",
+    "address": "200 W Oak St, Fort Collins, CO",
+    "town": "Fort Collins",
+    "day": "Sat",
+    "time": "morning",
+    "on_farm": false
+   },
+   {
+    "name": "City of Loveland Farmers Market",
+    "address": "Fairgrounds Park, Loveland, CO",
+    "town": "Loveland",
+    "day": "Sun",
+    "time": "morning",
+    "on_farm": false
+   },
+   {
+    "name": "Boulder County Farmers Market",
+    "address": "13th St, Boulder, CO",
+    "town": "Boulder",
+    "day": "Wed",
+    "time": "afternoon",
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "No delivery mentioned; members shop at farmers markets"
+  },
+  "evidence": [
+   {
+    "field": "signup_url",
+    "quote_or_summary": "Flexible market-credit CSA sold via Square eGift; page active with code CSA2026",
+    "url": "https://belafontefarm.com/csa/"
+   }
+  ],
+  "notes": "Market-credit style CSA with no fixed season dates found. Square purchase link: https://app.squareup.com/gift/WGGBD78FY4T43/order. Share types not stated explicitly. Contact Dennis@Belafontefarm.com, 720.937.5764.",
+  "lat": "40.596424890662",
+  "lon": "-105.111292553426",
+  "city": "Fort Collins",
+  "county": "Larimer",
+  "address": "1807 W Vine Dr",
+  "website": "http://belafontefarm.com/"
+ },
+ {
+  "id": "fat-donkey-farm__fort-collins",
+  "name": "Fat Donkey Farm",
+  "offers_csa": true,
+  "csa_status": "full",
+  "signup_url": "http://www.fatdonkey.farm/shop",
+  "signup_opens": null,
+  "season_start": "2026-07-01",
+  "season_end": "2026-10-21",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "Small $424, Medium $667, Large $910 (full season)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Fat Donkey Farm",
+    "address": "2631 W Mulberry St, Fort Collins, CO 80521",
+    "town": "Fort Collins",
+    "day": "Wed",
+    "time": "2pm-6pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Customer pickup only"
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "2026 shares sold out",
+    "url": "http://www.fatdonkey.farm/shop"
+   },
+   {
+    "field": "season",
+    "quote_or_summary": "July 1 - October 21, weather dependent",
+    "url": "http://www.fatdonkey.farm/shop"
+   }
+  ],
+  "notes": "2026 season nearly over; 2027 info not posted. Members get 15% off extra farm stand produce.",
+  "lat": "40.582081804887",
+  "lon": "-105.126673215513",
+  "city": "Fort Collins",
+  "county": "Larimer",
+  "address": "2631 W Mulberry St",
+  "website": "http://www.fatdonkey.farm"
+ },
+ {
+  "id": "hope-farms__fort-collins",
+  "name": "Hope Farms",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": "$300/season (20 shares) per directory listing",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Hope Farms",
+    "address": "1601 N Shields St, Fort Collins, CO 80524",
+    "town": "Fort Collins",
+    "day": "Wed/Fri/Sat",
+    "time": "9am-1pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "LocalHarvest listing: CSA $300/season, 20 shares, work-share option",
+    "url": "https://www.localharvest.org/hope-farms-M81219"
+   }
+  ],
+  "notes": "No website in target. Operated by Cultivating HOPE (cultivatehopeco.org); fetch of that site was blocked by rate-limited safety check so the farm's own pages were NOT verified. Price/hours come from third-party directory (LocalHarvest) - unverified and possibly stale. Has work share option.",
+  "lat": "40.607268875759",
+  "lon": "-105.095645723226",
+  "city": "Fort Collins",
+  "county": "Larimer",
+  "address": "1601 N Shields St",
+  "website": ""
+ },
+ {
+  "id": "jodar-farms__fort-collins",
+  "name": "Jodar Farms",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.Jodarfarms.com/csamemberships",
+  "signup_opens": null,
+  "season_start": "2026-12-01",
+  "season_end": "2027-04-30",
+  "season_year": 2027,
+  "season_precision": "month",
+  "share_types": [
+   "Meat",
+   "Eggs"
+  ],
+  "frequency": "Other",
+  "price": "Prepaid store credit: XS $240, S $345, M $455, L $675, plus $15 membership fee",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Front Range pickup location",
+    "address": null,
+    "town": "Fort Collins",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Front Range pickup location",
+    "address": null,
+    "town": "Longmont",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Front Range pickup location",
+    "address": null,
+    "town": "Denver",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Front Range pickup location",
+    "address": null,
+    "town": "Boulder",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Weekly drop-offs at Front Range pickup locations; no home delivery stated"
+  },
+  "evidence": [
+   {
+    "field": "signup",
+    "quote_or_summary": "Winter CSA starts Dec 1 2026; memberships available now",
+    "url": "https://www.Jodarfarms.com/csamemberships"
+   },
+   {
+    "field": "price",
+    "quote_or_summary": "XS $240 S $345 M $455 L $675 + $15 fee",
+    "url": "https://www.Jodarfarms.com/csamemberships"
+   }
+  ],
+  "notes": "Meat/egg CSA (chicken, eggs, pork, beef): members prepay store credit and order online at their convenience, not fixed boxes. Summer CSA June-Oct 2026, winter Dec 2026-Apr 2027 (end date set to Apr 30, month precision). Specific pickup addresses/days/times not on pages fetched.",
+  "lat": "40.5968336",
+  "lon": "-104.9779389",
+  "city": "Fort Collins",
+  "county": "Larimer",
+  "address": "5324 East County Road 48",
+  "website": "https://www.Jodarfarms.com"
+ },
+ {
+  "id": "native-hill-farm__fort-collins",
+  "name": "Native Hill Farm",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.nativehillfarm.com/winter-share",
+  "signup_opens": null,
+  "season_start": "2026-11-01",
+  "season_end": "2027-03-31",
+  "season_year": 2027,
+  "season_precision": "month",
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Every other week",
+  "price": "Winter share $425 (incl $15 fee); Summer 2026: S $365, M $565, L $765",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Native Hill Farm (winter share, Cooler #1)",
+    "address": "2100 County Rd 54G, Fort Collins, CO 80524",
+    "town": "Fort Collins",
+    "day": "Fri-Mon",
+    "time": "daylight hours",
+    "on_farm": true
+   },
+   {
+    "name": "Larimer County Farmers Market (summer share)",
+    "address": "Larimer County Courthouse, Howes and Oak, Fort Collins",
+    "town": "Fort Collins",
+    "day": "Sat",
+    "time": "9am-1pm",
+    "on_farm": false
+   },
+   {
+    "name": "Native Hill Farm Stand (summer share)",
+    "address": "2100 CR 54G, Fort Collins, CO 80524",
+    "town": "Fort Collins",
+    "day": "Daily",
+    "time": "9am-6pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Members pick up; no delivery mentioned"
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "Winter share early Nov 2026 - end of March 2027, 22 weeks, every two weeks, accepting orders",
+    "url": "https://www.nativehillfarm.com/winter-share"
+   },
+   {
+    "field": "summer",
+    "quote_or_summary": "2026 summer shares May 16-Oct 24, SOLD OUT",
+    "url": "https://www.nativehillfarm.com/summer-farm-share-copy"
+   }
+  ],
+  "notes": "Two programs. Summer 2026 (May 16-Oct 24) sold out; on-demand credit style. Winter 2026/27 open, pre-boxed. 2027 summer signup not posted. Homepage footer looked old (2021) but share pages reference 2026.",
+  "lat": "40.625553857313875",
+  "lon": "-105.11426524297048",
+  "city": "Fort Collins",
+  "county": "Larimer",
+  "address": "2100 County Rd 54G",
+  "website": "https://www.Nativehillfarm.com"
+ },
+ {
+  "id": "owltree-farm__fort-collins",
+  "name": "Owltree Farm",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://www.owltreefarmco.com/csa",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "$450 membership (includes $500 farm stand gift card)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "OwlTree Farm stand",
+    "address": "4605 E County Road 58, Fort Collins, CO 80524",
+    "town": "Fort Collins",
+    "day": "Thu-Sun",
+    "time": "10am-6pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": true,
+   "kind": "towns",
+   "radius_miles": null,
+   "zips": [],
+   "towns": [
+    "Wellington",
+    "north Fort Collins"
+   ],
+   "fee": "$5 per delivery",
+   "details": "Requires 2 days notice"
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "Page says 'No CSA for 2026 Sorry!'",
+    "url": "https://www.owltreefarmco.com/csa"
+   }
+  ],
+  "notes": "Normally a vegetable CSA (mid-June to October) but no CSA in 2026; no 2027 info. Page gives farm stand address 4605 E CR 58, differing from target address 2208 E Harmony Rd. Delivery wording may apply to farm orders generally. Poultry CSA mentioned in target notes was not seen on the page.",
+  "lat": "40.5249448",
+  "lon": "-105.0368379",
+  "city": "Fort Collins",
+  "county": "Larimer",
+  "address": "2208 East Harmony Road",
+  "website": "https://www.OwltreeFarmCO.com"
+ },
+ {
+  "id": "ela-family-farms__hotchkiss",
+  "name": "Ela Family Farms",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://elafamilyfarms.com/csa-fruit-shares/",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Fruit"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Boulder Farmers' Market",
+    "address": null,
+    "town": "Boulder",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "City Park Esplanade",
+    "address": null,
+    "town": "Denver",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Old Towne Market",
+    "address": null,
+    "town": "Fort Collins",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Harvey Park Farmers Market",
+    "address": null,
+    "town": "Denver",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Lafayette Farmers Market",
+    "address": null,
+    "town": "Lafayette",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Longmont Farmers Market",
+    "address": null,
+    "town": "Longmont",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Old South Pearl Street Market",
+    "address": null,
+    "town": "Denver",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Ela Family Farms",
+    "address": "30753 L Rd, Hotchkiss, CO",
+    "town": "Hotchkiss",
+    "day": null,
+    "time": null,
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Pickup at markets or farm"
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "CSA fruit share sales CLOSED in 2026 due to complete crop loss (April 17 2026 freeze)",
+    "url": "https://elafamilyfarms.com/csa-fruit-shares/"
+   }
+  ],
+  "notes": "Normally a 14-week weekly fruit share (about 100 lbs standard; canning share), sales April-June 15. Price not listed. 2026 shares closed due to freeze; 2027 not announced.",
+  "lat": "38.81637900000001",
+  "lon": "-107.7865965",
+  "city": "Hotchkiss",
+  "county": "Delta",
+  "address": "30753 L Rd",
+  "website": "https://www.elafamilyfarms.com"
+ },
+ {
+  "id": "monroe-family-farm-llc__kersey",
+  "name": "Monroe Family Farm, LLC",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://monroefarm.com/summer-shares/",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Member-hosted distribution centers (summer: Westminster, Aurora, Centennial, Highlands Ranch, Littleton, Boulder, Denver, Greeley/Kersey, Longmont, Parker, Broomfield, Fort Collins, Lakewood, Louisville, Wheat Ridge)",
+    "address": null,
+    "town": null,
+    "day": null,
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Pickup at member-hosted home distribution centers across the Front Range; also farmers markets"
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "Summer shares mid-June to mid-October; Fall/Winter shares mid-October to mid-December",
+    "url": "https://monroefarm.com/summer-shares/"
+   },
+   {
+    "field": "pickup",
+    "quote_or_summary": "Distribution centers hosted by members from their homes",
+    "url": "https://monroefarm.com/distribution-centers/"
+   }
+  ],
+  "notes": "Summer: Full/Half/Single, weekly, mid-June to mid-Oct (exact dates/year not stated so season dates null). Fall/Winter: mid-Oct to mid-Dec, one size (half share), https://monroefarm.com/fall-winter-shares/. Also Working Shares, add-ons. Prices and signup status not on pages fetched; Barn2Door order page (app.barn2door.com/monroefarm/all) could not be fetched (rate limited). Distribution center addresses/days/times not on pages.",
+  "lat": "40.336479",
+  "lon": "-104.57379",
+  "city": "KERSEY",
+  "county": "Weld",
+  "address": "25525 County Road 48",
+  "website": "https://www.monroefarm.com"
+ },
+ {
+  "id": "father-earth-organic-farm-llc__lafayette",
+  "name": "Father Earth Organic Farm LLC",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://fatherearthorganicfarm.com/csa.htm",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "$760 for 20 weeks ($38/week)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Father Earth Organic Farm",
+    "address": "8881 Elgin Drive, Lafayette, CO 80026",
+    "town": "Lafayette",
+    "day": null,
+    "time": null,
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Member pickup (or send someone)"
+  },
+  "evidence": [
+   {
+    "field": "price",
+    "quote_or_summary": "$760 total, $38 weekly, 20 weeks, first pickup near last week of May 2026",
+    "url": "https://fatherearthorganicfarm.com/csa.htm"
+   },
+   {
+    "field": "signup",
+    "quote_or_summary": "Registration form https://forms.gle/GUTqtfbLk2TVuv5y9, deadline April 30, 2026",
+    "url": "https://fatherearthorganicfarm.com/csa.htm"
+   }
+  ],
+  "notes": "2026 page: 20-week season starting about last week of May (no exact date); registration deadline Apr 30 2026 passed. Pickup site not stated on the page; address is the target farm address (unverified as pickup). 2027 not posted. Registration form: https://forms.gle/GUTqtfbLk2TVuv5y9",
+  "lat": "40.00265999999999",
+  "lon": "-105.146001",
+  "city": "Lafayette",
+  "county": "Boulder",
+  "address": "8881 Elgin Drive",
+  "website": "https://fatherearthorganicfarm.com"
+ },
+ {
+  "id": "fleischer-family-farm__lakewood",
+  "name": "Fleischer Family Farm",
+  "offers_csa": true,
+  "csa_status": "full",
+  "signup_url": "https://www.fleischerfamilyfarm.com",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "Weekly $625, Biweekly $375, Family $900 (18 weeks), Canning $300 (5 pickups)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Fleischer Family Farm",
+    "address": "2005 S Zephyr Ct, Lakewood, CO 80227",
+    "town": "Lakewood",
+    "day": "Tue",
+    "time": "4pm-7pm",
+    "on_farm": true
+   },
+   {
+    "name": "Fleischer Family Farm (Saturday farmstand hours)",
+    "address": "2005 S Zephyr Ct, Lakewood, CO 80227",
+    "town": "Lakewood",
+    "day": "Sat",
+    "time": "10am-2pm",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "2026 CSA SOLD OUT",
+    "url": "https://www.fleischerfamilyfarm.com"
+   },
+   {
+    "field": "season",
+    "quote_or_summary": "June to October, 18 weeks",
+    "url": "https://www.fleischerfamilyfarm.com"
+   }
+  ],
+  "notes": "Season June-October 2026, exact dates not stated (season dates null). Reservation by PM/text/call/email; no sign-up form, so signup_url is the homepage. Delivery and SNAP not mentioned. 2027 not posted.",
+  "lat": "39.68051400000002",
+  "lon": "-105.08593499999999",
+  "city": "Lakewood",
+  "county": "Jefferson",
+  "address": "2005 S Zephyr Ct",
+  "website": "https://www.fleischerfamilyfarm.com"
+ },
+ {
+  "id": "gaia-s-farm-gardens__laporte",
+  "name": "Gaia's Farm & Gardens",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Gaia's Farm & Gardens",
+    "address": "4328 W County Rd 54G, Laporte, CO 80535",
+    "town": "Laporte",
+    "day": "Fri/Sat",
+    "time": null,
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "LocalHarvest CSA page: June-Nov, Full $600/Half $450/Single $300 for 22 weeks, Fri/Sat farm pickup (third-party, unverified)",
+    "url": "https://www.localharvest.org/gaias-farm-gardens-M41922/csa"
+   }
+  ],
+  "notes": "Farm's own site per directory is gaiascsa.com, but fetch was blocked (rate-limited safety check) and Facebook returned no content, so nothing verified from the farm's own pages. Third-party LocalHarvest says June-Nov, 22 weeks, Full $600 / Half $450 / Single $300, pickup Fri and Sat at farm; year unknown, possibly stale. Needs recheck of gaiascsa.com. Target had no website.",
+  "lat": "40.6349556",
+  "lon": "-105.1573056",
+  "city": "Laporte",
+  "county": "Larimer",
+  "address": "4328 W County Rd 54G",
+  "website": ""
+ },
+ {
+  "id": "roots-from-eden-csa-market-and-bakery__loma",
+  "name": "Roots From Eden CSA Market and Bakery",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Meat",
+   "Eggs"
+  ],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Listing text: 'New for 2023 - Roots From Eden CSA is a Meat and Egg CSA' (pasture-raised chickens, rabbits, goats, quail)",
+    "url": "directory listing notes"
+   }
+  ],
+  "notes": "Farm site rootsfromeden.com could not be fetched (domain safety check rate-limited), so no season, price, signup page, or pickup details verified. Facebook link is just a search URL. Directory text is from 2023. Third-party snippets say on-site farm market open Sun-Fri 9-6, closed Sat (unverified). Needs a re-fetch of rootsfromeden.com.",
+  "lat": "39.2950806",
+  "lon": "-108.7672662",
+  "city": "Loma",
+  "county": "Mesa",
+  "address": "2024 16 Rd",
+  "website": ""
+ },
+ {
+  "id": "100x-farm__longmont",
+  "name": "100x Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Listing says farm grows 'for distribution through our CSA models, downtown Longmont farmstand'; Longmont Leader article also says its food is sold in CSAs (article is older)",
+    "url": "https://www.longmontleader.com/local-business/longmont-farmer-diversifies-income-to-protect-staff-7167095"
+   }
+  ],
+  "notes": "Same operation as Modern Farmsteads (1618 3rd Ave; modernfarmsteads.com). Homepage fetch showed no CSA page, dates, signup, pickup or price; it mentions selling 100xfarm produce and gives a different address (9421 N 63rd St, Longmont) and phone (303) 746-5675. Instagram/Facebook not readable. CSA details need manual follow-up.",
+  "lat": "40.1670336",
+  "lon": "-105.119934",
+  "city": "Longmont",
+  "county": "Boulder",
+  "address": "1618 3rd Avenue",
+  "website": "https://www.modernfarmsteads.com/"
+ },
+ {
+  "id": "aspen-moon-farm__longmont",
+  "name": "Aspen Moon Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://aspenmoonfarm.csaware.com/store/",
+  "signup_opens": null,
+  "season_start": "2026-05-20",
+  "season_end": "2026-12-02",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables",
+   "Flowers",
+   "Eggs",
+   "Fruit",
+   "Other"
+  ],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Farm Stand",
+    "address": "7940 Hygiene Rd, Longmont, CO",
+    "town": "Longmont",
+    "day": "Wed/Thu",
+    "time": "2pm-6pm (choose one day; fall same, Thanksgiving week Wed only)",
+    "on_farm": true
+   },
+   {
+    "name": "Boulder - Upslope Brewing, Flatiron Park",
+    "address": "1898 S Flatiron Ct, Boulder, CO",
+    "town": "Boulder",
+    "day": "Wed",
+    "time": "Summer 2pm-6pm; fall 3pm-6pm",
+    "on_farm": false
+   },
+   {
+    "name": "Denver - Novo Coffee (Congress Park)",
+    "address": "1200 Clayton St, Denver, CO",
+    "town": "Denver",
+    "day": "Thu",
+    "time": "4pm-6pm (summer only)",
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Service area stated: Boulder County, Denver and surrounding areas including Lafayette, Superior, Louisville, Lyons, Johnstown (pickup-based; no home delivery stated)."
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "Summer CSA week of May 20 to week of Oct 14, 2026; Fall CSA week of Oct 21 to week of Dec 2",
+    "url": "https://www.aspenmoonfarm.com/"
+   },
+   {
+    "field": "share_types",
+    "quote_or_summary": "Customizable share (small/regular, weekly or bi-weekly) and Farmers Choice share; add-ons fruit, flower, berries, eggs",
+    "url": "https://www.aspenmoonfarm.com/"
+   }
+  ],
+  "notes": "Dates are 'week of' (Wed/Thu pickups); season_end uses fall end Dec 2 (year assumed 2026 as page lists 2026 summer). Shares weekly or bi-weekly so frequency null. Prices are on the csaware store, which could not be fetched (rate-limited); price null. csa_status unknown: summer nearly over, fall status not verified. SNAP not mentioned.",
+  "lat": "40.188041999999996",
+  "lon": "-105.1677765",
+  "city": "Longmont",
+  "county": "Boulder",
+  "address": "7940 Hygiene Rd",
+  "website": "https://www.aspenmoonfarm.com/"
+ },
+ {
+  "id": "bonavida-growers__longmont",
+  "name": "Bonavida Growers",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "LocalHarvest (third party): 'will be their 15th season' running a CSA",
+    "url": "https://www.localharvest.org/bonavida-growers-M75842"
+   }
+  ],
+  "notes": "No farm website or Facebook in target. Only third-party evidence (LocalHarvest listing last updated 2025-01-21): 15th CSA season, ~50 shares, mid-May to early October, 2024 prices Family $660, Standard $520, Mini $400, contact Tim Quinn (303) 449-6735, enrollment by contacting farm. Not from farm's own pages, so season/price fields left null; stale (2024/early 2025).",
+  "lat": "40.169144644934",
+  "lon": "-105.154663946194",
+  "city": "Longmont",
+  "county": "Boulder",
+  "address": "10729 Airport Rd",
+  "website": ""
+ },
+ {
+  "id": "kilt-farm__longmont",
+  "name": "Kilt Farm",
+  "offers_csa": true,
+  "csa_status": "opens_later",
+  "signup_url": "https://www.kiltfarm.com/csa",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Eggs",
+   "Fruit",
+   "Mushrooms",
+   "Other"
+  ],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Boulder",
+    "address": null,
+    "town": "Boulder",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Niwot",
+    "address": null,
+    "town": "Niwot",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Gunbarrel",
+    "address": null,
+    "town": "Gunbarrel",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Louisville",
+    "address": null,
+    "town": "Louisville",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": true,
+   "kind": "other",
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Home delivery for the Front Range area (CSA page); another Kilt page says home delivery throughout Boulder County. Fee not stated."
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "CSA page says they will let you know when the CSA opens",
+    "url": "https://www.kiltfarm.com/csa"
+   },
+   {
+    "field": "share_types",
+    "quote_or_summary": "Regular (2-4 people) and family (4-6) shares, weekly or bi-weekly; add-ons eggs, fruit, mushrooms, coffee; 20-week CSA",
+    "url": "https://www.kiltfarm.com/csa"
+   }
+  ],
+  "notes": "Weekly or bi-weekly pickup, so frequency null. Pickup sites listed by town only (no addresses/days/times). No season dates or price on page. Another Kilt page (CSA manager job posting) mentions April to November and 300+ families. Signup not currently open per page.",
+  "lat": "40.116082885378",
+  "lon": "-105.16554478911",
+  "city": "Longmont",
+  "county": "Boulder",
+  "address": "8140 Oxford Rd",
+  "website": "http://www.kiltfarm.com"
+ },
+ {
+  "id": "sunflower-farm-acres__longmont",
+  "name": "Sunflower Farm Acres",
+  "offers_csa": true,
+  "csa_status": "full",
+  "signup_url": "https://www.sunflowerfarmacres.com/store/csa",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Flowers",
+   "Mushrooms",
+   "Bread/Baked",
+   "Fruit",
+   "Meat"
+  ],
+  "frequency": null,
+  "price": "Fall 8-week veg share: $320 regular / $416 family (2026)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "SF Longmont (farm)",
+    "address": "11150 Prospect Rd, Longmont, CO",
+    "town": "Longmont",
+    "day": null,
+    "time": null,
+    "on_farm": true
+   },
+   {
+    "name": "Moxie Louisville",
+    "address": null,
+    "town": "Louisville",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Moxie Feed + Seed North Boulder",
+    "address": null,
+    "town": "Boulder",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "All 2026 Fall CSA offerings sold out; 2027 pasture lamb shares listed ($350 half / $675 full)",
+    "url": "https://www.sunflowerfarmacres.com/store/fall-csa"
+   }
+  ],
+  "notes": "Fall 2026 CSA is 8 weeks and sold out; add-ons: bread (Moxie), flowers $50, Foxfire mushrooms $80, Ya Ya Farm fruit; 2027 lamb shares (meat) on sale. Season dates, pickup days/times, delivery, SNAP not on fetched pages (policy link not followed). Page shows farm address 1150 Prospect Rd vs listing 11150. Summer/Acres CSA details not visible; 2027 vegetable CSA not yet announced.",
+  "lat": "40.13106300000001",
+  "lon": "-105.0913575",
+  "city": "LONGMONT",
+  "county": "Boulder",
+  "address": "11150 Prospect Rd",
+  "website": "https://www.sunflowerfarmacres.com/"
+ },
+ {
+  "id": "switch-gears-farm__longmont",
+  "name": "Switch Gears Farm",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://grownby.com/farms/switch-gears-farm/shop",
+  "signup_opens": null,
+  "season_start": "2026-05-18",
+  "season_end": "2026-10-12",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "Half share $30/week ($630 season); full share $41/week ($861 season)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "City Park Farmers Market",
+    "address": "2551 E Colfax Ave, Denver, CO",
+    "town": "Denver",
+    "day": "Sat",
+    "time": "8am-1pm",
+    "on_farm": false
+   },
+   {
+    "name": "Lafayette Farmers Market",
+    "address": "Public Rd between Cleveland & Geneseo St, Lafayette, CO",
+    "town": "Lafayette",
+    "day": "Sun",
+    "time": "9am-1pm",
+    "on_farm": false
+   },
+   {
+    "name": "Mid-week pickup",
+    "address": null,
+    "town": "Aurora",
+    "day": "Thu",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Mid-week pickup",
+    "address": null,
+    "town": "Boulder",
+    "day": "Thu",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Mid-week pickup",
+    "address": null,
+    "town": "Denver",
+    "day": "Thu",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Mid-week pickup",
+    "address": null,
+    "town": "Longmont",
+    "day": "Thu",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Mid-week pickup",
+    "address": null,
+    "town": "Niwot",
+    "day": "Thu",
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": true,
+   "kind": "other",
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "Pre-packed CSA bags dropped off at designated pickup locations (not home delivery)."
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "May 18 to Oct 12, 2026; 21 weeks with one break June 29-July 5",
+    "url": "https://www.switchgearsfarm.com/food"
+   }
+  ],
+  "notes": "2026 season ends Oct 12; csa_status set closed_season (2027 signup not announced on page). Thursday mid-week site addresses/times not given, only cities. Signup via GrownBy.",
+  "lat": "40.225787999999994",
+  "lon": "-105.1447995",
+  "city": "Longmont",
+  "county": "Boulder",
+  "address": "13850 N 87th Street",
+  "website": "https://www.switchgearsfarm.com"
+ },
+ {
+  "id": "mountain-roots-produce__mancos",
+  "name": "Mountain Roots Produce",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://mountainrootsproduce.com/farm-membership",
+  "signup_opens": "2026-02-24",
+  "season_start": "2026-06-03",
+  "season_end": "2026-10-31",
+  "season_year": 2026,
+  "season_precision": "month",
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "$500 or $300 prepaid farm-stand membership (10% bonus credit)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Spruce Park Farm Stand",
+    "address": "Spruce Park, next to The Butcher and The Baker",
+    "town": "Telluride",
+    "day": "Wed",
+    "time": "11am-2pm",
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": false,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "In-person shopping only"
+  },
+  "evidence": [
+   {
+    "field": "status",
+    "quote_or_summary": "2026: 'Registration is Closed'; registration opened Feb 24; stand starts June 3, weather dependent through mid-October",
+    "url": "https://mountainrootsproduce.com/farm-membership"
+   }
+  ],
+  "notes": "2026 model is a prepaid 'farm membership' credit used at weekly Telluride farm stand (not fixed boxes); open to public without membership. Pay by check/cash by mail. Season end is 'mid-October' so month precision used. Older /summercsa page is stale (2021: Mancos/Telluride/Rico fixed shares, $515-540, 14 wks). Next season (2027) not announced.",
+  "lat": "37.3165705",
+  "lon": "-108.5739778",
+  "city": "Mancos",
+  "county": "Montezuma",
+  "address": "41095 Rd G",
+  "website": "https://Mountainrootsproduce.com"
+ },
+ {
+  "id": "circle-a-garden__montrose",
+  "name": "Circle A Garden",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://www.circleagarden.com/csa-information/",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "Full $1,500 + 12 hrs work; Mini $1,100 + 12 hrs; Tiny $850 + 12 hrs (2020 prices)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Circle A Garden (farm)",
+    "address": "20341 Pahgre Rd",
+    "town": "Montrose",
+    "day": "Sat",
+    "time": "9am-noon (11am-2pm from mid-Oct)",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": "No delivery mentioned"
+  },
+  "evidence": [
+   {
+    "field": "price",
+    "quote_or_summary": "2020 15th season; pickup 2nd Sat April to 3rd Sat Nov; 3 share sizes with 12 work hours",
+    "url": "https://www.circleagarden.com/csa-information/"
+   }
+  ],
+  "notes": "STALE: site content is from 2020 (latest blog post June 16, 2020). Pattern: pickup from 2nd Saturday of April to 3rd Saturday of November, but no 2026/2027 dates, so season dates left null. Sign-up page /members/. Verify current status.",
+  "lat": "38.385808",
+  "lon": "-107.813915",
+  "city": "Montrose",
+  "county": "Montrose",
+  "address": "20341 Pahgre Rd",
+  "website": "https://www.circleagarden.com"
+ },
+ {
+  "id": "ahavah-farm__peyton",
+  "name": "Ahavah Farm",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://www.ahavahfarm.com/csa",
+  "signup_opens": null,
+  "season_start": "2027-02-12",
+  "season_end": null,
+  "season_year": 2027,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "Winter 2027: Small $219, Medium $309, Large $399 (per season)",
+  "snap_accepted": true,
+  "pickup_sites": [
+   {
+    "name": "Ahavah Farm",
+    "address": "7545 Log Rd",
+    "town": "Peyton",
+    "day": "Fri",
+    "time": "10am-7pm",
+    "on_farm": true
+   },
+   {
+    "name": "Monument",
+    "address": "17940 Canterbury Drive",
+    "town": "Monument",
+    "day": "Fri",
+    "time": "11am-7pm",
+    "on_farm": false
+   },
+   {
+    "name": "Ranch Foods Direct",
+    "address": "4635 Town Center Dr",
+    "town": "Colorado Springs",
+    "day": "Fri/Sat",
+    "time": "Fri 11:30am-6pm or Sat 9am-5pm",
+    "on_farm": false
+   },
+   {
+    "name": "Woodland Park (carpool from Ranch Foods Direct)",
+    "address": null,
+    "town": "Woodland Park",
+    "day": null,
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": true,
+   "kind": "other",
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": "$13/week",
+   "details": "Door-to-door delivery from Colorado Springs through Denver; coverage map on CSA page"
+  },
+  "evidence": [
+   {
+    "field": "season_start",
+    "quote_or_summary": "Winter 2027 season starts 2/12/2027, available for signup; Summer/Fall 2026 out of stock",
+    "url": "https://www.ahavahfarm.com/csa"
+   },
+   {
+    "field": "snap_accepted",
+    "quote_or_summary": "EBT members get 50% off",
+    "url": "https://www.ahavahfarm.com/csa"
+   }
+  ],
+  "notes": "Rolling four-season CSA (46 weeks/yr) with vacation holds. Season end not stated for Winter 2027. Woodland Park carpool listed for fall 2026 with no day/time. Price is per-season total, bunches/week: small 4-6, medium 7-9, large 10-12.",
+  "lat": "38.940276040714",
+  "lon": "-104.423397205239",
+  "city": "Peyton",
+  "county": "El Paso",
+  "address": "7545 Log Rd",
+  "website": "http://www.ahavahfarm.com"
+ },
+ {
+  "id": "knapp-farms-llc__rocky-ford-co",
+  "name": "KNAPP FARMS LLC",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://www.knappsfarmmarket.com/csa",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Fruit"
+  ],
+  "frequency": "Other",
+  "price": "Prepaid account balance: Option A from $500; Option C $440 balance; Option D $550 value (10% bonus)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Knapp's Farm Market",
+    "address": "29742 State Highway 71",
+    "town": "Rocky Ford",
+    "day": null,
+    "time": null,
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "signup_url",
+    "quote_or_summary": "'Farm to Family Partner' CSA July-October; 2026 membership deadline June 15, 2026 (from search-result snippets of knappsfarmmarket.com)",
+    "url": "https://www.knappsfarmmarket.com/csa"
+   }
+  ],
+  "notes": "Own site pages could not be fetched (domain safety check rate-limited; homepage fetch returned only title). Details come from web-search snippets of the farm's own /csa and product pages; verify. Flexible membership-credit model: members shop and pick up when convenient, no fixed weekly box. Season July-October (no exact dates). 2026 purchase deadline June 15, 2026 passed.",
+  "lat": "38.064880695746346",
+  "lon": "-103.74762154224243",
+  "city": "Rocky Ford, CO",
+  "county": "Otero",
+  "address": "29742 STATE HIGHWAY 71",
+  "website": "https://knappsfarmmarket.com"
+ },
+ {
+  "id": "rocky-mountain-garlic__salida",
+  "name": "Rocky Mountain Garlic",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "http://www.rockymountaingarlic.net/csa",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "Fall Shares are available NOW; email to enroll",
+    "url": "http://www.rockymountaingarlic.net/csa"
+   }
+  ],
+  "notes": "Homepage links '2026 Fall CSA Sign Up'; /csa says 'Fall Shares are available NOW!' and to email rockymountaingarlicllc@gmail.com to enroll. No dates, price, share contents, pickup sites or delivery stated. Farm stand 9241 County Road 156 open Mon-Sat 8am-6pm; Saturday Salida Farmers Market.",
+  "lat": "38.55088257506522",
+  "lon": "-106.01049240397752",
+  "city": "Salida",
+  "county": "Chaffee",
+  "address": "9241 County Road 156",
+  "website": "https://www.rockymountaingarlic.net/"
+ },
+ {
+  "id": "the-triangle-oasis__salida",
+  "name": "The Triangle Oasis",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": "https://www.thetriangleoasis.com/farmstand",
+  "signup_opens": null,
+  "season_start": "2026-06-26",
+  "season_end": "2026-10-24",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables",
+   "Flowers"
+  ],
+  "frequency": "Weekly",
+  "price": "Bachelor(ette) $275, Couple $550, Family $1,100, Summer Flower subscription $120",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Salida Farmers Market",
+    "address": null,
+    "town": "Salida",
+    "day": "Sat",
+    "time": null,
+    "on_farm": false
+   },
+   {
+    "name": "Market on Main St. (downtown store)",
+    "address": "125 N. F St",
+    "town": "Salida",
+    "day": "Weekdays",
+    "time": null,
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "18 shares, weekly June 26 - October 24",
+    "url": "https://www.thetriangleoasis.com/farmstand"
+   }
+  ],
+  "notes": "Page content is for 2026 (18 weekly shares June 26 - Oct 24); no 2027 info or current signup status. Boxes also mention herbs, fruits, grains. Contact thetriangleoasis@gmail.com.",
+  "lat": "38.561560417431",
+  "lon": "-106.036496197503",
+  "city": "Salida",
+  "county": "Chaffee",
+  "address": "8875 Co Rd 150",
+  "website": "https://www.thetriangleoasis.com/"
+ },
+ {
+  "id": "sandy-s-way-microfarm__sedalia",
+  "name": "Sandy's Way Microfarm",
+  "offers_csa": true,
+  "csa_status": "open",
+  "signup_url": "https://sandyswayfarm.com/pages/harvest-membership-a",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables",
+   "Fruit",
+   "Eggs",
+   "Meat",
+   "Dairy",
+   "Bread/Baked",
+   "Grains"
+  ],
+  "frequency": "Other",
+  "price": "Prepaid credit: $300 (gets $330), $500 ($550), $700 ($770); Table Member $1,500 ($1,650+, limited to 15)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "Sandy's Way Microfarm (garage bay 3)",
+    "address": "3833 Bear Canyon Circle, Sedalia, CO 80135",
+    "town": "Sedalia",
+    "day": "Tue, Thu, Sat",
+    "time": "until 5pm Tue-Fri, 1pm Sat",
+    "on_farm": true
+   }
+  ],
+  "delivery": {
+   "offered": true,
+   "kind": "towns",
+   "radius_miles": null,
+   "zips": [],
+   "towns": [
+    "Castle Rock",
+    "Sedalia",
+    "Roxborough",
+    "Sterling Ranch",
+    "Highlands Ranch",
+    "Castle Pines"
+   ],
+   "fee": "Free",
+   "details": "Free home delivery for members"
+  },
+  "evidence": [
+   {
+    "field": "price",
+    "quote_or_summary": "Harvest Member tiers and Table Member",
+    "url": "https://sandyswayfarm.com/pages/harvest-membership-a"
+   }
+  ],
+  "notes": "Not a fixed-share CSA: Harvest Membership is prepaid credit with 10% discount, credits never expire, year-round, shop weekly harvest. Homepage also lists Castle Rock Farmers Market (Douglas County Fairgrounds) Saturdays June 13 - Oct 3, 2026 (market sales; not confirmed as membership pickup). Directory text mentions 7 pickup locations but only the farm was listed on fetched pages. SNAP not mentioned.",
+  "lat": "39.357215999999994",
+  "lon": "-104.957262",
+  "city": "Sedalia",
+  "county": "Douglas",
+  "address": "3833 BEAR CANYON CIR",
+  "website": "https://sandyswayfarm.com"
+ },
+ {
+  "id": "highwater-farm__silt",
+  "name": "Highwater Farm",
+  "offers_csa": true,
+  "csa_status": "full",
+  "signup_url": "https://docs.google.com/forms/d/e/1FAIpQLSfLPv7TykNDA4M4mIi4H2A2MRZUlrIXYKUfNQYrVSYcqjpC8g/viewform?usp=publish-editor",
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": null,
+  "snap_accepted": true,
+  "pickup_sites": [
+   {
+    "name": "Silt River Preserve (on-farm)",
+    "address": "7001 County Road 346, Silt, CO 81652",
+    "town": "Silt",
+    "day": "Thu & Sat",
+    "time": "Thu 4-6pm, Sat 8-10am",
+    "on_farm": true
+   },
+   {
+    "name": "Glenwood Springs central drop-off",
+    "address": null,
+    "town": "Glenwood Springs",
+    "day": "Tue",
+    "time": "4-7pm",
+    "on_farm": false
+   },
+   {
+    "name": "Carbondale central drop-off",
+    "address": null,
+    "town": "Carbondale",
+    "day": "Tue",
+    "time": "4:30-8pm",
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": true,
+   "kind": "towns",
+   "radius_miles": null,
+   "zips": [],
+   "towns": [
+    "Glenwood Springs",
+    "Carbondale"
+   ],
+   "fee": null,
+   "details": "Boxed share drop-offs; fees not listed"
+  },
+  "evidence": [
+   {
+    "field": "csa_status",
+    "quote_or_summary": "2026 CSA is full; 2027 waitlist",
+    "url": "http://www.highwaterfarm.org/csa"
+   },
+   {
+    "field": "pickup_sites",
+    "quote_or_summary": "pickup options page",
+    "url": "http://www.highwaterfarm.org/pickupoptions"
+   }
+  ],
+  "notes": "2026 CSA is full; 2027 waitlist form linked (signup_url is the waitlist). Season mid-June to mid-October, 18 weekly shares (no exact dates, so season dates null). Half shares on-farm only, twice per month. Prices not on fetched pages. Has /snap page (SNAP accepted; page contents not read). Site is highwaterfarm.org.",
+  "lat": "",
+  "lon": "",
+  "city": "Silt",
+  "county": "",
+  "address": "7001 County Road 346",
+  "website": "http://www.highwaterfarm.org"
+ },
+ {
+  "id": "wolf-creek-fresh__strasburg",
+  "name": "Wolf Creek Fresh",
+  "offers_csa": true,
+  "csa_status": "closed_season",
+  "signup_url": "https://www.wolfcreekfresh.com/csa",
+  "signup_opens": null,
+  "season_start": "2026-06-20",
+  "season_end": "2026-10-03",
+  "season_year": 2026,
+  "season_precision": "day",
+  "share_types": [
+   "Vegetables"
+  ],
+  "frequency": "Weekly",
+  "price": "Full share $500/season ($39/week); Half share $250/season ($20/week)",
+  "snap_accepted": null,
+  "pickup_sites": [
+   {
+    "name": "The Gift Shop",
+    "address": "56781 E Colfax Ave, Strasburg, CO 80136",
+    "town": "Strasburg",
+    "day": "Sat",
+    "time": "10:00am-11:30am",
+    "on_farm": false
+   }
+  ],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "season",
+    "quote_or_summary": "June 20 - October 3, 2026 (14 weeks)",
+    "url": "https://www.wolfcreekfresh.com/csa"
+   }
+  ],
+  "notes": "2026 season (14 weeks) has ended; no 2027 info. /csa says pickup at the Strasburg farm stand (6625 Wolf Creek Rd) while /farm-pickup says 56781 E Colfax Ave 'The Gift Shop'; conflict unresolved. Participation shares (Saturday farm work) offered. Shares historically sell out by mid-spring.",
+  "lat": "39.594657790350176",
+  "lon": "-104.36133305987643",
+  "city": "Strasburg",
+  "county": "Adams",
+  "address": "6625 Wolf Creek Road",
+  "website": "https://Www.wolfcreekfresh.com"
+ },
+ {
+  "id": "grant-farms-csa__wellington",
+  "name": "Grant Farms CSA",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [],
+  "notes": "Fetched grantfarms.com homepage showed only the 24/7 FarmStand (12155 N County Rd 15) and contact info, no CSA content; /csa returned 404; Facebook page unreadable. Third-party search snippets say it runs a weekly CSA (vegetable, fruit, All-In Kitchen shares; deliveries Colorado Springs to Casper WY) but those are not the farm's own pages, so no details filled. Contact howdy@grantfarms.com. 2026/2027 signup and season unknown.",
+  "lat": "40.7038712",
+  "lon": "-105.0085856",
+  "city": "Wellington",
+  "county": "Larimer",
+  "address": "12155 Ncr 15",
+  "website": "http://www.grantfarms.com/"
+ },
+ {
+  "id": "earth-mountain-education-farm__weston",
+  "name": "Earth Mountain Education Farm",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": null,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Join our Community Supported Agriculture Program and get fresh weekly produce",
+    "url": "https://www.earthmountainfarm.org"
+   }
+  ],
+  "notes": "Homepage invites visitors to join the CSA for fresh weekly produce with a downloadable CSA application (link not captured); /csa is 404. Search snippet (non-farm source) says weekly baskets mid-June through October plus a Trinidad community garden; not filled. Contact 719-680-0215, earthmountainfarm@gmail.com. Year of page unknown.",
+  "lat": "37.24503300000001",
+  "lon": "-104.9523075",
+  "city": "Weston",
+  "county": "Las Animas",
+  "address": "17613 CR. 31.9",
+  "website": "https://www.earthmountainfarm.org"
+ },
+ {
+  "id": "inti-farms__wheat-ridge",
+  "name": "Inti Farms",
+  "offers_csa": true,
+  "csa_status": "unknown",
+  "signup_url": null,
+  "signup_opens": null,
+  "season_start": null,
+  "season_end": null,
+  "season_year": 2026,
+  "season_precision": null,
+  "share_types": [],
+  "frequency": null,
+  "price": null,
+  "snap_accepted": null,
+  "pickup_sites": [],
+  "delivery": {
+   "offered": null,
+   "kind": null,
+   "radius_miles": null,
+   "zips": [],
+   "towns": [],
+   "fee": null,
+   "details": ""
+  },
+  "evidence": [
+   {
+    "field": "offers_csa",
+    "quote_or_summary": "Linktree lists 2026 CSA shares",
+    "url": "https://linktr.ee/inti.chacra.farms"
+   }
+  ],
+  "notes": "Farm Instagram/Linktree (linktr.ee/inti.chacra.farms, Arvada CO) lists CSA shares for 2026, wholesale, farm stand and You Pick Flowers. Linktree sign-up form URLs, dates, price, pickup not captured. Third-party listing gives address 8412 Alkire St, Arvada vs target 6085 W 29th Ave Wheat Ridge. Instagram handle inti_farm_co (profile name Inti Chacra).",
+  "lat": "39.7586775",
+  "lon": "-105.0629362",
+  "city": "wheat ridge",
+  "county": "Jefferson",
+  "address": "6085 West 29th Avenue",
+  "website": "https://www.instagram.com/inti_farm_co/"
+ }
+]

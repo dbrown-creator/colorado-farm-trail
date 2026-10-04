@@ -1,0 +1,28 @@
+{
+ "id": "green-earth-farm__saguache",
+ "name": "Green Earth Farm",
+ "offers_csa": false,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Website now sells organic body-care products (A'Terra Cosmeceuticals) and says they recently reopened after closure; no produce or CSA mentioned. Directory tag of CSA appears stale."
+}

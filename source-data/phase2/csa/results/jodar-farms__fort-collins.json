@@ -1,0 +1,75 @@
+{
+ "id": "jodar-farms__fort-collins",
+ "name": "Jodar Farms",
+ "offers_csa": true,
+ "csa_status": "open",
+ "signup_url": "https://www.Jodarfarms.com/csamemberships",
+ "signup_opens": null,
+ "season_start": "2026-12-01",
+ "season_end": "2027-04-30",
+ "season_year": 2027,
+ "season_precision": "month",
+ "share_types": [
+  "Meat",
+  "Eggs"
+ ],
+ "frequency": "Other",
+ "price": "Prepaid store credit: XS $240, S $345, M $455, L $675, plus $15 membership fee",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Front Range pickup location",
+   "address": null,
+   "town": "Fort Collins",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  },
+  {
+   "name": "Front Range pickup location",
+   "address": null,
+   "town": "Longmont",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  },
+  {
+   "name": "Front Range pickup location",
+   "address": null,
+   "town": "Denver",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  },
+  {
+   "name": "Front Range pickup location",
+   "address": null,
+   "town": "Boulder",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  }
+ ],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Weekly drop-offs at Front Range pickup locations; no home delivery stated"
+ },
+ "evidence": [
+  {
+   "field": "signup",
+   "quote_or_summary": "Winter CSA starts Dec 1 2026; memberships available now",
+   "url": "https://www.Jodarfarms.com/csamemberships"
+  },
+  {
+   "field": "price",
+   "quote_or_summary": "XS $240 S $345 M $455 L $675 + $15 fee",
+   "url": "https://www.Jodarfarms.com/csamemberships"
+  }
+ ],
+ "notes": "Meat/egg CSA (chicken, eggs, pork, beef): members prepay store credit and order online at their convenience, not fixed boxes. Summer CSA June-Oct 2026, winter Dec 2026-Apr 2027 (end date set to Apr 30, month precision). Specific pickup addresses/days/times not on pages fetched."
+}

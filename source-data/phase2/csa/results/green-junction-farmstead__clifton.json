@@ -1,0 +1,36 @@
+{
+ "id": "green-junction-farmstead__clifton",
+ "name": "Green Junction Farmstead",
+ "offers_csa": true,
+ "csa_status": "waitlist",
+ "signup_url": "https://www.gjfarmstead.com/c-s-a",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": 2027,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "csa_status",
+   "quote_or_summary": "2026 CSA shares sold out; Get on our 2027 waiting list (mailchi.mp/fc2bcd78de30/2027waitinglist)",
+   "url": "https://www.gjfarmstead.com/c-s-a"
+  }
+ ],
+ "notes": "2026 shares sold out; 2027 waiting list open. Season dates, price, pickup sites, delivery not on fetched page (page references example shares and a member agreement). Share type Vegetables not explicit on page; verify. Waitlist link: https://mailchi.mp/fc2bcd78de30/2027waitinglist. Contact (970) 234-0024."
+}

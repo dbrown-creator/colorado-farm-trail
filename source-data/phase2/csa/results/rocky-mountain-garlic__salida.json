@@ -1,0 +1,34 @@
+{
+ "id": "rocky-mountain-garlic__salida",
+ "name": "Rocky Mountain Garlic",
+ "offers_csa": true,
+ "csa_status": "open",
+ "signup_url": "http://www.rockymountaingarlic.net/csa",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": 2026,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "csa_status",
+   "quote_or_summary": "Fall Shares are available NOW; email to enroll",
+   "url": "http://www.rockymountaingarlic.net/csa"
+  }
+ ],
+ "notes": "Homepage links '2026 Fall CSA Sign Up'; /csa says 'Fall Shares are available NOW!' and to email rockymountaingarlicllc@gmail.com to enroll. No dates, price, share contents, pickup sites or delivery stated. Farm stand 9241 County Road 156 open Mon-Sat 8am-6pm; Saturday Salida Farmers Market."
+}

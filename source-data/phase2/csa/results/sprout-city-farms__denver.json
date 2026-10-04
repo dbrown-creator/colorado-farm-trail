@@ -1,0 +1,56 @@
+{
+ "id": "sprout-city-farms__denver",
+ "name": "Sprout City Farms",
+ "offers_csa": true,
+ "csa_status": "waitlist",
+ "signup_url": "https://sproutcityfarms.org/csa-signup",
+ "signup_opens": null,
+ "season_start": "2026-06-17",
+ "season_end": "2026-10-14",
+ "season_year": 2026,
+ "season_precision": "day",
+ "share_types": [
+  "Vegetables",
+  "Flowers",
+  "Fruit",
+  "Eggs",
+  "Bread/Baked",
+  "Mushrooms",
+  "Other"
+ ],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": true,
+ "pickup_sites": [
+  {
+   "name": "Denver Green School Community Farm",
+   "address": "6700 E Virginia Ave, Denver, CO 80224",
+   "town": "Denver",
+   "day": "Wed",
+   "time": "4pm-6pm",
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Only pickup mentioned"
+ },
+ "evidence": [
+  {
+   "field": "season",
+   "quote_or_summary": "2026 CSA June 17 - Oct 14 (18 weeks), Wednesdays 4-6pm at Denver Green School",
+   "url": "https://crimson-springtail-kp3b.squarespace.com/csa-signup"
+  },
+  {
+   "field": "csa_status",
+   "quote_or_summary": "Vegetable share fully enrolled with waitlist; SNAP/EBT half-price shares fully enrolled; flower, fruit, egg, bread, mushroom, herbal, baked-goods add-on shares available",
+   "url": "https://crimson-springtail-kp3b.squarespace.com/csa-signup"
+  }
+ ],
+ "notes": "Vegetable share has a biweekly option. Flower and fruit shares 12 wk, baked goods biweekly 10 wk, herbal monthly. Price not captured (farm stand uses suggested donation; no-cost shares for Denver residents with children; Sponsor-a-Share). Cancel by Apr 30 for refund minus $50. Fetched via squarespace staging domain; canonical sproutcityfarms.org/csa-signup seen in search. Page content is 2026 season."
+}

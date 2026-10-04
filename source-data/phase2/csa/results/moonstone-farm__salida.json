@@ -1,0 +1,28 @@
+{
+ "id": "moonstone-farm__salida",
+ "name": "Moonstone Farm",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "No website or social links in target; web search found no Moonstone Farm page for Salida CO CSA (moonstonefarmandforest.com has a CSA but appears to be a different Adirondacks farm; that fetch was rate-limited so not confirmed). Salida's Moonstone Ventures (Jen Visitacion) had no CSA page found. Only the directory note claims a small CSA and buyers club. Unverified."
+}

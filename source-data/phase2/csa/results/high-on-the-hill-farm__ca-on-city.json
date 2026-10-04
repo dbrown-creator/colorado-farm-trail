@@ -1,0 +1,37 @@
+{
+ "id": "high-on-the-hill-farm__ca-on-city",
+ "name": "High On The Hill Farm",
+ "offers_csa": true,
+ "csa_status": "open",
+ "signup_url": "https://www.highonthehillfarm.com/csa.html",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": 2026,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables",
+  "Fruit"
+ ],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "csa_status",
+   "quote_or_summary": "We are offering a limited number of weekly CSA memberships for the 2026 season; 16-18 week season",
+   "url": "https://www.highonthehillfarm.com/csa.html"
+  }
+ ],
+ "notes": "Page is current for 2026. No start/end dates, price, pickup sites or delivery on fetched page; homepage says on-farm pickup (2500 Hereford Dr) for CSA and a Frequent Buyer's Club (per directory notes, not verified on farm page). Share types inferred from farm description (fruit, vegetable, herbs). Contact 719-726-9200, fresh@highonthehillfarm.com. As of Oct 2026 the 2026 season is over; 2027 not stated."
+}

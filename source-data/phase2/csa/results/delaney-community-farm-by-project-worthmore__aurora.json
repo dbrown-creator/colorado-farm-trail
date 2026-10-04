@@ -1,0 +1,42 @@
+{
+ "id": "delaney-community-farm-by-project-worthmore__aurora",
+ "name": "DeLaney Community Farm - by Project Worthmore",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": "https://projectworthmore.org/farmshares/",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables",
+  "Other"
+ ],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "signup_url",
+   "quote_or_summary": "Learn More button links to farmshares page",
+   "url": "https://projectworthmore.org/programs/delaney-community-farm/"
+  },
+  {
+   "field": "frequency",
+   "quote_or_summary": "weekly shares ~18 weeks mid-June to mid-October",
+   "url": "https://projectworthmore.org/programs/delaney-community-farm/"
+  }
+ ],
+ "notes": "Program page says ~18-week CSA, mid-June to mid-October, weekly seasonal vegetables and herbs with optional add-ons (fruit, eggs); 2026 memberships were being promoted (page is 2026 content; no 2027 info). Exact dates, price, pickup sites, delivery, SNAP not on program page; /farmshares/ returned HTTP 500 on repeated attempts so could not read it - recheck."
+}

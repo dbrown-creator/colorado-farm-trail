@@ -1,0 +1,28 @@
+{
+ "id": "southwest-farm-fresh-harvest-shares__mancos",
+ "name": "Southwest Farm Fresh Harvest Shares",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Farm's listed website southwestfarmfresh.com now 301-redirects to an unrelated site (usdaindonesia.org); Facebook page fetch returned no content. Search results only (third-party, not verified on farm's own pages) say the Southwest Farm Fresh Cooperative launched a multi-farm CSA/Harvest Share in 2016-17 (Durango, Mancos, Cortez, Telluride). No current-season info found; cannot confirm still operating. Needs manual check of Facebook."
+}

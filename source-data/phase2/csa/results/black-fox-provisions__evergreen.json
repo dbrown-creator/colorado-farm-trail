@@ -1,0 +1,46 @@
+{
+ "id": "black-fox-provisions__evergreen",
+ "name": "Black Fox Provisions",
+ "offers_csa": false,
+ "csa_status": "unknown",
+ "signup_url": "https://www.gofarm.org/localfoodshare",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables",
+  "Fruit"
+ ],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Black Fox Provisions",
+   "address": "27780 Hwy 74, Evergreen, CO 80439",
+   "town": "Evergreen",
+   "day": "Thu",
+   "time": "after 3pm",
+   "on_farm": false
+  }
+ ],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "pickup_sites",
+   "quote_or_summary": "Search summary: store hosts CSA pickup Thursdays after 3pm for the multi-farm Local Food Share program (veggie and fruit shares, add-ons)",
+   "url": "https://www.gofarm.org/localfoodshare"
+  }
+ ],
+ "notes": "Grocery store, not a CSA operator: pickup host for the GoFarm Local Food Share multi-farm CSA. Store site (blackfoxprovisions.square.site) showed no CSA info. gofarm.org page not fetched (rate-limited); pickup detail from search summary only. Season dates not found."
+}

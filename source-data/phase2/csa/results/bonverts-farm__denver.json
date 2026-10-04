@@ -1,0 +1,36 @@
+{
+ "id": "bonverts-farm__denver",
+ "name": "Bonverts Farm",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": "https://bonverts-farm.localline.ca/bonverts",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "offers_csa",
+   "quote_or_summary": "Supplies families with seasonal lettuce, microgreens and herbs once a week via their own version of a CSA; CSA Farm Box Subscription in shop; will contact members in May",
+   "url": "https://www.bonverts.com"
+  }
+ ],
+ "notes": "Hydroponic farm. Online shop (Local Line) page did not render, so price, pickup, delivery, dates unknown; signup_url is the shop, not a dedicated CSA page. /products page has no CSA details. Homepage says they contact you in May about options and schedule (page year unclear). Facebook not checked."
+}

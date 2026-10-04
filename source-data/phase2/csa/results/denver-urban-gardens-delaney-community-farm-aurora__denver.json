@@ -1,0 +1,37 @@
+{
+ "id": "denver-urban-gardens-delaney-community-farm-aurora__denver",
+ "name": "Denver Urban Gardens DeLaney Community Farm (Aurora)",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": "https://projectworthmore.org/farmshares/",
+ "signup_opens": null,
+ "season_start": "2026-06-01",
+ "season_end": "2026-10-31",
+ "season_year": 2026,
+ "season_precision": "month",
+ "share_types": [
+  "Vegetables",
+  "Other"
+ ],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "season",
+   "quote_or_summary": "CSA runs about 18 weeks mid-June through mid-October; shares grow through season; optional add-ons like fruit and eggs",
+   "url": "https://projectworthmore.org/programs/delaney-community-farm/"
+  }
+ ],
+ "notes": "Run with Project Worthmore on DeLaney Community Farm, 170 S. Chambers Rd, Aurora (address from search snippet). Page content is 2026. The farmshares signup page returned HTTP 500 and the dug.org CSA page fetch was rate-limited, so price, pickup, delivery and open/closed status are unknown. Add-ons: fruit, eggs."
+}

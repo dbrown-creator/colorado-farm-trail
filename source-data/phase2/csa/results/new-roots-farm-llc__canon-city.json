@@ -1,0 +1,58 @@
+{
+ "id": "new-roots-farm-llc__canon-city",
+ "name": "New Roots Farm LLC",
+ "offers_csa": true,
+ "csa_status": "open",
+ "signup_url": "https://www.newrootsfarmllc.com/new-roots-farm-csa",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": "$660/share Colorado Springs pickup or $640/share Canon City on-farm pickup, plus $20 card fee",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Colorado Farm and Art Market at Pioneers Museum",
+   "address": null,
+   "town": "Colorado Springs",
+   "day": "Wed",
+   "time": "3:30pm-6pm",
+   "on_farm": false
+  },
+  {
+   "name": "New Roots Farm",
+   "address": "1630 Grand Ave, Canon City, CO 81212",
+   "town": "Canon City",
+   "day": "Wed",
+   "time": "2pm-6pm",
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Pickup only"
+ },
+ "evidence": [
+  {
+   "field": "season",
+   "quote_or_summary": "Early June through mid-October, 17 deliveries; limited shares, fill quickly with returning members",
+   "url": "https://www.newrootsfarmllc.com/new-roots-farm-csa"
+  },
+  {
+   "field": "signup_url",
+   "quote_or_summary": "Google form sign-up https://forms.gle/28AV1ur7gG1zor3V7",
+   "url": "https://www.newrootsfarmllc.com/new-roots-farm-csa"
+  }
+ ],
+ "notes": "Season year not stated on page; exact dates not given (early June-mid Oct) so left null. Status open inferred from live page with signup form, not an explicit open statement. Sign-up form: https://forms.gle/28AV1ur7gG1zor3V7"
+}
