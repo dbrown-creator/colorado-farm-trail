@@ -69,7 +69,7 @@ TOWNS = {
     "Telluride": ("Southwest", 37.9375, -107.8123),
     # Northwest
     "Steamboat Springs": ("Northwest", 40.4850, -106.8317), "Yampa Valley": ("Northwest", 40.45, -106.9),
-    "Meeker": ("Northwest", 40.0375, -107.9131),
+    "Meeker": ("Northwest", 40.0375, -107.9131), "Hayden": ("Northwest", 40.4953, -107.2573),
     # South & San Luis Valley
     "Hooper": ("South & San Luis Valley", 37.7453, -105.8775), "Walsenburg": ("South & San Luis Valley", 37.6242, -104.7803),
     "Colorado Springs": ("South & San Luis Valley", 38.8339, -104.8214), "Black Forest": ("South & San Luis Valley", 39.0131, -104.7008),
@@ -199,9 +199,10 @@ def main():
         elif region is None:
             unknown_towns.add(city)
             region = "Statewide"
+        # sup/buy hold current links; supOld/buyOld hold older mentions a re-check couldn't confirm.
         rec = {
             "id": nid, "name": n["name"], "type": n["type"], "city": city,
-            "region": region, "lat": lat, "lng": lng, "sup": [], "buy": [],
+            "region": region, "lat": lat, "lng": lng, "sup": [], "buy": [], "supOld": [], "buyOld": [],
         }
         t = trail.get(n["on_trail"]) if n["trail_match"] == "exact" else None
         if t:
@@ -217,23 +218,34 @@ def main():
         s, b = ids.get(e["supplier"]), ids.get(e["buyer"])
         if not s or not b:
             continue
+        old = e.get("status") == "unconfirmed"
         ed = {"s": s, "b": b, "c": e["confidence"], "y": year(e["date"]),
               "src": e["source"], "note": e["note"]}
+        if old:
+            ed["old"] = 1
         S, B = by_id[s], by_id[b]
         if S["lat"] and B["lat"]:
             ed["mi"] = round(miles((S["lat"], S["lng"]), (B["lat"], B["lng"])))
         out_edges.append(ed)
-        S["buy"].append(len(out_edges) - 1)
-        B["sup"].append(len(out_edges) - 1)
+        S["buyOld" if old else "buy"].append(len(out_edges) - 1)
+        B["supOld" if old else "sup"].append(len(out_edges) - 1)
 
+    # Businesses with no links left (e.g. every link retired after a re-check) drop out of the guide.
+    linked = [r for r in out_nodes if r["sup"] or r["buy"] or r["supOld"] or r["buyOld"]]
+    remap = {r["id"]: r for r in linked}
+    if len(linked) != len(out_nodes):
+        print("dropped unlinked:", sorted(r["name"] for r in out_nodes if r["id"] not in remap))
+    out_nodes = linked
+
+    current = [e for e in out_edges if not e.get("old")]
     stats = {
-        "businesses": len(out_nodes), "links": len(out_edges),
-        "high": sum(e["c"] == "high" for e in out_edges),
+        "businesses": len(out_nodes), "links": len(current), "older": len(out_edges) - len(current),
+        "high": sum(e["c"] == "high" for e in current),
         "producers": sum(n["type"] in ("farm", "maker") for n in out_nodes),
         "restaurants": sum(n["type"] == "restaurant" for n in out_nodes),
         "shops": sum(n["type"] == "retail" for n in out_nodes),
         "towns": len({n["city"] for n in out_nodes if n["lat"]}),
-        "researched": "2026-10-03",
+        "researched": "2026-10-03", "rechecked": "2026-10-04",
     }
     events = load_events()
     plans = load_plans(ids, by_id, events)

@@ -205,3 +205,8 @@ section { padding: 40px 0; }
 .pill i.k-farm { background: var(--farm); } .pill i.k-food { background: var(--restaurant); }
 .pill i.k-ranch { background: var(--maker); } .pill i.k-community { background: var(--retail); }
 #evr { margin-bottom: 8px; }
+details.older summary { cursor: pointer; list-style: none; }
+details.older summary::-webkit-details-marker { display: none; }
+details.older summary h3::before { content: "▸"; color: var(--muted); font-size: .8em; margin-right: 2px; }
+details.older[open] summary h3::before { content: "▾"; }
+details.older .links li { opacity: .8; }

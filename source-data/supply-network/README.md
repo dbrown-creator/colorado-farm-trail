@@ -21,6 +21,23 @@ Researched 2026-10-03.
 | `confidence` | `high`: the supplier or buyer names the other on its own page or menu. `medium`: press, or a third party. `low`: old or indirect |
 | `source` | URL of the evidence |
 | `note` | e.g. `family-owned`, `same owner`, `owner-operated` |
+| `status` | Blank for a current link. `unconfirmed`: the evidence is pre-2020 press, both businesses still operate, but a re-check found no current source naming the link. The guide shows these as "older mentions" |
+
+**`edges_retired.csv`**: links taken out after a re-check because a business closed or a
+current source contradicts them. Same columns as `edges.csv`, plus `retired` (date),
+`reason`, `evidence` and `evidence_date`.
+
+## Re-checks
+
+`rechecks/<date>_<scope>.csv` logs each re-check, one row per link, with a verdict
+(`confirmed`, `confirmed-weak`, `open-unconfirmed`, `buyer-closed`, `supplier-closed`,
+`contradicted`, `new-link`) and the evidence. Apply one with
+`python scripts/supply_network/apply_recheck.py rechecks/<file>.csv`. It updates
+`edges.csv`, moves retired links to `edges_retired.csv` and recounts `nodes.csv`.
+
+| Re-check | Scope | Result |
+|---|---|---|
+| `2026-10-04_pre2020.csv` | All 48 links resting on 2010–2019 press, plus one found along the way | 2 confirmed, 28 unconfirmed, 19 retired (13 buyer closed, 6 supplier closed), 4 new links |
 
 **`nodes.csv`**: one row per business.
 
@@ -93,6 +110,7 @@ Left out:
   may be stale even though the page is live.
 - Distributors (Growers Organic, UNFI, Farm Runners, Loco, What Chefs Want) publish no
   account lists, so the links through them are thin.
-- Many restaurant links come from 2014–2019 press; re-check those before using them on the map.
+- Pre-2020 press links were re-checked on 2026-10-04 (see Re-checks). 28 remain `unconfirmed`; Innovative Ag and Tasty Tomato look defunct but have no closure report, and Okagawa Farms is for sale.
+- Rebel Farm's and Hayden Fresh Farm's partner pages name many more restaurants than are loaded here.
 
 The wholesale growers' "Where to Get It" lists on the map draw on these links.
