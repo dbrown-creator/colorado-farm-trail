@@ -24,7 +24,7 @@ online presence for a business, it's probably no longer operating.
 
 | Provider | What we found | Question for the team |
 |---|---|---|
-| **Moonstone Farm** (355 E Rainbow Blvd, Salida) | `moonstoneventures.com` is down (DNS error). Everything online describes Moonstone Ventures as a coaching / retreat / farm-stay business. We found no farm products. | Do they produce food for sale? |
+| **Moonstone Farm** (355 E Rainbow Blvd, Salida) | `moonstoneventures.com` is down (DNS error). Everything online describes Moonstone Ventures as a coaching / retreat / farm-stay business. We found no farm products. | ✅ **RE-ADMITTED** (maintainer decision 2026-10-04). The 2026 SoiL Sangre de Cristo member list shows produce, eggs, herbs, teas and a farm stay. Website removed (dead), phone updated to (719) 239-2021 from that list. |
 | **Snow Angel Greenhouse** (10057 Hwy 50, Poncha Springs) | The website now redirects to a *Snow Angel Coffee* Facebook page. The last greenhouse news is from March 2021. | Is the greenhouse still operating, or is it now coffee only? |
 | **Bighorn Apiary, LLC** (1532 I St, Salida) | The only presence is a Facebook page with no visible recent activity, plus one old beekeeper directory entry. | Still selling honey? |
 
