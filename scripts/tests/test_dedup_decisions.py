@@ -102,6 +102,14 @@ def test_override_set_and_prepend_win_over_sources():
     assert m.provenance["Notes"] == "override" and m.provenance["Category"] == "override"
 
 
+def test_clear_override_empties_the_field():
+    m = _m("Fountain Farmers Market", "Fountain")
+    m.website = "http://hijacked.example"
+    merge_mod.apply_overrides([m], [{"name": "Fountain Farmers Market", "city": "Fountain",
+                                     "column": "Website", "mode": "clear", "value": ""}])
+    assert m.website == "" and m.provenance["Website"] == "override"
+
+
 def test_override_for_missing_record_is_reported(capsys):
     merge_mod.apply_overrides([_m("A", "B")], [
         {"name": "Gone", "city": "B", "column": "Hours", "mode": "set", "value": "x"}])
@@ -112,7 +120,8 @@ def test_committed_overrides_file_is_well_formed():
     rows = merge_mod.load_overrides(os.path.join(REPO, "source-data", "phase2", "overrides.csv"))
     assert rows
     for r in rows:
-        assert r["column"] and r["value"] and r["mode"] in ("set", "prepend"), r
+        assert r["column"] and r["mode"] in ("set", "prepend", "clear"), r
+        assert bool(r["value"]) == (r["mode"] != "clear"), r  # clear takes no value
 
 
 def test_snapshot_load_renormalizes_link_fields(tmp_path):
