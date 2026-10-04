@@ -75,6 +75,35 @@ CATEGORY_CORRECTIONS = {
 }
 
 
+# Hand-checked field corrections, keyed by Colorado Proud's business name and
+# reapplied on every re-fetch (same idea as CATEGORY_CORRECTIONS). Only fixes a
+# listing's own official source confirms.
+FIELD_CORRECTIONS = {
+    # Colorado Proud lists the organizer and its mailing PO box (pinned in Denver).
+    # denverceliacs.org/event/gluten-free-farmers-market-8/ (checked 2026-10-04):
+    # "Gluten Free Farmers Market", 333 W Hampden Ave, Englewood, 2nd Saturday
+    # monthly June-October, 9am-1pm.
+    "National Celiac Association of Denver": {
+        "Business Name": "Gluten Free Farmers Market",
+        "Address": "333 W Hampden Ave (north parking lot next to Chase Tower)",
+        "City": "Englewood", "County": "Arapahoe", "Zip": "80110",
+        "Hours": "Second Saturday of each month, 9:00 AM - 1:00 PM",
+        "Notes": "Colorado's only gluten-free farmers market, run by NCA Denver Celiacs "
+                 "(National Celiac Association of Denver). Food trucks, small businesses, "
+                 "produce, crafts, art, herbs, house plants, canned goods, prepared foods, "
+                 "flowers and more.",
+        "Latitude": 39.653348996279, "Longitude": -104.991625229897,
+    },
+}
+
+
+def corrected(row):
+    fix = FIELD_CORRECTIONS.get((row.get("Business Name") or "").strip())
+    if fix:
+        row.update(fix)
+    return row
+
+
 def categories_for(name, op):
     return CATEGORY_CORRECTIONS.get((name or "").strip()) or categories(op)
 
@@ -134,7 +163,7 @@ def write_mymaps(d, path):
         w.writeheader()
         for ft in d["features"]:
             g = ft.get("geometry") or {}
-            w.writerow({
+            w.writerow(corrected({
                 "Business Name": get(ft, "Business Name"),
                 "Category": CATEGORY_SEP.join(categories_for(get(ft, "Business Name"), get(ft, "Operation type"))),
                 "Address": addr(ft), "City": get(ft, "City"), "County": get(ft, "County"),
@@ -151,7 +180,7 @@ def write_mymaps(d, path):
                 "Notes": get(ft, "Additional information"),
                 "Where to Get It": "",  # hand-curated for wholesale growers; not in Colorado Proud
                 "Latitude": g.get("y", ""), "Longitude": g.get("x", ""),
-            })
+            }))
 
 
 def main():
