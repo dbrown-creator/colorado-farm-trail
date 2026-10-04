@@ -1,24 +1,30 @@
-# Phase 1 (LIVE) vs Phase 2 (in development)
+# Phase 2 is LIVE (cutover 2026-10-04)
 
-This repo currently ships **Phase 1** and develops **Phase 2** side by side. They are
-deliberately isolated so Phase 2 work can never disturb the live product. **No cutover
-has happened yet** — Phase 2 is not deployed.
+The map at coloradofarmtrail.com is built from the **Phase 2** combined dataset:
+`data-compiled/phase2/co_farmers_markets_all_mymaps.csv` -> `scripts/build_map_data.py` ->
+`data/markets.json` -> `index.html`. The type chips are the filter groups in
+`scripts/scrape/categories.py`.
 
-## Phase 1 — LIVE. Do not modify as part of Phase 2 work.
+To update the map: change Phase 2 inputs (snapshots, `curated_records.csv`,
+`overrides.csv`, `dedup_decisions.csv`), run `python scripts/scrape/build.py`, then
+`python scripts/build_map_data.py`, and commit all three outputs.
 
-The shipping product: a Google My Maps directory built from the **Colorado Proud Farm
-Fresh** directory only.
+**Rollback:** revert the cutover PR. It only changed `build_map_data.py`'s source path,
+the page (`index.html`, `about.html`) and `data/markets.json`; every Phase 1 file is
+still in place.
+
+## The former Phase 1 files: now a Phase 2 input
+
+The Colorado Proud Farm Fresh pipeline still runs, but its output feeds Phase 2
+(`scripts/scrape/sources/farm_fresh.py`) instead of the map directly.
 
 | Role | Path |
 |---|---|
-| Live compiled map file | `data-compiled/farm_fresh_directory_mymaps.csv` |
+| Farm Fresh compiled file (Phase 2 input) | `data-compiled/farm_fresh_directory_mymaps.csv` |
 | Raw source | `source-data/colorado_proud_farm_fresh_directory_raw.csv` |
-| Build script | `scripts/fetch_farm_data.py` |
-| Site | `index.html` |
+| Fetch script (with CATEGORY_ / FIELD_CORRECTIONS) | `scripts/fetch_farm_data.py` |
 
-Anything under Phase 2 must leave these **in place and unmodified**.
-
-## Phase 2 — in development. NOT live.
+## Phase 2 — the data behind the live map
 
 An expanded, all-Colorado farmers-market dataset that merges multiple sources
 (Colorado Proud + CFMA/MarketWurks + USDA) and enriches each market from its own

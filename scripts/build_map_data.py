@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-"""Build data/markets.json for the Leaflet webmap prototype (map.html).
+"""Build data/markets.json for the live map (index.html).
 
-Reads the live full directory CSV and emits a compact, browser-ready JSON array.
+Reads the Phase 2 combined directory (data-compiled/phase2/co_farmers_markets_all_mymaps.csv:
+Colorado Proud Farm Fresh + member directory, CFMA, USDA, Chaffee Provides, curated research,
+official-site checks, with reviewed dedup decisions and overrides applied) and emits a
+compact, browser-ready JSON array. Each listing's precise data labels roll up into the map's
+filter groups (scripts/scrape/categories.py).
 The CSVs contain multi-line quoted fields (long Notes/Products), so the browser
 must NOT parse CSV directly -- this pre-generates clean JSON instead.
 
@@ -19,9 +23,13 @@ from pathlib import Path
 # URL normalization is shared with the Phase 2 scraper (one copy, same rules).
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from scrape.normalize import social_url, website_url  # noqa: E402
+from scrape import categories as cat_groups  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
-SRC = REPO / "data-compiled" / "farm_fresh_directory_mymaps.csv"
+# Phase 2 cutover (2026-10-04): the map reads the combined dataset. The old Phase 1 file
+# (farm_fresh_directory_mymaps.csv) is now one of its inputs (sources/farm_fresh.py).
+SRC = REPO / "data-compiled" / "phase2" / "co_farmers_markets_all_mymaps.csv"
+GROUP_LABEL = {key: label for key, label, _, _ in cat_groups.GROUPS}
 OUT = REPO / "data" / "markets.json"
 
 
@@ -66,10 +74,14 @@ def main():
     skipped = []
     for i, row in enumerate(rows, start=2):  # start=2 -> CSV line incl. header
         name = clean(row.get("Business Name"))
-        # Category may list several labels, primary first ("U-Pick, On-Farm / Ranch Sales").
-        # `category` stays the primary (pin color/icon); `categories` drives the type filter.
-        categories = split_list(row.get("Category"))
+        # Category may list several precise labels, primary first ("U-Pick, On-Farm / Ranch
+        # Sales"). The map filters on groups: `categories` = the listing's group labels,
+        # `category` = its primary group (pin color/icon), `labels` = the precise labels.
+        labels = split_list(row.get("Category"))
+        groups = cat_groups.groups_for(", ".join(labels))
+        categories = [GROUP_LABEL[g] for g in groups]
         category = categories[0] if categories else None
+        badges = [cat_groups.BADGES[b] for b in labels if b in cat_groups.BADGES]
         try:
             lat = float(row["Latitude"])
             lng = float(row["Longitude"])
@@ -90,6 +102,8 @@ def main():
                 "name": name,
                 "category": category,
                 "categories": categories,
+                "labels": labels,
+                "badges": badges,
                 "address": clean(row.get("Address")),
                 "city": clean(row.get("City")),
                 "county": clean(row.get("County")),
@@ -126,7 +140,7 @@ def main():
     print(f"Skipped {len(skipped)} rows")
     for line_no, name, reason in skipped:
         print(f"  - line {line_no}: {name or '(no name)'} -> {reason}")
-    print("\nCategory distribution (primary / listed under):")
+    print("\nFilter groups (primary / listed under):")
     primary = Counter(m["category"] for m in markets)
     for cat, count in Counter(c for m in markets for c in m["categories"]).most_common():
         print(f"  {primary.get(cat, 0):3} / {count:3}  {cat}")
