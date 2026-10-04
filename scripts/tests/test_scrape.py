@@ -163,7 +163,8 @@ def test_cfma_parses_and_decodes_fields():
 
 
 def test_cfma_instagram_and_address_helpers():
-    assert cfma._instagram("@downtownglenwoodsprings") == "https://www.instagram.com/downtownglenwoodsprings"
+    assert cfma._instagram("@downtownglenwoodsprings") == "https://instagram.com/downtownglenwoodsprings"
+    assert cfma._instagram("@name.com") == "https://instagram.com/name"  # typo suffix dropped
     assert cfma._instagram("https://instagram.com/x") == "https://instagram.com/x"
     street, city, zc = cfma._split_address("816 Royal Gorge Blvd, Cañon City, CO 81212, USA")
     assert street == "816 Royal Gorge Blvd" and city == "Cañon City" and zc == "81212"

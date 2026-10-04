@@ -30,7 +30,7 @@ import urllib.parse
 import urllib.request
 from typing import List
 
-from ..normalize import clean_url, phone, titlecase, zipcode
+from ..normalize import clean_url, facebook_url, instagram_url, phone, titlecase, zipcode
 from ..schema import Market
 
 DATASHARE = "https://www.usdalocalfoodportal.com/mywp/wp-json/frontend/data_share"
@@ -194,8 +194,8 @@ def parse_api(payload, directory: str = "") -> List[Market]:
         m.set("phone", phone(_s(r, "contact_phone")), SOURCE)
         m.set("email", _s(r, "contact_email"), SOURCE)
         m.set("website", clean_url(_s(r, "media_website")), SOURCE)
-        m.set("facebook", clean_url(_s(r, "media_facebook")), SOURCE)
-        m.set("instagram", clean_url(_s(r, "media_instagram")), SOURCE)
+        m.set("facebook", facebook_url(_s(r, "media_facebook")), SOURCE)
+        m.set("instagram", instagram_url(_s(r, "media_instagram")), SOURCE)
         desc = _parse_mydesc(_s(r, "mydesc"))
         m.set("months_open", _months_open(desc.get("open", "")), SOURCE)
         # The portal truncates the product list ("...") at the source, so it fails
