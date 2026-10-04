@@ -22,6 +22,8 @@ COLUMNS = [
     "ADA Accessible", "Notes", "Latitude", "Longitude",
 ]
 
+CATEGORY_SEP = ", "   # Category holds several labels, primary first
+
 # Fields that may carry a source label in `provenance`. (State/Category are constant
 # for this project, and Latitude/Longitude provenance is tracked via `geo_source`.)
 PROVENANCED = [
@@ -37,9 +39,12 @@ class Market:
     CSV output is clean and merge logic can treat "" uniformly as 'missing'."""
 
     business_name: str = ""
-    category: str = "Farmers' Market"   # default; USDA directory sources override
-                                        # (CSA Farm, On-Farm / Ranch Sales, Food Hub,
-                                        # Agritourism — see sources/usda.py DIRECTORIES)
+    # One or more labels, comma-joined, primary first ("Agritourism, On-Farm / Ranch
+    # Sales") — the same format the live pipeline writes (see DATA.md). Defaults to
+    # "Farmers' Market" for the market directories (Colorado Proud, CFMA); USDA and
+    # Chaffee set their own; a source that states no category sets "" so merging
+    # never adds a label nobody stated. Merge unions categories across sources.
+    category: str = "Farmers' Market"
     address: str = ""
     city: str = ""
     county: str = ""
@@ -84,6 +89,18 @@ class Market:
             col = ATTR_TO_COLUMN.get(attr)
             if col in PROVENANCED:
                 self.provenance[col] = source
+
+    @property
+    def categories(self) -> list:
+        return [c.strip() for c in self.category.split(",") if c.strip()]
+
+    def add_categories(self, labels) -> None:
+        """Union `labels` into this record's categories, keeping existing order first."""
+        merged = self.categories
+        for label in labels:
+            if label and label not in merged:
+                merged.append(label)
+        self.category = CATEGORY_SEP.join(merged)
 
     def to_mymaps_row(self) -> dict:
         return {

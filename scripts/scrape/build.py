@@ -19,7 +19,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from scrape import geocode
-from scrape.merge import flag_possible_dups, merge
+from scrape.merge import apply_decisions, flag_possible_dups, load_decisions, merge
 from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
 from scrape.sources import cfma, chaffee_provides, colorado_proud, enrichment, usda
@@ -154,8 +154,14 @@ def main() -> None:
     load_env()
     records = collect()
     markets = merge(records)
+    # Reviewed dedup decisions (merge / confirmed-distinct) — applied every build so a
+    # human call is never undone by a rebuild.
+    decisions = load_decisions(os.path.join(SOURCE_DIR, "dedup_decisions.csv"))
+    markets, distinct = apply_decisions(markets, decisions)
+    if decisions:
+        print(f"Applied {len(decisions)} dedup decisions.")
     fill_geography(markets)
-    flag_possible_dups(markets)
+    flag_possible_dups(markets, distinct=distinct)
     markets.sort(key=lambda m: (m.city.lower(), m.business_name.lower()))
     write(markets)
     dups = sum(1 for m in markets if m.dup_hint)

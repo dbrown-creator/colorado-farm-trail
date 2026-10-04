@@ -55,7 +55,7 @@ def parse(results: List[dict], targets_by_id: dict) -> List[Market]:
         city = res.get("city") or t.get("city", "")
         if not name:
             continue
-        m = Market(source=SOURCE)
+        m = Market(source=SOURCE, category="")  # enrichment states no category
         m.business_name, m.city = name, city  # merge key (not counted as provenance)
         fields = res.get("fields", {})
         for col, attr in COL_ATTR.items():
