@@ -139,12 +139,13 @@ Something From the Farm,Fort Collins,Longitude,set,-105.039379419209,Census geoc
 Lost Greens Farm,Denver,Website,set,https://lostgreensfarm.substack.com,"Farm's Substack (Aug 2025 post: continuing at Gilpin St, planning 2026) (closed-org check 2026-10-03)",2026-10-03
 Metro Denver Farmers' Market-Lakewood,Lakewood,Hours,set,Sat: 10:00am - 2:00pm,"2026 schedule at Mile Hi Church per Denverite (May 1, 2026) (closed-org check 2026-10-03)",2026-10-03
 Metro Denver Farmers' Market-Lakewood,Lakewood,Months Open,set,"June, July, August, September, October","2026 season June 13 - Oct 3 per Denverite (May 1, 2026) (closed-org check 2026-10-03)",2026-10-03
-Roasted Chili,Denver,Category,set,Roadside Market,"Seasonal chile-roasting stand, not on-farm sales (user correction)",2026-10-04
-Roasted Chili,Denver,Address,set,1700 S Santa Fe Drive,"roastedchili.com lists the Denver stand at 1700 S Santa Fe Drive; USDA listing (2014) had 1701 South Cherokee St, 80229",2026-10-04
-Roasted Chili,Denver,Zip,set,80223,"Census geocoder match: 1700 S SANTA FE DR, DENVER, CO, 80223",2026-10-04
-Roasted Chili,Denver,Latitude,set,39.68588,Census geocoder match for 1700 S Santa Fe Dr,2026-10-04
-Roasted Chili,Denver,Longitude,set,-104.99186,Census geocoder match for 1700 S Santa Fe Dr,2026-10-04
-Roasted Chili,Denver,Website,set,https://roastedchili.com/,Business's own site,2026-10-04
-Roasted Chili,Denver,Hours,set,"9:00 AM–7:00 PM daily, in season","roastedchili.com, checked 2026-10-04",2026-10-04
-Roasted Chili,Denver,Products,set,"Roasted green chile, Hatch chile, Pueblo chile, Grand Junction chile, Cobblers, Salsas, Quesos, Pickles, BBQ sauces, Jellies, Cherry juice","roastedchili.com, checked 2026-10-04",2026-10-04
-Roasted Chili,Denver,Notes,set,"Seasonal chile-roasting stand: chile roasted on site the day it arrives, in Mild, Medium, Hot, Extra Hot or Dynamite, plus 25+ jarred goods. One of three Roasted Chili stands (Centennial, Denver, Golden).","roastedchili.com, checked 2026-10-04",2026-10-04
+RoastedChile.com,Denver,Business Name,set,Roasted Chili,Business name per roastedchili.com (USDA listed the domain),2026-10-04
+RoastedChile.com,Denver,Category,set,Roadside Market,"Seasonal chile-roasting stand, not on-farm sales (user correction)",2026-10-04
+RoastedChile.com,Denver,Address,set,1700 S Santa Fe Drive,"roastedchili.com lists the Denver stand at 1700 S Santa Fe Drive; USDA listing (2014) had 1701 South Cherokee St, 80229",2026-10-04
+RoastedChile.com,Denver,Zip,set,80223,"Census geocoder match: 1700 S SANTA FE DR, DENVER, CO, 80223",2026-10-04
+RoastedChile.com,Denver,Latitude,set,39.68588,Census geocoder match for 1700 S Santa Fe Dr,2026-10-04
+RoastedChile.com,Denver,Longitude,set,-104.99186,Census geocoder match for 1700 S Santa Fe Dr,2026-10-04
+RoastedChile.com,Denver,Website,set,https://roastedchili.com/,Business's own site,2026-10-04
+RoastedChile.com,Denver,Hours,set,"9:00 AM–7:00 PM daily, in season","roastedchili.com, checked 2026-10-04",2026-10-04
+RoastedChile.com,Denver,Products,set,"Roasted green chile, Hatch chile, Pueblo chile, Grand Junction chile, Cobblers, Salsas, Quesos, Pickles, BBQ sauces, Jellies, Cherry juice","roastedchili.com, checked 2026-10-04",2026-10-04
+RoastedChile.com,Denver,Notes,set,"Seasonal chile-roasting stand: chile roasted on site the day it arrives, in Mild, Medium, Hot, Extra Hot or Dynamite, plus 25+ jarred goods. One of three Roasted Chili stands (Centennial, Denver, Golden).","roastedchili.com, checked 2026-10-04",2026-10-04
