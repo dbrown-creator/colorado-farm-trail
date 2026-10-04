@@ -1,0 +1,31 @@
+{
+ "id": "salida-first-presbyterian-church__salida",
+ "name": "Salida First Presbyterian Church",
+ "city": "Salida",
+ "official_website": "https://www.salidapresbyterian.org/",
+ "status": "active",
+ "checked": "2026-10-03",
+ "fields": {
+  "Website": {
+   "value": "https://www.salidapresbyterian.org/",
+   "source_url": "https://www.salidapresbyterian.org/ministries/serving-our-community/"
+  },
+  "Hours": {
+   "value": "Thu: 1:00pm - 3:30pm",
+   "source_url": "https://www.salidapresbyterian.org/ministries/serving-our-community/"
+  },
+  "Address": {
+   "value": "7 Poncha Blvd, Salida, CO 81201",
+   "source_url": "https://www.salidapresbyterian.org/ministries/serving-our-community/"
+  },
+  "Phone": {
+   "value": "(719) 539-6422",
+   "source_url": "https://www.salidapresbyterian.org/ministries/serving-our-community/"
+  },
+  "Products": {
+   "value": "Non-perishable pantry staples",
+   "source_url": "https://www.salidapresbyterian.org/ministries/serving-our-community/"
+  }
+ },
+ "notes": "Old domain salidafirstpresbyterianchurch.org is dead (DNS not found); church site moved to salidapresbyterian.org. Official page lists only a Thursday pantry (1:00-3:30 PM), no application or proof of need; Monday meal distribution from dataset not confirmed. Phone differs from dataset (719-239-0406). Months/season not stated."
+}

@@ -1,0 +1,11 @@
+{
+  "_comment": "Maintainer-confirmed corrections to Chaffee Provides records, applied by scripts/scrape/sources/chaffee_provides.py after parsing (overwrites the scraped value; provenance 'maintainer'). Keyed by provider slug. Pending, unconfirmed changes live in docs/CHAFFEE_PROVIDES_REVIEW.md.",
+  "overrides": {
+    "poncha-creek-gardens": {
+      "website": {"value": "https://ponchacreekgardens.wordpress.com/our-products/", "confirmed": "2026-10-03", "note": "old ponchacreekgardens.com domain is for sale"}
+    },
+    "lewis-lazy-l-ranch": {
+      "facebook": {"value": "https://www.facebook.com/myredcows/", "confirmed": "2026-10-03"}
+    }
+  }
+}

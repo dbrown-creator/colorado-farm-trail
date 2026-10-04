@@ -17,9 +17,10 @@ provenance column.
 | Source | Access | Coverage | Notes |
 |---|---|---|---|
 | **Colorado Proud / Farm Fresh** (ArcGIS) | public, no key | ~48 markets | Richest per record; wins conflicts. Same endpoint as the repo's Farm Fresh pull. |
-| **USDA Local Food Portal — keyed API** | free key (self-service) | statewide (~105 CO) | Statewide breadth. **Verified fields:** name, street, city, state, zip, lat/lng, phone, email, website, Facebook/Instagram, description. **NOT provided:** hours, season, products, SNAP, organic, county. Set `USDA_API_KEY` env var. |
-| USDA — keyless `data_share` | public, no key | only ~6 (opt-in) | Thin (name/contact/address/website). Cross-check only; used automatically when no key is set. |
+| **USDA Local Food Portal — keyed API, all 5 directories** | free key (self-service) | statewide (~105 CO markets + farms/CSAs/hubs) | `farmersmarket` + `onfarmmarket` + `csa` + `foodhub` + `agritourism`, each mapped to a `Category`. **Verified fields (farmersmarket):** name, street, city, state, zip, lat/lng, phone, email, website, Facebook/Instagram, description, `listing_id` + `updatetime` (kept as `Source ID` / `Source Updated` for the update engine). **NOT provided:** hours, season, products, SNAP, organic, county. Set `USDA_API_KEY`; narrow with `USDA_DIRECTORIES=csa,foodhub`. |
+| USDA — keyless `data_share`, all 5 directories | public, no key | opt-in only: ~6 markets, 37 on-farm, 41 CSA, 12 hubs, 12 agritourism (CO, 2026-07) | Thin (name/contact/address/website, no coords). Used automatically when no key is set; real coverage for the non-market directories. |
 | **CFMA member markets** (MarketWurks API) | public JSON, no key | 37 members | **Tested & confirmed.** The map is a MarketWurks embed; data is a public REST endpoint (below). Rich fields — fills exactly what USDA lacks. 26 overlap our data (enrich), 11 are new. |
+| **Chaffee Provides** (chaffeeprovides.org, Guidestone Colorado) | public HTML, no key | 36 Chaffee-area providers (42 listed; 6 held for review) | **Built** (`sources/chaffee_provides.py`). Crawls the 7 category listings (paginated) → one detail page per provider, plus the `/provider-map/` page's `map-asset` attributes for **source coordinates** (32 of 36) and the per-provider *hide address* flag, which we honor. Mostly farms/ranches the statewide directories miss, plus food banks, orgs, a restaurant. Honors `Crawl-delay: 10` → ~8 min. Held-out providers: `source-data/phase2/chaffee_provides_exclusions.json`; maintainer-confirmed fixes: `chaffee_provides_overrides.json`; open questions: [`docs/CHAFFEE_PROVIDES_REVIEW.md`](../../docs/CHAFFEE_PROVIDES_REVIEW.md). Spec: [`docs/CHAFFEE_PROVIDES.md`](../../docs/CHAFFEE_PROVIDES.md). |
 | **Operator / organizer sites** — *not yet built* | HTML | multiple markets each | Market-management companies that run several markets, with first-party season/hours. **One site → many markets**, so high value for both discovery and enrichment. Seed list below. |
 | Curated guides — *not yet built* | HTML | coverage gaps | coloradoinfo.com, ag.colorado.gov — cross-check + fill missing markets. |
 | Per-site enrichment — *prototyped* | HTML + search | fills gaps | Visit each market's own website (+ search fallback) for hours/season/products/SNAP. Validated on 3 markets; see the sampling in git history. |
@@ -79,8 +80,11 @@ Proud, CFMA, USDA) are best for *discovering* markets and for coordinates; but f
 2. **Colorado Proud** (vetted state directory) — for markets not (yet) confirmed on
    their own site.
 3. **CFMA / MarketWurks** (member-maintained, rich).
-4. **USDA** (broad but thin/sometimes stale).
-5. **Multi-aggregator consensus** > single aggregator (5280, coloradoinfo, etc.).
+4. **Chaffee Provides** (community-maintained, Chaffee County only). Maintainer-
+   confirmed corrections in `chaffee_provides_overrides.json` win over its scraped
+   values (provenance `maintainer`).
+5. **USDA** (broad but thin/sometimes stale).
+6. **Multi-aggregator consensus** > single aggregator (5280, coloradoinfo, etc.).
 
 So the merge order is *coverage-first* (directories create records + coords), but a
 **confirmed official-site value overrides** the directory value for the fields it
@@ -90,9 +94,20 @@ stated + legit-looking site" is the bar — ambiguous or sketchy pages don't ove
 ## Run
 
 ```bash
-python scripts/scrape/build.py                    # no key: Colorado Proud + thin data_share
-USDA_API_KEY=xxxx python scripts/scrape/build.py  # adds the rich statewide USDA pull
+python scripts/scrape/build.py    # reads USDA_API_KEY from the git-ignored .env
 ```
+
+The USDA key lives in **`.env` at the repo root** (git-ignored; never commit it):
+
+```
+USDA_API_KEY=...
+```
+
+An environment variable of the same name overrides `.env`. With no key anywhere,
+the build falls back to Colorado Proud + thin keyless data_share. With a key, the
+keyed pull runs **and** data_share is folded in as a gap-filler (the two views
+don't fully overlap — observed 2026-07: CO csa had 21 keyed vs 41 opt-in
+data_share listings).
 
 Outputs (Phase 2, isolated; live Phase 1 Farm Fresh CSV untouched):
 - `data-compiled/phase2/co_farmers_markets_all_mymaps.csv` — 22 columns, My Maps import-ready
@@ -118,17 +133,26 @@ merge).
 ## Getting the USDA key
 
 Self-service form: <https://www.usdalocalfoodportal.com/fe/fregisterpublicapi/>
-(email + a math captcha; key is emailed back). Endpoint:
-`/api/farmersmarket/?apikey=KEY&x=LON&y=LAT&radius=MILES`. `build.py` sweeps a grid of
-points across Colorado and dedupes. **Verify `sources/usda.py::parse_api` field names
-against a real response** the first time the key is used — it was written from the
-documented schema, not a live keyed sample.
+(email + a math captcha; key is emailed back). Endpoints — one per directory:
+`/api/{farmersmarket|onfarmmarket|csa|foodhub|agritourism}/?apikey=KEY&...`.
+For each directory the fetcher first tries the documented single-request
+`state=co` query, then falls back to the x/y/radius grid sweep. Field names are
+verified against a live keyed `farmersmarket` sample; the records carry a
+`directory_type` discriminator, so one parser serves all five — **spot-check the
+other four directories' field names on the first keyed run**.
 
 ## Status
 
 - ✅ Colorado Proud + USDA (keyless + keyed, schema verified) fetchers
+- ✅ USDA scan widened to **all five portal directories** (on-farm markets, CSAs,
+  food hubs, agritourism → `Category`); `Source ID`/`Source Updated` captured per
+  record as the change-detection hook for the update engine
+  (design: [`../../docs/UPDATE_ENGINE.md`](../../docs/UPDATE_ENGINE.md))
 - ✅ merge/dedup, possible-dup review flag, geocode + county backfill, writer, 19 tests
 - ✅ statewide build producing 139 markets
+- ✅ Chaffee Provides source (category crawl + provider-map coords, exclusions/overrides
+  files, offline tests). Link check + presence research for all 42 providers on
+  2026-10-03 → 6 held for review with the Chaffee Provides team
 - ⏳ CFMA map scrape, curated guides, per-site enrichment (to fill hours/season/
   products/SNAP for the ~91 USDA-only markets that lack them)
 - ⏳ Operator-site scrape — **Jarman & Co Events** (jarmanandcoevents.com) first;

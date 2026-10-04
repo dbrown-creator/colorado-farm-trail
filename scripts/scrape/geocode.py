@@ -23,6 +23,7 @@ from typing import Optional, Tuple
 UA = {"User-Agent": "ColoradoFarmTrail/1.0 (+https://github.com) data build"}
 CENSUS = "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress"
 FCC = "https://geo.fcc.gov/api/census/block/find"
+CENSUS_COORDS = "https://geocoding.geo.census.gov/geocoder/geographies/coordinates"
 
 
 def _get_json(url: str, timeout: int = 30) -> Optional[dict]:
@@ -64,11 +65,22 @@ def geocode_address(address: str, city: str, zipc: str) -> Optional[Tuple[float,
 
 
 def county_for(lat: float, lon: float) -> str:
-    """Reverse lookup: county name for a lat/lon (no key). '' on failure."""
+    """Reverse lookup: county name for a lat/lon (no key). '' on failure.
+    FCC first; falls back to the Census coordinates endpoint (FCC had a
+    server-side outage on 2026-10-03 that returned errors with HTTP 400)."""
     q = urllib.parse.urlencode({"latitude": lat, "longitude": lon, "format": "json"})
     data = _get_json(f"{FCC}?{q}")
     try:
         name = (data.get("County", {}).get("name") or "").strip()
-        return re.sub(r"\s+County$", "", name)
     except AttributeError:
-        return ""
+        name = ""
+    if not name:
+        q = urllib.parse.urlencode({
+            "x": lon, "y": lat, "benchmark": "Public_AR_Current",
+            "vintage": "Current_Current", "layers": "Counties", "format": "json"})
+        data = _get_json(f"{CENSUS_COORDS}?{q}")
+        try:
+            name = data["result"]["geographies"]["Counties"][0].get("NAME", "")
+        except (KeyError, IndexError, TypeError):
+            name = ""
+    return re.sub(r"\s+County$", "", name.strip())
