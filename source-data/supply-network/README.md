@@ -44,11 +44,14 @@ stockist is classified by hand as food-service, food retail or non-food retail
 
 ## Known gaps
 
-- About 30 suppliers that appear on only one restaurant's list are not loaded yet. These are
-  mostly Potager and Duo, whose pages give no towns. Every list whose source gives towns is
-  complete, with names checked against the live source on 2026-10-03. Entries the source no
-  longer shows were dropped: three of Floradora's and The Regional's "Raisin' Roots".
-- Colorado suppliers only: Bootheel 7 Ranch (Lusk, WY) on Urban Farmer's list is left out.
+- Every restaurant sourcing page and town-listing article in the pilot is fully loaded,
+  with names checked against the live source on 2026-10-03. That covers Potager, Duo,
+  Element 47, Clean Kitchen, Urban Farmer, The Regional, Floradora and others. Entries the
+  source no longer shows were dropped. A handful of suppliers from press-only mentions with
+  no town (e.g. Taste Local, Mountain Tap, Aurum Steamboat) are still unloaded.
+- Scope is Colorado plus neighboring states (e.g. Bootheel 7 Ranch, Lusk WY). Producers from
+  farther away are left out (Maine seafood and a Minnesota hog co-op on Potager's and Duo's
+  lists). Colorado-based brands that source elsewhere (Teton Waters, Tender Belly) stay in, noted.
 - Element 47's purveyor page lists a lamb processor that closed in 2020, so its other links
   may be stale even though the page is live.
 - Distributors (Growers Organic, UNFI, Farm Runners, Loco, What Chefs Want) publish no
