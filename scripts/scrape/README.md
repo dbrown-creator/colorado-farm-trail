@@ -92,33 +92,58 @@ So the merge order is *coverage-first* (directories create records + coords), bu
 states, and provenance records that the override came from the official site. "Clearly
 stated + legit-looking site" is the bar — ambiguous or sketchy pages don't override.
 
-## Run
+## Run — find, approve, push
+
+Getting new data and building are separate steps, and a build repeats no work.
+
+**1. Find: check the sources for new data (on purpose, not per build)**
 
 ```bash
-python scripts/scrape/build.py    # reads USDA_API_KEY from the git-ignored .env
+python scripts/scrape/refresh_sources.py                 # all network sources
+python scripts/scrape/refresh_sources.py cfma usda_api   # just these
 ```
 
-The USDA key lives in **`.env` at the repo root** (git-ignored; never commit it):
+Sources: `colorado_proud`, `cfma`, `chaffee_provides`, `usda_api`, `usda_datashare`.
+Each writes:
+- a snapshot, `source-data/phase2/snapshots/<source>.json`: the parsed records the build reads
+- a change report, `snapshots/changes/<source>.csv`: what's **new / removed / changed**,
+  field by field, versus the previous snapshot
 
-```
-USDA_API_KEY=...
+A source that fails keeps its previous snapshot. Chaffee Provides reads its page cache
+(`.cache/chaffee_provides/`, reused for 7 days). `CHAFFEE_REFRESH=1` forces the polite
+~8-minute recrawl. After a parser change, re-run the refresh for that source.
+
+**2. Approve:** review the change reports. Committing the snapshots (a PR) is the
+approval. Hand research goes in `curated_records.csv` (new businesses) and corrections
+go in `overrides.csv` (existing ones). Both are reviewed the same way.
+
+**3. Push: build offline**
+
+```bash
+python scripts/scrape/build.py
 ```
 
-An environment variable of the same name overrides `.env`. With no key anywhere,
-the build falls back to Colorado Proud + thin keyless data_share. With a key, the
-keyed pull runs **and** data_share is folded in as a gap-filler (the two views
-don't fully overlap — observed 2026-07: CO csa had 21 keyed vs 41 opt-in
-data_share listings).
+The build reads only local files: snapshots, enrichment results, curated records,
+dedup decisions and overrides. It merges, fills blanks and writes the outputs.
+Geocode and county answers, including misses, are remembered in `.cache/geocode.json`.
+Only records that are new or still blank get a lookup; misses are retried after 30
+days, and `GEOCODE_REFRESH=1` redoes everything. A rebuild with nothing new takes
+about a second.
+
+The USDA key lives in **`.env` at the repo root** (git-ignored; never commit it),
+as `USDA_API_KEY=...`. Only `refresh_sources.py usda_api` needs it. With a key, the
+keyed pull runs and data_share is kept as a gap-filler, because the two views don't
+fully overlap (observed 2026-07: CO csa had 21 keyed vs 41 opt-in data_share listings).
 
 Outputs (Phase 2, isolated; live Phase 1 Farm Fresh CSV untouched):
 - `data-compiled/phase2/co_farmers_markets_all_mymaps.csv` — 22 columns, My Maps import-ready
 - `source-data/phase2/co_farmers_markets_all_raw.csv` — same + `Source` / `Geo Source` /
   `Possible Dup Of` / `Provenance`
 
-Enrichment inputs read from `source-data/phase2/enrichment/results/*.json` (folded at
-top priority). Latest full build: **149 markets** + official-site enrichment across 109
-of them (`Possible Dup Of` flags name-stem pairs for human review; nothing is
-auto-merged).
+Enrichment inputs are read from `source-data/phase2/enrichment/results/*.json` and
+folded in at top priority. Latest build (2026-10-03): **440 records**. `Possible Dup Of`
+flags pairs for human review; nothing is auto-merged except reviewed
+`dedup_decisions.csv` rows.
 
 ## Test
 

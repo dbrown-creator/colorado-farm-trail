@@ -46,7 +46,7 @@ def test_fetch_defaults_to_cache(monkeypatch, tmp_path):
 
 # ---- geocode / county cache
 
-def test_geocache_remembers_successes_across_runs(tmp_path):
+def test_geocache_remembers_answers_and_misses_across_runs(tmp_path):
     path = str(tmp_path / "geocode.json")
     hits = {"geo": 0, "county": 0}
 
@@ -66,8 +66,12 @@ def test_geocache_remembers_successes_across_runs(tmp_path):
     c2 = geocode.GeoCache(path=path, geocode=geo, county=county)
     assert c2.geocode_address(" 1 main st", "SALIDA", "81201") == (38.5, -106.0, "Chaffee")
     assert c2.county_for(38.1234561, -106.0) == "Chaffee"   # same point after rounding
-    assert c2.geocode_address("Nowhere Rd", "Salida", "") is None   # misses are retried
-    assert hits == {"geo": 3, "county": 1}
+    assert c2.geocode_address("Nowhere Rd", "Salida", "") is None   # recent miss: no lookup
+    assert hits == {"geo": 2, "county": 1}
+    c3 = geocode.GeoCache(path=path, geocode=geo, county=county)
+    c3.now = lambda: c1.now() + (geocode.MISS_RETRY_DAYS + 1) * 86400
+    assert c3.geocode_address("Nowhere Rd", "Salida", "") is None   # old miss: retried
+    assert hits["geo"] == 3
     assert geocode.GeoCache(path=path, refresh=True, geocode=geo, county=county).data["address"] == {}
 
 
