@@ -6,6 +6,11 @@
     },
     "lewis-lazy-l-ranch": {
       "facebook": {"value": "https://www.facebook.com/myredcows/", "confirmed": "2026-10-03"}
+    },
+    "moonstone-farm": {
+      "website": {"value": "", "confirmed": "2026-10-04", "note": "moonstoneventures.com is down (DNS error)"},
+      "phone": {"value": "(719) 239-2021", "confirmed": "2026-10-04", "note": "per the 2026 SoiL Sangre de Cristo member list; Chaffee Provides had (719) 239-1594"},
+      "city": {"value": "Salida", "confirmed": "2026-10-04"}
     }
   }
 }

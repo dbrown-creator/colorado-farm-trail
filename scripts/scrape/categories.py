@@ -22,7 +22,7 @@ GROUPS = [
     ("upick", "U-Pick", "🍓", {"U-Pick"}),
     ("garden", "Garden Centers", "🌱", {"Garden Center / Greenhouse"}),
     ("wineries", "Wineries", "🍷", {"Winery"}),
-    ("shops", "Shops & Grocers", "🛒", {"Grocery Store", "Farm Store", "Bakery"}),
+    ("shops", "Shops & Grocers", "🛒", {"Grocery Store", "Farm Store", "Bakery", "Food Maker"}),
     ("dining", "Restaurants & Caterers", "🍽️", {"Restaurant", "Caterer"}),
     ("wholesale", "Wholesale & Food Hubs", "📦", {"Wholesale Grower", "Food Hub"}),
     ("assistance", "Food Assistance", "🥫", {"Food Bank", "Community Food Hub", "Organization"}),
