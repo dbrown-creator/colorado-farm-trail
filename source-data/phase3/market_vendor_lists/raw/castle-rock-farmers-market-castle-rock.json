@@ -1,0 +1,12 @@
+{
+ "slug": "castle-rock-farmers-market-castle-rock",
+ "market": "Castle Rock Farmers Market",
+ "city": "Castle Rock",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "dead",
+ "notes": "DNS failure (agent + manual); search snippet hints ~22 featured vendors on homepage.",
+ "vendors": []
+}

@@ -1,0 +1,12 @@
+{
+ "slug": "carbondale-farmers-market-carbondale",
+ "market": "Carbondale Farmers' Market",
+ "city": "Carbondale",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "no",
+ "vendor_list_url": "http://www.carbondalefarmersmarket.com/2026vendors",
+ "list_season": null,
+ "site_status": "live",
+ "notes": "2026 Vendors page still shows \"Coming Soon!\" for both Seasonal and Drop In vendors. The /2023-vendors URL returns the same 2026 page (identical content), so no stale list exists there.",
+ "vendors": []
+}

@@ -1,0 +1,1237 @@
+{
+ "slug": "durango-farmers-market-durango",
+ "market": "Durango Farmers Market",
+ "city": "Durango",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.durangofarmersmarket.com/vendors",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Vendors page embeds a MarketWurks profile list (2026 season) with categories; includes artisans, informational booths, services and sponsors alongside farms/food. Duplicate 'Good Food Collective' entry listed once.",
+ "vendors": [
+  {
+   "name": "4 Corners Worm Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Raising Red Wigglers and Night Crawlers, Worm Castings, Seed Starter Mix, Wool Pellets and Worm Farm Kits Providing education and supplies for those wanting to turn their waste products into living so"
+  },
+  {
+   "name": "Adobe House Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Adobe House Farm is a Certified Organic mixed veggie farm located in the Animas Valley by Trimble. We specialize in tomatoes, greens, cucumbers, peppers, basil, herbs and healthy soils!"
+  },
+  {
+   "name": "Anatolian Farms LLC",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "We are Anatolian Farms of Mancos, CO and we offer a wide variety of organically-grown heirloom produce, plant starts, dried herbs/spices, seasonal chile roasting and smokable hemp flower."
+  },
+  {
+   "name": "Animas Botanicals",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Animas Botanicals crafts quality herbal products that brings vitality to individuals, humanity, and the earth. Animas Botanicals is on a farm nestled in the Animas River Valley in Colorado. We utilize"
+  },
+  {
+   "name": "Animas Valley Lavender",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Animas Valley Lavender LLC is a small, family-owned lavender farm and artisan apothecary founded in 2023. We grow, harvest, and distill our own lavender to create handcrafted products including lip ba"
+  },
+  {
+   "name": "Aster Valley Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Aster Valley Farm is a native plant nursery located in Durango, Colorado. Our mission is to strengthen ecological communities and their relationship with people in the Four Corners region. Native plan"
+  },
+  {
+   "name": "Big Ben's Meats",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "I'm a 7th generation cattle rancher in La Plata, San Juan, and Archuleta county. We raise grain-finished beef. Along, with the beef. We provided grain-finished options for both the lambs, and goats as"
+  },
+  {
+   "name": "Botanical Companions",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Botanical Companions grows premium microgreens in Mancos, CO and is a proud provider of this tasty superfood since 2017! Our mission is to make nutrition & flavor easy for everyone with nutrient-dense"
+  },
+  {
+   "name": "Bountiful Ridge Farm, LLC",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "We are a multi-faceted family farm located in Southwest Colorado. We raise a variety of crops that are grown using sustainable and holistic methods. This by default means we grow organically. Our farm"
+  },
+  {
+   "name": "Breen Mesa Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Regenerative micro goat dairy - Sharing booth space with Durangoats"
+  },
+  {
+   "name": "Destiny Botanicals",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Destiny Botanicals is a small, chemical free, family-owned farm producing Mushrooms, Mushroom Tinctures, Honey, Flowers, & hemp-based medicines & cosmetics"
+  },
+  {
+   "name": "Durango Lettuce",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Durango Lettuce is a small urban hydroponic lettuce grower. I grow heads of lettuce. All heads of lettuce still have the roots still attached."
+  },
+  {
+   "name": "Fields to Plate Produce",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Fields to Plate Produce was founded in 2013 by Max Fields while he was pursuing a degree in Agriculture at Fort Lewis College. During his studies, Max met Professor Beth LaShell, who had launched the "
+  },
+  {
+   "name": "Fresh Start microgreens",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Fresh start here in Ignacio Colorado with fresh plants loaded with nutrition."
+  },
+  {
+   "name": "Gordanier Ranch",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "At Gordanier Ranch , we are a family-owned ranch dedicated to raising local, home-grown quality beef in Southwest Colorado. We take pride in responsibly raising our cattle with a focus on quality, car"
+  },
+  {
+   "name": "Green Table Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "We grow vegetables, fruit, eggs and meat in the beautiful Mancos Valley of Colorado."
+  },
+  {
+   "name": "GRIGGSTEAD LLC",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "At 7,400 feet in Hesperus, Colorado, Griggstead is a family- and veteran-owned homestead specializing in pasture-raised poultry and biodynamic regenerative agriculture to bring you nutrient dense REAL"
+  },
+  {
+   "name": "Homegrown Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Homegrown Farm is a small-scale, family-owned vegetable farm located in Bayfield, CO. We have been growing food for our beloved community since 2007."
+  },
+  {
+   "name": "Horvath Honey",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Horvath Honey is a locally owned small business founded in 2016 by a 4th generation local farmer, Ray Horvath and his mom, Frances. As the business is a family affair, Dale works hard to support the d"
+  },
+  {
+   "name": "Humble Fungi",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Humble Fungi is a small farm focused on growing different varieties of mushrooms. We are a husband and wife team passionate about mushrooms and their importance in diet, medicine, and the environment."
+  },
+  {
+   "name": "Juniper Junction Ranch",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Juniper Junction ranch is a 107 acre ranch in central Montezuma county Colorado, which produces pasture raised chickens using local grains and legumes, minimum till garlic, and rotationally grazed, gr"
+  },
+  {
+   "name": "La Plata Lavender",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "La Plata Lavender was founded in 2019 on our family ranch near Bayfield, Colorado. We grow eighteen different cultivars, each carefully selected for success in our high country environment. Each culti"
+  },
+  {
+   "name": "Leafcutter Farms Mushrooms",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "At Leafcutter Farms we specialize in growing organic nutrient-dense gourmet mushrooms. Our name inspired by the Leafcutter Ant, pays homage to this remarkable insect's practice of growing their fungal"
+  },
+  {
+   "name": "Leaning Tree Farms",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Welcome to Leaning Tree Farms, a family tradition built on hard work and a deep commitment to quality. Our story begins with Don and Rosalie Knight, whose shared values of grit, integrity, and respect"
+  },
+  {
+   "name": "Lilybee Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "LilybeeFarm was established in 2017 with just a few hives at our farm in Ignácio. We have grown to four outyards with 40 hives that we can shower with our love and provide them with the best care poss"
+  },
+  {
+   "name": "Long Table Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Long Table Farm is a diversified vegetable and flower farm growing on less than an acre in the high desert of southwest Colorado. We strive to provide our community with the highest quality chemical f"
+  },
+  {
+   "name": "Los Miramontes Lavender Farm by Sunrise Ct Gardens LLC",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "We are a lavender farm in Cortez Colorado and we make mostly lavender inspired products. We have a line of culinary delights as well as bath and body products designed to make everything in the world "
+  },
+  {
+   "name": "Mesa Lamb & Wool",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Navajo-churro sheep, grass-fed from start to finish on Southern Ute land. Lamb & mutton meat, hides, wool, and dye flowers. Wool hand spinning demonstration. Some perennials for your garden."
+  },
+  {
+   "name": "Mesa Verde Lavender",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Mesa Verde Lavender is a family-run lavender farm rooted in the high-desert landscape near Mesa Verde National Park in Southwest Colorado. What began with a small planting of culinary lavender has gro"
+  },
+  {
+   "name": "Miel del Sol, LLC or Bee-Orn Apiaries",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Local Comb Honey and Honey without comb, 100% local blocks of beeswax. Hives not moved for pollination and located along Animas and San Juan River drainages near Farmington New Mexico and Durango Colo"
+  },
+  {
+   "name": "Mocking Crow Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Small market farm south of Durango along the Animas River growing a variety of vegetables, garlic, sunflowers and other cut flowers. We use organic methods along with some regenerative farming practic"
+  },
+  {
+   "name": "Offbeat Family Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Offbeat Family Farm employs sustainable methods to grow fresh vegetables, cut flowers, and herbs on 2 acres in Aztec, NM. Customers can purchase our products at the Durango Farmers' Market and by spec"
+  },
+  {
+   "name": "Pink Paintbrush Flower Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Pink Paintbrush is a boutique flower farm in Dolores, Colorado, growing whimsical garden blooms that mimic the wildflower meadows of the San Juan Mountains. Guided by Mother Nature, flowers are grown "
+  },
+  {
+   "name": "Rattlesnake Gulch Farm and Fertilizer",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "At Rattlesnake Gulch Family Farm, We use organic and regenerative techniques to ensure we are growing happy plants, harvesting healthy foods, and being kind to our soil and lands. We are honored to se"
+  },
+  {
+   "name": "River Otter Farms",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "River Otter Farms provides well-loved organic vegetables to our community. Located on the Florida Mesa, this farm is in it's second year of being a lucrative growing adventure. This farm is enamored b"
+  },
+  {
+   "name": "Rohwer's Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Rohwer's Farm is a family run farm located in the High Dessert area North of Cortez. We grow using organic methods (not certified) and try to grow as many heirlooms as possible. With our 3 high tunnel"
+  },
+  {
+   "name": "Sage Spring Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "marketing frozen lamb meat sheep wool fibers"
+  },
+  {
+   "name": "Sisson Ranch Goods",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Sisson Ranch Goods providing quality Ranch Goods and Services."
+  },
+  {
+   "name": "Stone Free Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Produce grower"
+  },
+  {
+   "name": "Summit Roots Farm",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Summit Roots Farm, founded in 2013, is a small family farm located at 7100 feet, 5 miles Southeast of Dolores Colorado. Our Practices: We use bio-intensive methods to build soil and maximize yields We"
+  },
+  {
+   "name": "Swiger Family Farms",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "Swiger Family farms Is a small farm based out of Palisade CO. The owner Jeremy Swiger has been selling Palisade peaches in Durango for the last 19 years. As the business grew in Durango we saw a need "
+  },
+  {
+   "name": "The Farmstead",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "We are a small scale farm in Montezuma County, raising pastured Pork and Chicken using organic practices. We also bake and sell fresh cinnamon rolls and sourdough breads and treats."
+  },
+  {
+   "name": "Turtle Lake Refuge",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "We are a non-profit whose mission is to celebrate the connection between personal health and wild lands. We grow local microgreens year round, have a bi-weekly cafe, commercial kitchen where we make w"
+  },
+  {
+   "name": "Vital Beauty Gardening",
+   "list_category": "Agricultural / Hemp (Agrícola / Cáñamo)",
+   "location_stated": null,
+   "description_stated": "We are an Environmental and Community Conscious Landscaping and Gardening company with an emphasis on permaculture, homesteading and Native landscaping techniques. It is our wish to help empower our c"
+  },
+  {
+   "name": "A Little Twisted",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "A Little Twisted is a self taught jeweler, artist, maker, creator and explorer. As a silversmith and fledgling lapidary artist, I draw inspiration from the colors and shapes of the rocks I find to cre"
+  },
+  {
+   "name": "Allysia Brooke Designs",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Intentional sterling silver jewelry rooted in Art Deco influence and artisan craftsmanship. Brass and copper accents balance affordability with warmth and dimension. Textural statement seed bead fring"
+  },
+  {
+   "name": "Alpine Glassworks",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Handmade stained glass artwork inspired by nature and the wild outdoors. Aubrey is an environmental educator and is passionate about sharing the magic of the natural world through her creative work. L"
+  },
+  {
+   "name": "Alpine Tide Jewelry co",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Hi my names Jayda Arguelles, I started silversmithing two years ago and fell in love with it. I make Jewelry inspired by the ocean and beautiful mountains. Cuffs, pendants, rings and earrings! I am or"
+  },
+  {
+   "name": "Andrea Jewelry",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Andrea Jewelry is a Durango-based, geologist and Latina-owned handmade jewelry business. I create delicate, unique pieces using natural gemstones, silk knotting, and wire-wrapping techniques with qual"
+  },
+  {
+   "name": "Animas Glow Studio, LLC",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Handcrafted jewelry created in Durango, Colorado, inspired by the enchanting landscapes of the Southwest. Each unique piece is meticulously designed in my studio with sterling silver, 14k gold-filled,"
+  },
+  {
+   "name": "Beeware Ceramics",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "I make refined pottery that sparks delight. Vessels are a manifestation of dreams and hold meaning that goes beyond pure appearance. The tactile way clay moves and the puzzling of patterns is a game w"
+  },
+  {
+   "name": "Belle and the Bear",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Belle and the Bear celebrates everything boho and feminine. She uses fiber arts, such as macrame and punch needle embroidery, to create accessories, home decor, and all things female empowerment—from "
+  },
+  {
+   "name": "Byers Ranch Apothecary",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Byers Ranch Apothecary is a small-batch botanical skincare and herbal wellness brand rooted in the mountains of Durango, Colorado. Each product is handcrafted on our family homestead using a blend of "
+  },
+  {
+   "name": "Canyon Sewing",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Canyon Sewing is a small custom and production capable shop located in Dolores Colorado. Everything we produce is done in our Dolores shop, from start to finish. We, the owners Jackie and Andrew, have"
+  },
+  {
+   "name": "CH Wood Working",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Handmade cutting boards, serving trays, and charcuterie boards."
+  },
+  {
+   "name": "Charleaux Designs",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Chris Vicari is a Colorado-based artist and designer and the founder of Charleaux Designs, a studio creating artful goods for home, desk, and day-to-day. Drawing on nostalgia for childhood—simple plea"
+  },
+  {
+   "name": "Charmingly Crafted",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "A mother daughter locally owned business providing handmade seed bead jewelry as well as stones embraced in copper, silver & golden wires."
+  },
+  {
+   "name": "Clay by Dre",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Unique hand made pottery inspired by the Southwest, using fun carving and glazing designs."
+  },
+  {
+   "name": "damselfly organic clothing",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Damselfly is a one woman owned organic clothing line grown in the mountains of Colorado for approximately 15 years! Designs are 100% original made from premium organic textiles. We advocate for sustai"
+  },
+  {
+   "name": "Desert Moon Jewelry Co.",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Clara LeMoyne is a Durango, CO-based jewelry maker and designer. Her jewelry draws on many inspirations---the colors of her childhood in Miami, the energy of New York City, the moments of inspiration "
+  },
+  {
+   "name": "Dustin Cook Design",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Dustin Cook is an abstract painter based in Durango, Colorado working in acrylic on large-scale canvases. His paintings explore the beauty of blending colors in a structured abstract style, creating a"
+  },
+  {
+   "name": "DWolf Designs",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Deb Wolf, owner of DWolf Designs Fine Art & Custom Framing LLC is a Painter and framer from Durango, Colorado. Her work is primarily comprised of landscapes and mountain terrain in the Southwest Unite"
+  },
+  {
+   "name": "Earthfired Pottery",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Hand crafted, functional pottery for everyday use. Uniquely wheel thrown, handbuilt and created with attention to detail. Images of farm animals, snowy mountains, aliens, forest scenes, vegetables, wi"
+  },
+  {
+   "name": "Fiddling Potter Studio",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "I have been a functional potter for decades; making bowls , mugs, & serving dishes using stoneware clay. I am also a plein air painter in pastels, as well as a photographer."
+  },
+  {
+   "name": "Fox Willow Studios",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Fox Willow Studios is an evolving family-owned art business dedicated to hand crafting original, high-quality artwork rooted in craftsmanship and creativity. Drawing on the varied skills, perspectives"
+  },
+  {
+   "name": "Gambel Oak Designs",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Gambel Oak Designs brings the intricate details of the natural world to life through the craft of linocut block printing. Founded by local artist Kira Cunningham, each piece—from organic cotton tea to"
+  },
+  {
+   "name": "Haiku Moving Company",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "I am a one woman show. I embroider and sew many handmade items."
+  },
+  {
+   "name": "hannah wilson art",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Hannah Wilson is a Durango, Colorado based artist, who has been painting landscapes for the past nine years. Hannah captures the adventure, wonder and energy of surrounding landscapes she has experien"
+  },
+  {
+   "name": "Hannah's Soulful Arts",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Hannah's Soulful Arts creates and sells original acrylic and pastel art as well as high quality prints of any of the original designs. We print blank greeting cards, calendars and has a self-published"
+  },
+  {
+   "name": "Hello Luna Creative",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Handmade sterling silver jewelry that is made with intention."
+  },
+  {
+   "name": "Holmesmeyer Artisans",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "During Covid, before my husband and I met, I started making polymer clay jewelry and he started making candles. When we met we started creating together and have ever since."
+  },
+  {
+   "name": "Jenn Rawling Art",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Jenn Rawling is a studio artist who creates colorful images with universal storylines expressing resilience and interconnection. Her themes radiate reverence for the natural world, kinship with plants"
+  },
+  {
+   "name": "Jessica Nielsen Studios",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Jessica Nielsen Studios is a multidisciplinary art studio focused on fine art, including ceramics and mixed media paintings and drawings. Jess has been a multidisciplinary freelance artist for over 20"
+  },
+  {
+   "name": "Lil Bud Designs LLC",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Lil Bud Designs is a Durango-based art studio created by Matt Clark, specializing in handmade collage artwork rooted in vintage print culture and Western Americana. Each piece is built using imagery s"
+  },
+  {
+   "name": "Love Lucky Dog",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Love Lucky Dog makes fun dog toys and accessories with festive fabrics that look great scattered across the floor or on your stylish pup. Our Ruff Ropes, Buddy Bears, stuffed toys, cozy fleece vests, "
+  },
+  {
+   "name": "Lucky Duck Pottery",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "We are Brandie and John Bradford, two Cortez CO based potters. We create functional and decorative pottery. Each piece is thrown on a wheel and finished in our kilns by us."
+  },
+  {
+   "name": "Mel K. Olrich Art",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Mel is a self-taught mixed media painter and illustrator based in Durango, Colorado. Her work is largely influenced by the Four Corners region and the San Juan mountains, as well as contemporary Weste"
+  },
+  {
+   "name": "Mend Metalworks",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Mend Metalworks is a small batch jewelry studio based right here in Durango. I hand fabricate sterling silver and natural stone jewelry inspired by wild landscapes, movement, and the human experience."
+  },
+  {
+   "name": "Moonbeam Art and Design",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Olivia Trim is a Durango based artist, who draws on her experiences in the wilderness to create fun, vibrant and thoughtful nature-inspired paintings. She uses watercolor and acrylic paints to capture"
+  },
+  {
+   "name": "MTB Jibs LLC",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Having Fun on Bikes! We make custom tufted rugs as well as second hand apparel that we screen print, sew, and embroider."
+  },
+  {
+   "name": "Native Heritage Apothecary",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Native Heritage Apothecary's mission is to connect people to nature by providing ethically-sourced herbal goods & holistic health services. We believe in empowering our community to reclaim its innate"
+  },
+  {
+   "name": "New Season",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "New Season - Petals and Pottery is where soil and craftsmanship meet. From carefully tended flower fields to wheel-thrown pottery, every piece reflects the quiet beauty of nature and the artistry of t"
+  },
+  {
+   "name": "Nolan’s Pots",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Nolan McPherson is a ceramic artist and educator based in Durango, Colorado, whose work explores human interaction and routine. Nolan holds a BA in Art K-12 Education and Studio Art at Fort Lewis Coll"
+  },
+  {
+   "name": "ONE UNIQUE PIECE/SILVER STATION, INC",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "I create one-of-a-kind unique items for personal use or as gifts and/or souvenirs. Several items are locally inspired and made with collaborative efforts with other local artisans/designers/merchants."
+  },
+  {
+   "name": "Peter Flamm, formerly known as Canyon Rugs, LLC",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "I sell original paintings, (watercolors and oil pastels), prints of photographs, photographs of paintings, all of local landscapes of Southwest Colorado, (most in La Plata or San Juan Counties) and ab"
+  },
+  {
+   "name": "Ravira Studio",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Ravira Studio was founded by two cousins united by a lifelong love of art and a shared passion for creating with their hands. What began as a creative bond grew into a studio devoted to crafting thoug"
+  },
+  {
+   "name": "Red Cliff Designs",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Living in the Animas Valley, the Hermosa red cliffs are my view and inspiration. All the stones I work with were sourced by either myself or a family member. I use lapidary arts to tumble, slice, grin"
+  },
+  {
+   "name": "Rogue Goat Soaps",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "We pride ourselves on being locally sourced, sustainable and handcrafted here in the Four Corners. At Rogue we are not fancy, we are just really good at making amazing quality goats milk soaps, lotion"
+  },
+  {
+   "name": "Rooted Resin",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "I create jewelry, home decor, office decor, business signs, and custom gifts, all using epoxy resin and real pressed flowers."
+  },
+  {
+   "name": "Siren in Suspenders Sewn Goods",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Siren in Suspenders Sewn Goods is a Durango-based maker of rugged, thoughtfully constructed totes and body bags built from locally salvaged materials. Each piece is designed and sewn with durability, "
+  },
+  {
+   "name": "SRM",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "SRM is a handcrafted epoxy resin art business specializing in jewelry, functional home décor, and custom statement furniture. Every piece is thoughtfully designed and carefully poured by hand, preserv"
+  },
+  {
+   "name": "Steel Fire Studio LLC",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Artistic Steel Logs that set on top of gas fire pits that provide the benefit of radiant heat!"
+  },
+  {
+   "name": "Stone Gypsy",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Stone Gypsy is a handmade jewelry business specializing in gemstone bracelets, necklaces, and malas. Each piece is crafted by Catherine using high-quality gemstones and locally sourced materials whene"
+  },
+  {
+   "name": "Stone Repose Metalworks",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "I make handcrafted jewelry using metalsmithing techniques and I source stones that are mined in the US, primarily Nevada and Arizona. I have lived in many locales in the Southwest and am inspired by i"
+  },
+  {
+   "name": "Studio451Jewelry",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Handcrafted Jewelry made from copper, brass and sterling silver. Earrings, necklaces, bracelets, rings."
+  },
+  {
+   "name": "Suzanne Alores",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Suzanne Alores offers unique handmade crocheted clothing and household items created from natural fibers such as cotton, silk, hemp, linen, alpaca, angora and wool. Local suppliers for natural fibers "
+  },
+  {
+   "name": "Tempist Jade",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Handmade beaded adornments for everyday and ceremonial wear"
+  },
+  {
+   "name": "The Flying Hatter",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "The Flying Hatter is a woman- owned business specializing in traditional hat-making techniques. With our studio based in Durango, Colorado we focus on sustainable sources for all of our materials, in "
+  },
+  {
+   "name": "The Hidden Hand Candle Co.",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Using both natural soy and coconut waxes, I reuse vintage glass containers and create beautiful, handmade, natural, long burning wooden wick candles that are one of a kind."
+  },
+  {
+   "name": "True Radiance",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "We source regenerative beef fat and local and organic ingredients to create tallow body butter products for your softest skin ever!"
+  },
+  {
+   "name": "Turtle Lake Country Gardens",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Handcrafted dried flower designs created from an abundant selection of flowers cultivated in my garden, harvested then air dried, along with a variety of foraged botanicals. The dried flowers are crea"
+  },
+  {
+   "name": "Tuscan Sun Boutique",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Handmade necklaces, earrings, and home decor made with real dried botanicals and other inclusions set in epoxy resin. Plus, high-quality 3D printed toys, figurines, and home decor, printed all from ou"
+  },
+  {
+   "name": "Wild Studio Art",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "Wild Studio creates visual and functional art that captures the power of the earth and shares the adventure that nature offers. Creations include original watercolor and acrylic paintings, polymer cla"
+  },
+  {
+   "name": "Wize Owl Handprints",
+   "list_category": "Artisan (Artesano)",
+   "location_stated": null,
+   "description_stated": "I am a block printmaker who has lived in this area for 34 years and have been a printmaker for 40 years. My work is based on the Southwestern landscape, wildlife and plants found in our wilderness are"
+  },
+  {
+   "name": "Adaptive Sports Association",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The Adaptive Sports Association is a non-profit organization whose mission is to provide outdoor, sport and recreational experiences for people with disabilities. These activities are provided regardl"
+  },
+  {
+   "name": "Axis Health System",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Axis Health System is an integrated healthcare system that provides primary care, oral health care, and behavioral health care services. Visit our booth for information on our services, to receive nal"
+  },
+  {
+   "name": "Bike Durango",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Bike Durango is our town's advocacy organization for bicycle commuting and alternative transportation for vulnerable road users. We advocate, educate and inspire more folks to ditch their cars and use"
+  },
+  {
+   "name": "Colorado Parks and Wildlife",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "​The mission of Colorado Parks and Wildlife is to perpetuate the wildlife resources of the state, to provide a quality state parks system, and to provide enjoyable and sustainable outdoor recreation o"
+  },
+  {
+   "name": "Durango Arts Center",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The Durango Arts center is home to all ages fine art classes and theater. We host community events and provide access to the arts for the four corners region."
+  },
+  {
+   "name": "Durango Botanic Gardens",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Durango Botanic Gardens are the volunteer organization that maintains the gardens around the Durango library for demonstration, education and inspiration to the community of Durango."
+  },
+  {
+   "name": "Durango Magazine",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Durango Magazine is for people who love Durango. With award-winning excellence in design and a high-quality, standard-size magazine format, the publication is consistently attractive and compelling. I"
+  },
+  {
+   "name": "Durango PlayFest",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Durango PlayFest empowers playwrights by providing a collaborative environment to develop new work with professional actors and directors, culminating in thought-provoking play readings and talkbacks "
+  },
+  {
+   "name": "Durango Public Library",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The Durango Public Library enriches the community by providing an environment where information abounds, ideas flow, and imagination thrives."
+  },
+  {
+   "name": "Durango Wild Soul",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Durango Wild Soul is a local non-profit nature connection organization. Through our multi-age programs, we provide rich, holistic, nature-based experiences rooted in indigenous and ancestral wisdom, t"
+  },
+  {
+   "name": "Earth Law Center (and Fort Lewis College)",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The Earth Law Center is an international ecocentric law firm based out of Durango. We work to give nature a voice in the legal system. We are proud to have co-created the first ever Board Seat for Nat"
+  },
+  {
+   "name": "Fort Lewis College Performing Arts Department",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Fort Lewis College Performing Arts theatre and music department provide first class music recitals, and theatre musical productions."
+  },
+  {
+   "name": "Four Corners Gem and Mineral Club",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The Club is a nonprofit organization dedicated to the earth sciences, local geology and mining history, as well as rock hounding, lapidary and metalsmith arts. We offer an annual gem show, and the onl"
+  },
+  {
+   "name": "Friends of the Durango Public Library",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The Friends of the Library is a non-profit organization that engages in fundraising activities on behalf of the Durango Public Library. The community's financial support helps us encourage literacy fo"
+  },
+  {
+   "name": "Good Food Collective",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The good food collective is working on their eat local campaign which is designed to increase the connection between local producers and consumers. We have two main goals for the season including: hel"
+  },
+  {
+   "name": "Habitat for Humanity of La Plata County",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Habitat for Humanity of La Plata County is a nonprofit organization dedicated to building strength, stability, and self-reliance through affordable homeownership. We partner with local families, volun"
+  },
+  {
+   "name": "La Plata County Emergency Management",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "La Plata County Emergency Management provides critical emergency alerts during fires and other emergencies, including evacuation orders. We have recently switched from the CodeRED emergency alerting s"
+  },
+  {
+   "name": "La Plata County Extension Master Gardeners",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The mission of Extension is to provide information and education and to encourage the application of research-based knowledge in response to local, state and national issues affecting individuals, you"
+  },
+  {
+   "name": "La Plata County League of Women Voters",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The League of Women Voters is a nonpartisan political organization encouraging informed and active participation in government. It influences public policy through education and advocacy. We never sup"
+  },
+  {
+   "name": "La Plata County-Living With Wildlife Advisory Bopard",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "We are a non profit. Our mission is to educate the public how to safely live with wildlife and to protect wildlife in La Plata County. We usually team up with Colorado Department of Wildlife for tents"
+  },
+  {
+   "name": "La Plata Electric Association",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "La Plata Electric Association (LPEA) is a member-owned, not-for-profit electric cooperative serving local communities in southwestern Colorado. Beginning April 1, 2026, LPEA will complete a transition"
+  },
+  {
+   "name": "La Plata Family Centers Coalition",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The La Plata Family Centers Coalition provides direct support to families: utility assistance, on-site food pantry, diapers, formula, children’s clothing closet, community gardens and farm. In additio"
+  },
+  {
+   "name": "Pathfinder Chiropractic",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "We are a Neurological-Based Chiropractic Office located in Durango. We provide free neurological scans and nervous system education to the community through our Community Outreach Program!"
+  },
+  {
+   "name": "Planned Parenthood of the Rocky Mountains",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Planned Parenthood of the Rocky Mountains (PPRM) serves Colorado, New Mexico, and Wyoming providing compassionate, high-quality sexual and reproductive health care; non-judgmental and culturally-compe"
+  },
+  {
+   "name": "Project Healing Waters Fy Fishing",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "PHWFF is a national organization serving disabled veterans to assist in enriching their lives through camaraderie and group activities. The local chapter/club reaches participants in the Four Corners "
+  },
+  {
+   "name": "San Juan Basin Archeological Society",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The booth will be used to discuss the goal of our group . . . Promoting public awareness and preservation for archeological, historical, and cultural resources of the American Southwest since 1979. We"
+  },
+  {
+   "name": "San Juan Symphony",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The San Juan Symphony is the professional regional orchestra of the Four Corners, serving Southwest Colorado and Northwest New Mexico through inspiring live performances and educational enrichment pro"
+  },
+  {
+   "name": "SOIL Outdoor Learning Lab",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "SOIL Outdoor Learning Lab, a project of Durango School District, provides garden and science education to DSD students and the community."
+  },
+  {
+   "name": "Solar Barn Raising",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Solar Barn Raising is a community emPOWERed, education driven, solar installer. Operating throughout the Southwest, SBR combines technical expertise with volunteer engagement to educate the community "
+  },
+  {
+   "name": "Southwest Regional Emergency & Trauma Advisory Council, LLC (SWRETAC)",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "SWRETAC’s is a non-profit organization that represents regional EMS agencies and our hospitals to support initiatives that improve emergency and trauma services. Our vision is to develop a collaborati"
+  },
+  {
+   "name": "Southwest Sierra Club",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "Sierra Club is the oldest, most influential nonprofit grassroots environmental organization in the nation. We are powered by volunteers. Our motto is Explore, Enjoy & Protect. We have outings to get p"
+  },
+  {
+   "name": "The Powerhouse",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The Powerhouse is Southwest Colorado’s STEAM engine empowering curious young learners through interactive experiences, inquiry, and play Everyone who walks through our doors is captivated by the exhib"
+  },
+  {
+   "name": "TheMakerLab.org",
+   "list_category": "Informational Booth (Puesto informativo)",
+   "location_stated": null,
+   "description_stated": "The MakerLab is a community-led makerspace in Southwest Colorado dedicated to providing a collaborative workspace, tools, equipment and resources to makers and artists in the area. We have a metal sho"
+  },
+  {
+   "name": "Anatolian Roasters",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "We are Anatolian Farms offering the service of roasting green chiles as Anatolian Roasters. We'll be roasting Colorado-Grown green chiles of varying heat levels to ensure green chile roasting continue"
+  },
+  {
+   "name": "Camp Town Ladies",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "We at Camp Town Ladies snacks and teas for the hungry hiker wanting to take homemade goods out on the trail or to simply enjoy while strolling around the market. We make new flavors and varieties week"
+  },
+  {
+   "name": "Cardinal Coffee",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Mobile coffee trailer"
+  },
+  {
+   "name": "Centaur Snack Co",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Centaur Snack Co focuses on paleo/ grain free snacks using clean/ high quality ingredients. These snacks are for health conscious individuals who care about what goes into their body. Intended to prov"
+  },
+  {
+   "name": "Chihuas burguer",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Hamburguesas y hotdog caseros con productor frecos locales"
+  },
+  {
+   "name": "Cloud Forest Cacao, LLC (formerly Beans and Berries)",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Our food collective brings exceptionally high quality ceremonial and medicinal superfoods to our customers. We primarily focus on cacao as our primary ingredient for making small batch, artisan produc"
+  },
+  {
+   "name": "Cow Camp Kettle Corn",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "At Cow Camp Kettle Corn , we bring the flavor and tradition of old-fashioned kettle corn to farmers markets, rodeos, and community events across Southwest Colorado. Our kettle corn is freshly hand-pop"
+  },
+  {
+   "name": "Durango Natural Foods Deli",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Located inside of the Durango Natural Foods Co-op, the DNF Deli offers a wide array of breakfast, lunch, dinner, and grab-n-go items. We use exclusively the best organic or natural ingredients, dubbin"
+  },
+  {
+   "name": "EsoTerra Inc",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "EsoTerra is North America's highest elevation estate winery located 15 minutes south of the Durango Farmer's Market. We have 250 varieties of apple trees planted in conservatio[n and over 50 varieties"
+  },
+  {
+   "name": "Fenceline Cider",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Rooted along the upper tributaries of the Colorado River, Fenceline was founded with a curiosity and admiration for wild and historic apples. Reviving the region’s cider traditions, our cider is craft"
+  },
+  {
+   "name": "Graze Colorado",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Graze Colorado is a locally owned charcuterie, bakery and bistro based in Durango, built around one simple idea: celebrate the incredible producers of Southwest Colorado. We proudly source as close to"
+  },
+  {
+   "name": "Hoopla Ice Cream",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Hoopla Ice Cream is a mobile ice cream trailer bringing a playful, flavorful experience directly to your favorite events, local pop-ups, emphasizing creativity, quality, and fun. At the heart of our a"
+  },
+  {
+   "name": "Longdoo co",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Handmade Asian Bakery and treats. We make make Asian bakery, milk teas, boa buns, dumplings. We specialize in Japanese Milk Bread."
+  },
+  {
+   "name": "Love 'N Juice",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "We are healthy & fresh cold pressed juices & wellness shots from fresh fruits & local vegetables. We also offer smoothies, delicious acai bowls with fresh fruits local toppings. Juicing has become inc"
+  },
+  {
+   "name": "Luv Box LLC DBA Luv Tempeh",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "We make artisan handmade small batch living soy-free tempeh & other fermented foods in Durango, Colorado. We use mostly organic ingredients and Colorado-grown when possible. Tempeh has a meaty texture"
+  },
+  {
+   "name": "Malu’s Kitchen",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Food vendor serving local farmers market produce"
+  },
+  {
+   "name": "Mazí",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "We are Mazi! Mazi is Greek for \"together.\" In it's original concept, Mazi is an evening cafe that provides a third place for the Durango community. Mazi offers multicultural hot beverages and cocktail"
+  },
+  {
+   "name": "Mighty Mike's Foods",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Mighty Mike's Foods was born in Colorado in 2016, and was the winner of the 1st ever Food Edition of Trout Tank put on by the Denver SBCA. Mighty Mike's made organic Kale Chips, Broccoli Crunchers and"
+  },
+  {
+   "name": "Mountain Stir Fry",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Mountain Stir Fry sources local and organic ingredients to create healthy, delicious food to nourish the community."
+  },
+  {
+   "name": "Munch Munch Bakery",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "We are a home bakery that started in 2023. We provide delicious cookies, quick breads, croissants, and more! We rotate flavors depending on the season and what is locally available."
+  },
+  {
+   "name": "Neighborhood Coffee Co.",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Neighborhood Coffee Co is a mobile coffee bar that specializes in community gatherings, festivals, markets, and private events. We use high quality, local ingredients and house made syrups to create s"
+  },
+  {
+   "name": "Odd Bird Baking Co.",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Odd Bird is a small-batch craft bakery that focuses on cakes, pies and pastries that are seasonally and locally inspired. All elements are scratch-made and curated to provide a memorable food experien"
+  },
+  {
+   "name": "Old Myth Chocolates LLC",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Locally made bean-to-bar chocolate with beans sourced from Belize and Haiti. Truffles of unique flavors staring ingredients from local businesses!"
+  },
+  {
+   "name": "Peaks Pie",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Artisanal handmade pies using local, seasonal, and organic ingredients to capture the beauty of fresh food. No Corn Syrup or Corn Starch. Cottage industry home bakery."
+  },
+  {
+   "name": "Pupuseria Torogoz",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Pupuseria Torogoz specializes in pupusas (handmade corn tortillas stuffed with variety of delicious ingredients it also include sides like tomato sauce and curtido - a tangy pickled cabbage slaw) refl"
+  },
+  {
+   "name": "Serious Delights",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Family owned and operated bakery. Hand crafted bread and other delightful baked goods, made from scratch everyday."
+  },
+  {
+   "name": "Shelby Shakes",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Shelby Shakes saves grains from local breweries in Durango (Steamworks & Carvers) and upcycles them into delicious granola! Made of “spent” barley, wheat, and oats, our rescued grain base is lower in "
+  },
+  {
+   "name": "Ska Brewing Company",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "It takes characters to brew beer with character. Brewing the finest suds in the Four Corners since 1995."
+  },
+  {
+   "name": "Sunbird",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Sunbird's shrubs and fruit-infused vinegars are handcrafted in Dolores, CO. Our shrubs are made in small batches using all raw, organic apple cider vinegar, locally harvested fruit, and herbs that hig"
+  },
+  {
+   "name": "Sutcliffe Vineyards",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Our grapes are grown at the Sutcliffe & Castillo vineyards in McElmo Canyon. And additionally purchased from select growers in Palisade, CO. We also make wine in Paso Robles, CA under the direction of"
+  },
+  {
+   "name": "The Durango Pickle Guy",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "I started making my pickles in august of 2024, and what began as a hobby very quickly ran away from me! I was lucky enough to be able to do some R.N.D. at Esoterra Ciderworks, and have 3 regular varie"
+  },
+  {
+   "name": "Them Cakes, Dough Bakery & Catering",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Them Cakes, Dough Bakery & Catering is an Asian fusion bakery and food trailer. We offer a large assortment of baked goods all made from scratch, including bagels, cinnamon rolls, flavored rolls, stuf"
+  },
+  {
+   "name": "Tortilleria La Flor",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Made fresh daily corn flour tortillas Authentic Mexican food, mexican products… family own business"
+  },
+  {
+   "name": "Uncle's Fixins",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Local food truck providing delicious homemade foods, drinks and desserts. Our mantra is perfecting the art of comfort food..."
+  },
+  {
+   "name": "Wordplay Coffee",
+   "list_category": "Ready to Eat Food or Beverage (Alimentos o bebidas listas para consumir)",
+   "location_stated": null,
+   "description_stated": "Wordplay Coffee is a mobile coffee cart inspired by specialty coffee, creative conversations, and good books. We serve drip coffee, espresso drinks, chai, matcha, iced tea, and seasonal beverages. Our"
+  },
+  {
+   "name": "Chris Young Knives",
+   "list_category": "Service (Servicio)",
+   "location_stated": null,
+   "description_stated": "My company is new to Durango. I make custom knives and sharpen knives."
+  },
+  {
+   "name": "DuranGoats LLC",
+   "list_category": "Service (Servicio)",
+   "location_stated": null,
+   "description_stated": "DuranGoats uses goats to reduce wildfire fuel loads and invasive weed species. With their uniquely vigorous appetites and digestive systems, goats will eliminate hazardous underbrush in fire-prone are"
+  },
+  {
+   "name": "Heart to Hands Massage Therapy",
+   "list_category": "Service (Servicio)",
+   "location_stated": null,
+   "description_stated": "Chair way to Heaven-Chair Massage Booth"
+  },
+  {
+   "name": "ImInMotion Wellness Studio",
+   "list_category": "Service (Servicio)",
+   "location_stated": null,
+   "description_stated": "Assisted Stretching Sessions"
+  },
+  {
+   "name": "Mountain Medicine Acupuncture",
+   "list_category": "Service (Servicio)",
+   "location_stated": null,
+   "description_stated": "Integrative Health and Wellness. We offer de-stress acupuncture, holistic medical consultation, diet & nutrition recommendations, local and regionally sourced natural herbal remedies, as well as welln"
+  },
+  {
+   "name": "NakedCat Beauty",
+   "list_category": "Service (Servicio)",
+   "location_stated": null,
+   "description_stated": "NakedCat Beauty is a boutique esthetics studio based in Durango, Colorado, specializing in Brazilian waxing and expert brow waxing. Our approach blends precision technique with genuine connection — cr"
+  },
+  {
+   "name": "Shining Shimmers",
+   "list_category": "Service (Servicio)",
+   "location_stated": null,
+   "description_stated": "Business Description: I will be providing our Durango community with shimmering hair tinsel and feathers for their hair! I can provide these glittering hair extensions to women, men and children with "
+  },
+  {
+   "name": "Wild Mountain Forge",
+   "list_category": "Service (Servicio)",
+   "location_stated": null,
+   "description_stated": "We are Wild Mountain Forge, a small business located in Mancos, Colorado. Owner and craftsman, David Root, hand forges all of our knives one at a time, in small batches using traditional Japanese blad"
+  },
+  {
+   "name": "Cafe au Play",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Looking for a place where little ones can play, explore, and grow while caregivers connect and recharge? ✨ At Café au Play in Durango, families will find a welcoming community space designed for young"
+  },
+  {
+   "name": "City of Durango",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "City of Durango services from various departments"
+  },
+  {
+   "name": "Clearnetworx",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Clearnetworx is a fiber internet service provider based in Montrose, Colorado, delivering high-performance fiber-optic and fixed wireless broadband solutions to residential, business, and enterprise c"
+  },
+  {
+   "name": "Durango Bluegrass Meltdown",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "The Durango Bluegrass Meltdown is an annual spring music festival held in downtown Durango, Colorado. It features multi-day indoor and outdoor performances, workshops, a band contest, an old-time barn"
+  },
+  {
+   "name": "Durango Chamber of Commerce",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "The Durango Chamber of Commerce is the premier business network for La Plata County. We help local businesses grow through networking, events, advocacy, marketing support, and resources built for the "
+  },
+  {
+   "name": "Four Corners Broadcasting",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "We are LIVE! We are LOCAL! We are COMMUNITY! Four Corners Broadcasting is proud to serve the four corners region for over 85 years. We have four distinctive radio stations, KIQX-FM, KIUP-AM, KKDC-FM &"
+  },
+  {
+   "name": "Girls on the Run of Western Colorado",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Girls on the Run has fun, evidence-based programs that inspire participants to recognize their inner strength, increase their level of physical activity, imagine their possibilities, and confidently s"
+  },
+  {
+   "name": "Kiwanis Club of Durango",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Kiwanis Club of Durango is a non profit civic organization that supports the children in our community."
+  },
+  {
+   "name": "MARIA'S LITERARY FOUNDATION",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Maria's Literary Foundation builds community connection by expanding access to books and storytelling. We envision a caring, curious, and diverse Four Corners community of readers and writers where ev"
+  },
+  {
+   "name": "Mercy Hospital",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Mercy Hospital"
+  },
+  {
+   "name": "Oktoberfest 2026",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Oktoberfest at Buckley Park | September 26 & 27 Join us for a family-friendly weekend of Oktoberfest fun at Buckley Park! Enjoy live music, German-inspired food and drinks, activities for all ages, an"
+  },
+  {
+   "name": "Pediatric Partners of the SW",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Pediatric Partners of the Southwest was founded in July 2005 with the mission of providing high-quality, compassionate, and holistic pediatric care to the babies, children and adolescents of our commu"
+  },
+  {
+   "name": "REI",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Opt Outside Those two words express us best. When given a choice, life is better when you choose to go outside. It doesn’t have to be up a mountain and it doesn’t have to be for weeks. But getting out"
+  },
+  {
+   "name": "Renewal by Andersen",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "The start-to-finish window replacement division of Andersen Windows."
+  },
+  {
+   "name": "Seed Studio",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Planting seeds of mindfulness, self expression, and creativity through art, Seed Studio curates art programs rooted in process art principles, combined with contemporary trends, and loaded with indivi"
+  },
+  {
+   "name": "Shaw Solar",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Shaw Solar is the premier Solar, Energy Storage and Heating & Cooling contractor in SW Colorado. We design, install and maintain everything you need for energy independence, and do it with matchless e"
+  },
+  {
+   "name": "Silver Mountain Pediatrics",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "We are a newly opened pediatric practice that has signed up to host the Oct 24 Kids Booth; we are a full service pediatric practice"
+  },
+  {
+   "name": "Sunward",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Sunward Credit Union has been helping people feel confident about their money since 1948. What began with a small group of Sandia National Laboratories employees has grown into a thriving, member‑owne"
+  },
+  {
+   "name": "Taste the Market: Guest Chef Program",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Taste the Market Experience the farmers market in a whole new way. Taste the Market is a live cooking demonstration that showcases the incredible flavors of the Durango Farmers Market. Local chefs cre"
+  },
+  {
+   "name": "TBK Bank",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Focused on meeting client needs, TBK Bank offers consumer, business, and commercial banking products and solutions through our branches in Colorado, Illinois, Iowa, Kansas, New Mexico, and Texas. We s"
+  },
+  {
+   "name": "The Farmers Table",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Great food starts with great farmers. The Farmers Table brings together the farmers, ranchers, and chefs behind the Durango Farmers Market for an evening built around fresh, local ingredients and the "
+  },
+  {
+   "name": "The Hive DGO",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "The Hive is a local youth centered community hub who will be providing youth activities during the Farmers Market. Some activities include mini skatepark with skateboard painting/gripping, fabric arts"
+  },
+  {
+   "name": "Tri-County Head Start",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Head Start is the national commitment to give every child, regardless of circumstances at birth, an opportunity to succeed in school and in life. Each year, the TCHS program serves over 300 children, "
+  },
+  {
+   "name": "Visit Durango",
+   "list_category": "Sponsor (Patrocinador)",
+   "location_stated": null,
+   "description_stated": "Visit Durango is your official Durango travel planning resource. Let us be your guide to all the events, things to do, and places to stay in Durango and La Plata County. We provide visitors with detai"
+  }
+ ]
+}

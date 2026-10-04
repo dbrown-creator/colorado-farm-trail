@@ -1,0 +1,661 @@
+{
+ "slug": "city-park-farmers-market-denver",
+ "market": "City Park Farmers Market",
+ "city": "Denver",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://vendors.cityparkfarmersmarket.com/vendor_team",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Official \"2026 Vendor Team\" page (Daily Grains FindSlowFood platform). Location_stated is the vendor home town shown on the card. A few vendors appear under two categories on the page; kept first.",
+ "vendors": [
+  {
+   "name": "Artemis Flower Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Regenerative Colorado flower farm offering organic blooms, workshops, DIY wedding flowers, and fresh-cut bouquets at farmers markets."
+  },
+  {
+   "name": "Black Gold Family Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Akron, CO",
+   "description_stated": "Family-owned, farrow-to-finish Berkshire pig farm in Akron, CO, specializing in pasture-raised pork that is 100% drug-free with no hormones, steroids, antibiotics, or vaccines."
+  },
+  {
+   "name": "Brown Dog Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Organic vegetable farm in Longmont growing 40+ varieties using no pesticides, serving Denver farmers markets and offering a CSA program."
+  },
+  {
+   "name": "Buckner Family Ranch",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Family-run ranch specializing in locally-raised, 100% grass-fed lamb and beef, and pasture-raised heritage breed pork."
+  },
+  {
+   "name": "Centennial Cuts",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Colorado Springs, CO",
+   "description_stated": "Family-owned Colorado beef company offering sustainably raised, locally harvested beef products, jerky, and tallow skincare."
+  },
+  {
+   "name": "Croft Family Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Kersey, CO",
+   "description_stated": "Family-operated regenerative farm in Kersey, CO growing vegetables and raising free-range hens"
+  },
+  {
+   "name": "DeLaney Community Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Aurora, CO",
+   "description_stated": "A 5-acre refugee community farm in Aurora run by Project Worthmore, growing organic produce and fostering integration."
+  },
+  {
+   "name": "Denver Love Goats",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": null,
+   "description_stated": "Mobile goat visit service bringing rescued goats to events, businesses, and community spaces across Denver."
+  },
+  {
+   "name": "Ela Family Farms",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Hotchkiss, CO",
+   "description_stated": "Fourth-generation organic fruit farm in Hotchkiss, CO growing tree-ripe cherries, peaches, pears, plums, and apples, plus jams, syrups, and dried fruits."
+  },
+  {
+   "name": "Five Freedoms Dairy",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Sustainable dairy farm founded by veterinarian Kevin McSweeney offering ethically sourced milk, yogurt, ricotta, and cheese curds from cows that live with their calves and have longer, healthier li..."
+  },
+  {
+   "name": "Flower Street Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Lakewood, CO",
+   "description_stated": "A small-scale urban farm in Lakewood, CO that raises rescued bees and produces local, raw, unfiltered honey, beeswax products, essential oils, and hydrosols from their own herbs."
+  },
+  {
+   "name": "Forte Fruits",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Sheridan, CO",
+   "description_stated": "Palisade family orchard growing peaches, plums, and stone fruits since 1972, selling at Denver-area markets."
+  },
+  {
+   "name": "Fox Fungi",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Denver, CO",
+   "description_stated": "An urban mushroom farm located in Denver providing specialty gourmet mushrooms (including oyster, lion's mane, shiitake, and enoki) and mushroom growing supplies."
+  },
+  {
+   "name": "Foxtown Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Denver, CO",
+   "description_stated": "Ginger and turmeric inspired products. Creating pourable honey syrups and traditional fire cider with organic ingredients and local honey."
+  },
+  {
+   "name": "Furst Class Fungi",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Denver, CO",
+   "description_stated": "A Denver-based mushroom farm specializing in gourmet mushrooms including shiitake, lion's mane, king oysters, and blue oyster mushrooms."
+  },
+  {
+   "name": "Grama Grass & Livestock",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Longmont regenerative ranch restoring native prairie through rotational grazing and producing grass-finished beef."
+  },
+  {
+   "name": "Kiowa Valley Organics",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Roggen, CO",
+   "description_stated": "Family-owned USDA certified organic farm in Roggen, CO producing organic vegetables, grass-fed beef, and pasture-fed chicken eggs."
+  },
+  {
+   "name": "Minoru Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Brighton, CO",
+   "description_stated": "Brighton, CO farm growing Asian-inspired vegetables using organic methods, founded by Jade Sato."
+  },
+  {
+   "name": "Monroe Family Farms",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Kersey, CO",
+   "description_stated": "Fourth-generation Kersey, CO organic farm offering CSA shares of chemical-free seasonal vegetables."
+  },
+  {
+   "name": "Morsal Green Yards",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": null,
+   "description_stated": "Afghan refugee family farm growing fresh vegetables and seasonal produce for Denver-area farmers markets."
+  },
+  {
+   "name": "Out Yonder Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Platteville, CO",
+   "description_stated": "Colorado Front Range farm offering flower arrangements, seasonal produce, vegetables, and eggs from May through October."
+  },
+  {
+   "name": "Plant Collector and Friends",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": null,
+   "description_stated": "Denver grower specializing in hot peppers and unique plants, sold at local Colorado farmers markets."
+  },
+  {
+   "name": "Rocky Mountain Fresh",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Longmont greenhouse farm growing hydroponic heirloom tomatoes, cucumbers, and seasonal produce year-round."
+  },
+  {
+   "name": "Star Acres Flower Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Arvada, CO",
+   "description_stated": "Mother-daughter run flower farm in Arvada, Colorado offering fresh seasonal bouquets and unique single-variety blooms grown using organic practices."
+  },
+  {
+   "name": "Switch Gears Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Small-scale one-acre vegetable farm in Longmont operated by Brett Matson and Vanita Patel, growing 40+ different types of vegetables using organic and regenerative practices without synthetic ferti..."
+  },
+  {
+   "name": "The Conscious Farms",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Seibert, CO",
+   "description_stated": "Pasture-raised, hormone-free chicken, lamb, and eggs from a Colorado farm, available at Denver farmers markets and weekly drop-offs."
+  },
+  {
+   "name": "The Fresh Herb Co",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "40-year-old family farm in Longmont, CO growing culinary herbs, cut flowers, and succulents"
+  },
+  {
+   "name": "Topp Fruits LLC",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Hotchkiss, CO",
+   "description_stated": "Family-owned and operated organic orchard located on Colorado's Western Slope producing tree-ripened organic peaches, apples, cherries, plums, and pears with certified organic practices."
+  },
+  {
+   "name": "Unsung Family Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Ecological culinary farm north of Longmont with half an acre of fresh produce farmed regeneratively, specialty microgreens, and unique preservations."
+  },
+  {
+   "name": "Wild Wick's Farm",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Lakewood, CO",
+   "description_stated": "Lakewood urban farm growing mixed vegetables, fruit, and cut flowers on half an acre of residential plots across four properties."
+  },
+  {
+   "name": "Wiley Farm & Co.",
+   "list_category": "Farmers, Ranchers, Dairy",
+   "location_stated": "Boulder, CO",
+   "description_stated": "Restorative, ecologically focused herb farm and tea company cultivating medicinal and culinary herbs in Boulder, CO — loose leaf blends, fresh herbs, and a quarterly tea membership."
+  },
+  {
+   "name": "Best One Yet Vegan",
+   "list_category": "Local Pantry",
+   "location_stated": "Longmont, CO",
+   "description_stated": "Vegan and gluten-free ice cream sandwiches, small-batch with an organic coconut base, plus gluten-free baked goods. Find their truck at events between Denver and Boulder."
+  },
+  {
+   "name": "Bjorn's Colorado Honey",
+   "list_category": "Local Pantry",
+   "location_stated": "Boulder, CO",
+   "description_stated": "Small-batch, family-owned Colorado beekeeping operation producing raw, unfiltered local honey plus bee-based skincare products featuring beeswax, honey, and propolis."
+  },
+  {
+   "name": "Bruna's Cheese Bread",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Women-owned Denver business crafting authentic Brazilian cheese bread (pao de queijo) that is naturally gluten, soy, and nut-free."
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Small family-run Italian food business offering handmade fresh-frozen take-and-bake Italian specialties including Lasagna Bolognese, ravioli, eggplant parmigiana, and traditional Sardinian culurgio..."
+  },
+  {
+   "name": "Cultura Chocolate",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Mexican American-owned bean-to-bar chocolate company and community cafe preserving ancestral food traditions in Denver's Westwood."
+  },
+  {
+   "name": "Ema's Salsa",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Small-batch hot and medium salsa made with fresh Hatch Chile peppers, offering authentic New Mexican-style salsa products."
+  },
+  {
+   "name": "Familia Pupusas",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Salvadoran food vendor serving authentic handmade pupusas at Colorado farmers markets since 2019."
+  },
+  {
+   "name": "Feelin' Fresca",
+   "list_category": "Local Pantry",
+   "location_stated": "Lafayette, CO",
+   "description_stated": "Small family-owned business producing homemade aguas frescas (traditional Mexican fruit beverages) and fresh food products using simple, whole food ingredients."
+  },
+  {
+   "name": "Ferment Culture",
+   "list_category": "Local Pantry",
+   "location_stated": "Fort Collins, CO",
+   "description_stated": "Fort Collins-based producer of organic lacto-fermented foods including small-batch sauerkraut, kimchi, and other ferments made with local, organic produce from regenerative farms."
+  },
+  {
+   "name": "Full Stop. Bakery",
+   "list_category": "Local Pantry",
+   "location_stated": "Boulder, CO",
+   "description_stated": "Full Stop. crafts slow-fermented sourdough crackers from simple, real ingredients — crackers that elevate everyday moments and encourage slowing down."
+  },
+  {
+   "name": "Guerrero's Chile",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Family-run Colorado business with 28+ years of experience specializing in fresh fire-roasted Hatch and Pueblo chile at local farmers markets."
+  },
+  {
+   "name": "Hearth Baking",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver artisan bakery & coffee shop crafting sourdough breads and pastries with grain sourced directly from Rocky Mountain Region farmers."
+  },
+  {
+   "name": "Hella Foods",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Denver chili oil company crafting small-batch Southeast Asian-inspired condiments including Garlic Crisp, Chili Oil, and Szechuan Oil."
+  },
+  {
+   "name": "Kettle Head Popcorn",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver-based artisan popcorn company offering 15+ gluten-free flavors"
+  },
+  {
+   "name": "Know Your Roots Pickles",
+   "list_category": "Local Pantry",
+   "location_stated": "Broomfield, CO",
+   "description_stated": "Small-batch pickles and pickled vegetables handcrafted in Broomfield, CO using locally grown produce."
+  },
+  {
+   "name": "La Montagne Des Saveurs",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "La Montagne des Saveurs curates and sells a selection of artisan cheeses sourced exclusively from local Colorado producers, bringing a focused, regional cheese experience to the farmers market."
+  },
+  {
+   "name": "Legacy Pie Co",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Fourth-generation family-owned pie business (established 1929) specializing in sweet and savory pies made from scratch with locally-sourced ingredients, with locations in Denver's Berkeley and Wash..."
+  },
+  {
+   "name": "Little House of Tempeh",
+   "list_category": "Local Pantry",
+   "location_stated": "Fort Collins, CO",
+   "description_stated": "Small-batch, soy-free, organic, unpasteurized tempeh producer in Fort Collins, CO"
+  },
+  {
+   "name": "Lottie's Meats",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Sister-owned Denver company crafting all-natural, small-batch pork sausages from a sixth-generation farm family."
+  },
+  {
+   "name": "Madams Jams",
+   "list_category": "Local Pantry",
+   "location_stated": "Evergreen, CO",
+   "description_stated": "Black female-owned company hand-crafting jams, pickles, and preserves in Evergreen, Colorado."
+  },
+  {
+   "name": "MisoHeat",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Denver-made spicy miso chili paste that adds umami and spice to any cuisine."
+  },
+  {
+   "name": "Moon Raccoon Baking",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "A Denver-based micro-bakery specializing in small-batch, scratch-made pastries and laminated doughs (croissants, danishes, etc."
+  },
+  {
+   "name": "Mountain Girl Pickles",
+   "list_category": "Local Pantry",
+   "location_stated": "Boulder, CO",
+   "description_stated": "A Boulder-based artisan pickle company founded by fourth-generation canner Laraina James, specializing in Colorado's finest pickled products made from seasonal, locally-sourced produce."
+  },
+  {
+   "name": "Not Bad Cooks",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver artisanal sauce company making Jimichurri, pesto, vodka sauce, and more, sold at Colorado farmers markets."
+  },
+  {
+   "name": "Pappardelle's Pasta Co",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Colorado gourmet pasta company crafting over 200 flavors of artisan pasta, sauces, and pestos since 1984."
+  },
+  {
+   "name": "Patter Bar",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver-based female-owned company making 100% whole food energy bars with no added sugar, natural flavors, preservatives, or lab-created ingredients; gluten-free, dairy-free, and vegan options avai..."
+  },
+  {
+   "name": "Pink Cloud Bakeshop",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver artisan sourdough microbakery offering small-batch loaves, baguettes, and baked goods weekly."
+  },
+  {
+   "name": "Porcellino Artisanal Meats",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Hand crafted charcuterie, sausages and deli meats made all-naturally from humanely raised animals raised on pasture at small family farms."
+  },
+  {
+   "name": "Sauce Leopard",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Award-winning, all-natural hot sauces handcrafted in small batches in Denver by brothers Shaun and Michael Goodwin."
+  },
+  {
+   "name": "Sfoglina",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Sfoglina brings the craft of Italian pasta-making to the farmers market — fresh handmade pasta, house-made sauces, prepared meals, and more, made with Colorado's local heritage grains."
+  },
+  {
+   "name": "Soup Witch",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Denver's local soup subscription service delivering seasonal, nourishing soups made with organic and regenerative ingredients."
+  },
+  {
+   "name": "Sweet Gold Juice Co",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver-based mobile juice bar offering organic cold-pressed juices and nut milks made from 100% organic fruits and vegetables in small batches, plus smoothies and gluten-free, vegan snacks."
+  },
+  {
+   "name": "Taeko-san Takeout",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Authentic Japanese food vendor offering gourmet mochi (traditional rice cakes with creative flavors), onigiri (rice balls), and curry, all vegan and gluten-free, using recipes from owner's Japanese..."
+  },
+  {
+   "name": "Talia's Bakery",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver bakery crafting artisanal challah, babka, and bakery favorites, available at the shop on Fridays and at local farmers markets."
+  },
+  {
+   "name": "The PB Love Company",
+   "list_category": "Local Pantry",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver-based artisan nut butter company creating small-batch, stone-ground peanut and almond butters using organic all-natural sweeteners, dry roasted nuts, and sustainable practices."
+  },
+  {
+   "name": "The Tortilla Project",
+   "list_category": "Local Pantry",
+   "location_stated": null,
+   "description_stated": "Denver handmade corn tortilla business founded by Eva Valdez, preserving cultural traditions while creating community jobs for women."
+  },
+  {
+   "name": "Yummy Lotus",
+   "list_category": "Local Pantry",
+   "location_stated": "Golden, CO",
+   "description_stated": "Colorado-based artisanal jam maker specializing in vegan and gluten-free gourmet pepper jams crafted in small batches using fresh, simple ingredients and unique flavor combinations."
+  },
+  {
+   "name": "Yummy Yummy Products",
+   "list_category": "Local Pantry",
+   "location_stated": "Thornton, CO",
+   "description_stated": "Denver/Thornton-based business offering hummus, pita chips, salads, tzatziki, Greek yogurt, and various cheeses with Tunisian-inspired flavors."
+  },
+  {
+   "name": "3rd Bird Kombucha",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Woman-owned kombucha brewery in Denver's Park Hill neighborhood, brewing small-batch kombucha with locally-sourced ingredients."
+  },
+  {
+   "name": "Aina Tacos",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Farm-to-taco concept serving gluten-free tacos made with locally grown ingredients from La Kahea Community Farm at Denver farmers markets."
+  },
+  {
+   "name": "Ba-Nom-a-Nom",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Nice cream truck serving 100% fruit soft serve with no dairy, sugar, or additives at Denver farmers markets and events since 2012."
+  },
+  {
+   "name": "Bonfire Burritos",
+   "list_category": "Prepared Food",
+   "location_stated": "Golden, CO",
+   "description_stated": "From-scratch Southwestern cuisine featuring burritos, breakfast tacos, and lunch items, established in Golden, CO in 2013 using pasture-raised eggs and nitrate-free meats."
+  },
+  {
+   "name": "Cafe Tres",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Cuban bakery specializing in pastelitos (sweet and savory filled Cuban puff pastries) and Cuban espresso, rooted in a family history of bakers dating back to the early 1900s in Cuba."
+  },
+  {
+   "name": "Chaatwala",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Indian street food vendor serving authentic dishes like puchka (crispy shells filled with potatoes, chutney, and broth), dosas, and other traditional Indian street food from Bangalore, emphasizing ..."
+  },
+  {
+   "name": "Denver Pops",
+   "list_category": "Prepared Food",
+   "location_stated": "Boulder, CO",
+   "description_stated": "Handmade gourmet popsicles made with mostly organic and locally sourced ingredients without any additives or artificial dyes."
+  },
+  {
+   "name": "Don Zorros Molino",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver artisan tortilla and masa producer using traditional nixtamalization and sustainably sourced corn."
+  },
+  {
+   "name": "Dos Caras",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Brothers Alejandro and Alberto Rodriguez produce plant-based Mexican dishes and pantry staples (salsas, tortillas, tostadas) using pre-colonial Mexican cooking techniques that honor their P'urhépec..."
+  },
+  {
+   "name": "GetRight's Bakery",
+   "list_category": "Prepared Food",
+   "location_stated": "Wheat Ridge, CO",
+   "description_stated": "A naturally leavened bakery specializing in sourdough breads, pastries (including maritozzi and Basque cheesecake), sandwiches, and pizza."
+  },
+  {
+   "name": "Green Bus Cafe",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Gluten-free, vegetarian coffee shop & bakery in Denver serving craft coffee and wholesome baked goods made with organic, seed oil-free ingredients."
+  },
+  {
+   "name": "Green Giraffe",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver juice & smoothie bar serving fresh cold-pressed juices, real fruit smoothies, acai bowls, and coffee for over 14 years."
+  },
+  {
+   "name": "Joyful Ice Cream",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Denver ice cream company using real, high-quality ingredients to elevate classic flavors, available at farmers markets and events."
+  },
+  {
+   "name": "Jubilee Roasting Co",
+   "list_category": "Prepared Food",
+   "location_stated": "Aurora, CO",
+   "description_stated": "Aurora-based specialty coffee roaster sourcing and roasting seasonal single-origin coffees with a mission to create well and be good neighbors."
+  },
+  {
+   "name": "Moonshell Pizza Cooperative",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Indigenous- and worker-owned cooperative serving Neapolitan-style wood-fired pizza with locally sourced, seasonal ingredients in Denver."
+  },
+  {
+   "name": "My Morning Muffin",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Denver artisan bakery offering fresh handcrafted muffins, scones, and pastries with flavors that change weekly."
+  },
+  {
+   "name": "New Friends Breakfast Sandwiches",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Fresh, local breakfast sandwiches made on-site with quality meats from local butchers, fresh eggs, and local produce."
+  },
+  {
+   "name": "Oh My Empanada!",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver maker of high-quality, gluten-free Colombian empanadas with traditional and vegan varieties."
+  },
+  {
+   "name": "Owen's Burritos",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Denver farmers market stand serving innovative crispy rice breakfast burritos with Asian-inspired flavors."
+  },
+  {
+   "name": "Panda Bao",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Denver food vendor specializing in handcrafted steamed bao buns, found at local farmers markets."
+  },
+  {
+   "name": "Pint's Peak Ice Cream",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Denver's small-batch artisan ice cream made with local dairy, scratch ingredients, and a French custard base."
+  },
+  {
+   "name": "Rang Tang Craft Barbecue",
+   "list_category": "Prepared Food",
+   "location_stated": "Boulder, CO",
+   "description_stated": "True wood-fired barbecue meets kind food at Rang Tang. All meats local & regeneratively-raised, produce & spices organic and seasonally local. No seed oils, no GMOs."
+  },
+  {
+   "name": "RxRs Texas Tacos",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Authentic Texas tacos and BBQ with house-smoked meats, handcrafted sauces, and award-winning salsas, brought to Denver from the Hill Country."
+  },
+  {
+   "name": "SAME Cafe",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver's pay-what-you-can nonprofit cafe serving healthy, locally sourced meals so all may eat, regardless of ability to pay."
+  },
+  {
+   "name": "Sati Coffee Co",
+   "list_category": "Prepared Food",
+   "location_stated": "Edgewater, CO",
+   "description_stated": "Mindfulness-driven cold brew coffee company in Edgewater with a cafe serving espresso, lattes, and breakfast near Sloan Lake."
+  },
+  {
+   "name": "Savory Saigon Express",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Fresh Vietnamese cuisine and crepes at Colorado farmers markets since 2007, made with seasonal local ingredients and free of MSG."
+  },
+  {
+   "name": "The Easy Vegan",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver veg-forward food company specializing in plant-based street food, pop-ups, and catered dinners. Winners of Food Network's Great Food Truck Race."
+  },
+  {
+   "name": "The Hungry Tree Hugger",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Organic vegan, gluten-free, and refined sugar-free pop-up bakery in Denver featuring scratch-made baked goods with natural sweeteners."
+  },
+  {
+   "name": "The Springs Bagel Company",
+   "list_category": "Prepared Food",
+   "location_stated": null,
+   "description_stated": "Colorado Springs hand-rolled bagel company using a 36-hour cold-proof process with 5 basic ingredients, no preservatives, and vegan-friendly recipes."
+  },
+  {
+   "name": "Wee Woo Coffee",
+   "list_category": "Prepared Food",
+   "location_stated": "Lafayette, CO",
+   "description_stated": "Mobile coffee shop built on a converted 1998 Honda Acty fire truck retired from Japan."
+  },
+  {
+   "name": "WongWayVeg",
+   "list_category": "Prepared Food",
+   "location_stated": "Denver, CO",
+   "description_stated": "Women-owned Denver food truck serving scratch-made, 100% vegan comfort food inspired by seasonal produce and global cuisine."
+  },
+  {
+   "name": "CSU Master Gardeners",
+   "list_category": "Other",
+   "location_stated": "Denver, CO",
+   "description_stated": "CSU Extension volunteer program with 135 Denver Master Gardeners providing research-based horticulture education to the community."
+  },
+  {
+   "name": "Downslope Distilling",
+   "list_category": "Other",
+   "location_stated": "Centennial, CO",
+   "description_stated": "Centennial craft distillery producing small-batch whiskeys, gins, vodkas, rums, and agave spirits since 2009."
+  },
+  {
+   "name": "EJ's Farm-Crafted",
+   "list_category": "Other",
+   "location_stated": "Denver, CO",
+   "description_stated": "Small-batch soap business based in Arvada, Colorado, handcrafted with nourishing oils, farm-fresh goat milk, vegetable juices, and botanicals."
+  },
+  {
+   "name": "Haykin Family Cider",
+   "list_category": "Other",
+   "location_stated": "Aurora, CO",
+   "description_stated": "An award-winning small-batch cidery founded in 2018 producing crisp, sparkling wine-like ciders from rare and heirloom apple varieties with zero additives (no added sugar, flavors, or adjuncts)."
+  },
+  {
+   "name": "Hello Sharpness Co",
+   "list_category": "Other",
+   "location_stated": "Golden, CO",
+   "description_stated": "Mobile knife and tool sharpening service at Colorado farmers markets"
+  },
+  {
+   "name": "Milda Apothecary",
+   "list_category": "Other",
+   "location_stated": null,
+   "description_stated": "Denver-based small-batch botanical skincare using organic, wildcrafted herbs by a certified herbalist."
+  },
+  {
+   "name": "Uncle Tim's Cocktails",
+   "list_category": "Other",
+   "location_stated": "Denver, CO",
+   "description_stated": "Denver premium bottled craft cocktail company offering ready-to-serve cocktails made with high-quality spirits, liqueurs, and bitters."
+  },
+  {
+   "name": "Urban Roots",
+   "list_category": "Other",
+   "location_stated": null,
+   "description_stated": "Denver garden shop supporting city dwellers with plants, garden design ideas for small spaces, and unique gift items."
+  }
+ ]
+}

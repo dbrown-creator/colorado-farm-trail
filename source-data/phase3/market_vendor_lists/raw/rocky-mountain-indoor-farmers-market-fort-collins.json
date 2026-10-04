@@ -1,0 +1,12 @@
+{
+ "slug": "rocky-mountain-indoor-farmers-market-fort-collins",
+ "market": "Rocky Mountain Indoor Farmers Market",
+ "city": "Fort Collins",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "blocked",
+ "notes": "Site returns 403 to plain requests and with a browser UA serves a near-empty page with ad/tracking redirects (looks hijacked/parked); not trusted. A web search found no official vendor list.",
+ "vendors": []
+}

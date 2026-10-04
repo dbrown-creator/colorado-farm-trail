@@ -1,0 +1,475 @@
+{
+ "slug": "erie-farmers-market-erie",
+ "market": "Erie Farmers Market",
+ "city": "Erie",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://realfarmersmarketco.com/erie-farmers-market/",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Erie market page lists 'Vendors for the season' by category (Real Farmers Markets operator); captured only the Erie page, not the Louisville list.",
+ "vendors": [
+  {
+   "name": "7Anubis Farms",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Berkshire pork – whole, half, bundles, cuts. Chicken – whole, cuts. Duck – whole, cuts. Market garden vegetables (when in season) Eggs"
+  },
+  {
+   "name": "Aquarius Gardens LLC",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "At Aquarius Gardens we offer beautiful house plants in unique, vintage, and upcycled pots."
+  },
+  {
+   "name": "Aragon Farms",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Grass-Fed Beef: no hormones or antibiotics. Farm Honey , Tallow Products, Free-Range Eggs."
+  },
+  {
+   "name": "Eat A Peach Farms",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Fruits and vegetables. Lavender"
+  },
+  {
+   "name": "Forte fruits inc",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Fresh palisade fruit!"
+  },
+  {
+   "name": "Front Range Flower Farm",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "A woman-owned and family-operated farm, we grow flowers, produce, and houseplants naturally!"
+  },
+  {
+   "name": "Green Yams LLC",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mortons Organic Orchards",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Family-farmed. Tree-ripened. Certified Organic: Apples, Apricots, Apriums, Asian Pears, Cherries (sweet & tart), Nectarines, peaches, Pears, Plums, Pluots. YUM! Also Organic: Blackberries, Garden Huck"
+  },
+  {
+   "name": "Mutual Dream Farm",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Farm-raised Goat Meat and handcrafted goat milk soaps, bath bombs, & shave bars."
+  },
+  {
+   "name": "Petalers at The Chillstead",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Locally grown flowers and herbs! Build your own bouquets. We are Passionate, Purposeful and Plant-Obsessed!"
+  },
+  {
+   "name": "Tabor Acres",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": "Flowers ~ Farm grown and fresh cut"
+  },
+  {
+   "name": "The Neighborhood Plant Plug",
+   "list_category": "Farms • Orchards • Flowers • Plants",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Enhanced Being",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "Locally made wellness goods using functional mushrooms and 100% Colorado-sourced ingredients to nourish the body and elevate daily rituals."
+  },
+  {
+   "name": "Jo’s Body Shop",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "Jo’s Body Shop is a self care and wellness brand based in Aurora, Colorado and we put a fun and eco-friendly spin on self-care and wellness essentials."
+  },
+  {
+   "name": "Leanna Organics",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Taspens’s Organics",
+   "list_category": "Health • Wellness • Beauty",
+   "location_stated": null,
+   "description_stated": "Organic healing and wellness products"
+  },
+  {
+   "name": "Briggs Street Books and Music",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "We are an independent Book and Record store in Old Town Erie. We offer a wide variety of books, records, and gifts."
+  },
+  {
+   "name": "Don’s Handcrafted Gifts",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "exotic wood products for cooking and entertaining"
+  },
+  {
+   "name": "Five Petals Design LLC",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Handmade crochet plushies, bag charms, and more, plus handmade jewelry!"
+  },
+  {
+   "name": "Gutters",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Second hand goods."
+  },
+  {
+   "name": "Mongoose Design",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Custom 3D Maps and Laser Art"
+  },
+  {
+   "name": "Moss & Moon Ceramics",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "Handmade nature-inspired pottery and ceramics."
+  },
+  {
+   "name": "Not Your Average Cooper LLC",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": "We specialize in hand-forged knives and jewelry and homemade leather goods and assorted home goods."
+  },
+  {
+   "name": "PAMELA DUPLAT @iloveamano",
+   "list_category": "Jewelry • Art • Clothing",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Boulder Vet Center-Department of Veterans Affairs",
+   "list_category": "Non-Profit",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CSU Extension Master Gardeners",
+   "list_category": "Non-Profit",
+   "location_stated": null,
+   "description_stated": "Free unbiased and science backed information for home gardeners."
+  },
+  {
+   "name": "AlcheMeats",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Seasonings and BBQ Rubs"
+  },
+  {
+   "name": "Bjorn’s Colorado Honey",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Björn’s Colorado Honey offers local Colorado honey and bee-pollen plus hive-based skincare featuring beeswax, honey, and propolis. We are small-batch, local, honey producers based in Brighton with hiv"
+  },
+  {
+   "name": "BLISSTIX",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "BLISSTIX provides a premier jerky experience in every taste. Our dedication to quality and health can be experienced in every bite. Each time you bite in to one of our beef sticks you will enjoy that "
+  },
+  {
+   "name": "Bruna’s Cheese Bread",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Bruna’s Cheese Bread brings you delicious, gluten-free, grain-free, and soy-free cheese bread balls — golden, cheesy, and ready to bake! Perfect for breakfast, a quick snack, appetizers, or dinner rol"
+  },
+  {
+   "name": "Casa Crobu",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We are a small family owned business. We make Take & Bake Lasagna and we make everything from scratch. We believe there is no better way to spend time with family, get to know a new culture, or to mak"
+  },
+  {
+   "name": "Cheez Me LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We are a small, local cheese producer specializing in handcrafted fresh cheeses, with a focus on soft styles and cream cheeses made from locally sourced milk. All of our cheeses are produced in small "
+  },
+  {
+   "name": "Confetti Confections",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Sparkling Lemonade Boba"
+  },
+  {
+   "name": "Cream City Market",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Wisconsin-made Cheddar Cheese curds, Mozarella String Cheese, Genuine WI Brick Cheese and flavored butters"
+  },
+  {
+   "name": "DAR CHOCOLATE",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Artisan chocolate made from meticulously selected cacao, wrapped in artwork by different artists. ALL CHOCOLATES ARE MADE IN OUR BOUTIQUE CHOCOLATE FACTORY IN THORNTON"
+  },
+  {
+   "name": "Doughology",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Gluten free, dairy free, and more allergen friendly baked goods!"
+  },
+  {
+   "name": "Drizzle & Crunch",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Pistachio Paste"
+  },
+  {
+   "name": "Erie Sourdough LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Small batch sourdough bread and baked goods made with organic flours."
+  },
+  {
+   "name": "Forever Spicy LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We make and produce small batch hot sauce and chili oils with organic and as local to Colorado ingredients as possible."
+  },
+  {
+   "name": "Franks BBQ Trading Post",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "BBQ Rubs and BBQ Sauces"
+  },
+  {
+   "name": "Great Harvest",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Bread, Sweets, cookies, soup mixes, Jams, Jellies, Baking mixes, etc."
+  },
+  {
+   "name": "Great Harvest Bread Co",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Great Harvest provides fresh, locally baked, artisan breads, sweets, and baking mixes. We also carry soup mixes, jams, jellies, honey spreads, oils and vinegars. We always have glutenless options."
+  },
+  {
+   "name": "Healthy Harvest LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "We are a small family business in Golden, CO specializing in olive oils, balsamics, and Kalamata olives, all organic and directly from Mediterranean estates."
+  },
+  {
+   "name": "In A Pickle",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Cold packed Pickles! different flavors"
+  },
+  {
+   "name": "Kodabear’s Pantry",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Freeze dried candy, fruits, and produce"
+  },
+  {
+   "name": "KREAM Kimchi",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "we make kimchi. It’s my mom’s recipe. We make a bunch of other products in the kimchi universe."
+  },
+  {
+   "name": "Mirela’s Treats LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Sorry, but you do not have permission to view this content."
+  },
+  {
+   "name": "Pet Wants Boulder/Arvada",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Prehistoric Pedal Frozen Treats",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Pre-packaged, handcrafted cookie ice cream sandwiches, popsicles and popcorn!"
+  },
+  {
+   "name": "Ray Road Nut Butter",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Nut Butter"
+  },
+  {
+   "name": "Styria Catering",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Broke Vagabonds",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Artisan Nuts and gourmet goodies"
+  },
+  {
+   "name": "The Family Jones Distillery",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Three Little Pigs Bakery",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Traditional and creative cookie flavors– conventional and gluten free, cupcakes, caramel puff corn, and brownies"
+  },
+  {
+   "name": "TiffyCakes Gluten Free Bakes",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Tiffy Cakes is a dedicated gluten free home bakery. I am a Registered Dietitian and baker diagnosed with Celiac disease 26 years ago. Through many failed trails and not so tasty bakes… I’ve finally go"
+  },
+  {
+   "name": "Tlaquesalsa",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TReats, LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "I am a cottage based bakery located in Longmont, Colorado. I specialize in English muffins, specialty breakfast breads and cookies."
+  },
+  {
+   "name": "Wagon Wheel Smoke House",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Smoked spices and dry rubs and locally raised pork"
+  },
+  {
+   "name": "Yummy Yummy Products LLC",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": "Fresh, small-batch dips made weekly using quality ingredients. Yummy Yummy Products delivers flavorful, locally made dips with a focus on freshness, simple recipes, and great taste, perfect for sharin"
+  },
+  {
+   "name": "Zuna’s Bakery",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "47 Bakery",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "handmade pretzels with love – real ingredients. real local. real good."
+  },
+  {
+   "name": "Baked by Joe",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Chef quality baked goods elevating what you know and love."
+  },
+  {
+   "name": "Bubbly Bevvies Soda Shoppe",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Bubbly Bevvies makes specialty drinks made with sodas, syrups, and fun add-ins."
+  },
+  {
+   "name": "De Los Andes Empanadas",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Deborah Ann Does Donuts",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Fresh donuts, kettle corn, and fresh squeezed lemonade."
+  },
+  {
+   "name": "Feelin Fresca",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Agua Frescas"
+  },
+  {
+   "name": "Good Smile LLC",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Good Smile has been bringing our fun take on Homemade European Foods since 2024 and we are excited to make our way to your market!"
+  },
+  {
+   "name": "Jessifams LLC",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Delicious breakfast and lunch style bacon wrapped hotdogs, bison bratwurst, and an array of natural fruit drinks for your tastebuds!"
+  },
+  {
+   "name": "Kogler’s Bakery",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "European Breads, pastries, quiches, croissants, strudels"
+  },
+  {
+   "name": "Redemption Road Coffee",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Redemption Road Coffee is a single origin coffee roaster out of Mead, Colorado that is funding good in the world through our amazing coffee products and drinks!"
+  },
+  {
+   "name": "ReDonkeylous Shave Ice",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "The Aguilar Four LLC",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Fresh Churros and ChurrOreos"
+  },
+  {
+   "name": "The Crepe Outdoors",
+   "list_category": "Ready to Consume",
+   "location_stated": null,
+   "description_stated": "Authentic French street crêpes made to order. We have several options for sweet and savory and we can […]"
+  },
+  {
+   "name": "Flatiron Window Well Covers",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Offering window well grates and covers and complimentary consulting to make your yard safer."
+  },
+  {
+   "name": "Longmont Dairy Farm",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Delivering fresh milk and more to homes along the Front Range. We are a family owned and operated business dedicated to providing great milk, from our cows to our customers’ doorsteps."
+  },
+  {
+   "name": "Peak Sharpening",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "Same day, mobile knife and tool sharpening. Crazy sharp."
+  },
+  {
+   "name": "Sparkle",
+   "list_category": "Services",
+   "location_stated": null,
+   "description_stated": "At Sparkle, we offer wellness-focused hygiene and salon style grooming makes it easy to have a clean, healthy, and happy dog – for less."
+  }
+ ]
+}

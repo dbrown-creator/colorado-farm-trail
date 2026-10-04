@@ -1,0 +1,955 @@
+{
+ "slug": "vail-farmers-market-vail",
+ "market": "Vail Farmers' Market",
+ "city": "Vail",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.vailfarmersmarket.com/2026-vendors",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Official 2026 vendor page lists Sunday Market and Thursday Market vendors by name (some appear in both); names only, website links not captured.",
+ "vendors": [
+  {
+   "name": "10TH MTN WHISKEY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "A SECRET GARDEN",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "A SIGN OF CHANGE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ALICE'S COOKIE JAR",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ALPINE WINE & DESIGN",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ANTELOPE CREEK RANCH",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ARCHETYPE DISTILLERY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ART BY AGOSTINA",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ASHLEIGH COCHRAN STUDIO",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ASPEN PROVISIONS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BAO YOU LIKE IT",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BERIT BROOKS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BJÖRNS COLORADO HONEY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BLOSSOM",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BOB'S ROASTED NUTS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BRECKENRIDGE CANDLE CABIN",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BUCK & BLOOM CHEESE CO.",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BUXIE JO BAGS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CHIN DRIBBLIN ASIAN FUSION SAUCES",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CLIMAX JERKY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "COLD MOUNTAIN CRAFT",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "COLE AND DANIER MODERN STITCHES",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "COLEMAN'S HABERDASHERY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CZECH OUT THE ROCK",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DANG SWEETS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DAR CHOCOLATE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DESSERT LAB CO",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DIP INTO LIFE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DRINKING VESSELS LLC",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ELECTRIC MICROGREENS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ELEVATED ELOTE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "EYE PIECES",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "FORK IN THE ROAD",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "FORTE FRUIT",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "GLAZED POTTERY SHOP",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "GREY SALT",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "GROUNDED PRODUCE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "GULA WELLNESS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "GUS CONTEMPORARY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "HEALTHY HARVEST GARDENS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "HOOHAH",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "HOMEMADE EUROPEAN FOOD",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "HUNT AND HOMESTEAD",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "INNER LIGHT JUICE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "I.R. CHEFS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "JAMIE LEIGH PHOTOGRAPHY & THROUGH YOUR WINDOW",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "JEN G STUDIOS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KADY'S KOLLARS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KALEBS KATCH",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KD PAINT GALLERY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KELLY PETERS ART LLC",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KEEN I DESIGN",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KIDSPORT",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KIRBY COSMOS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KOGLER'S BAKERY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KP MOUNTAIN METALS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LA CANTINA / VAIL VALLEY MEXICAN FOODS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LA MONTAGNE DES SAVEURS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LANDREAUX CERAMICS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LARISSA WILD FINE ART",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LIFETIME HOME REMODELING",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LITTLE BEE JUICE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LOREDANA'S",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LOST RANGE CBD",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MANGIARE ITALIAN FOOD MARKET",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MATCHBOX CANDLE CO",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN JAM",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN BLUEBIRD FARM",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN GIRL CREATIONS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN MINIS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN MUD CERAMICS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MT GARFIELD FRUIT AND VEGETABLE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "NATURES DETAILS PHOTOGRAPHY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "NO BULL ENTERTAINMENT",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "NOCO CBD CO",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "OLD SOUL HOME CREATIONS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PAZZOS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PEAK FARMS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PEAK STATE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PEAKS EDGE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PENNI OLIVE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PETIT MONT BLANC",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PINES' NUT BUTTER",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PK FINE IMPORTS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PLATA JEWELERS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "RESORT BOOKS/ELI AND MORT EPIC ADVENTURES",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "RICH BROWNIES, PUCKIES STUFFED COOKIES",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "RIDGELINE REMEDY LTD",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ROCKY MOUNTAIN CHOCOLATE FACTORY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ROCKY MOUNTAIN TACO",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SLIFER SMITH & FRAMPTON",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SMALL + MIGHTY HANDMADE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SO VERY LOVELY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SOFRA TEXTILES",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "STAINS AND WOODGRAINS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "STEPHEN GRUNDY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SUNWARD",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TAMTHE LIMITED",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TESSA CLOGS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TIA WOVEN GOODS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "THE STONE FRUIT COMPANY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "THE UNBROKEN CIRCLE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "THE WHOLE EMPANADA",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "THE LEFT BANK VAIL",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TREFF CAFE / SONNENALP HOTEL",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "VAIL BOOT & SHOE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "VAIL MEAT COMPANY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "VAIL MOUNTAIN COFFEE & TEA CO.",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "VAIL & EDWARDS ROTARY CLUB",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "VILLAGE POPCORN WAGON",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "VISTA ORCHARD",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WAGON WHEEL SMOKE HOUSE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WALKING MOUNTAINS /VAIL NATURE CENTER",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WHAT THE CREPE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WILD FEATHER & STONE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WINDY CITY EATS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WOLF PEOPLE JEWELRY DESIGN/PERCH",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WÖLFE CUTLERY",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WYNN FARMS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WW ENTERPRISES | LEMONADE",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "YETIS",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "YUMMY YUMMY PRODUCTS LLC",
+   "list_category": "Sunday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ANTELOPE CREEK RANCH",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BJÖRNS COLORADO HONEY",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "BOB'S ROASTED NUTS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CHABAD VAIL",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "CZECH OUT THE ROCK",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DESSERT LAB CO",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "DIP INTO LIFE",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "FORK IN THE ROAD",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "FORTE FRUIT",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "GROUNDED PRODUCE",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "HEALTHY HARVEST GARDENS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KADY'S KOLLARS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LA MONTAGNE DES SAVEURS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LIFETIME HOME REMODELING",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "LITTLE BEE JUICE",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MINTURN WHISKEY CO.",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOTHERS & DAUGHTERS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN GIRL CREATIONS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN HEATHER",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MOUNTAIN JAM",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "NATURETECH / ALOEMOIST ORGANICS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "NOCO CHOCOLATE",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PARKS ART COLLECTION",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PEAKS EDGE",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PENNI OLIVE",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PINES' NUT BUTTER",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "PK FINE IMPORTS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SOFRA TEXTILES",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SUMMIT PASTA",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "SWEET CEDAR WOODWORKING",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TAMALES EMPANADAS ELREY",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "TASPENS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WEST WOLF MEDICINALS",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "WÖLFE CUTLERY",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "YOLITIA",
+   "list_category": "Thursday Market",
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

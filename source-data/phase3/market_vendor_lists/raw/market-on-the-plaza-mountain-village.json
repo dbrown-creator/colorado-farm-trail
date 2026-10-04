@@ -1,0 +1,343 @@
+{
+ "slug": "market-on-the-plaza-mountain-village",
+ "market": "Market on the Plaza",
+ "city": "Mountain Village",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://townofmountainvillage.com/explore/market-on-the-plaza/",
+ "list_season": "2026",
+ "site_status": "redirect",
+ "notes": "marketontheplaza.com redirects to the Town of Mountain Village page, which has 'Meet our 2026 Vendors'. Cards show 'Mountain Village' above some names; location_stated reflects that card text and may be a directory default rather than the vendor's true base.",
+ "vendors": [
+  {
+   "name": "Artesania original wixarika LLC",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Artesanía huichol hechos a mano"
+  },
+  {
+   "name": "Botanical Companions",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Delicious & Powerfully Nutritious Microgreen Goods!"
+  },
+  {
+   "name": "Canyon Sewing",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "We design and sew a variety of outdoor products in Dolores, Colorado."
+  },
+  {
+   "name": "Captain Nowhere Photography LLC",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": null
+  },
+  {
+   "name": "Cimarron Creek Essentials",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Bath and beauty products and accessories"
+  },
+  {
+   "name": "Cone on the Go by Jakes Farm",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Crispy chicken, refreshing drinks, sweet treats, and family fun"
+  },
+  {
+   "name": "Copper Jewelry",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Craft copper jewelry"
+  },
+  {
+   "name": "Cowboy Cookies and Sweets",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Damselfly Organic Clothing",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Eco Friendly apparel made in Colorado"
+  },
+  {
+   "name": "Desert Moon Jewelry Co",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": null
+  },
+  {
+   "name": "Dolce Telluride",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Handcrafted Italy-inspired focaccia, panini, desserts & more"
+  },
+  {
+   "name": "Down Valley Flowers",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Fresh cut flowers"
+  },
+  {
+   "name": "Dunton Kitchen",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Restaurant & Bar located inside Lumiere by Dunton"
+  },
+  {
+   "name": "Effervescent Botanicals",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "We offer consciously sourced topicals body products."
+  },
+  {
+   "name": "Forever Rock Candles",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Rocks fossils and crystals upcycled into lamp oil candles."
+  },
+  {
+   "name": "Fox Den Printing",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "FRESH Food Hub",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "A community food cooperative bringing together farmers and producers"
+  },
+  {
+   "name": "Get Zingy",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Jarred Hungarian wax pepper relishes"
+  },
+  {
+   "name": "Graze Colorado",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Grim Whimsy Crafts",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Whimsical and strange handmade crochet and jewelry made in Telluride."
+  },
+  {
+   "name": "Gypsy Miriah Botanicals",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Hank's Hens",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Joyelia Jewelry",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "JurniWell",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Locally rooted, adventure-driven wellness experience"
+  },
+  {
+   "name": "KH Creative",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "KNOLA Co., LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "KNOLA Clean Fuel, Real Results"
+  },
+  {
+   "name": "La Colombiana",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Delicious Colombian food"
+  },
+  {
+   "name": "Latin Creations",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Variety of delicious Latin food, from grandma’s recipes to high end classic dishes."
+  },
+  {
+   "name": "LeGrande Jewelry",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "A line of handmade jewelry made with attention to detail"
+  },
+  {
+   "name": "Little Bird",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Custom Embroidery Services"
+  },
+  {
+   "name": "Madeline at the Market",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Each Wednesday during the Market on the Plaza, the Madeline offers award winning cookies and ice cream sandwiches"
+  },
+  {
+   "name": "Mesa Verde Lavender",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "MetalRock Designs",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Handcrafted mountain lifestyle jewelry designed for the free-spirited by the free-spirited"
+  },
+  {
+   "name": "Moon Bear Jewels",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Jewelry inspired by the spirit of the San Juans."
+  },
+  {
+   "name": "More's Jewelry",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Girl Face Painting",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": null
+  },
+  {
+   "name": "Mountain Hedgewitch",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Wildcrafted pagan lifestyle goods, traditional handmade brooms"
+  },
+  {
+   "name": "Mr. Churro Co",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Tasty churros with assorted toppings"
+  },
+  {
+   "name": "Munel Studio",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Slow living, heirloom objects to treasure for generations. Whimsy and nature inspire us, if we can imagine it, we will create it."
+  },
+  {
+   "name": "Nina Design",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": null
+  },
+  {
+   "name": "Rebecca Bourke Jewelry",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Handmade with precious and semiprecious stones, 14kt gold and sterling silver"
+  },
+  {
+   "name": "Roaming Rock Creative",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Nature-inspired handmade jewelry with a funky, artistic mountain spirit."
+  },
+  {
+   "name": "Sawpit Mercantile",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "BBQ and community"
+  },
+  {
+   "name": "Simply Magnetic",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Magnetic jewelry for real-life pain"
+  },
+  {
+   "name": "Southwest Designs",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Copper, brass and silver earrings, bracelets, pendants, pins, hair ornaments, necklaces, money clips, key rings and bola ties"
+  },
+  {
+   "name": "Steel Fire Studio LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Artistic and Functional Steel Logs"
+  },
+  {
+   "name": "The Cheeze Cart",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Variety of cheeze sandwiches"
+  },
+  {
+   "name": "The Farmstead",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Small family owned and operated farm"
+  },
+  {
+   "name": "The Flying Hatter",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Custom Designed Hats > Hand-Made Southwest Colorado"
+  },
+  {
+   "name": "The Wok of Joy",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Joy's authentic Thai street food, snacks, and drinks"
+  },
+  {
+   "name": "Trevor & Leslie Browning",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Massage: Out Call / In Home"
+  },
+  {
+   "name": "Uncompahgre Farms",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "A better way to buy beef, one which is healthier for the cows, the consumers, and the community"
+  },
+  {
+   "name": "Watercolors by Jeff",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Wilkinson Public Library",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": null
+  },
+  {
+   "name": "Winding Drive Farm",
+   "list_category": null,
+   "location_stated": "Mountain Village",
+   "description_stated": "Bringing you fresh Colorado produce grown on the Western Slope"
+  }
+ ]
+}

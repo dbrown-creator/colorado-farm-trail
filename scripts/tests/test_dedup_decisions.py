@@ -87,3 +87,61 @@ def test_committed_decisions_file_is_well_formed():
     for r in rows:
         assert r["action"] in ("merge", "distinct"), r
         assert r["name"] and r["city"] and r["target_name"], r
+
+
+def test_override_set_and_prepend_win_over_sources():
+    m = _m("Scanga Meat Company", "Salida", notes="Family meat market since 1952.")
+    merge_mod.apply_overrides([m], [
+        {"name": "Scanga Meat Company", "city": "Salida", "column": "Category", "mode": "set",
+         "value": "Meat Producer & Packer"},
+        {"name": "Scanga Meat Company", "city": "Salida", "column": "Notes", "mode": "prepend",
+         "value": "Meat producer and meat packer."},
+    ])
+    assert m.category == "Meat Producer & Packer"
+    assert m.notes == "Meat producer and meat packer. Family meat market since 1952."
+    assert m.provenance["Notes"] == "override" and m.provenance["Category"] == "override"
+
+
+def test_clear_override_empties_the_field():
+    m = _m("Fountain Farmers Market", "Fountain")
+    m.website = "http://hijacked.example"
+    merge_mod.apply_overrides([m], [{"name": "Fountain Farmers Market", "city": "Fountain",
+                                     "column": "Website", "mode": "clear", "value": ""}])
+    assert m.website == "" and m.provenance["Website"] == "override"
+
+
+def test_override_for_missing_record_is_reported(capsys):
+    merge_mod.apply_overrides([_m("A", "B")], [
+        {"name": "Gone", "city": "B", "column": "Hours", "mode": "set", "value": "x"}])
+    assert "not applied" in capsys.readouterr().out
+
+
+def test_committed_overrides_file_is_well_formed():
+    rows = merge_mod.load_overrides(os.path.join(REPO, "source-data", "phase2", "overrides.csv"))
+    assert rows
+    for r in rows:
+        assert r["column"] and r["mode"] in ("set", "prepend", "clear"), r
+        assert bool(r["value"]) == (r["mode"] != "clear"), r  # clear takes no value
+
+
+def test_snapshot_load_renormalizes_link_fields(tmp_path):
+    from scrape import snapshots
+    m = Market(source="usda", business_name="DELYAKS", city="X",
+               website="https://www.yakmeat.us  , www.yaksale.com", facebook="Some Page Name",
+               instagram="@yaks")
+    snapshots.save("t", [m], snapshot_dir=str(tmp_path))
+    [got], _ = snapshots.load("t", snapshot_dir=str(tmp_path))
+    assert got.website == "https://www.yakmeat.us"
+    assert got.facebook == ""                      # a page name is not a link
+    assert got.instagram == "https://instagram.com/yaks"
+
+
+def test_coordinate_override_sets_a_float_pin():
+    m = _m("Hutchinson Ranch", "Salida")
+    merge_mod.apply_overrides([m], [
+        {"name": "Hutchinson Ranch", "city": "Salida", "column": "Latitude", "mode": "set", "value": "38.5165519"},
+        {"name": "Hutchinson Ranch", "city": "Salida", "column": "Longitude", "mode": "set", "value": "-106.0435714"},
+        {"name": "Hutchinson Ranch", "city": "Salida", "column": "Latitude", "mode": "set", "value": "north-ish"},
+    ])
+    assert (m.latitude, m.longitude) == (38.5165519, -106.0435714)   # the bad row is skipped
+    assert m.geo_source == "override" and m.provenance["Latitude"] == "override"

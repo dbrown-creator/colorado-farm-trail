@@ -1,0 +1,349 @@
+{
+ "slug": "fort-collins-farmers-market-fort-collins",
+ "market": "Fort Collins Farmers' Market",
+ "city": "Fort Collins",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.fortcollinsfarmersmarket.org/vendors",
+ "list_season": null,
+ "site_status": "live",
+ "notes": "Vendors page lists vendors by category plus a detailed alphabetical list with descriptions; no season stated. list_category taken from category headings where the name matched (null otherwise).",
+ "vendors": [
+  {
+   "name": "Agustina's Mexican Foods",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Agustina's Mexican Foods LLC, a small food manufacturing company specializing in homemade Mexican foods."
+  },
+  {
+   "name": "Alpine Roots",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "We work with local farmers here on the Front Range to reduce their waste and produce fungal-dominant vermicompost to bring life back into the soil."
+  },
+  {
+   "name": "Aspen Glo Tallow",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Aspen Glo is an amazing skin conditioning cream packed with vitamins D, E, K, Iron, and linoleic acids. I've added high-end tinctures, creating a cream and products that far surpass the \"average\" tall"
+  },
+  {
+   "name": "Bigglesworth Sausage Company",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Good food, done well, at a great price. Hot dogs, brats, sausage burger, veggie dog, Beyond brat & more!"
+  },
+  {
+   "name": "Bridger Creek Coffee",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Proud producers of amazing small batch fresh roasted coffee."
+  },
+  {
+   "name": "Black Cat Bagel",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Bringing homemade New York-style bagels to the good people of Northern Colorado."
+  },
+  {
+   "name": "By My Mother's Side",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Selling jams, marmalades, fruit butters and candies at local farmers markets."
+  },
+  {
+   "name": "C & R Farms",
+   "list_category": "Fruit Vendors; Specialty Items",
+   "location_stated": null,
+   "description_stated": "Our Palisade peaches have been winning the taste buds of countless customers for years. We strive to bring you only perfection!"
+  },
+  {
+   "name": "Canine Candy Biscuits",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Homemade Spent Grain Dog Biscuits Made with All Natural Ingredients"
+  },
+  {
+   "name": "Chef Bonjour",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Pretzels, quiches, and much more."
+  },
+  {
+   "name": "Chef Sarah's Family Favorites",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Sustainability through sourcing Vintage goods for everyday use & Seasonal/ Local ingredients for delicious canned goods & flavorful popcorn snacks."
+  },
+  {
+   "name": "Colorado Early Colleges",
+   "list_category": "Vegetable Vendors",
+   "location_stated": null,
+   "description_stated": "Colorado Early Colleges is a public charter school that attends the market to sell student grown vegetables."
+  },
+  {
+   "name": "Colorful Colorado Creations",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Colorful Colorado Creations now has 7 flavors of delicious hot sauces."
+  },
+  {
+   "name": "Crawford's Cottage",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Gleaning new life and purpose in small and unexpected places."
+  },
+  {
+   "name": "Dad's Wooden Spoon",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "Specializing in small batch artisan baking, we strive to bake the perfect cookie, muffin, shortbread, granola, dog treats, etc...each and every time."
+  },
+  {
+   "name": "Doughology",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "Allergen Friendly Breads including sweet and savory!"
+  },
+  {
+   "name": "Eden Valley Farm",
+   "list_category": "Vegetable Vendors",
+   "location_stated": null,
+   "description_stated": "We are a chemical and pesticide-free farm dedicated to providing the freshest and most nutritious produce, fruits, and herbs direct to consumers."
+  },
+  {
+   "name": "Elevated Elderberry",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Experience a one of a kind Elderberry Syrup that is handmade in small batches. Made with organic, premium ingredients to support your immune system."
+  },
+  {
+   "name": "Esmeralda's Tamale House",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Authentic Mexican street food, including tamales, burritos, tortillas, salsa, chips, and more."
+  },
+  {
+   "name": "Fisherman’s Pride Wild Alaskan Seafood",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Cerified sustainable, certified wild caught Alaskan seafood based in Colorado serving the fromt range."
+  },
+  {
+   "name": "Frosting Specialty Cupcakes",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Specialty cupcakes with decadent filling inside and light buttercream or whipped cream made my a mother/daughter team!"
+  },
+  {
+   "name": "Happy Pupperz",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Freeze-dried dog treats and handmade bandanas."
+  },
+  {
+   "name": "Healthy Harvest",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Healthy Harvest Gardens Olive Oils, Olives, and Balsamics. We source the best organic olive oils in the world."
+  },
+  {
+   "name": "Herbal Mocktails",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Herbal Mocktails are non-alcoholic drinks that are just as elegant as they are refreshing."
+  },
+  {
+   "name": "Homestead Ranch LLC",
+   "list_category": "Meat & Dairy",
+   "location_stated": null,
+   "description_stated": "Farm raised pork and goat meat. Our pork comes from happy pigs in a natural habitat where they can forage. This directly impacts the quality (both flavor and nutrition) of the pork they produce."
+  },
+  {
+   "name": "King Pappy's BBQ Sauce",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "King Pappy’s is an authentic family recipe BBQ sauce made with love in Northern Colorado."
+  },
+  {
+   "name": "KC’s Fresh Cut Flowers",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "KC’s Fresh Cut Flower Farm is run on regenerative and sustainable gardening of primarily specialty fresh cut flowers including Dahlias, Lisianthus, Ranunculus, Cosmos, Gomphrena, all the glory of a va"
+  },
+  {
+   "name": "In A Pickle",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Bringing the freshest pickles to Northern Colorado!"
+  },
+  {
+   "name": "Little Kettle Corn Co",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Our kettlecorn recipe has been perfected and passed down by Colorado kettlecorn masters for over 25 years. Offering a variety of kettle corn, popcorn, and specialty sodas."
+  },
+  {
+   "name": "Miller Farms",
+   "list_category": "Vegetable Vendors; Meat & Dairy",
+   "location_stated": null,
+   "description_stated": "Your local family run farm -- A Colorado treasure since 1949. Offering vegetables, eggs, meat and more."
+  },
+  {
+   "name": "Morning Fresh Dairy",
+   "list_category": "Meat & Dairy",
+   "location_stated": null,
+   "description_stated": "Family owned and operated dairy farm located in Bellvue, CO since 1894. Offering one time purchases and delivery."
+  },
+  {
+   "name": "Morton's Organic Orchards",
+   "list_category": "Fruit Vendors",
+   "location_stated": null,
+   "description_stated": "We grow certified organic, tree ripe fruit including peaches, nectarines, pears and more."
+  },
+  {
+   "name": "MouCo Cheese Company",
+   "list_category": "Meat & Dairy",
+   "location_stated": null,
+   "description_stated": "Authentic, soft-ripened cheese blending old-world Bavarian knowledge with Colorado creativity. One taste and you will never go back."
+  },
+  {
+   "name": "Nina's Icees",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "Try a New Orleans-style snow cone from Nina's Concessions & cool off with a mound of fluffy shaved ice."
+  },
+  {
+   "name": "Pain Wizard LLC",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Pain Wizard is an advanced, deep-penetrating, fast-acting pain relieving cream that gives long-term relief from the inflammation and pain of arthritis, bursitis, tendinitis, back-aches, neck-aches, hi"
+  },
+  {
+   "name": "Papa Joe's Local Honey",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Loveland Bee Helper provides local, unprocessed honey and bee-related products to the public at fair prices."
+  },
+  {
+   "name": "Pope Farm's Produce",
+   "list_category": "Vegetable Vendors; Fruit Vendors",
+   "location_stated": null,
+   "description_stated": "We carry a vast variety of locally grown produce throughout the Summer & Fall months. Our products include: Western Slope fruit, Rocky Ford melons, fresh tomatoes, lettuces, peppers, potatoes, beans, "
+  },
+  {
+   "name": "Pelican Peaks Gourmet Mixes",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Pre-measured dry mixes for food that still feels homemade. Our current lineup features a few Dinner Mixes, Cookies, Focaccia Breads, and Dips."
+  },
+  {
+   "name": "Press Love Wildflowers",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Preserved Floral Handmade Designs + Bouquet Preservation. Handmade products such as coasters, wine corks, jewelry, bookmarks and more - all made with real flowers!"
+  },
+  {
+   "name": "Sowing Seeds of Hope Microgreens",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Microgreens offer the tastiest way to get all the best vitamins in their purest form."
+  },
+  {
+   "name": "Sunrise Ranch Beef",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Grassfed beef is known to be one of the more nutrient-dense proteins on earth."
+  },
+  {
+   "name": "Stoppini Pasta Sauce",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Elevating your meals with our artisanal sauce, celebrating the essence of Italian cuisine."
+  },
+  {
+   "name": "Sweet European Treats",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "Sweet European Treats is a passionate incorporation that built its purpose on bringing the taste of European pastries over to America."
+  },
+  {
+   "name": "The Bread Chic",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "Freshly baked Sourdough, Croissants, Pies & more!"
+  },
+  {
+   "name": "The Bagel Cache",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "Try a signature sourdough bagel and see what everyone’s talking about. Don't forget to add your favorite flavored cream cheeses or whipped honey butter!"
+  },
+  {
+   "name": "The Connelly Creamery",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "We are a family-owned and operated small business making amazing homemade Ice cream."
+  },
+  {
+   "name": "The Jelly Lady",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Small batch pepper regular jellies, and handmade tallow lotion"
+  },
+  {
+   "name": "Trailhead Cookies",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "Delicious Trailhead Cookies, crafted with care to satisfy your sweet cravings. Made with real butter, cane sugar - never any preservatives."
+  },
+  {
+   "name": "Wagner Land & Cattle",
+   "list_category": "Meat & Dairy",
+   "location_stated": null,
+   "description_stated": "Naturally raised, grass-fed, grass-finished beef."
+  },
+  {
+   "name": "What the Fudge Co.",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "We offer over 20 flavors of homemade fudge ranging from rich dark and milk chocolates to delicious white chocolates and seasonal flavors."
+  },
+  {
+   "name": "Whiteside Honey",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Whiteside Honey Company LLC has been in business since 1980. We produce raw alfalfa honey in bee yard."
+  },
+  {
+   "name": "Willow Creek Mushrooms",
+   "list_category": "Vegetable Vendors",
+   "location_stated": null,
+   "description_stated": "We’re a family-owned and operated mushroom farm dedicated to bringing you the freshest, gourmet mushrooms."
+  },
+  {
+   "name": "Yummy Yummy Products",
+   "list_category": "Specialty Items",
+   "location_stated": null,
+   "description_stated": "Experience the taste of authentic, fresh ingredients with every bite ... Indulge in the flavorful world of Yummy Yummy Products! Hummus, dips and pita chips."
+  },
+  {
+   "name": "Wild Wiggins Homestead",
+   "list_category": null,
+   "location_stated": null,
+   "description_stated": "Wild Wiggins Homestead cultivates nutrient-dense, pesticide-free produce. We specialize in vibrant microgreens, seasonal organic vegetables, eggs, and garden-inspired products, all while nourishing ou"
+  },
+  {
+   "name": "Voulez Vous Chocolates",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "Our chocolate is handcrafted in small batches using ethically sourced chocolate."
+  },
+  {
+   "name": "Sweet Beaver Caramel Company",
+   "list_category": "Breads & Sweets",
+   "location_stated": null,
+   "description_stated": "delicious, melt-in-your-mouth caramel!"
+  }
+ ]
+}

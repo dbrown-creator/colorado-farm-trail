@@ -1,0 +1,235 @@
+{
+ "slug": "cortez-farmers-market-cortez",
+ "market": "Cortez Farmers Market",
+ "city": "Cortez",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.cortezfarmersmarket.com/your-vendors",
+ "list_season": null,
+ "site_status": "live",
+ "notes": "Official \"Your Vendors\" page; undated (site text references 2025 season, so possibly stale). No vendor locations stated. Some vendors list only a name and contact details.",
+ "vendors": [
+  {
+   "name": "Summit Roots Farm",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "All natural, organically cultivated produce."
+  },
+  {
+   "name": "The Snack Patch",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Cookie and soup mixes, baked goods, flavored noodles, free-range chicken eggs, fruit, and a huge variety of vegetables."
+  },
+  {
+   "name": "Cheryl's Garden",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Fruits, Garden Vegetables, Dry Beans, Wheat & Bran, dog treats, and More"
+  },
+  {
+   "name": "SongHaven Farm",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Planting Seeds & Singing Songs Since 2005; Orgaznik Produce & More"
+  },
+  {
+   "name": "Bountiful Ridge Farm",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Fresh, local produce from our farm, eggs, apples, and baked goods made with local ingredients"
+  },
+  {
+   "name": "Traditional Artisan Customs",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Traditional Artisan Customs, Knives, Guns, Leatherwork"
+  },
+  {
+   "name": "4 Corners Worm Farm",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Worms, worm bins, & vermi-composting education."
+  },
+  {
+   "name": "Whitedove Farms",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Organically Grown Produce, Arugula to Zucchini, Fresh, Local Honey"
+  },
+  {
+   "name": "Black D Spicer",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Fresh & Dried Produce, The Spice of Life"
+  },
+  {
+   "name": "Berry Farm & Ranch",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Pastured Farm-Raised Pigs, Lamb, & Meat Goats; Natural Practices; USDA Inspected & Processed; pork bundles & wholes; pet treats & pet food"
+  },
+  {
+   "name": "Bell Beef",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Local, Grass-Fed Beef, USDA Inspected"
+  },
+  {
+   "name": "Esperanza Farmstead",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "A wide variety of fresh baked goods, homemade jams & preserves, fermented foods, freeze-dried fruits, goat milk soaps, tea blends, handmade gifts and more!"
+  },
+  {
+   "name": "Perfectly Primrose & Magnolia Fay's Farm",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "We offer handmade goat milk skincare products, eggs, baked goods, lavender lemonade, lollipops, and more!"
+  },
+  {
+   "name": "Terria Madre Herbs",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "herbs, houseplants, and pottery"
+  },
+  {
+   "name": "Chinampas",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Mushroom, aquaponics, hydroponics"
+  },
+  {
+   "name": "Brilyn Acres",
+   "list_category": "Agricultural & Livestock Vendors",
+   "location_stated": null,
+   "description_stated": "Lamb, vegetable"
+  },
+  {
+   "name": "Mick's Coffee",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Baked Goods, local raw Honey, Farm Fresh Produce, Locally Roasted Coffee"
+  },
+  {
+   "name": "Moonlit Naturals",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Elderberry Syrup, Fyre Cyder, Herbal Tea Blends, Personal Care Products, Essential Oil Roller Blends, Bath Bombs/Salts, Bug Repellent, Sunscreen, Healing Salves, Tooth Powder"
+  },
+  {
+   "name": "Sage & Cloud Works",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Home & Garden Decor, Produce, Fiber, Baked Goods to Delight In, and Chocolates by Willie and Me"
+  },
+  {
+   "name": "Lonewolf Arts",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Navajo Jewelry and Sandstone Rock Art by Valerina Sampson"
+  },
+  {
+   "name": "Candles by Donabu",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Unique Pillar & Jar Candles; Specializing in creative scents and combinations."
+  },
+  {
+   "name": "Firedrake Arts",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Handmade and Custom Leather Goods: Sheaths, Holsters, Wallets, Belts, Purses and more!"
+  },
+  {
+   "name": "Canyon Chile",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Davina's Garcia",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "One of a kind pieces"
+  },
+  {
+   "name": "Bella Creations",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Wooden Animal; Don is known as the reindeer man"
+  },
+  {
+   "name": "Mountain High Knives",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Humming Bird Hues",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Handcrafted wearable vegetables"
+  },
+  {
+   "name": "Creative Inspirations",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "embroidered creations"
+  },
+  {
+   "name": "Pan Pan Goods",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Sourdough baked goods"
+  },
+  {
+   "name": "Carol McGahen Fine Arts",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Weber Canyon Designs",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Laser-Engraved Gifts, Handcrafted Home Decor, Custom Signs"
+  },
+  {
+   "name": "LeNormand Craft",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Author and wood crafts"
+  },
+  {
+   "name": "The Tailoring Turnip",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Textile Art"
+  },
+  {
+   "name": "Loncho's Larder",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Beef & Bison tallow for cooking; pastured pork lard; organic nixtamal corn tortilla chips fried in tallow; soaps, lotions, chapstick, candles; locally sourced beef and bison jerky"
+  },
+  {
+   "name": "Candlewood Ranch",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "rye bread, eggs, and quail eggs"
+  },
+  {
+   "name": "Mountain View Farms",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Tallow, soap, shrubs, vanilla, and veggies"
+  },
+  {
+   "name": "Stewart Farms LLC.",
+   "list_category": "Art, Craft, Cosmetic, Food, and Medicinal Vendors",
+   "location_stated": null,
+   "description_stated": "Sourdough baked goods and chicken meat"
+  }
+ ]
+}

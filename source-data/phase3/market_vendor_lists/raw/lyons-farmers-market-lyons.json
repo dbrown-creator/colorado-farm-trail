@@ -1,0 +1,151 @@
+{
+ "slug": "lyons-farmers-market-lyons",
+ "market": "Lyons Farmers Market",
+ "city": "Lyons",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.fosterabundantspaces.com/visit",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Operator (Abundant Spaces) /visit page has a 'This Season' list grouped by category. Simple Things Farm noted as accepting SNAP and WIC. Passport page lists participating town businesses, not market vendors (not captured).",
+ "vendors": [
+  {
+   "name": "Simple Things Farm",
+   "list_category": "Farms & Growers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Common Name Farm",
+   "list_category": "Farms & Growers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Willow Farm Blooms",
+   "list_category": "Farms & Growers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Rabbit Mountain Lavender",
+   "list_category": "Farms & Growers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Mathew Davis Landscape Architect",
+   "list_category": "Farms & Growers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Sun Circle Intentions",
+   "list_category": "Farms & Growers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Longmont Dairy",
+   "list_category": "Farms & Growers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "West Wolf Medicinals",
+   "list_category": "Wellness & Beauty",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Embodied Ambrosia",
+   "list_category": "Wellness & Beauty",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Cypress Apothecary",
+   "list_category": "Wellness & Beauty",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Plant Healing Woman Apothecary",
+   "list_category": "Wellness & Beauty",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Author Catherine Ann Russell",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "ZiegZag Crochet",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Dr Odd Drawings",
+   "list_category": "Artisans & Makers",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Plato's Coffee",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Heaven's Popcorn",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Naomi's Sprouted Seed Truffles",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "St Vrain Coffee",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Renee the Baker",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Simply Bee Organics",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Farm to Pup",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "King Pappy's BBQ Sauce",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  },
+  {
+   "name": "Heart & Soul Bakery",
+   "list_category": "Packaged & Prepared Goods",
+   "location_stated": null,
+   "description_stated": null
+  }
+ ]
+}

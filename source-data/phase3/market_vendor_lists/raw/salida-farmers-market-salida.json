@@ -1,0 +1,493 @@
+{
+ "slug": "salida-farmers-market-salida",
+ "market": "Salida Farmers Market",
+ "city": "Salida",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://www.foodshedalliance.com/meet-our-vendors",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "Page headed 'Salida vendors 2026'; Ride On listed twice (deduped). Captured by direct HTML parse.",
+ "vendors": [
+  {
+   "name": "Rocky Mountain Garlic",
+   "list_category": "Farmers",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find vegetables, fruit, dried goods, pickled goods, merchandise, flowers and of course, garlic!"
+  },
+  {
+   "name": "The Triangle Oasis",
+   "list_category": "Farmers",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find vegetables, fruit, roasted chilies, herbs, sausage, merchandise, flowers and more."
+  },
+  {
+   "name": "Sweet Pea Farms",
+   "list_category": "Farmers",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find high Altitude Wildflower Honeys, flavored honeys, honey & honey straws & candy. Eggs, pork, & fresh produce all raised here on farm. Handmade balms & salves made with raw beeswax. Beeswax candles"
+  },
+  {
+   "name": "Headwater Farms",
+   "list_category": "Farmers",
+   "location_stated": "Buena Vista, CO",
+   "description_stated": "Find vegetables, fruit, plant starts, merchandise, flowers, and more."
+  },
+  {
+   "name": "Greg’s Gourmet Greens",
+   "list_category": "Farmers",
+   "location_stated": "Poncha Springs, CO",
+   "description_stated": "Find microgreens, teas, herbs, spices, and powders."
+  },
+  {
+   "name": "Alpine Valley Mushrooms",
+   "list_category": "Farmers",
+   "location_stated": "Saguache, CO",
+   "description_stated": "Find locally grown mushrooms, fresh and dried, as well as mushroom tinctures and extracts."
+  },
+  {
+   "name": "Palisade Peach Shack",
+   "list_category": "Farmers",
+   "location_stated": "Palisade, CO",
+   "description_stated": "Find fresh peaches, cantaloupe, watermelon, cherries, jams, jellies, baking mixes, corn, and more."
+  },
+  {
+   "name": "Microgreen Creations LLC",
+   "list_category": "Farmers",
+   "location_stated": null,
+   "description_stated": "Find Micro and Baby Herbs/Greens, and mushrooms."
+  },
+  {
+   "name": "Miss Penn's Mountain Seeds",
+   "list_category": "Farmers",
+   "location_stated": null,
+   "description_stated": "Find Lots of seeds, and some Rosemary or Sage sprigs."
+  },
+  {
+   "name": "Foxtown Farm",
+   "list_category": "Farmers",
+   "location_stated": null,
+   "description_stated": "Find Ginger Honey Syrup, Golden Milk Honey Syrup, Turmeric Honey Syrup, Elderberry Ginger Honey Syrup, and Fire Cider."
+  },
+  {
+   "name": "Feedsack Flowers",
+   "list_category": "Farmers",
+   "location_stated": "Center, CO",
+   "description_stated": "Find fresh cut flowers sold as bouquets; dried floral creations, and pressed flower art."
+  },
+  {
+   "name": "Westcliffe Honey Company",
+   "list_category": "Farmers",
+   "location_stated": "Westcliffe, Colorado",
+   "description_stated": "Find creamed honey in rotating seasonal flavors, Infused honeys such as bourbon-barrel-aged honey (using barrels from Wood’s High Mountain Distillery) and hot/spicy honey, Comb honey, 100% beeswax can"
+  },
+  {
+   "name": "Bristlecone Bakeshop",
+   "list_category": "Bakers",
+   "location_stated": "Alma, CO",
+   "description_stated": "Find sourdough bread of many varieties, cookies, scones, danishes, crossiant’s, pastries and more."
+  },
+  {
+   "name": "Canon Bread Basket",
+   "list_category": "Bakers",
+   "location_stated": "Canon City, CO",
+   "description_stated": "Find sourdough Breads, cinnamon rolls, pizza crusts, cookies, English muffins, focaccia."
+  },
+  {
+   "name": "Cabin Kitchen Co",
+   "list_category": "Bakers",
+   "location_stated": "Westcliffe, CO",
+   "description_stated": "Find Swedish buns (cardamom, sugar, cinnamon, fruit varieties), European cookies (pepparkakor, pizzelles, Swedish dream), our signature cookies (cabin, wildflower almond, black cocoa), pies, toffee, c"
+  },
+  {
+   "name": "Banyan Breads",
+   "list_category": "Bakers",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find sourdough bread, babka and other baked goods."
+  },
+  {
+   "name": "Kristy's Sweet Garden",
+   "list_category": "Bakers",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find decorated sugar cookies, chocolate chip cookies, peanut butter cookies, cranberry nut cookies, lemon crinkle cookies, chocolate crinkle cookies, gingersnap cookies, strawberry shortbread cookies,"
+  },
+  {
+   "name": "Raisin Rye",
+   "list_category": "Bakers",
+   "location_stated": "Del Norte, CO",
+   "description_stated": "Find sourdough breads. Rye bread. Scones. Muffins. Cookies. Gluten-free brownies. Sourdough bagels."
+  },
+  {
+   "name": "Rama's Bread",
+   "list_category": "Bakers",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find Turkish breads, baklava, and sweets."
+  },
+  {
+   "name": "Martha’s Woodfired",
+   "list_category": "Bakers",
+   "location_stated": "Westcliffe, CO",
+   "description_stated": "Find baked goods such as donuts, pies, hand pies, fry pies, bread, cinnamon rolls, cakes, pastries, and more."
+  },
+  {
+   "name": "Hoots",
+   "list_category": "Bakers",
+   "location_stated": null,
+   "description_stated": "Find fruit mini pies with rotating fruit fillings and floral and plant themed plates, vases, coasters, jewelry/soap holders, earrings and pendants. Depending on the flower bloom this season I may also"
+  },
+  {
+   "name": "Rosario’s Tamales",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Colorado Springs, CO",
+   "description_stated": "Find fresh and ready to eat tamales."
+  },
+  {
+   "name": "Coffee by Topo",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find fresh hot coffee, cold brew, chai, golden milk, scones, baked goods, merchandise, and more."
+  },
+  {
+   "name": "Ride On",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find fresh smoothies, acai bowls, juices, wellness shots, vegan deserts, and more."
+  },
+  {
+   "name": "Crepe Magouille",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find traditional crepes all the way from Brittany, France."
+  },
+  {
+   "name": "Divided Pie",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find wood-fired pizza."
+  },
+  {
+   "name": "DogGurt",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find all natural, healthy, frozen treats that your dog will LOVE."
+  },
+  {
+   "name": "El Toque",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find breakfast sandwiches, breakfast burritos, juice (guava and mango), lunch (red beans + meat + salad)."
+  },
+  {
+   "name": "EJ’s Smashed Burgers",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": null
+  },
+  {
+   "name": "Mantis Kitchen",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find fresh, nutritious, delicious food sourced from in and around both the San Luis and Arkansas Valley."
+  },
+  {
+   "name": "Mix LTD",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": null,
+   "description_stated": "Find handcrafted herbal elixirs on tap served over fresh shaved ice, ceremonial drinking chocolate, fair-trade cacao powders and bars, and artisanal functional mushroom truffles. In addition, we offer"
+  },
+  {
+   "name": "Plum Crazy Pasta",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find ravioli and sauces."
+  },
+  {
+   "name": "Saigon Street Kitchen",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": null,
+   "description_stated": "Find fresh veggie and shrimp spring rolls, lemongrass chicken skewers, Vietnamese coffee, pickled daikon radish and carrots."
+  },
+  {
+   "name": "Salida Distillery",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find craft spirits such as: Aquamarine Vodka, WaterRights Gin & StagRabbit Bourbon."
+  },
+  {
+   "name": "The Toasted Cheezer",
+   "list_category": "Concessionaire Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find comfort grilled cheese sandwiches and scratch-made soups. They also offer a variety of drinks, chips, baked goods & avocado toasts."
+  },
+  {
+   "name": "Badger Creek Ranch",
+   "list_category": "Ranchers",
+   "location_stated": "Coaldale, CO",
+   "description_stated": "Find beef, pork, lamb, and eggs."
+  },
+  {
+   "name": "Buck and Bloom Cheese Co",
+   "list_category": "Ranchers",
+   "location_stated": "Buena Vista, CO",
+   "description_stated": "Find fresh Cheese Curds, Chevre, Fromage Blanc, Highland, Hatch Pepperjack, Casdoprh Cheddar, Goat Feta, Red Rock, Mont Creme Camembert, Farm Fresh Eggs."
+  },
+  {
+   "name": "Arrowpoint Cattle Co",
+   "list_category": "Ranchers",
+   "location_stated": "Buena Vista, CO",
+   "description_stated": "Find highland beef, steak, pork and eggs."
+  },
+  {
+   "name": "Raia Sunshine Creations",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find stone and silver jewelry including rings, pendants, earrings, and bracelets."
+  },
+  {
+   "name": "Copper Gulch",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Westcliffe, CO",
+   "description_stated": "Find mountain inspired jewelry, magnets, framed art, and hand stitched leather bags."
+  },
+  {
+   "name": "The Hodgepodge",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find aprons, tote bags, napkins, placemats, quilts, fanny packs, pillow cases and more."
+  },
+  {
+   "name": "Heavenly Flower Jewelry",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Buena Vista, CO",
+   "description_stated": "Find handcrafted seed bead and gemstone jewelry."
+  },
+  {
+   "name": "Funky Cat Macrame",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find handcrafted macrame plant holders, hat holders, key chains,"
+  },
+  {
+   "name": "Abby Lou Pottery",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Howard, CO",
+   "description_stated": "Find handmade pottery including drinkware, vases, bowls and more."
+  },
+  {
+   "name": "Andiamo Woodworking",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Cotopaxi, CO",
+   "description_stated": "Find hardwood rolling pins, cutting/serving boards, woodenware for kitchen use, small wooden bowls, and small pieces of furniture."
+  },
+  {
+   "name": "BagzNBeadz",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find Bucket hats, boho bags, pet beds made from scraps, skirts made from recycled ties."
+  },
+  {
+   "name": "Bergspitze",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Buena Vista, CO",
+   "description_stated": "Find leggings and beanies."
+  },
+  {
+   "name": "Better Birdwatching",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Woodland Park, CO",
+   "description_stated": "Find your go-to book for bird watching."
+  },
+  {
+   "name": "Color Me Timbers",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find tie dye socks and overalls."
+  },
+  {
+   "name": "Corvus",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find screen printed Salida specific t-shirts, other original shirt designs, sweatshirts, tote bags, handmade leather wallets and bags."
+  },
+  {
+   "name": "Dancing Tree Designs",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find upscaled recycled wearable art garments (t shirts, dresses, bags, trousers, skirts) percentage of sales support Salida circus outreach foundation."
+  },
+  {
+   "name": "Earthkind Refills",
+   "list_category": "Artisan Vendors",
+   "location_stated": null,
+   "description_stated": "Find handmade pottery. Refillable castile soap, dish soap, hand soap, bar soap, bar lotion, detergent, cleaning concentrate, Eco-conscious personal care products: refillable shampoo, conditioner, loti"
+  },
+  {
+   "name": "Fine and Feral Collective",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Fairplay, CO",
+   "description_stated": "Find handmade jewelry - specifically necklaces, bracelets, sunglasses chains. Liz also sells original paintings on skateboards and rafting paddles and will sell prints of those paintings (hopefully by"
+  },
+  {
+   "name": "Glitterbug Face Painting",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find face painting!"
+  },
+  {
+   "name": "Heart Speak Journeys",
+   "list_category": "Artisan Vendors",
+   "location_stated": null,
+   "description_stated": "Interactive storybook sets for kids, scavenger hunts to promote language, themed photo cards with picture symbol stickers to support all writers."
+  },
+  {
+   "name": "Imprint Collective",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find Organic cotton underlayer (t-shirts, tanks, bralettes) - eco-printed and undyed versions, Cotton bandana's - various natural dye techniques and designs, Red willow baskets, Crocheted market bags,"
+  },
+  {
+   "name": "Kerstin Stock Art",
+   "list_category": "Artisan Vendors",
+   "location_stated": null,
+   "description_stated": "Find original paintings, prints, note cards, stickers and puzzles."
+  },
+  {
+   "name": "Mountain Farmhouse Soapery",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Canon City, CO",
+   "description_stated": "Find goatmilk soap, lotion, body butter, and beef tallow products."
+  },
+  {
+   "name": "Paws & Co Boutique",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Reversible (two coordinating patterns) snap pet bandanas, pet bows with elastic (attaches to the pet's collar), potty bag holders (with a full roll of potty bags included), keychain wristlets, scrunch"
+  },
+  {
+   "name": "Remy Buxton Woodworks",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find handmade quality cutting boards."
+  },
+  {
+   "name": "Repair is Radical",
+   "list_category": "Artisan Vendors",
+   "location_stated": null,
+   "description_stated": "Find clay: house chonks, trinket shelves of various sizes, star key hangs, mugs, useful kitchen items, miniature chairs and benches, gingerbread houses. fabric: banners/flags, patches, mends on site, "
+  },
+  {
+   "name": "Sacred Ways",
+   "list_category": "Artisan Vendors",
+   "location_stated": null,
+   "description_stated": "Find healing jewelry."
+  },
+  {
+   "name": "Book Club Salida",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find new and used books."
+  },
+  {
+   "name": "Salida Ceramics",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find all your fixes for ceramics."
+  },
+  {
+   "name": "Terra Forma Studios",
+   "list_category": "Artisan Vendors",
+   "location_stated": "Gunnison, CO",
+   "description_stated": "Find functional Ceramic Wares and Sculpture."
+  },
+  {
+   "name": "Up in the Woods",
+   "list_category": "Artisan Vendors",
+   "location_stated": null,
+   "description_stated": "Find recycled pieces also known as \"fabric collages\" as well as hand-made pottery. Both are mostly functional such as hand bags, totes, mugs, vase, etc. Every piece is unique, no two things are the sa"
+  },
+  {
+   "name": "Wonderland Leather LLC",
+   "list_category": "Artisan Vendors",
+   "location_stated": null,
+   "description_stated": "Find Purses, belts, wallets, wine totes and wall racks, log carriers, valet trays, laptop totes/satchels, notepads/folios, leather and waxed canvas aprons, baskets, glasses cases, bracelets, key fobs,"
+  },
+  {
+   "name": "Woof n Wag Snack Shack",
+   "list_category": "Artisan Vendors",
+   "location_stated": null,
+   "description_stated": "Find dog treats, dog bandanas, bow ties, dog poop bag holders, collars, handmade human accessories such as totes, card holders, pouches etc. and stickers."
+  },
+  {
+   "name": "Sex Plants Rock N Roll",
+   "list_category": "Herbal & Skincare Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find music inspired, micro batch handmade with wildcrafted and organically homegrown medicinal herbs."
+  },
+  {
+   "name": "Salida Sunshine Botanicals",
+   "list_category": "Herbal & Skincare Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find herbal creams, lotions, serums, hydrosols, cleansers, and body oils."
+  },
+  {
+   "name": "Source Botanicals",
+   "list_category": "Herbal & Skincare Vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Find organic, naturally dyed clothes including hoodies, shirts, produce bags, beeswax wraps, salve, tinctures, body butter and small pine needle baskets."
+  },
+  {
+   "name": "Ecozoica Apothecary",
+   "list_category": "Herbal & Skincare Vendors",
+   "location_stated": null,
+   "description_stated": "Find a variety of handcrafted herbal and botanical products, including: Herbal salves, liniments, misters, and body butters, Alcohol, apple cider vinegar, raw honey, and glycerin-based tinctures, extr"
+  },
+  {
+   "name": "Gabba Gabba Naturals",
+   "list_category": "Herbal & Skincare Vendors",
+   "location_stated": null,
+   "description_stated": "Honey &amp; beeswax soaps, skin, balm, shaving bars, shampoo bars, beard balm, skin lotion, lip balm, organic sugar scrub, cedar, soap dishes (made in house)."
+  },
+  {
+   "name": "Wild Meadow Handmade",
+   "list_category": "Herbal & Skincare Vendors",
+   "location_stated": null,
+   "description_stated": "Find Tallow Lotion, Tallow whipped Balm, Tallow lip balm, Tallow Moisture Cream, Sweet Bums baby Booty Balm and diaper rash cream, and Tallow face cream."
+  },
+  {
+   "name": "Colorado State University Extension",
+   "list_category": "Service and Info vendors",
+   "location_stated": "Poncha Springs, CO",
+   "description_stated": "Offering fact sheets about planting trees, managing pests, diseases and weeds in vegetable gardens, and Colorado Master Gardener Volunteers will be at the market to help diagnose and troubleshoot issu"
+  },
+  {
+   "name": "Elemental 5",
+   "list_category": "Service and Info vendors",
+   "location_stated": "Poncha Springs, CO",
+   "description_stated": "Offering fun activities to families at the farmers market as well as an on site aerobatics apparatus course and bouncy house!"
+  },
+  {
+   "name": "Central Colorado Conservancy",
+   "list_category": "Service and Info vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Offering information about conservation easements and restoration projects, to programs partnering with agriculture producers and educating our communities on the importance of conservation."
+  },
+  {
+   "name": "Columbine Gem and Mineral Society",
+   "list_category": "Service and Info vendors",
+   "location_stated": "Chaffee County",
+   "description_stated": "Find all the info you need with this public, non-profit club serving the geologists, prospectors, lapidaries, and jewelers of Chaffee County, CO."
+  },
+  {
+   "name": "KHEN",
+   "list_category": "Service and Info vendors",
+   "location_stated": "Salida, CO",
+   "description_stated": "Offering music all day long from your favorite community radio station for the people, by the people."
+  },
+  {
+   "name": "Mountain Mamas",
+   "list_category": "Service and Info vendors",
+   "location_stated": null,
+   "description_stated": "Offering information on having safe, healthy outdoor public spaces for our families to connect with nature and each other."
+  }
+ ]
+}

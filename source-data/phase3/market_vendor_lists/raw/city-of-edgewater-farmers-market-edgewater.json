@@ -1,0 +1,12 @@
+{
+ "slug": "city-of-edgewater-farmers-market-edgewater",
+ "market": "City of Edgewater Farmers Market",
+ "city": "Edgewater",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "no",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "live",
+ "notes": "City site (edgewaterco.gov; edgewaterco.com now redirects there and blocks curl) has no market or vendor list; a search result indicates the city no longer hosts the weekly Market & Music. Facebook page not checked per instructions.",
+ "vendors": []
+}

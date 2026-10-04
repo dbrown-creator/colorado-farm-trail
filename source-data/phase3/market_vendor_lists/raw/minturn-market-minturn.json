@@ -1,0 +1,12 @@
+{
+ "slug": "minturn-market-minturn",
+ "market": "Minturn Market",
+ "city": "Minturn",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "blocked",
+ "notes": "minturn.org is behind a Cloudflare JavaScript challenge (403); not bypassed. Search snippets suggest vendor names appear weekly on the market page but could not be read.",
+ "vendors": []
+}

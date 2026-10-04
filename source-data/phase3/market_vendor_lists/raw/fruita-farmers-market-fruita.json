@@ -1,0 +1,12 @@
+{
+ "slug": "fruita-farmers-market-fruita",
+ "market": "Fruita Farmers' Market",
+ "city": "Fruita",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": "https://www.fruitachamber.org/events/farmers-market",
+ "list_season": null,
+ "site_status": "live",
+ "notes": "Chamber page is a JavaScript-only app (ChamberMate) with no readable content via curl or WebFetch; could not determine whether a list exists.",
+ "vendors": []
+}

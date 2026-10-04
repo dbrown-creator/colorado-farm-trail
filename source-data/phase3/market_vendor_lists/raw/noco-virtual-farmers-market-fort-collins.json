@@ -1,0 +1,12 @@
+{
+ "slug": "noco-virtual-farmers-market-fort-collins",
+ "market": "Noco Virtual Farmers Market",
+ "city": "Fort Collins",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "unknown",
+ "vendor_list_url": null,
+ "list_season": null,
+ "site_status": "dead",
+ "notes": "Domain connections reset and the TLS certificate belongs to a WP Engine host, not the domain; site appears lapsed.",
+ "vendors": []
+}

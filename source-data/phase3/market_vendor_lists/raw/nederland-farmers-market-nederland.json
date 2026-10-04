@@ -1,0 +1,559 @@
+{
+ "slug": "nederland-farmers-market-nederland",
+ "market": "Nederland Farmers Market",
+ "city": "Nederland",
+ "checked": "2026-10-03",
+ "publishes_vendor_list": "yes",
+ "vendor_list_url": "https://nederlandfarmersmarket.mymarket.org/profiles",
+ "list_season": "2026",
+ "site_status": "live",
+ "notes": "MarketWurks vendor profiles read via public API (X-Account-ID b9cb82e482cb29459bc72f4fb456229e); filtered to vendors with dates at this market id d4146f5d01ff780d48a0f6db11c034da. Category codes decoded from the signup form.",
+ "vendors": [
+  {
+   "name": "MooseTrack Boutique",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Wildlife & custom pet portrait artwork & engravings on wood (plaques, ornaments, coasters, magnets, etc.). Sublimated wildlife on stainless steel drinkware. Leather bracelets, keychains & drinkware st"
+  },
+  {
+   "name": "Peak State Coffee",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Mushroom coffee by the bag of beans or the cup"
+  },
+  {
+   "name": "Traveling tintype portrait Studio",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Artisan (Arts, Crafts, Health, Beauty)"
+  },
+  {
+   "name": "evi3lution jewelry design, LLC",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Artisan (Arts, Crafts, Health, Beauty)"
+  },
+  {
+   "name": "The Mountain-Ear",
+   "list_category": "Information/Community",
+   "location_stated": null,
+   "description_stated": "subscription sales online, merch to be give to subscribers, newspapers, guides, monthly music magazine, return of the \"Pup Tent\""
+  },
+  {
+   "name": "Mountain Goat Tees",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Beautiful hand screened t-shirts made in our mountains!"
+  },
+  {
+   "name": "Artemisia Atara Apothecary",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Herbal goods, flower essences, teas, and elixirs."
+  },
+  {
+   "name": "Purple Turtle Fiber Arts",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Ice dyed clothing and accessories for all ages. Batik clothing, original paintings, and prints of paintings. (Maybe stickers too?) Macrame plant hangers and wall pieces."
+  },
+  {
+   "name": "Magic Bar Coffee",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Magic Bar Coffee provides a full service espresso, coffee and tea experience for attendees and vendors at Nederland Farmers Market. For coffee I feature Sweet Bloom Coffee Roasters, based in Lakewood,"
+  },
+  {
+   "name": "Hare Family Farm",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "HARE HEMP CBG-1000 Liquid Drops\nHARE HEMP CBG Hardworking Hands Balm\nHARE HEMP CBG Joint & Muscle Balm\nHARE HEMP CBG Sensitive Skin Balm\nCustom Willow Wreaths"
+  },
+  {
+   "name": "DMC Art Work",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "original paintings, prints, greeting cards and community projects"
+  },
+  {
+   "name": "Healthy Harvest Gardens LLC",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Organic Extra virgin olive oil, organic olives, organic balsamic, and infused olive oils."
+  },
+  {
+   "name": "PeeCloths.COM (soon to dba Edon Toilet Linens)",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Home toilet linens, paperless towels made exclusively of upcycled/remnant fabric, hiking/trail/wilderness pee cloths for women."
+  },
+  {
+   "name": "Three Kings Non Alcoholic Beverages",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Kombucha / na beer / sparkling tea and hop water"
+  },
+  {
+   "name": "Burning Bridges LLC",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Hot Sauce"
+  },
+  {
+   "name": "Honeybee Herbals",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Herbal products, skincare, teas, tinctures, candles"
+  },
+  {
+   "name": "MycoMindful Mushrooms",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "Gourmet fresh mushrooms, dried mushrooms, mushroom spice powder, mushroom jerky. Tinctures and extract capsules of reishi, lions mane and cordyceps"
+  },
+  {
+   "name": "Capture the Sun LLC",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "crystal bead suncatchers and crystal bead bracelets"
+  },
+  {
+   "name": "Wandering Blue Studio",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "I’ll be bringing my functional pottery"
+  },
+  {
+   "name": "Wild Moon Medicine",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Homemade herbal teas and remedies (tinctures, salves, elixirs, etc.), soaps and bath and body products (bath salts, body scrubs, etc.). All made with organic ingredients."
+  },
+  {
+   "name": "Kompass Apparel",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "modern outdoor-inspired lifestyle apparel including tees, tanks, hoodies, and baby onesies"
+  },
+  {
+   "name": "Kalali",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Seed beaded jewelry and hat bands."
+  },
+  {
+   "name": "Overachieving Tea",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "\"Yerba mate tea - loose leaf and fresh brewed. \n\nElderberry syrup wellness shot \n\nTurmeric probiotic wellness shot \""
+  },
+  {
+   "name": "Sol.flo.klay",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "One of a kind handmade functional art pottery"
+  },
+  {
+   "name": "Elevated Elderberry LLC",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "We attended this market last year as a drop in and would love the opportunity to be full time. Thank you so much"
+  },
+  {
+   "name": "Susan's Samosas",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Samosas, Stew and Rice"
+  },
+  {
+   "name": "Mycolove",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "Functional Mushroom Lineup: \nLion's Mane NA Tincture\nReishi NA Tincture\nCordyceps NA Tincture\nTurkey Tail NA Tincture\nLion's Mane Concentrate\nLion's Mane Probiotic Extract Powder"
+  },
+  {
+   "name": "Big Day Farm LLC",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "Mixed produce! I can provide a complete list, but you can expect standard market garden offerings that can be easily used in a home kitchen. We'll also bring a limited quantity of flower bouquets and "
+  },
+  {
+   "name": "GRILL YOUR FACE",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "High-Quality southwestern and american cuisine and smoothies. Vegetarian, Vegan, and GF options available."
+  },
+  {
+   "name": "Xerces Society for Invertebrate Conservation",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Xerces doesn't sell anything. We provide information on pollinators and how to enhance or develop pollinator habitat with native plants around gardens, farms, and homes. As a mountain resident (Gold H"
+  },
+  {
+   "name": "Uproot",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "Flowers, Vaseware, Plants"
+  },
+  {
+   "name": "Common Sense Healthcare",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Information about a coalition for single payor healthcare for Colorado."
+  },
+  {
+   "name": "Trailhead Cookie Company",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Trailhead Cookie's Signature Half-Pound Cookies – $7 each\nRotating selection of mountain-inspired flavors, all individually wrapped including:\nCopper Chocolate Chip\nVail Sea Salt Caramel Chocolate Chi"
+  },
+  {
+   "name": "James DeWalt Photography/8500 Light Lab",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Photo Prints, photo gifts"
+  },
+  {
+   "name": "The Good Juice Company",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Cold-pressed juice (pre-bottled)\nSmoothies (made on-site)"
+  },
+  {
+   "name": "Coloradough Bakery",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Quiche bread, pastries, and all our stuff"
+  },
+  {
+   "name": "Moose Works Colorado",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Finely Hand-Crafted Wooden Toys for all Ages. All with non-toxic finishes."
+  },
+  {
+   "name": "Fairytale Face Painting",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "I provide face painting services for all ages. I use high quality non allergen products that are also vegan. I use biodegradable glitter. I also will be selling small handmade clay trinkets and mini f"
+  },
+  {
+   "name": "Green Collar Guy Designs",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "Hand made planters, plants and rhubarb in season"
+  },
+  {
+   "name": "Esmeralda tamale house",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "n/a"
+  },
+  {
+   "name": "Ikaro",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Hot Chocolate Mix!"
+  },
+  {
+   "name": "Moussa Hamoosa and Ellie’s Organic Za’atar",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Organic za’atar (3 sizes), organic maple-za’atar pecans and cashews (2 sizes), za’atar pita chips, sea salt pita chips, za’atar olive oil dip, za’atar olive oil flat breads."
+  },
+  {
+   "name": "Mc2 Ice Cream",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Ice cream, cones, soft drinks, floats"
+  },
+  {
+   "name": "Jennifer Sharp Art",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Art"
+  },
+  {
+   "name": "Sevdough Bakery",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Bread"
+  },
+  {
+   "name": "Knotted Root Brewing Company LLC",
+   "list_category": "Alcohol (Festival Markets ONLY)",
+   "location_stated": null,
+   "description_stated": "Beer"
+  },
+  {
+   "name": "SOBER DADS/Foxtails",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Foxtails is a premium non-alcoholic mixer made from real apple cider vinegar, fresh fruit, and botanicals. It’s not a liquor substitute — it’s a new category of beverage designed to elevate cocktails "
+  },
+  {
+   "name": "Epick Seafoods LLC",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "Salmon"
+  },
+  {
+   "name": "Sourdough farms",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "Ag"
+  },
+  {
+   "name": "Bee Hugger",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "Honey"
+  },
+  {
+   "name": "Peace Love and Cake",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Cookies, cakes, and a variety of other delicious treats"
+  },
+  {
+   "name": "Knifely Done",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Kitchen knife and tool sharpening."
+  },
+  {
+   "name": "Rocky Mountain Mugolio, LLC",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Cone Syrup"
+  },
+  {
+   "name": "Peak Harvest Foundation",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Pumpkin growing contest start & finish"
+  },
+  {
+   "name": "Ned Gen",
+   "list_category": "Alcohol (Festival Markets ONLY)",
+   "location_stated": null,
+   "description_stated": "Cool Ones"
+  },
+  {
+   "name": "Town Waste Station",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "n/a"
+  },
+  {
+   "name": "Jolly Radish",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "veg"
+  },
+  {
+   "name": "Pet Wants Boulder/ Arvada",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Pet stuff"
+  },
+  {
+   "name": "Tarta Bakery LLC",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Tarta is a Boulder-based Basque cheesecake company specializing in small-batch, high quality desserts. Inspired by the iconic cheesecakes of San Sebastián, our cheesecakes are caramelized on the outsi"
+  },
+  {
+   "name": "Wild Bear Nature Center",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Environmental and Educational information,  crafts"
+  },
+  {
+   "name": "Nederland Historical Society",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Information on the Historical Society"
+  },
+  {
+   "name": "Ned Workshop",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Simple, creative activities for kids and adults focused on educating our community how to upcycle, reuse, and create. Waste less, be silly more! We plan to have simple sewing projects, embroidery, woo"
+  },
+  {
+   "name": "Nederland Community Library Foundation",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Gently used books for donation to the library"
+  },
+  {
+   "name": "Temaki tornado",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Sushi"
+  },
+  {
+   "name": "HappyMandalaCrafter",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Hand painted hand casted mandala art. Trays, travel mugs, journals, sun catchers, coasters, and more."
+  },
+  {
+   "name": "The Salt And Granola House",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Sun-washed and worn-in classic Colorado clothing and housewares. Thoughtfully repurposed from consignment and thrift stores."
+  },
+  {
+   "name": "The Leather Vine",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Hand crafted moccasins, bags, journals, and wallets"
+  },
+  {
+   "name": "Nederland Farmers Market",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "We offer a curated selection of local and regional foods that support both our operations and producers across the Front Range. Products available include fresh produce, eggs, dairy, meat, tempeh, art"
+  },
+  {
+   "name": "Taspens Organics",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "We handcraft over 200 organic healing and wellness products with and without the addition of hemp derived CBD. Our main focus is magnesium creams, but we also offer facial care, body creams and more"
+  },
+  {
+   "name": "Singletrack Mountain Bike Adventures (SMBA)",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Will not be selling productions - will be there to provide information about our youth mountain bike programs and provide the opportunity for families to meet some of our coaches and staff."
+  },
+  {
+   "name": "Move Mountains Market & Refillery",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Nuts, Trail Mix, Local granola, Local Grains, Beans, Popcorn Kernels, Baked Goods, Oats, Snacks"
+  },
+  {
+   "name": "Yohan’s",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Donuts"
+  },
+  {
+   "name": "Medicine Mender & The Nameless Art Collective",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "With Medicine Mender: Upcycled/Recycled clothing, with live sewing of upcycling and embellishing garments with handmade patches\nWith Nameless Art Collective (consisting of the work of 8-10 artists at "
+  },
+  {
+   "name": "Eldora Mountain Ski & Snowboard Club",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "we will not be selling. we will have information about the local ski and snowboard club and and interactive zone for teaching rails on skis and snowboards"
+  },
+  {
+   "name": "Boulder Lamb LLC dba Buckner Family Ranch",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "lamb, beef and pork cuts"
+  },
+  {
+   "name": "Emma Vilote Films",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "n/a"
+  },
+  {
+   "name": "CHEEZ ME",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Fresh Cheeses, kefir yogurts & cheese spread s"
+  },
+  {
+   "name": "Boba Ts",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "Sliders\nFrench fries \nBoba Milk Teas\nMouchi doughnuts\nSoda\nWater\nCoffee/hot chocolate \nLaquory \nAsian treats\nAsian Chicken wrap"
+  },
+  {
+   "name": "Totems & Tarot",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Crystals and tarot decks"
+  },
+  {
+   "name": "Mountain Girl Pickles",
+   "list_category": "Ready to Eat Food and Beverage",
+   "location_stated": null,
+   "description_stated": "n/a"
+  },
+  {
+   "name": "Gold Dirt Distillery",
+   "list_category": "Alcohol (Festival Markets ONLY)",
+   "location_stated": null,
+   "description_stated": "n/a"
+  },
+  {
+   "name": "Very Nice Brewery",
+   "list_category": "Alcohol (Festival Markets ONLY)",
+   "location_stated": null,
+   "description_stated": "n/a"
+  },
+  {
+   "name": "San Lazaro Garage Sale",
+   "list_category": "Information/Community",
+   "location_stated": null,
+   "description_stated": "Sharing information and accepting donations for San Lazaro community"
+  },
+  {
+   "name": "Nederland Food Pantry",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Chile Roasting, and Donation Items"
+  },
+  {
+   "name": "Nederland Elementary School PTA",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "NESPTA will be doing chile roasting at the 8/30 and 9/13 farmers markets and leading the pumpkin patch at the 10/4 Harvest Fest"
+  },
+  {
+   "name": "Project Coyote",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "We will not be selling anything."
+  },
+  {
+   "name": "Jessica Kane Elemental Jewelry",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "Jewelry, original paintings, prints & printed soft goods (tshirts, etc)"
+  },
+  {
+   "name": "Gilpin CSU Extension",
+   "list_category": "Non Profit",
+   "location_stated": null,
+   "description_stated": "Flower bulbs, wildflower seeds, grass seed"
+  },
+  {
+   "name": "House of Gratitude",
+   "list_category": "Artisan (Arts, Crafts, Health, Beauty)",
+   "location_stated": null,
+   "description_stated": "CBG products"
+  },
+  {
+   "name": "Dusty Roads",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "n/a"
+  },
+  {
+   "name": "Howling Wind",
+   "list_category": "Agriculture",
+   "location_stated": null,
+   "description_stated": "n/a"
+  }
+ ]
+}
