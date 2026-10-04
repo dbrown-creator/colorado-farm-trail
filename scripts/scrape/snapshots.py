@@ -22,7 +22,8 @@ REPO = os.path.normpath(os.path.join(HERE, "..", ".."))
 SNAPSHOT_DIR = os.path.join(REPO, "source-data", "phase2", "snapshots")
 
 # Build order = field-value priority (first source to fill a field wins).
-NETWORK_SOURCES = ["colorado_proud", "cfma", "chaffee_provides", "usda_api", "usda_datashare"]
+NETWORK_SOURCES = ["colorado_proud", "cfma", "chaffee_provides", "colorado_proud_finder",
+                   "usda_api", "usda_datashare"]
 
 _FIELDS = {f.name for f in dataclasses.fields(Market)}
 

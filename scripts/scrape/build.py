@@ -61,7 +61,8 @@ def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
     # Order = field-value priority (first source to fill a field wins):
     # official-site enrichment > Colorado Proud (vetted) > CFMA (rich, member-maintained)
     # > Chaffee Provides (community-maintained, Chaffee County) > curated research
-    # > USDA (broad, thin). See README "Field-value priority".
+    # > Colorado Proud member finder (self-reported, all member types) > USDA (broad,
+    # thin). See README "Field-value priority".
     records = []
 
     enr = enrichment.fetch()
@@ -70,7 +71,7 @@ def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
         records += enr
 
     for name in snapshots.NETWORK_SOURCES:
-        if name == "usda_api":
+        if name == "colorado_proud_finder":
             # Hand-researched businesses no directory carries (curated_records.csv).
             cur = curated.fetch()
             if cur:

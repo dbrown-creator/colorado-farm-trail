@@ -6,7 +6,8 @@ field wins; later sources only fill gaps. Provenance is preserved per field.
 
 Dedup key: normalized-name + city. A light second pass also merges two groups whose
 coordinates sit within ~200 m of each other (catches name spelling drift), so long
-as they are in the same city.
+as they are in the same city AND share a distinctive name word - dense directories
+(the Colorado Proud member finder) put unrelated businesses on the same block.
 """
 from __future__ import annotations
 
@@ -19,6 +20,15 @@ from .normalize import name_key
 from .schema import ATTR_TO_COLUMN, Market
 
 MERGE_METERS = 200
+# Words too common to show two names are the same business (on top of name_key's stops).
+GENERIC_NAME_WORDS = {"farm", "farms", "ranch", "ranches", "and", "company", "csa",
+                      "family", "organic", "organics", "garden", "gardens", "u", "pick"}
+
+
+def _shares_name_word(a: Market, b: Market) -> bool:
+    ta = set(name_key(a.business_name).split()) - GENERIC_NAME_WORDS
+    tb = set(name_key(b.business_name).split()) - GENERIC_NAME_WORDS
+    return bool(ta & tb)
 
 
 def _haversine_m(a: Market, b: Market) -> float:
@@ -141,7 +151,8 @@ def merge(records: List[Market]) -> List[Market]:
         # second-chance merge on coordinate proximity within the same city
         merged = False
         for (nk, city), base in groups.items():
-            if city == key[1] and _haversine_m(base, rec) <= MERGE_METERS:
+            if city == key[1] and _haversine_m(base, rec) <= MERGE_METERS \
+                    and _shares_name_word(base, rec):
                 _fold(base, rec)
                 merged = True
                 break

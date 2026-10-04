@@ -22,6 +22,7 @@ provenance column.
 | **CFMA member markets** (MarketWurks API) | public JSON, no key | 37 members | **Tested & confirmed.** The map is a MarketWurks embed; data is a public REST endpoint (below). Rich fields — fills exactly what USDA lacks. 26 overlap our data (enrich), 11 are new. |
 | **Chaffee Provides** (chaffeeprovides.org, Guidestone Colorado) | public HTML, no key | 36 Chaffee-area providers (42 listed; 6 held for review) | **Built** (`sources/chaffee_provides.py`). Crawls the 7 category listings (paginated) → one detail page per provider, plus the `/provider-map/` page's `map-asset` attributes for **source coordinates** (32 of 36) and the per-provider *hide address* flag, which we honor. Mostly farms/ranches the statewide directories miss, plus food banks, orgs, a restaurant. Honors `Crawl-delay: 10` → ~8 min. Held-out providers: `source-data/phase2/chaffee_provides_exclusions.json`; maintainer-confirmed fixes: `chaffee_provides_overrides.json`; open questions: [`docs/CHAFFEE_PROVIDES_REVIEW.md`](../../docs/CHAFFEE_PROVIDES_REVIEW.md). Spec: [`docs/CHAFFEE_PROVIDES.md`](../../docs/CHAFFEE_PROVIDES.md). |
 | **Curated new records** (`source-data/phase2/curated_records.csv`) | hand research | 7 records (first batch) | **Built** (`sources/curated.py`). For businesses no directory carries. One row per researched business with a `Status` (`add` → record; `market-only` / `skip` kept as the research log so names aren't re-researched), `Source URLs`, `Researched` date and `Found Via`. Coordinates optional (else geocoded). Provenance `curated`. First batch: the 19 food vendors on the 2026 Salida Farmers Market list that were missing from our data (7 add, 10 market-only, 3 skip). Corrections to *existing* records go in `overrides.csv` instead. |
+| **Colorado Proud member finder** (coloradoproud.com/product-finder/) | public HTML, no key | 1,557 members, 83 business types → **932 in scope** | **Built** (`sources/colorado_proud_finder.py`). The full membership, not just the Farm Fresh layer. 6 listing pages (300 each) + one profile page per member (readable business type, products, attributes, payment, website, socials, description); source coordinates for ~92%. Scope = `TYPE_CATEGORIES` (farm-direct, markets, stands, wineries, meat, grocery/specialty, bakeries, cottage-food/value-added makers → "Food Maker", restaurants, caterers); breweries, distilleries, manufacturers, wholesalers, ag suppliers, food trucks, coffee/bars, institutions are out. SNAP = Yes only when "EBT / SNAP" is listed. Placeholder addresses ("12345 Test St.") are dropped. Full-membership reports (every type, `in_scope` column): `source-data/phase2/colorado_proud_finder/`. |
 | **Operator / organizer sites** — *not yet built* | HTML | multiple markets each | Market-management companies that run several markets, with first-party season/hours. **One site → many markets**, so high value for both discovery and enrichment. Seed list below. |
 | Curated guides — *not yet built* | HTML | coverage gaps | coloradoinfo.com, ag.colorado.gov — cross-check + fill missing markets. |
 | Per-site enrichment — *prototyped* | HTML + search | fills gaps | Visit each market's own website (+ search fallback) for hours/season/products/SNAP. Validated on 3 markets; see the sampling in git history. |
@@ -84,8 +85,10 @@ Proud, CFMA, USDA) are best for *discovering* markets and for coordinates; but f
 4. **Chaffee Provides** (community-maintained, Chaffee County only). Maintainer-
    confirmed corrections in `chaffee_provides_overrides.json` win over its scraped
    values (provenance `maintainer`).
-5. **USDA** (broad but thin/sometimes stale).
-6. **Multi-aggregator consensus** > single aggregator (5280, coloradoinfo, etc.).
+5. **Colorado Proud member finder** (member self-reported, every business type) —
+   ranks after curated research.
+6. **USDA** (broad but thin/sometimes stale).
+7. **Multi-aggregator consensus** > single aggregator (5280, coloradoinfo, etc.).
 
 So the merge order is *coverage-first* (directories create records + coords), but a
 **confirmed official-site value overrides** the directory value for the fields it
@@ -103,7 +106,8 @@ python scripts/scrape/refresh_sources.py                 # all network sources
 python scripts/scrape/refresh_sources.py cfma usda_api   # just these
 ```
 
-Sources: `colorado_proud`, `cfma`, `chaffee_provides`, `usda_api`, `usda_datashare`.
+Sources: `colorado_proud`, `cfma`, `chaffee_provides`, `colorado_proud_finder`, `usda_api`,
+`usda_datashare`.
 Each writes:
 - a snapshot, `source-data/phase2/snapshots/<source>.json`: the parsed records the build reads
 - a change report, `snapshots/changes/<source>.csv`: what's **new / removed / changed**,
@@ -111,7 +115,10 @@ Each writes:
 
 A source that fails keeps its previous snapshot. Chaffee Provides reads its page cache
 (`.cache/chaffee_provides/`, reused for 7 days). `CHAFFEE_REFRESH=1` forces the polite
-~8-minute recrawl. After a parser change, re-run the refresh for that source.
+~8-minute recrawl. The Colorado Proud member finder re-reads its 6 listing pages but
+fetches profiles only for members it hasn't seen (`.cache/colorado_proud_finder/`);
+`CPF_REFRESH=1` recrawls all ~1,550 profiles (~40 minutes, 1.5 s apart). After a parser
+change, re-run the refresh for that source.
 
 **2. Approve:** review the change reports. Committing the snapshots (a PR) is the
 approval. Hand research goes in `curated_records.csv` (new businesses) and corrections
@@ -185,6 +192,9 @@ other four directories' field names on the first keyed run**.
 - ✅ Chaffee Provides source (category crawl + provider-map coords, exclusions/overrides
   files, offline tests). Link check + presence research for all 42 providers on
   2026-10-03 → 6 held for review with the Chaffee Provides team
+- ✅ Colorado Proud member finder (1,557 members → 932 in scope, 2026-10-04). The
+  proximity merge now also needs a shared distinctive name word, so neighbours on the
+  same block stay separate
 - ⏳ CFMA map scrape, curated guides, per-site enrichment (to fill hours/season/
   products/SNAP for the ~91 USDA-only markets that lack them)
 - ⏳ Operator-site scrape — **Jarman & Co Events** (jarmanandcoevents.com) first;

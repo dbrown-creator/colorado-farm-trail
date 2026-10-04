@@ -230,6 +230,21 @@ def test_merge_by_coordinate_proximity():
     assert len(merge_mod.merge([a, b])) == 1
 
 
+def test_proximity_merge_needs_a_shared_name_word():
+    # Neighbours on the same block are different businesses (real case: Cortez).
+    a = _mk("Pueblo Seed & Food Company", "Cortez", "colorado_proud_finder")
+    a.latitude, a.longitude = 37.3489, -108.5859
+    b = _mk("Cortez Creamery", "Cortez", "usda")  # ~100m away
+    b.latitude, b.longitude = 37.3498, -108.5859
+    assert len(merge_mod.merge([a, b])) == 2
+    # Generic words alone ("Farm") don't count as a match either.
+    c = _mk("Juniper Farm", "Carbondale", "colorado_proud_finder")
+    c.latitude, c.longitude = 39.4022, -107.2112
+    d = _mk("Aspen Moon Farm", "Carbondale", "usda")
+    d.latitude, d.longitude = 39.4030, -107.2112
+    assert len(merge_mod.merge([c, d])) == 2
+
+
 # ---- Chaffee Provides (chaffeeprovides.org) -----------------------------------
 
 from scrape.sources import chaffee_provides as chaffee  # noqa: E402
