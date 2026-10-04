@@ -61,6 +61,24 @@ Left out:
 - Mawita, Casey Brewing (Palisade/Hotchkiss growers, unnamed) and The Pullman's
   "Olathe corn" name no specific producer.
 
+## Chaffee County (2026-10-04)
+
+Researched for the guide's Chaffee County day plan. Most Salida and Buena Vista
+restaurants say "local" without naming a farm. Deerhammer, Wood's and Banyan Breads say
+"San Luis Valley grain" without naming the farm. This adds 5 links: Arrowpoint
+Cattle → Eddyline, Triangle Oasis and Rocky Mountain Garlic → Mantis Kitchen,
+Headwater Farms → Lettucehead, and Hutchinson Ranch → Lago Trattoria (press, 2026).
+
+Left out:
+- Mantis Kitchen's other named suppliers (LazEwe, Silver Whisker, Tooth and Gill,
+  Gosar, Beekeepers Honey Boutique) give no town. Its Scanga item is Gulf shrimp.
+- Mantis Kitchen itself now runs by appointment and at the Saturday market, so check it's
+  still operating.
+- Lettucehead's own site still names Jumpin' Good Goat Dairy, which closed (Buck &
+  Bloom Cheese reopened the site in 2025). Lettucehead's other suppliers (Blue Range,
+  Yoder, Erin's Greenhouse) come from search snippets only.
+- Ploughboy Local Market and The Butcher's Table (Salida) have closed.
+
 ## Known gaps
 
 - Every restaurant sourcing page and town-listing article in the pilot is fully loaded,
