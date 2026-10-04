@@ -30,6 +30,18 @@ Researched 2026-10-03.
 | `out`, `inn` | Number of buyers / number of suppliers in this pilot |
 | `on_trail`, `trail_match` | Matching listing on the farm-trail map (`data/markets.json`). `exact` is a name match; `possible` should be checked by hand |
 
+## Scraped sources
+
+`scripts/supply_network/stockists.py <source>` reads a producer's published stockist
+table (WordPress TablePress tables, which many small producers use) into
+`scraped/<source>.csv`. Merging into `edges.csv` is a separate step, because each
+stockist is classified by hand as food-service, food retail or non-food retail
+(gift shops, garden centers). Non-food stockists are kept but carry that note.
+
+| Source | Stockists | Last run |
+|---|---|---|
+| `bee_squared` (bethsbees.com) | 75 rows, 68 businesses (chains merged) | 2026-10-03 |
+
 ## Known gaps
 
 - About 70 suppliers that appear on only one restaurant's list are not loaded yet.
