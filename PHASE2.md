@@ -32,6 +32,8 @@ official website. Everything Phase 2 is namespaced under `phase2/`:
 | Full raw + provenance export | `source-data/phase2/co_farmers_markets_all_raw.csv` |
 | Per-site enrichment inputs | `source-data/phase2/enrichment/` (targets + `results/*.json`) |
 | Curated cross-check (Bright Garden) | `source-data/phase2/brightgarden_*.csv` |
+| Phase 2 site pages (market calendar) | `_phase2/*.html`. GitHub Pages' Jekyll build skips `_` folders, so these can't go live early. `scripts/build_phase2_preview.py` copies them into the preview. |
+| Market schedule parser (Hours → calendar sessions) | `scripts/market_schedule.py` |
 
 Folder convention (matches the rest of the repo): **`source-data/` = raw / collected
 source data**, **`data-compiled/` = finished compiled products**.
