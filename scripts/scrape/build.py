@@ -14,13 +14,14 @@ a real environment variable of the same name overrides it. No key -> keyless fal
 from __future__ import annotations
 
 import csv
+import dataclasses
 import json
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from scrape import geocode, snapshots
+from scrape import geocode, normalize, snapshots
 from scrape.merge import (apply_decisions, apply_overrides, flag_possible_dups,
                           load_decisions, load_overrides, merge)
 from scrape.normalize import in_colorado
@@ -90,6 +91,13 @@ def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
             ff = farm_fresh.fetch()
             print(f"Colorado Proud Farm Fresh (live map data): {len(ff)} records", flush=True)
             records += ff
+    # Some sources ship UTF-8 text mis-decoded as cp1252 ("Salidaâ€™s"); repair every
+    # text field before merging, so names and cities also match their clean spellings.
+    for r in records:
+        for f in dataclasses.fields(r):
+            v = getattr(r, f.name)
+            if isinstance(v, str) and v:
+                setattr(r, f.name, normalize.fix_mojibake(v))
     return records
 
 

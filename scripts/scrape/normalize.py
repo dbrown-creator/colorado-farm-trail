@@ -8,6 +8,27 @@ CO_LAT = (36.9, 41.1)
 CO_LON = (-109.2, -101.9)
 
 
+# Mojibake: UTF-8 text that some source decoded as Windows-1252, so "it's" (curly
+# apostrophe) arrives as "itâ€™s" and "Cañon" as "CaÃ±on". A run is a UTF-8 lead byte
+# (Â-ô) followed by 1-3 continuation bytes as they look in cp1252.
+_CP1252_HIGH = "€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ"
+_MOJIBAKE = re.compile("[Â-ô][-¿" + _CP1252_HIGH + "]{1,3}")
+
+
+def _unmangle(m: "re.Match") -> str:
+    run = m.group(0)
+    try:
+        raw = b"".join(c.encode("cp1252") if c in _CP1252_HIGH else bytes([ord(c)]) for c in run)
+        return raw.decode("utf-8")
+    except (UnicodeDecodeError, UnicodeEncodeError, ValueError):
+        return run  # not mojibake after all (e.g. a real "Ã" followed by "©")
+
+
+def fix_mojibake(s: str) -> str:
+    """Repair UTF-8-read-as-cp1252 runs; leaves clean text untouched."""
+    return _MOJIBAKE.sub(_unmangle, s) if s and _MOJIBAKE.search(s) else s
+
+
 def pipes(s: str) -> str:
     """Turn a pipe-delimited source value into a clean comma-joined string."""
     return ", ".join(p.strip() for p in (s or "").split("|") if p.strip())
