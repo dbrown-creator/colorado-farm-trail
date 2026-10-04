@@ -15,7 +15,7 @@ import json
 import os
 from typing import List
 
-from ..normalize import clean_url, phone, yesno
+from ..normalize import clean_url, facebook_url, instagram_url, phone, yesno
 from ..schema import Market
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -35,8 +35,8 @@ COL_ATTR = {
     "Certified Organic": "certified_organic", "SNAP": "snap",
     "ADA Accessible": "ada_accessible", "Notes": "notes",
 }
-NORMALIZE = {"phone": phone, "website": clean_url, "facebook": clean_url,
-             "instagram": clean_url, "snap": yesno, "certified_organic": yesno,
+NORMALIZE = {"phone": phone, "website": clean_url, "facebook": facebook_url,
+             "instagram": instagram_url, "snap": yesno, "certified_organic": yesno,
              "ada_accessible": yesno}
 
 

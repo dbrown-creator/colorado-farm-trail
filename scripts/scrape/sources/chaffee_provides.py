@@ -27,7 +27,7 @@ from html.parser import HTMLParser
 from typing import Dict, List, Optional, Tuple
 from urllib.parse import urlparse
 
-from ..normalize import clean_url, phone
+from ..normalize import clean_url, facebook_url, instagram_url, phone
 from ..schema import Market
 
 SOURCE = "chaffee_provides"
@@ -324,6 +324,7 @@ def load_exclusions(path: str = EXCLUSIONS) -> Dict[str, str]:
 
 OVERRIDES = os.path.join(os.path.dirname(EXCLUSIONS), "chaffee_provides_overrides.json")
 OVERRIDE_SOURCE = "maintainer"
+URL_NORMALIZERS = {"website": clean_url, "facebook": facebook_url, "instagram": instagram_url}
 
 
 def load_overrides(path: str = OVERRIDES) -> Dict[str, dict]:
@@ -339,8 +340,8 @@ def apply_overrides(m: Market, fields: dict) -> None:
     which only fills gaps)."""
     for attr, spec in fields.items():
         value = spec.get("value") if isinstance(spec, dict) else spec
-        if attr in ("website", "facebook", "instagram"):
-            value = clean_url(value)
+        if attr in URL_NORMALIZERS:
+            value = URL_NORMALIZERS[attr](value)
         elif attr == "phone":
             value = phone(value)
         setattr(m, attr, "")

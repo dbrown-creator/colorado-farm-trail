@@ -11,7 +11,7 @@ import json
 import urllib.request
 from typing import List
 
-from ..normalize import clean_url, phone, pipes, yesno, zipcode
+from ..normalize import clean_url, facebook_url, instagram_url, phone, pipes, yesno, zipcode
 from ..schema import Market
 
 FS = ("https://services3.arcgis.com/DgjqnJA1rgO92Soi/arcgis/rest/services/"
@@ -68,8 +68,8 @@ def parse(data: dict) -> List[Market]:
         m.set("call_first", yesno(g(ft, "Should the customer call first?")), SOURCE)
         m.set("website", clean_url(g(ft, "Website")), SOURCE)
         m.set("email", g(ft, "Email Address"), SOURCE)
-        m.set("facebook", g(ft, "Facebook"), SOURCE)
-        m.set("instagram", g(ft, "Instagram"), SOURCE)
+        m.set("facebook", facebook_url(g(ft, "Facebook")), SOURCE)
+        m.set("instagram", instagram_url(g(ft, "Instagram")), SOURCE)
         m.set("hours", hours, SOURCE)
         m.set("months_open", pipes(g(ft, "Months open for business")), SOURCE)
         m.set("products", products, SOURCE)
