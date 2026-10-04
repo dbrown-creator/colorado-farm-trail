@@ -37,6 +37,7 @@
   function trackOpenMap(where){ gtag('event', 'open_map', { placement: where }); }
   function trackShare(method){ gtag('event', 'share', { method: method }); }
   function trackAddBusiness(where){ gtag('event', 'add_business_click', { placement: where }); }
+  function trackNearMe(where){ gtag('event', 'near_me', { placement: where }); }
 
   var SITE_URL = 'https://coloradofarmtrail.com/';
   var SHARE_TEXT = 'Find your next farm stop. 163 Colorado farms, markets & U-picks on one map:';
@@ -233,6 +234,23 @@
   .pop .where ul{ margin:0; padding-left:18px; }
   .pop .links{ margin-top:9px; display:flex; flex-wrap:wrap; gap:12px; font-size:.85rem; font-weight:600; }
 
+  /* ---- Near me ---- */
+  .locate-btn{ width:34px; height:34px; display:flex; align-items:center; justify-content:center; cursor:pointer;
+    font-size:17px; background:var(--card); color:var(--ink); border:0; padding:0; }
+  .locate-btn:hover{ background:var(--chip); }
+  .locate-btn.busy{ animation:pulse 1s ease-in-out infinite; }
+  @keyframes pulse{ 50%{ opacity:.35 } }
+  .leaflet-bar{ border:1px solid var(--line) !important; }
+  .leaflet-bar a, .leaflet-bar a:hover{ background:var(--card); color:var(--ink); border-bottom-color:var(--line); }
+  .me-dot{ width:18px; height:18px; border-radius:50%; background:#2a7de1; border:3px solid #fff;
+    box-shadow:0 0 0 2px rgba(42,125,225,.35), 0 2px 6px rgba(0,0,0,.35); }
+  .pop .dist{ font-size:.8rem; font-weight:700; color:var(--accent); margin:-2px 0 6px; }
+  .toast{ position:fixed; z-index:30; left:50%; top:76px; transform:translateX(-50%); max-width:min(440px,calc(100vw - 32px));
+    padding:10px 16px; border-radius:12px; font-size:.9rem; font-weight:600; text-align:center;
+    background:var(--card); color:var(--ink); border:1px solid var(--line); box-shadow:var(--shadow);
+    opacity:0; pointer-events:none; transition:opacity .25s ease; }
+  .toast.show{ opacity:1; }
+
   /* ---- Mobile ---- */
   .sheet-handle{ display:none; }
   @media (max-width:760px){
@@ -257,6 +275,7 @@
 
   <div id="map"></div>
   <div class="scrim-top"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <!-- LANDING -->
   <header class="hero" id="hero">
@@ -264,6 +283,7 @@
     <p class="tag">Find your next farm stop.</p>
     <div class="cta-row">
       <button class="btn btn-primary" id="exploreBtn">Explore the map →</button>
+      <button class="btn btn-glass" id="nearHero">📍 What's near me</button>
       <button class="btn btn-glass" id="phoneHero">📲 Put it on your phone</button>
       <button class="btn btn-glass" id="helpHero">💚 Help it spread</button>
     </div>
@@ -391,6 +411,72 @@
   // Zoom control lives bottom-right — top-left collides with the hero title on
   // landing and with the sidebar while exploring.
   L.control.zoom({ position:"bottomright" }).addTo(map);
+
+  // ---- Near me: the browser's own location prompt (phones and computers) ----
+  // The position stays in this page: it isn't stored, sent anywhere or put in the URL.
+  var me = null, meLayer = null;
+  function miles(lat1, lng1, lat2, lng2){
+    var R = 3958.8, r = Math.PI / 180, dLat = (lat2 - lat1) * r, dLng = (lng2 - lng1) * r;
+    var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos(lat1*r) * Math.cos(lat2*r) * Math.sin(dLng/2) * Math.sin(dLng/2);
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
+  function distLabel(d){ return d < 1 ? "under 1 mi" : "≈ " + Math.round(d) + " mi"; }
+  var toastTimer = null;
+  function toast(msg){
+    var t = document.getElementById("toast");
+    t.textContent = msg; t.classList.add("show");
+    clearTimeout(toastTimer); toastTimer = setTimeout(function(){ t.classList.remove("show"); }, 4500);
+  }
+  var LocateControl = L.Control.extend({
+    options:{ position:"bottomright" },
+    onAdd:function(){
+      var bar = L.DomUtil.create("div", "leaflet-bar");
+      var b = L.DomUtil.create("button", "locate-btn", bar);
+      b.type = "button"; b.id = "locateBtn"; b.title = "Show what's near me"; b.setAttribute("aria-label", "Show what's near me");
+      b.textContent = "📍";
+      L.DomEvent.disableClickPropagation(bar);
+      L.DomEvent.on(b, "click", function(){ locate("map"); });
+      return bar;
+    }
+  });
+  new LocateControl().addTo(map);
+
+  function locate(where){
+    if(!navigator.geolocation){ toast("Your browser can't share its location. Try searching a town instead."); return; }
+    var btn = document.getElementById("locateBtn");
+    btn.classList.add("busy");
+    trackNearMe(where);
+    navigator.geolocation.getCurrentPosition(function(pos){
+      btn.classList.remove("busy");
+      me = { lat:pos.coords.latitude, lng:pos.coords.longitude };
+      if(meLayer) map.removeLayer(meLayer);
+      meLayer = L.layerGroup([
+        L.circle([me.lat, me.lng], { radius:Math.min(pos.coords.accuracy || 0, 2000), stroke:false,
+                                     fillColor:"#2a7de1", fillOpacity:.12, interactive:false }),
+        L.marker([me.lat, me.lng], { icon:L.divIcon({ className:"", html:'<div class="me-dot"></div>',
+                                                       iconSize:[18,18], iconAnchor:[9,9] }),
+                                     keyboard:false, zIndexOffset:1000 }).bindTooltip("You are here")
+      ]).addTo(map);
+      ALL.forEach(function(m){ m._marker.setPopupContent(popupHtml(m)); });
+      showNearest();
+    }, function(err){
+      btn.classList.remove("busy");
+      toast(err.code === 1 ? "Location is turned off for this site. Allow it in your browser, or search a town."
+                           : "Couldn't find your location. Try again, or search a town.");
+    }, { enableHighAccuracy:false, timeout:12000, maximumAge:300000 });
+  }
+  // Zoom to you plus the nearest stops that pass the current filters.
+  function showNearest(){
+    if(!me) return;
+    var near = ALL.filter(passes).map(function(m){ return { m:m, d:miles(me.lat, me.lng, m.lat, m.lng) }; })
+                  .sort(function(a, b){ return a.d - b.d; }).slice(0, 6);
+    if(!near.length){ map.setView([me.lat, me.lng], 11, { animate:false }); toast("No stops match your filters."); return; }
+    var pts = near.map(function(n){ return [n.m.lat, n.m.lng]; }).concat([[me.lat, me.lng]]);
+    // No animation: a statewide-to-street zoom is a big jump, and an instant one is clearer.
+    map.fitBounds(L.latLngBounds(pts).pad(0.15), { maxZoom:13, animate:false });
+    toast("Closest stop: " + near[0].m.name + " (" + distLabel(near[0].d) + ")");
+  }
   window.__map = map;
   var didFit = false;
   function fitCO(){
@@ -467,6 +553,7 @@
       h += '<span class="cat" style="color:'+st.color+'">'+st.emoji+' '+esc(c)+'</span>';
     });
     h += '</div>';
+    if(me) h += '<div class="dist">'+distLabel(miles(me.lat, me.lng, m.lat, m.lng))+' from you</div>';
     var addr = [m.address, m.city].filter(Boolean).join(", ");
     if(addr) h += '<div class="row"><span class="ic">📍</span><span>'+esc(addr)+(m.county?', '+esc(m.county)+' County':'')+'</span></div>';
     if(m.hours) h += '<div class="row"><span class="ic">🕒</span><span>'+esc(m.hours)+'</span></div>';
@@ -614,6 +701,9 @@
     [els.fOpen, els.fSnap, els.fAda, els.fOrg].forEach(function(x){ x.addEventListener("change", apply); });
 
     document.getElementById("exploreBtn").addEventListener("click", function(){ body.classList.add("exploring"); trackOpenMap('explore'); });
+    document.getElementById("nearHero").addEventListener("click", function(){
+      body.classList.add("exploring"); trackOpenMap('near_me'); locate("hero");
+    });
     document.getElementById("backBtn").addEventListener("click", function(){ body.classList.remove("exploring"); });
 
     document.getElementById("reset").addEventListener("click", function(){
