@@ -45,7 +45,11 @@ TOWNS = {
     "Breckenridge": ("Summit & Mountains", 39.4817, -106.0384), "Frisco": ("Summit & Mountains", 39.5744, -106.0975),
     "Dillon": ("Summit & Mountains", 39.6303, -106.0434), "Granby": ("Summit & Mountains", 40.0861, -105.9395),
     "Grand Lake": ("Summit & Mountains", 40.2522, -105.8231), "Idaho Springs": ("Summit & Mountains", 39.7425, -105.5136),
-    "Twin Lakes": ("Summit & Mountains", 39.0819, -106.3822), "Buena Vista": ("Summit & Mountains", 38.8422, -106.1311),
+    "Twin Lakes": ("Summit & Mountains", 39.0819, -106.3822),
+    # Upper Arkansas Valley (Chaffee County)
+    "Buena Vista": ("Upper Arkansas Valley", 38.8422, -106.1311), "Salida": ("Upper Arkansas Valley", 38.5347, -105.9989),
+    "Poncha Springs": ("Upper Arkansas Valley", 38.5128, -106.0767), "Nathrop": ("Upper Arkansas Valley", 38.7464, -106.0767),
+    "Howard": ("Upper Arkansas Valley", 38.4436, -105.8297), "Granite": ("Upper Arkansas Valley", 39.0428, -106.2650),
     # Roaring Fork
     "Aspen": ("Roaring Fork", 39.1911, -106.8175), "Basalt": ("Roaring Fork", 39.3689, -107.0328),
     "Carbondale": ("Roaring Fork", 39.4022, -107.2112), "New Castle": ("Roaring Fork", 39.5728, -107.5362),
@@ -118,12 +122,13 @@ def load_events():
     return out
 
 
-def listing_place(name, listings):
-    """A day-plan stop that is a Farm Trail listing (Phase 2 compiled data)."""
+def listing_place(name, listings, city=None):
+    """A day-plan stop that is a Farm Trail listing (Phase 2 compiled data).
+    `city` fills in a town the listing leaves blank (some Chaffee Provides rows)."""
     r = listings.get(name)
     if not r:
         raise SystemExit(f"plans.json: no Phase 2 listing named {name!r}")
-    city = r["City"].strip().title()
+    city = r["City"].strip().title() or city or ""
     _, tlat, tlng = TOWNS.get(city, (None, None, None))
     try:
         lat, lng, approx = float(r["Latitude"]), float(r["Longitude"]), False
@@ -143,7 +148,9 @@ def resolve_place(ref, ids, by_id, listings, events):
             raise SystemExit(f"plans.json: no supply-network node named {ref['node']!r}")
         return {"node": nid}
     if "listing" in ref:
-        p = listing_place(ref["listing"], listings)
+        p = listing_place(ref["listing"], listings, ref.get("city"))
+        if ref.get("name"):   # a friendlier display name, e.g. the site rather than the operator
+            p["name"] = ref["name"]
         # Prefer the guide page when the listing is also in the supply network.
         nid = ids.get(ref["listing"])
         if nid:

@@ -6,7 +6,7 @@
   const app = document.getElementById('app');
   const TYPES = ['farm', 'maker', 'restaurant', 'retail', 'market', 'distributor'];
   const PRODUCER = new Set(['farm', 'maker']);
-  const REGIONS = ['Denver Metro', 'Boulder County', 'Northern Colorado', 'Summit & Mountains', 'Roaring Fork',
+  const REGIONS = ['Denver Metro', 'Boulder County', 'Northern Colorado', 'Summit & Mountains', 'Upper Arkansas Valley', 'Roaring Fork',
     'Western Slope', 'Southwest', 'Northwest', 'South & San Luis Valley', 'Eastern Plains', 'Statewide'];
   const STALE_BEFORE = 2020;
   let maps = [];
@@ -555,7 +555,7 @@
       return `<li class="stop" id="stop-${i + 1}">
         <div class="stop-dot${s.time === 'Or' ? ' alt' : ''}">${num(s, i)}</div>
         <div class="stop-body">
-          <div class="stop-time">${esc(s.time === 'Or' ? 'Or, down valley' : s.time)}</div>
+          <div class="stop-time">${esc(s.time === 'Or' ? (s.label || 'Or') : s.time)}</div>
           <h3>${esc(s.title)}</h3>
           <div class="stop-place">${placeLink(pl)}</div>
           ${placeMeta(pl)}
@@ -594,7 +594,7 @@
         .bindPopup(`<a href="#stop-${i + 1}" data-stop>${esc(pl.name)}</a><br><small>${esc(s.time)}${pl.approx ? ' · approximate location' : ''}</small>`).addTo(map);
     });
     if (route.length > 1) L.polyline(route, { color: cssColor('green'), weight: 2.5, opacity: .7, dashArray: '6 6' }).addTo(map);
-    if (all.length) map.fitBounds(L.latLngBounds(all).pad(0.15), { maxZoom: 12 });
+    if (all.length) map.fitBounds(L.latLngBounds(all).pad(0.15), { maxZoom: 12, animate: false });
   }
 
   function eventsPage(params) {
