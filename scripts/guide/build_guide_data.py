@@ -1,8 +1,9 @@
 """Build guide/guide-data.js for the local food guide draft.
 
-Reads the supply-network pilot (source-data/supply-network/{nodes,edges}.csv)
-and the farm-trail listings (data/markets.json), and writes one JS file the
-static guide loads. Town coordinates are town centroids, so per-business
+Reads the supply-network pilot (source-data/supply-network/{nodes,edges}.csv),
+the farm-trail listings (data/markets.json, plus the Phase 2 compiled CSV for
+day-plan stops), events (source-data/events/events.csv) and day plans
+(source-data/guide/plans.json), and writes one JS file the static guide loads. Town coordinates are town centroids, so per-business
 distances are approximate ("food miles" between towns, not addresses).
 
     python scripts/guide/build_guide_data.py
@@ -16,6 +17,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 NET = ROOT / "source-data" / "supply-network"
 OUT = ROOT / "guide" / "guide-data.js"
+EVENTS = ROOT / "source-data" / "events" / "events.csv"
+PLANS = ROOT / "source-data" / "guide" / "plans.json"
+LISTINGS = ROOT / "data-compiled" / "phase2" / "co_farmers_markets_all_mymaps.csv"
 
 # Town -> (region, lat, lng). Statewide/unknown entries have no point.
 TOWNS = {
@@ -45,7 +49,8 @@ TOWNS = {
     # Roaring Fork
     "Aspen": ("Roaring Fork", 39.1911, -106.8175), "Basalt": ("Roaring Fork", 39.3689, -107.0328),
     "Carbondale": ("Roaring Fork", 39.4022, -107.2112), "New Castle": ("Roaring Fork", 39.5728, -107.5362),
-    "Silt": ("Roaring Fork", 39.5486, -107.6562),
+    "Silt": ("Roaring Fork", 39.5486, -107.6562), "Glenwood Springs": ("Roaring Fork", 39.5505, -107.3248),
+    "Snowmass Village": ("Roaring Fork", 39.2130, -106.9378), "Snowmass": ("Roaring Fork", 39.3297, -106.9853),
     # Western Slope
     "Grand Junction": ("Western Slope", 39.0639, -108.5506), "Palisade": ("Western Slope", 39.1103, -108.3509),
     "Clifton": ("Western Slope", 39.0819, -108.4598), "Delta": ("Western Slope", 38.7422, -108.0690),
@@ -97,6 +102,78 @@ def miles(a, b):
 def year(d):
     m = re.match(r"(\d{4})", d or "")
     return int(m.group(1)) if m else None
+
+
+def load_events():
+    if not EVENTS.exists():
+        return []
+    out = []
+    for r in csv.DictReader(open(EVENTS, encoding="utf-8-sig")):
+        out.append({
+            "id": slug(r["Event"]), "name": r["Event"], "kind": r["Kind"], "town": r["Town"],
+            "region": r["Region"], "venue": r["Venue"], "season": r["Season"],
+            "start": r["Start"] or None, "end": r["End"] or None, "recur": r["Recurrence"],
+            "status": r["Status"], "host": r["Host"], "url": r["Website"], "desc": r["Description"],
+        })
+    return out
+
+
+def listing_place(name, listings):
+    """A day-plan stop that is a Farm Trail listing (Phase 2 compiled data)."""
+    r = listings.get(name)
+    if not r:
+        raise SystemExit(f"plans.json: no Phase 2 listing named {name!r}")
+    city = r["City"].strip().title()
+    _, tlat, tlng = TOWNS.get(city, (None, None, None))
+    try:
+        lat, lng, approx = float(r["Latitude"]), float(r["Longitude"]), False
+    except ValueError:
+        lat, lng, approx = tlat, tlng, True   # no geocode yet: pin the town centre
+    return {
+        "name": r["Business Name"], "city": city, "kind": r["Category"].split(",")[0].strip(),
+        "address": r["Address"], "hours": r["Hours"], "website": r["Website"], "phone": r["Phone"],
+        "lat": lat, "lng": lng, "approx": approx,
+    }
+
+
+def resolve_place(ref, ids, by_id, listings, events):
+    if "node" in ref:
+        nid = ids.get(ref["node"])
+        if not nid:
+            raise SystemExit(f"plans.json: no supply-network node named {ref['node']!r}")
+        return {"node": nid}
+    if "listing" in ref:
+        p = listing_place(ref["listing"], listings)
+        # Prefer the guide page when the listing is also in the supply network.
+        nid = ids.get(ref["listing"])
+        if nid:
+            p["node"] = nid
+        return p
+    if "event" in ref:
+        eid = slug(ref["event"])
+        if eid not in {e["id"] for e in events}:
+            raise SystemExit(f"plans.json: no event named {ref['event']!r}")
+        return {"event": eid}
+    raise SystemExit(f"plans.json: stop needs node, listing or event: {ref}")
+
+
+def load_plans(ids, by_id, events):
+    if not PLANS.exists():
+        return []
+    listings = {r["Business Name"]: r for r in csv.DictReader(open(LISTINGS, encoding="utf-8-sig"))}
+    # Rock Bottom's listing name carries "(ACES)"; the network calls it Rock Bottom Ranch.
+    alias = {"Rock Bottom Ranch (ACES)": "Rock Bottom Ranch", "Two Roots Farm LLC": "Two Roots Farm"}
+    ids = dict(ids, **{k: ids[v] for k, v in alias.items() if v in ids})
+    plans = json.load(open(PLANS, encoding="utf-8"))
+    for pl in plans:
+        for st in pl["stops"]:
+            st["place"] = resolve_place(st.pop("place") if "place" in st else st, ids, by_id, listings, events)
+            for a in st.get("alt", []):
+                a["place"] = resolve_place(a["place"] if "place" in a else a, ids, by_id, listings, events)
+                a.pop("event", None)
+        if pl.get("pantry"):
+            pl["pantry"]["places"] = [resolve_place(r, ids, by_id, listings, events) for r in pl["pantry"]["places"]]
+    return plans
 
 
 def main():
@@ -151,11 +228,14 @@ def main():
         "towns": len({n["city"] for n in out_nodes if n["lat"]}),
         "researched": "2026-10-03",
     }
-    data = {"nodes": out_nodes, "edges": out_edges, "stats": stats, "typeLabel": TYPE_LABEL}
+    events = load_events()
+    plans = load_plans(ids, by_id, events)
+    data = {"nodes": out_nodes, "edges": out_edges, "stats": stats, "typeLabel": TYPE_LABEL,
+            "events": events, "plans": plans}
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text("window.GUIDE_DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n",
                    encoding="utf-8")
-    print(f"wrote {OUT.relative_to(ROOT)}: {stats}")
+    print(f"wrote {OUT.relative_to(ROOT)}: {stats}; {len(events)} events, {len(plans)} plans")
     if unknown_towns:
         print("towns without coordinates (filed under Statewide):", sorted(unknown_towns))
 

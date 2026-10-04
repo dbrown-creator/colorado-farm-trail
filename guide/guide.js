@@ -171,6 +171,14 @@
       ${regionTiles()}
     </div></section>
 
+    ${PL.length ? `<section><div class="wrap">
+      <div class="sec-head"><div><h2>Plan a day of local food</h2>
+        <p>Farm visits, a lunch and a dinner that name their farms, and the events worth timing a trip around.</p></div>
+        <a class="more" href="#/events">All events →</a></div>
+      <div class="grid">${PL.map(p => `<a class="card plan-card" href="#/plan/${p.id}"><span class="pill"><i style="background:var(--gold)"></i>Day plan</span>
+        <h3>${esc(p.title)}</h3><div class="where">${esc(p.region)} · ${esc(p.best)}</div><div class="facts">${plural(p.stops.length, 'stop')} · ${esc(p.lede)}</div></a>`).join('')}</div>
+    </div></section>` : ''}
+
     <section><div class="wrap">
       <h2>How the guide works</h2>
       <div class="how">
@@ -227,6 +235,7 @@
     const topFeeders = Object.entries(feeders).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([id]) => byId[id]);
     const block = (title, list) => list.length ? `<div class="group"><h2>${title}</h2><div class="grid">${list.map(card).join('')}</div></div>` : '';
     const sortConn = (a, b) => (b.sup.length + b.buy.length) - (a.sup.length + a.buy.length);
+    const plan = PL.find(p => p.region === r), evs = EV.filter(e => e.region === r);
     app.innerHTML = `
     <div class="place-head"><div class="wrap">
       <div class="crumbs"><a href="#/regions">Regions</a> / ${esc(r)}</div>
@@ -237,10 +246,12 @@
       ${pct != null && r !== 'Statewide' ? `Of the <b>${st.inbound}</b> traced ingredients flowing into ${esc(r)} kitchens and shops, <b>${pct}%</b> come from producers in the region.` : ''}</p>
     </div></div>
     <div class="wrap"><div class="place-body"><div>
+      ${plan ? `<a class="plan-cta" href="#/plan/${plan.id}"><span class="kicker">Plan a day</span><b>${esc(plan.title)}</b><span class="muted">${esc(plan.best)} · ${plan.stops.length} stops</span></a>` : ''}
       ${block('Where to eat', st.ns.filter(n => n.type === 'restaurant').sort(sortConn))}
       ${block('Where to shop', st.ns.filter(n => n.type === 'retail' || n.type === 'market').sort(sortConn))}
       ${block('Who grows and makes it', st.ns.filter(n => PRODUCER.has(n.type)).sort(sortConn))}
       ${block('Distributors &amp; food hubs', st.ns.filter(n => n.type === 'distributor'))}
+      ${evs.length ? `<div class="group"><h2>Events</h2><div class="grid">${evs.map(evCard).join('')}</div></div>` : ''}
     </div><aside class="side">
       <div class="minimap" id="rgmap"></div>
       ${topFeeders.length ? `<div class="box"><h3>Who feeds ${esc(r)}</h3><p class="muted" style="margin-top:0;font-size:.9rem">Producers named most often by this region's restaurants and shops.</p>
@@ -470,6 +481,144 @@
     });
   }
 
+  /* ---------- day plans & events ---------- */
+  const EV = D.events || [], PL = D.plans || [];
+  const evById = Object.fromEntries(EV.map(e => [e.id, e]));
+  const byName = Object.fromEntries(N.map(n => [n.name, n]));
+  const KIND = { farm: 'On the farm', food: 'Food festival', ranch: 'Ranch & rodeo', community: 'Community' };
+  const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const fmtDay = (d, year) => new Date(d + 'T12:00').toLocaleDateString('en-US', Object.assign({ month: 'short', day: 'numeric' }, year ? { year: 'numeric' } : {}));
+  function evDates(e) {
+    if (e.status === 'canceled') return `${e.start ? e.start.slice(0, 4) + ' ' : ''}edition canceled`;
+    if (!e.start) return 'Dates not yet announced';
+    if (!e.end || e.end === e.start) return fmtDay(e.start, true);
+    return `${fmtDay(e.start)} – ${fmtDay(e.end, true)}`;
+  }
+  function evCard(e) {
+    const flag = e.status === 'canceled' ? '<span class="chip warn">Canceled this year</span>'
+      : e.status === 'dates-pending' ? '<span class="chip">Dates TBA</span>' : '';
+    const h = byName[e.host];
+    return `<div class="card ev-card"><span class="pill"><i class="k-${esc(e.kind)}"></i>${esc(KIND[e.kind] || e.kind)}</span>
+      <h3>${esc(e.name)}</h3>
+      <div class="where">${esc(e.town)} · ${esc(e.season)}</div>
+      <p class="ev-desc">${esc(e.desc)}</p>
+      <div class="facts"><b>${esc(evDates(e))}</b>${e.recur ? `<br><span class="muted">${esc(e.recur)}</span>` : ''}</div>
+      <div class="facts muted">${esc(e.venue)}${h ? ` · hosted by <a href="#/p/${h.id}">${esc(h.name)}</a>` : ''}</div>
+      <div class="chips">${flag}<a class="chip" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(domain(e.url))} ↗</a></div></div>`;
+  }
+
+  // A stop's place: a guide listing (node), a Farm Trail listing, or an event.
+  function placeOf(p) {
+    if (p.event) {
+      const e = evById[p.event];
+      return { name: e.name, city: e.town, kind: KIND[e.kind], href: e.url, ext: true, extra: `${e.season} · ${e.recur}` };
+    }
+    const n = p.node ? byId[p.node] : null;
+    if (n && !p.name) {
+      const names = sup(n).filter(e => e.c !== 'low').map(e => byId[e.s].name);
+      return {
+        name: n.name, city: n.city, kind: T[n.type], href: `#/p/${n.id}`, ll: n.lat ? pos(n) : null,
+        extra: names.length ? `Buys from ${names.slice(0, 4).join(', ')}${names.length > 4 ? ` and ${names.length - 4} more` : ''}` : ''
+      };
+    }
+    return {
+      name: p.name, city: p.city, kind: p.kind, href: n ? `#/p/${n.id}` : p.website, ext: !n,
+      ll: p.lat ? [p.lat, p.lng] : null, approx: p.approx, address: p.address, hours: p.hours
+    };
+  }
+  const placeLink = pl => `<a href="${esc(pl.href || '#')}"${pl.ext ? ' target="_blank" rel="noopener"' : ''}>${esc(pl.name)}${pl.ext ? ' ↗' : ''}</a>`;
+  function placeMeta(pl) {
+    const rows = [`${esc(pl.kind)} · ${esc(pl.city)}`];
+    if (pl.address) rows.push(`${esc(pl.address)}, ${esc(pl.city)}`);
+    if (pl.hours) rows.push(esc(pl.hours));
+    if (pl.extra) rows.push(esc(pl.extra));
+    return rows.map(r => `<div class="stop-meta">${r}</div>`).join('');
+  }
+
+  function plansIndex() {
+    if (PL.length === 1) { location.replace('#/plan/' + PL[0].id); return; }
+    app.innerHTML = `<section><div class="wrap"><div class="kicker">Plan a day</div><h1>Day plans</h1>
+      <div class="grid">${PL.map(p => `<a class="card" href="#/plan/${p.id}"><h3>${esc(p.title)}</h3><div class="where">${esc(p.region)}</div><div class="facts">${esc(p.best)}</div></a>`).join('')}</div></div></section>`;
+  }
+
+  function planPage(id) {
+    const p = PL.find(x => x.id === id);
+    if (!p) return notFound();
+    const evs = EV.filter(e => e.region === p.region);
+    const num = (s, i) => s.time === 'Or' ? 'or' : String(i + 1);
+    const stops = p.stops.map((s, i) => {
+      const pl = placeOf(s.place);
+      const alts = (s.alt || []).map(a => {
+        const ap = placeOf(a.place);
+        return `<li><b>${placeLink(ap)}</b> <span class="muted">· ${esc(ap.kind)} · ${esc(ap.city)}</span><br>${esc(a.why)}</li>`;
+      }).join('');
+      return `<li class="stop" id="stop-${i + 1}">
+        <div class="stop-dot${s.time === 'Or' ? ' alt' : ''}">${num(s, i)}</div>
+        <div class="stop-body">
+          <div class="stop-time">${esc(s.time === 'Or' ? 'Or, down valley' : s.time)}</div>
+          <h3>${esc(s.title)}</h3>
+          <div class="stop-place">${placeLink(pl)}</div>
+          ${placeMeta(pl)}
+          <p>${esc(s.why)}</p>
+          ${s.tip ? `<p class="tip">${esc(s.tip)}</p>` : ''}
+          ${alts ? `<div class="alts"><div class="alts-h">${s.time === 'Or' ? 'Or instead' : 'Swap it for'}</div><ul>${alts}</ul></div>` : ''}
+        </div></li>`;
+    }).join('');
+    const pantry = p.pantry ? `<div class="box"><h3>${esc(p.pantry.title)}</h3><p class="muted" style="margin-top:0;font-size:.92rem">${esc(p.pantry.why)}</p>
+      <ul class="links">${p.pantry.places.map(r => { const pl = placeOf(r); return `<li>${placeLink(pl)}<span class="meta">${esc(pl.kind)} · ${esc(pl.city)}${pl.extra ? ' · ' + esc(pl.extra) : ''}</span></li>`; }).join('')}</ul></div>` : '';
+    app.innerHTML = `
+    <div class="place-head"><div class="wrap">
+      <div class="crumbs"><a href="#/region/${slug(p.region)}">${esc(p.region)}</a> / Plan a day</div>
+      <div class="kicker">Plan a day</div>
+      <h1>${esc(p.title)}</h1>
+      <p class="headline">${esc(p.lede)}</p>
+      <div class="plan-facts"><span><b>Best</b> ${esc(p.best)}</span><span><b>Route</b> ${esc(p.route)}</span></div>
+    </div></div>
+    <div class="wrap"><div class="place-body"><div>
+      <ol class="timeline">${stops}</ol>
+      ${evs.length ? `<div class="group"><h2>Time your visit</h2><p class="muted">Local food and ranch events through the ${esc(p.region)} year.</p>
+        <div class="grid">${evs.map(evCard).join('')}</div></div>` : ''}
+    </div><aside class="side">
+      <div class="minimap plan-map" id="plmap"></div>
+      ${pantry}
+      <div class="box"><h3>Where this plan comes from</h3><p class="muted" style="margin:0;font-size:.92rem">Built from the <a href="${esc(p.inspired.url)}" target="_blank" rel="noopener">${esc(p.inspired.label)} ↗</a>. ${esc(p.inspired.note)} Each “buys from” line is sourced on the listing's page. Hours change, so check before you go.</p></div>
+    </aside></div></div>`;
+    const map = newMap('plmap');
+    const route = [], all = [];
+    p.stops.forEach((s, i) => {
+      const pl = placeOf(s.place);
+      if (!pl.ll) return;
+      all.push(pl.ll);
+      if (s.time !== 'Or') route.push(pl.ll);
+      L.marker(pl.ll, { icon: L.divIcon({ className: 'num-pin' + (s.time === 'Or' ? ' alt' : ''), html: num(s, i), iconSize: [26, 26] }) })
+        .bindPopup(`<a href="#stop-${i + 1}" data-stop>${esc(pl.name)}</a><br><small>${esc(s.time)}${pl.approx ? ' · approximate location' : ''}</small>`).addTo(map);
+    });
+    if (route.length > 1) L.polyline(route, { color: cssColor('green'), weight: 2.5, opacity: .7, dashArray: '6 6' }).addTo(map);
+    if (all.length) map.fitBounds(L.latLngBounds(all).pad(0.15), { maxZoom: 12 });
+  }
+
+  function eventsPage(params) {
+    const region = params.get('region') || '';
+    const regions = [...new Set(EV.map(e => e.region))];
+    // Order by the month an event usually starts: its date if published, else its season's first month.
+    const startMonth = e => e.start ? +e.start.slice(5, 7) - 1
+      : Math.max(0, MONTHS.findIndex(m => e.season.toLowerCase().includes(m.slice(0, 3).toLowerCase())));
+    const list = EV.filter(e => !region || e.region === region).sort((a, b) => startMonth(a) - startMonth(b) || a.name.localeCompare(b.name));
+    const groups = {};
+    list.forEach(e => { const m = MONTHS[startMonth(e)]; (groups[m] = groups[m] || []).push(e); });
+    app.innerHTML = `<section><div class="wrap">
+      <div class="kicker">Events</div><h1>Local food &amp; farm events</h1>
+      <p class="muted" style="max-width:660px">Farm dinners, food festivals, rodeos and markets that celebrate Colorado food. Dates shown are the latest published; most summer dates are announced each spring.</p>
+      <div class="typebtns" id="evr"><button data-r="" class="${!region ? 'on' : ''}">All regions</button>${regions.map(r => `<button data-r="${esc(r)}" class="${r === region ? 'on' : ''}">${esc(r)}</button>`).join('')}</div>
+      ${Object.entries(groups).map(([m, es]) => `<div class="group"><h2>${m}</h2><div class="grid">${es.map(evCard).join('')}</div></div>`).join('') || '<div class="empty">No events yet for this region.</div>'}
+      ${PL.length ? `<div class="cta" style="margin-top:32px"><div><h2>Make a day of it</h2><p>Pair an event with farm visits and a dinner that names its farms.</p></div><a class="btn" href="#/plan">Plan a day</a></div>` : ''}
+    </div></section>`;
+    document.getElementById('evr').addEventListener('click', ev => {
+      const b = ev.target.closest('button'); if (!b) return;
+      location.hash = '#/events' + (b.dataset.r ? '?region=' + encodeURIComponent(b.dataset.r) : '');
+    });
+  }
+
   function about() {
     const s = D.stats;
     app.innerHTML = `<section><div class="wrap prose">
@@ -516,12 +665,20 @@
     else if (page === 'regions') regionsPage();
     else if (page === 'region') regionPage(parts[1] || '');
     else if (page === 'network') network();
+    else if (page === 'plan') parts[1] ? planPage(parts[1]) : plansIndex();
+    else if (page === 'events') eventsPage(new URLSearchParams(qs || ''));
     else if (page === 'about') about();
     else notFound();
-    const name = { explore: 'Explore', regions: 'Regions', region: 'Region', network: 'The web', about: 'How it works', p: byId[parts[1]]?.name }[page];
+    const name = { explore: 'Explore', regions: 'Regions', region: 'Region', network: 'The web', about: 'How it works', events: 'Events',
+      plan: PL.find(x => x.id === parts[1])?.title || 'Plan a day', p: byId[parts[1]]?.name }[page];
     document.title = (name ? name + ' · ' : '') + 'Colorado Local Food Guide';
     if (page !== 'p') window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);
+  // Day-plan stop links (#stop-N, from the map popups) scroll in place instead of hitting the router.
+  document.addEventListener('click', ev => {
+    const a = ev.target.closest('a[href^="#stop-"]'); if (!a) return;
+    ev.preventDefault(); document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+  });
   route();
 })();
