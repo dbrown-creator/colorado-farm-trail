@@ -18,3 +18,124 @@ Florence Farmers Market,Florence,Website,clear,,Removed compromised link: floren
 Hutchinson Ranch,Salida,Latitude,set,38.5165519,"6700 Old Corral Rd doesn't geocode (Census, OSM); pin from the Google Maps listing for Hutchinson Ranch Wedding & Events at that exact address (checked 2026-10-03), consistent with the ranch site's '2 miles west of Salida off Hwy 50'",2026-10-03
 Hutchinson Ranch,Salida,Longitude,set,-106.0435714,Same Google Maps listing as the Latitude row,2026-10-03
 Hutchinson Ranch,Salida,County,set,Chaffee,"Overrides run after the county lookup, so a hand-set pin needs its county set too (Salida is in Chaffee County)",2026-10-03
+Sandy's Way Microfarm,SEDALIA,City,set,Sedalia,Colorado Proud lists the town in capitals,2026-10-03
+Indian Hills Farmer's Market,Indian Hills,Facebook,clear,,Dead link removed: http://www.facebook.com/Indian-Hills-Farmers-Market/275105069231823 (HTTP 404; link check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Facebook,clear,,Dead link removed: http://www.facebook.com/pages/something-from-the-farm-corn-maze-125041194208203 (HTTP 404; link check 2026-10-03),2026-10-03
+Lower Valley Pumpkin Patch and Corn Maze,Grand Junction,Facebook,clear,,Dead link removed: http://www.facebook.com/pagesgrand-junction-co/lower-valley-pumpkin-patch-and-corn-maze/112542552119168?ref=ts&ajaxpipe=1&__a=6 (HTTP 404; link check 2026-10-03),2026-10-03
+Searle Ranch,Monument,Facebook,clear,,Dead link removed: https://www.facebook.com/pages/Searle-Ranch-Grass-Fed-Beef (HTTP 404; link check 2026-10-03),2026-10-03
+Studt's Pumpkin Patch and Corn Maze,Grand Junction,Facebook,clear,,Dead link removed: https://www.facebook.com/pagesgrand-junction-co/studts-pumpkin-patch-and-corn-maze/138556982822627?ref=sgm (HTTP 404; link check 2026-10-03),2026-10-03
+A Wren's Nest Farm,Pueblo,Website,clear,,Dead link removed: http://awrensnest.com/nest/ (gaierror; link check 2026-10-03),2026-10-03
+Berthoud Farmers' Market,Berthoud,Website,clear,,Dead link removed: http://berthoudlocal.org/farmers-and-fleas/ (HTTP 404; link check 2026-10-03),2026-10-03
+Landmark Greenwood Village Fresh Market,Greenwood Village,Website,clear,,Dead link removed: http://coloradofreshmarkets.com/markets/ (HTTP 404; link check 2026-10-03),2026-10-03
+Hoffmann Commercial Real Estate Farmers' Market,Avon,Website,clear,,Dead link removed: http://edwardsfarmersmarket.com/ (gaierror; link check 2026-10-03),2026-10-03
+Jax Farmer's Market in Lafayette,Lafayette,Website,clear,,Dead link removed: http://farmersmarketlouis.com (gaierror; link check 2026-10-03),2026-10-03
+Caring & Sharing – Sanctuary Soup Kitchen,,Website,clear,,Dead link removed: http://salidacaringsharing.org/the-resource-center/ (HTTP 404; link check 2026-10-03),2026-10-03
+Memorial Park Farmers' Market,Colorado Springs,Website,clear,,Dead link removed: http://springsbargains.com/colorado-springs-farmers-market-schedule/ (HTTP 404; link check 2026-10-03),2026-10-03
+La Veta Local Market,La Veta,Website,clear,,Dead link removed: http://wahatoya.org/ (gaierror; link check 2026-10-03),2026-10-03
+Frederika Fall Festival & Corn Maxe,Avondale,Website,clear,,Dead link removed: http://www.10best.com/interests/travel-now/10best-fall-corn-mazes-fun-for-families/ (HTTP 404; link check 2026-10-03),2026-10-03
+Tiri's Garden Farmers Market,Denver,Website,clear,,Dead link removed: http://www.concertsforkids.org (HTTP 404; link check 2026-10-03),2026-10-03
+Copper Kettle Apothecary,Salida,Website,clear,,Dead link removed: http://www.copperkettleapothecary.com (HTTP 404; link check 2026-10-03),2026-10-03
+Hope Farms,Fort Collins,Website,clear,,Dead link removed: http://www.cultivatehopeco.org (gaierror; link check 2026-10-03),2026-10-03
+Metro Denver Farmers' Market-Lakewood,Lakewood,Website,clear,,Dead link removed: http://www.denverfarmersmarket.com/index.html (HTTP 404; link check 2026-10-03),2026-10-03
+D & H Farms,Ault,Website,clear,,Dead link removed: http://www.dhfarms2000.com/ (gaierror; link check 2026-10-03),2026-10-03
+Downtown Sunday Market,Colorado Springs,Website,clear,,Dead link removed: http://www.downtowncs.com/experience-downtown/sunday-market-downtown.html (HTTP 404; link check 2026-10-03),2026-10-03
+Drake Road Farmers Market,Fort Collins,Website,clear,,Dead link removed: http://www.drakeroadfarmersmarket.com (HTTP 404; link check 2026-10-03),2026-10-03
+Fresh Start Family Farms LLC.,Aurora,Website,clear,,Dead link removed: http://www.freshstartfamilyfarms.com (gaierror; link check 2026-10-03),2026-10-03
+Fritzler Farms Inc dba Fritzler Corn Maze and Scream Acres,La Salle,Website,clear,,Dead link removed: http://www.fritzlermaze.com  and www.screamacres.net (malformed (whitespace); link check 2026-10-03),2026-10-03
+Lowry Farmers' Market,Denver,Website,clear,,Dead link removed: http://www.hangar2lowry.com/farmers-market (HTTP 404; link check 2026-10-03),2026-10-03
+Homestead Farms Co.,Aurora,Website,clear,,Dead link removed: http://www.homesteadfarmsco.com (gaierror; link check 2026-10-03),2026-10-03
+Larimer Street Market,Denver,Website,clear,,Dead link removed: http://www.LarimerStreetMarket.com (gaierror; link check 2026-10-03),2026-10-03
+Lost Greens Farm,Denver,Website,clear,,Dead link removed: http://www.lostgreensfarm.com/ (HTTP 404; link check 2026-10-03),2026-10-03
+Lower Valley Pumpkin Patch and Corn Maze,Grand Junction,Website,clear,,Dead link removed: http://www.lowervalleycornmaze.com/directions.html (gaierror; link check 2026-10-03),2026-10-03
+Lyons Outdoor Market,Lyons,Website,clear,,Dead link removed: http://www.lyonsoutdoormarket.com (gaierror; link check 2026-10-03),2026-10-03
+The Community Market at Naropa,Boulder,Website,clear,,Dead link removed: http://www.naropa.edu/campuslife/communitymarket.cfm (HTTP 404; link check 2026-10-03),2026-10-03
+Roots From Eden CSA Market and Bakery,Loma,Website,clear,,Dead link removed: http://www.RootsFromEden.com (HTTP 404; link check 2026-10-03),2026-10-03
+Spotted Horse Barnyard,Elbert,Website,clear,,Dead link removed: http://www.spottedhorsebarnyard.com (gaierror; link check 2026-10-03),2026-10-03
+Sunshine Greens Farm,Colorado Springs,Website,clear,,Dead link removed: http://www.sunshinegreensfarm.com (HTTP 404; link check 2026-10-03),2026-10-03
+Two Springs Ranch/ Harvest Days,Pueblo,Website,clear,,Dead link removed: http://www.the maize.com (malformed (whitespace); link check 2026-10-03),2026-10-03
+Simply Natural at Desiderata Ranch,Berthoud,Website,clear,,Dead link removed: http://y.ahoo.it/2s86r+td (HTTP 404; link check 2026-10-03),2026-10-03
+Dragonfly Farm,Delta,Website,clear,,Dead link removed: https://dragonflychurros.com (gaierror; link check 2026-10-03),2026-10-03
+Garden Sweet,Fort Collins,Website,clear,,Dead link removed: https://gardensweet.com/store/pick-your-own-c53491163 (HTTP 404; link check 2026-10-03),2026-10-03
+Green Vally Ranch NE Denver Farmers Market (Presented by Grateful Garden llc),Denver,Website,clear,,Dead link removed: https://Gvrfarmersmarket.com (gaierror; link check 2026-10-03),2026-10-03
+Harvest Moon Produce LLC,Dolores,Website,clear,,Dead link removed: https://harvestmoonproduce.farm (gaierror; link check 2026-10-03),2026-10-03
+Castle Rock Farmers Market,Castle Rock,Website,clear,,Dead link removed: https://originalcastlerockfarmersmarket.com/ (gaierror; link check 2026-10-03),2026-10-03
+"Pioneer Farmsteaders, LLC",Arvada,Website,clear,,Dead link removed: https://pioneerfarmsteaders.com (gaierror; link check 2026-10-03),2026-10-03
+Freeman Apple Orchard,Lakewood,Website,clear,,Dead link removed: https://rogerfreemanlaw.com/freeman-apple-orchard/ (gaierror; link check 2026-10-03),2026-10-03
+Copper Canyon Suri Ranch,Nederland,Website,clear,,Dead link removed: https://www.alpacanation.com/coppercanyon.asp (HTTP 404; link check 2026-10-03),2026-10-03
+Boulder Creek Winery,Boulder,Website,clear,,Dead link removed: https://www.bouldercreekwine.com (gaierror; link check 2026-10-03),2026-10-03
+Busy Bee Farm,Larkspur,Website,clear,,Dead link removed: https://www.busybeefarm.us (gaierror; link check 2026-10-03),2026-10-03
+Plateau Valley Farmers Market,Collbran,Website,clear,,Dead link removed: https://www.collbrancongregationalchurch.org/events_collbran_congregational.html (HTTP 404; link check 2026-10-03),2026-10-03
+Crooked Clove Farm & Ranch LLC,Larkspur,Website,clear,,Dead link removed: https://www.crookedclove.com (gaierror; link check 2026-10-03),2026-10-03
+Dayspring Farm,Olathe,Website,clear,,Dead link removed: https://www.dayspringfarm.net (gaierror; link check 2026-10-03),2026-10-03
+Highlands Ranch Farmers' Market,Highlands Ranch,Website,clear,,Dead link removed: https://www.denverfarmersmarket.com/index.html (HTTP 404; link check 2026-10-03),2026-10-03
+Donoma Farms,Carr,Website,clear,,Dead link removed: https://www.donomafarms.com (gaierror; link check 2026-10-03),2026-10-03
+Farm and Ranch Market,Grand Junction,Website,clear,,Dead link removed: https://www.farmmarketgj.com/ (HTTP 404; link check 2026-10-03),2026-10-03
+Five Freedoms Dairy,Longmont,Website,clear,,Dead link removed: https://www.fivefreedomsdairy (gaierror; link check 2026-10-03),2026-10-03
+Happy Apple Orchard,Ignacio,Website,clear,,Dead link removed: https://www.happyappleorchard.com/ (gaierror; link check 2026-10-03),2026-10-03
+Hugs Farm,Walsenburg,Website,clear,,Dead link removed: https://www.HugsFarm.weebly.com (SSLError; link check 2026-10-03),2026-10-03
+Kristin's Farm Stand,Denver,Website,clear,,Dead link removed: https://www.KristinsFarmStand.com (gaierror; link check 2026-10-03),2026-10-03
+Life Cycles Pasture,Montrose,Website,clear,,Dead link removed: https://www.lifecyclespasture.com (gaierror; link check 2026-10-03),2026-10-03
+Cherry Creek Valley International Farmers Market,Denver,Website,clear,,Dead link removed: https://www.localharvestfoods.com/ (gaierror; link check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Website,clear,,Dead link removed: https://www.masonvilleorchard.com (SSLError; link check 2026-10-03),2026-10-03
+Morton's Organic Orchards,Palisade,Website,clear,,Dead link removed: https://www.mortonsorchards.com (gaierror; link check 2026-10-03),2026-10-03
+Noco Virtual Farmers Market,Fort Collins,Website,clear,,Dead link removed: https://www.nocovirtualfarmersmarket.com/ (HTTP 404; link check 2026-10-03),2026-10-03
+Norwood Farm and Craft Market,Norwood,Website,clear,,Dead link removed: https://www.norwoodfarmmarket.org/ (gaierror; link check 2026-10-03),2026-10-03
+On the Vine at Richmond Farms Urban Market,Fort Collins,Website,clear,,Dead link removed: https://www.onthevineatrichmondfarms.com (HTTP 404; link check 2026-10-03),2026-10-03
+Jenkin's Farms and Western Skies Winery,Penrose,Website,clear,,Dead link removed: https://www.penroseapples.com/hours-of-operation.php (gaierror; link check 2026-10-03),2026-10-03
+Rovegno's Produce,Avondale,Website,clear,,Dead link removed: https://www.rovegnosproduce.com/contact.html (gaierror; link check 2026-10-03),2026-10-03
+Royal Gorge Farmers Market,Cañon City,Website,clear,,Dead link removed: https://www.royalgorgechamberalliance.org/royal-gorge-farmers-market/faceb (HTTP 404; link check 2026-10-03),2026-10-03
+Blue Barrel Farm,Fort Collins,Website,set,https://www.bluebarrel.farm/,"Site moved: http://bluebarrelfarm.com redirects to https://www.bluebarrel.farm/, verified same business (link check 2026-10-03)",2026-10-03
+Edwards Corner Farmers' Market,Edwards,Website,clear,,Removed compromised link http://edwardscornerfarmersmarket.com/: domain is parked for sale (link check 2026-10-03),2026-10-03
+"Heritage Lavender, LLC",Berthoud,Website,clear,,Removed compromised link http://heritagelavender.com/: redirects to expireddomains.com (domain lapsed) (link check 2026-10-03),2026-10-03
+Bolton's Orchards,Grand Junction,Website,set,https://boltonorchards.co/,"Site moved: http://www.boltonorchards.net redirects to https://boltonorchards.co/, verified same business (link check 2026-10-03)",2026-10-03
+"Borden Farms, LLC",Delta,Website,set,https://pedrosfarm.com/,"Site moved: bordenfarms.com redirects to pedrosfarm.com, which says 'Formerly Borden Farms' (organic produce and flowers, Delta; verified 2026-10-03)",2026-10-03
+High Plains Food Cooperative,Denver Tech Center,Website,clear,,"Removed compromised link http://www.highplainsfood.org: redirects through safebrowse.io, a malware-style redirector (link check 2026-10-03)",2026-10-03
+Johnson's Acres,Brighton,Website,clear,,"Removed compromised link http://www.johnsonsacres.com: redirects to 11jelas777.com, a gambling spam site (link check 2026-10-03)",2026-10-03
+The Grainery Ministries,Salida,Website,clear,,"Removed compromised link http://www.thegraineryministries.org: redirects through safebrowse.io, a malware-style redirector (link check 2026-10-03)",2026-10-03
+The County With The Bounty & Wild West Excursions,Cortez,Website,set,https://thecountywiththebounty.com/,"Site moved: https://CountyWithTheBounty.com redirects to https://thecountywiththebounty.com/, verified same business (link check 2026-10-03)",2026-10-03
+The Farm Collaborative,Aspen,Website,set,https://thefarmcollaborative.org/,"Site moved: https://farmco.org redirects to https://thefarmcollaborative.org/, verified same business (link check 2026-10-03)",2026-10-03
+Rocky Mountain Garlic,Salida,Website,set,https://www.rockymountaingarlic.net/,"Site moved: https://Rockymountaingarlic.com redirects to https://www.rockymountaingarlic.net/, verified same business (link check 2026-10-03)",2026-10-03
+Bee Family Centennial Farm Museum,Fort Collins,Website,set,https://www.beefamilyfarm.com/,"Site moved: https://www.beefamilyfarm.org redirects to https://www.beefamilyfarm.com/, verified same business (link check 2026-10-03)",2026-10-03
+East Denver Food Hub,Montbello,Website,clear,,Removed compromised link https://www.eastdenverfoodhub.com: redirects to an unrelated gallery site (irmavaleriogalerias.com) (link check 2026-10-03),2026-10-03
+Rekaivery Food Hub,Fort Collins,Website,clear,,"Removed https://www.endhungerco.org/partner-stories/rekaivery-food-hub-launches-kickstarter: now redirects to provechocollective.org's home page, which doesn't mention Rekaivery (link check 2026-10-03)",2026-10-03
+Harvest Farm,Wellington,Website,set,https://fortcollinsrescuemission.org/who-we-are/locations/harvest-farm/,"Site moved: https://www.harvestfarm.net redirects to https://fortcollinsrescuemission.org/who-we-are/locations/harvest-farm/, verified same business (link check 2026-10-03)",2026-10-03
+Market on the Plaza,Mountain Village,Website,set,https://townofmountainvillage.com/explore/market-on-the-plaza/,"Site moved: https://www.marketontheplaza.com redirects to https://townofmountainvillage.com/explore/market-on-the-plaza/, verified same business (link check 2026-10-03)",2026-10-03
+Fort Collins Winter Farmers Market,Fort Collins,Website,set,https://www.wildcraftmarkets.com/,"Site moved: https://www.winterfarmersmarket.com/ redirects to https://www.wildcraftmarkets.com/, verified same business (link check 2026-10-03)",2026-10-03
+Ledingham Livestock,Carr,Category,set,On-Farm / Ranch Sales,Was 'Other' (Colorado Proud stated no type): Beef and lamb ranch; recategorized in the 2026-10-03 category review,2026-10-03
+Oswald Grassfed Beef,Cotopaxi,Category,set,On-Farm / Ranch Sales,Was 'Other' (Colorado Proud stated no type): Grass-fed beef ranch; recategorized in the 2026-10-03 category review,2026-10-03
+Pasture Provisions Company,Denver,Category,set,On-Farm / Ranch Sales,Was 'Other' (Colorado Proud stated no type): Ranch meats and produce; recategorized in the 2026-10-03 category review,2026-10-03
+Ent Wise Farm,Fort Collins,Category,set,On-Farm / Ranch Sales,Was 'Other' (Colorado Proud stated no type): Produce farm; recategorized in the 2026-10-03 category review,2026-10-03
+First Fruits Organic Farms,Paonia,Category,set,On-Farm / Ranch Sales,Was 'Other' (Colorado Proud stated no type): Orchard; recategorized in the 2026-10-03 category review,2026-10-03
+Quarter Acre and a Mule Farm,Pueblo,Category,set,On-Farm / Ranch Sales,Was 'Other' (Colorado Proud stated no type): Produce farm; recategorized in the 2026-10-03 category review,2026-10-03
+McWiggly Worm Farm LLC,Pueblo West,Category,set,On-Farm / Ranch Sales,"Was 'Other' (Colorado Proud stated no type): Worm farm (composting worms, castings); recategorized in the 2026-10-03 category review",2026-10-03
+Palombo Farms Market,Henderson,Category,set,Roadside Market,Was 'Other' (Colorado Proud stated no type): Farm produce market; recategorized in the 2026-10-03 category review,2026-10-03
+Kokopelli Farm Market,Palisade,Category,set,Roadside Market,Was 'Other' (Colorado Proud stated no type): Farm produce market; recategorized in the 2026-10-03 category review,2026-10-03
+Sackett's Farm Market,Rocky Ford,Category,set,Roadside Market,Was 'Other' (Colorado Proud stated no type): Farm produce market; recategorized in the 2026-10-03 category review,2026-10-03
+Growing Gardens,Longmont,Category,set,"Roadside Market, Organization","Was 'Other' (Colorado Proud stated no type): Nonprofit farm stand / community garden (Colorado Proud 'other' type: Farm Stand, Cultiva Youth Program); recategorized in the 2026-10-03 category review",2026-10-03
+Food to Power,Colorado Springs,Category,set,Community Food Hub,"Community food-access hub, not a wholesale distributor (2026-10-03 category review)",2026-10-03
+The Action Center Community Food Hub,Lakewood,Category,set,Community Food Hub,"Community food-access hub, not a wholesale distributor (2026-10-03 category review)",2026-10-03
+East Denver Food Hub,Montbello,Category,set,Community Food Hub,"Community food-access hub, not a wholesale distributor (2026-10-03 category review)",2026-10-03
+US Potato Board,Denver Tech Center,,remove,,"A trade association, not a place to get food (2026-10-03 category review)",2026-10-03
+"Borden Farms, LLC",Delta,Business Name,set,Pedro's Farm (formerly Borden Farms),Renamed: its site now reads 'Pedro's Farm ... Formerly Borden Farms' (verified 2026-10-03),2026-10-03
+Platte River Fort,Greeley,,remove,,"Now River Fort Ranch, a barn wedding venue (riverfortranch.com); no farm stand, produce or tours described, so not a food stop (reviewed 2026-10-03)",2026-10-03
+Boulder Creek Winery,Boulder,,remove,,"Closed: Yelp 'CLOSED - Updated January 2026', Foursquare 'Now Closed' (closed-org check 2026-10-03)",2026-10-03
+Spotted Horse Barnyard,Elbert,,remove,,Closed: owner confirmed permanent closure (pumpkinpatchesandmore.org closed-farms page) (closed-org check 2026-10-03),2026-10-03
+Freeman Apple Orchard,Lakewood,,remove,,Closed: pickyourown.org lists it permanently closed; domain gone (closed-org check 2026-10-03),2026-10-03
+Lyons Outdoor Market,Lyons,,remove,,"Removed on review: Tripadvisor 'temporarily closed until 10/04/2026', absent from the town's 2026 events, website gone (closed-org check 2026-10-03)",2026-10-03
+Hugs Farm,Walsenburg,,remove,,"Removed on review: visithugsfarm.com now offers mindfulness/animal-therapy services, no food sales (closed-org check 2026-10-03)",2026-10-03
+Morton's Organic Orchards,Palisade,Website,set,https://mortonsorganicorchards.com/,Site moved; 2026 season updates on the new domain (closed-org check 2026-10-03),2026-10-03
+Fritzler Farms Inc dba Fritzler Corn Maze and Scream Acres,La Salle,Website,set,https://www.fritzlerfarmpark.com/,Renamed Fritzler Farm Park; official site shows 2026 Fall Fest Sept 19 - Nov 1 (closed-org check 2026-10-03),2026-10-03
+Fritzler Farms Inc dba Fritzler Corn Maze and Scream Acres,La Salle,Business Name,set,Fritzler Farm Park (Scream Acres),Renamed; same address and phone (closed-org check 2026-10-03),2026-10-03
+Studt's Pumpkin Patch and Corn Maze,Grand Junction,Website,set,https://studtfarms.com/,"Renamed Studt Farms; official site: open Oct 1-31, 2026 (closed-org check 2026-10-03)",2026-10-03
+Studt's Pumpkin Patch and Corn Maze,Grand Junction,Business Name,set,Studt Farms (Pumpkin Patch and Corn Maze),Renamed (closed-org check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Website,set,https://adamsapplecolorado.com/,U-pick sold to new owner (Mantooth Company post); new business site current for 2026 (closed-org check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Address,set,42135 Weld County Road 43,Address per adamsapplecolorado.com (the old '135 WCR 43' was truncated; pin unchanged) (closed-org check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Notes,prepend,"Formerly Masonville Orchards' Ault U-pick, now under new ownership as Adam's Apple Orchard & Country Store.",Ownership change (closed-org check 2026-10-03),2026-10-03
+Masonville Orchards,Ault,Business Name,set,Adam's Apple Orchard & Country Store,Successor business at the same orchard (closed-org check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Website,set,https://somethingfromthefarm.com/,Official site (non-www host) lists the 2026 season Sept 26 - Oct 31 (closed-org check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Address,set,8020 S Timberline Rd,Address per official site (closed-org check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Latitude,set,40.474164077008,Census geocode of 8020 S Timberline Rd (closed-org check 2026-10-03),2026-10-03
+Something From the Farm,Fort Collins,Longitude,set,-105.039379419209,Census geocode of 8020 S Timberline Rd (closed-org check 2026-10-03),2026-10-03
+Lost Greens Farm,Denver,Website,set,https://lostgreensfarm.substack.com,"Farm's Substack (Aug 2025 post: continuing at Gilpin St, planning 2026) (closed-org check 2026-10-03)",2026-10-03
+Metro Denver Farmers' Market-Lakewood,Lakewood,Hours,set,Sat: 10:00am - 2:00pm,"2026 schedule at Mile Hi Church per Denverite (May 1, 2026) (closed-org check 2026-10-03)",2026-10-03
+Metro Denver Farmers' Market-Lakewood,Lakewood,Months Open,set,"June, July, August, September, October","2026 season June 13 - Oct 3 per Denverite (May 1, 2026) (closed-org check 2026-10-03)",2026-10-03

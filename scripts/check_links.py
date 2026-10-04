@@ -10,9 +10,15 @@ treated as BROKEN when we can confirm it: HTTP 404/410, a dead domain (DNS
 failure), or a refused/reset connection. Everything ambiguous (timeouts, 403,
 429, 5xx) is kept and reported as UNCERTAIN so we never strip a valid link.
 
+A third class, SUSPECT, catches links that load but no longer lead to the business:
+a website that redirects to a different domain (hijacked, sold, or simply moved) or
+serves a parked / for-sale / security-warning page. SUSPECT is for human review and
+is never removed by --apply (a legitimate move to a new domain looks the same).
+
 Usage (from repo root):
   python scripts/check_links.py           # check + write report, change nothing
   python scripts/check_links.py --apply   # also blank out BROKEN links in the CSV
+  python scripts/check_links.py --csv data-compiled/phase2/co_farmers_markets_all_mymaps.csv       --report data-compiled/phase2/link_check_report.csv   # check another CSV
 
 Stdlib only -- no third-party dependencies.
 """
@@ -49,6 +55,36 @@ _SSL.check_hostname = False
 _SSL.verify_mode = ssl.CERT_NONE  # ignore cert issues -> fewer false "dead" calls
 
 
+# Page text that means "this isn't the business's site any more".
+PARKED_MARKERS = (
+    "domain is for sale", "this domain may be for sale", "buy this domain",
+    "domain for sale", "is parked free", "domain parking", "parked domain",
+    "sedoparking", "hugedomains", "dan.com", "afternic", "potential threat detected",
+    "this site can't be reached", "account suspended", "website is no longer available",
+)
+
+
+def _base_domain(host):
+    """'www.shop.example.com' -> 'example.com' (good enough for redirect checks)."""
+    host = (host or "").lower().split(":")[0]
+    if host.startswith("www."):
+        host = host[4:]
+    parts = host.split(".")
+    return ".".join(parts[-2:]) if len(parts) >= 2 else host
+
+
+def suspect_reason(url, final_url, body):
+    """Why a page that loaded is probably not the business any more, or None."""
+    a, b = _base_domain(urlsplit(url).netloc), _base_domain(urlsplit(final_url or url).netloc)
+    if b and a != b:
+        return f"redirects to {b}"
+    text = (body or "").lower()
+    for marker in PARKED_MARKERS:
+        if marker in text:
+            return f"page says '{marker}'"
+    return None
+
+
 def is_social(url):
     u = url.lower()
     return any(h in u for h in SOCIAL_HOSTS)
@@ -64,7 +100,7 @@ def _request(url, method):
 
 
 def check_url(url):
-    """Return (status, detail). status in {OK, BROKEN, UNCERTAIN}."""
+    """Return (status, detail). status in {OK, SUSPECT, BROKEN, UNCERTAIN}."""
     # Syntactically invalid URLs can never load -> broken, no need to hit the network.
     if any(ch.isspace() for ch in url):
         return "BROKEN", "malformed (whitespace)"
@@ -75,16 +111,26 @@ def check_url(url):
     social = is_social(url)
     for attempt in (1, 2):  # one retry to smooth over transient hiccups
         try:
-            try:
-                resp = _request(url, "HEAD")
-            except urllib.error.HTTPError as e:
-                # Some servers reject HEAD (405) -> retry with GET.
-                if e.code in (403, 405, 400, 429):
-                    resp = _request(url, "GET")
-                else:
-                    raise
+            if social:
+                try:
+                    resp = _request(url, "HEAD")
+                except urllib.error.HTTPError as e:
+                    # Some servers reject HEAD (405) -> retry with GET.
+                    if e.code in (403, 405, 400, 429):
+                        resp = _request(url, "GET")
+                    else:
+                        raise
+                code = getattr(resp, "status", resp.getcode())
+                return "OK", f"{code}"
+            # Websites: GET, so we can see where it really lands and what it says.
+            resp = _request(url, "GET")
             code = getattr(resp, "status", resp.getcode())
-            return "OK", f"{code}"
+            try:
+                body = resp.read(65536).decode("utf-8", "ignore")
+            except Exception:  # noqa: BLE001
+                body = ""
+            why = suspect_reason(url, resp.geturl(), body)
+            return ("SUSPECT", why) if why else ("OK", f"{code}")
         except urllib.error.HTTPError as e:
             if e.code in (404, 410):
                 return "BROKEN", f"HTTP {e.code}"
@@ -116,10 +162,14 @@ def check_url(url):
 
 
 def main():
+    global CSV_PATH, REPORT_PATH
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--apply", action="store_true",
                     help="Blank out BROKEN links in the CSV (default: report only).")
+    ap.add_argument("--csv", type=Path, default=CSV_PATH, help="CSV to check (default: live map file)")
+    ap.add_argument("--report", type=Path, default=REPORT_PATH, help="Where to write the report CSV")
     args = ap.parse_args()
+    CSV_PATH, REPORT_PATH = args.csv.resolve(), args.report.resolve()
 
     if not CSV_PATH.exists():
         sys.exit(f"ERROR: {CSV_PATH} not found")
@@ -159,10 +209,11 @@ def main():
             status, detail = results[link]
         classified.append((status, detail, i, col, raw, link))
 
-    order = {"BROKEN": 0, "UNCERTAIN": 1, "OK": 2}
+    order = {"BROKEN": 0, "SUSPECT": 1, "UNCERTAIN": 2, "OK": 3}
     classified.sort(key=lambda t: (order[t[0]], t[3], t[4].lower()))
     broken = [c for c in classified if c[0] == "BROKEN"]
     uncertain = [c for c in classified if c[0] == "UNCERTAIN"]
+    suspect = [c for c in classified if c[0] == "SUSPECT"]
     ok = [c for c in classified if c[0] == "OK"]
 
     with REPORT_PATH.open("w", encoding="utf-8", newline="") as fh:
@@ -172,6 +223,7 @@ def main():
             w.writerow([status, detail, col, raw, link or "", rows[i]["Business Name"]])
 
     print(f"  OK:        {len(ok)}")
+    print(f"  SUSPECT:   {len(suspect)}  (loads, but redirects elsewhere / parked -- review)")
     print(f"  UNCERTAIN: {len(uncertain)}  (kept -- bot-block / timeout / 5xx)")
     print(f"  BROKEN:    {len(broken)}  (confirmed dead / not a usable URL)")
     print(f"\nFull report -> {REPORT_PATH.relative_to(REPO)}")
@@ -184,6 +236,7 @@ def main():
             print(f"  [{detail:>22}] {col:9} {rows[i]['Business Name'][:34]:34} {raw!r}")
 
     show(broken, "Confirmed broken (will be removed with --apply):")
+    show(suspect, "Suspect -- review each (NOT removed; a legitimate domain move looks the same):")
     show(uncertain, "Uncertain (review manually, NOT removed):")
 
     if args.apply and broken:

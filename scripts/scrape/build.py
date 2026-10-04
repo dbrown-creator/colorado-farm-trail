@@ -1,7 +1,7 @@
 """Orchestrate all sources -> dedupe/merge -> geocode gaps -> write CSVs.
 
 Outputs (new files; Farm Fresh CSVs are left untouched):
-  data/co_farmers_markets_all_mymaps.csv  : the 22 My Maps columns, import-ready
+  data/co_farmers_markets_all_mymaps.csv  : the 23 My Maps columns, import-ready
   data/co_farmers_markets_all_raw.csv     : same + source/geo_source/provenance audit
 
 Run (offline; reads the saved source snapshots, never the network for source data):
@@ -25,7 +25,7 @@ from scrape.merge import (apply_decisions, apply_overrides, flag_possible_dups,
                           load_decisions, load_overrides, merge)
 from scrape.normalize import in_colorado
 from scrape.schema import COLUMNS, Market
-from scrape.sources import curated, enrichment
+from scrape.sources import curated, enrichment, farm_fresh
 
 # PHASE 2 (in development — NOT the live product). Outputs are isolated under phase2/
 # so they never touch the live Phase 1 file data-compiled/farm_fresh_directory_mymaps.csv.
@@ -83,6 +83,12 @@ def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
             continue
         print(f"{name}: {len(recs)} records (snapshot {fetched})", flush=True)
         records += recs
+        if name == "colorado_proud":
+            # The live map's Colorado Proud Farm Fresh data with its hand fixes (the
+            # snapshot above is markets-only). Same authority, so same priority slot.
+            ff = farm_fresh.fetch()
+            print(f"Colorado Proud Farm Fresh (live map data): {len(ff)} records", flush=True)
+            records += ff
     return records
 
 

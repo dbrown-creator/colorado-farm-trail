@@ -120,8 +120,9 @@ def test_committed_overrides_file_is_well_formed():
     rows = merge_mod.load_overrides(os.path.join(REPO, "source-data", "phase2", "overrides.csv"))
     assert rows
     for r in rows:
-        assert r["column"] and r["mode"] in ("set", "prepend", "clear"), r
-        assert bool(r["value"]) == (r["mode"] != "clear"), r  # clear takes no value
+        assert r["mode"] in ("set", "prepend", "clear", "remove"), r
+        assert r["column"] or r["mode"] == "remove", r
+        assert bool(r["value"]) == (r["mode"] in ("set", "prepend")), r  # clear/remove: no value
 
 
 def test_snapshot_load_renormalizes_link_fields(tmp_path):
@@ -145,3 +146,11 @@ def test_coordinate_override_sets_a_float_pin():
     ])
     assert (m.latitude, m.longitude) == (38.5165519, -106.0435714)   # the bad row is skipped
     assert m.geo_source == "override" and m.provenance["Latitude"] == "override"
+
+
+def test_remove_override_drops_the_record():
+    keep, gone = _m("LoCo Food Distribution", "Fort Collins"), _m("US Potato Board", "Denver Tech Center")
+    ms = [keep, gone]
+    merge_mod.apply_overrides(ms, [{"name": "US Potato Board", "city": "Denver Tech Center",
+                                    "column": "", "mode": "remove", "value": ""}])
+    assert ms == [keep]

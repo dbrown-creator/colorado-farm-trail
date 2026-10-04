@@ -52,5 +52,8 @@ def test_collect_is_offline_and_ordered(tmp_path, monkeypatch):
     snapshots.save("colorado_proud", [_m("C")], d)
     monkeypatch.setattr(build.enrichment, "fetch", lambda: [])
     monkeypatch.setattr(build.curated, "fetch", lambda: [_m("Curated")])
+    monkeypatch.setattr(build.farm_fresh, "fetch", lambda: [_m("FarmFresh")])
     names = [m.business_name for m in build.collect(d)]
-    assert names == ["C", "Curated", "U"]                  # priority order; missing ones skipped
+    # priority order (live Farm Fresh data right after the Colorado Proud snapshot);
+    # missing snapshots skipped
+    assert names == ["C", "FarmFresh", "Curated", "U"]

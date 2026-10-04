@@ -1,0 +1,824 @@
+Status,Detail,Column,Raw value,Normalized URL,Business Name
+BROKEN,HTTP 404,Facebook,http://www.facebook.com/Indian-Hills-Farmers-Market/275105069231823,http://www.facebook.com/Indian-Hills-Farmers-Market/275105069231823,Indian Hills Farmer's Market
+BROKEN,HTTP 404,Facebook,http://www.facebook.com/pages/something-from-the-farm-corn-maze-125041194208203,http://www.facebook.com/pages/something-from-the-farm-corn-maze-125041194208203,Something From the Farm
+BROKEN,HTTP 404,Facebook,http://www.facebook.com/pagesgrand-junction-co/lower-valley-pumpkin-patch-and-corn-maze/112542552119168?ref=ts&ajaxpipe=1&__a=6,http://www.facebook.com/pagesgrand-junction-co/lower-valley-pumpkin-patch-and-corn-maze/112542552119168?ref=ts&ajaxpipe=1&__a=6,Lower Valley Pumpkin Patch and Corn Maze
+BROKEN,HTTP 404,Facebook,https://www.facebook.com/pages/Searle-Ranch-Grass-Fed-Beef,https://www.facebook.com/pages/Searle-Ranch-Grass-Fed-Beef,Searle Ranch
+BROKEN,HTTP 404,Facebook,https://www.facebook.com/pagesgrand-junction-co/studts-pumpkin-patch-and-corn-maze/138556982822627?ref=sgm,https://www.facebook.com/pagesgrand-junction-co/studts-pumpkin-patch-and-corn-maze/138556982822627?ref=sgm,Studt's Pumpkin Patch and Corn Maze
+BROKEN,gaierror,Website,http://awrensnest.com/nest/,http://awrensnest.com/nest/,A Wren's Nest Farm
+BROKEN,HTTP 404,Website,http://berthoudlocal.org/farmers-and-fleas/,http://berthoudlocal.org/farmers-and-fleas/,Berthoud Farmers' Market
+BROKEN,HTTP 404,Website,http://coloradofreshmarkets.com/markets/,http://coloradofreshmarkets.com/markets/,Landmark Greenwood Village Fresh Market
+BROKEN,gaierror,Website,http://edwardsfarmersmarket.com/,http://edwardsfarmersmarket.com/,Hoffmann Commercial Real Estate Farmers' Market
+BROKEN,gaierror,Website,http://farmersmarketlouis.com,http://farmersmarketlouis.com,Jax Farmer's Market in Lafayette
+BROKEN,HTTP 404,Website,http://salidacaringsharing.org/the-resource-center/,http://salidacaringsharing.org/the-resource-center/,Caring & Sharing – Sanctuary Soup Kitchen
+BROKEN,HTTP 404,Website,http://springsbargains.com/colorado-springs-farmers-market-schedule/,http://springsbargains.com/colorado-springs-farmers-market-schedule/,Memorial Park Farmers' Market
+BROKEN,gaierror,Website,http://wahatoya.org/,http://wahatoya.org/,La Veta Local Market
+BROKEN,HTTP 404,Website,http://www.10best.com/interests/travel-now/10best-fall-corn-mazes-fun-for-families/,http://www.10best.com/interests/travel-now/10best-fall-corn-mazes-fun-for-families/,Frederika Fall Festival & Corn Maxe
+BROKEN,HTTP 404,Website,http://www.concertsforkids.org,http://www.concertsforkids.org,Tiri's Garden Farmers Market
+BROKEN,HTTP 404,Website,http://www.copperkettleapothecary.com,http://www.copperkettleapothecary.com,Copper Kettle Apothecary
+BROKEN,gaierror,Website,http://www.cultivatehopeco.org,http://www.cultivatehopeco.org,Hope Farms
+BROKEN,HTTP 404,Website,http://www.denverfarmersmarket.com/index.html,http://www.denverfarmersmarket.com/index.html,Metro Denver Farmers' Market-Lakewood
+BROKEN,gaierror,Website,http://www.dhfarms2000.com/,http://www.dhfarms2000.com/,D & H Farms
+BROKEN,HTTP 404,Website,http://www.downtowncs.com/experience-downtown/sunday-market-downtown.html,http://www.downtowncs.com/experience-downtown/sunday-market-downtown.html,Downtown Sunday Market
+BROKEN,HTTP 404,Website,http://www.drakeroadfarmersmarket.com,http://www.drakeroadfarmersmarket.com,Drake Road Farmers Market
+BROKEN,gaierror,Website,http://www.freshstartfamilyfarms.com,http://www.freshstartfamilyfarms.com,Fresh Start Family Farms LLC.
+BROKEN,malformed (whitespace),Website,http://www.fritzlermaze.com  and www.screamacres.net,http://www.fritzlermaze.com  and www.screamacres.net,Fritzler Farms Inc dba Fritzler Corn Maze and Scream Acres
+BROKEN,HTTP 404,Website,http://www.hangar2lowry.com/farmers-market,http://www.hangar2lowry.com/farmers-market,Lowry Farmers' Market
+BROKEN,gaierror,Website,http://www.homesteadfarmsco.com,http://www.homesteadfarmsco.com,Homestead Farms Co.
+BROKEN,gaierror,Website,http://www.LarimerStreetMarket.com,http://www.LarimerStreetMarket.com,Larimer Street Market
+BROKEN,HTTP 404,Website,http://www.lostgreensfarm.com/,http://www.lostgreensfarm.com/,Lost Greens Farm
+BROKEN,gaierror,Website,http://www.lowervalleycornmaze.com/directions.html,http://www.lowervalleycornmaze.com/directions.html,Lower Valley Pumpkin Patch and Corn Maze
+BROKEN,gaierror,Website,http://www.lyonsoutdoormarket.com,http://www.lyonsoutdoormarket.com,Lyons Outdoor Market
+BROKEN,HTTP 404,Website,http://www.naropa.edu/campuslife/communitymarket.cfm,http://www.naropa.edu/campuslife/communitymarket.cfm,The Community Market at Naropa
+BROKEN,HTTP 404,Website,http://www.RootsFromEden.com,http://www.RootsFromEden.com,Roots From Eden CSA Market and Bakery
+BROKEN,gaierror,Website,http://www.spottedhorsebarnyard.com,http://www.spottedhorsebarnyard.com,Spotted Horse Barnyard
+BROKEN,HTTP 404,Website,http://www.sunshinegreensfarm.com,http://www.sunshinegreensfarm.com,Sunshine Greens Farm
+BROKEN,malformed (whitespace),Website,http://www.the maize.com,http://www.the maize.com,Two Springs Ranch/ Harvest Days
+BROKEN,HTTP 404,Website,http://y.ahoo.it/2s86r+td,http://y.ahoo.it/2s86r+td,Simply Natural at Desiderata Ranch
+BROKEN,gaierror,Website,https://dragonflychurros.com,https://dragonflychurros.com,Dragonfly Farm
+BROKEN,HTTP 404,Website,https://gardensweet.com/store/pick-your-own-c53491163,https://gardensweet.com/store/pick-your-own-c53491163,Garden Sweet
+BROKEN,gaierror,Website,https://Gvrfarmersmarket.com,https://Gvrfarmersmarket.com,Green Vally Ranch NE Denver Farmers Market (Presented by Grateful Garden llc)
+BROKEN,gaierror,Website,https://harvestmoonproduce.farm,https://harvestmoonproduce.farm,Harvest Moon Produce LLC
+BROKEN,gaierror,Website,https://originalcastlerockfarmersmarket.com/,https://originalcastlerockfarmersmarket.com/,Castle Rock Farmers Market
+BROKEN,gaierror,Website,https://pioneerfarmsteaders.com,https://pioneerfarmsteaders.com,"Pioneer Farmsteaders, LLC"
+BROKEN,gaierror,Website,https://rogerfreemanlaw.com/freeman-apple-orchard/,https://rogerfreemanlaw.com/freeman-apple-orchard/,Freeman Apple Orchard
+BROKEN,HTTP 404,Website,https://www.alpacanation.com/coppercanyon.asp,https://www.alpacanation.com/coppercanyon.asp,Copper Canyon Suri Ranch
+BROKEN,gaierror,Website,https://www.bouldercreekwine.com,https://www.bouldercreekwine.com,Boulder Creek Winery
+BROKEN,gaierror,Website,https://www.busybeefarm.us,https://www.busybeefarm.us,Busy Bee Farm
+BROKEN,HTTP 404,Website,https://www.collbrancongregationalchurch.org/events_collbran_congregational.html,https://www.collbrancongregationalchurch.org/events_collbran_congregational.html,Plateau Valley Farmers Market
+BROKEN,gaierror,Website,https://www.crookedclove.com,https://www.crookedclove.com,Crooked Clove Farm & Ranch LLC
+BROKEN,gaierror,Website,https://www.dayspringfarm.net,https://www.dayspringfarm.net,Dayspring Farm
+BROKEN,HTTP 404,Website,https://www.denverfarmersmarket.com/index.html,https://www.denverfarmersmarket.com/index.html,Highlands Ranch Farmers' Market
+BROKEN,gaierror,Website,https://www.donomafarms.com,https://www.donomafarms.com,Donoma Farms
+BROKEN,HTTP 404,Website,https://www.farmmarketgj.com/,https://www.farmmarketgj.com/,Farm and Ranch Market
+BROKEN,gaierror,Website,https://www.fivefreedomsdairy,https://www.fivefreedomsdairy,Five Freedoms Dairy
+BROKEN,gaierror,Website,https://www.happyappleorchard.com/,https://www.happyappleorchard.com/,Happy Apple Orchard
+BROKEN,SSLError,Website,https://www.HugsFarm.weebly.com,https://www.HugsFarm.weebly.com,Hugs Farm
+BROKEN,gaierror,Website,https://www.KristinsFarmStand.com,https://www.KristinsFarmStand.com,Kristin's Farm Stand
+BROKEN,gaierror,Website,https://www.lifecyclespasture.com,https://www.lifecyclespasture.com,Life Cycles Pasture
+BROKEN,gaierror,Website,https://www.localharvestfoods.com/,https://www.localharvestfoods.com/,Cherry Creek Valley International Farmers Market
+BROKEN,SSLError,Website,https://www.masonvilleorchard.com,https://www.masonvilleorchard.com,Masonville Orchards
+BROKEN,gaierror,Website,https://www.mortonsorchards.com,https://www.mortonsorchards.com,Morton's Organic Orchards
+BROKEN,HTTP 404,Website,https://www.nocovirtualfarmersmarket.com/,https://www.nocovirtualfarmersmarket.com/,Noco Virtual Farmers Market
+BROKEN,gaierror,Website,https://www.norwoodfarmmarket.org/,https://www.norwoodfarmmarket.org/,Norwood Farm and Craft Market
+BROKEN,HTTP 404,Website,https://www.onthevineatrichmondfarms.com,https://www.onthevineatrichmondfarms.com,On the Vine at Richmond Farms Urban Market
+BROKEN,gaierror,Website,https://www.penroseapples.com/hours-of-operation.php,https://www.penroseapples.com/hours-of-operation.php,Jenkin's Farms and Western Skies Winery
+BROKEN,gaierror,Website,https://www.rovegnosproduce.com/contact.html,https://www.rovegnosproduce.com/contact.html,Rovegno's Produce
+BROKEN,HTTP 404,Website,https://www.royalgorgechamberalliance.org/royal-gorge-farmers-market/faceb,https://www.royalgorgechamberalliance.org/royal-gorge-farmers-market/faceb,Royal Gorge Farmers Market
+SUSPECT,redirects to bluebarrel.farm,Website,http://bluebarrelfarm.com,http://bluebarrelfarm.com,Blue Barrel Farm
+SUSPECT,page says 'domain is for sale',Website,http://edwardscornerfarmersmarket.com/,http://edwardscornerfarmersmarket.com/,Edwards Corner Farmers' Market
+SUSPECT,redirects to expireddomains.com,Website,http://heritagelavender.com/,http://heritagelavender.com/,"Heritage Lavender, LLC"
+SUSPECT,redirects to boltonorchards.co,Website,http://www.boltonorchards.net,http://www.boltonorchards.net,Bolton's Orchards
+SUSPECT,redirects to pedrosfarm.com,Website,http://www.bordenfarms.com,http://www.bordenfarms.com,"Borden Farms, LLC"
+SUSPECT,redirects to safebrowse.io,Website,http://www.highplainsfood.org,http://www.highplainsfood.org,High Plains Food Cooperative
+SUSPECT,redirects to 11jelas777.com,Website,http://www.johnsonsacres.com,http://www.johnsonsacres.com,Johnson's Acres
+SUSPECT,redirects to safebrowse.io,Website,http://www.thegraineryministries.org,http://www.thegraineryministries.org,The Grainery Ministries
+SUSPECT,redirects to thecountywiththebounty.com,Website,https://CountyWithTheBounty.com,https://CountyWithTheBounty.com,The County With The Bounty & Wild West Excursions
+SUSPECT,redirects to thefarmcollaborative.org,Website,https://farmco.org,https://farmco.org,The Farm Collaborative
+SUSPECT,redirects to rockymountaingarlic.net,Website,https://Rockymountaingarlic.com,https://Rockymountaingarlic.com,Rocky Mountain Garlic
+SUSPECT,redirects to beefamilyfarm.com,Website,https://www.beefamilyfarm.org,https://www.beefamilyfarm.org,Bee Family Centennial Farm Museum
+SUSPECT,redirects to irmavaleriogalerias.com,Website,https://www.eastdenverfoodhub.com,https://www.eastdenverfoodhub.com,East Denver Food Hub
+SUSPECT,redirects to provechocollective.org,Website,https://www.endhungerco.org/partner-stories/rekaivery-food-hub-launches-kickstarter,https://www.endhungerco.org/partner-stories/rekaivery-food-hub-launches-kickstarter,Rekaivery Food Hub
+SUSPECT,redirects to fortcollinsrescuemission.org,Website,https://www.harvestfarm.net,https://www.harvestfarm.net,Harvest Farm
+SUSPECT,redirects to townofmountainvillage.com,Website,https://www.marketontheplaza.com,https://www.marketontheplaza.com,Market on the Plaza
+SUSPECT,redirects to riverfortranch.com,Website,https://www.platteriverfort.com,https://www.platteriverfort.com,Platte River Fort
+SUSPECT,redirects to wildcraftmarkets.com,Website,https://www.winterfarmersmarket.com/,https://www.winterfarmersmarket.com/,Fort Collins Winter Farmers Market
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/aspenlodge,http://www.facebook.com/aspenlodge,Dao House
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/aspenlodgeresortandspa,http://www.facebook.com/aspenlodgeresortandspa,Aspen Lodge Resort & Spa
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/ColoradoGatorFarm,http://www.facebook.com/ColoradoGatorFarm,Colorado Gators
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/denverfarmersmarket,http://www.facebook.com/denverfarmersmarket,Metro Denver Farmers' Market at Wheat Ridge
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/desiderataranch,http://www.facebook.com/desiderataranch,Simply Natural at Desiderata Ranch
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/fourseasonsfam,http://www.facebook.com/fourseasonsfam,Four Seasons Farmers and Artisans Market
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/frederikafallfestival,http://www.facebook.com/frederikafallfestival,Frederika Fall Festival & Corn Maxe
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/pages/Drake-Road-Farmers-Market/86853613720,http://www.facebook.com/pages/Drake-Road-Farmers-Market/86853613720,Drake Road Farmers Market
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/pages/hoot-n-howl-farm-llc/195757020445853,http://www.facebook.com/pages/hoot-n-howl-farm-llc/195757020445853,Hoot 'n' Howl Farm LLC
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/pages/Jax-Farmers-Market-in-Lafayette/128567847324639,http://www.facebook.com/pages/Jax-Farmers-Market-in-Lafayette/128567847324639,Jax Farmer's Market in Lafayette
+UNCERTAIN,HTTP 400,Facebook,http://www.facebook.com/zippityzoobarnyard,http://www.facebook.com/zippityzoobarnyard,Zippity Zoo Barnyard
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/arvadafarmersmarket,https://facebook.com/arvadafarmersmarket,Arvada Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/backyardmarketinbf,https://facebook.com/backyardmarketinbf,The Backyard Market in Black Forest
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/badgercreekranch,https://facebook.com/badgercreekranch,Badger Creek Ranch
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/BergHarvest,https://facebook.com/BergHarvest,Berg Harvest LLC dba Berg Harvest Mercantile
+UNCERTAIN,HTTP 400,Facebook,https://Facebook.com/BoulderValleyHoney,https://Facebook.com/BoulderValleyHoney,Boulder Valley Honey
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/ChristensenRanchBeef,https://facebook.com/ChristensenRanchBeef,Christensen Ranch
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/countryroadvinesandwines,https://facebook.com/countryroadvinesandwines,Country Road Vines and Wines
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/earthmountain,https://facebook.com/earthmountain,Earth Mountain Education Farm
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/eddylinebrewery,https://facebook.com/eddylinebrewery,Eddyline Restaurant at Southmain
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/elafamilyfarms,https://facebook.com/elafamilyfarms,Ela Family Farms
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/fortcollinsmarkets,https://facebook.com/fortcollinsmarkets,Fort Collins Winter Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/growgirlorganics,https://facebook.com/growgirlorganics,Grow Girl Organics
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/growinggardensboulder,https://facebook.com/growinggardensboulder,Growing Gardens
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/growinggardensboulder,https://facebook.com/growinggardensboulder,Growing Gardens
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/harvestmoonproduce,https://facebook.com/harvestmoonproduce,Harvest Moon Produce LLC
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/jamberacres,https://facebook.com/jamberacres,Jamber Acres
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/newrootsfarmllc,https://facebook.com/newrootsfarmllc,New Roots Farm LLC
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/Peachforkfruitandwine,https://facebook.com/Peachforkfruitandwine,The Peachfork
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/sambritocreekfarm,https://facebook.com/sambritocreekfarm,Sambrito Creek Farm
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/UnitedChurchofChrist,https://facebook.com/UnitedChurchofChrist,Plateau Valley Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://Facebook.com/WherePuebloChileisKing,https://Facebook.com/WherePuebloChileisKing,Milberger Farms at Peppes
+UNCERTAIN,HTTP 400,Facebook,https://facebook.com/whitewaterhill,https://facebook.com/whitewaterhill,Whitewater Hill Vineyards
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/#!/pages/High-Altitude-Rhubarb-LLC/161735683855277,https://www.facebook.com/#!/pages/High-Altitude-Rhubarb-LLC/161735683855277,High Altitude Rhubarb--Organic Farm & Nursery
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/Abbeywinery,https://www.facebook.com/Abbeywinery,The Winery at Holy Cross Abbey
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/abundantlifeorganicfarmsco,https://www.facebook.com/abundantlifeorganicfarmsco,Abundant Life Organic Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/adobehouse.farm,https://www.facebook.com/adobehouse.farm,Adobe House Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/AgAlliance/,https://www.facebook.com/AgAlliance/,Yampa Valley Foods
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/alamosafarmersmarket,https://www.facebook.com/alamosafarmersmarket,Alamosa Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/AndersonfarmsCO,https://www.facebook.com/AndersonfarmsCO,Anderson Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/antelopecreekranchwagyu,https://www.facebook.com/antelopecreekranchwagyu,Antelope Creek Ranch Wagyu
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/AspenGroveFarmersMarket/,https://www.facebook.com/AspenGroveFarmersMarket/,Aspen Grove Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/AspenMoonFarm/,https://www.facebook.com/AspenMoonFarm/,Aspen Moon Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/AspenSaturdayMarket/,https://www.facebook.com/AspenSaturdayMarket/,Aspen Saturday Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/AWrensNestFarm,https://www.facebook.com/AWrensNestFarm,A Wren's Nest Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/backyardfarmshop,https://www.facebook.com/backyardfarmshop,Black Forest Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/BackyardMarketinBF/,https://www.facebook.com/BackyardMarketinBF/,Backyard Market in Black Forest - Holiday
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/BackyardMarketinBF/,https://www.facebook.com/BackyardMarketinBF/,Backyard Market in Black Forest - Winter
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/BasaltSundayMarket/,https://www.facebook.com/BasaltSundayMarket/,Basalt Sunday Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/baseggiofamilypumpkinpatchandcornmaze/,https://www.facebook.com/baseggiofamilypumpkinpatchandcornmaze/,Baseggio Pumpkin Patch and Corn Maze
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/beefamilyfarm,https://www.facebook.com/beefamilyfarm,Bee Family Centennial Farm Museum
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/Bennett-Community-Market-1592527727628410/,https://www.facebook.com/Bennett-Community-Market-1592527727628410/,Bennett Community Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/berry-patch-farms-191470969226,https://www.facebook.com/berry-patch-farms-191470969226,"Berry Patch Farms, LLC"
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/billygoathopfarm,https://www.facebook.com/billygoathopfarm,Billy Goat Hop Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/blackmountainbison,https://www.facebook.com/blackmountainbison,Black Mountain Bison
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/BlueTraneHeritageFarm/,https://www.facebook.com/BlueTraneHeritageFarm/,BlueTrane Heritage Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/BoulderFarmersMarket,https://www.facebook.com/BoulderFarmersMarket,Boulder Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/Boulters5280UrbanMarket/,https://www.facebook.com/Boulters5280UrbanMarket/,Boulter's 5280 Urban Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/castlerockfarmersmarket,https://www.facebook.com/castlerockfarmersmarket,Castle Rock Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/CedaredgeMainStreetMarket/,https://www.facebook.com/CedaredgeMainStreetMarket/,Cedaredge Main Street Farmer's Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/ChinampasCO,https://www.facebook.com/ChinampasCO,Chinampas
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/churrosheeparriolasunshinefarm,https://www.facebook.com/churrosheeparriolasunshinefarm,Arriola Sunshine Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/cityofedgewatermarketandmusic/,https://www.facebook.com/cityofedgewatermarketandmusic/,City of Edgewater Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/CityofLovelandFarmersMarket/,https://www.facebook.com/CityofLovelandFarmersMarket/,Loveland Farmers Market at Fairgrounds Park
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/cityparkfarmersmarket/,https://www.facebook.com/cityparkfarmersmarket/,City Park Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/colonorchards,https://www.facebook.com/colonorchards,Colon Orchards
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/ColoradoFreshMarkets,https://www.facebook.com/ColoradoFreshMarkets,Cherry Creek Fresh Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/ColoradoFreshMarkets/,https://www.facebook.com/ColoradoFreshMarkets/,Landmark Greenwood Village Fresh Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/ColoradoLavender,https://www.facebook.com/ColoradoLavender,Lavender Association of Colorado
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/coloradoprimebeef/,https://www.facebook.com/coloradoprimebeef/,"Colorado Prime Beef, LLC"
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/conejoscountymarket,https://www.facebook.com/conejoscountymarket,Conejos County Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/copperkettleapothecary/,https://www.facebook.com/copperkettleapothecary/,Copper Kettle Apothecary
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/cortezcreamery,https://www.facebook.com/cortezcreamery,Cortez Creamery
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/CottonwoodSpiritRanch/,https://www.facebook.com/CottonwoodSpiritRanch/,Cottonwood Spirit Ranch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/creedefarmersmarket/,https://www.facebook.com/creedefarmersmarket/,"Creede Farmers, Local Artisan and Antique Market"
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/crookedclove,https://www.facebook.com/crookedclove,Crooked Clove Farm & Ranch LLC
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/cshmeats,https://www.facebook.com/cshmeats,Hall Family Farmstand
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/DenverCeliacs,https://www.facebook.com/DenverCeliacs,National Celiac Association of Denver
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/DenverCeliacs,https://www.facebook.com/DenverCeliacs,Gluten Free Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/denverfarmersmarket,https://www.facebook.com/denverfarmersmarket,Lakewood Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/denverfarmersmarket,https://www.facebook.com/denverfarmersmarket,Highlands Ranch Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/denverfarmersmarket,https://www.facebook.com/denverfarmersmarket,Southwest Plaza Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/denverfarmersmarket,https://www.facebook.com/denverfarmersmarket,Sterling Ranch Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/DenverHighlandFarmersMarket/,https://www.facebook.com/DenverHighlandFarmersMarket/,Highland Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/denverrescue,https://www.facebook.com/denverrescue,Harvest Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/devries-fruit-veggies-2015213168694491/,https://www.facebook.com/devries-fruit-veggies-2015213168694491/,DeVries Fruit & Veggie Roadside Stand / The Friend-ly Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/devriesfruitandveggies,https://www.facebook.com/devriesfruitandveggies,Covered Bridge Ranch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/dillonfarmersmarket,https://www.facebook.com/dillonfarmersmarket,Dillon Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/DMFM2017/,https://www.facebook.com/DMFM2017/,Downtown Mead Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/DonomaFarmsLlc,https://www.facebook.com/DonomaFarmsLlc,Donoma Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/downtowngj,https://www.facebook.com/downtowngj,Downtown Farmers' Market Festival
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/downtowngj,https://www.facebook.com/downtowngj,Downtown Grand Junction Market on Main
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/DowntownGlenwoodSprings,https://www.facebook.com/DowntownGlenwoodSprings,Glenwood Springs Downtown Market on 7th
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/durangofarmersmarket,https://www.facebook.com/durangofarmersmarket,Durango Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/eaglefarmersmarketandartshow,https://www.facebook.com/eaglefarmersmarketandartshow,Eagle Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/eastdenverfoodhub/,https://www.facebook.com/eastdenverfoodhub/,East Denver Food Hub
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/edwardsfarmersmarket/,https://www.facebook.com/edwardsfarmersmarket/,Edwards Corner Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/eriesfarmersmarket/,https://www.facebook.com/eriesfarmersmarket/,Erie Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/EstesValleyFarmersMarket/,https://www.facebook.com/EstesValleyFarmersMarket/,Estes Park Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/EstesValleyFarmersMarket/,https://www.facebook.com/EstesValleyFarmersMarket/,Estes Valley Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/events/4969-firestone-blvd-firestone-co-80504-5212-united-states/6th-annual-fall-festival/2337624646346329/,https://www.facebook.com/events/4969-firestone-blvd-firestone-co-80504-5212-united-states/6th-annual-fall-festival/2337624646346329/,Firestone Fall Festival
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/everettranchbeef/,https://www.facebook.com/everettranchbeef/,Everett Ranch Beef
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/everittfarms,https://www.facebook.com/everittfarms,Everitt Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/farmandartmarket,https://www.facebook.com/farmandartmarket,Colorado Farm and Art Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/farmersmarketevergreen/,https://www.facebook.com/farmersmarketevergreen/,Evergreen Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/FarmRunners/,https://www.facebook.com/FarmRunners/,Farm Runners LLC
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/FeedDenver,https://www.facebook.com/FeedDenver,Feed Denver: Urban Farms & Markets
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/first-fruits-organic-farms-449502835075,https://www.facebook.com/first-fruits-organic-farms-449502835075,First Fruits Organic Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/flowerstreetfarrm,https://www.facebook.com/flowerstreetfarrm,Flower Street Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/FoodshedAllianceCO/,https://www.facebook.com/FoodshedAllianceCO/,Buena Vista Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/fortcollinsfarmersmarket,https://www.facebook.com/fortcollinsfarmersmarket,Fort Collins Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/fruitbasketgj,https://www.facebook.com/fruitbasketgj,Fruit Basket Orchards
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/gaiasfarmandgardens,https://www.facebook.com/gaiasfarmandgardens,Gaia's Farm & Gardens
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/gardensweet,https://www.facebook.com/gardensweet,Garden Sweet
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/GoFruita/,https://www.facebook.com/GoFruita/,Fruita Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/goldenfarmersmarket/,https://www.facebook.com/goldenfarmersmarket/,Golden Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/goldentrianglefm/,https://www.facebook.com/goldentrianglefm/,Golden Triangle Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/granderivervineyards,https://www.facebook.com/granderivervineyards,Grande River Vineyards
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/GrandJunctionFarmandRanchMarket/,https://www.facebook.com/GrandJunctionFarmandRanchMarket/,Farm and Ranch Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/GrantFarmsCSA,https://www.facebook.com/GrantFarmsCSA,Grant Farms CSA
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/grantfarmsfreshmarket,https://www.facebook.com/grantfarmsfreshmarket,Grant Farms Farmstand
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/gratefulgardenllc,https://www.facebook.com/gratefulgardenllc,Mershops Market Days at Town Center Aurora (Presented by Grateful Garden llc)
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/gratefulgardenllc,https://www.facebook.com/gratefulgardenllc,Painted Prairie Open Air Markets (Presented by Grateful Garden llc)
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/greeleyfarmersmarket/,https://www.facebook.com/greeleyfarmersmarket/,Greeley Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/greeleyfarmersmarket/,https://www.facebook.com/greeleyfarmersmarket/,Greeley Winter Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/groups/246038845197062,https://www.facebook.com/groups/246038845197062,Delta Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/groups/265957719169/,https://www.facebook.com/groups/265957719169/,Cortez Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/groups/499722194053286/,https://www.facebook.com/groups/499722194053286/,Noco Virtual Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/guidestonecolorado/,https://www.facebook.com/guidestonecolorado/,Guidestone Colorado
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/GVRFarmersMarket,https://www.facebook.com/GVRFarmersMarket,Green Vally Ranch NE Denver Farmers Market (Presented by Grateful Garden llc)
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/hanagan.farms,https://www.facebook.com/hanagan.farms,Hanagan Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/harvestdays/,https://www.facebook.com/harvestdays/,Two Springs Ranch/ Harvest Days
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/hazeldellmushrooms,https://www.facebook.com/hazeldellmushrooms,Hazel Dell Mushrooms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/hergenrederfarms/,https://www.facebook.com/hergenrederfarms/,Hergenreder Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/HeritageLavender?ref=hl,https://www.facebook.com/HeritageLavender?ref=hl,"Heritage Lavender, LLC"
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/HoneyRockLanding/,https://www.facebook.com/HoneyRockLanding/,Honey Rock Landing
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/HutchinsonRanch/,https://www.facebook.com/HutchinsonRanch/,Hutchinson Ranch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/idahospringschamber/,https://www.facebook.com/idahospringschamber/,Idaho Springs Chamber Of Commerce Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/jackalopeacresfarm,https://www.facebook.com/jackalopeacresfarm,Jack-A-Lope Acres
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/jenkins-farms-western-skies-winery-144841218865336/,https://www.facebook.com/jenkins-farms-western-skies-winery-144841218865336/,Jenkin's Farms and Western Skies Winery
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/jonesfarmpumpkins/,https://www.facebook.com/jonesfarmpumpkins/,Jones Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/JonesFarmsOrganics,https://www.facebook.com/JonesFarmsOrganics,Jones Farms Organics
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/just-what-grows-gardens-owner-stacey-poland-181178215266172,https://www.facebook.com/just-what-grows-gardens-owner-stacey-poland-181178215266172,Just What Grows Gardens
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/KristinsFarmStand,https://www.facebook.com/KristinsFarmStand,Kristin's Farm Stand
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/larimercountyfm,https://www.facebook.com/larimercountyfm,Larimer County Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/laughingbuckfarm,https://www.facebook.com/laughingbuckfarm,Laughing Buck Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/lbfarmcoop,https://www.facebook.com/lbfarmcoop,Local Brands Farm and Ranch Markets Cooperative
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/ledinghamlivestock,https://www.facebook.com/ledinghamlivestock,Ledingham Livestock
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/local-raw-honey-wolfnrabbit-honey-104397320990019/,https://www.facebook.com/local-raw-honey-wolfnrabbit-honey-104397320990019/,WolfNRabbit Honey
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/LoCoFoodDistribution,https://www.facebook.com/LoCoFoodDistribution,LoCo Food Distribution
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/LongmontFarmersMarket,https://www.facebook.com/LongmontFarmersMarket,Longmont Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/LouisvilleFarmersMarket/,https://www.facebook.com/LouisvilleFarmersMarket/,Louisville Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/LovelandWestFarmersMarket/,https://www.facebook.com/LovelandWestFarmersMarket/,Loveland West Farmers Market at JAX
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/Lulusfarm/,https://www.facebook.com/Lulusfarm/,Lulu's Farm Roadside Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/malaragardens,https://www.facebook.com/malaragardens,Malara Gardens
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/MancosValleyFarmersMarket,https://www.facebook.com/MancosValleyFarmersMarket,Mancos Valley Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/MarketinFlorence/,https://www.facebook.com/MarketinFlorence/,Florence Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/mayfarms,https://www.facebook.com/mayfarms,May Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/mcclures.orchard,https://www.facebook.com/mcclures.orchard,McClure Orchards - ORGANIC
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/meadowsedgefarmbv/,https://www.facebook.com/meadowsedgefarmbv/,Meadows Edge Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/milehighfarms,https://www.facebook.com/milehighfarms,Mile High Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/minturnmarket/,https://www.facebook.com/minturnmarket/,Minturn Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/monroeorganicfarm/,https://www.facebook.com/monroeorganicfarm/,"Monroe Family Farm, LLC"
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/MonteVistaFarmersMarket,https://www.facebook.com/MonteVistaFarmersMarket,Monte Vista Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/MontroseFarmersMarket,https://www.facebook.com/MontroseFarmersMarket,Montrose Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/monumenthillfarmersmarket/,https://www.facebook.com/monumenthillfarmersmarket/,Monument Hill Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/moonfarmpumpkinpatch/,https://www.facebook.com/moonfarmpumpkinpatch/,Moon Farm Pumpkin Patch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/mountaingrownherbaltea,https://www.facebook.com/mountaingrownherbaltea,"Elevation Mountain Grown Herbal Tea, LLC"
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/muellerslittlefarm/,https://www.facebook.com/muellerslittlefarm/,Mueller's Little Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/Mushroom-Love-Co-334280667437315/,https://www.facebook.com/Mushroom-Love-Co-334280667437315/,Mushroom Love Co
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/MussoFarms/,https://www.facebook.com/MussoFarms/,Musso Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/MutualDreamFarm,https://www.facebook.com/MutualDreamFarm,Mutual Dream Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/MVmeatsFC,https://www.facebook.com/MVmeatsFC,Mountain View Meats
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/myredcows/,https://www.facebook.com/myredcows/,Lewis Lazy L Ranch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/NederlandFarmersMarket,https://www.facebook.com/NederlandFarmersMarket,Nederland Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/nonprofitfarm/,https://www.facebook.com/nonprofitfarm/,Colorado Farm to Table
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/Norwood-Farm-Craft-Market-349308959339/,https://www.facebook.com/Norwood-Farm-Craft-Market-349308959339/,Norwood Farm and Craft Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/OldColoradoCityFarmersMarket/,https://www.facebook.com/OldColoradoCityFarmersMarket/,Old Colorado City Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/OldeTowneVillageMarket,https://www.facebook.com/OldeTowneVillageMarket,Olde Towne Village Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/onthevinefarm,https://www.facebook.com/onthevinefarm,On the Vine at Richmond Farms Urban Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/orchardcreekranchco/,https://www.facebook.com/orchardcreekranchco/,Orchard Creek Ranch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/orchardvalleyfarms,https://www.facebook.com/orchardvalleyfarms,Orchard Valley Farms and Black Ridge Winery
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/OrchardValleyFarms/,https://www.facebook.com/OrchardValleyFarms/,Orchard Valley Farms & Market.   Black Bridge Winery
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/oswaldgrassfedbeef/,https://www.facebook.com/oswaldgrassfedbeef/,Oswald Grassfed Beef
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/p/La-Veta-Farmers-Market-100081771473675/,https://www.facebook.com/p/La-Veta-Farmers-Market-100081771473675/,La Veta Local Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/p/Lafayette-Farmers-Market-61571202432615/,https://www.facebook.com/p/Lafayette-Farmers-Market-61571202432615/,Lafayette Colorado Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/p/Loveland-East-Farmers-Market-at-Jax-100083436094676/,https://www.facebook.com/p/Loveland-East-Farmers-Market-at-Jax-100083436094676/,Loveland East Farmers Market at Jax
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/p/Lusk-Farms-Farmers-Market-100057364211893/,https://www.facebook.com/p/Lusk-Farms-Farmers-Market-100057364211893/,Lusk Farms Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/63rd-Street-Farm/335289626511934,https://www.facebook.com/pages/63rd-Street-Farm/335289626511934,63rd St. Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Arvada-Five-Parks-Farmers-Market/469569033116556,https://www.facebook.com/pages/Arvada-Five-Parks-Farmers-Market/469569033116556,Arvada Five Parks Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Boltons-Orchards-and-Farm-Market/342817158274,https://www.facebook.com/pages/Boltons-Orchards-and-Farm-Market/342817158274,Bolton's Orchards
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Broomfield-Farmers-Market-at-Holy-Comforter/205491972824879,https://www.facebook.com/pages/Broomfield-Farmers-Market-at-Holy-Comforter/205491972824879,Broomfield Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Cotopaxi-Farmers-Market/1384847291754517?fref=ts,https://www.facebook.com/pages/Cotopaxi-Farmers-Market/1384847291754517?fref=ts,Cotopaxi Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Cure-Organic-Farm/234985673055,https://www.facebook.com/pages/Cure-Organic-Farm/234985673055,Cure Organic Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/D-H-Farms/157754464262571,https://www.facebook.com/pages/D-H-Farms/157754464262571,D & H Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Denver-Urban-Gardens/449799590530,https://www.facebook.com/pages/Denver-Urban-Gardens/449799590530,Denver Urban Gardens  DeLaney Community Farm (Aurora)
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Desert-Weyr-LLC/56496179294,https://www.facebook.com/pages/Desert-Weyr-LLC/56496179294,"Desert Weyr, LLC"
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Fresh-Start-Family-Farms/199168826774078?ref=hl,https://www.facebook.com/pages/Fresh-Start-Family-Farms/199168826774078?ref=hl,Fresh Start Family Farms LLC.
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/High-Plains-Food-Co-op/134612536617378,https://www.facebook.com/pages/High-Plains-Food-Co-op/134612536617378,High Plains Food Cooperative
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Life-Cycles-Pasture/400632466741298?ref=bookmarks,https://www.facebook.com/pages/Life-Cycles-Pasture/400632466741298?ref=bookmarks,Life Cycles Pasture
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/local-harvest-foods/321786756591?ref=ts#!/pages/local-harvest-foods/32,https://www.facebook.com/pages/local-harvest-foods/321786756591?ref=ts#!/pages/local-harvest-foods/32,Cherry Creek Valley International Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Southlands-Farmers-Market/285277572341,https://www.facebook.com/pages/Southlands-Farmers-Market/285277572341,Southlands Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/The-Bartels-Pumpkin-Patch/137755902661,https://www.facebook.com/pages/The-Bartels-Pumpkin-Patch/137755902661,Bartels Land & Livestock
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pages/Uncle-Johnnys-U-Pick-Farm/152162904866587,https://www.facebook.com/pages/Uncle-Johnnys-U-Pick-Farm/152162904866587,Uncle Johnnys UPick Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PagosaFarmersMarket/,https://www.facebook.com/PagosaFarmersMarket/,Pagosa Springs Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PagosaFarmersMarket/,https://www.facebook.com/PagosaFarmersMarket/,Pagosa Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PalisadeFarmersMarket,https://www.facebook.com/PalisadeFarmersMarket,Palisade Sunday Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PalisadePeachShackWesternSlope/,https://www.facebook.com/PalisadePeachShackWesternSlope/,Palisade Peach Shack
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PalomboMarket/,https://www.facebook.com/PalomboMarket/,Palombo Farms Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/parkerfarmersmarket/,https://www.facebook.com/parkerfarmersmarket/,Parker Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/parkerfarmersmarket/,https://www.facebook.com/parkerfarmersmarket/,Williams Family Markets
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/people/Rocky-Mountain-Pumpkin-Ranch/100068724774710/#,https://www.facebook.com/people/Rocky-Mountain-Pumpkin-Ranch/100068724774710/#,Rocky Mountain Pumpkin Ranch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PfzFarms,https://www.facebook.com/PfzFarms,Pfaltzgraff Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pioneerfarmsteaders,https://www.facebook.com/pioneerfarmsteaders,"Pioneer Farmsteaders, LLC"
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/ploughshares-community-farm-545815258804057/,https://www.facebook.com/ploughshares-community-farm-545815258804057/,Plowshares Community Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PonderosaPlains,https://www.facebook.com/PonderosaPlains,Ponderosa Plains Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PotatoesTatersAndSpuds,https://www.facebook.com/PotatoesTatersAndSpuds,US Potato Board
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/profile.php?id=100057396522608,https://www.facebook.com/profile.php?id=100057396522608,Gunnison Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/profile.php?id=100069402337060,https://www.facebook.com/profile.php?id=100069402337060,Pantaleo Farms The Great Pumpkin Patch by Moonlight
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/profile.php?id=100077076291644,https://www.facebook.com/profile.php?id=100077076291644,Farmers' Market at Highlands Square
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/profile.php?id=61558386928695,https://www.facebook.com/profile.php?id=61558386928695,McWiggly Worm Farm LLC
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/profile.php?id=61563573157184,https://www.facebook.com/profile.php?id=61563573157184,Mountain Market & Supply
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/profile.php?id=61574759233647,https://www.facebook.com/profile.php?id=61574759233647,Downtown Sunday Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/profile.php?id=61574977833612,https://www.facebook.com/profile.php?id=61574977833612,Harvey Park Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/projectworthmore,https://www.facebook.com/projectworthmore,DeLaney Community Farm - by Project Worthmore
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/PuebloFarmerMarket,https://www.facebook.com/PuebloFarmerMarket,Pueblo Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pueblofarmermarket,https://www.facebook.com/pueblofarmermarket,Pueblo Farmers Market Eastside Pop-ups
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/pumpkin-pickin-paradise-544731495553197,https://www.facebook.com/pumpkin-pickin-paradise-544731495553197,Pumpkin Pickin' Paradise
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/raisinrye/,https://www.facebook.com/raisinrye/,Raisin' Rye
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/RidgwayFarmersMarket,https://www.facebook.com/RidgwayFarmersMarket,Ridgway Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/riflefarmersmarket?mibextid=LQQJ4d,https://www.facebook.com/riflefarmersmarket?mibextid=LQQJ4d,Rifle Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/riograndefarmpark/,https://www.facebook.com/riograndefarmpark/,Mercadillo en el Rio
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/RioGrandeOrganicGrowersCoop,https://www.facebook.com/RioGrandeOrganicGrowersCoop,Rio Grande Organic Growers COOP
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/RockyMountainGarlic,https://www.facebook.com/RockyMountainGarlic,Rocky Mountain Garlic
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/rovegnos-produce-349696805054143,https://www.facebook.com/rovegnos-produce-349696805054143,Rovegno's Produce
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/royalgorgefarmersmarket,https://www.facebook.com/royalgorgefarmersmarket,Royal Gorge Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/royalgorgefarmersmarket,https://www.facebook.com/royalgorgefarmersmarket,Royal Gorge Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/saltmeatmarket,https://www.facebook.com/saltmeatmarket,SALT Craft Meat Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/SandysWayCSA,https://www.facebook.com/SandysWayCSA,Sandy's Way Microfarm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/saturdaymarketcrestone,https://www.facebook.com/saturdaymarketcrestone,Crestone Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/scofieldfruit,https://www.facebook.com/scofieldfruit,Scofield Fruits LLC
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/Soilsangredecristo/,https://www.facebook.com/Soilsangredecristo/,SOIL Sangre de Cristo
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/SouthForkCOFarmersMarket/,https://www.facebook.com/SouthForkCOFarmersMarket/,South Fork Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/SouthPearlStreet,https://www.facebook.com/SouthPearlStreet,Old South Pearl Street Association - Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/SouthUniversityFridayFarmersMarket/,https://www.facebook.com/SouthUniversityFridayFarmersMarket/,South University Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/springsfm,https://www.facebook.com/springsfm,Briargate Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/sproutcityfarms,https://www.facebook.com/sproutcityfarms,Sprout City Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/stormcellarwine,https://www.facebook.com/stormcellarwine,The Storm Cellar
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/SunflowerFarmLongmont,https://www.facebook.com/SunflowerFarmLongmont,Sunflower Farm Acres
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/TagawaGardens,https://www.facebook.com/TagawaGardens,Tagawa Gardens
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/TalonWines,https://www.facebook.com/TalonWines,Talon Wines
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/the-bartels-pumpkin-patch-137755902661/,https://www.facebook.com/the-bartels-pumpkin-patch-137755902661/,Bartels Land and Livestock; U-pick and Pumpkin Patch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/theblockfortmorgan/,https://www.facebook.com/theblockfortmorgan/,Fort Morgan Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/TheFleischerFamilyFarm,https://www.facebook.com/TheFleischerFamilyFarm,Fleischer Family Farm
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/thepatchinelizabeth/,https://www.facebook.com/thepatchinelizabeth/,The Patch in Elizabeth
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/thetelluridefarmersmarket/,https://www.facebook.com/thetelluridefarmersmarket/,Telluride Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/third-street-apples-323916597777060/,https://www.facebook.com/third-street-apples-323916597777060/,Third Street Apples
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/ThreeSistersFarm7R/#,https://www.facebook.com/ThreeSistersFarm7R/#,Three Sisters Farm & Dairy
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/tigges.farm,https://www.facebook.com/tigges.farm,Tigges Farm Produce and Pumpkin Patch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/TownofFrederick,https://www.facebook.com/TownofFrederick,Frederick Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/townofmountainvillage,https://www.facebook.com/townofmountainvillage,Market on the Plaza
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/TrinidadFarmersMktColorado,https://www.facebook.com/TrinidadFarmersMktColorado,Trinidad Community Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/TuffsRanch,https://www.facebook.com/TuffsRanch,Tuff's Ranch
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/unionstationfarmersmarket/,https://www.facebook.com/unionstationfarmersmarket/,Union Station Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/VailFarmersMarket,https://www.facebook.com/VailFarmersMarket,Vail Farmers' Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/vineabidingfarms,https://www.facebook.com/vineabidingfarms,Vine Abiding Farms
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/VisitGranbyCO/,https://www.facebook.com/VisitGranbyCO/,Granby Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/wadeacres,https://www.facebook.com/wadeacres,Wade Acres
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/walsenburgfarmersmarket/,https://www.facebook.com/walsenburgfarmersmarket/,Walsenburg Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/wellingtoncofarmersmarket,https://www.facebook.com/wellingtoncofarmersmarket,Wellington Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/WestcliffeFarmersMarket,https://www.facebook.com/WestcliffeFarmersMarket,Westcliffe Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/wpfarmersmarket,https://www.facebook.com/wpfarmersmarket,Woodland Park Farmers Market
+UNCERTAIN,HTTP 400,Facebook,https://www.facebook.com/yayafarmorchard/,https://www.facebook.com/yayafarmorchard/,YA YA Farm & Orchard
+UNCERTAIN,HTTP 502,Website,http://www.63rdstfarm.com/,http://www.63rdstfarm.com/,63rd St. Farm
+UNCERTAIN,HTTP 409,Website,http://www.MirafloraFarm.com,http://www.MirafloraFarm.com,Miraflora Farm
+UNCERTAIN,HTTP 403,Website,http://www.wellingtoncofarmersmarket.org/,http://www.wellingtoncofarmersmarket.org/,Wellington Farmers Market
+UNCERTAIN,timeout,Website,https://boulters5280urbanmarket.com/,https://boulters5280urbanmarket.com/,Boulter's 5280 Urban Market
+UNCERTAIN,TimeoutError,Website,https://Hansenfamilybarnyard.com,https://Hansenfamilybarnyard.com,Hansen Family Barnyard
+UNCERTAIN,HTTP 403,Website,https://linktr.ee/inti.chacra.farms?utm_source=linktree_profile_share&ltsid=a31e06f5-0479-4fe4-acf7-0fc9b0aa6470,https://linktr.ee/inti.chacra.farms?utm_source=linktree_profile_share&ltsid=a31e06f5-0479-4fe4-acf7-0fc9b0aa6470,Inti Farms
+UNCERTAIN,HTTP 403,Website,https://mayberryfarm.eatfromfarms.com/,https://mayberryfarm.eatfromfarms.com/,Mayberry Farm
+UNCERTAIN,HTTP 308,Website,https://pinterest.com/mountaingoatlodge,https://pinterest.com/mountaingoatlodge,Gina Marcell
+UNCERTAIN,HTTP 403,Website,https://tagawagardens.com/,https://tagawagardens.com/,Tagawa Gardens
+UNCERTAIN,HTTP 403,Website,https://www.edgewaterco.com/,https://www.edgewaterco.com/,City of Edgewater Farmers Market
+UNCERTAIN,HTTP 400,Website,https://www.facebook.com/MonteVistaFarmersMarket,https://www.facebook.com/MonteVistaFarmersMarket,Monte Vista Farmers Market
+UNCERTAIN,HTTP 400,Website,https://www.facebook.com/saturdaymarketcrestone,https://www.facebook.com/saturdaymarketcrestone,Crestone Farmers Market
+UNCERTAIN,HTTP 403,Website,https://www.larimer.gov/extension/larimer-county-farmers-market,https://www.larimer.gov/extension/larimer-county-farmers-market,Larimer County Farmers' Market
+UNCERTAIN,HTTP 403,Website,https://www.lovgov.org/services/parks-recreation/events/farmers-market,https://www.lovgov.org/services/parks-recreation/events/farmers-market,Loveland Farmers Market at Fairgrounds Park
+UNCERTAIN,HTTP 403,Website,https://www.minturn.org,https://www.minturn.org,Minturn Market
+UNCERTAIN,TimeoutError,Website,https://www.stapletondenver.com/whats-happening/stapleton-farmers-market-every-sunday-36043,https://www.stapletondenver.com/whats-happening/stapleton-farmers-market-every-sunday-36043,Northfield Farmers Market
+UNCERTAIN,HTTP 403,Website,https://www.tagawagardens.com/,https://www.tagawagardens.com/,The Saturday Market at Tagawa Gardens
+UNCERTAIN,HTTP 403,Website,https://www.townofdillon.com/events/dillon-farmers-market,https://www.townofdillon.com/events/dillon-farmers-market,Dillon Farmers Market
+UNCERTAIN,HTTP 403,Website,https://www.townofmead.org/parksandrec/page/downtown-mead-farmers-market,https://www.townofmead.org/parksandrec/page/downtown-mead-farmers-market,Downtown Mead Farmers' Market
+OK,200,Instagram,http://www.instagram.com/theblockfortmorgan,http://www.instagram.com/theblockfortmorgan,Fort Morgan Farmers Market
+OK,200,Instagram,https://instagram.com/abundant.spaces,https://instagram.com/abundant.spaces,Lyons Farmers Market
+OK,200,Instagram,https://instagram.com/agfoodlab,https://instagram.com/agfoodlab,Bennett Summer Pop-up Market
+OK,200,Instagram,https://instagram.com/alamosa_farmers_market,https://instagram.com/alamosa_farmers_market,Alamosa Farmers' Market
+OK,200,Instagram,https://instagram.com/arbolfarmersmarket,https://instagram.com/arbolfarmersmarket,The Arbol Farmers Market
+OK,200,Instagram,https://instagram.com/AspenGroveFarmersMarket,https://instagram.com/AspenGroveFarmersMarket,Aspen Grove Farmers Market
+OK,200,Instagram,https://instagram.com/backyardmarketinbf,https://instagram.com/backyardmarketinbf,The Backyard Market in Black Forest
+OK,200,Instagram,https://instagram.com/badgercreekranch,https://instagram.com/badgercreekranch,Badger Creek Ranch
+OK,200,Instagram,https://instagram.com/beesquaredapiaries,https://instagram.com/beesquaredapiaries,Bee Squared Apiaries
+OK,200,Instagram,https://instagram.com/berg.harvest,https://instagram.com/berg.harvest,Berg Harvest LLC dba Berg Harvest Mercantile
+OK,200,Instagram,https://instagram.com/berrypatchfarms,https://instagram.com/berrypatchfarms,"Berry Patch Farms, LLC"
+OK,200,Instagram,https://instagram.com/BlueTraneHeritageFarm,https://instagram.com/BlueTraneHeritageFarm,BlueTrane Heritage Farm
+OK,200,Instagram,https://Instagram.com/BoulderValleyHoney,https://Instagram.com/BoulderValleyHoney,Boulder Valley Honey
+OK,200,Instagram,https://instagram.com/brecksundaymarket,https://instagram.com/brecksundaymarket,Breckenridge Sunday Market
+OK,200,Instagram,https://instagram.com/cbfarmersmarket,https://instagram.com/cbfarmersmarket,Crested Butte Farmers Market
+OK,200,Instagram,https://instagram.com/cityparkfarmersmarket,https://instagram.com/cityparkfarmersmarket,City Park Farmers Market
+OK,200,Instagram,https://instagram.com/countywiththebounty,https://instagram.com/countywiththebounty,The County With The Bounty & Wild West Excursions
+OK,200,Instagram,https://instagram.com/durangofarmers,https://instagram.com/durangofarmers,Durango Farmers Market
+OK,200,Instagram,https://instagram.com/EddylineBrewery,https://instagram.com/EddylineBrewery,Eddyline Restaurant at Southmain
+OK,200,Instagram,https://instagram.com/elafamilyfarms,https://instagram.com/elafamilyfarms,Ela Family Farms
+OK,200,Instagram,https://instagram.com/ent_wise_farm,https://instagram.com/ent_wise_farm,Ent Wise Farm
+OK,200,Instagram,https://instagram.com/fortcollinsmarkets,https://instagram.com/fortcollinsmarkets,Fort Collins Winter Farmers Market
+OK,200,Instagram,https://instagram.com/growgirlorganics,https://instagram.com/growgirlorganics,Grow Girl Organics
+OK,200,Instagram,https://instagram.com/growinggardensboulder,https://instagram.com/growinggardensboulder,Growing Gardens
+OK,200,Instagram,https://instagram.com/growinggardensboulder,https://instagram.com/growinggardensboulder,Growing Gardens
+OK,200,Instagram,https://instagram.com/gunnisonfarmersmarket,https://instagram.com/gunnisonfarmersmarket,Gunnison Farmers Market
+OK,200,Instagram,https://instagram.com/headwater_farms,https://instagram.com/headwater_farms,Headwater Farms
+OK,200,Instagram,https://instagram.com/jamberacres,https://instagram.com/jamberacres,Jamber Acres
+OK,200,Instagram,https://instagram.com/Kercher_Ranch,https://instagram.com/Kercher_Ranch,Mayberry Farm
+OK,200,Instagram,https://instagram.com/lafayettefarmersmarket,https://instagram.com/lafayettefarmersmarket,Lafayette Colorado Farmers Market
+OK,200,Instagram,https://instagram.com/malaragardens,https://instagram.com/malaragardens,Malara Gardens
+OK,200,Instagram,https://instagram.com/mutualdreamfarm,https://instagram.com/mutualdreamfarm,Mutual Dream Farm
+OK,200,Instagram,https://instagram.com/nativehillfarm,https://instagram.com/nativehillfarm,Native Hill Farm
+OK,200,Instagram,https://instagram.com/nederlandfarmersmarket,https://instagram.com/nederlandfarmersmarket,Nederland Farmers Market
+OK,200,Instagram,https://instagram.com/newrootsfarmllc,https://instagram.com/newrootsfarmllc,New Roots Farm LLC
+OK,200,Instagram,https://instagram.com/Peachforkfruitandwine,https://instagram.com/Peachforkfruitandwine,The Peachfork
+OK,200,Instagram,https://instagram.com/pfzfarms,https://instagram.com/pfzfarms,Pfaltzgraff Farms
+OK,200,Instagram,https://instagram.com/princess_beef_ranch,https://instagram.com/princess_beef_ranch,Princess Beef
+OK,200,Instagram,https://instagram.com/realfarmersmarket,https://instagram.com/realfarmersmarket,Louisville Farmers Market
+OK,200,Instagram,https://instagram.com/Salida_Farmers_Market,https://instagram.com/Salida_Farmers_Market,Salida Farmers Market
+OK,200,Instagram,https://instagram.com/smithfamilyorchards.palisade,https://instagram.com/smithfamilyorchards.palisade,Smith Family Orchards
+OK,200,Instagram,https://instagram.com/the_og_evergreen_farmersmarket,https://instagram.com/the_og_evergreen_farmersmarket,Evergreen Farmers Market THE ORIGINAL
+OK,200,Instagram,https://instagram.com/theabbeywinery,https://instagram.com/theabbeywinery,The Winery at Holy Cross Abbey
+OK,200,Instagram,https://instagram.com/thefarmcollaborative,https://instagram.com/thefarmcollaborative,The Farm Collaborative
+OK,200,Instagram,https://instagram.com/TheOrchardFarmersMarket,https://instagram.com/TheOrchardFarmersMarket,Orchard Farmers MArket
+OK,200,Instagram,https://instagram.com/townofmountainvillage,https://instagram.com/townofmountainvillage,Market on the Plaza
+OK,200,Instagram,https://instagram.com/whitewaterhillvineyards,https://instagram.com/whitewaterhillvineyards,Whitewater Hill Vineyards
+OK,200,Instagram,https://www.instagram.com/abundantlifeorganicfarms/,https://www.instagram.com/abundantlifeorganicfarms/,Abundant Life Organic Farms
+OK,200,Instagram,https://www.instagram.com/agalliance/,https://www.instagram.com/agalliance/,Yampa Valley Foods
+OK,200,Instagram,https://www.instagram.com/antelopecreekranchwagyu,https://www.instagram.com/antelopecreekranchwagyu,Antelope Creek Ranch Wagyu
+OK,200,Instagram,https://www.instagram.com/arrowpointprovisions/,https://www.instagram.com/arrowpointprovisions/,Arrowpoint Cattle Company
+OK,200,Instagram,https://www.instagram.com/aspenmoonfarm/,https://www.instagram.com/aspenmoonfarm/,Aspen Moon Farm
+OK,200,Instagram,https://www.instagram.com/aspensaturdaymarket/,https://www.instagram.com/aspensaturdaymarket/,Aspen Saturday Market
+OK,200,Instagram,https://www.instagram.com/backyardfarmshop,https://www.instagram.com/backyardfarmshop,Black Forest Farmers Market
+OK,200,Instagram,https://www.instagram.com/backyardmarketinbf/,https://www.instagram.com/backyardmarketinbf/,Backyard Market in Black Forest - Holiday
+OK,200,Instagram,https://www.instagram.com/backyardmarketinbf/,https://www.instagram.com/backyardmarketinbf/,Backyard Market in Black Forest - Winter
+OK,200,Instagram,https://www.instagram.com/banyan_breads/,https://www.instagram.com/banyan_breads/,Banyan Breads
+OK,200,Instagram,https://www.instagram.com/billygoathopfarm/,https://www.instagram.com/billygoathopfarm/,Billy Goat Hop Farm
+OK,200,Instagram,https://www.instagram.com/blackmountainbison/,https://www.instagram.com/blackmountainbison/,Black Mountain Bison
+OK,200,Instagram,https://www.instagram.com/boulderfarmersmarket/,https://www.instagram.com/boulderfarmersmarket/,Boulder Farmers Market
+OK,200,Instagram,https://www.instagram.com/bristlecone_bakeshop/,https://www.instagram.com/bristlecone_bakeshop/,Bristlecone Bakeshop
+OK,200,Instagram,https://www.instagram.com/buckandbloomcheese/,https://www.instagram.com/buckandbloomcheese/,Buck and Bloom Cheese Co
+OK,200,Instagram,https://www.instagram.com/buena_vista_farmers_market/,https://www.instagram.com/buena_vista_farmers_market/,Buena Vista Farmers' Market
+OK,200,Instagram,https://www.instagram.com/chinampasco/,https://www.instagram.com/chinampasco/,Chinampas
+OK,200,Instagram,https://www.instagram.com/clearwaterheritagefarm/,https://www.instagram.com/clearwaterheritagefarm/,Hall Family Farmstand
+OK,200,Instagram,https://www.instagram.com/colorado_farm_to_table/,https://www.instagram.com/colorado_farm_to_table/,Colorado Farm to Table
+OK,200,Instagram,https://www.instagram.com/coloradofreshmarkets/,https://www.instagram.com/coloradofreshmarkets/,Cherry Creek Fresh Market
+OK,200,Instagram,https://www.instagram.com/ColoradoLavender,https://www.instagram.com/ColoradoLavender,Lavender Association of Colorado
+OK,200,Instagram,https://www.instagram.com/cortezfarmersmarket/,https://www.instagram.com/cortezfarmersmarket/,Cortez Farmers Market
+OK,200,Instagram,https://www.instagram.com/creedefarmersmarket/,https://www.instagram.com/creedefarmersmarket/,"Creede Farmers, Local Artisan and Antique Market"
+OK,200,Instagram,https://www.instagram.com/denverceliacs,https://www.instagram.com/denverceliacs,National Celiac Association of Denver
+OK,200,Instagram,https://www.instagram.com/denverceliacs,https://www.instagram.com/denverceliacs,Gluten Free Farmers Market
+OK,200,Instagram,https://www.instagram.com/dillonfarmersmarket/,https://www.instagram.com/dillonfarmersmarket/,Dillon Farmers Market
+OK,200,Instagram,https://www.instagram.com/downtowngj/,https://www.instagram.com/downtowngj/,Downtown Farmers' Market Festival
+OK,200,Instagram,https://www.instagram.com/downtowngj/,https://www.instagram.com/downtowngj/,Downtown Grand Junction Market on Main
+OK,200,Instagram,https://www.instagram.com/downtownglenwoodsprings,https://www.instagram.com/downtownglenwoodsprings,Glenwood Springs Downtown Market on 7th
+OK,200,Instagram,https://www.instagram.com/eaglefarmersmarket/,https://www.instagram.com/eaglefarmersmarket/,Eagle Farmers Market
+OK,200,Instagram,https://www.instagram.com/edwardsfarmersmarket/,https://www.instagram.com/edwardsfarmersmarket/,Edwards Corner Farmers' Market
+OK,200,Instagram,https://www.instagram.com/elevationherbaltea/,https://www.instagram.com/elevationherbaltea/,"Elevation Mountain Grown Herbal Tea, LLC"
+OK,200,Instagram,https://www.instagram.com/esoterraculinary/,https://www.instagram.com/esoterraculinary/,Esoterra Culinary Garden
+OK,200,Instagram,https://www.instagram.com/evergreenfarmersmarket/,https://www.instagram.com/evergreenfarmersmarket/,Evergreen Farmers Market
+OK,200,Instagram,https://www.instagram.com/FleischerFamilyFarm,https://www.instagram.com/FleischerFamilyFarm,Fleischer Family Farm
+OK,200,Instagram,https://www.instagram.com/focofarmersmarket,https://www.instagram.com/focofarmersmarket,Fort Collins Farmers' Market
+OK,200,Instagram,https://www.instagram.com/gofruita/,https://www.instagram.com/gofruita/,Fruita Farmers' Market
+OK,200,Instagram,https://www.instagram.com/goldenfarmersmarket/,https://www.instagram.com/goldenfarmersmarket/,Golden Farmers Market
+OK,200,Instagram,https://www.instagram.com/goldentrianglefm/,https://www.instagram.com/goldentrianglefm/,Golden Triangle Farmers Market
+OK,200,Instagram,https://www.instagram.com/granderivervineyards/,https://www.instagram.com/granderivervineyards/,Grande River Vineyards
+OK,200,Instagram,https://www.instagram.com/gratefulgarden/,https://www.instagram.com/gratefulgarden/,Mershops Market Days at Town Center Aurora (Presented by Grateful Garden llc)
+OK,200,Instagram,https://www.instagram.com/gratefulgarden/,https://www.instagram.com/gratefulgarden/,Painted Prairie Open Air Markets (Presented by Grateful Garden llc)
+OK,200,Instagram,https://www.instagram.com/greeleyfarmersmarket/,https://www.instagram.com/greeleyfarmersmarket/,Greeley Farmers Market
+OK,200,Instagram,https://www.instagram.com/greeleyfarmersmarket/,https://www.instagram.com/greeleyfarmersmarket/,Greeley Winter Farmers' Market
+OK,200,Instagram,https://www.instagram.com/guidestonecolorado/,https://www.instagram.com/guidestonecolorado/,Guidestone Colorado
+OK,200,Instagram,https://www.instagram.com/gvrfarmersmarket,https://www.instagram.com/gvrfarmersmarket,Green Vally Ranch NE Denver Farmers Market (Presented by Grateful Garden llc)
+OK,200,Instagram,https://www.instagram.com/harveyparkfarmersmarket,https://www.instagram.com/harveyparkfarmersmarket,Harvey Park Farmers Market
+OK,200,Instagram,https://www.instagram.com/hazeldellmushrooms/,https://www.instagram.com/hazeldellmushrooms/,Hazel Dell Mushrooms
+OK,200,Instagram,https://www.instagram.com/honeyrocklanding/?hl=en,https://www.instagram.com/honeyrocklanding/?hl=en,Honey Rock Landing
+OK,200,Instagram,https://www.instagram.com/huntandgathercos,https://www.instagram.com/huntandgathercos,Downtown Sunday Market
+OK,200,Instagram,https://www.instagram.com/hutchranch/,https://www.instagram.com/hutchranch/,Hutchinson Ranch
+OK,200,Instagram,https://www.instagram.com/idahospringschamber/,https://www.instagram.com/idahospringschamber/,Idaho Springs Chamber Of Commerce Farmers Market
+OK,200,Instagram,https://www.instagram.com/larimercountyfm,https://www.instagram.com/larimercountyfm,Larimer County Farmers' Market
+OK,200,Instagram,https://www.instagram.com/ledingham.livestock/,https://www.instagram.com/ledingham.livestock/,Ledingham Livestock
+OK,200,Instagram,https://www.instagram.com/longmontfarmersmarket/,https://www.instagram.com/longmontfarmersmarket/,Longmont Farmers Market
+OK,200,Instagram,https://www.instagram.com/longsgardens,https://www.instagram.com/longsgardens,Long's Gardens
+OK,200,Instagram,https://www.instagram.com/loveland.west.farmers.market/,https://www.instagram.com/loveland.west.farmers.market/,Loveland West Farmers Market at JAX
+OK,200,Instagram,https://www.instagram.com/lovelandcofarmersmarket,https://www.instagram.com/lovelandcofarmersmarket,Loveland Farmers Market at Fairgrounds Park
+OK,200,Instagram,https://www.instagram.com/mancos_valley_farmers_market/,https://www.instagram.com/mancos_valley_farmers_market/,Mancos Valley Farmers Market
+OK,200,Instagram,https://www.instagram.com/meadowsedgefarmbv/,https://www.instagram.com/meadowsedgefarmbv/,Meadows Edge Farm
+OK,200,Instagram,https://www.instagram.com/metro.denver.farmers.market,https://www.instagram.com/metro.denver.farmers.market,Sterling Ranch Farmers' Market
+OK,200,Instagram,https://www.instagram.com/metro.denver.farmers.market/,https://www.instagram.com/metro.denver.farmers.market/,Lakewood Farmers' Market
+OK,200,Instagram,https://www.instagram.com/metro.denver.farmers.market/,https://www.instagram.com/metro.denver.farmers.market/,Southwest Plaza Farmers' Market
+OK,200,Instagram,https://www.instagram.com/metro_denver_farmers_market,https://www.instagram.com/metro_denver_farmers_market,Highlands Ranch Farmers' Market
+OK,200,Instagram,https://www.instagram.com/minturnmarket/,https://www.instagram.com/minturnmarket/,Minturn Market
+OK,200,Instagram,https://www.instagram.com/monroefarmilyfarms/,https://www.instagram.com/monroefarmilyfarms/,"Monroe Family Farm, LLC"
+OK,200,Instagram,https://www.instagram.com/monte_vista_farmers_market,https://www.instagram.com/monte_vista_farmers_market,Monte Vista Farmers Market
+OK,200,Instagram,https://www.instagram.com/montrosecoloradofarmersmarket/?hl=en,https://www.instagram.com/montrosecoloradofarmersmarket/?hl=en,Montrose Farmers Market
+OK,200,Instagram,https://www.instagram.com/mtnmarketandsupply/,https://www.instagram.com/mtnmarketandsupply/,Mountain Market & Supply
+OK,200,Instagram,https://www.instagram.com/MVmeatsFC,https://www.instagram.com/MVmeatsFC,Mountain View Meats
+OK,200,Instagram,https://www.instagram.com/oldcoloradocityfarmersmarket/,https://www.instagram.com/oldcoloradocityfarmersmarket/,Old Colorado City Farmers Market
+OK,200,Instagram,https://www.instagram.com/orchardvalleyfarms/,https://www.instagram.com/orchardvalleyfarms/,Orchard Valley Farms & Market.   Black Bridge Winery
+OK,200,Instagram,https://www.instagram.com/pagosafarmersmarket/,https://www.instagram.com/pagosafarmersmarket/,Pagosa Springs Farmers Market
+OK,200,Instagram,https://www.instagram.com/palisadepeachshack/,https://www.instagram.com/palisadepeachshack/,Palisade Peach Shack
+OK,200,Instagram,https://www.instagram.com/palombomarket,https://www.instagram.com/palombomarket,Palombo Farms Market
+OK,200,Instagram,https://www.instagram.com/pastureprovisionsco/,https://www.instagram.com/pastureprovisionsco/,Pasture Provisions Company
+OK,200,Instagram,https://www.instagram.com/phytologyflowers/,https://www.instagram.com/phytologyflowers/,Phytology Flowers Farm
+OK,200,Instagram,https://www.instagram.com/projectworthmore,https://www.instagram.com/projectworthmore,DeLaney Community Farm - by Project Worthmore
+OK,200,Instagram,https://www.instagram.com/pueblofarmersmarket,https://www.instagram.com/pueblofarmersmarket,Pueblo Farmers Market
+OK,200,Instagram,https://www.instagram.com/pueblofarmersmarket,https://www.instagram.com/pueblofarmersmarket,Pueblo Farmers Market Eastside Pop-ups
+OK,200,Instagram,https://www.instagram.com/raisinryebakery/,https://www.instagram.com/raisinryebakery/,Raisin' Rye
+OK,200,Instagram,https://www.instagram.com/ridgway_farmersmarket,https://www.instagram.com/ridgway_farmersmarket,Ridgway Farmers Market
+OK,200,Instagram,https://www.instagram.com/riflefarmersmarket,https://www.instagram.com/riflefarmersmarket,Rifle Farmers Market
+OK,200,Instagram,https://www.instagram.com/riograndefarmpark/,https://www.instagram.com/riograndefarmpark/,Mercadillo en el Rio
+OK,200,Instagram,https://www.instagram.com/rockymountaingarlic1,https://www.instagram.com/rockymountaingarlic1,Rocky Mountain Garlic
+OK,200,Instagram,https://www.instagram.com/rockymountainpumpkinranch/,https://www.instagram.com/rockymountainpumpkinranch/,Rocky Mountain Pumpkin Ranch
+OK,200,Instagram,https://www.instagram.com/salidacommunityfridge,https://www.instagram.com/salidacommunityfridge,Guidestone Colorado’s Free Community Fridge
+OK,200,Instagram,https://www.instagram.com/saltmeatmarket,https://www.instagram.com/saltmeatmarket,SALT Craft Meat Market
+OK,200,Instagram,https://www.instagram.com/sandyswaymicrofarm/,https://www.instagram.com/sandyswaymicrofarm/,Sandy's Way Microfarm
+OK,200,Instagram,https://www.instagram.com/scofieldfruits,https://www.instagram.com/scofieldfruits,Scofield Fruits LLC
+OK,200,Instagram,https://www.instagram.com/soilsangredecristo/,https://www.instagram.com/soilsangredecristo/,SOIL Sangre de Cristo
+OK,200,Instagram,https://www.instagram.com/southpearlst,https://www.instagram.com/southpearlst,Old South Pearl Street Association - Farmers Market
+OK,200,Instagram,https://www.instagram.com/sproutcityfarms,https://www.instagram.com/sproutcityfarms,Sprout City Farms
+OK,200,Instagram,https://www.instagram.com/stormcellarwine,https://www.instagram.com/stormcellarwine,The Storm Cellar
+OK,200,Instagram,https://www.instagram.com/sufarmersmarket/,https://www.instagram.com/sufarmersmarket/,South University Farmers Market
+OK,200,Instagram,https://www.instagram.com/sunflowerfarm_info/,https://www.instagram.com/sunflowerfarm_info/,Sunflower Farm Acres
+OK,200,Instagram,https://www.instagram.com/sunshinefarmchurros/,https://www.instagram.com/sunshinefarmchurros/,Arriola Sunshine Farm
+OK,200,Instagram,https://www.instagram.com/switchgearsfarm,https://www.instagram.com/switchgearsfarm,Switch Gears Farm
+OK,200,Instagram,https://www.instagram.com/tagawagardens/,https://www.instagram.com/tagawagardens/,Tagawa Gardens
+OK,200,Instagram,https://www.instagram.com/talonwines/,https://www.instagram.com/talonwines/,Talon Wines
+OK,200,Instagram,https://www.instagram.com/telluridefarmersmarket/,https://www.instagram.com/telluridefarmersmarket/,Telluride Farmers' Market
+OK,200,Instagram,https://www.instagram.com/the_asian_palate/,https://www.instagram.com/the_asian_palate/,The Asian Palate Marketplace & Catering
+OK,200,Instagram,https://www.instagram.com/theparkerfarmersmarket/,https://www.instagram.com/theparkerfarmersmarket/,Williams Family Markets
+OK,200,Instagram,https://www.instagram.com/thetriangleoasisproject/,https://www.instagram.com/thetriangleoasisproject/,The Triangle Oasis
+OK,200,Instagram,https://www.instagram.com/TuffsRanchco,https://www.instagram.com/TuffsRanchco,Tuff's Ranch
+OK,200,Instagram,https://www.instagram.com/vailfarmersmarket/,https://www.instagram.com/vailfarmersmarket/,Vail Farmers' Market
+OK,200,Instagram,https://www.instagram.com/visitdenverhighlands/,https://www.instagram.com/visitdenverhighlands/,Farmers' Market at Highlands Square
+OK,200,Instagram,https://www.instagram.com/visitgranbyco/,https://www.instagram.com/visitgranbyco/,Granby Farmers Market
+OK,200,Instagram,https://www.instagram.com/wpfarmersmarket,https://www.instagram.com/wpfarmersmarket,Woodland Park Farmers Market
+OK,200,Website,http://adamsapplecolorado.com/,http://adamsapplecolorado.com/,Adams Apple Country Store
+OK,200,Website,http://belafontefarm.com/,http://belafontefarm.com/,Belafonte Farm
+OK,200,Website,http://Bonverts.com,http://Bonverts.com,Bonverts Farm
+OK,200,Website,http://coloradofarmtotable.org/,http://coloradofarmtotable.org/,Colorado Farm to Table
+OK,200,Website,http://gracehillfarmco.com,http://gracehillfarmco.com,Grace Hill Farm LLC
+OK,200,Website,http://Hillbillyfarms.net,http://Hillbillyfarms.net,Hillbilly Farms
+OK,200,Website,http://homegrownbiodynamics.com,http://homegrownbiodynamics.com,Homegrown Farm
+OK,200,Website,http://indianridgefarm.org,http://indianridgefarm.org,Indian Ridge Farm
+OK,200,Website,http://ladymoon.org,http://ladymoon.org,LadyMoon.Org
+OK,200,Website,http://lulusfarm.com,http://lulusfarm.com,Lulu's Farm Roadside Market
+OK,200,Website,http://microfarmscolorado.com,http://microfarmscolorado.com,Micro Farms
+OK,200,Website,http://offbeetfarmcolorado.com,http://offbeetfarmcolorado.com,Off Beet Farm
+OK,200,Website,http://urbanmarketdenver.com/,http://urbanmarketdenver.com/,Urban Farmers' Market
+OK,200,Website,http://www.adobehousefarm.com/,http://www.adobehousefarm.com/,Adobe House Farm
+OK,200,Website,http://www.ahavahfarm.com,http://www.ahavahfarm.com,Ahavah Farm
+OK,200,Website,http://www.aspenlodge.net,http://www.aspenlodge.net,Aspen Lodge Resort & Spa
+OK,200,Website,http://www.aspenlodge.net,http://www.aspenlodge.net,Dao House
+OK,200,Website,http://www.carbondalefarmersmarket.com/,http://www.carbondalefarmersmarket.com/,Carbondale Farmers' Market
+OK,200,Website,http://www.chaffeecares.org,http://www.chaffeecares.org,Chaffee Cares
+OK,200,Website,http://www.crescendumflowerfarm.com,http://www.crescendumflowerfarm.com,Crescendum Flower Farm
+OK,200,Website,http://www.cureorganicfarm.com/,http://www.cureorganicfarm.com/,Cure Organic Farm
+OK,200,Website,http://www.denverfarmersmarket.com,http://www.denverfarmersmarket.com,Metro Denver Farmers' Market at Wheat Ridge
+OK,200,Website,http://www.desertweyr.com,http://www.desertweyr.com,"Desert Weyr, LLC"
+OK,200,Website,http://www.dooleycreekfarm.com,http://www.dooleycreekfarm.com,Dooley Creek Farm
+OK,200,Website,http://www.dug.org/,http://www.dug.org/,Denver Urban Gardens  DeLaney Community Farm (Aurora)
+OK,200,Website,http://www.emergeaquaponics.com/shop,http://www.emergeaquaponics.com/shop,Emerge Aquaponics
+OK,200,Website,http://www.fatdonkey.farm,http://www.fatdonkey.farm,Fat Donkey Farm
+OK,200,Website,http://www.flatacresfarm.com,http://www.flatacresfarm.com,Flat Acres Farm
+OK,200,Website,http://www.fortnet.org/market/,http://www.fortnet.org/market/,Loveland Green Market
+OK,200,Website,http://www.foxfirefarms.com,http://www.foxfirefarms.com,Fox Fire Farms
+OK,200,Website,http://www.grantfarms.com/,http://www.grantfarms.com/,Grant Farms CSA
+OK,200,Website,http://www.greenearthfarm.com,http://www.greenearthfarm.com,Green Earth Farm
+OK,200,Website,http://www.highaltituderhubarb.com,http://www.highaltituderhubarb.com,High Altitude Rhubarb--Organic Farm & Nursery
+OK,200,Website,http://www.highwaterfarm.org,http://www.highwaterfarm.org,Highwater Farm
+OK,200,Website,http://www.hootnhowlfarm.com,http://www.hootnhowlfarm.com,Hoot 'n' Howl Farm LLC
+OK,200,Website,http://www.kiltfarm.com,http://www.kiltfarm.com,Kilt Farm
+OK,200,Website,http://www.kiowac3.com,http://www.kiowac3.com,Kiowa Creek Coaches
+OK,200,Website,http://www.locofooddistribution.com,http://www.locofooddistribution.com,LoCo Food Distribution
+OK,200,Website,http://www.mushroomloveco.com,http://www.mushroomloveco.com,Mushroom Love Co
+OK,200,Website,http://www.potatogoodness.com,http://www.potatogoodness.com,US Potato Board
+OK,200,Website,http://www.salidacattlecompany.com,http://www.salidacattlecompany.com,Salida Cattle Company
+OK,200,Website,http://www.scangameat.com/,http://www.scangameat.com/,Scanga Meat Company
+OK,200,Website,http://www.songhavenfarm.com,http://www.songhavenfarm.com,SongHaven Farm
+OK,200,Website,http://www.StarViewFarmLtd.com,http://www.StarViewFarmLtd.com,Star View Farm
+OK,200,Website,http://www.sustainablesettings.org,http://www.sustainablesettings.org,Sustainable Settings
+OK,200,Website,http://www.thelettucehead.com,http://www.thelettucehead.com,The Lettucehead Food Company
+OK,200,Website,http://www.thetelluridefarmersmarket.com/,http://www.thetelluridefarmersmarket.com/,Telluride Farmers' Market
+OK,200,Website,http://www.vailfarmersmarket.com/,http://www.vailfarmersmarket.com/,Vail Farmers' Market
+OK,200,Website,http://www.yayafarmandorchard.com,http://www.yayafarmandorchard.com,YA YA Farm & Orchard
+OK,200,Website,https://4branchlivestock.com,https://4branchlivestock.com,"4B Ranch Livestock, LLC"
+OK,200,Website,https://andersonfarms.com/,https://andersonfarms.com/,Anderson Farms
+OK,200,Website,https://arriolasunshinefarm.com,https://arriolasunshinefarm.com,Arriola Sunshine Farm
+OK,200,Website,https://arvadafiveparksfarmersmarket.blogspot.com/,https://arvadafiveparksfarmersmarket.blogspot.com/,Arvada Five Parks Farmers Market
+OK,200,Website,https://aspen.gov/180/Aspen-Saturday-Market,https://aspen.gov/180/Aspen-Saturday-Market,Aspen Saturday Market
+OK,200,Website,https://backgatefarm.com,https://backgatefarm.com,Back Gate Farm
+OK,200,Website,https://banyanbreads.com/,https://banyanbreads.com/,Banyan Breads
+OK,200,Website,https://bcfm.org/markets/boulder-farmers-market/,https://bcfm.org/markets/boulder-farmers-market/,Boulder Farmers Market
+OK,200,Website,https://bcfm.org/markets/longmont-farmers-market/,https://bcfm.org/markets/longmont-farmers-market/,Longmont Farmers Market
+OK,200,Website,https://bergharvest.com,https://bergharvest.com,Berg Harvest LLC dba Berg Harvest Mercantile
+OK,200,Website,https://berrypatchfarms.com,https://berrypatchfarms.com,"Berry Patch Farms, LLC"
+OK,200,Website,https://blackmountainbison.com/,https://blackmountainbison.com/,Black Mountain Bison
+OK,200,Website,https://blainesfarmstore.com,https://blainesfarmstore.com,Blaine's Farm Store
+OK,200,Website,https://BoulderValleyHoney.com,https://BoulderValleyHoney.com,Boulder Valley Honey
+OK,200,Website,https://candrfarms.com,https://candrfarms.com,C & R Farms LLC
+OK,200,Website,https://christensenranch.com,https://christensenranch.com,Christensen Ranch
+OK,200,Website,https://co-mtn-lav.com/,https://co-mtn-lav.com/,Colorado Mountain Lavender
+OK,200,Website,https://ColoradoGators.com,https://ColoradoGators.com,Colorado Gators
+OK,200,Website,https://coloradokidsranch.com/,https://coloradokidsranch.com/,Colorado Kids Ranch
+OK,200,Website,https://communityagalliance.org/programs/valley-foods/,https://communityagalliance.org/programs/valley-foods/,Yampa Valley Foods
+OK,200,Website,https://cottonwoodfarms.com,https://cottonwoodfarms.com,Cottonwood Farm
+OK,200,Website,https://cottonwoodspiritranch.com,https://cottonwoodspiritranch.com,Cottonwood Spirit Ranch
+OK,200,Website,https://countryroadwines.com,https://countryroadwines.com,Country Road Vines and Wines
+OK,200,Website,https://creedefarmersmarket.com/,https://creedefarmersmarket.com/,"Creede Farmers, Local Artisan and Antique Market"
+OK,200,Website,https://downtowngj.org/events/market-on-main/,https://downtowngj.org/events/market-on-main/,Downtown Farmers' Market Festival
+OK,200,Website,https://downtowngj.org/events/market-on-main/,https://downtowngj.org/events/market-on-main/,Downtown Grand Junction Market on Main
+OK,200,Website,https://eddylinebrewery.com/pages/restaurant-menu-board,https://eddylinebrewery.com/pages/restaurant-menu-board,Eddyline Restaurant at Southmain
+OK,200,Website,https://evergreenarts.org/cae/evergreen-farmers-market/,https://evergreenarts.org/cae/evergreen-farmers-market/,Evergreen Farmers Market
+OK,200,Website,https://ezregister.com/events/10206/,https://ezregister.com/events/10206/,Alameda Mile High Farmer's Market
+OK,200,Website,https://FarmRunners.com,https://FarmRunners.com,Farm Runners LLC
+OK,200,Website,https://fatherearthorganicfarm.com,https://fatherearthorganicfarm.com,Father Earth Organic Farm LLC
+OK,200,Website,https://fieldsofnaturalhoney.com,https://fieldsofnaturalhoney.com,Fields of Natural Honey
+OK,200,Website,https://foodshedalliance.com,https://foodshedalliance.com,Salida Farmers Market
+OK,200,Website,https://foodtopowerco.org/hillside-hub,https://foodtopowerco.org/hillside-hub,Food to Power
+OK,200,Website,https://fosterabundantspaces.com,https://fosterabundantspaces.com,Lyons Farmers Market
+OK,200,Website,https://freshfoodhub.net/,https://freshfoodhub.net/,Fresh Foundation - DBA Fresh Food Hub
+OK,200,Website,https://granderivervineyards.com,https://granderivervineyards.com,Grande River Vineyards
+OK,200,Website,https://gratefulgardenllc.com,https://gratefulgardenllc.com,Painted Prairie Open Air Markets (Presented by Grateful Garden llc)
+OK,200,Website,https://greeleyco.gov/events/farmers-market/,https://greeleyco.gov/events/farmers-market/,Greeley Farmers Market
+OK,200,Website,https://greeleyco.gov/events/farmers-market/,https://greeleyco.gov/events/farmers-market/,Greeley Winter Farmers' Market
+OK,200,Website,https://growinggardens.org/,https://growinggardens.org/,Growing Gardens
+OK,200,Website,https://growinggardens.org/,https://growinggardens.org/,Growing Gardens
+OK,200,Website,https://hankinsfarms.com/,https://hankinsfarms.com/,Hankins Farms
+OK,200,Website,https://HighOnTheHillFarm.com,https://HighOnTheHillFarm.com,High On The Hill Farm
+OK,200,Website,https://idaho-springs-chamber-of-commerce.square.site/,https://idaho-springs-chamber-of-commerce.square.site/,Idaho Springs Chamber Of Commerce Farmers Market
+OK,200,Website,https://JamberAcres.com,https://JamberAcres.com,Jamber Acres
+OK,200,Website,https://keelorfamilyranch.com/,https://keelorfamilyranch.com/,Keelor Family Ranch
+OK,200,Website,https://knappsfarmmarket.com,https://knappsfarmmarket.com,KNAPP FARMS LLC
+OK,200,Website,https://legacymeats.net,https://legacymeats.net,Legacy Meats
+OK,200,Website,https://livingwaterfibersandalpacas.com/,https://livingwaterfibersandalpacas.com/,Living Water Fibers and Alpacas
+OK,200,Website,https://mazzottifarms.com,https://mazzottifarms.com,Mazzotti Farms llc
+OK,200,Website,https://milbergerfarms.com,https://milbergerfarms.com,Milberger Farms at Peppes
+OK,200,Website,https://mountaingoatlodge.com,https://mountaingoatlodge.com,Mountain Goat Lodge
+OK,200,Website,https://Mountainrootsproduce.com,https://Mountainrootsproduce.com,Mountain Roots Produce
+OK,200,Website,https://nieslanikbeef.com,https://nieslanikbeef.com,Nieslanik Beef
+OK,200,Website,https://orchardcreekranch.com/,https://orchardcreekranch.com/,Orchard Creek Ranch
+OK,200,Website,https://orchardvalleyfarms.com,https://orchardvalleyfarms.com,Orchard Valley Farms & Market.   Black Bridge Winery
+OK,200,Website,https://Ourredbarnranch.com,https://Ourredbarnranch.com,Our Red Barn Ranch LLC
+OK,200,Website,https://palisade.colorado.gov/sunday-farmers-market,https://palisade.colorado.gov/sunday-farmers-market,Palisade Sunday Farmers' Market
+OK,200,Website,https://Palombomarket.com,https://Palombomarket.com,Palombo Farms Market
+OK,200,Website,https://Peachfork.com,https://Peachfork.com,The Peachfork
+OK,200,Website,https://ponchacreekgardens.wordpress.com/our-products/,https://ponchacreekgardens.wordpress.com/our-products/,Poncha Creek Gardens
+OK,200,Website,https://ponderosaplains.square.site,https://ponderosaplains.square.site,Ponderosa Plains Farm
+OK,200,Website,https://Popefarmsproduce.com,https://Popefarmsproduce.com,Pope Farms Produce & Garden Center LLC
+OK,200,Website,https://princessbeef.com,https://princessbeef.com,Princess Beef
+OK,200,Website,https://projectworthmore.org/programs/delaney-community-farm/,https://projectworthmore.org/programs/delaney-community-farm/,DeLaney Community Farm - by Project Worthmore
+OK,200,Website,https://pueblofarmersmarket.org,https://pueblofarmersmarket.org,Pueblo Farmers Market
+OK,200,Website,https://pueblofarmersmarket.org,https://pueblofarmersmarket.org,Pueblo Farmers Market Eastside Pop-ups
+OK,200,Website,https://quarteracreandamule.com/,https://quarteracreandamule.com/,Quarter Acre and a Mule Farm
+OK,200,Website,https://rancholargo.com,https://rancholargo.com,Rancho Largo Cattle Co.
+OK,200,Website,https://realfarmersmarketco.com,https://realfarmersmarketco.com,Louisville Farmers Market
+OK,200,Website,https://realfarmersmarketco.com/erie-farmers-market/,https://realfarmersmarketco.com/erie-farmers-market/,Erie Farmers Market
+OK,200,Website,https://riflefarmersmarket.com,https://riflefarmersmarket.com,Rifle Farmers Market
+OK,200,Website,https://Roastedchili.com,https://Roastedchili.com,RoastedChile.com
+OK,200,Website,https://rockymountainevents.com/,https://rockymountainevents.com/,Breckenridge Sunday Market
+OK,200,Website,https://rockymtnpumpkinranch.com/,https://rockymtnpumpkinranch.com/,Rocky Mountain Pumpkin Ranch
+OK,200,Website,https://sagescript.com/,https://sagescript.com/,Colorado Aromatics
+OK,200,Website,https://sandyswayfarm.com,https://sandyswayfarm.com,Sandy's Way Microfarm
+OK,200,Website,https://scofieldfruits.com,https://scofieldfruits.com,Scofield Fruits LLC
+OK,200,Website,https://searleranch.com,https://searleranch.com,Searle Ranch
+OK,200,Website,https://southpearlstreet.com/farmers-market/,https://southpearlstreet.com/farmers-market/,Old South Pearl Street Association - Farmers Market
+OK,200,Website,https://southuniversityfarmersmarket.com,https://southuniversityfarmersmarket.com,South University Farmers Market
+OK,200,Website,https://stormcellarwine.com,https://stormcellarwine.com,The Storm Cellar
+OK,200,Website,https://strawhatfarmmarket.com,https://strawhatfarmmarket.com,Straw Hat Farm Market & Kitchen Store
+OK,200,Website,https://thebackyardmarkets.com,https://thebackyardmarkets.com,Backyard Market in Black Forest - Holiday
+OK,200,Website,https://thebackyardmarkets.com,https://thebackyardmarkets.com,The Backyard Market in Black Forest
+OK,200,Website,https://Thebartelspumpkinpatch.com,https://Thebartelspumpkinpatch.com,Bartels Land & Livestock
+OK,200,Website,https://thehighlandsfarmersmarket.com/,https://thehighlandsfarmersmarket.com/,Farmers' Market at Highlands Square
+OK,200,Website,https://thehighlonesomeranch.com/,https://thehighlonesomeranch.com/,The High Lonesome Ranch
+OK,200,Website,https://thelearningcouncil.org,https://thelearningcouncil.org,The Arbol Farmers Market
+OK,200,Website,https://thelivingfarm.org,https://thelivingfarm.org,The Living Farm
+OK,200,Website,https://thelocalcolorado.com/downtown-littleton-farmers-market/,https://thelocalcolorado.com/downtown-littleton-farmers-market/,Downtown Littleton Farmers Market
+OK,200,Website,https://thelocalcolorado.com/parker-farmers-market/,https://thelocalcolorado.com/parker-farmers-market/,Williams Family Markets
+OK,200,Website,https://theoldelmboulder.com,https://theoldelmboulder.com,Old Elm Farm
+OK,200,Website,https://trinidadcofarmersmarket.com/,https://trinidadcofarmersmarket.com/,Trinidad Community Farmers Market
+OK,200,Website,https://unionstationfarmersmarket.com/,https://unionstationfarmersmarket.com/,Union Station Farmers Market
+OK,200,Website,https://whitewaterhill.com,https://whitewaterhill.com,Whitewater Hill Vineyards
+OK,200,Website,https://wpfarmersmarket.com,https://wpfarmersmarket.com,Woodland Park Farmers Market
+OK,200,Website,https://www.7anubisfarms.com/,https://www.7anubisfarms.com/,7 Anubis Farms
+OK,200,Website,https://www.abbeywinery.com,https://www.abbeywinery.com,The Winery at Holy Cross Abbey
+OK,200,Website,https://www.alamosafarmersmarket.org/,https://www.alamosafarmersmarket.org/,Alamosa Farmers' Market
+OK,200,Website,https://www.antelopecreekranchwagyu.com,https://www.antelopecreekranchwagyu.com,Antelope Creek Ranch Wagyu
+OK,200,Website,https://www.arrowpointcattle.com,https://www.arrowpointcattle.com,Arrowpoint Cattle Company
+OK,200,Website,https://www.arvadafarmersmarket.com,https://www.arvadafarmersmarket.com,Arvada Farmers Market
+OK,200,Website,https://www.AspenGroveFarmersMarket.com,https://www.AspenGroveFarmersMarket.com,Aspen Grove Farmers Market
+OK,200,Website,https://www.aspenmoonfarm.com/,https://www.aspenmoonfarm.com/,Aspen Moon Farm
+OK,200,Website,https://www.avcmbv.org/,https://www.avcmbv.org/,Arkansas Valley Christian Mission
+OK,200,Website,https://www.badgercreekranch.com/,https://www.badgercreekranch.com/,Badger Creek Ranch
+OK,200,Website,https://www.basalt.net/606/Basalt-Sunday-Market,https://www.basalt.net/606/Basalt-Sunday-Market,Basalt Sunday Market
+OK,200,Website,https://www.belocalnc.org/,https://www.belocalnc.org/,Northern Colorado Winters Market
+OK,200,Website,https://www.bigbs.com/u-pick,https://www.bigbs.com/u-pick,"Big B's Delicious Orchards U-pick, Cafe & Tasting Room"
+OK,200,Website,https://www.billygoathopfarm.com/visit,https://www.billygoathopfarm.com/visit,Billy Goat Hop Farm
+OK,200,Website,https://www.bluetranegroup.com,https://www.bluetranegroup.com,BlueTrane Heritage Farm
+OK,200,Website,https://www.bouldercountyfair.org,https://www.bouldercountyfair.org,"Boulder Couny Fair, Livestock Show & Rodeo"
+OK,200,Website,https://www.bristleconebakeshop.com/,https://www.bristleconebakeshop.com/,Bristlecone Bakeshop
+OK,200,Website,https://www.buckandbloomcheese.com/,https://www.buckandbloomcheese.com/,Buck and Bloom Cheese Co
+OK,200,Website,https://www.burleybeeshoney.com,https://www.burleybeeshoney.com,Burley Bees
+OK,200,Website,https://www.cbfarmersmarket.org,https://www.cbfarmersmarket.org,Crested Butte Farmers Market
+OK,200,Website,https://www.chinampas.org,https://www.chinampas.org,Chinampas
+OK,200,Website,https://www.christmastreesandwreaths.com,https://www.christmastreesandwreaths.com,Plants Beautiful Nursery Christmas Tree Farm
+OK,200,Website,https://www.circleagarden.com,https://www.circleagarden.com,Circle A Garden
+OK,200,Website,https://www.cityparkfarmersmarket.com/,https://www.cityparkfarmersmarket.com/,City Park Farmers Market
+OK,200,Website,https://www.colonorchards.com,https://www.colonorchards.com,Colon Orchards
+OK,200,Website,https://www.colopac.com,https://www.colopac.com,"Colo-Pac Produce, Inc."
+OK,200,Website,https://www.coloradofreshmarkets.com,https://www.coloradofreshmarkets.com,Cherry Creek Fresh Market
+OK,200,Website,https://www.ColoradoLavender.org,https://www.ColoradoLavender.org,Lavender Association of Colorado
+OK,200,Website,https://www.coloradooutdoormarkets.com,https://www.coloradooutdoormarkets.com,Evergreen Farmers Market THE ORIGINAL
+OK,200,Website,https://www.coprimebeef.com,https://www.coprimebeef.com,"Colorado Prime Beef, LLC"
+OK,200,Website,https://www.cortezcreamery.com,https://www.cortezcreamery.com,Cortez Creamery
+OK,200,Website,https://www.cortezfarmersmarket.com/,https://www.cortezfarmersmarket.com/,Cortez Farmers Market
+OK,200,Website,https://www.cshnaturalbeef.com/farmstand,https://www.cshnaturalbeef.com/farmstand,Hall Family Farmstand
+OK,200,Website,https://www.davisfamilylivestock.com,https://www.davisfamilylivestock.com,Davis Family Livestock
+OK,200,Website,https://www.deltacofarmersmarket.com/home,https://www.deltacofarmersmarket.com/home,Delta Farmers Market
+OK,200,Website,https://www.deltacountycolorado.com,https://www.deltacountycolorado.com,Delta County Colorado Agritours
+OK,200,Website,https://www.denverceliacs.org,https://www.denverceliacs.org,National Celiac Association of Denver
+OK,200,Website,https://www.denverceliacs.org,https://www.denverceliacs.org,Gluten Free Farmers Market
+OK,200,Website,https://www.denverfarmersmarket.com/,https://www.denverfarmersmarket.com/,Lakewood Farmers' Market
+OK,200,Website,https://www.denverfarmersmarket.com/,https://www.denverfarmersmarket.com/,Southwest Plaza Farmers' Market
+OK,200,Website,https://www.denverfarmersmarket.com/,https://www.denverfarmersmarket.com/,Sterling Ranch Farmers' Market
+OK,200,Website,https://www.destinationgranby.com/events/music-market/,https://www.destinationgranby.com/events/music-market/,Granby Farmers Market
+OK,200,Website,https://www.durangofarmersmarket.com,https://www.durangofarmersmarket.com,Durango Farmers Market
+OK,200,Website,https://www.eaglefarmersmarketandartshow.com/,https://www.eaglefarmersmarketandartshow.com/,Eagle Farmers Market
+OK,200,Website,https://www.earthmountainfarm.org,https://www.earthmountainfarm.org,Earth Mountain Education Farm
+OK,200,Website,https://www.elafamilyfarms.com,https://www.elafamilyfarms.com,Ela Family Farms
+OK,200,Website,https://www.elevationherbaltea.com,https://www.elevationherbaltea.com,"Elevation Mountain Grown Herbal Tea, LLC"
+OK,200,Website,https://www.esoterraculinary.com/,https://www.esoterraculinary.com/,Esoterra Culinary Garden
+OK,200,Website,https://www.everittfarms.com,https://www.everittfarms.com,Everitt Farms
+OK,200,Website,https://www.farmandartmarket.com,https://www.farmandartmarket.com,Colorado Farm and Art Market
+OK,200,Website,https://www.feeddenver.com/,https://www.feeddenver.com/,Feed Denver: Urban Farms & Markets
+OK,200,Website,https://www.fleischerfamilyfarm.com,https://www.fleischerfamilyfarm.com,Fleischer Family Farm
+OK,200,Website,https://www.foodshedalliance.com/,https://www.foodshedalliance.com/,Buena Vista Farmers' Market
+OK,200,Website,https://www.fortcollinsfarmersmarket.org/,https://www.fortcollinsfarmersmarket.org/,Fort Collins Farmers' Market
+OK,200,Website,https://www.fortnet.org/market,https://www.fortnet.org/market,Loveland Farmers' Market
+OK,200,Website,https://Www.foxfungi.com,https://Www.foxfungi.com,Fox Fungi
+OK,200,Website,https://www.frederickco.gov/241/Frederick-Market,https://www.frederickco.gov/241/Frederick-Market,Frederick Farmers Market
+OK,200,Website,https://www.frontlinefarming.org/csa,https://www.frontlinefarming.org/csa,FrontLine Farming
+OK,200,Website,https://www.fruitachamber.org/events/farmers-market,https://www.fruitachamber.org/events/farmers-market,Fruita Farmers' Market
+OK,200,Website,https://www.fruitbasketgj.com/,https://www.fruitbasketgj.com/,Fruit Basket Orchards
+OK,200,Website,https://www.gjfarmstead.com,https://www.gjfarmstead.com,Green Junction Farmstead
+OK,200,Website,https://www.glenwoodspringsdda.com/market-on-7th/,https://www.glenwoodspringsdda.com/market-on-7th/,Glenwood Springs Downtown Market on 7th
+OK,200,Website,https://www.goldenfarmersmarket.org,https://www.goldenfarmersmarket.org,Golden Farmers Market
+OK,200,Website,https://www.gopfca.com/,https://www.gopfca.com/,PIFCA – Partnership for Community Action
+OK,200,Website,https://www.GuidestoneColorado.org,https://www.GuidestoneColorado.org,Guidestone Colorado
+OK,200,Website,https://www.gunnisonfarmersmarket.org,https://www.gunnisonfarmersmarket.org,Gunnison Farmers Market
+OK,200,Website,https://www.hanaganfarms.com,https://www.hanaganfarms.com,Hanagan Farms
+OK,200,Website,https://www.happyapplefarm.com,https://www.happyapplefarm.com,Ferrara's Happy Apple Farm
+OK,200,Website,https://www.harveyparkfarmersmarket.com,https://www.harveyparkfarmersmarket.com,Harvey Park Farmers Market
+OK,200,Website,https://www.hazeldellmushrooms.com,https://www.hazeldellmushrooms.com,Hazel Dell Mushrooms
+OK,200,Website,https://www.headwaterfarmco.com/,https://www.headwaterfarmco.com/,Headwater Farms
+OK,200,Website,https://www.highaltituderhubarb.com,https://www.highaltituderhubarb.com,High Altitude Rhubarb
+OK,200,Website,https://www.hobnobevents.com/,https://www.hobnobevents.com/,Highland Farmers' Market
+OK,200,Website,https://www.honeyrocklanding.com/,https://www.honeyrocklanding.com/,Honey Rock Landing
+OK,200,Website,https://www.hutchranchsalida.com,https://www.hutchranchsalida.com,Hutchinson Ranch
+OK,200,Website,https://www.instagram.com/flowerstreetfarmbees/,https://www.instagram.com/flowerstreetfarmbees/,Flower Street Farm
+OK,200,Website,https://www.jamesranch.net/,https://www.jamesranch.net/,James Ranch
+OK,200,Website,https://www.jonesfarmsorganics.com,https://www.jonesfarmsorganics.com,Jones Farms Organics
+OK,200,Website,https://www.kokopelliproduce.com,https://www.kokopelliproduce.com,Kokopelli Farm Market
+OK,200,Website,https://www.lafayettefm.com/,https://www.lafayettefm.com/,Lafayette Colorado Farmers Market
+OK,200,Website,https://www.laughingbuckfarm.com,https://www.laughingbuckfarm.com,Laughing Buck Farm
+OK,200,Website,https://www.lazy-acres-ranch.com,https://www.lazy-acres-ranch.com,Lazy Acres Ranch LLC
+OK,200,Website,https://www.ledinghamlivestock.com,https://www.ledinghamlivestock.com,Ledingham Livestock
+OK,200,Website,https://www.longsgardens.com,https://www.longsgardens.com,Long's Gardens
+OK,200,Website,https://www.malaragardens.com,https://www.malaragardens.com,Malara Gardens
+OK,200,Website,https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/,https://www.mancosvalleyresources.com/2019/07/mancos-farmers-market/,Mancos Valley Farmers Market
+OK,200,Website,https://www.mca80238.com/programs/signature-events/summer-markets,https://www.mca80238.com/programs/signature-events/summer-markets,Stapleton Farmers' Market
+OK,200,Website,https://www.monroefarm.com,https://www.monroefarm.com,"Monroe Family Farm, LLC"
+OK,200,Website,https://www.mussofarmschileroom.com/?srsltid=AfmBOopmJHrwp3V5nJcpVdJMXROam98ePfp2E4mcVodnHUJ8LBP7fJ7z,https://www.mussofarmschileroom.com/?srsltid=AfmBOopmJHrwp3V5nJcpVdJMXROam98ePfp2E4mcVodnHUJ8LBP7fJ7z,Musso Farms
+OK,200,Website,https://www.mutualdreamfarm.com,https://www.mutualdreamfarm.com,Mutual Dream Farm
+OK,200,Website,https://www.MVmeatsFC.com,https://www.MVmeatsFC.com,Mountain View Meats
+OK,200,Website,https://www.Nativehillfarm.com,https://www.Nativehillfarm.com,Native Hill Farm
+OK,200,Website,https://www.nederlandfarmersmarket.org,https://www.nederlandfarmersmarket.org,Nederland Farmers Market
+OK,200,Website,https://www.nelmsfarm.com/,https://www.nelmsfarm.com/,Nelms Farm
+OK,200,Website,https://www.newrootsfarmllc.com,https://www.newrootsfarmllc.com,New Roots Farm LLC
+OK,200,Website,https://www.orchardfarmersmarket.com,https://www.orchardfarmersmarket.com,Orchard Farmers MArket
+OK,200,Website,https://www.oswaldgrassfedbeef.com,https://www.oswaldgrassfedbeef.com,Oswald Grassfed Beef
+OK,200,Website,https://www.padillaproduceinc.com/,https://www.padillaproduceinc.com/,Padilla Prouce Inc.
+OK,200,Website,https://www.pagosafarmersmarket.net/,https://www.pagosafarmersmarket.net/,Pagosa Springs Farmers Market
+OK,200,Website,https://www.pagosafarmersmarket.net/,https://www.pagosafarmersmarket.net/,Pagosa Farmers Market
+OK,200,Website,https://www.palisadepeachshack.com/,https://www.palisadepeachshack.com/,Palisade Peach Shack
+OK,200,Website,https://www.parkercolorado.net/parker-farmers-market-dates-and-time,https://www.parkercolorado.net/parker-farmers-market-dates-and-time,Parker Farmers Market
+OK,200,Website,https://www.pastureprovisionsco.com,https://www.pastureprovisionsco.com,Pasture Provisions Company
+OK,200,Website,https://www.pfzfarmstand.com,https://www.pfzfarmstand.com,Pfaltzgraff Farms
+OK,200,Website,https://www.phytologyflowers.com,https://www.phytologyflowers.com,Phytology Flowers Farm
+OK,200,Website,https://www.pikespeakfarmersmarkets.com/,https://www.pikespeakfarmersmarkets.com/,Old Colorado City Farmers Market
+OK,200,Website,https://www.PlantsByCreekSide.com,https://www.PlantsByCreekSide.com,Creek Side Gardens
+OK,200,Website,https://www.podunksranch.com,https://www.podunksranch.com,Podunk's Ranch
+OK,200,Website,https://www.recreationliveshere.com,https://www.recreationliveshere.com,Town of Windsor
+OK,200,Website,https://www.ridgwayfarmersmarket.com,https://www.ridgwayfarmersmarket.com,Ridgway Farmers Market
+OK,200,Website,https://www.riograndefarmpark.org,https://www.riograndefarmpark.org,Mercadillo en el Rio
+OK,200,Website,https://www.riograndegrowers.com,https://www.riograndegrowers.com,Rio Grande Organic Growers COOP
+OK,200,Website,https://www.rockcreekfarm.com,https://www.rockcreekfarm.com,Rock Creek Farm U-Pick-em Pumpkin Patch
+OK,200,Website,https://www.royalgorgechamberalliance.org/royal-gorge-farmers-market/,https://www.royalgorgechamberalliance.org/royal-gorge-farmers-market/,Royal Gorge Farmers Market
+OK,200,Website,https://www.salidapresbyterian.org/,https://www.salidapresbyterian.org/,Salida First Presbyterian Church
+OK,200,Website,https://www.saltmeatmarket.com/,https://www.saltmeatmarket.com/,SALT Craft Meat Market
+OK,200,Website,https://www.shopsouthlands.com/eventprograms/farmers-market/,https://www.shopsouthlands.com/eventprograms/farmers-market/,Southlands Farmers' Market
+OK,200,Website,https://Www.smithfamilyorchard.com,https://Www.smithfamilyorchard.com,Smith Family Orchards
+OK,200,Website,https://www.soilsangredecristo.org/,https://www.soilsangredecristo.org/,SOIL Sangre de Cristo
+OK,200,Website,https://www.southfork.org/market-at-south-fork,https://www.southfork.org/market-at-south-fork,South Fork Farmers Market
+OK,200,Website,https://www.springsfarmersmarkets.com/northern-springs,https://www.springsfarmersmarkets.com/northern-springs,Briargate Farmers' Market
+OK,200,Website,https://www.sproutcityfarms.org,https://www.sproutcityfarms.org,Sprout City Farms
+OK,200,Website,https://www.sunflowerfarmacres.com/,https://www.sunflowerfarmacres.com/,Sunflower Farm Acres
+OK,200,Website,https://www.switchgearsfarm.com,https://www.switchgearsfarm.com,Switch Gears Farm
+OK,200,Website,https://www.talonwines.com/,https://www.talonwines.com/,Talon Wines
+OK,200,Website,https://www.theactioncenter.org/community-food-hub,https://www.theactioncenter.org/community-food-hub,The Action Center Community Food Hub
+OK,200,Website,https://www.theasianpalate.com,https://www.theasianpalate.com,The Asian Palate Marketplace & Catering
+OK,200,Website,https://www.thebackyardmarkets.com/black-forest-market,https://www.thebackyardmarkets.com/black-forest-market,Black Forest Farmers Market
+OK,200,Website,https://www.thebackyardmarkets.com/holiday-markets,https://www.thebackyardmarkets.com/holiday-markets,Backyard Market in Black Forest - Winter
+OK,200,Website,https://www.theblock-mc.com/the-block-farmers-market,https://www.theblock-mc.com/the-block-farmers-market,Fort Morgan Farmers Market
+OK,200,Website,https://www.thelarkspurfarmersmarket.com,https://www.thelarkspurfarmersmarket.com,The Larkspur Farmers Market
+OK,200,Website,https://www.thetriangleoasis.com/,https://www.thetriangleoasis.com/,The Triangle Oasis
+OK,200,Website,https://www.thetriangleoasis.com/markets,https://www.thetriangleoasis.com/markets,Market on Main St. (The Triangle Oasis)
+OK,200,Website,https://www.troutcreekfarm.com,https://www.troutcreekfarm.com,Trout Creek Farm
+OK,200,Website,https://www.TuffsRanch.com,https://www.TuffsRanch.com,Tuff's Ranch
+OK,200,Website,https://www.tworootsfarm.com,https://www.tworootsfarm.com,Two Roots Farm LLC
+OK,200,Website,https://www.uncofarms.com,https://www.uncofarms.com,Uncompahgre Farms
+OK,200,Website,https://www.valleyfoodpartnership.org,https://www.valleyfoodpartnership.org,Montrose Farmers Market
+OK,200,Website,https://www.valleyrootsfoodhub.com,https://www.valleyrootsfoodhub.com,Valley Roots Food Hub
+OK,200,Website,https://www.valleyrootsfoodhub.com/,https://www.valleyrootsfoodhub.com/,Valley Roots Food Hub
+OK,200,Website,https://www.visitgrandjunction.com,https://www.visitgrandjunction.com,Grand Junction Agritourism
+OK,200,Website,https://www.westcliffefarmersmarket.com/,https://www.westcliffefarmersmarket.com/,Westcliffe Farmers Market
+OK,200,Website,https://Www.wolfcreekfresh.com,https://Www.wolfcreekfresh.com,Wolf Creek Fresh
+OK,200,Website,https://www.wolfnrabbithoney.com,https://www.wolfnrabbithoney.com,WolfNRabbit Honey
+OK,200,Website,https://www.yakmeat.us,https://www.yakmeat.us,DELYAKS

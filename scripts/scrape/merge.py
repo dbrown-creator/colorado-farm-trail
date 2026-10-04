@@ -109,7 +109,7 @@ def apply_decisions(markets: List[Market], decisions: List[dict]) -> Tuple[List[
 def load_overrides(path: str) -> List[dict]:
     """Curated corrections (source-data/phase2/overrides.csv). Columns: name, city,
     column (a My Maps column label, e.g. Category / Notes / Hours), mode (set |
-    prepend | clear), value, note, date. Missing file -> none."""
+    prepend | clear | remove), value, note, date. Missing file -> none."""
     if not os.path.exists(path):
         return []
     with open(path, encoding="utf-8-sig", newline="") as fh:
@@ -121,7 +121,9 @@ def apply_overrides(markets: List[Market], overrides: List[dict]) -> None:
     principle 5: manual beats automatic, permanently). `set` replaces the value;
     `prepend` puts the value in front of what the sources said (for status notes that
     should sit above a provider's own description); `clear` empties the field (e.g. a
-    website that now points somewhere unsafe). Provenance becomes "override".
+    website that now points somewhere unsafe); `remove` drops the whole record (e.g. a
+    trade association listed as a food hub; column is ignored). Provenance becomes
+    "override". `markets` is modified in place.
     A row whose record isn't in this build is reported, not fatal."""
     col_attr = {col: attr for attr, col in ATTR_TO_COLUMN.items()}
     col_attr["Category"] = "category"
@@ -130,12 +132,18 @@ def apply_overrides(markets: List[Market], overrides: List[dict]) -> None:
     index = {_rkey(m.business_name, m.city): m for m in markets}
     for o in overrides:
         m = index.get(_rkey(o["name"], o.get("city", "")))
+        mode = (o.get("mode") or "set").strip().lower()
+        if mode == "remove":
+            if m is None:
+                print(f"  override not applied (record missing): {o['name']} / remove")
+            elif m in markets:
+                markets.remove(m)
+            continue
         attr = col_attr.get((o.get("column") or "").strip())
         if m is None or attr is None:
             print(f"  override not applied ({'record missing' if m is None else 'unknown column'}): "
                   f"{o['name']} / {o.get('column')}")
             continue
-        mode = (o.get("mode") or "set").strip().lower()
         value = "" if mode == "clear" else (o.get("value") or "").strip()
         if mode == "prepend" and getattr(m, attr):
             value = f"{value} {getattr(m, attr)}"
