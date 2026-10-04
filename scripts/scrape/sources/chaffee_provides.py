@@ -81,6 +81,56 @@ def _polite_get(url: str) -> str:
     return _get(url)
 
 
+# ---- page cache -----------------------------------------------------------------
+# The directory changes rarely and a polite crawl takes ~8 minutes, so builds reuse
+# the last downloaded pages. A page is re-downloaded only when its cached copy is older
+# than CHAFFEE_MAX_AGE_DAYS (default 7), or on every page when CHAFFEE_REFRESH=1.
+# Parsing always runs on the cached HTML, so parser changes apply without a recrawl.
+
+CACHE_DIR = os.path.normpath(os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", ".cache", "chaffee_provides"))
+DEFAULT_MAX_AGE_DAYS = 7.0
+
+
+def _cache_path(cache_dir: str, url: str) -> str:
+    key = re.sub(r"[^A-Za-z0-9._-]+", "_", url.split("://", 1)[-1]).strip("_")
+    return os.path.join(cache_dir, key + ".html")
+
+
+class CachedGet:
+    """A `get(url) -> html` that serves fresh cached pages and downloads the rest.
+    Counts `hits` / `fetched` so the build can say whether it recrawled."""
+
+    def __init__(self, cache_dir: str = CACHE_DIR, max_age_days: float = DEFAULT_MAX_AGE_DAYS,
+                 refresh: bool = False, fetcher=_polite_get, now=time.time):
+        self.cache_dir, self.max_age, self.refresh = cache_dir, max_age_days * 86400, refresh
+        self.fetcher, self.now = fetcher, now
+        self.hits = self.fetched = 0
+
+    def __call__(self, url: str) -> str:
+        path = _cache_path(self.cache_dir, url)
+        if (not self.refresh and os.path.exists(path)
+                and self.now() - os.path.getmtime(path) < self.max_age):
+            self.hits += 1
+            with open(path, encoding="utf-8") as fh:
+                return fh.read()
+        html = self.fetcher(url)
+        os.makedirs(self.cache_dir, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(html)
+        self.fetched += 1
+        return html
+
+
+def cached_get_from_env() -> CachedGet:
+    try:
+        max_age = float(os.environ.get("CHAFFEE_MAX_AGE_DAYS", DEFAULT_MAX_AGE_DAYS))
+    except ValueError:
+        max_age = DEFAULT_MAX_AGE_DAYS
+    refresh = os.environ.get("CHAFFEE_REFRESH", "").strip().lower() in ("1", "true", "yes")
+    return CachedGet(max_age_days=max_age, refresh=refresh)
+
+
 # ---- parsing ------------------------------------------------------------------
 
 class _Listing(HTMLParser):
@@ -442,8 +492,12 @@ def market_from_asset(asset: dict) -> Optional[Market]:
     return m
 
 
-def fetch(get=_polite_get, exclusions: Optional[Dict[str, str]] = None,
+def fetch(get=None, exclusions: Optional[Dict[str, str]] = None,
           overrides: Optional[Dict[str, dict]] = None) -> List[Market]:
+    """`get` defaults to the page cache (see CachedGet); pass any `get(url) -> html`
+    to bypass it (tests pass fixtures)."""
+    if get is None:
+        get = cached_get_from_env()
     excluded = load_exclusions() if exclusions is None else exclusions
     overrides = load_overrides() if overrides is None else overrides
     post_ids: Dict[str, str] = {}
@@ -478,4 +532,7 @@ def fetch(get=_polite_get, exclusions: Optional[Dict[str, str]] = None,
             if key in overrides:
                 apply_overrides(m, overrides[key])
             out.append(m)
+    if isinstance(get, CachedGet):
+        print(f"  chaffee_provides: {get.hits} pages from cache, {get.fetched} downloaded "
+              f"(refresh with CHAFFEE_REFRESH=1)")
     return out

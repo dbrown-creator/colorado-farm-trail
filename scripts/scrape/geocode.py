@@ -84,3 +84,72 @@ def county_for(lat: float, lon: float) -> str:
         except (KeyError, IndexError, TypeError):
             name = ""
     return re.sub(r"\s+County$", "", name.strip())
+
+
+# ---- persistent cache -------------------------------------------------------------
+# Address geocodes and coordinate->county answers don't change between builds, so they
+# are remembered in .cache/geocode.json and only new records hit the network. Only
+# successful answers are stored: a miss (or a service outage) is retried next build.
+# GEOCODE_REFRESH=1 ignores the stored answers (and overwrites them).
+
+import os as _os
+
+CACHE_PATH = _os.path.normpath(_os.path.join(
+    _os.path.dirname(_os.path.abspath(__file__)), "..", "..", ".cache", "geocode.json"))
+
+
+class GeoCache:
+    def __init__(self, path: str = CACHE_PATH, refresh: bool = False,
+                 geocode=None, county=None):
+        self.path, self.refresh = path, refresh
+        self._geocode = geocode or geocode_address
+        self._county = county or county_for
+        self.data = {"address": {}, "county": {}}
+        self.hits = self.lookups = 0
+        if not refresh and path and _os.path.exists(path):
+            try:
+                with open(path, encoding="utf-8") as fh:
+                    loaded = json.load(fh)
+                self.data["address"].update(loaded.get("address", {}))
+                self.data["county"].update(loaded.get("county", {}))
+            except (OSError, ValueError):
+                pass
+
+    @staticmethod
+    def _akey(address, city, zipc) -> str:
+        return "|".join(re.sub(r"\s+", " ", (x or "").strip().lower()) for x in (address, city, zipc))
+
+    @staticmethod
+    def _ckey(lat, lon) -> str:
+        return f"{round(float(lat), 5)},{round(float(lon), 5)}"
+
+    def geocode_address(self, address, city, zipc):
+        k = self._akey(address, city, zipc)
+        if k in self.data["address"]:
+            self.hits += 1
+            lat, lon, county = self.data["address"][k]
+            return lat, lon, county
+        self.lookups += 1
+        r = self._geocode(address, city, zipc)
+        if r:
+            self.data["address"][k] = list(r)
+        return r
+
+    def county_for(self, lat, lon):
+        k = self._ckey(lat, lon)
+        if k in self.data["county"]:
+            self.hits += 1
+            return self.data["county"][k]
+        self.lookups += 1
+        c = self._county(lat, lon)
+        if c:
+            self.data["county"][k] = c
+        return c
+
+    def save(self) -> None:
+        if not self.path:
+            return
+        _os.makedirs(_os.path.dirname(self.path), exist_ok=True)
+        with open(self.path, "w", encoding="utf-8") as fh:
+            json.dump(self.data, fh, ensure_ascii=False, indent=0, sort_keys=True)
+

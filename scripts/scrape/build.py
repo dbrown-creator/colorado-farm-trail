@@ -108,21 +108,30 @@ def collect() -> list:
     return records
 
 
-def fill_geography(markets: list) -> None:
+def fill_geography(markets: list, cache=None) -> None:
     """Geocode missing coordinates and backfill county. Derived coords are flagged
-    geo_source='census-geocoder'; source-provided coords are left as-is."""
+    geo_source='census-geocoder'; source-provided coords are left as-is. Lookups go
+    through a persistent GeoCache, so only records new since the last build hit the
+    network (GEOCODE_REFRESH=1 redoes them all)."""
+    own_cache = cache is None
+    if own_cache:
+        refresh = os.environ.get("GEOCODE_REFRESH", "").strip().lower() in ("1", "true", "yes")
+        cache = geocode.GeoCache(refresh=refresh)
     for m in markets:
         if m.latitude is None or not in_colorado(m.latitude, m.longitude):
-            r = geocode.geocode_address(m.address, m.city, m.zip)
+            r = cache.geocode_address(m.address, m.city, m.zip)
             if r and in_colorado(r[0], r[1]):
                 m.latitude, m.longitude, county = r
                 m.geo_source = "census-geocoder"
                 if not m.county and county:
                     m.set("county", county, "census-geocoder")
         if not m.county and m.latitude is not None:
-            county = geocode.county_for(m.latitude, m.longitude)
+            county = cache.county_for(m.latitude, m.longitude)
             if county:
                 m.set("county", county, "census-geocoder")
+    if own_cache:
+        cache.save()
+        print(f"Geography: {cache.hits} cached answers, {cache.lookups} network lookups.")
 
 
 def write(markets: list) -> None:
