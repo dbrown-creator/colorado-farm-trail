@@ -49,3 +49,4 @@ merge,Foodshed Alliance,Salida,Salida Farmers Market,Salida,,Foodshed Alliance r
 merge,English Farm,Delta,Bills' Pumpkin Patch,Delta,,Same address (52110 Amber Rd): the pumpkin patch is on English Farm (reviewed 2026-10-04)
 merge,Delicious Orchards,Hotchkiss,"Big B's Delicious Orchards U-pick, Cafe & Tasting Room",Hotchkiss,,Same orchard (Big B's Delicious Orchards) (reviewed 2026-10-04)
 distinct,Wishing Star Farm,Colorado Springs,Four Corners Farm,Colorado Springs,,Different farms; neither has an address so both sit on the town centroid (reviewed 2026-10-04)
+distinct,Breckenridge Farmers Market,Breckenridge,Breckenridge Sunday Market,Breckenridge,,Different markets: Thursday evenings at the Exchange Lot vs Sunday Main Street market (reviewed 2026-10-04)
