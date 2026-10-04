@@ -33,7 +33,7 @@ OUT_COMPILED = ROOT / "data-compiled/phase3"
 KNOWN_SOURCES = [
     ("Phase 1 live", ROOT / "data-compiled/farm_fresh_directory_mymaps.csv", "Business Name"),
     ("Phase 2 build", ROOT / "data-compiled/phase2/co_farmers_markets_all_mymaps.csv", "Business Name"),
-    ("CO Proud finder", ROOT / "source-data/phase2/colorado_proud_finder/colorado_proud_finder_raw.csv", "name"),
+    ("CO Proud finder", ROOT / "source-data/phase3/colorado_proud_finder/colorado_proud_finder_raw.csv", "name"),
 ]
 
 # Section headings that mean "this vendor grows or raises food/plants".

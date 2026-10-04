@@ -1,7 +1,7 @@
-"""Source: Colorado Proud member directory (coloradoproud.com/product-finder/).
+"""Phase 3: Colorado Proud member directory (coloradoproud.com/product-finder/).
 
-This is the FULL Colorado Proud membership (~2,500 businesses of every type), not the
-Farm Fresh ArcGIS layer that `colorado_proud.py` reads. The finder is WordPress with
+This is the FULL Colorado Proud membership (~1,550 businesses of every type), not the
+Farm Fresh ArcGIS layer that scripts/scrape/sources/colorado_proud.py reads. The finder is WordPress with
 everything server-rendered; there is no JSON API behind it.
 
 Two passes:
@@ -14,12 +14,16 @@ Two passes:
    grouped under headings: Business Type, Products, Product Attributes, Payment
    Methods, Business Attributes; plus website, socials and a description.
 
-Pipeline role (find -> approve -> push): `refresh_sources.py colorado_proud_finder`
-calls `fetch()`, which re-reads the 6 listing pages but fetches profiles only for bids
-it has never seen (`.cache/colorado_proud_finder/profiles.jsonl`; CPF_REFRESH=1 recrawls
-all ~1,550, ~40 min). It also rewrites the full-membership reports in
-source-data/phase2/colorado_proud_finder/ and returns only in-scope businesses (see
-TYPE_CATEGORIES) as Market records for the snapshot.
+Phase 3 = held off the map until reviewed; nothing here feeds the Phase 2 build.
+
+Run: python scripts/phase3/colorado_proud_finder.py
+  Re-reads the 6 listing pages and fetches profiles only for members it has never seen
+  (.cache/colorado_proud_finder/profiles.jsonl; CPF_REFRESH=1 recrawls all ~1,550,
+  ~40 min). Writes:
+    source-data/phase3/colorado_proud_finder/   full membership, every type (reports)
+    data-compiled/phase3/colorado_proud_members.csv
+        in-scope members (TYPE_CATEGORIES) in the 22 My Maps columns, plus whether each
+        is already in the Phase 1 / Phase 2 data (name match only, for review).
 
 Parsers are pure (regex over the very regular markup) so they can be tested offline.
 """
@@ -32,10 +36,14 @@ import re
 import time
 import urllib.error
 import urllib.request
+import sys
 from typing import Dict, Iterable, List, Optional
 
-from ..normalize import facebook_url, in_colorado, instagram_url, phone, website_url, zipcode
-from ..schema import Market
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from scrape.normalize import (facebook_url, in_colorado, instagram_url, name_key,  # noqa: E402
+                              phone, website_url, zipcode)
+from scrape.schema import COLUMNS, Market  # noqa: E402
 
 SOURCE = "colorado_proud_finder"
 BASE = "https://coloradoproud.com"
@@ -52,9 +60,14 @@ PROFILE_GROUPS = {
     "Business Attributes": "business_attributes",
 }
 
-REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
+REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 CACHE_PATH = os.path.join(REPO, ".cache", SOURCE, "profiles.jsonl")
-REPORT_DIR = os.path.join(REPO, "source-data", "phase2", SOURCE)
+REPORT_DIR = os.path.join(REPO, "source-data", "phase3", SOURCE)
+MEMBERS_CSV = os.path.join(REPO, "data-compiled", "phase3", "colorado_proud_members.csv")
+KNOWN_SOURCES = [
+    ("Phase 1 live", os.path.join(REPO, "data-compiled", "farm_fresh_directory_mymaps.csv")),
+    ("Phase 2 build", os.path.join(REPO, "data-compiled", "phase2", "co_farmers_markets_all_mymaps.csv")),
+]
 
 # Scope: which Colorado Proud business types go on the trail, and as what site category.
 # Order = priority, so a multi-type business gets its most farm-like label first.
@@ -386,3 +399,52 @@ def write_reports(rows: List[Dict], out_dir: str = REPORT_DIR, log=print) -> Non
         w.writerows((t, _TYPE_LABEL.get(t, ""), n) for t, n in counts.most_common())
     log(f"  {len(rows)} members ({sum(r['in_scope'] == 'yes' for r in rows)} in scope), "
         f"{len(counts)} types -> {out_dir}")
+
+
+# ---- Phase 3 members list -----------------------------------------------------------
+
+MEMBER_EXTRA = ["Source ID", "Profile URL", "Already Known", "Known Match", "Status"]
+
+
+def _known_index() -> Dict[str, List[str]]:
+    """name_key -> ["Phase 2 build: Name (City)", ...] across the datasets already in use."""
+    import csv
+    index: Dict[str, List[str]] = {}
+    for label, path in KNOWN_SOURCES:
+        if not os.path.exists(path):
+            continue
+        with open(path, encoding="utf-8-sig", newline="") as f:
+            for r in csv.DictReader(f):
+                k = name_key(r.get("Business Name", ""))
+                if k:
+                    index.setdefault(k, []).append(
+                        f"{label}: {r['Business Name']} ({r.get('City', '')})")
+    return index
+
+
+def write_members(markets: List[Market], path: str = MEMBERS_CSV, log=print) -> None:
+    import csv
+    known = _known_index()
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    rows = []
+    for m in sorted(markets, key=lambda m: (m.business_name.lower(), m.source_id)):
+        row = m.to_mymaps_row()
+        hits = known.get(name_key(m.business_name), [])
+        row.update({"Source ID": m.source_id, "Profile URL": PROFILE_URL.format(bid=m.source_id),
+                    "Already Known": "yes" if hits else "no", "Known Match": "; ".join(hits),
+                    "Status": "prospect - unreviewed"})
+        rows.append(row)
+    with open(path, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=COLUMNS + MEMBER_EXTRA)
+        w.writeheader()
+        w.writerows(rows)
+    n_known = sum(r["Already Known"] == "yes" for r in rows)
+    log(f"  {len(rows)} in-scope members ({n_known} already known by name) -> {path}")
+
+
+def main() -> None:
+    write_members(fetch())
+
+
+if __name__ == "__main__":
+    main()
