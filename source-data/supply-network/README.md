@@ -42,6 +42,43 @@ stockist is classified by hand as food-service, food retail or non-food retail
 |---|---|---|
 | `bee_squared` (bethsbees.com) | 75 rows, 68 businesses (chains merged) | 2026-10-03 |
 
+## Roaring Fork + Farm Map (2026-10-04)
+
+The valley tourism boards' Roaring Fork + Farm Map
+(carbondale.com/roaring-fork-farm-map, 2023) names "local food champions". It rarely
+says which farms they buy from, so each champion was checked against its own site and
+the local press. That added 11 links and 10 businesses: Mesa Microgreens (Silt) to seven
+Aspen/Snowmass/Glenwood kitchens, Nieslanik Beef grain to Marble Distilling, Potter
+Farms to the Roaring Fork Valley Co-op, and Woody Creek apple brandy and Carboy Malbec
+in Il Porcellino's salami.
+
+Left out:
+- Free Range Kitchen (Basalt) is closed. Its 2019 farm list (The Other Side Ranch,
+  Erin's Acres, Rocking TT Bar, Rock Bottom Ranch, Two Roots, Farm Runners) isn't loaded.
+- Avalanche Cheese and Meat & Cheese have the same owners; it isn't a supplier link, and
+  the goat dairy closed in 2016.
+- Bosq's "rabbits from Sopris Farm" (Aspen Sojourner, 2020): no such farm could be found.
+- Mawita, Casey Brewing (Palisade/Hotchkiss growers, unnamed) and The Pullman's
+  "Olathe corn" name no specific producer.
+
+## Chaffee County (2026-10-04)
+
+Researched for the guide's Chaffee County day plan. Most Salida and Buena Vista
+restaurants say "local" without naming a farm. Deerhammer, Wood's and Banyan Breads say
+"San Luis Valley grain" without naming the farm. This adds 5 links: Arrowpoint
+Cattle → Eddyline, Triangle Oasis and Rocky Mountain Garlic → Mantis Kitchen,
+Headwater Farms → Lettucehead, and Hutchinson Ranch → Lago Trattoria (press, 2026).
+
+Left out:
+- Mantis Kitchen's other named suppliers (LazEwe, Silver Whisker, Tooth and Gill,
+  Gosar, Beekeepers Honey Boutique) give no town. Its Scanga item is Gulf shrimp.
+- Mantis Kitchen itself now runs by appointment and at the Saturday market, so check it's
+  still operating.
+- Lettucehead's own site still names Jumpin' Good Goat Dairy, which closed (Buck &
+  Bloom Cheese reopened the site in 2025). Lettucehead's other suppliers (Blue Range,
+  Yoder, Erin's Greenhouse) come from search snippets only.
+- Ploughboy Local Market and The Butcher's Table (Salida) have closed.
+
 ## Known gaps
 
 - Every restaurant sourcing page and town-listing article in the pilot is fully loaded,

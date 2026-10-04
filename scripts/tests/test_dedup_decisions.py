@@ -86,7 +86,7 @@ def test_committed_decisions_file_is_well_formed():
     assert rows, "decisions file should not be empty"
     for r in rows:
         assert r["action"] in ("merge", "distinct"), r
-        assert r["name"] and r["city"] and r["target_name"], r
+        assert r["name"] and r["target_name"], r   # city may be blank (some Chaffee records have none)
 
 
 def test_override_set_and_prepend_win_over_sources():

@@ -71,8 +71,9 @@ def collect(snapshot_dir: str = snapshots.SNAPSHOT_DIR) -> list:
         records += enr
 
     for name in snapshots.NETWORK_SOURCES:
-        if name == "usda_api":
+        if name == "colorado_proud_finder":
             # Hand-researched businesses no directory carries (curated_records.csv).
+            # Ranked above the member finder (self-reported) and USDA (broad, thin).
             cur = curated.fetch()
             if cur:
                 print(f"Curated new records: {len(cur)}", flush=True)
