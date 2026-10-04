@@ -41,7 +41,8 @@ var CATEGORIES = [
   "Agritourism",
   "Winery",
   "Garden Center / Greenhouse",
-  "Restaurant"
+  "Restaurant",
+  "Wholesale Grower"
 ];
 
 var MONTHS = [
@@ -163,6 +164,10 @@ function createBusinessForm() {
   form.addMultipleChoiceItem()
     .setTitle('ADA Accessible')
     .setChoiceValues(['No', 'Yes']);
+
+  form.addParagraphTextItem()
+    .setTitle('Where to Get It')
+    .setHelpText('Wholesale growers: stores, markets or restaurants that carry your products, one per line (e.g. "Whole Foods Market, Boulder").');
 
   form.addParagraphTextItem()
     .setTitle('Notes')

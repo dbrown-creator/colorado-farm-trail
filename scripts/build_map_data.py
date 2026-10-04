@@ -106,6 +106,10 @@ def main():
                 "snap": yes(row.get("SNAP")),
                 "ada": yes(row.get("ADA Accessible")),
                 "notes": clean(row.get("Notes")),
+                # Stores/markets/restaurants carrying a wholesale grower's products.
+                # Semicolon-separated, since entries can contain commas.
+                "whereToGet": [p.strip() for p in (clean(row.get("Where to Get It")) or "").split(";")
+                               if p.strip()],
                 "lat": lat,
                 "lng": lng,
             }
