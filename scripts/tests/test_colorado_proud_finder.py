@@ -67,3 +67,22 @@ def test_placeholder_address_is_dropped():
     m = cpf.to_market(card, {"business_types": ["Bakery"]})
     assert (m.address, m.city, m.zip, m.latitude) == ("", "", "", None)
     assert m.category == "Bakery"
+
+
+def test_farmers_market_type_only_for_markets():
+    # Members tick "Farmers Market" when they sell at one; only actual markets keep it.
+    fm = ["Farmers Market"]
+    assert cpf.categories_for(fm, "Durango Farmers Market") == ["Farmers' Market"]
+    assert cpf.categories_for(fm, "Rebel Marketplace") == ["Farmers' Market"]
+    assert cpf.categories_for(fm, "Mercado Del Norte") == ["Farmers' Market"]
+    assert cpf.categories_for(fm, "Rocky Mountain Events, LLC.") == ["Farmers' Market"]  # organizer
+    assert cpf.categories_for(fm + ["Farm / Ranch"], "Koha Farm") == ["On-Farm / Ranch Sales"]
+    assert cpf.categories_for(fm + ["Cottage Food"], "Latina Salsas") == ["Food Maker"]
+    assert cpf.categories_for(fm, "Tongue Burners") == []          # market-only vendor: off the map
+    assert cpf.categories_for(fm + ["Retailer"], "Young's Market & Garden Center") == [
+        "Garden Center / Greenhouse"]                                  # "Market" in name, not a market
+
+
+def test_market_only_vendor_is_out_of_scope():
+    card = dict(cpf.parse_listing(CARD)[0], name="Moon Peppers Co. LLC")
+    assert cpf.to_market(card, {"business_types": ["Farmers Market", "Food Manufacturer"]}) is None
