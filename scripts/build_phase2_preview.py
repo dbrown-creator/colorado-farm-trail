@@ -25,6 +25,7 @@ REPO = HERE.parent
 sys.path.insert(0, str(HERE))
 
 import build_map_data  # noqa: E402
+import market_schedule  # noqa: E402
 from scrape import categories  # noqa: E402
 
 OUT_DIR = REPO / "preview" / "phase2"
@@ -49,6 +50,10 @@ def build_data() -> int:
     build_map_data.main()
     markets = json.loads(out.read_text(encoding="utf-8"))
     for m in markets:
+        # The market calendar (calendar.html) reads parsed sessions; markets only.
+        if "Farmers' Market" in (m.get("categories") or [m["category"]]):
+            m["schedule"] = market_schedule.parse_schedule(
+                m.get("hours") or "", ", ".join(m.get("monthsOpen") or []))
         labels = m.get("categories") or [m["category"]]
         groups = categories.groups_for(", ".join(labels))
         m["labels"] = labels                                   # precise data labels
@@ -88,10 +93,18 @@ def build_page(n: int) -> None:
               'border-radius:0 0 8px 8px">Phase 2 preview — local only, not the live site</div>')
     html = html.replace("<body", "<!--phase2-preview--><body", 1)
     html = re.sub(r"(<body[^>]*>)", r"\1" + banner, html, count=1)
+    html = html.replace('<a class="map-credit" href="about.html">',
+                        '<a class="map-credit" href="calendar.html">📅 Market calendar</a>\n'
+                        '    <a class="map-credit" href="about.html">', 1)
     (OUT_DIR / "index.html").write_text(html, encoding="utf-8")
     for extra in ("about.html", "og-image.png"):
         if (REPO / extra).exists():
             shutil.copy2(REPO / extra, OUT_DIR / extra)
+    # Phase 2 pages wait in _phase2/ (GitHub Pages' Jekyll build skips "_" folders,
+    # so they can't go live before the cutover). The preview gets them with the banner.
+    for page in sorted((REPO / "_phase2").glob("*.html")):
+        text = re.sub(r"(<body[^>]*>)", r"\1" + banner, page.read_text(encoding="utf-8"), count=1)
+        (OUT_DIR / page.name).write_text(text, encoding="utf-8")
 
 
 def main() -> None:
