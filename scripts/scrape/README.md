@@ -140,10 +140,16 @@ Outputs (Phase 2, isolated; live Phase 1 Farm Fresh CSV untouched):
 - `source-data/phase2/co_farmers_markets_all_raw.csv` — same + `Source` / `Geo Source` /
   `Possible Dup Of` / `Provenance`
 
-Enrichment inputs are read from `source-data/phase2/enrichment/results/*.json` and
-folded in at top priority. Latest build (2026-10-03): **440 records**. `Possible Dup Of`
-flags pairs for human review; nothing is auto-merged except reviewed
-`dedup_decisions.csv` rows.
+Website / Facebook / Instagram values from every source (including enrichment and
+maintainer overrides) go through `normalize.clean_url` / `facebook_url` /
+`instagram_url`, the same rules the live build uses (`build_map_data.py` imports them):
+bare or `@` handles become profile URLs, scheme-less URLs get `https://`, and page names
+with spaces are dropped rather than written as broken links.
+
+Enrichment inputs read from `source-data/phase2/enrichment/results/*.json` (folded at
+top priority). Latest full build: **149 markets** + official-site enrichment across 109
+of them (`  Possible Dup Of` flags name-stem pairs for human review; nothing is
+auto-merged).
 
 ## Test
 
