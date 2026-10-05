@@ -1,0 +1,78 @@
+{
+ "id": "kilt-farm__longmont",
+ "name": "Kilt Farm",
+ "offers_csa": true,
+ "csa_status": "opens_later",
+ "signup_url": "https://www.kiltfarm.com/csa",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables",
+  "Eggs",
+  "Fruit",
+  "Mushrooms",
+  "Other"
+ ],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Boulder",
+   "address": null,
+   "town": "Boulder",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  },
+  {
+   "name": "Niwot",
+   "address": null,
+   "town": "Niwot",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  },
+  {
+   "name": "Gunbarrel",
+   "address": null,
+   "town": "Gunbarrel",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  },
+  {
+   "name": "Louisville",
+   "address": null,
+   "town": "Louisville",
+   "day": null,
+   "time": null,
+   "on_farm": false
+  }
+ ],
+ "delivery": {
+  "offered": true,
+  "kind": "other",
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Home delivery for the Front Range area (CSA page); another Kilt page says home delivery throughout Boulder County. Fee not stated."
+ },
+ "evidence": [
+  {
+   "field": "csa_status",
+   "quote_or_summary": "CSA page says they will let you know when the CSA opens",
+   "url": "https://www.kiltfarm.com/csa"
+  },
+  {
+   "field": "share_types",
+   "quote_or_summary": "Regular (2-4 people) and family (4-6) shares, weekly or bi-weekly; add-ons eggs, fruit, mushrooms, coffee; 20-week CSA",
+   "url": "https://www.kiltfarm.com/csa"
+  }
+ ],
+ "notes": "Weekly or bi-weekly pickup, so frequency null. Pickup sites listed by town only (no addresses/days/times). No season dates or price on page. Another Kilt page (CSA manager job posting) mentions April to November and 300+ families. Signup not currently open per page."
+}

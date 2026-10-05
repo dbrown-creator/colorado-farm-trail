@@ -1,0 +1,34 @@
+{
+ "id": "modern-farmsteads__longmont",
+ "name": "Modern Farmsteads",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "offers_csa",
+   "quote_or_summary": "Listing says 'small market farm and CSA for residential and culinary customers' but homepage shows no CSA info",
+   "url": "https://www.modernfarmsteads.com/"
+  }
+ ],
+ "notes": "offers_csa left unknown: listing mentions CSA but the homepage has none. Same business as 100x Farm (see 100x-farm__longmont, which does name CSA models). Probably a duplicate/related entity."
+}

@@ -1,0 +1,48 @@
+{
+ "id": "owltree-farm__fort-collins",
+ "name": "Owltree Farm",
+ "offers_csa": true,
+ "csa_status": "closed_season",
+ "signup_url": "https://www.owltreefarmco.com/csa",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": 2026,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": "$450 membership (includes $500 farm stand gift card)",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "OwlTree Farm stand",
+   "address": "4605 E County Road 58, Fort Collins, CO 80524",
+   "town": "Fort Collins",
+   "day": "Thu-Sun",
+   "time": "10am-6pm",
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": true,
+  "kind": "towns",
+  "radius_miles": null,
+  "zips": [],
+  "towns": [
+   "Wellington",
+   "north Fort Collins"
+  ],
+  "fee": "$5 per delivery",
+  "details": "Requires 2 days notice"
+ },
+ "evidence": [
+  {
+   "field": "csa_status",
+   "quote_or_summary": "Page says 'No CSA for 2026 Sorry!'",
+   "url": "https://www.owltreefarmco.com/csa"
+  }
+ ],
+ "notes": "Normally a vegetable CSA (mid-June to October) but no CSA in 2026; no 2027 info. Page gives farm stand address 4605 E CR 58, differing from target address 2208 E Harmony Rd. Delivery wording may apply to farm orders generally. Poultry CSA mentioned in target notes was not seen on the page."
+}

@@ -1,0 +1,50 @@
+{
+ "id": "mushroom-love-co__chaffee",
+ "name": "Mushroom Love Co",
+ "offers_csa": true,
+ "csa_status": "closed_season",
+ "signup_url": "https://www.mushroomloveco.com/product-page/copy-of-mushroom-csa-2026",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": 2026,
+ "season_precision": null,
+ "share_types": [
+  "Mushrooms"
+ ],
+ "frequency": "Weekly",
+ "price": "$200 for 2026 season (about 15 lbs); monthly subscription $35/month (3 lbs)",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Mushroom Love Co farm (monthly subscription pickup)",
+   "address": null,
+   "town": null,
+   "day": "2nd and 4th Monday of each month",
+   "time": null,
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "season",
+   "quote_or_summary": "2026 CSA runs late May through October, ~15 lbs, weekly portions 0.5-1 lb",
+   "url": "https://www.mushroomloveco.com/product-page/copy-of-mushroom-csa-2026"
+  },
+  {
+   "field": "subscription",
+   "quote_or_summary": "One Month Subscription $35, 3 lbs, June-September, local residents only, out of stock; pickup 2nd and 4th Mondays at farm",
+   "url": "https://www.mushroomloveco.com/product-page/mushroom-subscription"
+  }
+ ],
+ "notes": "Season given only as late May through October (no exact dates) so start/end null. 2026 season over; no 2027 info. Mushrooms also sold at Buena Vista Farmers Market Sundays via Headwaters Farm. Pickup address/time not stated. Contact 970-420-8359."
+}

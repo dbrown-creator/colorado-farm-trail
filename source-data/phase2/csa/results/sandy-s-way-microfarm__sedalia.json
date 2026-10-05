@@ -1,0 +1,58 @@
+{
+ "id": "sandy-s-way-microfarm__sedalia",
+ "name": "Sandy's Way Microfarm",
+ "offers_csa": true,
+ "csa_status": "open",
+ "signup_url": "https://sandyswayfarm.com/pages/harvest-membership-a",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables",
+  "Fruit",
+  "Eggs",
+  "Meat",
+  "Dairy",
+  "Bread/Baked",
+  "Grains"
+ ],
+ "frequency": "Other",
+ "price": "Prepaid credit: $300 (gets $330), $500 ($550), $700 ($770); Table Member $1,500 ($1,650+, limited to 15)",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Sandy's Way Microfarm (garage bay 3)",
+   "address": "3833 Bear Canyon Circle, Sedalia, CO 80135",
+   "town": "Sedalia",
+   "day": "Tue, Thu, Sat",
+   "time": "until 5pm Tue-Fri, 1pm Sat",
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": true,
+  "kind": "towns",
+  "radius_miles": null,
+  "zips": [],
+  "towns": [
+   "Castle Rock",
+   "Sedalia",
+   "Roxborough",
+   "Sterling Ranch",
+   "Highlands Ranch",
+   "Castle Pines"
+  ],
+  "fee": "Free",
+  "details": "Free home delivery for members"
+ },
+ "evidence": [
+  {
+   "field": "price",
+   "quote_or_summary": "Harvest Member tiers and Table Member",
+   "url": "https://sandyswayfarm.com/pages/harvest-membership-a"
+  }
+ ],
+ "notes": "Not a fixed-share CSA: Harvest Membership is prepaid credit with 10% discount, credits never expire, year-round, shop weekly harvest. Homepage also lists Castle Rock Farmers Market (Douglas County Fairgrounds) Saturdays June 13 - Oct 3, 2026 (market sales; not confirmed as membership pickup). Directory text mentions 7 pickup locations but only the farm was listed on fetched pages. SNAP not mentioned."
+}

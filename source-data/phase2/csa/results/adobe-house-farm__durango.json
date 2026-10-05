@@ -1,0 +1,36 @@
+{
+ "id": "adobe-house-farm__durango",
+ "name": "Adobe House Farm",
+ "offers_csa": false,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": true,
+  "kind": "other",
+  "radius_miles": null,
+  "zips": [],
+  "towns": [
+   "Durango"
+  ],
+  "fee": null,
+  "details": "Bulk produce delivery to restaurants, grocery stores and organizations (B2B), not consumer shares"
+ },
+ "evidence": [
+  {
+   "field": "offers_csa",
+   "quote_or_summary": "Site lists Durango Farmers Market Saturdays 8am-12pm May-Oct and a wholesale Produce Delivery page; no CSA mention",
+   "url": "http://www.adobehousefarm.com/produce-delivery"
+  }
+ ],
+ "notes": "Directory tags it CSA Farm, but homepage and produce-delivery page show only farmers market and wholesale delivery. Facebook page could not be read. offers_csa=false with moderate confidence; verify by phone/Facebook."
+}

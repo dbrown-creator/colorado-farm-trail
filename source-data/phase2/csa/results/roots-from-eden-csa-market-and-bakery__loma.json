@@ -1,0 +1,37 @@
+{
+ "id": "roots-from-eden-csa-market-and-bakery__loma",
+ "name": "Roots From Eden CSA Market and Bakery",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Meat",
+  "Eggs"
+ ],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "offers_csa",
+   "quote_or_summary": "Listing text: 'New for 2023 - Roots From Eden CSA is a Meat and Egg CSA' (pasture-raised chickens, rabbits, goats, quail)",
+   "url": "directory listing notes"
+  }
+ ],
+ "notes": "Farm site rootsfromeden.com could not be fetched (domain safety check rate-limited), so no season, price, signup page, or pickup details verified. Facebook link is just a search URL. Directory text is from 2023. Third-party snippets say on-site farm market open Sun-Fri 9-6, closed Sat (unverified). Needs a re-fetch of rootsfromeden.com."
+}

@@ -1,0 +1,34 @@
+{
+ "id": "inti-farms__arvada",
+ "name": "Inti Farms",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": "https://forms.gle/hwmuvc91H8LheFDF9",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": 2026,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "signup_url",
+   "quote_or_summary": "Linktree lists 2026 CSA Sign Up Google Form",
+   "url": "https://linktr.ee/inti.chacra.farms"
+  }
+ ],
+ "notes": "Linktree describes an agroecological organic vegetable farm in Arvada with CSA, wholesale, and farmstand. Google Form could not be read (safety check rate-limited), so dates, price, pickup unknown. Same address as Gentle Earth Farm (8412 Alkire St). Linktree Instagram is inti_farm_co."
+}

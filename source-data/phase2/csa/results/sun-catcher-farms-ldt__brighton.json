@@ -1,0 +1,28 @@
+{
+ "id": "sun-catcher-farms-ldt__brighton",
+ "name": "Sun Catcher Farms Ldt.",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "No website, social, or address in target. Only a LocalHarvest directory listing (not the farm's own page). Note suncatcherfarms.com is SunCatcher Farms in Portland, OR (different farm; domain did not resolve for fetch) - do not attribute. offers_csa unknown."
+}

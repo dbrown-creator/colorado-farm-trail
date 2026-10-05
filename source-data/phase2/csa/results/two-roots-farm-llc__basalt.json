@@ -1,0 +1,48 @@
+{
+ "id": "two-roots-farm-llc__basalt",
+ "name": "Two Roots Farm LLC",
+ "offers_csa": true,
+ "csa_status": "open",
+ "signup_url": "https://www.tworootsfarm.com/csasignup",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables",
+  "Flowers",
+  "Eggs",
+  "Other"
+ ],
+ "frequency": "Weekly",
+ "price": "Weekly $1,350; every other week $725 (20 weeks); signup page also shows veg shares from $755, flower shares from $160, sliding scale/supported shares",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Two Roots Farm",
+   "address": "100 Sopris Creek Road, Basalt, CO 81621",
+   "town": "Basalt",
+   "day": "Tue & Thu",
+   "time": "2pm-5:30pm",
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "On-farm pickup only"
+ },
+ "evidence": [
+  {
+   "field": "pickup_sites",
+   "quote_or_summary": "20 weeks, last week of May to mid-October; Tue/Thu 2-5:30pm on-farm; weekly $1,350 / EOW $725",
+   "url": "https://www.tworootsfarm.com/csa"
+  }
+ ],
+ "notes": "/csa page undated (references 2020-21 photos); prices there ($1,350/$725) conflict with /csasignup 'from $755' so one is stale or different tiers - verify. Season described generically (last week of May to mid-October, no year), so dates left null. Add-ons: flowers, eggs, fruit shares (hence share_types includes Other for fruit). Farm stand open Fridays through Oct 30, 2026."
+}

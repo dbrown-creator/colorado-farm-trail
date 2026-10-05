@@ -1,0 +1,50 @@
+{
+ "id": "fat-donkey-farm__fort-collins",
+ "name": "Fat Donkey Farm",
+ "offers_csa": true,
+ "csa_status": "full",
+ "signup_url": "http://www.fatdonkey.farm/shop",
+ "signup_opens": null,
+ "season_start": "2026-07-01",
+ "season_end": "2026-10-21",
+ "season_year": 2026,
+ "season_precision": "day",
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": "Small $424, Medium $667, Large $910 (full season)",
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Fat Donkey Farm",
+   "address": "2631 W Mulberry St, Fort Collins, CO 80521",
+   "town": "Fort Collins",
+   "day": "Wed",
+   "time": "2pm-6pm",
+   "on_farm": true
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Customer pickup only"
+ },
+ "evidence": [
+  {
+   "field": "csa_status",
+   "quote_or_summary": "2026 shares sold out",
+   "url": "http://www.fatdonkey.farm/shop"
+  },
+  {
+   "field": "season",
+   "quote_or_summary": "July 1 - October 21, weather dependent",
+   "url": "http://www.fatdonkey.farm/shop"
+  }
+ ],
+ "notes": "2026 season nearly over; 2027 info not posted. Members get 15% off extra farm stand produce."
+}

@@ -1,0 +1,36 @@
+{
+ "id": "emerge-aquaponics__colorado-springs",
+ "name": "Emerge Aquaponics",
+ "offers_csa": false,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "offers_csa",
+   "quote_or_summary": "Site navigation lists Buy and Wholesale only; subscription for lettuce at buy page",
+   "url": "https://emergeaquaponics.com/buy"
+  }
+ ],
+ "notes": "No CSA on the farm's site. It does offer a lettuce subscription (weekly, bi-weekly or monthly, 20% off: 1.5 lb $14, 3 lb $22) for pickup at the farm stand, 4135 Shoup Rd, Fri 1pm-Mon 7pm; orders by noon Thursday. Farm stand open 8am-7pm daily; Backyard Market in Black Forest, 6845 Shoup Rd, Sat 9am-1pm (May-Oct). Could be treated as a produce subscription rather than a CSA."
+}

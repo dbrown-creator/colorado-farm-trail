@@ -1,0 +1,28 @@
+{
+ "id": "donoma-farms__carr",
+ "name": "Donoma Farms",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "No website; Facebook page content not retrievable (only title). Third-party directories (search snippets) say year-round CSA with full/half shares and farm pickup, but this is not confirmed by the farm's own pages. Contact per directory: Justin Norton 303-408-3464."
+}

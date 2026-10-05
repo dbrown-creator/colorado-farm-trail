@@ -1,0 +1,58 @@
+{
+ "id": "micro-farms__arvada",
+ "name": "Micro Farms",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": "https://microfarmscolorado.com/csa/",
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Arvada",
+   "address": "7020 W. 61 Ave, Arvada, CO 80003",
+   "town": "Arvada",
+   "day": "Thu",
+   "time": "3-7pm",
+   "on_farm": true
+  },
+  {
+   "name": "Lakewood",
+   "address": "8090 W. 19 Ave, Lakewood, CO 80214",
+   "town": "Lakewood",
+   "day": "Thu",
+   "time": "3-7pm",
+   "on_farm": false
+  }
+ ],
+ "delivery": {
+  "offered": false,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": "Customer pickup only."
+ },
+ "evidence": [
+  {
+   "field": "pickup",
+   "quote_or_summary": "Thursdays 3-7pm at Arvada and Lakewood sites",
+   "url": "https://microfarmscolorado.com/csa/"
+  },
+  {
+   "field": "season",
+   "quote_or_summary": "Beginning of June through end of October (2024 season)",
+   "url": "https://microfarmscolorado.com/csa/"
+  }
+ ],
+ "notes": "STALE: CSA page content is for the 2024 season (pre-purchase for 2024 via Square store). Shares: Micro (4-5 items/wk), Half (6-7), Full (11-12). Season dates/year left null since stale. No prices, no SNAP info. No 2026/2027 info found."
+}

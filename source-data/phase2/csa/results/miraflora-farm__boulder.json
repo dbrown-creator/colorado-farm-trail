@@ -1,0 +1,28 @@
+{
+ "id": "miraflora-farm__boulder",
+ "name": "Miraflora Farm",
+ "offers_csa": false,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Website is Miraflora Wagyu (miraflorawagyu.com): online store for Wagyu beef; farm also raises hay, lavender, eggs, alpaca fleece. No CSA/share mentioned on pages checked (home and Welcome to the Miraflora Farm blog). Original www.MirafloraFarm.com failed to load. Confidence moderate."
+}

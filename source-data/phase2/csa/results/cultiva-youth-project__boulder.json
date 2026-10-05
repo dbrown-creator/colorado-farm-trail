@@ -1,0 +1,28 @@
+{
+ "id": "cultiva-youth-project__boulder",
+ "name": "Cultiva! Youth Project",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Listed website growinggardens.org is Growing Gardens (same address, 1630 Hawthorn Ave); Cultiva has no separate site/CSA found. Growing Gardens CSA at https://growinggardens.org/csa/ is likely this same program - see growing-gardens__boulder.json; treat as duplicate listing, do not double count. Not confirmed that Cultiva runs its own CSA."
+}

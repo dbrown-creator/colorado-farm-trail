@@ -1,0 +1,28 @@
+{
+ "id": "mountain-market-supply__eagle",
+ "name": "Mountain Market & Supply",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "Grocery store (112 W Second St, Eagle) with no own website. Listing note mentions a summer/fall CSA partnership (likely hosts a partner farm's pickup) but partner, dates and signup were not confirmed; square.site store, Facebook and Instagram could not be fetched (rate-limited). Search results showed no CSA detail. Not itself a farm CSA; at most a pickup host."
+}

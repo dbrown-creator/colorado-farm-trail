@@ -1,0 +1,53 @@
+{
+ "id": "meadows-edge-farm__buena-vista",
+ "name": "Meadows Edge Farm",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [
+  "Vegetables"
+ ],
+ "frequency": "Weekly",
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [
+  {
+   "name": "Buena Vista pickup (location not specified)",
+   "address": null,
+   "town": "Buena Vista",
+   "day": null,
+   "time": null,
+   "on_farm": null
+  },
+  {
+   "name": "Salida pickup (location not specified)",
+   "address": null,
+   "town": "Salida",
+   "day": null,
+   "time": null,
+   "on_farm": null
+  }
+ ],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "offers_csa",
+   "quote_or_summary": "Farm description (target notes, farm's own text): 18-week vegetable CSA first week of June through beginning of October, pick-up in Buena Vista and Salida, large and small shares; email or call for details",
+   "url": "https://www.facebook.com/meadowsedgefarmbv/"
+  }
+ ],
+ "notes": "No website. Facebook/Instagram pages returned no readable content. Year of season not stated so season dates left null (June to early Oct, 18 weeks). Price, signup, pickup days/times/addresses not available. Contact (third-party snippet): meadowsedgefarmbv@gmail.com, (401) 714-1489. Also sells at Buena Vista and Salida farmers markets and weekly prepackaged boxes (third-party)."
+}

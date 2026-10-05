@@ -1,0 +1,34 @@
+{
+ "id": "bonavida-growers__longmont",
+ "name": "Bonavida Growers",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "offers_csa",
+   "quote_or_summary": "LocalHarvest (third party): 'will be their 15th season' running a CSA",
+   "url": "https://www.localharvest.org/bonavida-growers-M75842"
+  }
+ ],
+ "notes": "No farm website or Facebook in target. Only third-party evidence (LocalHarvest listing last updated 2025-01-21): 15th CSA season, ~50 shares, mid-May to early October, 2024 prices Family $660, Standard $520, Mini $400, contact Tim Quinn (303) 449-6735, enrollment by contacting farm. Not from farm's own pages, so season/price fields left null; stale (2024/early 2025)."
+}

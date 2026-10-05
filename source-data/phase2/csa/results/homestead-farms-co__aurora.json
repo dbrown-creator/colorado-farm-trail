@@ -1,0 +1,28 @@
+{
+ "id": "homestead-farms-co__aurora",
+ "name": "Homestead Farms Co.",
+ "offers_csa": "unknown",
+ "csa_status": "unknown",
+ "signup_url": null,
+ "signup_opens": null,
+ "season_start": null,
+ "season_end": null,
+ "season_year": null,
+ "season_precision": null,
+ "share_types": [],
+ "frequency": null,
+ "price": null,
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [],
+ "notes": "No website resolvable: homesteadfarmsco.com DNS fail; no FB/IG. Third-party snippet (LocalHarvest) says micro urban homestead and organic egg producer with CSA season in January, phone 303-883-1778. Not verified on farm's own pages; no details recorded."
+}

@@ -1,0 +1,36 @@
+{
+ "id": "bluetrane-heritage-farm__elbert",
+ "name": "BlueTrane Heritage Farm",
+ "offers_csa": true,
+ "csa_status": "unknown",
+ "signup_url": "https://bluetranegroup.com/csa",
+ "signup_opens": null,
+ "season_start": "2026-06-05",
+ "season_end": "2026-10-17",
+ "season_year": 2026,
+ "season_precision": "day",
+ "share_types": [
+  "Eggs"
+ ],
+ "frequency": null,
+ "price": "$200/year (small chicken egg share) to $400/year (jumbo)",
+ "snap_accepted": null,
+ "pickup_sites": [],
+ "delivery": {
+  "offered": null,
+  "kind": null,
+  "radius_miles": null,
+  "zips": [],
+  "towns": [],
+  "fee": null,
+  "details": ""
+ },
+ "evidence": [
+  {
+   "field": "season",
+   "quote_or_summary": "Search summary of bluetranegroup.com/csa: 2026 CSA June 5 - Oct 17, up to 50 shares, running since 2018, $200-$400/yr",
+   "url": "https://bluetranegroup.com/csa"
+  }
+ ],
+ "notes": "CSA page itself could not be fetched (domain safety check rate-limited); values come from a search-engine summary of that page, so verify. Homepage fetch gave only nav text. Online store at app.barn2door.com/BlueTraneGroup/all. Pickup/delivery/status not found. Other share types (vegetables) unconfirmed."
+}
