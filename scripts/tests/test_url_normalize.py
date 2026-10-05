@@ -95,3 +95,15 @@ def test_enrichment_normalizes_social_fields():
     assert m.website == "http://www.salidacattlecompany.com"
     assert m.facebook == ""
     assert m.instagram == "https://instagram.com/durangofarmers"
+
+
+def test_fix_mojibake_repairs_cp1252_misreads():
+    from scrape.normalize import fix_mojibake
+    assert fix_mojibake("Salidaâ€™s Farmers Market") == "Salida’s Farmers Market"
+    assert fix_mojibake("CaÃ±on City") == "Cañon City"
+    assert fix_mojibake("Mayâ€“October") == "May–October"
+    assert fix_mojibake("A familyâ€‘run ranch") == "A family‑run ranch"
+    assert fix_mojibake("white, rosÃ©, and sparkling") == "white, rosé, and sparkling"
+    # Clean text, including real accents and dashes, is left alone.
+    for s in ("Cañon City", "Farmers' Market", "May–October", "Café", ""):
+        assert fix_mojibake(s) == s

@@ -5,17 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Colorado Farm Trail — Summer 2026</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%8C%BD</text></svg>" />
-<meta name="description" content="A free, filterable map of 163 Colorado farms, farmers' markets, U-picks, roadside stands and wineries. Eat local this summer." />
+<meta name="description" content="A free, filterable map of 1,200+ Colorado farms, farmers' markets, U-picks, roadside stands and wineries. Eat local this summer." />
 
 <!-- Social share preview -->
 <meta property="og:title" content="Colorado Farm Trail — Summer 2026" />
-<meta property="og:description" content="163 Colorado farms, markets, U-picks & stands on one filterable map. Eat local this summer!" />
+<meta property="og:description" content="1,200+ Colorado farms, markets, U-picks & stands on one filterable map. Eat local this summer!" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://coloradofarmtrail.com/" />
 <meta property="og:image" content="https://coloradofarmtrail.com/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Map of 163 Colorado farms, markets, U-picks and wineries, color-coded by type." />
+<meta property="og:image:alt" content="Map of 1,200+ Colorado farms, markets, U-picks and wineries, color-coded by type." />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://coloradofarmtrail.com/og-image.png" />
 
@@ -40,7 +40,7 @@
   function trackNearMe(where){ gtag('event', 'near_me', { placement: where }); }
 
   var SITE_URL = 'https://coloradofarmtrail.com/';
-  var SHARE_TEXT = 'Find your next farm stop. 163 Colorado farms, markets & U-picks on one map:';
+  var SHARE_TEXT = 'Find your next farm stop. 1,200+ Colorado farms, markets & U-picks on one map:';
 
   // Native share sheet when available, else copy to clipboard.
   function shareSite(){
@@ -298,7 +298,7 @@
   <aside class="sidebar glass" id="sidebar">
     <div class="sheet-handle" id="sheetHandle">
       <span class="grip"></span>
-      🔎 Filters <span class="badge"><span id="showingM">163</span> shown</span>
+      🔎 Filters <span class="badge"><span id="showingM">…</span> shown</span>
     </div>
     <div class="head">
       <button class="icon-btn" id="backBtn" title="Back to intro">←</button>
@@ -340,7 +340,7 @@
     <a class="map-credit accent" href="https://forms.gle/NFoVsEQURggzTBSX9"
        target="_blank" rel="noopener" onclick="trackAddBusiness('corner')">🚜 Add my business to the map</a>
   </div>
-  <div class="countpill glass"><b id="showing">163</b> of <span id="total">163</span> stops shown</div>
+  <div class="countpill glass"><b id="showing">…</b> of <span id="total">…</span> stops shown</div>
 
   <!-- Popups (each opens on its own) -->
   <div class="sheet-overlay" id="sheetOverlay">
@@ -365,7 +365,7 @@
            text it to a friend, post it, or share it with your community — every share helps a local grower.</p>
         <button type="button" class="share-primary" onclick="shareSite()">📤 Share this map</button>
         <div class="share-row">
-          <a class="share-alt" href="sms:?&body=Find your next farm stop. 163 Colorado farms, markets %26 U-picks on one map: https://coloradofarmtrail.com/"
+          <a class="share-alt" href="sms:?&body=Find your next farm stop. 1,200+ Colorado farms, markets %26 U-picks on one map: https://coloradofarmtrail.com/"
              onclick="trackShare('sms')">💬 Text a friend</a>
           <button type="button" class="share-alt" onclick="copyLink()">🔗 <span id="copyLabel">Copy link</span></button>
         </div>
@@ -379,20 +379,23 @@
 
   // ---- Category styling: color + emoji + short label ----
   var CATS = {
-    "Farmers' Market":            { color:"#3f7d3a", emoji:"🧺", short:"Markets" },
-    "Grocery Store":              { color:"#2f6f9f", emoji:"🛒", short:"Grocery" },
-    "CSA Farm":                   { color:"#c77d24", emoji:"🚜", short:"CSA" },
-    "On-Farm / Ranch Sales":      { color:"#8a6d3b", emoji:"🐄", short:"On-Farm" },
-    "Roadside Market":            { color:"#d94f4f", emoji:"🛻", short:"Stands" },
-    "U-Pick":                     { color:"#c2417a", emoji:"🍓", short:"U-Pick" },
-    "Winery":                     { color:"#7a4fb0", emoji:"🍷", short:"Wineries" },
-    "Garden Center / Greenhouse": { color:"#4a9d5b", emoji:"🌱", short:"Garden" },
-    "Agritourism":                { color:"#2f8f8f", emoji:"🌻", short:"Agritourism" },
-    "Restaurant":                 { color:"#5a6b8c", emoji:"🍽️", short:"Dining" },
-    "Wholesale Grower":           { color:"#6f7f2a", emoji:"📦", short:"Wholesale" },
-    "Other":                      { color:"#7c7c7c", emoji:"📍", short:"Other" }
+    // Map filter groups (scripts/scrape/categories.py); listings carry their group labels.
+    "Farmers' Markets":       { color:"#3f7d3a", emoji:"🧺", short:"Markets" },
+    "Farms & Ranches":        { color:"#8a6d3b", emoji:"🐄", short:"Farms" },
+    "Agritourism":            { color:"#2f8f8f", emoji:"🌻", short:"Agritourism" },
+    "CSA & Farm Shares":      { color:"#c77d24", emoji:"🚜", short:"CSA" },
+    "Farm Stands":            { color:"#d94f4f", emoji:"🛻", short:"Stands" },
+    "U-Pick":                 { color:"#c2417a", emoji:"🍓", short:"U-Pick" },
+    "Garden Centers":         { color:"#4a9d5b", emoji:"🌱", short:"Garden" },
+    "Wineries":               { color:"#7a4fb0", emoji:"🍷", short:"Wineries" },
+    "Shops & Grocers":        { color:"#2f6f9f", emoji:"🛒", short:"Shops" },
+    "Restaurants & Caterers": { color:"#5a6b8c", emoji:"🍽️", short:"Dining" },
+    "Wholesale & Food Hubs":  { color:"#6f7f2a", emoji:"📦", short:"Wholesale" },
+    "Food Assistance":        { color:"#a94f28", emoji:"🥫", short:"Food Help" },
+    "Other":                  { color:"#7c7c7c", emoji:"📍", short:"Other" }
   };
-  var TYPE_ORDER = Object.keys(CATS);
+  // "Other" stays as the style fallback but gets no chip: every listing has a group.
+  var TYPE_ORDER = Object.keys(CATS).filter(function(k){ return k !== "Other"; });
   function catStyle(c){ return CATS[c] || CATS["Other"]; }
   // A listing can belong to several categories (primary first). Labels with no style
   // of their own (e.g. "Sells to Schools") are skipped; "Other" only if nothing is known.
@@ -540,12 +543,39 @@
       return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
     });
   }
-  function makeIcon(cat){
-    var st = catStyle(cat);
+  // off = [dx, dy] pixel nudge for places that share one spot (see fanOut).
+  function makeIcon(cat, off){
+    var st = catStyle(cat), dx = off ? off[0] : 0, dy = off ? off[1] : 0;
     return L.divIcon({ className:"",
       html:'<div class="pin" style="background:'+st.color+'"><span>'+st.emoji+'</span></div>',
-      iconSize:[30,30], iconAnchor:[15,28], popupAnchor:[0,-27] });
+      iconSize:[30,30], iconAnchor:[15-dx,28-dy], popupAnchor:[dx,dy-27] });
   }
+  // Places at (nearly) the same spot, such as two organizations at one address, would
+  // stack and hide each other, and clustering is off from zoom 10, so fan them out in a
+  // small ring of pins. Pixel offsets, so they stay apart at every zoom.
+  function fanOut(list){
+    var groups = [], NEAR = 30;  // meters
+    list.forEach(function(m){
+      var g = null;
+      for(var j = 0; j < groups.length && !g; j++){
+        var a = groups[j][0], dy = (m.lat - a.lat) * 111320, dx = (m.lng - a.lng) * 111320 * Math.cos(a.lat * Math.PI / 180);
+        if(dx*dx + dy*dy <= NEAR*NEAR) g = groups[j];
+      }
+      if(g) g.push(m); else groups.push([m]);
+    });
+    groups.forEach(function(g){
+      if(g.length < 2) return;
+      g.forEach(function(m, i){
+        var a = 2*Math.PI*i/g.length - Math.PI/2, r = 13 + 2*g.length;
+        m._off = [Math.round(r*Math.cos(a)), Math.round(r*Math.sin(a))];
+      });
+    });
+  }
+  // When a popup opens, pan it clear of the floating chip bar (top) and the
+  // "stops shown" pill (bottom); Leaflet's default only keeps it inside the map edge,
+  // which left the place name hidden under the chips.
+  var POPUP_OPTS = { maxWidth:300, minWidth:230, autoPanPaddingTopLeft:[20, 100],
+                     autoPanPaddingBottomRight:[20, 80] };
   function popupHtml(m){
     var h = '<div class="pop"><h3>'+esc(m.name)+'</h3><div class="cats">';
     catKeysOf(m).forEach(function(c){
@@ -561,13 +591,14 @@
     if(m.phone) h += '<div class="row"><span class="ic">📞</span><a href="tel:'+esc(m.phone.replace(/[^0-9+]/g,""))+'">'+esc(m.phone)+'</a>'+(m.callFirst?' <em>(call first)</em>':'')+'</div>';
     var flags = [];
     if(m.snap) flags.push("SNAP/EBT");
+    (m.badges || []).forEach(function(b){ flags.push(b); });
     if(m.ada) flags.push("♿ ADA");
     if(m.organic) flags.push("🌿 Organic");
     if(flags.length){ h += '<div class="flags">'; flags.forEach(function(f){ h += '<span class="flag">'+esc(f)+'</span>'; }); h += '</div>'; }
     // Wholesale growers rarely sell on site: list the stores, markets and restaurants
     // that carry their products instead.
     // Only wholesale (no stand/market/u-pick listed): not a place to visit.
-    var wholesaleOnly = catKeysOf(m).join() === "Wholesale Grower";
+    var wholesaleOnly = (m.labels || []).join() === "Wholesale Grower";
     if(m.whereToGet && m.whereToGet.length){
       h += '<div class="where"><b>'+(wholesaleOnly?'Not open for visits — where to get it':'Where to get it')+'</b><ul>';
       m.whereToGet.forEach(function(w){ h += '<li>'+esc(w)+'</li>'; });
@@ -677,7 +708,7 @@
       // While filtering by type, pin every match with that type's icon (a U-Pick that is
       // primarily a CSA still shows 🍓 under the U-Pick filter); otherwise its primary.
       var iconCat = activeType || catKeysOf(m)[0];
-      if(m._iconCat !== iconCat){ m._marker.setIcon(makeIcon(iconCat)); m._iconCat = iconCat; }
+      if(m._iconCat !== iconCat){ m._marker.setIcon(makeIcon(iconCat, m._off)); m._iconCat = iconCat; }
       layers.push(m._marker); shown++;
     });
     cluster.addLayers(layers);
@@ -740,10 +771,11 @@
     .then(function(data){
       ALL = data;
       els.total.textContent = data.length;
+      fanOut(data);
       data.forEach(function(m){
         m._iconCat = catKeysOf(m)[0];
-        m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m._iconCat) })
-                     .bindPopup(popupHtml(m), { maxWidth:300, minWidth:230 });
+        m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m._iconCat, m._off) })
+                     .bindPopup(popupHtml(m), POPUP_OPTS);
       });
       buildTypeBar();
       buildCounties();

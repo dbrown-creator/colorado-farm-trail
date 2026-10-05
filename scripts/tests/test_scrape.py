@@ -243,6 +243,19 @@ def test_proximity_merge_needs_a_shared_name_word():
     d = _mk("Aspen Moon Farm", "Carbondale", "usda")
     d.latitude, d.longitude = 39.4030, -107.2112
     assert len(merge_mod.merge([c, d])) == 2
+    # Nor does the town's own name (real case: a food bank 143 m from the market).
+    e = _mk("Salida Farmers Market", "Salida", "official-site")
+    e.latitude, e.longitude = 38.5345, -105.9960
+    f = _mk("Salida Community Center", "Salida", "chaffee_provides")
+    f.category = "Food Bank"
+    f.latitude, f.longitude = 38.5357, -105.9955
+    assert len(merge_mod.merge([e, f])) == 2
+    # ...unless both are the same kind of place.
+    g = _mk("Boulder County Farmers' Market", "Boulder", "official-site")
+    g.latitude, g.longitude = 40.0150, -105.2770
+    h = _mk("Boulder Farmers Market", "Boulder", "usda")
+    h.latitude, h.longitude = 40.0155, -105.2770
+    assert len(merge_mod.merge([g, h])) == 1
 
 
 # ---- Chaffee Provides (chaffeeprovides.org) -----------------------------------

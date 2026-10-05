@@ -27,10 +27,17 @@ GENERIC_NAME_WORDS = {"farm", "farms", "ranch", "ranches", "and", "company", "cs
 
 def _shares_name_word(a: Market, b: Market) -> bool:
     """Proximity alone doesn't make two records one business: dense directories (the
-    Colorado Proud member finder) put unrelated businesses on the same block."""
-    ta = set(name_key(a.business_name).split()) - GENERIC_NAME_WORDS
-    tb = set(name_key(b.business_name).split()) - GENERIC_NAME_WORDS
-    return bool(ta & tb)
+    Colorado Proud member finder) put unrelated businesses on the same block. A shared
+    town name alone counts only between the same kind of place: "Boulder County Farmers'
+    Market" is "Boulder Farmers Market", but "Salida Community Center" (a food bank) is
+    not "Salida Farmers Market"."""
+    shared = ((set(name_key(a.business_name).split()) - GENERIC_NAME_WORDS)
+              & (set(name_key(b.business_name).split()) - GENERIC_NAME_WORDS))
+    town = set(name_key(a.city).split()) | set(name_key(b.city).split())
+    if shared and shared <= town:
+        cats = lambda m: {c.strip() for c in m.category.split(",") if c.strip()}
+        return bool(cats(a) & cats(b))
+    return bool(shared)
 
 
 def _haversine_m(a: Market, b: Market) -> float:

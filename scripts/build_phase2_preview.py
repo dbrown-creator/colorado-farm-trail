@@ -51,10 +51,12 @@ def build_data() -> int:
     markets = json.loads(out.read_text(encoding="utf-8"))
     for m in markets:
         # The market calendar (calendar.html) reads parsed sessions; markets only.
-        if "Farmers' Market" in (m.get("categories") or [m["category"]]):
+        # Check the precise labels: since the cutover, `categories` holds map group names
+        # ("Farmers' Markets"), which silently emptied the calendar.
+        if "Farmers' Market" in (m.get("labels") or m.get("categories") or [m["category"]]):
             m["schedule"] = market_schedule.parse_schedule(
                 m.get("hours") or "", ", ".join(m.get("monthsOpen") or []))
-        labels = m.get("categories") or [m["category"]]
+        labels = m.get("labels") or m.get("categories") or [m["category"]]  # precise labels (build_map_data now emits groups)
         groups = categories.groups_for(", ".join(labels))
         m["labels"] = labels                                   # precise data labels
         m["badges"] = [categories.BADGES[b] for b in labels if b in categories.BADGES]
