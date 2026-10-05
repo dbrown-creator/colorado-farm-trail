@@ -74,7 +74,7 @@
   }
  ],
  "delivery": {
-  "offered": true,
+  "offered": false,
   "kind": "other",
   "radius_miles": null,
   "zips": [],
@@ -89,5 +89,5 @@
    "url": "https://www.switchgearsfarm.com/food"
   }
  ],
- "notes": "2026 season ends Oct 12; csa_status set closed_season (2027 signup not announced on page). Thursday mid-week site addresses/times not given, only cities. Signup via GrownBy."
+ "notes": "2026 season ends Oct 12; csa_status set closed_season (2027 signup not announced on page). Thursday mid-week site addresses/times not given, only cities. Signup via GrownBy. | Corrected 2026-10-05: delivery.offered set to false. The farm drops bags at pickup sites; it does not deliver to homes (per its own page)."
 }

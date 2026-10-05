@@ -42,7 +42,7 @@
   }
  ],
  "delivery": {
-  "offered": true,
+  "offered": false,
   "kind": "towns",
   "radius_miles": null,
   "zips": [],
@@ -65,5 +65,5 @@
    "url": "http://www.highwaterfarm.org/pickupoptions"
   }
  ],
- "notes": "2026 CSA is full; 2027 waitlist form linked (signup_url is the waitlist). Season mid-June to mid-October, 18 weekly shares (no exact dates, so season dates null). Half shares on-farm only, twice per month. Prices not on fetched pages. Has /snap page (SNAP accepted; page contents not read). Site is highwaterfarm.org."
+ "notes": "2026 CSA is full; 2027 waitlist form linked (signup_url is the waitlist). Season mid-June to mid-October, 18 weekly shares (no exact dates, so season dates null). Half shares on-farm only, twice per month. Prices not on fetched pages. Has /snap page (SNAP accepted; page contents not read). Site is highwaterfarm.org. | Corrected 2026-10-05: delivery.offered set to false. The Glenwood Springs / Carbondale drop-offs are pickup spots, already listed in pickup_sites."
 }

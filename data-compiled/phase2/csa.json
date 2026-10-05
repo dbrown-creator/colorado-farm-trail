@@ -2865,7 +2865,7 @@
    }
   ],
   "delivery": {
-   "offered": true,
+   "offered": false,
    "kind": "other",
    "radius_miles": null,
    "zips": [],
@@ -2880,7 +2880,7 @@
     "url": "https://www.switchgearsfarm.com/food"
    }
   ],
-  "notes": "2026 season ends Oct 12; csa_status set closed_season (2027 signup not announced on page). Thursday mid-week site addresses/times not given, only cities. Signup via GrownBy.",
+  "notes": "2026 season ends Oct 12; csa_status set closed_season (2027 signup not announced on page). Thursday mid-week site addresses/times not given, only cities. Signup via GrownBy. | Corrected 2026-10-05: delivery.offered set to false. The farm drops bags at pickup sites; it does not deliver to homes (per its own page).",
   "lat": "40.225787999999994",
   "lon": "-105.1447995",
   "city": "Longmont",
@@ -3330,7 +3330,7 @@
    }
   ],
   "delivery": {
-   "offered": true,
+   "offered": false,
    "kind": "towns",
    "radius_miles": null,
    "zips": [],
@@ -3353,7 +3353,7 @@
     "url": "http://www.highwaterfarm.org/pickupoptions"
    }
   ],
-  "notes": "2026 CSA is full; 2027 waitlist form linked (signup_url is the waitlist). Season mid-June to mid-October, 18 weekly shares (no exact dates, so season dates null). Half shares on-farm only, twice per month. Prices not on fetched pages. Has /snap page (SNAP accepted; page contents not read). Site is highwaterfarm.org.",
+  "notes": "2026 CSA is full; 2027 waitlist form linked (signup_url is the waitlist). Season mid-June to mid-October, 18 weekly shares (no exact dates, so season dates null). Half shares on-farm only, twice per month. Prices not on fetched pages. Has /snap page (SNAP accepted; page contents not read). Site is highwaterfarm.org. | Corrected 2026-10-05: delivery.offered set to false. The Glenwood Springs / Carbondale drop-offs are pickup spots, already listed in pickup_sites.",
   "lat": "",
   "lon": "",
   "city": "Silt",
