@@ -543,11 +543,33 @@
       return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
     });
   }
-  function makeIcon(cat){
-    var st = catStyle(cat);
+  // off = [dx, dy] pixel nudge for places that share one spot (see fanOut).
+  function makeIcon(cat, off){
+    var st = catStyle(cat), dx = off ? off[0] : 0, dy = off ? off[1] : 0;
     return L.divIcon({ className:"",
       html:'<div class="pin" style="background:'+st.color+'"><span>'+st.emoji+'</span></div>',
-      iconSize:[30,30], iconAnchor:[15,28], popupAnchor:[0,-27] });
+      iconSize:[30,30], iconAnchor:[15-dx,28-dy], popupAnchor:[dx,dy-27] });
+  }
+  // Places at (nearly) the same spot, such as two organizations at one address, would
+  // stack and hide each other, and clustering is off from zoom 10, so fan them out in a
+  // small ring of pins. Pixel offsets, so they stay apart at every zoom.
+  function fanOut(list){
+    var groups = [], NEAR = 30;  // meters
+    list.forEach(function(m){
+      var g = null;
+      for(var j = 0; j < groups.length && !g; j++){
+        var a = groups[j][0], dy = (m.lat - a.lat) * 111320, dx = (m.lng - a.lng) * 111320 * Math.cos(a.lat * Math.PI / 180);
+        if(dx*dx + dy*dy <= NEAR*NEAR) g = groups[j];
+      }
+      if(g) g.push(m); else groups.push([m]);
+    });
+    groups.forEach(function(g){
+      if(g.length < 2) return;
+      g.forEach(function(m, i){
+        var a = 2*Math.PI*i/g.length - Math.PI/2, r = 13 + 2*g.length;
+        m._off = [Math.round(r*Math.cos(a)), Math.round(r*Math.sin(a))];
+      });
+    });
   }
   // When a popup opens, pan it clear of the floating chip bar (top) and the
   // "stops shown" pill (bottom); Leaflet's default only keeps it inside the map edge,
@@ -686,7 +708,7 @@
       // While filtering by type, pin every match with that type's icon (a U-Pick that is
       // primarily a CSA still shows 🍓 under the U-Pick filter); otherwise its primary.
       var iconCat = activeType || catKeysOf(m)[0];
-      if(m._iconCat !== iconCat){ m._marker.setIcon(makeIcon(iconCat)); m._iconCat = iconCat; }
+      if(m._iconCat !== iconCat){ m._marker.setIcon(makeIcon(iconCat, m._off)); m._iconCat = iconCat; }
       layers.push(m._marker); shown++;
     });
     cluster.addLayers(layers);
@@ -749,9 +771,10 @@
     .then(function(data){
       ALL = data;
       els.total.textContent = data.length;
+      fanOut(data);
       data.forEach(function(m){
         m._iconCat = catKeysOf(m)[0];
-        m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m._iconCat) })
+        m._marker = L.marker([m.lat, m.lng], { icon: makeIcon(m._iconCat, m._off) })
                      .bindPopup(popupHtml(m), POPUP_OPTS);
       });
       buildTypeBar();
