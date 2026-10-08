@@ -100,3 +100,31 @@ Natural Meats, Rocking W Cheese, and DeVries):
 The Farm Runners page loads its producer list with JavaScript; the owners/products/towns used
 here came from reading it in a browser. Mountain Bird and Thistle Whistle's Farm Runners names are
 "Mountain Bird Poultry" and "Thistle Whistle".
+
+## Re-check of the "needs a call" list (2026-10-08, supersedes the call lists above)
+
+The first pass marked many businesses "call" because a text-only fetch couldn't load their sites
+or saw an old footer (Two Twelve's site, for example, is JavaScript-rendered and shows live
+reservations). A second pass loaded each in a browser and also used Google Maps/Yelp, Colorado
+Secretary of State records, certification listings, marketplaces and local news. Result for the
+36 businesses re-checked: 26 added, 4 skipped, 8 still need a call
+([`CALL_LIST.md`](CALL_LIST.md)).
+
+- **Added:** Two Twelve, Gunnison Gardens, Mountain Earth Organic Grocer, Crested Butte Catering Co.,
+  High Alpine Brewing Co., Rivergate Ranch (Gunnison County); Rockin' J Spear Cattle Co (Loma,
+  Mesa County: earlier notes had mistaken it for Rockin' JC Ranch in Gunnison); Delta/Montrose
+  County growers Grey Owl Garden, Chamberlain Farms, Conner Orchards, Elk Mountain Farmacy,
+  Flipside Farm, First Fruits, Zimmerman Farms (trades as Zimmerman Pork Farm), Happy Hogs Farm,
+  Honey Acre Farms, Hummin' Bird Farms, Leroux Creek Foods, Smith Family Farm, Weston Wagyu (a
+  vegetable grower despite the name); Beet Street Farm, Fields to Plate Produce, La Milpa Tortilla
+  Factory, DRAM Apothecary, Rock Canyon Coffee and GroFresh Farms 365 elsewhere on the Western
+  Slope and Front Range edge.
+- **Skipped:** Revelden (listed closed), Tassinong Farms (permanently closed), Producer's Co-Op
+  (a feed and fuel co-op), Lake City Brewing Co. (no local sourcing, parked domain).
+- **Still need a call:** Rockin' JC Ranch, Stuarts Farm, Dayspring (two businesses share the
+  name), Figure 8 Farming, Grange Road Growers, Hunter's Farm, Lamborn Lavender, The Wonder Egg.
+- **Weaker evidence, kept:** Hummin' Bird, Smith Family Farm and Weston Wagyu rest on live
+  marketplace/Farm Runners listings, not a farm site; Rivergate Ranch rests on one directory
+  listing; Leroux Creek Foods has an open bankruptcy proceeding (case 24-15015, September 2026
+  order) that is not in its record notes.
+- Gunnison County places in the dataset: **18** (was 6).
