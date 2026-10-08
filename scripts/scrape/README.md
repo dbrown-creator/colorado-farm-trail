@@ -118,6 +118,18 @@ aren't researched or re-added later. The rule:
   kind (a trade association, an unrelated service).
 - Check a name against the raw CSV `Status` column before researching or adding it.
 
+## Vendors with no published location: market vendor lists
+
+A farm or food vendor with no public street address is **not pinned**. If we know it sells at a
+farmers' market, it appears in that market's popup under **Vendors (N)**, a drop-down built by
+`scripts/build_map_data.py` from `source-data/phase3/market_vendor_lists/all_vendors.csv`
+(farm-type vendors only). A vendor with its own pin links to that pin (📍); one with only a website
+or social page links out (↗); the rest are plain names, and the market's published list is linked
+as "Official vendor list". The record stays in the dataset (raw CSV). Give a record a real
+street address and it gets its own pin on the next build. Records with a stated street address
+that the Census geocoder can't place (rural roads) are pinned at the town center until a
+coordinate is found.
+
 ## Transaction ledger and Year Opened
 
 `source-data/phase2/ledger/transactions.csv` is an append-only log of what happened to each

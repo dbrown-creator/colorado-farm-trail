@@ -363,3 +363,27 @@ The Farm at Home Ranch,Clark,County,set,Routt,First pass: county from the town/a
 Trout Creek Meats,Oak Creek,County,set,Routt,First pass: county from the town/address (2026-10-08),2026-10-08
 Yampa Valley Ranch,Yampa,County,set,Routt,First pass: county from the town/address (2026-10-08),2026-10-08
 Mystic Hills Farmstead,Clark,County,set,Routt,First pass: county from the town/address (2026-10-08),2026-10-08
+Happy Day Ranch,Basalt,Latitude,set,39.36859,"Street address couldn't be geocoded (rural road), so pinned at the center of Basalt for now (Census gazetteer, 2026-10-08)",2026-10-08
+Happy Day Ranch,Basalt,Longitude,set,-107.04876,"Street address couldn't be geocoded (rural road), so pinned at the center of Basalt for now (Census gazetteer, 2026-10-08)",2026-10-08
+Thompson House Museum,Carbondale,Latitude,set,39.39556,"Street address couldn't be geocoded (rural road), so pinned at the center of Carbondale for now (Census gazetteer, 2026-10-08)",2026-10-08
+Thompson House Museum,Carbondale,Longitude,set,-107.21502,"Street address couldn't be geocoded (rural road), so pinned at the center of Carbondale for now (Census gazetteer, 2026-10-08)",2026-10-08
+"Elkhead Creek Ranch (Yampa Valley Wagyu, Shadow Laine Farm)",Craig,Latitude,set,40.51706,"Street address couldn't be geocoded (rural road), so pinned at the center of Craig for now (Census gazetteer, 2026-10-08)",2026-10-08
+"Elkhead Creek Ranch (Yampa Valley Wagyu, Shadow Laine Farm)",Craig,Longitude,set,-107.5554,"Street address couldn't be geocoded (rural road), so pinned at the center of Craig for now (Census gazetteer, 2026-10-08)",2026-10-08
+Craig Angus Ranch,Fort Collins,Latitude,set,40.54822,"Street address couldn't be geocoded (rural road), so pinned at the center of Fort Collins for now (Census gazetteer, 2026-10-08)",2026-10-08
+Craig Angus Ranch,Fort Collins,Longitude,set,-105.06483,"Street address couldn't be geocoded (rural road), so pinned at the center of Fort Collins for now (Census gazetteer, 2026-10-08)",2026-10-08
+Dandelion Farms,Fort Collins,Latitude,set,40.54822,"Street address couldn't be geocoded (rural road), so pinned at the center of Fort Collins for now (Census gazetteer, 2026-10-08)",2026-10-08
+Dandelion Farms,Fort Collins,Longitude,set,-105.06483,"Street address couldn't be geocoded (rural road), so pinned at the center of Fort Collins for now (Census gazetteer, 2026-10-08)",2026-10-08
+Wisdom Natural Poultry,Haxtun,Latitude,set,40.64187,"Street address couldn't be geocoded (rural road), so pinned at the center of Haxtun for now (Census gazetteer, 2026-10-08)",2026-10-08
+Wisdom Natural Poultry,Haxtun,Longitude,set,-102.6297,"Street address couldn't be geocoded (rural road), so pinned at the center of Haxtun for now (Census gazetteer, 2026-10-08)",2026-10-08
+Afton's Garden Center LLC,Hotchkiss,Latitude,set,38.79899,"Street address couldn't be geocoded (rural road), so pinned at the center of Hotchkiss for now (Census gazetteer, 2026-10-08)",2026-10-08
+Afton's Garden Center LLC,Hotchkiss,Longitude,set,-107.71339,"Street address couldn't be geocoded (rural road), so pinned at the center of Hotchkiss for now (Census gazetteer, 2026-10-08)",2026-10-08
+Three Leaf Farm,Lafayette,Latitude,set,39.99481,"Street address couldn't be geocoded (rural road), so pinned at the center of Lafayette for now (Census gazetteer, 2026-10-08)",2026-10-08
+Three Leaf Farm,Lafayette,Longitude,set,-105.09968,"Street address couldn't be geocoded (rural road), so pinned at the center of Lafayette for now (Census gazetteer, 2026-10-08)",2026-10-08
+Rocky Mountain Fresh,Longmont,Latitude,set,40.1682,"Street address couldn't be geocoded (rural road), so pinned at the center of Longmont for now (Census gazetteer, 2026-10-08)",2026-10-08
+Rocky Mountain Fresh,Longmont,Longitude,set,-105.10052,"Street address couldn't be geocoded (rural road), so pinned at the center of Longmont for now (Census gazetteer, 2026-10-08)",2026-10-08
+Eden Valley Farm,Loveland,Latitude,set,40.4169,"Street address couldn't be geocoded (rural road), so pinned at the center of Loveland for now (Census gazetteer, 2026-10-08)",2026-10-08
+Eden Valley Farm,Loveland,Longitude,set,-105.06311,"Street address couldn't be geocoded (rural road), so pinned at the center of Loveland for now (Census gazetteer, 2026-10-08)",2026-10-08
+Lucky 8 Ranch,Oak Creek,Latitude,set,40.27402,"Street address couldn't be geocoded (rural road), so pinned at the center of Oak Creek for now (Census gazetteer, 2026-10-08)",2026-10-08
+Lucky 8 Ranch,Oak Creek,Longitude,set,-106.95764,"Street address couldn't be geocoded (rural road), so pinned at the center of Oak Creek for now (Census gazetteer, 2026-10-08)",2026-10-08
+Grey Hawk Greenhouse and Farm Inc,Wellington,Latitude,set,40.7007,"Street address couldn't be geocoded (rural road), so pinned at the center of Wellington for now (Census gazetteer, 2026-10-08)",2026-10-08
+Grey Hawk Greenhouse and Farm Inc,Wellington,Longitude,set,-105.0057,"Street address couldn't be geocoded (rural road), so pinned at the center of Wellington for now (Census gazetteer, 2026-10-08)",2026-10-08

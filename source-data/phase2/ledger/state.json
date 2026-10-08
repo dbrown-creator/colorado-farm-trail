@@ -3008,8 +3008,8 @@
 "source": "official-site+chaffee_provides"
 },
 "artemis farm flower|longmont": {
-"Address": "",
-"Category": "On-Farm / Ranch Sales, Agritourism, Wholesale Grower",
+"Address": "8104 N 63rd St",
+"Category": "On-Farm / Ranch Sales, Agritourism",
 "County": "Boulder",
 "Email": "",
 "Hours": "",
@@ -5840,7 +5840,7 @@
 "source": "colorado_proud_finder"
 },
 "better boulder wagyu|longmont": {
-"Address": "",
+"Address": "14175 N 115th St",
 "Category": "Meat Producer & Packer",
 "County": "Boulder",
 "Email": "",
@@ -6224,7 +6224,7 @@
 "source": "colorado_proud_finder"
 },
 "black cat farm|longmont": {
-"Address": "9889 N 51st St, Longmont, CO",
+"Address": "9889 N 51st St",
 "Category": "Restaurant, Agritourism, On-Farm / Ranch Sales",
 "County": "Boulder",
 "Email": "",
@@ -6814,6 +6814,22 @@
 "city": "Boulder",
 "name": "Boulder Family Farms",
 "source": "usda"
+},
+"boulder farm flower|longmont": {
+"Address": "4114 Oxford Rd",
+"Category": "Wholesale Grower, On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Cut flowers, peonies, sunflowers, zinnias, lavender",
+"Status": "Open",
+"Website": "https://boulderflowerfarm.com",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Boulder Flower Farm",
+"source": "curated"
 },
 "boulder honey valley|boulder": {
 "Address": "7103 Valmont Road",
@@ -7537,9 +7553,9 @@
 },
 "by ct farm gardens lavender los miramontes sunrise|cortez": {
 "Address": "",
-"Category": "On-Farm / Ranch Sales, Food Maker, Agritourism, U-Pick, Farm Products (online)",
+"Category": "On-Farm / Ranch Sales, Food Maker, Agritourism, U-Pick",
 "County": "Montezuma",
-"Email": "mesaverdelavender@gmail.com",
+"Email": "",
 "Hours": "",
 "Months Open": "",
 "Phone": "",
@@ -9679,6 +9695,22 @@
 "name": "Pueblo Seed & Food Company",
 "source": "colorado_proud_finder"
 },
+"company fresh herb|longmont": {
+"Address": "",
+"Category": "Wholesale Grower, Garden Center / Greenhouse",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Culinary herbs, vegetable starts, hanging baskets, cut flowers, lilies",
+"Status": "Open",
+"Website": "https://www.thefreshherbco.com",
+"Year Opened": "",
+"city": "Longmont",
+"name": "The Fresh Herb Company",
+"source": "curated"
+},
 "company fruit stone|palisade": {
 "Address": "PO box 1377",
 "Category": "On-Farm / Ranch Sales",
@@ -9857,7 +9889,7 @@
 },
 "company mushroom mycocosm|peyton": {
 "Address": "",
-"Category": "Farm Products (online), Food Maker, On-Farm / Ranch Sales",
+"Category": "Farm Products (online), Food Maker",
 "County": "El Paso",
 "Email": "",
 "Hours": "",
@@ -13953,7 +13985,7 @@
 },
 "farm flower little petals|fort collins": {
 "Address": "",
-"Category": "Farm Products (online), Wholesale Grower, On-Farm / Ranch Sales",
+"Category": "Farm Products (online)",
 "County": "Larimer",
 "Email": "",
 "Hours": "",
@@ -13961,7 +13993,7 @@
 "Phone": "",
 "Products": "Cut flowers, bouquets, arrangements",
 "Status": "Open",
-"Website": "https://www.littlesunfarm.com",
+"Website": "",
 "Year Opened": "",
 "city": "Fort Collins",
 "name": "Little Petals Flower Farm",
@@ -14208,7 +14240,7 @@
 "source": "usda"
 },
 "farm gardens speedwell|longmont": {
-"Address": "8104 N. 63rd St., Longmont, CO 80503",
+"Address": "8104 N 63rd St",
 "Category": "CSA Farm, On-Farm / Ranch Sales",
 "County": "Boulder",
 "Email": "Speedwellfarm.gardens@gmail.com",
@@ -14878,6 +14910,22 @@
 "city": "Berthoud",
 "name": "Little Stone Farm",
 "source": "colorado_proud_finder"
+},
+"farm little sun|fort collins": {
+"Address": "",
+"Category": "Wholesale Grower, On-Farm / Ranch Sales",
+"County": "Larimer",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Urban-grown vegetables",
+"Status": "Open",
+"Website": "https://www.littlesunfarm.com",
+"Year Opened": "",
+"city": "Fort Collins",
+"name": "Little Sun Farm",
+"source": "curated"
 },
 "farm living|paonia": {
 "Address": "39776 Green Tractor Rd",
@@ -17824,8 +17872,8 @@
 "source": "colorado_proud_finder"
 },
 "fresh mountain rocky|longmont": {
-"Address": "",
-"Category": "Wholesale Grower, On-Farm / Ranch Sales, Garden Center / Greenhouse",
+"Address": "14762 County Rd 3",
+"Category": "Wholesale Grower, On-Farm / Ranch Sales",
 "County": "Boulder",
 "Email": "",
 "Hours": "",
@@ -17833,7 +17881,7 @@
 "Phone": "(720) 209-8086",
 "Products": "Hydroponic greenhouse tomatoes, cucumbers, seasonal vegetables, succulents",
 "Status": "Open",
-"Website": "https://www.thefreshherbco.com",
+"Website": "",
 "Year Opened": "",
 "city": "Longmont",
 "name": "Rocky Mountain Fresh",
@@ -20527,6 +20575,22 @@
 "name": "Latina Salsas",
 "source": "colorado_proud_finder"
 },
+"lavender mesa verde|cortez": {
+"Address": "",
+"Category": "Farm Products (online), Agritourism",
+"County": "Montezuma",
+"Email": "mesaverdelavender@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Lavender essential oil, hydrosol, honey, salve, tea",
+"Status": "Open",
+"Website": "https://www.mesaverdelavender.com",
+"Year Opened": "",
+"city": "Cortez",
+"name": "Mesa Verde Lavender",
+"source": "curated"
+},
 "lavender mountain rabbit|lyons": {
 "Address": "",
 "Category": "On-Farm / Ranch Sales",
@@ -21709,6 +21773,22 @@
 "Year Opened": "",
 "city": "Palisade",
 "name": "Rendezvous Mushroom Co",
+"source": "curated"
+},
+"mushrooms mycocosm|peyton": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "El Paso",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Gourmet mushrooms and extracts",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Peyton",
+"name": "Mycocosm Mushrooms",
 "source": "curated"
 },
 "mycenae|lafayette": {
