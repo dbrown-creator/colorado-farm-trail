@@ -92,6 +92,48 @@ So the merge order is *coverage-first* (directories create records + coords), bu
 states, and provenance records that the override came from the official site. "Clearly
 stated + legit-looking site" is the bar — ambiguous or sketchy pages don't override.
 
+## Closed businesses stay in the dataset
+
+Closed farms, ranches and businesses are **kept, marked `Closed`**, never deleted, so they
+aren't researched or re-added later. The rule:
+
+- Everything already in the dataset is assumed open until someone finds otherwise.
+- When a business is **removed from a source** (it shows as `removed` in a change report) or
+  research finds it shut, do not delete it. If we are **confident it once operated and has
+  closed** (a closed listing on Yelp/Google, an owner or news notice, a dead domain plus a
+  dissolved registration), mark it Closed and put the evidence and date in `Notes`:
+  - a record that comes from a source: add an `overrides.csv` row, `column = Status`,
+    `mode = set`, `value = Closed`, plus a `Notes` `prepend` row ("Closed. ...");
+  - a business no source carries: add a `curated_records.csv` row with `Status = closed`
+    (with `Category`, `City` and `Address` if known, and the reason in `Notes`).
+- **Only mark a business Closed when it would have qualified** (a farm, ranch, market,
+  grower, local-food maker/shop or restaurant that fits the dataset) **and we know it existed
+  and no longer operates.** A business that never qualified, one that merged into another, or
+  one we only suspect is gone is not "Closed": log it as `skip` / `call` in `curated_records.csv`.
+- If we only *can't find* it (no web presence, unclear), that is not closed: keep it as
+  `skip` / `call` in `curated_records.csv` (research log), not `closed`.
+- Closed records appear in `source-data/phase2/co_farmers_markets_all_raw.csv` (column
+  `Status`: `Open` or `Closed`) and are left out of the My Maps file, so they never reach the
+  map. Use `overrides.csv` `remove` only for records that were never real businesses of this
+  kind (a trade association, an unrelated service).
+- Check a name against the raw CSV `Status` column before researching or adding it.
+
+## Transaction ledger and Year Opened
+
+`source-data/phase2/ledger/transactions.csv` is an append-only log of what happened to each
+record: `baseline` (already present when the ledger started, 2026-10-05), `added`, `changed`
+(field, old, new), `closed`, `reopened`, `removed`. Every `build.py` run appends the events
+since the previous build (`state.json` holds that previous state) and nothing when nothing
+changed. Never edit past rows. Set `LEDGER_BATCH="label"` to tag a run.
+
+- First entry / full history of a business: `python scripts/scrape/ledger.py history "Name" [city]`
+  (it also prints years in business when `Year Opened` is known).
+- `Year Opened` (raw CSV column) is the year the business started, from its own site
+  ("since 2006"), a registry formation date, or a profile. Set it with an `overrides.csv` row
+  (`column = Year Opened`, `mode = set`) and put the evidence in `note`. First-seen date is a
+  different thing: it is the ledger's `added` row, and `baseline` rows only mean "on or before".
+- A rename shows up as `removed` + `added`, because records are keyed by name + town.
+
 ## Run — find, approve, push
 
 Getting new data and building are separate steps, and a build repeats no work.

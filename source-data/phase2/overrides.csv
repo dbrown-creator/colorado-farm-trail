@@ -118,9 +118,12 @@ East Denver Food Hub,Montbello,Category,set,Community Food Hub,"Community food-a
 US Potato Board,Denver Tech Center,,remove,,"A trade association, not a place to get food (2026-10-03 category review)",2026-10-03
 "Borden Farms, LLC",Delta,Business Name,set,Pedro's Farm (formerly Borden Farms),Renamed: its site now reads 'Pedro's Farm ... Formerly Borden Farms' (verified 2026-10-03),2026-10-03
 Platte River Fort,Greeley,,remove,,"Now River Fort Ranch, a barn wedding venue (riverfortranch.com); no farm stand, produce or tours described, so not a food stop (reviewed 2026-10-03)",2026-10-03
-Boulder Creek Winery,Boulder,,remove,,"Closed: Yelp 'CLOSED - Updated January 2026', Foursquare 'Now Closed' (closed-org check 2026-10-03)",2026-10-03
-Spotted Horse Barnyard,Elbert,,remove,,Closed: owner confirmed permanent closure (pumpkinpatchesandmore.org closed-farms page) (closed-org check 2026-10-03),2026-10-03
-Freeman Apple Orchard,Lakewood,,remove,,Closed: pickyourown.org lists it permanently closed; domain gone (closed-org check 2026-10-03),2026-10-03
+Boulder Creek Winery,Boulder,Status,set,Closed,"Closed: Yelp 'CLOSED - Updated January 2026', Foursquare 'Now Closed' (closed-org check 2026-10-03)",2026-10-03
+Boulder Creek Winery,Boulder,Notes,prepend,Closed.,"Closed: Yelp 'CLOSED - Updated January 2026', Foursquare 'Now Closed' (closed-org check 2026-10-03)",2026-10-03
+Spotted Horse Barnyard,Elbert,Status,set,Closed,Closed: owner confirmed permanent closure (pumpkinpatchesandmore.org closed-farms page) (closed-org check 2026-10-03),2026-10-03
+Spotted Horse Barnyard,Elbert,Notes,prepend,Closed.,Closed: owner confirmed permanent closure (pumpkinpatchesandmore.org closed-farms page) (closed-org check 2026-10-03),2026-10-03
+Freeman Apple Orchard,Lakewood,Status,set,Closed,Closed: pickyourown.org lists it permanently closed; domain gone (closed-org check 2026-10-03),2026-10-03
+Freeman Apple Orchard,Lakewood,Notes,prepend,Closed.,Closed: pickyourown.org lists it permanently closed; domain gone (closed-org check 2026-10-03),2026-10-03
 Lyons Outdoor Market,Lyons,,remove,,"Removed on review: Tripadvisor 'temporarily closed until 10/04/2026', absent from the town's 2026 events, website gone (closed-org check 2026-10-03)",2026-10-03
 Hugs Farm,Walsenburg,,remove,,"Removed on review: visithugsfarm.com now offers mindfulness/animal-therapy services, no food sales (closed-org check 2026-10-03)",2026-10-03
 Morton's Organic Orchards,Palisade,Website,set,https://mortonsorganicorchards.com/,Site moved; 2026 season updates on the new domain (closed-org check 2026-10-03),2026-10-03
@@ -191,7 +194,7 @@ Cloud City Conservation Center,Leadville,Business Name,set,Cloud City Farm (Clou
 Eagle Rock Ranch,Fairplay,Hours,set,"Fri, Sat, Sun, Mon: 11:00am - 5:00pm (winter 2026 hours; subject to change)","buyeaglerockbeef.com 'Visit our store' (maintainer screenshot, 2026-10-04)",2026-10-04
 Eagle Rock Ranch,Fairplay,Email,set,erin@eaglerockbeef.com,"buyeaglerockbeef.com 'Visit our store' (maintainer screenshot, 2026-10-04)",2026-10-04
 Eagle Rock Ranch,Fairplay,Notes,prepend,"Ranch store (Eagle Rock Ranch Mercantile) at 530 Front Street, Fairplay: winter 2026 hours Friday-Monday 11am-5pm, subject to change; beef also ships via buyeaglerockbeef.com.","buyeaglerockbeef.com 'Visit our store' (maintainer screenshot, 2026-10-04)",2026-10-04
-Jumpin' Good Goat Dairy,Buena Vista,,remove,,"Closed: Buck & Bloom Cheese Co. now operates the same facility (31700 US-24). Held out of the Chaffee Provides source on 2026-10-03; Colorado Proud's member directory still lists it",2026-10-04
+Jumpin' Good Goat Dairy,Buena Vista,,remove,,Closed: Buck & Bloom Cheese Co. now operates the same facility (31700 US-24). Held out of the Chaffee Provides source on 2026-10-03; Colorado Proud's member directory still lists it,2026-10-04
 Colorado Farm to Table,Salida,Address,set,7750 County Road 150,"Farm location as Chaffee Provides lists it; the official-site check had recorded the mailing PO Box 826, which isn't a place to visit",2026-10-04
 Vail Farmers' Market,Vail,Hours,set,Sun: 9:30am - 3:00pm (Jun 14 - Oct 4); Thu: 1:00pm - 5:30pm (Jun 18 - Sep 17),"Season dates from vailfarmersmarket.com vendor pages: Sunday market June 14 - October 4, 2026; Thursday Meadow Market June 18 - September 17, 2026 (its blurb says Sept 4; the event listing says Sept 17) (checked 2026-10-04)",2026-10-04
 High On The Hill Farm,Cañon City,Notes,set,"High On the Hill Farm is a small, all natural fruit, vegetable, culinary herb and medicinal herb farm and is the home of The Anāhata Yoga & Meditation Center.  We offer wellness counseling utilizing mindful presence, a fresh, high nutrient density plant based diet and Ashtanga Yoga.  see our website for more info",Source text lost a character (garbled 'Anāhata'); same text with the yoga studio's name restored,2026-10-04
@@ -231,3 +234,15 @@ La Milpa Tortilla Factory,Grand Junction,County,set,Mesa,Grand Junction is in Me
 Gunnison Gardens,Gunnison,Latitude,set,38.54798,"The street address could not be geocoded, so pinned at the center of Gunnison (Census gazetteer, 2026-10-08)",2026-10-08
 Gunnison Gardens,Gunnison,Longitude,set,-106.9246,"The street address could not be geocoded, so pinned at the center of Gunnison (Census gazetteer, 2026-10-08)",2026-10-08
 Gunnison Gardens,Gunnison,County,set,Gunnison,Gunnison is in Gunnison County,2026-10-08
+Thistle Whistle Farm,Hotchkiss,Year Opened,set,2006,Own site: operating since 2006 (checked 2026-10-08),2026-10-08
+Gunnison Gardens,Gunnison,Year Opened,set,2014,MarketSpread profile: established 2014 (checked 2026-10-08),2026-10-08
+Rocking W Cheese,Olathe,Year Opened,set,1965,KVNF/Visit Montrose: family dairy since 1965 (cheese since 2008) (checked 2026-10-08),2026-10-08
+Mountain Bird,Paonia,Year Opened,set,2015,Own site: started 2015 (checked 2026-10-08),2026-10-08
+"Borden Farms, LLC",Delta,Year Opened,set,1996,pedrosfarm.com: farming since 1996 (checked 2026-10-08),2026-10-08
+Homestead Natural Meats,Delta,Year Opened,set,1996,Montrose Business Times / Hotchkiss chamber: founded 1996 (checked 2026-10-08),2026-10-08
+Chamberlain Farms,Delta,Year Opened,set,1978,Facebook and Valley Food Partnership guide: farming since 1978 (checked 2026-10-08),2026-10-08
+Honey Acre Farms,Montrose,Year Opened,set,2006,Valley Food Partnership: roadside stand since 2006 (checked 2026-10-08),2026-10-08
+Grey Owl Garden,Paonia,Year Opened,set,2025,Colorado Secretary of State: LLC formed 2025-05-08 (checked 2026-10-08),2026-10-08
+Flipside Farm,Hotchkiss,Year Opened,set,2012,Mountain Freshies profile: growing since 2012 (checked 2026-10-08),2026-10-08
+Fields to Plate Produce,Durango,Year Opened,set,2013,CCOF/Local Food Marketplace: founded 2013 (checked 2026-10-08),2026-10-08
+First Fruits Organic Farms,Paonia,Year Opened,set,1988,AARP Local / Delta County Tourism: farming since 1988 (checked 2026-10-08),2026-10-08
