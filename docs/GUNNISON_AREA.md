@@ -78,3 +78,25 @@ Of the 14 farm-signal vendors, none verified as Gunnison County except possibly 
 Parker Pastures and LB Specialty Beef -> Gunnison Vitamin & Health Food Store (CSU Extension
 local-beef page); Mountain Roots Food Project -> Two Twelve (Two Twelve's own site; Two Twelve
 needs a call).
+
+## Farm Runners producer list (added 2026-10-08)
+
+Source: <https://www.farmrunners.com/farmers>, a Western Slope delivery company's 57 producers.
+12 were already in the dataset (Abundant Life, Ela Family Farms, Honey Rock Landing, The Living Farm,
+M & H Ag, Mattics, Osito, Pantoja, Princess Beef, Roaring Fork Mill, Valley Roots Food Hub, Vermont
+Sticky) and 2 came from the Crested Butte research (Mountain Bird, Thistle Whistle). Of the other 45
+(plus 4 that turned out to be in the dataset under another spelling: Big B's, Tuxedo Corn, Homestead
+Natural Meats, Rocking W Cheese, and DeVries):
+
+- **Added (8):** Berry Fungi Farms, Fortunate Fruit, High Desert Seed + Gardens, Western Culture
+  Farmstead & Creamery, Rancho Durazno, Zia Tortilla Co. (a tortilla maker, not a farm), plus
+  Topp Fruits and Grand Valley Micro Farms (town-only, pinned at the town center).
+- **Market-only, not mapped (5):** Delectamenti Eats, Farmhand's Harvest, Fassett Hay & Cattle,
+  Rogers Mesa Fruit Co., White Mountain Farm.
+- **Need a call (22):** see [`CALL_LIST.md`](CALL_LIST.md).
+- **Skipped, nothing verifiable (5):** Grey Owl Gardens, Producer's Co-Op (a feed/fuel co-op),
+  Stuarts Farm, Zimmerman Farms, GroFresh.
+
+The Farm Runners page loads its producer list with JavaScript; the owners/products/towns used
+here came from reading it in a browser. Mountain Bird and Thistle Whistle's Farm Runners names are
+"Mountain Bird Poultry" and "Thistle Whistle".

@@ -204,3 +204,11 @@ Zephyros Farm and Garden,Paonia,Website,set,https://zephyrosfarmandgarden.com,"F
 Parker Pastures,Gunnison,County,set,Gunnison,Town only (no public address); Gunnison is in Gunnison County (checked 2026-10-08),2026-10-08
 LB Specialty Beef,Gunnison,County,set,Gunnison,Town only (no public address); Gunnison is in Gunnison County (checked 2026-10-08),2026-10-08
 Zephyros Farm and Garden,Paonia,County,set,Delta,Paonia is in Delta County; Real Organic Project lists a Paonia address (checked 2026-10-08),2026-10-08
+Zephyros Farm and Garden,Paonia,Latitude,set,38.8698,"Pinned at the center of Paonia: the street address (11466 3725 Rd) couldn't be geocoded (Census gazetteer town point, 2026-10-08)",2026-10-08
+Zephyros Farm and Garden,Paonia,Longitude,set,-107.59208,Pinned at the center of Paonia (see Latitude),2026-10-08
+Topp Fruits,Hotchkiss,Latitude,set,38.79899,"Pinned at the center of Hotchkiss: no street address on its own site/listing (Census gazetteer, 2026-10-08)",2026-10-08
+Topp Fruits,Hotchkiss,Longitude,set,-107.71339,"Pinned at the center of Hotchkiss: no street address on its own site/listing (Census gazetteer, 2026-10-08)",2026-10-08
+Topp Fruits,Hotchkiss,County,set,Delta,Hotchkiss is in Delta County,2026-10-08
+Grand Valley Micro Farms,Grand Junction,Latitude,set,39.08906,"Pinned at the center of Grand Junction: no street address on its own site/listing (Census gazetteer, 2026-10-08)",2026-10-08
+Grand Valley Micro Farms,Grand Junction,Longitude,set,-108.56745,"Pinned at the center of Grand Junction: no street address on its own site/listing (Census gazetteer, 2026-10-08)",2026-10-08
+Grand Valley Micro Farms,Grand Junction,County,set,Mesa,Grand Junction is in Mesa County,2026-10-08
