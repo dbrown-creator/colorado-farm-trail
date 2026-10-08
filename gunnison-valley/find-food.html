@@ -230,7 +230,7 @@ if (new URLSearchParams(location.search).get("embed") === "1") document.document
     var thin = document.getElementById("thin"), lead = META.vendorLeads || {};
     thin.hidden = false;
     thin.innerHTML = "<strong>Starter set: "+ALL.length+" places so far.</strong> More producers are being verified"
-      + (lead.count ? " ("+lead.count+" market-vendor leads are waiting to be checked)" : "") + ". Know one that’s missing? <a href=\"list-your-business.html\">List it</a>.";
+      + (lead.count ? " (market-vendor leads waiting to be checked: "+lead.count+")" : "") + ". Know one that’s missing? <a href=\"list-your-business.html\">List it</a>.";
     // Hide switches that no listing can satisfy yet (thin data), so they don't look broken.
     if(!ALL.some(CP.openThisMonth)) els.open.parentNode.hidden = true;
     if(!ALL.some(function(p){ return p.snap; })) els.snap.parentNode.hidden = true;

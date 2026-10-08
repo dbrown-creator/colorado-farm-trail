@@ -1,7 +1,7 @@
 {
  "meta": {
   "generated": "2026-10-08",
-  "count": 11,
+  "count": 17,
   "counties": [
    "Gunnison"
   ],
@@ -37,11 +37,9 @@
    "December"
   ],
   "vendorLeads": {
-   "count": 86,
-   "markets": [
-    "Crested Butte Farmers Market",
-    "Salida Farmers Market"
-   ],
+   "count": 0,
+   "names": [],
+   "markets": [],
    "byCountyColumn": true
   }
  },
@@ -125,6 +123,45 @@
    "offerings": [
     "beef-meat"
    ]
+  },
+  {
+   "name": "Crested Butte Catering Co.",
+   "categories": [
+    "Caterer"
+   ],
+   "address": "525 Red Lady Ave #141",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81224",
+   "phone": "(512) 277-4327",
+   "callFirst": false,
+   "website": "https://crestedbuttecateringcompany.com",
+   "email": "",
+   "facebook": "",
+   "instagram": "",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Private chef dinners and event/wedding catering (Chef Matt Santor)",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Evidence: Google Maps 2026-10-08, 5.0 stars/9 reviews, not closed; micro-wedding review 2 months ago (about Aug 2026) with owner reply a month ago. Site footer says 2021 (stale) and makes no local-sourcing claim; earlier note about a market selling local meat/produce NOT confirmed. Operating as caterer only; include only if a caterer with no stated local sourcing fits the trail. Located in Crested Butte Laundry building.",
+   "lat": 38.866211813658,
+   "lng": -106.982122202299,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "crested-butte-catering-co",
+   "town": "Crested Butte",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "dining"
+   ],
+   "offerings": []
   },
   {
    "name": "Crested Butte Farmers Market",
@@ -243,6 +280,48 @@
    ]
   },
   {
+   "name": "Gunnison Gardens",
+   "categories": [
+    "CSA Farm"
+   ],
+   "address": "600 W Hwy 50",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 964-8226",
+   "callFirst": false,
+   "website": "https://www.gunnisongardens.com/",
+   "email": "",
+   "facebook": "https://www.facebook.com/GunnisonGardens",
+   "instagram": "",
+   "hours": "Gunnison Farmers Market Saturday mornings mid-June to October (IOOF park, Main & Virginia); Crested Butte South Farmers Market Thursdays 4:30-6 pm in summer",
+   "monthsOpen": [],
+   "products": "Vegetables, fresh eggs year-round ($8/dozen), pasture-raised chicken, vegetable seedlings, Solstice-to-Equinox CSA",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Family farm (4 acres, within Gunnison city limits). Buy via online shop (Add to Cart), farmers markets, CSA (pickups 513 S Main St Gunnison and CB South Gillaspey Ave). Evidence: homepage 2026-10-08 shows 'Solstice-to-Equinox CSA OPEN!' and 'Class Feb26-Apl25: Growing Food in a Cold Climate' (2026 class); live shop with prices; about page dated Feb 20 2026 per search snippet. Address 600 W Hwy 50 and phone from Mountain Roots marketplace producer page (secondhand; could not load in browser). Founding year inconsistent (2012 vs 2014). No Google Maps listing found.",
+   "lat": 38.54798,
+   "lng": -106.9246,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "gunnison-gardens",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "veggies",
+    "poultry-eggs"
+   ]
+  },
+  {
    "name": "Gunnison Jerky Co.",
    "categories": [
     "Grocery Store"
@@ -325,6 +404,45 @@
    ]
   },
   {
+   "name": "High Alpine Brewing Co.",
+   "categories": [
+    "Restaurant"
+   ],
+   "address": "111 North Main Street",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 642-4500",
+   "callFirst": false,
+   "website": "https://www.highalpinebrewing.com",
+   "email": "",
+   "facebook": "https://www.facebook.com/highalpinebrewingcompany/",
+   "instagram": "https://www.instagram.com/highalpinebrewing/",
+   "hours": "Daily 11AM-10PM; kitchen 11AM-9PM; happy hour 4-6PM",
+   "monthsOpen": [],
+   "products": "Craft beer, brick-oven pizza, salads, cocktails",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Brewpub opened 2015. Own site states local sourcing: food menu says everything made in-house from scratch, sourcing local and sustainably as much as possible; beer page says its business model is to use locally sourced ingredients whenever possible, all base malt from Proximity Malting (Monte Vista, CO), Chile Beer uses locally sourced organic Hatch green chile; spent grain goes to local ranchers (Gunnison Times); Mountain Roots Food Project sponsor. No named farm. Contradicts earlier skip. Marginal for farm trail; add as Restaurant if team accepts brewpubs with stated local sourcing, otherwise skip.",
+   "lat": 38.544570148297,
+   "lng": -106.927006799171,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "high-alpine-brewing-co",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "dining"
+   ],
+   "offerings": []
+  },
+  {
    "name": "LB Specialty Beef",
    "categories": [
     "Meat Producer & Packer",
@@ -368,48 +486,45 @@
    ]
   },
   {
-   "name": "Mountain Roots Food Project",
+   "name": "Mountain Earth Organic Grocer",
    "categories": [
-    "CSA Farm",
-    "Food Hub",
-    "Organization"
+    "Grocery Store"
    ],
-   "address": "107 E Georgia Ave Ste 3B",
-   "city": "Gunnison",
+   "address": "405 4th St",
+   "city": "Crested Butte",
    "county": "Gunnison",
-   "zip": "81230",
-   "phone": "(970) 417-7848",
+   "zip": "81224",
+   "phone": "(970) 349-5132",
    "callFirst": false,
-   "website": "https://mountainrootsfoodproject.org",
-   "email": "info@mountainrootsfoodproject.org",
-   "facebook": "https://facebook.com/mountainrootsfoodproject",
-   "instagram": "https://instagram.com/mountainroots_foodproject",
-   "hours": "2026 CSA: 16 weeks, Jun 25-Oct 15, Thursday pickups 4-6pm (513 S Main St, Gunnison; 620 Second St, Crested Butte). Backyard Harvest free-produce packing Tue 10am",
+   "website": "",
+   "email": "",
+   "facebook": "",
+   "instagram": "",
+   "hours": "Opens 8 AM daily per Google Maps (earlier listing 8 AM-8 PM)",
    "monthsOpen": [],
-   "products": "Vegetable, fruit, whole-diet, bread, egg and sauce CSA shares; free produce boxes; Farm to School",
+   "products": "Organic and local produce, local eggs and meat (carries LB Specialty Beef), bulk foods, daily soup, local Mountain Oven baked goods",
    "organic": false,
    "snap": false,
    "ada": false,
-   "notes": "Gunnison nonprofit food-systems group: two in-ground farms and four hydroponic container farms, a CSA with SNAP half-price and work-trade shares, and free fresh food through Backyard Harvest. The Food Hub page says \"coming soon\". Address is the office; farm field addresses are not published (call). Site lists two packing addresses (101 N 8th St vs 101 N Main St). Coordinates are from its Colorado Proud finder profile.",
-   "lat": 38.546356,
-   "lng": -106.9265438,
+   "notes": "Independent organic grocer. Evidence: Google Maps 2026-10-08 shows 4.5 stars/49 reviews, not marked closed, 'Opens 8 AM', reviews dated about a year ago (late 2025) mentioning daily muffins and local produce; listed as current retailer in CSU Extension Gunnison County Local Beef directory. No own website (Google 'Add website').",
+   "lat": 38.869692853358,
+   "lng": -106.984238473226,
    "sources": [
     "curated"
    ],
    "status": "unverified",
    "verified": "",
-   "id": "mountain-roots-food-project",
-   "town": "Gunnison",
+   "id": "mountain-earth-organic-grocer",
+   "town": "Crested Butte",
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
    "types": [
-    "farm",
-    "community"
+    "market"
    ],
    "offerings": [
     "veggies",
-    "fruit",
+    "beef-meat",
     "poultry-eggs",
     "staples"
    ]
@@ -459,6 +574,90 @@
    ]
   },
   {
+   "name": "Peterson Ranch (Double J Cattle & Hay)",
+   "categories": [
+    "Meat Producer & Packer",
+    "Farm Products (online)"
+   ],
+   "address": "",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "",
+   "callFirst": false,
+   "website": "https://doublejcattleandhay.com/",
+   "email": "jessicapeterson970@gmail.com",
+   "facebook": "",
+   "instagram": "",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Ground beef; wholesale beef; hay sales planned",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Tomichi Valley ranch just outside Gunnison. Sells through an online store; its own site says it is primarily wholesale and that meat is not for resale. Items were sold out and the latest promo is Fall 2025 (site footer 2026), so check availability. No street address or phone published, so town only. CSU Extension lists it for beef shares and ground beef. Pinned at the center of Gunnison.",
+   "lat": null,
+   "lng": null,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "peterson-ranch-double-j-cattle-hay",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "veggies",
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "Rivergate Ranch",
+   "categories": [
+    "On-Farm / Ranch Sales"
+   ],
+   "address": "10313 Hwy 149",
+   "city": "Powderhorn",
+   "county": "Gunnison",
+   "zip": "81243",
+   "phone": "(970) 765-1176",
+   "callFirst": false,
+   "website": "",
+   "email": "",
+   "facebook": "",
+   "instagram": "",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Beef shares (5 beef ready Fall 2025); mountain meadow hay and alfalfa incl. certified weed-free",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Evidence is moderate: current CSU Extension Gunnison County Local Beef directory (loaded 2026-10-08) lists it with 'ready to go Fall of 2025' and a hay entry with street address; no web/Maps presence found. Lower confidence than others; fine as address or town pin. Optional call: 2026 beef availability.",
+   "lat": 38.282107559901,
+   "lng": -107.232449489116,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "rivergate-ranch",
+   "town": "Powderhorn",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "beef-meat"
+   ]
+  },
+  {
    "name": "The Sunflower",
    "categories": [
     "Restaurant"
@@ -488,6 +687,45 @@
    "status": "unverified",
    "verified": "",
    "id": "the-sunflower",
+   "town": "Crested Butte",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "dining"
+   ],
+   "offerings": []
+  },
+  {
+   "name": "Two Twelve",
+   "categories": [
+    "Restaurant"
+   ],
+   "address": "212 Elk Ave",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81224",
+   "phone": "(970) 251-5195",
+   "callFirst": false,
+   "website": "https://www.twotwelvecb.com",
+   "email": "jason@twotwelvecb.com",
+   "facebook": "",
+   "instagram": "",
+   "hours": "Dinner Tue-Sat 5-9pm",
+   "monthsOpen": [],
+   "products": "Seasonal live-fire dinner menu; events and farmer partnership dinners",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Live-fire restaurant that says it sources from small Western Slope and Colorado farms and cooks in partnership with Mountain Roots. Own site (loaded in a browser 2026-10-08) shows fall hours, a \"Book your table\" button and a live reservation widget dated today, so it is operating.",
+   "lat": 38.869699259061,
+   "lng": -106.987212600706,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "two-twelve",
    "town": "Crested Butte",
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"

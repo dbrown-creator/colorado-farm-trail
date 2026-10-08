@@ -56,6 +56,10 @@ OUT = os.path.join(REPO, "gunnison-valley", "data", "providers.json")
 AREA_MARKET_CITIES = {"gunnison", "crested butte", "mount crested butte", "mt. crested butte",
                       "almont", "pitkin", "marble"}
 
+# Left off this prototype on purpose (name keys). Mountain Roots Food Project is the
+# organization the prototype is being shown to; it is not listed on its own pitch.
+EXCLUDE = {name_key("Mountain Roots Food Project")}
+
 SOURCE_LABELS = {
     "colorado_proud": "Colorado Proud", "colorado_proud_farm_fresh": "Colorado Proud",
     "colorado_proud_finder": "Colorado Proud", "chaffee_provides": "Chaffee Provides",
@@ -160,15 +164,21 @@ def facets(p):
     p["offerings"] = [k for k, _, rx in OFFERINGS if re.search(rx, text)]
 
 
-def vendor_leads():
-    """Vendors on Gunnison-area market lists (Phase 3): a count of unresearched leads."""
+def vendor_leads(listed):
+    """Farm-signal vendors on Gunnison-area market lists (Phase 3): unresearched leads.
+
+    Only vendors the list builder flagged as likely farms/food producers (Farm Signal
+    strong or maybe) count; craft, art and clothing vendors on the same lists do not."""
     if not os.path.exists(VENDORS):
         return {"count": 0, "markets": []}
     rows = list(csv.DictReader(open(VENDORS, encoding="utf-8-sig")))
     has_county = bool(rows) and "County" in rows[0]
     hit = [r for r in rows if (r.get("County") in AREA_COUNTIES if has_county
-                               else r["Market City"].strip().lower() in AREA_MARKET_CITIES)]
-    return {"count": len(hit), "markets": sorted({r["Market"] for r in hit}),
+                               else r["Market City"].strip().lower() in AREA_MARKET_CITIES)
+           and r.get("Farm Signal") in ("strong", "maybe")
+           and name_key(r["Vendor Name"]) not in EXCLUDE | listed]  # already a listing: not a lead
+    return {"count": len(hit), "names": sorted(r["Vendor Name"] for r in hit),
+            "markets": sorted({r["Market"] for r in hit}),
             "byCountyColumn": has_county}
 
 
@@ -176,7 +186,7 @@ def main():
     status = load_status()
     providers = {}
     for row in csv.DictReader(open(RAW, encoding="utf-8-sig")):
-        if row["County"] in AREA_COUNTIES:
+        if row["County"] in AREA_COUNTIES and name_key(row["Business Name"]) not in EXCLUDE:
             p = from_raw(row)
             providers[name_key(p["name"])] = p
     from_phase2 = len(providers)
@@ -185,7 +195,8 @@ def main():
     extra = 0
     if os.path.exists(prod_csv):
         for row in csv.DictReader(open(prod_csv, encoding="utf-8-sig")):
-            if row["county"] in AREA_COUNTIES and name_key(row["name"]) not in providers:
+            if (row["county"] in AREA_COUNTIES and name_key(row["name"]) not in providers
+                    and name_key(row["name"]) not in EXCLUDE):
                 providers[name_key(row["name"])] = from_producers(row)
                 extra += 1
 
@@ -216,7 +227,7 @@ def main():
         "counties": sorted(AREA_COUNTIES),
         "types": {k: v[0] for k, v in TYPES.items()},
         "offerings": {k: label for k, label, _ in OFFERINGS}, "months": MONTHS,
-        "vendorLeads": vendor_leads(),
+        "vendorLeads": vendor_leads(set(providers)),
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:

@@ -60,7 +60,7 @@
   CP.load("providers").then(function(d){
     var all = d.providers.filter(function(p){ return p.status !== "likely_closed"; }), meta = d.meta, lead = meta.vendorLeads || {};
     document.getElementById("thinNote").textContent = all.length + " places are listed so far. More Gunnison Valley producers are being verified"
-      + (lead.count ? " (" + lead.count + " market-vendor leads are waiting to be checked)" : "") + ".";
+      + (lead.count ? " (market-vendor leads waiting to be checked: " + lead.count + ")" : "") + ".";
     function count(field, key){ return all.filter(function(p){ return p[field].indexOf(key) !== -1; }).length; }
     document.getElementById("offerTiles").innerHTML = Object.keys(meta.offerings).filter(function(k){ return count("offerings",k); }).map(function(k){
       return '<a class="tile" href="find-food.html?offering='+k+'"><strong>'+esc(meta.offerings[k])+'</strong><span class="count">'+places(count("offerings",k))+'</span></a>';

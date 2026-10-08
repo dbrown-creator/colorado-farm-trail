@@ -61,7 +61,7 @@ CP.load("providers").then(function(d){
   document.getElementById("stats").innerHTML = "<strong>The directory today:</strong> " + all.length + " listings in " + CP.esc(d.meta.counties.join(", ")) + " County, "
     + verified + " checked against the provider’s own website. Data rebuilt " + CP.esc(CP.fmtDate(d.meta.generated)) + ".<br>"
     + Object.keys(srcs).sort(function(a,b){ return srcs[b]-srcs[a]; }).map(function(s){ return CP.esc(s)+" ("+srcs[s]+")"; }).join(" · ")
-    + (lead.count ? "<br>" + lead.count + " vendor names from " + CP.esc(lead.markets.join(", ")) + " are leads still to be researched." : "");
+    + (lead.count ? "<br>" + "Farm vendors found on market lists and still to be researched: " + lead.count + " (" + CP.esc(lead.names.join(", ")) + ")." : "");
 });
 </script>
 </body>
