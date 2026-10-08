@@ -1,0 +1,326 @@
+{
+ "meta": {
+  "generated": "2026-10-08",
+  "count": 6,
+  "counties": [
+   "Gunnison"
+  ],
+  "types": {
+   "farm": "Farms & Ranches",
+   "market": "Markets & Shops",
+   "assistance": "Food Assistance",
+   "dining": "Restaurants & Caterers",
+   "community": "Community & Education"
+  },
+  "offerings": {
+   "veggies": "Veggies",
+   "fruit": "Fruit",
+   "beef-meat": "Beef & Meat",
+   "poultry-eggs": "Poultry & Eggs",
+   "dairy": "Dairy",
+   "flowers": "Flowers",
+   "spices-garlic": "Spices & Garlic",
+   "staples": "Pantry Staples"
+  },
+  "months": [
+   "January",
+   "February",
+   "March",
+   "April",
+   "May",
+   "June",
+   "July",
+   "August",
+   "September",
+   "October",
+   "November",
+   "December"
+  ],
+  "vendorLeads": {
+   "count": 98,
+   "markets": [
+    "Crested Butte Farmers Market"
+   ],
+   "byCountyColumn": false
+  }
+ },
+ "providers": [
+  {
+   "name": "Buckel Family Wine",
+   "categories": [
+    "Winery"
+   ],
+   "address": "1018/b Colorado 135",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 349-2071",
+   "callFirst": false,
+   "website": "https://buckelfamilywine.com",
+   "email": "",
+   "facebook": "https://www.facebook.com/BuckelFamilyWine/",
+   "instagram": "https://www.instagram.com/buckelfamilywine/",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Red Wine, White Wine, Wine",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Buckel Family Wine is an industrial style winery located in the Gunnison Valley of Colorado.  We source our fruit from vineyards on the Western Slope of Colorado.  We make Old World Styled dry wines.  White, Rosé, Red and Sparkling.\n\nWe have Tasting Rooms in:\nGunnison, CO\n1018 Highway 135, Unit B\nOpen Friday and Saturday 2-7pm",
+   "lat": 38.5591857,
+   "lng": -106.9264763,
+   "sources": [
+    "colorado_proud_finder"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "buckel-family-wine",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Colorado Proud"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": []
+  },
+  {
+   "name": "Cranor Charolais",
+   "categories": [
+    "On-Farm / Ranch Sales"
+   ],
+   "address": "3600 County Road 10",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 275-4026",
+   "callFirst": false,
+   "website": "https://cranorcharolais.com/",
+   "email": "",
+   "facebook": "https://www.facebook.com/cranorcharolais",
+   "instagram": "https://www.instagram.com/cranorcharolais/",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Beef",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Raising high quality, local, beef and Charolais cattle. Offering meat for sale including beef boxes and beef shares. Also offering replacement heifers, bulls and much more. We are located in Gunnison, Colorado at 8000 feet above sea level – raising animals that are well equipped to handle altitude, cold brutal winters, and dry summers.",
+   "lat": 38.6013887,
+   "lng": -106.8892539,
+   "sources": [
+    "colorado_proud_finder"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "cranor-charolais",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Colorado Proud"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "Crested Butte Farmers Market",
+   "categories": [
+    "Farmers' Market"
+   ],
+   "address": "100 Elk Ave.",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81224",
+   "phone": "(405) 203-0168",
+   "callFirst": false,
+   "website": "https://www.cbfarmersmarket.org",
+   "email": "info@cbfarmersmarket.org",
+   "facebook": "https://www.facebook.com/crestedbuttefarmersmarket/",
+   "instagram": "https://instagram.com/cbfarmersmarket",
+   "hours": "Sun: 9am - 2pm",
+   "monthsOpen": [
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October"
+   ],
+   "products": "Apples, Apricots, Asparagus, Beets, Bell Peppers, Broccoli, Cabbage, Cantaloupe, Carrots, Cauliflower, Celery, Cherries, Chile Peppers, Chile - Roasted, Cucumbers, Eggplant, Garlic, Green Beans, Herbs, Honeydew, Kale, Leeks, Lettuce, Microgreens, Mushrooms, Onions, Peaches, Pears, Peas, Plums, Potatoes, Pumpkins, Radishes, Raspberries, Rhubarb, Squash, Strawberries, Spinach, Tomatoes, Turnips, Watermelon, Zucchini, Beef, Pork, Poultry, Pickles, Jellies, Jams, Honey, Eggs, Cheese, Baked Goods, Cider, Juices, Wine, Handcrafted Gifts",
+   "organic": false,
+   "snap": true,
+   "ada": true,
+   "notes": "The CB Farmers Market is dedicated to promoting sustainable agriculture.  We offer organic and naturally grown vegetables, fruits, herbs, pasture-raised and grass-finished meats, artisanal cheese, wine, hard ciders & juices, breads, jams, pickles, cut flowers and a local arts and crafts.",
+   "lat": 38.869700704303106,
+   "lng": -106.98901490948651,
+   "sources": [
+    "colorado_proud",
+    "colorado_proud_farm_fresh",
+    "cfma",
+    "colorado_proud_finder"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "crested-butte-farmers-market",
+   "town": "Crested Butte",
+   "sourceLabels": [
+    "Colorado Proud",
+    "Colorado Farmers Market Association"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "veggies",
+    "fruit",
+    "beef-meat",
+    "poultry-eggs",
+    "dairy",
+    "flowers",
+    "spices-garlic",
+    "staples"
+   ]
+  },
+  {
+   "name": "Gunnison Farmers Market",
+   "categories": [
+    "Farmers' Market"
+   ],
+   "address": "Main and Virginia",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 648-0580",
+   "callFirst": false,
+   "website": "https://www.gunnisonfarmersmarket.org",
+   "email": "gunnyfarmersmarket@gmail.com",
+   "facebook": "https://www.facebook.com/profile.php?id=100057396522608",
+   "instagram": "https://instagram.com/gunnisonfarmersmarket",
+   "hours": "Sat: 9:30 a.m. - 1 p.m.",
+   "monthsOpen": [
+    "June",
+    "July",
+    "August",
+    "September",
+    "October"
+   ],
+   "products": "Apples, Apricots, Beets, Bell Peppers, Broccoli, Brussels Sprouts, Cabbage, Carrots, Cauliflower, Cherries, Chile Peppers, Chile - Roasted, Cucumbers, Eggplant, Garlic, Green Beans, Grapes, Herbs, Kale, Honeydew, Leeks, Lettuce, Microgreens, Onions, Peaches, Pears, Peas, Plums, Potatoes, Pumpkins, Radishes, Raspberries, Rhubarb, Spinach, Squash, Strawberries, Sweet Corn, Tomatoes, Turnips, Zucchini, Pork, Poultry, Sausage, Beef, Baked Goods, Cheese, Eggs, Honey, Jams, Jellies, Pickles, Cider, Juices, Handcrafted Gifts, Rum, Local wine",
+   "organic": false,
+   "snap": true,
+   "ada": true,
+   "notes": "Seasonal farmers market in downtown Gunnison featuring an array of produce, meats, alcoholic and non alcoholic beverages, fresh baked goods including sourdough bread, jewelry, photography, clothing, and other artisan goods. Live music in IOOF Park.",
+   "lat": 38.54550198600003,
+   "lng": -106.92689802799998,
+   "sources": [
+    "colorado_proud",
+    "colorado_proud_farm_fresh",
+    "cfma"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "gunnison-farmers-market",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Colorado Proud",
+    "Colorado Farmers Market Association"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "veggies",
+    "fruit",
+    "beef-meat",
+    "poultry-eggs",
+    "dairy",
+    "flowers",
+    "spices-garlic",
+    "staples"
+   ]
+  },
+  {
+   "name": "Gunnison Jerky Co.",
+   "categories": [
+    "Grocery Store"
+   ],
+   "address": "235 N Main St",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 707-4181",
+   "callFirst": false,
+   "website": "https://gunnisonjerkyco.com",
+   "email": "",
+   "facebook": "https://facebook.com/gunnisonjerkyco",
+   "instagram": "https://instagram.com/gunnisonjerkyco",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Cured Meat Products",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "We are a Colorado Mercantile specializing in our very own all-natural, handcrafted beef jerky. We bring together a wide range of other Colorado products, including honey, jams, olive oils, gourmet teas, baking mixes, charcuterie boards, candles, soaps, tea towels, quilted throws, and more!\n\nGunnison Jerky Co. also provides tasty, on-the-go snacks for wild at heart adventurers with health-conscious attitudes. Whether you're heading out on your first hike or pitching a tent for the hundredth time, we're here with energy-charged snacks to help you celebrate being outdoors.",
+   "lat": 38.5462646,
+   "lng": -106.9273064,
+   "sources": [
+    "colorado_proud_finder"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "gunnison-jerky-co",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Colorado Proud"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "Vermont Sticky",
+   "categories": [
+    "Grocery Store",
+    "Food Maker"
+   ],
+   "address": "35 Belleview Drive",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81225",
+   "phone": "(970) 901-0215",
+   "callFirst": false,
+   "website": "https://vermontsticky.com",
+   "email": "",
+   "facebook": "https://vermontsticky.com",
+   "instagram": "https://vermontsticky.com",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Chocolate & Cocoa Products, Maple Syrup",
+   "organic": true,
+   "snap": true,
+   "ada": false,
+   "notes": "I'm a 3rd generation maple syrup producer but moved to Crested Butte, CO in 1999. I return to VT to make maple syrup with my family each year then bring it to CO and sell around the Western Slope. With our organic maple sugar, I make a number of products here in the Gunnison Valley. \nMaple sugar hot cocoa (5 flavors)\nmaple sugar electrolyte drink mix (2 flavors)\n\nBecause I'm making the above products in CO, my business is in CO and I have lived in CO for 25 years, I would love to include the Colorado Proud logo.",
+   "lat": 38.9078345,
+   "lng": -106.9674741,
+   "sources": [
+    "colorado_proud_finder"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "vermont-sticky",
+   "town": "Crested Butte",
+   "sourceLabels": [
+    "Colorado Proud"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": []
+  }
+ ]
+}

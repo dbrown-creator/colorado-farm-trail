@@ -4,9 +4,25 @@
     {
       "name": "farm-trail",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["--yes", "serve", "."],
+      "runtimeArgs": [
+        "--yes",
+        "serve",
+        "."
+      ],
       "port": 3000,
       "autoPort": true
+    },
+    {
+      "name": "gunnison-valley",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "serve",
+        "gunnison-valley",
+        "-l",
+        "3018"
+      ],
+      "port": 3018
     }
   ]
 }

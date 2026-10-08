@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>List Your Business · Gunnison Valley Provides</title>
+<meta name="description" content="Prototype: how Gunnison Valley farms, ranches, markets and food makers would be listed or update their listing.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="list-your-business.html">
+<div id="site-header"></div>
+<main id="main">
+  <article class="article">
+    <h1>List your business, or update your listing</h1>
+    <p style="font-size:1.1rem">Farms, ranches, markets and food makers in the Gunnison Valley can be listed at no cost. Already on the map? Use this same form to correct your hours, season, contact details or products.</p>
+
+    <h2 style="margin-top:.8em">How it works</h2>
+    <ol>
+      <li><strong>You fill in this form.</strong> Hours and season are included, so customers know when to come.</li>
+      <li><strong>It goes into the producers data set.</strong> The form feeds the same Colorado producers data set that this map is built from, so one submission is the single source for the map and anything else built on that data.</li>
+      <li><strong>A person reviews it.</strong> We check it against your own website or social page, and merge it with any existing listing so there are no duplicates.</li>
+      <li><strong>It goes live fast.</strong> Typically within a few days, and within a month at most.</li>
+      <li><strong>Your fix sticks.</strong> A correction you send is saved, so a later data refresh never overwrites it.</li>
+    </ol>
+    <p>Separately, the whole data set is re-checked and refreshed <strong>at least monthly</strong>. See <a href="about.html#monthly">how monthly verification works</a>.</p>
+
+    <div class="notice-box"><strong>Prototype form.</strong> In this preview nothing is stored or sent automatically. “Prepare my listing” opens an email to the Colorado Farm Trail with your answers filled in, so you can see the fields. In a real launch it would feed a reviewed intake queue, like the Colorado Farm Trail’s <a href="https://forms.gle/NFoVsEQURggzTBSX9" rel="noopener">add-your-business form</a>.</div>
+
+    <form class="form" id="f" novalidate>
+      <label>This is a… <select name="kind"><option>New listing</option><option>Update to an existing listing</option></select></label>
+      <label>Business name * <input name="name" required autocomplete="organization"></label>
+      <label>Type *
+        <select name="type" required>
+          <option value="">Choose one</option>
+          <option>Farm</option><option>Ranch</option><option>Farmers market</option><option>Shop or grocer</option>
+          <option>Food maker (jerky, baked goods, preserves…)</option><option>Winery, brewery or distillery</option>
+          <option>Restaurant or caterer</option><option>Food bank or pantry</option><option>Organization or nonprofit</option>
+        </select></label>
+      <fieldset><legend>What do you offer?</legend>
+        <label><input type="checkbox" name="offer" value="Veggies"> Veggies</label>
+        <label><input type="checkbox" name="offer" value="Fruit"> Fruit</label>
+        <label><input type="checkbox" name="offer" value="Beef/Meat"> Beef &amp; meat</label>
+        <label><input type="checkbox" name="offer" value="Poultry/Eggs"> Poultry &amp; eggs</label>
+        <label><input type="checkbox" name="offer" value="Dairy"> Dairy</label>
+        <label><input type="checkbox" name="offer" value="Flowers"> Flowers</label>
+        <label><input type="checkbox" name="offer" value="Honey"> Honey</label>
+        <label><input type="checkbox" name="offer" value="Spices/Garlic"> Spices &amp; garlic</label>
+        <label><input type="checkbox" name="offer" value="Staples"> Pantry staples</label>
+      </fieldset>
+      <label>Street address <input name="address" autocomplete="street-address"></label>
+      <label>Town *
+        <select name="town" required>
+          <option value="">Choose one</option>
+          <option>Gunnison</option><option>Crested Butte</option><option>Mount Crested Butte</option><option>Almont</option>
+          <option>Parlin</option><option>Ohio City</option><option>Pitkin</option><option>Somerset</option><option>Other</option>
+        </select></label>
+      <label><span><input type="checkbox" name="hide"> Don't show my street address (pickup by arrangement)</span></label>
+      <label>Hours <input name="hours" placeholder="e.g. Sat 9:30–1; farm stand Mon 4–6"></label>
+      <label>Season <input name="season" placeholder="e.g. June–October, or year-round"></label>
+      <label>Phone * <input name="phone" type="tel" required autocomplete="tel"></label>
+      <label>Email <input name="email" type="email" autocomplete="email"></label>
+      <label>Website or social page <input name="website" type="url" placeholder="https://"></label>
+      <label>Do you accept SNAP/EBT?
+        <select name="snap"><option value="">Not sure / skip</option><option>Yes</option><option>No</option></select></label>
+      <label>Tell people about your place <textarea name="desc" rows="5"></textarea></label>
+      <p class="muted" id="err" role="alert"></p>
+      <button class="btn btn-primary" type="submit">Prepare my listing</button>
+    </form>
+  </article>
+</main>
+<div id="site-footer"></div>
+<script src="assets/app.js"></script>
+<script>
+(function(){
+  var f = document.getElementById("f");
+  var upd = new URLSearchParams(location.search).get("update");
+  if(upd){ f.elements.kind.value = "Update to an existing listing"; f.elements.name.value = upd; }
+  f.addEventListener("submit", function(e){
+    e.preventDefault();
+    var err = document.getElementById("err");
+    var missing = ["name","type","town","phone"].filter(function(n){ return !f.elements[n].value.trim(); });
+    if(missing.length){ err.textContent = "Please fill in: " + missing.join(", ") + "."; f.elements[missing[0]].focus(); return; }
+    err.textContent = "";
+    var offers = Array.prototype.map.call(f.querySelectorAll('input[name=offer]:checked'), function(i){ return i.value; });
+    var lines = [
+      "Request: " + f.elements.kind.value, "Business: " + f.elements.name.value, "Type: " + f.elements.type.value, "Offers: " + offers.join(", "),
+      "Address: " + f.elements.address.value + (f.elements.hide.checked ? " (hide on site)" : ""), "Town: " + f.elements.town.value,
+      "Hours: " + f.elements.hours.value, "Season: " + f.elements.season.value, "Phone: " + f.elements.phone.value,
+      "Email: " + f.elements.email.value, "Website: " + f.elements.website.value, "SNAP: " + f.elements.snap.value, "", f.elements.desc.value
+    ];
+    location.href = "mailto:coloradofarmtrail@gmail.com?subject=" + encodeURIComponent("Gunnison Valley prototype listing: " + f.elements.name.value)
+      + "&body=" + encodeURIComponent(lines.join("\n"));
+  });
+})();
+</script>
+</body>
+</html>

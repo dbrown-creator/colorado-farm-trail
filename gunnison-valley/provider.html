@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Provider · Gunnison Valley Provides</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="find-food.html">
+<div id="site-header"></div>
+<main id="main" class="wrap"><p style="padding:40px 0" class="muted">Loading…</p></main>
+<div id="site-footer"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(function(){
+  "use strict";
+  var esc = CP.esc, main = document.getElementById("main");
+  var id = new URLSearchParams(location.search).get("id");
+
+  // Provenance labels: "official-site:https://..." -> link to the exact page.
+  var SRC = { "producers-dataset":"Colorado producers data set", "colorado_proud_finder":"Colorado Proud", "colorado_proud":"Colorado Proud", "colorado_proud_farm_fresh":"Colorado Proud",
+    "cfma":"Colorado Farmers Market Association", "usda":"USDA local-food directory", "official-site":"provider's website",
+    "dedup-decision":"reviewed by hand", "override":"a hand-checked correction", "census-geocoder":"US Census geocoder" };
+  // Per-detail source labels are switched off (reviewer's call); the page's source list stays.
+  var SHOW_FIELD_SOURCES = false;
+  function srcNote(p, col){
+    if(!SHOW_FIELD_SOURCES) return "";
+    var s = p.provenance && (p.provenance[col] || p.provenance[col.toLowerCase()]);
+    if(!s) return "";
+    if(s.indexOf("official-site:") === 0){
+      var u = s.slice("official-site:".length);
+      return '<span class="src">from the <a href="'+esc(u)+'" target="_blank" rel="noopener">provider\'s own site</a></span>';
+    }
+    return '<span class="src">from '+esc(SRC[s] || s)+'</span>';
+  }
+  function fact(ic, html, src){ return '<div class="fact"><span class="ic">'+ic+'</span><div>'+html+(src||"")+'</div></div>'; }
+  function link(u, label){
+    if(!/^https?:\/\//i.test(u)) return esc(label || u);  // never emit a relative "link" from bad data
+    return '<a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(label || u.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))+'</a>'; }
+
+  CP.load("providers").then(function(d){
+    var all = d.providers, meta = d.meta;
+    var p = all.find(function(x){ return x.id === id; });
+    if(!p){ main.innerHTML = '<p style="padding:40px 0">We couldn\'t find that listing. <a href="find-food.html">Browse all providers →</a></p>'; return; }
+    document.title = p.name + " · Gunnison Valley Provides";
+
+    var types = p.types.map(function(t){
+      var st = CP.typeStyle(t);
+      return '<a class="tag" style="color:'+st.color+';text-decoration:none" href="find-food.html?type='+t+'">'+esc(meta.types[t])+'</a>';
+    }).join(" &nbsp; ");
+    var offers = p.offerings.map(function(o){
+      return '<a class="chip" href="find-food.html?offering='+o+'">'+esc(meta.offerings[o])+'</a>';
+    }).join(" ");
+
+    var status = "";
+    if(p.status === "likely_closed") status = '<div class="notice-box"><strong>This provider may have closed.</strong> We couldn\'t find a current website or recent activity. Know more? <a href="list-your-business.html?update='+encodeURIComponent(p.name)+'">Tell us</a>.</div>';
+    if(/^not open to the public/i.test(p.hours || "")) status += '<div class="notice-box"><strong>Not open to the public.</strong> Please don\'t visit in person; see below for how to buy.</div>';
+    var verified = p.verified
+      ? '<span class="pill ok">✓ Checked against the provider\'s own site · '+esc(CP.fmtDate(p.verified))+'</span>'
+      : '<span class="pill warn">Listed by '+esc(p.sourceLabels.join(", "))+' · not yet checked against the provider\'s own site</span>';
+    if(p.verified && p.status === "unknown") verified = '<span class="pill warn">Checked '+esc(CP.fmtDate(p.verified))+' · couldn\'t confirm current details</span>';
+
+    var facts = "";
+    // Some addresses already end with the town ("..., Salida, CO 81201"); don't repeat it.
+    var hasTown = p.address && p.town && p.address.toLowerCase().indexOf(p.town.toLowerCase()) !== -1;
+    var addr = hasTown ? p.address : [p.address, p.town].filter(Boolean).join(", ");
+    if(addr) facts += fact("Address", esc(addr) + (p.county && p.city ? ", "+esc(p.county)+" County" : ""), srcNote(p,"Address"));
+    if(p.hours) facts += fact("Hours", esc(p.hours), srcNote(p,"Hours"));
+    if(p.monthsOpen.length) facts += fact("Season", esc(p.monthsOpen.length === 12 ? "Year-round" : p.monthsOpen.join(", ")), srcNote(p,"Months Open"));
+    if(p.phone) facts += fact("Phone", '<a href="tel:'+esc(p.phone.replace(/[^0-9+]/g,""))+'">'+esc(p.phone)+'</a>'+(p.callFirst?' <em>(call first)</em>':''), srcNote(p,"Phone"));
+    if(p.email) facts += fact("Email", '<a href="mailto:'+esc(p.email)+'">'+esc(p.email)+'</a>', srcNote(p,"Email"));
+    if(p.website) facts += fact("Website", link(p.website), srcNote(p,"Website"));
+    var social = [p.facebook && link(p.facebook,"Facebook"), p.instagram && link(p.instagram,"Instagram")].filter(Boolean);
+    if(social.length) facts += fact("Social", social.join(" · "));
+    var flags = [p.snap && "Accepts SNAP", p.organic && "Certified organic", p.ada && "ADA accessible"].filter(Boolean);
+    if(flags.length) facts += fact("Also", flags.map(esc).join(" · "));
+
+    var related = all.filter(function(x){
+      return x !== p && x.status !== "likely_closed" && x.offerings.some(function(o){ return p.offerings.indexOf(o) !== -1; });
+    }).slice(0, 4);
+
+    main.innerHTML =
+      '<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> › <a href="find-food.html">Find Food</a> › '+esc(p.name)+'</nav>'
+      + '<div class="provider"><div>'
+      +   '<h1>'+esc(p.name)+'</h1><div>'+types+'</div>'
+      +   '<p class="muted" style="margin:6px 0 0">'+esc(p.categories.join(" · "))+'</p>'
+      +   '<div style="margin-top:12px">'+verified+'</div>'+status
+      +   (p.products ? '<h2 style="font-size:1.25rem;margin-top:24px">'+(p.types.indexOf("dining") !== -1 ? 'Local ingredients they use' : 'What they offer')+'</h2><p>'+esc(p.products)+'</p>'+srcNote(p,"Products") : '')
+      +   (offers ? '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:10px">'+offers+'</div>' : '')
+      +   (p.notes ? '<h2 style="font-size:1.25rem;margin-top:24px">About</h2><p style="white-space:pre-line">'+esc(p.notes)+'</p>' : '')
+      +   '<div class="facts">'+facts+'</div>'
+      +   '<p style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-primary" href="'+CP.directions(p)+'" target="_blank" rel="noopener">Directions</a>'
+      +   '<a class="btn btn-ghost" href="list-your-business.html?update='+encodeURIComponent(p.name)+'">Update this listing</a></p>'
+      + '</div><div>'
+      +   (p.lat != null ? '<div id="mini" class="mini-map" role="img" aria-label="Map showing '+esc(p.name)+'"></div>' : '<div class="callout">No map location yet — this listing has no street address we could place.</div>')
+      +   '<h2 style="font-size:1.1rem;margin-top:22px">Where this information comes from</h2><ul class="sources">'
+      +   p.sourceLabels.map(function(s){ return '<li>'+esc(s)+'</li>'; }).join("")
+      +   '</ul><p class="muted" style="font-size:.88rem">When sources disagree, the provider\'s own website wins, then Colorado Proud, then other directories.</p>'
+      +   (related.length ? '<h2 style="font-size:1.1rem;margin-top:22px">You might also like</h2><ul class="sources">'
+            + related.map(function(r){ return '<li><a href="'+CP.providerUrl(r)+'">'+esc(r.name)+'</a> <span class="muted">· '+esc(r.town)+'</span></li>'; }).join("") + '</ul>' : '')
+      + '</div></div>';
+
+    if(p.lat != null){
+      var m = L.map("mini", { scrollWheelZoom:false, zoomControl:true }).setView([p.lat, p.lng], 12);
+      CP.basemap(m);
+      CP.countyOutline(m);
+      L.marker([p.lat, p.lng], { icon:CP.pinIcon(CP.primaryType(p)) }).addTo(m);
+    }
+  }).catch(function(e){ main.innerHTML = '<p style="padding:40px 0">Could not load ('+esc(e.message)+').</p>'; });
+})();
+</script>
+</body>
+</html>

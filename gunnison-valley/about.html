@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>About &amp; How It Works · Gunnison Valley Provides</title>
+<meta name="description" content="How the Gunnison Valley Provides prototype is built, where its data comes from and how it would be verified monthly.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="about.html">
+<div id="site-header"></div>
+<main id="main">
+  <article class="article">
+    <h1>About &amp; how it works</h1>
+    <p style="font-size:1.15rem">Gunnison Valley Provides is a <strong>working title</strong> for a prototype: a local-food map and directory for the Gunnison Valley that feeds from the Colorado producers data set. It exists to show what such a resource could look like, not to launch one.</p>
+    <div class="callout" id="stats">Loading directory stats…</div>
+
+    <h2>What this is, and isn’t</h2>
+    <ul>
+      <li>Prepared by <a href="https://coloradofarmtrail.com/">Colorado Farm Trail</a> for review. It runs on one computer and is not published.</li>
+      <li>Not an official site of any organization. No logos or branding of any local group are used, and no group has endorsed or approved this.</li>
+      <li>The design is deliberately neutral so that any organization could re-skin it.</li>
+    </ul>
+
+    <h2 id="monthly">Monthly verification</h2>
+    <p>Directories go stale: markets move, stands change days, phone numbers change hands. The plan is a steady monthly rhythm rather than an occasional cleanup:</p>
+    <ol>
+      <li><strong>Refresh the sources.</strong> At least once a month the data set re-pulls Colorado Proud, the Colorado Farmers Market Association and the USDA local-food directories, and notes what changed.</li>
+      <li><strong>Check against the provider’s own site.</strong> Each listing is compared with the business’s own website or social page. A website that has gone dark, or a place that appears closed, is flagged.</li>
+      <li><strong>A person reviews the changes.</strong> New listings and updates sent through the <a href="list-your-business.html">listing form</a> are reviewed and de-duplicated before they go live: typically within days, within a month at most.</li>
+      <li><strong>Corrections are remembered.</strong> A fix confirmed by a producer is saved as a correction, so the next refresh cannot undo it.</li>
+      <li><strong>Every page shows its date.</strong> Each listing says where its details came from and when it was last checked. “Not yet checked” is shown plainly when that is the case.</li>
+    </ol>
+
+    <h2 id="sources">Sources, honestly</h2>
+    <ul>
+      <li><strong>Colorado Proud</strong> member and farmers-market directories.</li>
+      <li><strong>Colorado Farmers Market Association</strong> market listings.</li>
+      <li><strong>USDA Local Food Directories.</strong></li>
+      <li><strong>Each provider’s own website</strong>, which wins when sources disagree.</li>
+      <li><strong>Market vendor lists</strong>, such as the Crested Butte farmers market’s published vendors. These are leads: a vendor name on a list is not a verified farm until someone checks it, so they are not shown on the map yet.</li>
+    </ul>
+    <p>Nothing is guessed: a detail appears only if a source states it. Some sources are older than others, and listings that came only from a directory have <em>not</em> yet been checked against the business itself. That is stated on each listing page.</p>
+    <p class="callout"><strong>Known gaps.</strong> This is a starter set. Most of the valley’s growers, ranchers, CSAs, farm stands, restaurants that buy local and food-access programs are not in it yet. Read the map as “what has been found and verified so far”, never as the full valley. The count above, and the number of leads still waiting, are rebuilt from the data every time the site is built.</p>
+
+    <h2>Where the data lives</h2>
+    <p>The map is built from the Colorado producers data set by one script, so new producers appear as soon as they are added to the data set and the site is rebuilt. The listing form and the monthly checks feed that same data set, which is what would keep the map, and anything else built on it, in step.</p>
+
+    <p>Farmers and food businesses: <a href="list-your-business.html">list your business for free</a>.</p>
+  </article>
+</main>
+<div id="site-footer"></div>
+<script src="assets/app.js"></script>
+<script>
+CP.load("providers").then(function(d){
+  var all = d.providers, verified = all.filter(function(p){ return p.verified; }).length, lead = d.meta.vendorLeads || {};
+  var srcs = {}; all.forEach(function(p){ p.sourceLabels.forEach(function(s){ srcs[s] = (srcs[s]||0)+1; }); });
+  document.getElementById("stats").innerHTML = "<strong>The directory today:</strong> " + all.length + " listings in " + CP.esc(d.meta.counties.join(", ")) + " County, "
+    + verified + " checked against the provider’s own website. Data rebuilt " + CP.esc(CP.fmtDate(d.meta.generated)) + ".<br>"
+    + Object.keys(srcs).sort(function(a,b){ return srcs[b]-srcs[a]; }).map(function(s){ return CP.esc(s)+" ("+srcs[s]+")"; }).join(" · ")
+    + (lead.count ? "<br>" + lead.count + " vendor names from " + CP.esc(lead.markets.join(", ")) + " are leads still to be researched." : "");
+});
+</script>
+</body>
+</html>

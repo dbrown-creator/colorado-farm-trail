@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-root=".">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Gunnison Valley Provides · Local food in the Gunnison Valley (prototype)</title>
+<meta name="description" content="Prototype local-food map and directory for the Gunnison Valley, Colorado.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="index.html">
+<div id="site-header"></div>
+<main id="main">
+  <section class="hero">
+    <div class="wrap"><div class="panel">
+      <h1>Local food, Gunnison Valley</h1>
+      <p class="lede">Find the farms, ranches, markets and food makers of Gunnison County on one map, kept current by a monthly check.</p>
+      <form class="search-bar" action="find-food.html" role="search">
+        <label class="sr-only" for="hq">Search local food</label>
+        <input id="hq" name="q" type="search" placeholder="Try “beef”, “wine” or “Crested Butte”">
+        <button class="btn btn-primary" type="submit">Find food</button>
+      </form>
+      <div class="notice"><strong>A starter set.</strong> <span id="thinNote">Loading…</span></div>
+    </div></div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="section-head"><div><h2>What are you looking for?</h2><p>Browse by what you want to eat, or by the kind of place.</p></div>
+        <a class="btn btn-ghost" href="find-food.html">Open the full map →</a></div>
+      <div class="grid cols-4" id="offerTiles"></div>
+      <div class="grid cols-4" id="typeTiles" style="margin-top:16px"></div>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="wrap grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px">
+      <div>
+        <h2>On the map today</h2>
+        <ul class="sources" id="allList"></ul>
+        <a href="find-food.html">See them on the map →</a>
+      </div>
+      <div class="card"><div class="body">
+        <h3>How this would stay current</h3>
+        <p class="muted" style="margin:0 0 10px">Producers send a listing or an update through a short form. A person reviews it, it goes live within days (a month at most), and the whole data set is re-checked and refreshed at least monthly.</p>
+        <a href="about.html">How it works →</a> &nbsp; <a href="list-your-business.html">List your business →</a>
+      </div></div>
+    </div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script src="assets/app.js"></script>
+<script>
+(function(){
+  "use strict";
+  var esc = CP.esc;
+  function places(n){ return n + (n === 1 ? " place" : " places"); }
+  CP.load("providers").then(function(d){
+    var all = d.providers.filter(function(p){ return p.status !== "likely_closed"; }), meta = d.meta, lead = meta.vendorLeads || {};
+    document.getElementById("thinNote").textContent = all.length + " places are listed so far. More Gunnison Valley producers are being verified"
+      + (lead.count ? " (" + lead.count + " market-vendor leads are waiting to be checked)" : "") + ".";
+    function count(field, key){ return all.filter(function(p){ return p[field].indexOf(key) !== -1; }).length; }
+    document.getElementById("offerTiles").innerHTML = Object.keys(meta.offerings).filter(function(k){ return count("offerings",k); }).map(function(k){
+      return '<a class="tile" href="find-food.html?offering='+k+'"><strong>'+esc(meta.offerings[k])+'</strong><span class="count">'+places(count("offerings",k))+'</span></a>';
+    }).join("");
+    document.getElementById("typeTiles").innerHTML = Object.keys(meta.types).filter(function(k){ return count("types",k); }).map(function(k){
+      var st = CP.typeStyle(k);
+      return '<a class="tile" href="find-food.html?type='+k+'"><strong><span class="dot" style="background:'+st.hex+'" aria-hidden="true"></span>'+esc(meta.types[k])+'</strong><span class="count">'+places(count("types",k))+'</span></a>';
+    }).join("");
+    document.getElementById("allList").innerHTML = all.slice(0,24).map(function(p){
+      return '<li><a href="'+CP.providerUrl(p)+'">'+esc(p.name)+'</a> <span class="muted">· '+esc(p.town)+'</span></li>';
+    }).join("");
+  });
+})();
+</script>
+</body>
+</html>
