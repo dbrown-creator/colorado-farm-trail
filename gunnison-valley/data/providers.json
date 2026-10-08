@@ -1,7 +1,7 @@
 {
  "meta": {
   "generated": "2026-10-08",
-  "count": 15,
+  "count": 14,
   "counties": [
    "Gunnison"
   ],
@@ -393,49 +393,6 @@
    ]
   },
   {
-   "name": "High Alpine Brewing Co.",
-   "categories": [
-    "Restaurant"
-   ],
-   "address": "111 North Main Street",
-   "city": "Gunnison",
-   "county": "Gunnison",
-   "zip": "81230",
-   "phone": "(970) 642-4500",
-   "callFirst": false,
-   "website": "https://www.highalpinebrewing.com",
-   "email": "",
-   "facebook": "https://www.facebook.com/highalpinebrewingcompany/",
-   "instagram": "https://www.instagram.com/highalpinebrewing/",
-   "hours": "Daily 11AM-10PM; kitchen 11AM-9PM; happy hour 4-6PM",
-   "monthsOpen": [],
-   "products": "Craft beer, brick-oven pizza, salads, cocktails",
-   "organic": false,
-   "snap": false,
-   "ada": false,
-   "notes": "Brewpub opened 2015. Own site states local sourcing: food menu says everything made in-house from scratch, sourcing local and sustainably as much as possible; beer page says its business model is to use locally sourced ingredients whenever possible, all base malt from Proximity Malting (Monte Vista, CO), Chile Beer uses locally sourced organic Hatch green chile; spent grain goes to local ranchers (Gunnison Times); Mountain Roots Food Project sponsor. No named farm. Contradicts earlier skip. Marginal for farm trail; add as Restaurant if team accepts brewpubs with stated local sourcing, otherwise skip.",
-   "lat": 38.544570148297,
-   "lng": -106.927006799171,
-   "sources": [
-    "curated"
-   ],
-   "status": "ok",
-   "verified": "2026-10-08",
-   "id": "high-alpine-brewing-co",
-   "town": "Gunnison",
-   "checkNotes": [
-    "Site confirms address, phone and hours (daily 11–10; kitchen 11–9).",
-    "The home page says nothing about local sourcing. The listing's notes cite the food-menu and beer pages for it; those sub-pages were not read in this check."
-   ],
-   "sourceLabels": [
-    "Farmers market vendor lists, checked by hand"
-   ],
-   "types": [
-    "dining"
-   ],
-   "offerings": []
-  },
-  {
    "name": "LB Specialty Beef",
    "categories": [
     "Meat Producer & Packer",
@@ -563,7 +520,7 @@
    "town": "Gunnison",
    "checkNotes": [
     "Site is current (© 2026, live shop). Grass-fed beef, chicken, bison and salmon, shipped Mon/Tue to all 50 states.",
-    "The site states no town or address and no phone, so it does not confirm a Gunnison location, and it is an online shipper, not a local pickup."
+    "The site (home, About and Contact pages) states no town, state, address, pickup or phone, only an email and a form. So nothing on its own site places it in Gunnison; the Gunnison location comes from a directory listing. It is an online shipper, not a local pickup."
    ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"

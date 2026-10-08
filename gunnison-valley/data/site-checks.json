@@ -61,13 +61,6 @@
         "email": "gvhf.store.one@gmail.com"
       }
     },
-    "high-alpine-brewing-co": {
-      "status": "ok",
-      "notes": [
-        "Site confirms address, phone and hours (daily 11–10; kitchen 11–9).",
-        "The home page says nothing about local sourcing. The listing's notes cite the food-menu and beer pages for it; those sub-pages were not read in this check."
-      ]
-    },
     "lb-specialty-beef": {
       "status": "ok",
       "notes": [
@@ -82,7 +75,7 @@
       "status": "ok",
       "notes": [
         "Site is current (© 2026, live shop). Grass-fed beef, chicken, bison and salmon, shipped Mon/Tue to all 50 states.",
-        "The site states no town or address and no phone, so it does not confirm a Gunnison location, and it is an online shipper, not a local pickup."
+        "The site (home, About and Contact pages) states no town, state, address, pickup or phone, only an email and a form. So nothing on its own site places it in Gunnison; the Gunnison location comes from a directory listing. It is an online shipper, not a local pickup."
       ],
       "fixes": {
         "email": "info@parkerpastures.com"
@@ -135,6 +128,11 @@
       "name": "Vermont Sticky",
       "date": "2026-10-08",
       "reason": "Not a Gunnison Valley producer: the maple syrup is made in Vermont and sold online and through retailers; the site gives only a Crested Butte PO Box and looks unmaintained (images from about 2020-2023). Disqualified by David."
+    },
+    {
+      "name": "High Alpine Brewing Co.",
+      "date": "2026-10-08",
+      "reason": "Brewpub/restaurant, not a food producer; its home page makes no local-sourcing statement (the research notes cite menu and beer sub-pages, not read). Disqualified by David."
     }
   ]
 }
