@@ -166,6 +166,15 @@ def vendor_county(name, market, city, location, tables):
     return (c, "market_city") if c else ("", "unresolved")
 
 
+def load_first_pass():
+    """Prospect name -> verdict from the first-pass screen (first_pass.csv), if it exists."""
+    path = OUT_SRC / "first_pass.csv"
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return {r["Prospect Name"]: r["Verdict"] for r in csv.DictReader(f)}
+
+
 def load_known():
     known = {}
     for label, path, col in KNOWN_SOURCES:
@@ -220,6 +229,7 @@ def main():
             groups[norm(r["Vendor Name"])].append(r)
 
     known = load_known()
+    first_pass = load_first_pass()
     prospects = []
     for key, rows in groups.items():
         best = max(rows, key=lambda r: rank[r["Farm Signal"]])
@@ -247,7 +257,8 @@ def main():
             "List Seasons": uniq("List Season"),
             "Already Known": "yes" if key in known else "no", "Known Match": known.get(key, ""),
             "Possible Match": "" if key in known else near_match(key, known),
-            "Status": "prospect - unresearched",
+            "Status": ("first pass: " + first_pass[display].replace("_", " ")) if display in first_pass
+                      else "prospect - unresearched",
             "County": county, "County Source": county_src,
         })
     prospects.sort(key=lambda p: (p["Already Known"] == "yes", -rank[p["Farm Signal"]],

@@ -47,6 +47,22 @@
 "name": "Circle of 2 Ranch",
 "source": "colorado_proud_finder"
 },
+"2020 crest dairy royal|denver": {
+"Address": "350 S Pearl St, Denver, CO",
+"Category": "Food Maker",
+"County": "Denver",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Milk, eggs, cheese, cream, bread delivered",
+"Status": "Open",
+"Website": "https://royalcrestdairy.com",
+"Year Opened": "",
+"city": "Denver",
+"name": "Royal Crest Dairy 2020",
+"source": "curated"
+},
 "2beekpers|elizabeth": {
 "Address": "",
 "Category": "On-Farm / Ranch Sales",
@@ -287,6 +303,22 @@
 "name": "5280 Mushrooms, LLC",
 "source": "colorado_proud_finder"
 },
+"5k ranch|clark": {
+"Address": "",
+"Category": "Meat Producer & Packer",
+"County": "Routt",
+"Email": "monagibson5@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(908) 759-6163",
+"Products": "Grass-fed Akaushi Wagyu beef",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Clark",
+"name": "5K Ranch",
+"source": "curated"
+},
 "63rd farm st|boulder": {
 "Address": "3796 N 63rd St",
 "Category": "CSA Farm",
@@ -414,6 +446,22 @@
 "city": "Glenwood Springs",
 "name": "Glenwood Springs Downtown Market on 7th",
 "source": "official-site+cfma+usda"
+},
+"8 lucky ranch|oak creek": {
+"Address": "23850 Tobiano Trail",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales, Agritourism",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Pasture-raised bison meat, ranch tours",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Oak Creek",
+"name": "Lucky 8 Ranch",
+"source": "curated"
 },
 "a acre and farm mule quarter|pueblo": {
 "Address": "2207 E 12th St",
@@ -911,6 +959,22 @@
 "name": "Johnson's Acres",
 "source": "usda"
 },
+"acres jorbin|lafayette": {
+"Address": "",
+"Category": "CSA Farm",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Produce, cut flowers, CSA shares",
+"Status": "Open",
+"Website": "https://www.jorbinacres.com",
+"Year Opened": "",
+"city": "Lafayette",
+"name": "Jorbin Acres",
+"source": "curated"
+},
 "acres lazy ranch|longmont": {
 "Address": "13912 N 87th st",
 "Category": "On-Farm / Ranch Sales",
@@ -1070,6 +1134,22 @@
 "city": "Palmer Lake",
 "name": "Evergood Adventure Wines",
 "source": "colorado_proud_finder"
+},
+"afton center garden s|hotchkiss": {
+"Address": "29428 Highway 92, Hotchkiss, CO",
+"Category": "Garden Center / Greenhouse",
+"County": "Delta",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 872-4402",
+"Products": "Bedding plants, vegetable starts, herbs, hanging baskets, patio pots",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Hotchkiss",
+"name": "Afton's Garden Center LLC",
+"source": "curated"
 },
 "ag h m|paonia": {
 "Address": "42495 lamborn mesa rd",
@@ -1438,6 +1518,22 @@
 "city": "Denver",
 "name": "River Bear American Meats",
 "source": "colorado_proud_finder"
+},
+"anatolian farms|mancos": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Montezuma",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Heirloom vegetables, plant starts, herbs, chile roasting, hemp flower",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Mancos",
+"name": "Anatolian Farms LLC",
+"source": "curated"
 },
 "anavera farm|la jara": {
 "Address": "23966 County Road 13",
@@ -1983,6 +2079,38 @@
 "name": "Polka Dots And Curry",
 "source": "colorado_proud_finder"
 },
+"and farm fertilizer gulch rattlesnake|hesperus": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, garlic, eggs, organic fertilizer",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Hesperus",
+"name": "Rattlesnake Gulch Farm and Fertilizer",
+"source": "curated"
+},
+"and farm folks seed|fort collins": {
+"Address": "2917 South Taft Hill Road",
+"Category": "On-Farm / Ranch Sales, CSA Farm, Farm Store",
+"County": "Larimer",
+"Email": "",
+"Hours": "Farm stand open May through February, closed March and April",
+"Months Open": "",
+"Phone": "(970) 231-2339",
+"Products": "Vegetables, herbs, flowers, plant starts, saved seed",
+"Status": "Open",
+"Website": "https://folksfarmandseed.com",
+"Year Opened": "",
+"city": "Fort Collins",
+"name": "Folks Farm and Seed",
+"source": "curated"
+},
 "and farm garden zephyros|paonia": {
 "Address": "11466 3725 Rd",
 "Category": "On-Farm / Ranch Sales",
@@ -1998,6 +2126,22 @@
 "city": "Paonia",
 "name": "Zephyros Farm and Garden",
 "source": "usda"
+},
+"and farm greenhouse grey hawk|wellington": {
+"Address": "5741 E County Road 60",
+"Category": "Garden Center / Greenhouse",
+"County": "Larimer",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 568-7086",
+"Products": "Greenhouse plants, produce",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Wellington",
+"name": "Grey Hawk Greenhouse and Farm Inc",
+"source": "curated"
 },
 "and farm hope ranch|livermore": {
 "Address": "156 Cherokee Trail Rd",
@@ -2126,6 +2270,22 @@
 "city": "Grand Junction",
 "name": "Farm and Ranch Market",
 "source": "official-site+usda"
+},
+"and farm ready rough|longmont": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, carrots, no-spray produce",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Rough and Ready Farm",
+"source": "curated"
 },
 "and farms jenkin s skies western winery|penrose": {
 "Address": "448 K St",
@@ -2431,6 +2591,38 @@
 "name": "Vision Angus Beef",
 "source": "colorado_proud_finder"
 },
+"angus craig ranch|fort collins": {
+"Address": "6018 North County Road 19, Fort Collins, CO 80524",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Larimer",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 402-1098",
+"Products": "Grass-fed and grain-fed beef shares, beef boxes, Angus bulls",
+"Status": "Open",
+"Website": "https://www.craigangusranch.com",
+"Year Opened": "",
+"city": "Fort Collins",
+"name": "Craig Angus Ranch",
+"source": "curated"
+},
+"anita palisade pantry pies produce s|palisade": {
+"Address": "",
+"Category": "Farm Store, Bakery",
+"County": "Mesa",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Fresh local produce, fruit pies, jarred salsa and queso",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Palisade",
+"name": "Anita's Pantry & Produce / Palisade Pies",
+"source": "curated"
+},
 "antelope creek ranch wagyu|wiggins": {
 "Address": "Online Sales Only",
 "Category": "On-Farm / Ranch Sales",
@@ -2671,6 +2863,22 @@
 "name": "Viking Aquaponics",
 "source": "colorado_proud_finder"
 },
+"aquarius gardens|erie": {
+"Address": "",
+"Category": "Garden Center / Greenhouse",
+"County": "Weld",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "House plants in upcycled pots, starter plants, fresh herbs",
+"Status": "Open",
+"Website": "https://aquariusgardens.com",
+"Year Opened": "",
+"city": "Erie",
+"name": "Aquarius Gardens LLC",
+"source": "curated"
+},
 "aragon farms|greeley": {
 "Address": "13600 HWY 392",
 "Category": "On-Farm / Ranch Sales, Food Maker",
@@ -2798,6 +3006,22 @@
 "city": "Nathrop",
 "name": "Arrowpoint Cattle Company",
 "source": "official-site+chaffee_provides"
+},
+"artemis farm flower|longmont": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Agritourism, Wholesale Grower",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Cut flowers, dahlia tubers, dried flowers, workshops",
+"Status": "Open",
+"Website": "https://artemisflowerfarm.com",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Artemis Flower Farm",
+"source": "curated"
 },
 "artisan bakery izzio|louisville": {
 "Address": "185 South 104th Street",
@@ -3022,6 +3246,22 @@
 "city": "Denver",
 "name": "Old South Pearl Street Association - Farmers Market",
 "source": "official-site+usda"
+},
+"aster farm valley|durango": {
+"Address": "",
+"Category": "Garden Center / Greenhouse",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Native perennials: penstemon, milkweed, aster, columbine",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Durango",
+"name": "Aster Valley Farm",
+"source": "curated"
 },
 "attimo wine|denver": {
 "Address": "2246 Larimer Street",
@@ -4591,6 +4831,22 @@
 "name": "Bear Creek Cattle Co",
 "source": "colorado_proud_finder"
 },
+"bears ears ranch|hayden": {
+"Address": "46590 Rock Springs Ln, Hayden, CO 81639",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 819-7310",
+"Products": "Grass-fed, grass-finished beef; half and whole heifers",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Hayden",
+"name": "Bears Ears Ranch",
+"source": "curated"
+},
 "bears ten winery|laporte": {
 "Address": "5215 Ten Bears Court",
 "Category": "Winery, Agritourism, Food Maker",
@@ -4719,6 +4975,22 @@
 "name": "Bee Family Centennial Farm Museum",
 "source": "usda"
 },
+"bee farm grateful|steamboat springs": {
+"Address": "",
+"Category": "Food Maker, Farm Products (online), CSA Farm",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Honey caramels, local honey products, summer CSA",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Steamboat Springs",
+"name": "Bee Grateful Farm",
+"source": "curated"
+},
 "bee ladybug|westmimster": {
 "Address": "1654 W. 113th Ave.",
 "Category": "Food Maker",
@@ -4766,6 +5038,22 @@
 "city": "Denver",
 "name": "Sweet Bee & Co.",
 "source": "colorado_proud_finder"
+},
+"beef bell|cortez": {
+"Address": "26759 County Road M, Cortez, CO",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Montezuma",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Grass-fed, grass-finished beef",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Cortez",
+"name": "Bell Beef",
+"source": "curated"
 },
 "beef bershenyi|grand junction": {
 "Address": "1347 White Ave",
@@ -4942,6 +5230,22 @@
 "city": "Fort Collins",
 "name": "Hilltop Beef",
 "source": "colorado_proud_finder"
+},
+"beef homestead natural|la salle": {
+"Address": "",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Weld",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(720) 840-1023",
+"Products": "Grass-fed beef, pork, heritage chicken eggs",
+"Status": "Open",
+"Website": "https://AllNaturalHomesteadBeef.com",
+"Year Opened": "",
+"city": "La Salle",
+"name": "Natural Homestead Beef",
+"source": "curated"
 },
 "beef j slash|fort morgan": {
 "Address": "601 County Road 19",
@@ -5295,6 +5599,22 @@
 "name": "Belafonte Farm",
 "source": "usda"
 },
+"bella bolettino farms organic|palisade": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Mesa",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Organic peaches, table grapes, lavender",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Palisade",
+"name": "Bella Bolettino Organic Farms, LLC",
+"source": "curated"
+},
 "belleza farm pura ranch|silt": {
 "Address": "1352 County Road 250",
 "Category": "On-Farm / Ranch Sales, Agritourism, Food Maker",
@@ -5326,6 +5646,22 @@
 "city": "Grand Junction",
 "name": "Belli Fiori Lavender",
 "source": "colorado_proud_finder"
+},
+"ben big meats s|bayfield": {
+"Address": "",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Beef, lamb, pork, goat, whole and half shares",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Bayfield",
+"name": "Big Ben's Meats",
+"source": "curated"
 },
 "bennett pop summer up|bennett,": {
 "Address": "200 W Marketplace Dr",
@@ -5503,6 +5839,22 @@
 "name": "Bet On Me, LLC",
 "source": "colorado_proud_finder"
 },
+"better boulder wagyu|longmont": {
+"Address": "",
+"Category": "Meat Producer & Packer",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(303) 775-4839",
+"Products": "Wagyu beef, home-grown, no hormones",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Boulder Better Wagyu",
+"source": "curated"
+},
 "big farm nugget|": {
 "Address": "",
 "Category": "On-Farm / Ranch Sales",
@@ -5518,6 +5870,22 @@
 "city": "",
 "name": "Big Nugget Farm",
 "source": "colorado_proud_finder"
+},
+"big leap ranch|nunn": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Weld",
+"Email": "bigleapranch@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(303) 520-4532",
+"Products": "Pasture-raised animals, vegetables, heirloom starter plants, freeze-dried treats",
+"Status": "Open",
+"Website": "https://www.bigleapranch.online",
+"Year Opened": "",
+"city": "Nunn",
+"name": "Big Leap Ranch",
+"source": "curated"
 },
 "biker dogs dogs gourmet hot jim s worldwide|denver": {
 "Address": "2148 Larimer Street",
@@ -5727,6 +6095,22 @@
 "name": "RL Bison Ranch / Colorado Buffalo Grill Inc.",
 "source": "colorado_proud_finder"
 },
+"bison memphis ranch|carr": {
+"Address": "10468 County Road 112, Carr, CO 80612",
+"Category": "Meat Producer & Packer, Farm Products (online), On-Farm / Ranch Sales",
+"County": "Weld",
+"Email": "sales@memphisranch.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(720) 713-1622",
+"Products": "Bison boxes, shares, jerky, snack sticks, sausage, tallow balm",
+"Status": "Open",
+"Website": "https://primalbison.com/",
+"Year Opened": "",
+"city": "Carr",
+"name": "Memphis Bison Ranch",
+"source": "curated"
+},
 "bison peaks ranch white|deer trail": {
 "Address": "",
 "Category": "On-Farm / Ranch Sales",
@@ -5758,6 +6142,22 @@
 "city": "Centennial",
 "name": "Camille's Yum Bites, LLC",
 "source": "colorado_proud_finder"
+},
+"bjorn honey s|boulder": {
+"Address": "",
+"Category": "Food Maker, Farm Products (online)",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Honey, whipped honey, propolis honey, beeswax products",
+"Status": "Open",
+"Website": "https://bjornscoloradohoney.com",
+"Year Opened": "",
+"city": "Boulder",
+"name": "Bjorn's Colorado Honey",
+"source": "curated"
 },
 "black bridge farms orchard valley winery|paonia": {
 "Address": "15836 Black Bridge Rd",
@@ -5822,6 +6222,22 @@
 "city": "Boulder",
 "name": "Black Cat Organic Farm",
 "source": "colorado_proud_finder"
+},
+"black cat farm|longmont": {
+"Address": "9889 N 51st St, Longmont, CO",
+"Category": "Restaurant, Agritourism, On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(303) 444-5500",
+"Products": "Vegetables, heritage pork and lamb, grains, farm dinners",
+"Status": "Open",
+"Website": "https://www.blackcatboulder.com",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Black Cat Farm",
+"source": "curated"
 },
 "black forest|black forest": {
 "Address": "6845 Shoup Rd, Black Forest, CO 80908",
@@ -6255,6 +6671,22 @@
 "name": "Books on Main",
 "source": "colorado_proud_finder"
 },
+"boot farm sugar|denver": {
+"Address": "",
+"Category": "Wholesale Grower",
+"County": "Denver",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, culinary herbs, flowers",
+"Status": "Open",
+"Website": "http://www.sugarbootfarmco.com",
+"Year Opened": "",
+"city": "Denver",
+"name": "Sugar Boot Farm Co.",
+"source": "curated"
+},
 "borden farm farms formerly pedro s|delta": {
 "Address": "51245 Carnation Road",
 "Category": "On-Farm / Ranch Sales, CSA Farm",
@@ -6270,6 +6702,38 @@
 "city": "Delta",
 "name": "Pedro's Farm (formerly Borden Farms)",
 "source": "colorado_proud_finder+usda"
+},
+"botanical companions|mancos": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Montezuma",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Microgreens, herbs, edible flowers, bouquets",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Mancos",
+"name": "Botanical Companions",
+"source": "curated"
+},
+"botanicals destiny|mancos": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Food Maker",
+"County": "Montezuma",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Gourmet mushrooms, honey, tomatoes, peppers, flowers, hemp products",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Mancos",
+"name": "Destiny Botanicals",
+"source": "curated"
 },
 "bougie tailz|louisville": {
 "Address": "943 Larkspur Lane",
@@ -6607,6 +7071,22 @@
 "name": "Breckenridge Farmers Market",
 "source": "curated"
 },
+"breen farm mesa|breen": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Goat cheese (chevre, feta, ricotta), eggs, baked goods",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Breen",
+"name": "Breen Mesa Farm",
+"source": "curated"
+},
 "briargate|colorado springs": {
 "Address": "7610 North Union Blvd, Colorado Springs, CO 80920",
 "Category": "Farmers' Market",
@@ -6735,6 +7215,22 @@
 "name": "Rooted Broth",
 "source": "colorado_proud_finder"
 },
+"brown dog farm|longmont": {
+"Address": "",
+"Category": "CSA Farm, Wholesale Grower",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, CSA shares",
+"Status": "Open",
+"Website": "https://www.browndogfarm.co/",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Brown Dog Farm",
+"source": "curated"
+},
 "brown grain livestock|pierce": {
 "Address": "County Road 88",
 "Category": "On-Farm / Ranch Sales",
@@ -6831,6 +7327,22 @@
 "name": "Buckhead Meat & Seafood",
 "source": "colorado_proud_finder"
 },
+"buckner family ranch|longmont": {
+"Address": "",
+"Category": "Meat Producer & Packer, Farm Store",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Grass-fed beef and lamb, pasture-raised pork",
+"Status": "Open",
+"Website": "http://bucknerranch.com/",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Buckner Family Ranch",
+"source": "curated"
+},
 "buena vista|buena vista": {
 "Address": "Turner Farm & Apple Orchard, 829 W Main St",
 "Category": "Farmers' Market",
@@ -6846,6 +7358,22 @@
 "city": "Buena Vista",
 "name": "Buena Vista Farmers' Market",
 "source": "official-site+usda"
+},
+"buffalo farm pass|steamboat springs": {
+"Address": "",
+"Category": "CSA Farm, On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "buffalopassfarm@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 819-8780",
+"Products": "Vegetables, greens, tomatoes, herbs, lamb shares",
+"Status": "Open",
+"Website": "https://buffalopassfarm.com",
+"Year Opened": "",
+"city": "Steamboat Springs",
+"name": "Buffalo Pass Farm",
+"source": "curated"
 },
 "buffalo rose|golden": {
 "Address": "1119 WASHINGTON AVE",
@@ -7007,9 +7535,25 @@
 "name": "Confections by Charlee LLC",
 "source": "colorado_proud_finder"
 },
+"by ct farm gardens lavender los miramontes sunrise|cortez": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Food Maker, Agritourism, U-Pick, Farm Products (online)",
+"County": "Montezuma",
+"Email": "mesaverdelavender@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Culinary lavender, jams, honey, eggs, bath products",
+"Status": "Open",
+"Website": "https://losmiramonteslavenderfarm.com",
+"Year Opened": "",
+"city": "Cortez",
+"name": "Los Miramontes Lavender Farm by Sunrise Ct Gardens LLC",
+"source": "curated"
+},
 "by delaney farm project worthmore|aurora": {
 "Address": "170 S Chambers Rd",
-"Category": "CSA Farm, Restaurant",
+"Category": "CSA Farm, Restaurant, On-Farm / Ranch Sales",
 "County": "Arapahoe",
 "Email": "ashley@projectworthmore.org",
 "Hours": "Mon: 9am-3pm; Tue: 9am-3pm; Wed: 9am-3pm; Thu: 9am-3pm; Fri: 9am-3pm",
@@ -7021,7 +7565,7 @@
 "Year Opened": "",
 "city": "Aurora",
 "name": "DeLaney Community Farm - by Project Worthmore",
-"source": "colorado_proud_farm_fresh+usda"
+"source": "colorado_proud_farm_fresh+curated+usda"
 },
 "by denver garden grateful green ne presented ranch vally|denver": {
 "Address": "4890 argonne way",
@@ -7679,6 +8223,22 @@
 "name": "Rockin' J Spear Cattle Co",
 "source": "curated"
 },
+"cattle land wagner|fort lupton": {
+"Address": "",
+"Category": "Meat Producer & Packer",
+"County": "Weld",
+"Email": "jessica.herston@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 988-2950",
+"Products": "Naturally raised grass-fed, grass-finished beef",
+"Status": "Open",
+"Website": "https://wagnerlandandcattle.com",
+"Year Opened": "",
+"city": "Fort Lupton",
+"name": "Wagner Land & Cattle",
+"source": "curated"
+},
 "cattle largo rancho|fowler": {
 "Address": "53504 CR 91.1",
 "Category": "On-Farm / Ranch Sales, Sells to Schools",
@@ -8175,6 +8735,22 @@
 "name": "Cherry Creek Fresh Market",
 "source": "official-site+usda"
 },
+"chile guerreros rockart|bailey": {
+"Address": "",
+"Category": "Food Maker",
+"County": "Park",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Roasted chile, chile spices; also art",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Bailey",
+"name": "Rockart Guerreros Chile",
+"source": "curated"
+},
 "chili roasted|centennial": {
 "Address": "16750 E Broncos Parkway",
 "Category": "Roadside Market",
@@ -8510,6 +9086,22 @@
 "city": "Palisade",
 "name": "Cliff Dweller Wine Co.",
 "source": "colorado_proud_finder"
+},
+"climax jerky|dillon": {
+"Address": "",
+"Category": "Food Maker",
+"County": "Summit",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Beef, buffalo, elk, venison jerky",
+"Status": "Open",
+"Website": "https://climaxjerky.com",
+"Year Opened": "",
+"city": "Dillon",
+"name": "Climax Jerky Inc.",
+"source": "curated"
 },
 "clove crooked farm ranch|larkspur": {
 "Address": "8222 S Perry Park Rd",
@@ -9263,6 +9855,38 @@
 "name": "Pacific Mercantile Company",
 "source": "colorado_proud_finder"
 },
+"company mushroom mycocosm|peyton": {
+"Address": "",
+"Category": "Farm Products (online), Food Maker, On-Farm / Ranch Sales",
+"County": "El Paso",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Fresh gourmet mushrooms, mushroom extracts",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Peyton",
+"name": "MycoCosm Mushroom Company",
+"source": "curated"
+},
+"company mushroom telluride|telluride": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "San Miguel",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Mushrooms",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Telluride",
+"name": "Telluride Mushroom Company",
+"source": "curated"
+},
 "company pasture provisions|denver": {
 "Address": "620 E 52nd Ave",
 "Category": "On-Farm / Ranch Sales",
@@ -9839,6 +10463,22 @@
 "name": "Cottonwood Spirit Ranch",
 "source": "official-site+chaffee_provides"
 },
+"country dog gunner honey kathy s treats|craig": {
+"Address": "",
+"Category": "Food Maker",
+"County": "Moffat",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 629-0356",
+"Products": "Honey; wild-game dog chews",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Craig",
+"name": "Gunner Dog Treats / Kathy's Country Honey",
+"source": "curated"
+},
 "country environmental grazing high|mack": {
 "Address": "781 R Road",
 "Category": "On-Farm / Ranch Sales",
@@ -10015,6 +10655,38 @@
 "name": "RK Creations Farm",
 "source": "usda"
 },
+"creations farm sage|palisade": {
+"Address": "3555 E Road, Palisade, CO 81526",
+"Category": "On-Farm / Ranch Sales, U-Pick, Agritourism, Garden Center / Greenhouse",
+"County": "Mesa",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 623-9556",
+"Products": "Lavender, cherries, herbs, plant starts, lavender body care",
+"Status": "Open",
+"Website": "https://www.sagecreationsfarm.com",
+"Year Opened": "",
+"city": "Palisade",
+"name": "Sage Creations Farm",
+"source": "curated"
+},
+"creations garden goddess|steamboat springs": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 846-7069",
+"Products": "Specialty cut flowers, bulbs, herbs",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Steamboat Springs",
+"name": "Garden Goddess Creations",
+"source": "curated"
+},
 "creations garden grandpas|frederick": {
 "Address": "434 Berwick Avenue",
 "Category": "Food Maker",
@@ -10062,6 +10734,22 @@
 "city": "Carbondale",
 "name": "Dooley Creek Farm",
 "source": "usda"
+},
+"creek elkhead farm laine ranch shadow valley wagyu yampa|craig": {
+"Address": "2626 County Road 29, Craig, CO 81625",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Moffat",
+"Email": "office@elkheadcreekranch.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(303) 919-6994",
+"Products": "Grass-finished Wagyu beef",
+"Status": "Open",
+"Website": "https://www.elkheadcreekranch.com",
+"Year Opened": "",
+"city": "Craig",
+"name": "Elkhead Creek Ranch (Yampa Valley Wagyu, Shadow Laine Farm)",
+"source": "curated"
 },
 "creek em farm patch pick pumpkin rock u|broomfield": {
 "Address": "2005 South 112th Street",
@@ -10223,6 +10911,22 @@
 "name": "Spring Creek Meats LLC",
 "source": "colorado_proud_finder"
 },
+"creek meats trout|oak creek": {
+"Address": "",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Beef, lamb, lamb burgers and brats",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Oak Creek",
+"name": "Trout Creek Meats",
+"source": "curated"
+},
 "creek orchard ranch|glenwood springs": {
 "Address": "0150 County Road 137",
 "Category": "Agritourism",
@@ -10238,6 +10942,22 @@
 "city": "Glenwood Springs",
 "name": "Orchard Creek Ranch",
 "source": "usda"
+},
+"creek ranch snow|larkspur": {
+"Address": "",
+"Category": "Meat Producer & Packer",
+"County": "Douglas",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Beef (Angus), sold at farmers markets",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Larkspur",
+"name": "Snow Creek Ranch",
+"source": "curated"
 },
 "creeks ranch spring|carbondale": {
 "Address": "644 Cowen Drive",
@@ -10303,6 +11023,38 @@
 "name": "SOIL Sangre de Cristo",
 "source": "official-site+chaffee_provides"
 },
+"croft family farm|kersey": {
+"Address": "",
+"Category": "CSA Farm, On-Farm / Ranch Sales",
+"County": "Weld",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, eggs, beef, pork, flowers",
+"Status": "Open",
+"Website": "https://croftfamilyfarm.com",
+"Year Opened": "",
+"city": "Kersey",
+"name": "Croft Family Farm",
+"source": "curated"
+},
+"crooked farm roots|longmont": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, eggs, lamb, heritage pork",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Crooked Roots Farm",
+"source": "curated"
+},
 "crooked ranch sky|cortez": {
 "Address": "30777 Road H",
 "Category": "On-Farm / Ranch Sales",
@@ -10318,6 +11070,22 @@
 "city": "CORTEZ",
 "name": "Crooked Sky Ranch",
 "source": "colorado_proud_finder"
+},
+"crow farm mocking|durango": {
+"Address": "",
+"Category": "Wholesale Grower, On-Farm / Ranch Sales",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, garlic, sunflowers, zinnias, cut flowers",
+"Status": "Open",
+"Website": "https://www.mockingcrowfarm.com",
+"Year Opened": "",
+"city": "Durango",
+"name": "Mocking Crow Farm",
+"source": "curated"
 },
 "crow farms scare|julesburg": {
 "Address": "445 Hwy. 385",
@@ -10446,6 +11214,22 @@
 "city": "Colorado Springs",
 "name": "Curry Culture",
 "source": "colorado_proud_finder"
+},
+"cunningham orchards|palisade": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Wholesale Grower",
+"County": "Mesa",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Peaches, pears, cherries, honey",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Palisade",
+"name": "Cunningham Orchards",
+"source": "curated"
 },
 "cup ranch tin|johnstown": {
 "Address": "24602 County Road 13",
@@ -10750,6 +11534,54 @@
 "city": "Bellvue",
 "name": "Morning Fresh Dairy",
 "source": "colorado_proud_finder"
+},
+"dairy hill moon|steamboat springs": {
+"Address": "",
+"Category": "Food Maker, On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Pasture-based cheese, grass-fed beef",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Steamboat Springs",
+"name": "Moon Hill Dairy",
+"source": "curated"
+},
+"dairy longmont|longmont": {
+"Address": "",
+"Category": "Farm Products (online), On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "customerservice@longmontdairy.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(303) 776-8466",
+"Products": "Fresh milk, home delivery, bread, yogurt",
+"Status": "Open",
+"Website": "https://longmontdairy.com",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Longmont Dairy",
+"source": "curated"
+},
+"dandelion farms|fort collins": {
+"Address": "167 W County Rd 66e, Fort Collins, CO",
+"Category": "On-Farm / Ranch Sales",
+"County": "Larimer",
+"Email": "dandelion@dandelionfarmsnoco.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 215-8515",
+"Products": "Fresh farm flowers, DIY event flower arrangements",
+"Status": "Open",
+"Website": "https://www.dandelionfarmsnoco.com",
+"Year Opened": "",
+"city": "Fort Collins",
+"name": "Dandelion Farms",
+"source": "curated"
 },
 "dao house|estes park": {
 "Address": "120 Hwy 7",
@@ -11215,6 +12047,22 @@
 "name": "J2 Farms & Designs",
 "source": "colorado_proud_finder"
 },
+"developmental greenhouse mountain services valley|glenwood springs": {
+"Address": "700 Mt Sopris Drive",
+"Category": "Garden Center / Greenhouse",
+"County": "Garfield",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Perennials, houseplants, vegetable starts",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Glenwood Springs",
+"name": "Mountain Valley Developmental Services Greenhouse",
+"source": "curated"
+},
 "devries farm friend fruit ly roadside stand veggie|olathe": {
 "Address": "60542 Gunnison Road",
 "Category": "Roadside Market, Agritourism, On-Farm / Ranch Sales",
@@ -11679,6 +12527,22 @@
 "name": "Durango Farmers Market",
 "source": "colorado_proud+colorado_proud_farm_fresh+cfma+colorado_proud_finder+usda"
 },
+"durazno fruits rancho topp|hotchkiss": {
+"Address": "",
+"Category": "Farm Products (online), Wholesale Grower",
+"County": "Delta",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Organic peaches, cherries, apples, apricots, plums",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Hotchkiss",
+"name": "Topp Fruits/Rancho Durazno",
+"source": "curated"
+},
 "durazno rancho|palisade": {
 "Address": "3938 G 2/10 Road",
 "Category": "Wholesale Grower, On-Farm / Ranch Sales",
@@ -11951,6 +12815,22 @@
 "name": "Eddyline Restaurant at Southmain",
 "source": "official-site+chaffee_provides"
 },
+"eden farm valley|loveland": {
+"Address": "9325 World Mission Dr",
+"Category": "On-Farm / Ranch Sales, CSA Farm",
+"County": "Larimer",
+"Email": "agriculturalleadership@eden-valley.org",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 214-4669",
+"Products": "Organic vegetables, greens, herbs, fruit; CSA",
+"Status": "Open",
+"Website": "https://edenvalleyfarm.com",
+"Year Opened": "",
+"city": "Loveland",
+"name": "Eden Valley Farm",
+"source": "curated"
+},
 "edfoodyo|paonia": {
 "Address": "40160 Mathews Lane",
 "Category": "Grocery Store, Restaurant",
@@ -12046,6 +12926,22 @@
 "city": "AURORA",
 "name": "Rainbow Farms, Rainbow Eggs",
 "source": "colorado_proud_finder"
+},
+"eggs rainbow|denver": {
+"Address": "",
+"Category": "Farm Products (online), Wholesale Grower",
+"County": "Denver",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Colorful heritage-breed eggs",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Denver",
+"name": "Rainbow Eggs Co",
+"source": "curated"
 },
 "el en mercadillo rio|alamosa": {
 "Address": "6935 CO-17, Alamosa, CO 81101",
@@ -12173,6 +13069,38 @@
 "Year Opened": "",
 "city": "Paonia",
 "name": "Elk Mountain Farmacy",
+"source": "curated"
+},
+"elkstone farm|steamboat springs": {
+"Address": "",
+"Category": "CSA Farm, Farm Store, Agritourism",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "CSA vegetables, farm stand, farm dinners, apothecary",
+"Status": "Open",
+"Website": "https://www.elkstonefarm.com",
+"Year Opened": "",
+"city": "Steamboat Springs",
+"name": "Elkstone Farm",
+"source": "curated"
+},
+"ellen flowers s|canon city": {
+"Address": "",
+"Category": "Farm Products (online), Wholesale Grower",
+"County": "Fremont",
+"Email": "info@ellensflowers.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Cut flowers, mixed bouquets, dried bouquets and wreaths",
+"Status": "Open",
+"Website": "http://www.ellensflowers.com",
+"Year Opened": "",
+"city": "Canon City",
+"name": "Ellen's Flowers",
 "source": "curated"
 },
 "elm farm old|boulder": {
@@ -12847,6 +13775,22 @@
 "name": "Milan Family Farms",
 "source": "colorado_proud_finder"
 },
+"family farms swiger|palisade": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Mesa",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Palisade peaches, apricots, plums",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Palisade",
+"name": "Swiger Family Farms",
+"source": "curated"
+},
 "family farmstead ross|elizabeth": {
 "Address": "7504 Shenandoah Dr",
 "Category": "Roadside Market",
@@ -13007,6 +13951,22 @@
 "name": "Flipside Farm",
 "source": "curated"
 },
+"farm flower little petals|fort collins": {
+"Address": "",
+"Category": "Farm Products (online), Wholesale Grower, On-Farm / Ranch Sales",
+"County": "Larimer",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Cut flowers, bouquets, arrangements",
+"Status": "Open",
+"Website": "https://www.littlesunfarm.com",
+"Year Opened": "",
+"city": "Fort Collins",
+"name": "Little Petals Flower Farm",
+"source": "curated"
+},
 "farm flower street|lakewood": {
 "Address": "848 South Flower Street",
 "Category": "Agritourism",
@@ -13103,6 +14063,22 @@
 "name": "Nordic Fox Farm LLC",
 "source": "colorado_proud_finder"
 },
+"farm free stone|arriola": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Montezuma",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Carrots, tomatoes, greens, vegetables",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Arriola",
+"name": "Stone Free Farm",
+"source": "curated"
+},
 "farm fresh harvest shares southwest|mancos": {
 "Address": "",
 "Category": "CSA Farm",
@@ -13183,6 +14159,22 @@
 "name": "Something From the Farm",
 "source": "usda"
 },
+"farm fungus|colorado springs": {
+"Address": "",
+"Category": "Farm Products (online), On-Farm / Ranch Sales",
+"County": "El Paso",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Oyster, enoki and medicinal mushrooms",
+"Status": "Open",
+"Website": "https://fungusfarmcolorado.com",
+"Year Opened": "",
+"city": "Colorado Springs",
+"name": "Fungus Farm Colorado",
+"source": "curated"
+},
 "farm funny lil|parker": {
 "Address": "17020/927 Carlson Drive",
 "Category": "On-Farm / Ranch Sales",
@@ -13214,6 +14206,22 @@
 "city": "Laporte",
 "name": "Gaia's Farm & Gardens",
 "source": "usda"
+},
+"farm gardens speedwell|longmont": {
+"Address": "8104 N. 63rd St., Longmont, CO 80503",
+"Category": "CSA Farm, On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "Speedwellfarm.gardens@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(720) 253-2200",
+"Products": "Vegetables, CSA shares, farm stand, restaurant and wholesale",
+"Status": "Open",
+"Website": "https://speedwellfarmandgardens.com",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Speedwell Farm & Gardens",
+"source": "curated"
 },
 "farm gears switch|longmont": {
 "Address": "13850 N 87th Street",
@@ -13551,6 +14559,22 @@
 "name": "Hogback Farm",
 "source": "colorado_proud_finder"
 },
+"farm home ranch|clark": {
+"Address": "54880 County Road 129, Clark, CO 80428",
+"Category": "CSA Farm, Farm Products (online), On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 560-5486",
+"Products": "Organic vegetables, chicken and duck eggs, CSA shares",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Clark",
+"name": "The Farm at Home Ranch",
+"source": "curated"
+},
 "farm homegrown|bayfield": {
 "Address": "",
 "Category": "CSA Farm",
@@ -13774,6 +14798,38 @@
 "city": "Parker",
 "name": "Pollywog Station Lavender Farm",
 "source": "colorado_proud_finder"
+},
+"farm leaf three|lafayette": {
+"Address": "445 S. 112th St., Lafayette, CO 80026",
+"Category": "Agritourism, On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "farm@threeleafconcepts.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(303) 815-7647",
+"Products": "Herbs, flowers, vegetables, fruit, tea blends",
+"Status": "Open",
+"Website": "https://www.threeleaffarm.com",
+"Year Opened": "",
+"city": "Lafayette",
+"name": "Three Leaf Farm",
+"source": "curated"
+},
+"farm lilybee|ignacio": {
+"Address": "",
+"Category": "Food Maker, Farm Products (online)",
+"County": "La Plata",
+"Email": "lilybeefarm8593@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Honey",
+"Status": "Open",
+"Website": "https://lilybeefarm.com",
+"Year Opened": "",
+"city": "Ignacio",
+"name": "Lilybee Farm",
+"source": "curated"
 },
 "farm little ltd smittys|": {
 "Address": "",
@@ -14223,6 +15279,22 @@
 "name": "The Prairie Farm Table",
 "source": "colorado_proud_finder"
 },
+"farm rebel|denver": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Wholesale Grower",
+"County": "Denver",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Hydroponic greens and herbs",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Denver",
+"name": "Rebel Farm",
+"source": "curated"
+},
 "farm ripple root|denver": {
 "Address": "4130 Fenton Street",
 "Category": "On-Farm / Ranch Sales",
@@ -14238,6 +15310,54 @@
 "city": "Denver",
 "name": "Ripple Root Farm LLC",
 "source": "colorado_proud_finder"
+},
+"farm rock root|eckert": {
+"Address": "",
+"Category": "Wholesale Grower",
+"County": "Delta",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Certified Naturally Grown produce and flowers",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Eckert",
+"name": "Root Rock Farm",
+"source": "curated"
+},
+"farm rohwer s|pleasant view": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Montezuma",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, fruit, heirloom produce, seedlings",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Pleasant View",
+"name": "Rohwer's Farm",
+"source": "curated"
+},
+"farm roots summit|dolores": {
+"Address": "",
+"Category": "Wholesale Grower",
+"County": "Montezuma",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Beets, carrots, lettuce, peppers, tomatoes, early season vegetables",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Dolores",
+"name": "Summit Roots Farm",
+"source": "curated"
 },
 "farm roots two|basalt": {
 "Address": "100 Sopris Creek Road",
@@ -14286,6 +15406,38 @@
 "city": "Rocky Ford",
 "name": "Sackett's Farm Market",
 "source": "colorado_proud_farm_fresh+colorado_proud_finder"
+},
+"farm s wick wild|lakewood": {
+"Address": "",
+"Category": "CSA Farm",
+"County": "Jefferson",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Mixed vegetables, fruit, cut flowers",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Lakewood",
+"name": "Wild Wick's Farm",
+"source": "curated"
+},
+"farm sage spring|bayfield": {
+"Address": "",
+"Category": "Meat Producer & Packer",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Frozen lamb, wool fibers",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Bayfield",
+"name": "Sage Spring Farm",
+"source": "curated"
 },
 "farm skypilot|longmont": {
 "Address": "10384 Airport Road",
@@ -14479,6 +15631,22 @@
 "name": "Wild Thymes Farm",
 "source": "colorado_proud_finder"
 },
+"farm ultreia wellness|cedaredge": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Delta",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Vegetables, flowers, plant starts, heritage turkeys, flower CSA",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Cedaredge",
+"name": "Ultreia Farm & Wellness",
+"source": "curated"
+},
 "farm underhill worm|pueblo west": {
 "Address": "101 S Golfview Drive E",
 "Category": "On-Farm / Ranch Sales",
@@ -14670,6 +15838,22 @@
 "city": "Paonia",
 "name": "Full Spectrum Farms",
 "source": "usda"
+},
+"farms further up|elizabeth": {
+"Address": "",
+"Category": "CSA Farm, On-Farm / Ranch Sales",
+"County": "Elbert",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Organic vegetables, CSA shares, aquaponics produce",
+"Status": "Open",
+"Website": "https://furtherupfarms.com",
+"Year Opened": "",
+"city": "Elizabeth",
+"name": "further up Farms",
+"source": "curated"
 },
 "farms g l|sterling": {
 "Address": "22746 US 138",
@@ -15087,6 +16271,22 @@
 "name": "Kuepper Farms",
 "source": "colorado_proud_finder"
 },
+"farms leafcutter mushrooms|durango": {
+"Address": "",
+"Category": "Farm Products (online), Wholesale Grower",
+"County": "La Plata",
+"Email": "leafcutterfarms@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Fresh gourmet mushrooms, seasoning, tinctures, grow kits",
+"Status": "Open",
+"Website": "https://www.leafcutterfarms.com",
+"Year Opened": "",
+"city": "Durango",
+"name": "Leafcutter Farms Mushrooms",
+"source": "curated"
+},
 "farms leafcutter|durango": {
 "Address": "1632 highway 550",
 "Category": "On-Farm / Ranch Sales",
@@ -15102,6 +16302,22 @@
 "city": "durango",
 "name": "Leafcutter Farms",
 "source": "colorado_proud_finder"
+},
+"farms leaning tree|durango": {
+"Address": "",
+"Category": "Meat Producer & Packer",
+"County": "La Plata",
+"Email": "leaningtreefarmscolorado@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 880-0732",
+"Products": "Grass-finished beef, Berkshire pork",
+"Status": "Open",
+"Website": "https://leaningtreefarms.com",
+"Year Opened": "",
+"city": "Durango",
+"name": "Leaning Tree Farms",
+"source": "curated"
 },
 "farms lukens|fort collins": {
 "Address": "320 East State Highway 14",
@@ -15215,6 +16431,22 @@
 "name": "Milberger Farms at Peppes",
 "source": "colorado_proud_farm_fresh"
 },
+"farms miller|platteville": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Agritourism, U-Pick",
+"County": "Weld",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Carrots, potatoes, onions, green beans, lettuce, tomatoes, apples",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Platteville",
+"name": "Miller Farms",
+"source": "curated"
+},
 "farms munson|boulder": {
 "Address": "",
 "Category": "Agritourism",
@@ -15247,6 +16479,22 @@
 "name": "Musso Farms",
 "source": "colorado_proud_farm_fresh"
 },
+"farms okagawa|grand junction": {
+"Address": "",
+"Category": "Farm Store, Garden Center / Greenhouse, Wholesale Grower",
+"County": "Mesa",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Produce, sweet corn, chiles, nursery plants",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Grand Junction",
+"name": "Okagawa Farms",
+"source": "curated"
+},
 "farms on richmond urban vine|fort collins": {
 "Address": "W. Horsetooth and Richmond Dr",
 "Category": "On-Farm / Ranch Sales",
@@ -15277,6 +16525,22 @@
 "Year Opened": "",
 "city": "Hotchkiss",
 "name": "Osito Farms",
+"source": "curated"
+},
+"farms otter river|durango": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Organic vegetables",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Durango",
+"name": "River Otter Farms",
 "source": "curated"
 },
 "farms palombo|henderson": {
@@ -15311,6 +16575,22 @@
 "name": "Patchwork Farms",
 "source": "colorado_proud_finder"
 },
+"farms pea sweet|salida": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Chaffee",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Honey, eggs, pork, produce, beeswax balms and candles",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Salida",
+"name": "Sweet Pea Farms",
+"source": "curated"
+},
 "farms pfaltzgraff|haxtun": {
 "Address": "12189 County Road 7",
 "Category": "Agritourism, Sells to Schools, On-Farm / Ranch Sales, Roadside Market, Food Maker",
@@ -15326,6 +16606,22 @@
 "city": "Haxtun",
 "name": "Pfaltzgraff Farms",
 "source": "colorado_proud_farm_fresh+colorado_proud_finder"
+},
+"farms pothook|palisade": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Mesa",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Unknown; farm products",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Palisade",
+"name": "Pothook Farms",
+"source": "curated"
 },
 "farms potter|carbondale": {
 "Address": "6059 County Road 100",
@@ -15487,6 +16783,22 @@
 "name": "Unlikely Farms",
 "source": "colorado_proud_finder"
 },
+"farms weebee|longmont": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Garlic, garlic scapes, veggie plants, herbs, pollinator flowers",
+"Status": "Open",
+"Website": "https://www.weebeefarms.com",
+"Year Opened": "",
+"city": "Longmont",
+"name": "WeeBee Farms",
+"source": "curated"
+},
 "farms zimmerman|hotchkiss": {
 "Address": "",
 "Category": "Meat Producer & Packer",
@@ -15550,6 +16862,22 @@
 "city": "Grand Junction",
 "name": "Happy Hive Farmstead",
 "source": "colorado_proud_finder"
+},
+"farmstead hills mystic|clark": {
+"Address": "",
+"Category": "Meat Producer & Packer, Farm Products (online), On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Grass-fed beef, lamb, eggs",
+"Status": "Open",
+"Website": "https://mystichillsfarmstead.com",
+"Year Opened": "",
+"city": "Clark",
+"name": "Mystic Hills Farmstead",
+"source": "curated"
 },
 "farmsteaders pioneer|arvada": {
 "Address": "7000 Garrison St",
@@ -15935,6 +17263,38 @@
 "name": "The Flower Shack",
 "source": "colorado_proud_finder"
 },
+"flowers hollow little|berthoud": {
+"Address": "",
+"Category": "Wholesale Grower, Farm Products (online)",
+"County": "Larimer",
+"Email": "littlehollowflowers@gmail.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Cut flowers, bouquets, dried florals, perennials",
+"Status": "Open",
+"Website": "https://www.littlehollowflowers.com",
+"Year Opened": "",
+"city": "Berthoud",
+"name": "Little Hollow Flowers",
+"source": "curated"
+},
+"flowers joan kinney|fort collins": {
+"Address": "",
+"Category": "Wholesale Grower",
+"County": "Larimer",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Cut flowers",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Fort Collins",
+"name": "Joan Kinney Flowers",
+"source": "curated"
+},
 "food gunnison health store vitamin|gunnison": {
 "Address": "804 N Main St",
 "Category": "Grocery Store",
@@ -16271,6 +17631,22 @@
 "name": "Fort Morgan Farmers Market",
 "source": "official-site+cfma+usda+colorado_proud+colorado_proud_farm_fresh"
 },
+"forte fruits|sheridan": {
+"Address": "4021 S Federal Blvd, Sheridan, CO",
+"Category": "On-Farm / Ranch Sales, Roadside Market",
+"County": "Arapahoe",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Peaches, plums, cherries, apricots, apples, tomatoes",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Sheridan",
+"name": "Forte Fruits",
+"source": "curated"
+},
 "fortunate fruit|delta": {
 "Address": "1044 Dominguez Canyon Rd",
 "Category": "Wholesale Grower",
@@ -16285,6 +17661,22 @@
 "Year Opened": "",
 "city": "Delta",
 "name": "Fortunate Fruit",
+"source": "curated"
+},
+"foundation masa seed|boulder": {
+"Address": "1367 N 75th St",
+"Category": "CSA Farm, Farm Store, Garden Center / Greenhouse, On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "info@MasaSeedFoundation.org",
+"Hours": "Mon-Sat 9am-2pm (site also says open every day; confirm)",
+"Months Open": "",
+"Phone": "(303) 444-9642",
+"Products": "Organic seeds, plant starts, produce, flower CSA shares",
+"Status": "Open",
+"Website": "https://www.masaseedfoundation.org",
+"Year Opened": "",
+"city": "Boulder",
+"name": "MASA Seed Foundation",
 "source": "curated"
 },
 "fountain|fountain": {
@@ -16430,6 +17822,22 @@
 "city": "Broomfield",
 "name": "Simply Fresh Microgreens",
 "source": "colorado_proud_finder"
+},
+"fresh mountain rocky|longmont": {
+"Address": "",
+"Category": "Wholesale Grower, On-Farm / Ranch Sales, Garden Center / Greenhouse",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(720) 209-8086",
+"Products": "Hydroponic greenhouse tomatoes, cucumbers, seasonal vegetables, succulents",
+"Status": "Open",
+"Website": "https://www.thefreshherbco.com",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Rocky Mountain Fresh",
+"source": "curated"
 },
 "fresh produce spano|denver": {
 "Address": "5820 Lowell Blvd",
@@ -16847,6 +18255,22 @@
 "name": "Malara Gardens",
 "source": "colorado_proud_farm_fresh+colorado_proud_finder"
 },
+"gardens mushroom|golden": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Jefferson",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Lion's mane, oyster, shiitake mushrooms",
+"Status": "Open",
+"Website": "https://mushroomgardens.farm",
+"Year Opened": "",
+"city": "Golden",
+"name": "Mushroom Gardens",
+"source": "curated"
+},
 "gardens scarecrow|greeley": {
 "Address": "North 47th Avenue",
 "Category": "On-Farm / Ranch Sales",
@@ -17135,6 +18559,22 @@
 "name": "Roots Local Goods LLC",
 "source": "colorado_proud_finder"
 },
+"gordanier ranch|cortez": {
+"Address": "",
+"Category": "Meat Producer & Packer, Farm Products (online)",
+"County": "Montezuma",
+"Email": "gordanierranch@pm.me",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 759-5538",
+"Products": "Beef bundles, ground beef, half beef",
+"Status": "Open",
+"Website": "https://www.gordanierranch.com",
+"Year Opened": "",
+"city": "Cortez",
+"name": "Gordanier Ranch",
+"source": "curated"
+},
 "gorge royal|cañon city": {
 "Address": "816 Royal Gorge Blvd, Cañon City, CO 81212 (Gateway Depot and Plaza, corner of US Hwy 50 and Hwy 115)",
 "Category": "Farmers' Market",
@@ -17375,6 +18815,22 @@
 "name": "Greens Wizard Microgreens",
 "source": "colorado_proud_finder"
 },
+"greens power|montrose": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Montrose",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Mushrooms, microgreens",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Montrose",
+"name": "Power Greens",
+"source": "curated"
+},
 "greens zendo|pueblo": {
 "Address": "546 Starlite Drive",
 "Category": "On-Farm / Ranch Sales",
@@ -17390,6 +18846,22 @@
 "city": "Pueblo",
 "name": "Zendo Greens LLC",
 "source": "colorado_proud_finder"
+},
+"griggstead|hesperus": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Meat Producer & Packer, Farm Products (online)",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Pasture-raised eggs, chicken, turkey, chicks, jams, body scrubs",
+"Status": "Open",
+"Website": "https://www.griggstead.com",
+"Year Opened": "",
+"city": "Hesperus",
+"name": "GRIGGSTEAD LLC",
+"source": "curated"
 },
 "grill kabob shish|denver": {
 "Address": "1503 Grant Street",
@@ -17678,6 +19150,22 @@
 "city": "Montrose",
 "name": "Herban Legends",
 "source": "colorado_proud_finder"
+},
+"herbs madre terria|cortez": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Wholesale Grower",
+"County": "Montezuma",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Culinary and medicinal herbs, houseplants",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Cortez",
+"name": "Terria Madre Herbs",
+"source": "curated"
 },
 "heritage lavender|berthoud": {
 "Address": "4809 Foothills Drive",
@@ -17999,6 +19487,22 @@
 "name": "Oven Spring, Home Kitchen",
 "source": "colorado_proud_finder"
 },
+"home livestock ranch|clark": {
+"Address": "",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "beef@homeranch.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(434) 466-7686",
+"Products": "Grass-finished American Wagyu beef, cuts and shares",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Clark",
+"name": "Home Ranch Livestock",
+"source": "curated"
+},
 "homemade jones pickles|eaton": {
 "Address": "39344 Boulevard D",
 "Category": "Food Maker",
@@ -18110,6 +19614,22 @@
 "city": "Colorado Springs",
 "name": "Hummble Honey",
 "source": "colorado_proud_finder"
+},
+"honey joe local papa s|loveland": {
+"Address": "",
+"Category": "Farm Products (online), On-Farm / Ranch Sales",
+"County": "Larimer",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 203-5690",
+"Products": "Local honey",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Loveland",
+"name": "Papa Joe's Local Honey",
+"source": "curated"
 },
 "honey landing rock|delta": {
 "Address": "2444 Dominguez Canyon Rd",
@@ -18527,6 +20047,22 @@
 "name": "Loveland West Farmers Market at JAX",
 "source": "colorado_proud+colorado_proud_farm_fresh+cfma"
 },
+"jean kelly microgreens s|longmont": {
+"Address": "9535 North 63rd St, Longmont, CO 80503",
+"Category": "Farm Products (online), On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "info@kellyjeansmicrogreens.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(720) 743-2205",
+"Products": "Mixed microgreens, weekly home delivery",
+"Status": "Open",
+"Website": "https://www.kellyjeansmicrogreens.com/",
+"Year Opened": "",
+"city": "Longmont",
+"name": "Kelly Jean's Microgreens",
+"source": "curated"
+},
 "jelly lady|livermore": {
 "Address": "P.O. Box 159",
 "Category": "Roadside Market",
@@ -18558,6 +20094,22 @@
 "city": "Cedaredge",
 "name": "Uncle Johnnys U-pick",
 "source": "usda"
+},
+"jolly ranch|craig": {
+"Address": "34551 N Hwy 13, Craig, CO 81625",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Moffat",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 620-1901",
+"Products": "Beef (Angus); pork unconfirmed",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Craig",
+"name": "Jolly Ranch",
+"source": "curated"
 },
 "juicery peak press|longmont": {
 "Address": "1515 Main St",
@@ -18703,6 +20255,22 @@
 "name": "kingrestaurantcolorado",
 "source": "colorado_proud_finder"
 },
+"kiowa organics valley|roggen": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Wholesale Grower, Meat Producer & Packer",
+"County": "Weld",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Organic asparagus, vegetables, grass-fed beef, eggs",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Roggen",
+"name": "Kiowa Valley Organics",
+"source": "curated"
+},
 "kitchen meadow mountain|manitou springs": {
 "Address": "",
 "Category": "Food Maker",
@@ -18783,6 +20351,22 @@
 "name": "Lewis Lazy L Ranch",
 "source": "official-site+chaffee_provides"
 },
+"la lavender plata|bayfield": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales, Farm Products (online)",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Lavender, lavender oil, soap, culinary lavender, infused honey",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Bayfield",
+"name": "La Plata Lavender",
+"source": "curated"
+},
 "la local veta|la veta": {
 "Address": "306 S. Main St.",
 "Category": "Farmers' Market",
@@ -18831,6 +20415,22 @@
 "name": "Lafayette Colorado Farmers Market",
 "source": "colorado_proud+colorado_proud_farm_fresh+cfma+colorado_proud_finder+usda"
 },
+"lake refuge turtle|durango": {
+"Address": "848 East 3rd Ave",
+"Category": "Food Maker, Restaurant",
+"County": "La Plata",
+"Email": "turtlelakerefuge@yahoo.com",
+"Hours": "Cafe lunches Tue and Fri",
+"Months Open": "",
+"Phone": "(970) 247-8395",
+"Products": "Microgreens, cafe lunches, wild foraging events",
+"Status": "Open",
+"Website": "https://www.turtlelakerefuge.org",
+"Year Opened": "",
+"city": "Durango",
+"name": "Turtle Lake Refuge",
+"source": "curated"
+},
 "lakewood|denver": {
 "Address": "9077 W Alameda Ave",
 "Category": "Farmers' Market",
@@ -18846,6 +20446,22 @@
 "city": "Denver",
 "name": "Lakewood Farmers' Market",
 "source": "official-site+cfma"
+},
+"lamb mesa wool|durango": {
+"Address": "",
+"Category": "Meat Producer & Packer, Farm Products (online)",
+"County": "La Plata",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Lamb, mutton, wool, sheepskins, dye flowers",
+"Status": "Open",
+"Website": "https://www.mesawool.com",
+"Year Opened": "",
+"city": "Durango",
+"name": "Mesa Lamb & Wool",
+"source": "curated"
 },
 "larimer street|denver": {
 "Address": "2301 Larimer St",
@@ -18910,6 +20526,22 @@
 "city": "Denver",
 "name": "Latina Salsas",
 "source": "colorado_proud_finder"
+},
+"lavender mountain rabbit|lyons": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Boulder",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Lavender products",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Lyons",
+"name": "Rabbit Mountain Lavender",
+"source": "curated"
 },
 "lavender mountain|buena vista": {
 "Address": "5968 State Highway 69",
@@ -19983,6 +21615,22 @@
 "name": "Morton's Organic Orchards",
 "source": "usda"
 },
+"mother mycelium|broomfield": {
+"Address": "",
+"Category": "Food Maker, Farm Products (online)",
+"County": "Broomfield",
+"Email": "info@mothermycelium.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "(720) 514-9582",
+"Products": "Mushroom grow kits, dried mushrooms, lion's mane products",
+"Status": "Open",
+"Website": "https://mothermycelium.com",
+"Year Opened": "",
+"city": "Broomfield",
+"name": "Mother Mycelium",
+"source": "curated"
+},
 "mountain produce roots|mancos": {
 "Address": "41095 Rd G",
 "Category": "CSA Farm",
@@ -20047,6 +21695,22 @@
 "name": "Mountain Market & Supply",
 "source": "colorado_proud_farm_fresh"
 },
+"mushroom rendezvous|palisade": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Mesa",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Mushrooms",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Palisade",
+"name": "Rendezvous Mushroom Co",
+"source": "curated"
+},
 "mycenae|lafayette": {
 "Address": "600 South Public Road",
 "Category": "On-Farm / Ranch Sales",
@@ -20062,6 +21726,22 @@
 "city": "Lafayette",
 "name": "Mycenae",
 "source": "colorado_proud_finder"
+},
+"mycolove|fort lupton": {
+"Address": "",
+"Category": "Food Maker, Farm Products (online)",
+"County": "Weld",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Organic mushroom tinctures, extracts, probiotic powders",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Fort Lupton",
+"name": "Mycolove",
+"source": "curated"
 },
 "mycotechnology|aurora": {
 "Address": "18250 E. 40th Ave., Suite 50",
@@ -20190,6 +21870,22 @@
 "city": "Yuma",
 "name": "Trifecta Natural Pork",
 "source": "colorado_proud_finder"
+},
+"natural poultry wisdom|haxtun": {
+"Address": "44686 CR 4, Haxtun, CO 80731",
+"Category": "On-Farm / Ranch Sales",
+"County": "Phillips",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 774-7492",
+"Products": "Naturally raised chickens and eggs",
+"Status": "Open",
+"Website": "https://wisdomsnaturalpoultry.com",
+"Year Opened": "",
+"city": "Haxtun",
+"name": "Wisdom Natural Poultry",
+"source": "curated"
 },
 "naturally plants|aurora": {
 "Address": "332 norfolk st",
@@ -20382,6 +22078,22 @@
 "city": "Palisade",
 "name": "Z's Orchard",
 "source": "usda"
+},
+"orchards s wag world|eckert": {
+"Address": "",
+"Category": "Wholesale Grower",
+"County": "Delta",
+"Email": "info@wagsworldinc.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Cherries, peaches, nectarines, plums, apples",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Eckert",
+"name": "Wag's World Orchards",
+"source": "curated"
 },
 "orchards tate|palisade": {
 "Address": "725 35 6/10 Road",
@@ -21231,6 +22943,22 @@
 "name": "Spring Water Ranch LLC",
 "source": "colorado_proud_finder"
 },
+"ranch stanko|steamboat springs": {
+"Address": "",
+"Category": "On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "",
+"Hours": "",
+"Months Open": "",
+"Phone": "(970) 214-6941",
+"Products": "Chicken eggs (free-range)",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Steamboat Springs",
+"name": "Stanko Ranch",
+"source": "curated"
+},
 "ranch sterling|littleton": {
 "Address": "Providence Park, 8100 Piney River Avenue",
 "Category": "Farmers' Market",
@@ -21262,6 +22990,22 @@
 "city": "Loveland",
 "name": "Sunrise Ranch",
 "source": "colorado_proud_finder"
+},
+"ranch valley yampa|yampa": {
+"Address": "",
+"Category": "Meat Producer & Packer, On-Farm / Ranch Sales",
+"County": "Routt",
+"Email": "ali@yampavalleyranch.com",
+"Hours": "",
+"Months Open": "",
+"Phone": "",
+"Products": "Grass-fed and finished Wagyu beef",
+"Status": "Open",
+"Website": "",
+"Year Opened": "",
+"city": "Yampa",
+"name": "Yampa Valley Ranch",
+"source": "curated"
 },
 "ranch vanwinkle|fruita": {
 "Address": "2043 North Road",
