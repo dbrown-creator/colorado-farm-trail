@@ -50,6 +50,7 @@ RAW = os.path.join(INPUTS, "source-data", "phase2", "co_farmers_markets_all_raw.
 RESULTS = os.path.join(INPUTS, "source-data", "phase2", "enrichment", "results")
 VENDORS = os.path.join(INPUTS, "source-data", "phase3", "market_vendor_lists", "all_vendors.csv")
 OUT = os.path.join(REPO, "gunnison-valley", "data", "providers.json")
+CHECKS = os.path.join(REPO, "gunnison-valley", "data", "site-checks.json")
 
 # Phase 3 vendor lists carry the market's city and, once the county-labeling task lands,
 # a County column. Until then these cities identify the Gunnison County markets.
@@ -184,6 +185,7 @@ def vendor_leads(listed):
 
 def main():
     status = load_status()
+    checks = json.load(open(CHECKS, encoding="utf-8")) if os.path.exists(CHECKS) else {"places": {}}
     providers = {}
     for row in csv.DictReader(open(RAW, encoding="utf-8-sig")):
         if row["County"] in AREA_COUNTIES and name_key(row["Business Name"]) not in EXCLUDE:
@@ -209,6 +211,14 @@ def main():
         p["verified"] = st.get("checked", "") if st else ""
         p["id"] = slug(p["name"])
         p["town"] = p["city"] or f"{p['county']} County"
+        chk = checks["places"].get(p["id"])
+        if chk:  # hand-run check against the provider's own website (site-checks.json)
+            p["checkNotes"] = chk["notes"]
+            if chk["status"] != "unverified":
+                p["status"], p["verified"] = chk["status"], checks["checked"]
+            for k, v in chk.get("fixes", {}).items():
+                if not p.get(k):
+                    p[k] = v
         if not p["address"]:  # town-only record: its coordinates are a town centre, not the place
             p["lat"] = p["lng"] = None
         p["sourceLabels"] = list(dict.fromkeys(SOURCE_LABELS.get(s, s) for s in p["sources"]))

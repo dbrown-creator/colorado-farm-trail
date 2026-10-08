@@ -56,10 +56,10 @@
    "phone": "(970) 349-2071",
    "callFirst": false,
    "website": "https://buckelfamilywine.com",
-   "email": "",
+   "email": "info@buckelfamilywine.com",
    "facebook": "https://www.facebook.com/BuckelFamilyWine/",
    "instagram": "https://www.instagram.com/buckelfamilywine/",
-   "hours": "",
+   "hours": "Mon–Thu 12–5:30 pm; Fri–Sat 2–7 pm; other times by appointment",
    "monthsOpen": [],
    "products": "Red Wine, White Wine, Wine",
    "organic": false,
@@ -71,10 +71,14 @@
    "sources": [
     "colorado_proud_finder"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "unknown",
+   "verified": "2026-10-08",
    "id": "buckel-family-wine",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site is up and lists tasting-room hours; address and phone match.",
+    "Looks unmaintained: © 2017 footer, a leftover template message, and nothing dated after 2024. Call to confirm hours."
+   ],
    "sourceLabels": [
     "Colorado Proud"
    ],
@@ -110,10 +114,14 @@
    "sources": [
     "colorado_proud_finder"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "cranor-charolais",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site is current (© 2026, working shop). It sells individual beef and yak cuts, meat baskets, wholesale beef and registered Charolais.",
+    "The site does not name beef boxes or shares, and gives no street address or phone (only 'Gunnison, Colorado'), so the street address and phone here are not confirmed by it."
+   ],
    "sourceLabels": [
     "Colorado Proud"
    ],
@@ -151,10 +159,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "unknown",
+   "verified": "2026-10-08",
    "id": "crested-butte-catering-co",
    "town": "Crested Butte",
+   "checkNotes": [
+    "Site is up and describes private-chef dinners and event catering, but is dated © 2021 and shows no address or phone.",
+    "It names no local farms or ingredient sources, so this site does not support listing it as a local-food business."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -200,10 +212,14 @@
     "cfma",
     "colorado_proud_finder"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "crested-butte-farmers-market",
    "town": "Crested Butte",
+   "checkNotes": [
+    "Site confirms Sundays, May 31 to Oct 11, 9 am–2 pm, at the 'Top of Elk'. The 2026 season ends this Sunday.",
+    "No phone or street address on the home page, so the phone here is not confirmed by it."
+   ],
    "sourceLabels": [
     "Colorado Proud",
     "Colorado Farmers Market Association"
@@ -257,10 +273,14 @@
     "colorado_proud_farm_fresh",
     "cfma"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "gunnison-farmers-market",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site confirms Saturdays, June 6 to Oct 17, 2026, 9:30 am–1 pm, at Main and Virginia next to IOOF Park.",
+    "Contact on the site is an email, not a phone; the phone here is not confirmed by it."
+   ],
    "sourceLabels": [
     "Colorado Proud",
     "Colorado Farmers Market Association"
@@ -306,10 +326,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "gunnison-gardens",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site is current (© 2026, items dated Feb 2026). Sells vegetables, eggs ($8/dozen), pasture-raised chicken, seedlings; CSA pickups at 513 S Main St, Gunnison and in CB South; sells at the Gunnison and CB South markets.",
+    "The site gives no street address for the farm or phone; the 600 W Hwy 50 address and phone are not confirmed by it. Its CSA schedule is described two ways (14-week share vs July–October), so confirm."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -348,10 +372,14 @@
    "sources": [
     "colorado_proud_finder"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "gunnison-jerky-co",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site is current (© 2026, live shop). Sells its own beef jerky plus other Colorado foods such as honey, jams and teas.",
+    "No address, phone or hours on the home page, so those are not confirmed by it."
+   ],
    "sourceLabels": [
     "Colorado Proud"
    ],
@@ -389,10 +417,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "gunnison-vitamin-health-food-store",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site confirms address (804 N Main St), phone and hours (Mon–Sat 8–7, closed Sun).",
+    "Says it features 'organic, local and natural foods' but names no specific local products."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -430,10 +462,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "high-alpine-brewing-co",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site confirms address, phone and hours (daily 11–10; kitchen 11–9).",
+    "The home page says nothing about local sourcing. The listing's notes cite the food-menu and beer pages for it; those sub-pages were not read in this check."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -470,10 +506,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "lb-specialty-beef",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site is up (© 2025) with a shop and phone (970) 596-5976. Grass-fed beef.",
+    "It gives only a PO Box and Lick Creek Lane, Gunnison, so there is no public street address to pin. It does not say how sales work (shares, pickup, shipping)."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -516,6 +556,9 @@
    "verified": "",
    "id": "mountain-earth-organic-grocer",
    "town": "Crested Butte",
+   "checkNotes": [
+    "No website to check. Its record rests on a Google Maps listing."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -557,10 +600,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "parker-pastures",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site is current (© 2026, live shop). Grass-fed beef, chicken, bison and salmon, shipped Mon/Tue to all 50 states.",
+    "The site states no town or address and no phone, so it does not confirm a Gunnison location, and it is an online shipper, not a local pickup."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -601,10 +648,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "peterson-ranch-double-j-cattle-hay",
    "town": "Gunnison",
+   "checkNotes": [
+    "Site is up (© 2026), 'just outside of Gunnison' in the Tomichi Valley. It says it is primarily wholesale beef and that its meat is not intended for resale; ground beef was sold out.",
+    "A 'Wholesale Orders Open for Fall 2025' banner is out of date, and hay sales and trucking are 'coming soon'. No phone on the home page."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -647,6 +698,9 @@
    "verified": "",
    "id": "rivergate-ranch",
    "town": "Powderhorn",
+   "checkNotes": [
+    "No website to check. Its record rests on the CSU Extension Gunnison County local-beef directory, which listed beef 'ready to go Fall of 2025'."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -684,10 +738,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "the-sunflower",
    "town": "Crested Butte",
+   "checkNotes": [
+    "Site confirms 214 Elk Ave and phone (970) 417-7767, with a menu and reservations link. It says the supper menu 'revolves around what is in season and available from the farms'.",
+    "No hours on the home page; the footer still reads © 2018 although images date to Dec 2025."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -723,10 +781,14 @@
    "sources": [
     "curated"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "ok",
+   "verified": "2026-10-08",
    "id": "two-twelve",
    "town": "Crested Butte",
+   "checkNotes": [
+    "Site confirms address, phone and hours (dinner Tue–Sat, 5–9 pm).",
+    "It says it works with small farms and producers across the Western Slope and Colorado, including a partnership with Mountain Roots. Footer © 2025."
+   ],
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],
@@ -748,7 +810,7 @@
    "phone": "(970) 901-0215",
    "callFirst": false,
    "website": "https://vermontsticky.com",
-   "email": "",
+   "email": "krista@vermontsticky.com",
    "facebook": "https://vermontsticky.com",
    "instagram": "https://vermontsticky.com",
    "hours": "",
@@ -763,10 +825,14 @@
    "sources": [
     "colorado_proud_finder"
    ],
-   "status": "unverified",
-   "verified": "",
+   "status": "unknown",
+   "verified": "2026-10-08",
    "id": "vermont-sticky",
    "town": "Crested Butte",
+   "checkNotes": [
+    "Site is up but looks old: image files date from about 2020–2023 and nothing on it is dated. The syrup is made in Vermont and sold online and through retailers.",
+    "The site gives only a PO Box in Crested Butte (the 35 Belleview Drive address is not on it); the phone matches. Its Facebook and Instagram are vermontsticky; the dataset had the website URL in both fields."
+   ],
    "sourceLabels": [
     "Colorado Proud"
    ],

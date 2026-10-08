@@ -90,6 +90,7 @@
       +   '<h1>'+esc(p.name)+'</h1><div>'+types+'</div>'
       +   '<p class="muted" style="margin:6px 0 0">'+esc(p.categories.join(" · "))+'</p>'
       +   '<div style="margin-top:12px">'+verified+'</div>'+status
+      +   (p.checkNotes ? '<div class="callout"><strong>What the site check found</strong> ('+esc(CP.fmtDate(p.verified) || "")+', the provider’s own home page)<ul style="margin:6px 0 0">'+p.checkNotes.map(function(n){ return '<li>'+esc(n)+'</li>'; }).join("")+'</ul></div>' : "")
       +   (p.products ? '<h2 style="font-size:1.25rem;margin-top:24px">'+(p.types.indexOf("dining") !== -1 ? 'Local ingredients they use' : 'What they offer')+'</h2><p>'+esc(p.products)+'</p>'+srcNote(p,"Products") : '')
       +   (offers ? '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:10px">'+offers+'</div>' : '')
       +   (p.notes ? '<h2 style="font-size:1.25rem;margin-top:24px">About</h2><p style="white-space:pre-line">'+esc(p.notes)+'</p>' : '')
