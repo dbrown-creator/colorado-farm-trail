@@ -509,8 +509,8 @@
    "snap": false,
    "ada": false,
    "notes": "Gunnison regenerative ranch selling online and shipping nationwide; no address or pickup published, so town only. Not confirmed which products are raised on the ranch (salmon is not). A different \"Parker Pastures\" listing on LocalHarvest (57564 US Hwy 50, raw-milk herdshares, 970-641-3710) conflicts and is not used. Call to confirm farm visits/pickup and phone. Pinned at the center of Gunnison (Census gazetteer): the site lists only the town, no street address or pickup (checked 2026-10-08).",
-   "lat": null,
-   "lng": null,
+   "lat": 38.54798,
+   "lng": -106.9246,
    "sources": [
     "curated"
    ],
@@ -520,8 +520,10 @@
    "town": "Gunnison",
    "checkNotes": [
     "Site is current (© 2026, live shop). Grass-fed beef, chicken, bison and salmon, shipped Mon/Tue to all 50 states.",
-    "The site (home, About and Contact pages) states no town, state, address, pickup or phone, only an email and a form. So nothing on its own site places it in Gunnison; the Gunnison location comes from a directory listing. It is an online shipper, not a local pickup."
+    "The site (home, About and Contact pages) states no town, state, address, pickup or phone, only an email and a form. So nothing on its own site places it in Gunnison; the Gunnison location comes from a directory listing. It is an online shipper, not a local pickup.",
+    "By choice, the ranch's location is not looked up or published: the pin marks the town of Gunnison, not the ranch. (Directories and press place it in Gunnison; Audubon Rockies lists it as certified bird-friendly ranchland, 370 acres, since 2020.)"
    ],
+   "approx": true,
    "sourceLabels": [
     "Farmers market vendor lists, checked by hand"
    ],

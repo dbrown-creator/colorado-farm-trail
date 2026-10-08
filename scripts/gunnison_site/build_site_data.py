@@ -221,8 +221,12 @@ def main():
             for k, v in chk.get("fixes", {}).items():
                 if not p.get(k):
                     p[k] = v
+        chk = checks["places"].get(slug(p["name"]), {})
         if not p["address"]:  # town-only record: its coordinates are a town centre, not the place
-            p["lat"] = p["lng"] = None
+            if chk.get("pinAtTown") and p["lat"] is not None:
+                p["approx"] = True  # kept on purpose: pin marks the town, labelled as such
+            else:
+                p["lat"] = p["lng"] = None
         p["sourceLabels"] = list(dict.fromkeys(SOURCE_LABELS.get(s, s) for s in p["sources"]))
         facets(p)
         out.append(p)

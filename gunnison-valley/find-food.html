@@ -143,6 +143,7 @@ if (new URLSearchParams(location.search).get("embed") === "1") document.document
     return '<h4>'+esc(p.name)+'</h4><div style="margin-bottom:6px">'+typeLine(p)+'</div>'
       + (p.products ? '<div class="muted" style="font-size:.88rem">'+esc(p.products.slice(0,120))+(p.products.length>120?'…':'')+'</div>' : '')
       + (EMBED ? embedDetails(p) : '')
+      + (p.approx ? '<div class="muted" style="font-size:.82rem">Pin marks the town, not the exact location.</div>' : '')
       + '<div style="margin-top:8px;display:flex;gap:12px">'
       + (EMBED ? '' : '<a href="'+CP.providerUrl(p)+'">Details →</a>')
       + '<a href="'+CP.directions(p)+'" target="_blank" rel="noopener">Directions</a></div>';

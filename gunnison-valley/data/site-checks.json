@@ -75,11 +75,13 @@
       "status": "ok",
       "notes": [
         "Site is current (© 2026, live shop). Grass-fed beef, chicken, bison and salmon, shipped Mon/Tue to all 50 states.",
-        "The site (home, About and Contact pages) states no town, state, address, pickup or phone, only an email and a form. So nothing on its own site places it in Gunnison; the Gunnison location comes from a directory listing. It is an online shipper, not a local pickup."
+        "The site (home, About and Contact pages) states no town, state, address, pickup or phone, only an email and a form. So nothing on its own site places it in Gunnison; the Gunnison location comes from a directory listing. It is an online shipper, not a local pickup.",
+        "By choice, the ranch's location is not looked up or published: the pin marks the town of Gunnison, not the ranch. (Directories and press place it in Gunnison; Audubon Rockies lists it as certified bird-friendly ranchland, 370 acres, since 2020.)"
       ],
       "fixes": {
         "email": "info@parkerpastures.com"
-      }
+      },
+      "pinAtTown": true
     },
     "peterson-ranch-double-j-cattle-hay": {
       "status": "ok",

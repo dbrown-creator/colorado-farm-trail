@@ -150,7 +150,7 @@
     return d.toLocaleDateString("en-US", { year:"numeric", month:"long", day:"numeric" });
   }
   function directions(p){
-    if(p.lat != null) return "https://www.google.com/maps/dir/?api=1&destination="+p.lat+","+p.lng;
+    if(p.lat != null && !p.approx) return "https://www.google.com/maps/dir/?api=1&destination="+p.lat+","+p.lng;
     return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent([p.name, p.address, p.town, "CO"].filter(Boolean).join(", "));
   }
   function providerUrl(p){ return url("provider.html?id="+encodeURIComponent(p.id)); }
