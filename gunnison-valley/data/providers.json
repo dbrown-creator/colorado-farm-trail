@@ -1,7 +1,7 @@
 {
  "meta": {
   "generated": "2026-10-08",
-  "count": 17,
+  "count": 15,
   "counties": [
    "Gunnison"
   ],
@@ -131,49 +131,6 @@
    "offerings": [
     "beef-meat"
    ]
-  },
-  {
-   "name": "Crested Butte Catering Co.",
-   "categories": [
-    "Caterer"
-   ],
-   "address": "525 Red Lady Ave #141",
-   "city": "Crested Butte",
-   "county": "Gunnison",
-   "zip": "81224",
-   "phone": "(512) 277-4327",
-   "callFirst": false,
-   "website": "https://crestedbuttecateringcompany.com",
-   "email": "",
-   "facebook": "",
-   "instagram": "",
-   "hours": "",
-   "monthsOpen": [],
-   "products": "Private chef dinners and event/wedding catering (Chef Matt Santor)",
-   "organic": false,
-   "snap": false,
-   "ada": false,
-   "notes": "Evidence: Google Maps 2026-10-08, 5.0 stars/9 reviews, not closed; micro-wedding review 2 months ago (about Aug 2026) with owner reply a month ago. Site footer says 2021 (stale) and makes no local-sourcing claim; earlier note about a market selling local meat/produce NOT confirmed. Operating as caterer only; include only if a caterer with no stated local sourcing fits the trail. Located in Crested Butte Laundry building.",
-   "lat": 38.866211813658,
-   "lng": -106.982122202299,
-   "sources": [
-    "curated"
-   ],
-   "status": "unknown",
-   "verified": "2026-10-08",
-   "id": "crested-butte-catering-co",
-   "town": "Crested Butte",
-   "checkNotes": [
-    "Site is up and describes private-chef dinners and event catering, but is dated © 2021 and shows no address or phone.",
-    "It names no local farms or ingredient sources, so this site does not support listing it as a local-food business."
-   ],
-   "sourceLabels": [
-    "Farmers market vendor lists, checked by hand"
-   ],
-   "types": [
-    "dining"
-   ],
-   "offerings": []
   },
   {
    "name": "Crested Butte Farmers Market",
@@ -794,50 +751,6 @@
    ],
    "types": [
     "dining"
-   ],
-   "offerings": []
-  },
-  {
-   "name": "Vermont Sticky",
-   "categories": [
-    "Grocery Store",
-    "Food Maker"
-   ],
-   "address": "35 Belleview Drive",
-   "city": "Crested Butte",
-   "county": "Gunnison",
-   "zip": "81225",
-   "phone": "(970) 901-0215",
-   "callFirst": false,
-   "website": "https://vermontsticky.com",
-   "email": "krista@vermontsticky.com",
-   "facebook": "https://vermontsticky.com",
-   "instagram": "https://vermontsticky.com",
-   "hours": "",
-   "monthsOpen": [],
-   "products": "Chocolate & Cocoa Products, Maple Syrup",
-   "organic": true,
-   "snap": true,
-   "ada": false,
-   "notes": "I'm a 3rd generation maple syrup producer but moved to Crested Butte, CO in 1999. I return to VT to make maple syrup with my family each year then bring it to CO and sell around the Western Slope. With our organic maple sugar, I make a number of products here in the Gunnison Valley. \nMaple sugar hot cocoa (5 flavors)\nmaple sugar electrolyte drink mix (2 flavors)\n\nBecause I'm making the above products in CO, my business is in CO and I have lived in CO for 25 years, I would love to include the Colorado Proud logo.",
-   "lat": 38.9078345,
-   "lng": -106.9674741,
-   "sources": [
-    "colorado_proud_finder"
-   ],
-   "status": "unknown",
-   "verified": "2026-10-08",
-   "id": "vermont-sticky",
-   "town": "Crested Butte",
-   "checkNotes": [
-    "Site is up but looks old: image files date from about 2020–2023 and nothing on it is dated. The syrup is made in Vermont and sold online and through retailers.",
-    "The site gives only a PO Box in Crested Butte (the 35 Belleview Drive address is not on it); the phone matches. Its Facebook and Instagram are vermontsticky; the dataset had the website URL in both fields."
-   ],
-   "sourceLabels": [
-    "Colorado Proud"
-   ],
-   "types": [
-    "market"
    ],
    "offerings": []
   }

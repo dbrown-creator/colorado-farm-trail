@@ -186,6 +186,8 @@ def vendor_leads(listed):
 def main():
     status = load_status()
     checks = json.load(open(CHECKS, encoding="utf-8")) if os.path.exists(CHECKS) else {"places": {}}
+    # Disqualified places (logged with a reason in site-checks.json) stay out of the site.
+    EXCLUDE.update(name_key(x["name"]) for x in checks.get("disqualified", []))
     providers = {}
     for row in csv.DictReader(open(RAW, encoding="utf-8-sig")):
         if row["County"] in AREA_COUNTIES and name_key(row["Business Name"]) not in EXCLUDE:
