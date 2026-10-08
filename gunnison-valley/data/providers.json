@@ -1,0 +1,717 @@
+{
+ "meta": {
+  "generated": "2026-10-08",
+  "count": 14,
+  "counties": [
+   "Gunnison"
+  ],
+  "types": {
+   "farm": "Farms & Ranches",
+   "market": "Markets & Shops",
+   "assistance": "Food Assistance",
+   "dining": "Restaurants & Caterers",
+   "community": "Community & Education"
+  },
+  "offerings": {
+   "veggies": "Veggies",
+   "fruit": "Fruit",
+   "beef-meat": "Beef & Meat",
+   "poultry-eggs": "Poultry & Eggs",
+   "dairy": "Dairy",
+   "flowers": "Flowers",
+   "spices-garlic": "Spices & Garlic",
+   "staples": "Pantry Staples"
+  },
+  "months": [
+   "January",
+   "February",
+   "March",
+   "April",
+   "May",
+   "June",
+   "July",
+   "August",
+   "September",
+   "October",
+   "November",
+   "December"
+  ],
+  "vendorLeads": {
+   "count": 0,
+   "names": [],
+   "markets": [],
+   "byCountyColumn": true
+  }
+ },
+ "providers": [
+  {
+   "name": "Buckel Family Wine",
+   "categories": [
+    "Winery"
+   ],
+   "address": "1018/b Colorado 135",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 349-2071",
+   "callFirst": false,
+   "website": "https://buckelfamilywine.com",
+   "email": "info@buckelfamilywine.com",
+   "facebook": "https://www.facebook.com/BuckelFamilyWine/",
+   "instagram": "https://www.instagram.com/buckelfamilywine/",
+   "hours": "Mon–Thu 12–5:30 pm; Fri–Sat 2–7 pm; other times by appointment",
+   "monthsOpen": [],
+   "products": "Red Wine, White Wine, Wine",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Buckel Family Wine is an industrial style winery located in the Gunnison Valley of Colorado.  We source our fruit from vineyards on the Western Slope of Colorado.  We make Old World Styled dry wines.  White, Rosé, Red and Sparkling.\n\nWe have Tasting Rooms in:\nGunnison, CO\n1018 Highway 135, Unit B\nOpen Friday and Saturday 2-7pm",
+   "lat": 38.5591857,
+   "lng": -106.9264763,
+   "sources": [
+    "colorado_proud_finder"
+   ],
+   "status": "unknown",
+   "verified": "2026-10-08",
+   "id": "buckel-family-wine",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site is up and lists tasting-room hours; address and phone match.",
+    "Looks unmaintained: © 2017 footer, a leftover template message, and nothing dated after 2024. Call to confirm hours."
+   ],
+   "sourceLabels": [
+    "Colorado Proud"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": []
+  },
+  {
+   "name": "Cranor Charolais",
+   "categories": [
+    "On-Farm / Ranch Sales"
+   ],
+   "address": "3600 County Road 10",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 275-4026",
+   "callFirst": false,
+   "website": "https://cranorcharolais.com/",
+   "email": "",
+   "facebook": "https://www.facebook.com/cranorcharolais",
+   "instagram": "https://www.instagram.com/cranorcharolais/",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Beef",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Raising high quality, local, beef and Charolais cattle. Offering meat for sale including beef boxes and beef shares. Also offering replacement heifers, bulls and much more. We are located in Gunnison, Colorado at 8000 feet above sea level – raising animals that are well equipped to handle altitude, cold brutal winters, and dry summers.",
+   "lat": 38.6013887,
+   "lng": -106.8892539,
+   "sources": [
+    "colorado_proud_finder"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "cranor-charolais",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site is current (© 2026, working shop). It sells individual beef and yak cuts, meat baskets, wholesale beef and registered Charolais.",
+    "The site does not name beef boxes or shares, and gives no street address or phone (only 'Gunnison, Colorado'), so the street address and phone here are not confirmed by it."
+   ],
+   "sourceLabels": [
+    "Colorado Proud"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "Crested Butte Farmers Market",
+   "categories": [
+    "Farmers' Market"
+   ],
+   "address": "100 Elk Ave.",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81224",
+   "phone": "(405) 203-0168",
+   "callFirst": false,
+   "website": "https://www.cbfarmersmarket.org",
+   "email": "info@cbfarmersmarket.org",
+   "facebook": "https://www.facebook.com/crestedbuttefarmersmarket/",
+   "instagram": "https://instagram.com/cbfarmersmarket",
+   "hours": "Sun: 9am - 2pm",
+   "monthsOpen": [
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October"
+   ],
+   "products": "Apples, Apricots, Asparagus, Beets, Bell Peppers, Broccoli, Cabbage, Cantaloupe, Carrots, Cauliflower, Celery, Cherries, Chile Peppers, Chile - Roasted, Cucumbers, Eggplant, Garlic, Green Beans, Herbs, Honeydew, Kale, Leeks, Lettuce, Microgreens, Mushrooms, Onions, Peaches, Pears, Peas, Plums, Potatoes, Pumpkins, Radishes, Raspberries, Rhubarb, Squash, Strawberries, Spinach, Tomatoes, Turnips, Watermelon, Zucchini, Beef, Pork, Poultry, Pickles, Jellies, Jams, Honey, Eggs, Cheese, Baked Goods, Cider, Juices, Wine, Handcrafted Gifts",
+   "organic": false,
+   "snap": true,
+   "ada": true,
+   "notes": "The CB Farmers Market is dedicated to promoting sustainable agriculture.  We offer organic and naturally grown vegetables, fruits, herbs, pasture-raised and grass-finished meats, artisanal cheese, wine, hard ciders & juices, breads, jams, pickles, cut flowers and a local arts and crafts.",
+   "lat": 38.869700704303106,
+   "lng": -106.98901490948651,
+   "sources": [
+    "colorado_proud",
+    "colorado_proud_farm_fresh",
+    "cfma",
+    "colorado_proud_finder"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "crested-butte-farmers-market",
+   "town": "Crested Butte",
+   "checkNotes": [
+    "Site confirms Sundays, May 31 to Oct 11, 9 am–2 pm, at the 'Top of Elk'. The 2026 season ends this Sunday.",
+    "No phone or street address on the home page, so the phone here is not confirmed by it."
+   ],
+   "sourceLabels": [
+    "Colorado Proud",
+    "Colorado Farmers Market Association"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "veggies",
+    "fruit",
+    "beef-meat",
+    "poultry-eggs",
+    "dairy",
+    "flowers",
+    "spices-garlic",
+    "staples"
+   ]
+  },
+  {
+   "name": "Gunnison Farmers Market",
+   "categories": [
+    "Farmers' Market"
+   ],
+   "address": "Main and Virginia",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 648-0580",
+   "callFirst": false,
+   "website": "https://www.gunnisonfarmersmarket.org",
+   "email": "gunnyfarmersmarket@gmail.com",
+   "facebook": "https://www.facebook.com/profile.php?id=100057396522608",
+   "instagram": "https://instagram.com/gunnisonfarmersmarket",
+   "hours": "Sat: 9:30 a.m. - 1 p.m.",
+   "monthsOpen": [
+    "June",
+    "July",
+    "August",
+    "September",
+    "October"
+   ],
+   "products": "Apples, Apricots, Beets, Bell Peppers, Broccoli, Brussels Sprouts, Cabbage, Carrots, Cauliflower, Cherries, Chile Peppers, Chile - Roasted, Cucumbers, Eggplant, Garlic, Green Beans, Grapes, Herbs, Kale, Honeydew, Leeks, Lettuce, Microgreens, Onions, Peaches, Pears, Peas, Plums, Potatoes, Pumpkins, Radishes, Raspberries, Rhubarb, Spinach, Squash, Strawberries, Sweet Corn, Tomatoes, Turnips, Zucchini, Pork, Poultry, Sausage, Beef, Baked Goods, Cheese, Eggs, Honey, Jams, Jellies, Pickles, Cider, Juices, Handcrafted Gifts, Rum, Local wine",
+   "organic": false,
+   "snap": true,
+   "ada": true,
+   "notes": "Seasonal farmers market in downtown Gunnison featuring an array of produce, meats, alcoholic and non alcoholic beverages, fresh baked goods including sourdough bread, jewelry, photography, clothing, and other artisan goods. Live music in IOOF Park.",
+   "lat": 38.54550198600003,
+   "lng": -106.92689802799998,
+   "sources": [
+    "colorado_proud",
+    "colorado_proud_farm_fresh",
+    "cfma"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "gunnison-farmers-market",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site confirms Saturdays, June 6 to Oct 17, 2026, 9:30 am–1 pm, at Main and Virginia next to IOOF Park.",
+    "Contact on the site is an email, not a phone; the phone here is not confirmed by it."
+   ],
+   "sourceLabels": [
+    "Colorado Proud",
+    "Colorado Farmers Market Association"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "veggies",
+    "fruit",
+    "beef-meat",
+    "poultry-eggs",
+    "dairy",
+    "flowers",
+    "spices-garlic",
+    "staples"
+   ]
+  },
+  {
+   "name": "Gunnison Gardens",
+   "categories": [
+    "CSA Farm"
+   ],
+   "address": "600 W Hwy 50",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 964-8226",
+   "callFirst": false,
+   "website": "https://www.gunnisongardens.com/",
+   "email": "",
+   "facebook": "https://www.facebook.com/GunnisonGardens",
+   "instagram": "",
+   "hours": "Gunnison Farmers Market Saturday mornings mid-June to October (IOOF park, Main & Virginia); Crested Butte South Farmers Market Thursdays 4:30-6 pm in summer",
+   "monthsOpen": [],
+   "products": "Vegetables, fresh eggs year-round ($8/dozen), pasture-raised chicken, vegetable seedlings, Solstice-to-Equinox CSA",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Family farm (4 acres, within Gunnison city limits). Buy via online shop (Add to Cart), farmers markets, CSA (pickups 513 S Main St Gunnison and CB South Gillaspey Ave). Evidence: homepage 2026-10-08 shows 'Solstice-to-Equinox CSA OPEN!' and 'Class Feb26-Apl25: Growing Food in a Cold Climate' (2026 class); live shop with prices; about page dated Feb 20 2026 per search snippet. Address 600 W Hwy 50 and phone from Mountain Roots marketplace producer page (secondhand; could not load in browser). Founding year inconsistent (2012 vs 2014). No Google Maps listing found.",
+   "lat": 38.54798,
+   "lng": -106.9246,
+   "sources": [
+    "curated"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "gunnison-gardens",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site is current (© 2026, items dated Feb 2026). Sells vegetables, eggs ($8/dozen), pasture-raised chicken, seedlings; CSA pickups at 513 S Main St, Gunnison and in CB South; sells at the Gunnison and CB South markets.",
+    "The site gives no street address for the farm or phone; the 600 W Hwy 50 address and phone are not confirmed by it. Its CSA schedule is described two ways (14-week share vs July–October), so confirm."
+   ],
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "veggies",
+    "poultry-eggs"
+   ]
+  },
+  {
+   "name": "Gunnison Jerky Co.",
+   "categories": [
+    "Grocery Store"
+   ],
+   "address": "235 N Main St",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 707-4181",
+   "callFirst": false,
+   "website": "https://gunnisonjerkyco.com",
+   "email": "",
+   "facebook": "https://facebook.com/gunnisonjerkyco",
+   "instagram": "https://instagram.com/gunnisonjerkyco",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Cured Meat Products",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "We are a Colorado Mercantile specializing in our very own all-natural, handcrafted beef jerky. We bring together a wide range of other Colorado products, including honey, jams, olive oils, gourmet teas, baking mixes, charcuterie boards, candles, soaps, tea towels, quilted throws, and more!\n\nGunnison Jerky Co. also provides tasty, on-the-go snacks for wild at heart adventurers with health-conscious attitudes. Whether you're heading out on your first hike or pitching a tent for the hundredth time, we're here with energy-charged snacks to help you celebrate being outdoors.",
+   "lat": 38.5462646,
+   "lng": -106.9273064,
+   "sources": [
+    "colorado_proud_finder"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "gunnison-jerky-co",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site is current (© 2026, live shop). Sells its own beef jerky plus other Colorado foods such as honey, jams and teas.",
+    "No address, phone or hours on the home page, so those are not confirmed by it."
+   ],
+   "sourceLabels": [
+    "Colorado Proud"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "Gunnison Vitamin & Health Food Store",
+   "categories": [
+    "Grocery Store"
+   ],
+   "address": "804 N Main St",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 641-5928",
+   "callFirst": false,
+   "website": "https://gunnisonvitamin.com",
+   "email": "gvhf.store.one@gmail.com",
+   "facebook": "https://facebook.com/gunnisonvitamin",
+   "instagram": "https://instagram.com/gunnisonvitamin",
+   "hours": "Mon-Sat 8am-7pm; closed Sun",
+   "monthsOpen": [],
+   "products": "Organic, local and natural foods; local beef",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Locally owned natural grocer. CSU Extension's local-beef page lists it as a retailer of Parker Pastures and LB Specialty Beef beef.",
+   "lat": 38.552395770443,
+   "lng": -106.926832723933,
+   "sources": [
+    "curated"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "gunnison-vitamin-health-food-store",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site confirms address (804 N Main St), phone and hours (Mon–Sat 8–7, closed Sun).",
+    "Says it features 'organic, local and natural foods' but names no specific local products."
+   ],
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "LB Specialty Beef",
+   "categories": [
+    "Meat Producer & Packer",
+    "Farm Products (online)"
+   ],
+   "address": "",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 596-5976",
+   "callFirst": false,
+   "website": "https://www.lbspecialtybeef.com",
+   "email": "info@lbspecialtybeef.com",
+   "facebook": "https://facebook.com/LB.Beef",
+   "instagram": "https://instagram.com/LB_Beef",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Free-range, hormone-free, grass-fed beef; cuts and shares",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Gunnison ranch selling beef through an online shop and local retailers (Gunnison Vitamin & Health). Only a road name and PO Box are public, so town only. Own site is dated 2025; CSU Extension's 2026 local-beef page lists it. Pinned at the center of Gunnison (Census gazetteer): the site lists only the town, no street address or pickup (checked 2026-10-08).",
+   "lat": null,
+   "lng": null,
+   "sources": [
+    "curated"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "lb-specialty-beef",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site is up (© 2025) with a shop and phone (970) 596-5976. Grass-fed beef.",
+    "It gives only a PO Box and Lick Creek Lane, Gunnison, so there is no public street address to pin. It does not say how sales work (shares, pickup, shipping)."
+   ],
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "veggies",
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "Mountain Earth Organic Grocer",
+   "categories": [
+    "Grocery Store"
+   ],
+   "address": "405 4th St",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81224",
+   "phone": "(970) 349-5132",
+   "callFirst": false,
+   "website": "",
+   "email": "",
+   "facebook": "",
+   "instagram": "",
+   "hours": "Opens 8 AM daily per Google Maps (earlier listing 8 AM-8 PM)",
+   "monthsOpen": [],
+   "products": "Organic and local produce, local eggs and meat (carries LB Specialty Beef), bulk foods, daily soup, local Mountain Oven baked goods",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Independent organic grocer. Evidence: Google Maps 2026-10-08 shows 4.5 stars/49 reviews, not marked closed, 'Opens 8 AM', reviews dated about a year ago (late 2025) mentioning daily muffins and local produce; listed as current retailer in CSU Extension Gunnison County Local Beef directory. No own website (Google 'Add website').",
+   "lat": 38.869692853358,
+   "lng": -106.984238473226,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "mountain-earth-organic-grocer",
+   "town": "Crested Butte",
+   "checkNotes": [
+    "No website to check. Its record rests on a Google Maps listing."
+   ],
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "veggies",
+    "beef-meat",
+    "poultry-eggs",
+    "staples"
+   ]
+  },
+  {
+   "name": "Parker Pastures",
+   "categories": [
+    "Meat Producer & Packer",
+    "Farm Products (online)"
+   ],
+   "address": "",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "",
+   "callFirst": false,
+   "website": "https://www.parkerpastures.com",
+   "email": "info@parkerpastures.com",
+   "facebook": "https://www.facebook.com/profile.php?id=100064882744254",
+   "instagram": "https://www.instagram.com/parkerpasturesgrassfed/",
+   "hours": "Online orders; ships Mon/Tue",
+   "monthsOpen": [],
+   "products": "Grass-fed and -finished beef, pasture-raised chicken, bison, wild-caught salmon, bulk beef, subscription box",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Gunnison regenerative ranch selling online and shipping nationwide; no address or pickup published, so town only. Not confirmed which products are raised on the ranch (salmon is not). A different \"Parker Pastures\" listing on LocalHarvest (57564 US Hwy 50, raw-milk herdshares, 970-641-3710) conflicts and is not used. Call to confirm farm visits/pickup and phone. Pinned at the center of Gunnison (Census gazetteer): the site lists only the town, no street address or pickup (checked 2026-10-08).",
+   "lat": 38.54798,
+   "lng": -106.9246,
+   "sources": [
+    "curated"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "parker-pastures",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site is current (© 2026, live shop). Grass-fed beef, chicken, bison and salmon, shipped Mon/Tue to all 50 states.",
+    "The site (home, About and Contact pages) states no town, state, address, pickup or phone, only an email and a form. So nothing on its own site places it in Gunnison; the Gunnison location comes from a directory listing. It is an online shipper, not a local pickup.",
+    "By choice, the ranch's location is not looked up or published: the pin marks the town of Gunnison, not the ranch. (Directories and press place it in Gunnison; Audubon Rockies lists it as certified bird-friendly ranchland, 370 acres, since 2020.)"
+   ],
+   "approx": true,
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "veggies",
+    "beef-meat",
+    "poultry-eggs"
+   ]
+  },
+  {
+   "name": "Peterson Ranch (Double J Cattle & Hay)",
+   "categories": [
+    "Meat Producer & Packer",
+    "Farm Products (online)"
+   ],
+   "address": "",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "",
+   "callFirst": false,
+   "website": "https://doublejcattleandhay.com/",
+   "email": "jessicapeterson970@gmail.com",
+   "facebook": "",
+   "instagram": "",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Ground beef; wholesale beef; hay sales planned",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Tomichi Valley ranch just outside Gunnison. Sells through an online store; its own site says it is primarily wholesale and that meat is not for resale. Items were sold out and the latest promo is Fall 2025 (site footer 2026), so check availability. No street address or phone published, so town only. CSU Extension lists it for beef shares and ground beef. Pinned at the center of Gunnison.",
+   "lat": null,
+   "lng": null,
+   "sources": [
+    "curated"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "peterson-ranch-double-j-cattle-hay",
+   "town": "Gunnison",
+   "checkNotes": [
+    "Site is up (© 2026), 'just outside of Gunnison' in the Tomichi Valley. It says it is primarily wholesale beef and that its meat is not intended for resale; ground beef was sold out.",
+    "A 'Wholesale Orders Open for Fall 2025' banner is out of date, and hay sales and trucking are 'coming soon'. No phone on the home page."
+   ],
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "veggies",
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "Rivergate Ranch",
+   "categories": [
+    "On-Farm / Ranch Sales"
+   ],
+   "address": "10313 Hwy 149",
+   "city": "Powderhorn",
+   "county": "Gunnison",
+   "zip": "81243",
+   "phone": "(970) 765-1176",
+   "callFirst": false,
+   "website": "",
+   "email": "",
+   "facebook": "",
+   "instagram": "",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Beef shares (5 beef ready Fall 2025); mountain meadow hay and alfalfa incl. certified weed-free",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Evidence is moderate: current CSU Extension Gunnison County Local Beef directory (loaded 2026-10-08) lists it with 'ready to go Fall of 2025' and a hay entry with street address; no web/Maps presence found. Lower confidence than others; fine as address or town pin. Optional call: 2026 beef availability.",
+   "lat": 38.282107559901,
+   "lng": -107.232449489116,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "rivergate-ranch",
+   "town": "Powderhorn",
+   "checkNotes": [
+    "No website to check. Its record rests on the CSU Extension Gunnison County local-beef directory, which listed beef 'ready to go Fall of 2025'."
+   ],
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "The Sunflower",
+   "categories": [
+    "Restaurant"
+   ],
+   "address": "214 Elk Ave",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81224",
+   "phone": "(970) 417-7767",
+   "callFirst": false,
+   "website": "https://www.sunflowercb.com",
+   "email": "",
+   "facebook": "",
+   "instagram": "",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Seasonal made-from-scratch supper menu",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Own site says the supper menu follows what nearby farms have in season; it names no suppliers. A 5280 2026 listing confirms it is open. Hours are not published on the site.",
+   "lat": 38.869699445716,
+   "lng": -106.98718188781,
+   "sources": [
+    "curated"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "the-sunflower",
+   "town": "Crested Butte",
+   "checkNotes": [
+    "Site confirms 214 Elk Ave and phone (970) 417-7767, with a menu and reservations link. It says the supper menu 'revolves around what is in season and available from the farms'.",
+    "No hours on the home page; the footer still reads © 2018 although images date to Dec 2025."
+   ],
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "dining"
+   ],
+   "offerings": []
+  },
+  {
+   "name": "Two Twelve",
+   "categories": [
+    "Restaurant"
+   ],
+   "address": "212 Elk Ave",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81224",
+   "phone": "(970) 251-5195",
+   "callFirst": false,
+   "website": "https://www.twotwelvecb.com",
+   "email": "jason@twotwelvecb.com",
+   "facebook": "",
+   "instagram": "",
+   "hours": "Dinner Tue-Sat 5-9pm",
+   "monthsOpen": [],
+   "products": "Seasonal live-fire dinner menu; events and farmer partnership dinners",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Live-fire restaurant that says it sources from small Western Slope and Colorado farms and cooks in partnership with Mountain Roots. Own site (loaded in a browser 2026-10-08) shows fall hours, a \"Book your table\" button and a live reservation widget dated today, so it is operating.",
+   "lat": 38.869699259061,
+   "lng": -106.987212600706,
+   "sources": [
+    "curated"
+   ],
+   "status": "ok",
+   "verified": "2026-10-08",
+   "id": "two-twelve",
+   "town": "Crested Butte",
+   "checkNotes": [
+    "Site confirms address, phone and hours (dinner Tue–Sat, 5–9 pm).",
+    "It says it works with small farms and producers across the Western Slope and Colorado, including a partnership with Mountain Roots. Footer © 2025."
+   ],
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "dining"
+   ],
+   "offerings": []
+  }
+ ]
+}

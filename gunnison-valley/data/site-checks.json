@@ -1,0 +1,140 @@
+{
+  "_about": "Hand-run checks of each listing against the provider's own website home page, 2026-10-08. Read by scripts/gunnison_site/build_site_data.py. status: ok = site live, no closure sign, key details match; unknown = site live but stale or details could not be confirmed. fixes: fields the provider's own site states that the dataset lacked or had wrong (prototype only; belongs in the dataset's overrides). Only the home page was read, not sub-pages.",
+  "checked": "2026-10-08",
+  "places": {
+    "buckel-family-wine": {
+      "status": "unknown",
+      "notes": [
+        "Site is up and lists tasting-room hours; address and phone match.",
+        "Looks unmaintained: © 2017 footer, a leftover template message, and nothing dated after 2024. Call to confirm hours."
+      ],
+      "fixes": {
+        "hours": "Mon–Thu 12–5:30 pm; Fri–Sat 2–7 pm; other times by appointment",
+        "email": "info@buckelfamilywine.com"
+      }
+    },
+    "cranor-charolais": {
+      "status": "ok",
+      "notes": [
+        "Site is current (© 2026, working shop). It sells individual beef and yak cuts, meat baskets, wholesale beef and registered Charolais.",
+        "The site does not name beef boxes or shares, and gives no street address or phone (only 'Gunnison, Colorado'), so the street address and phone here are not confirmed by it."
+      ]
+    },
+    "crested-butte-farmers-market": {
+      "status": "ok",
+      "notes": [
+        "Site confirms Sundays, May 31 to Oct 11, 9 am–2 pm, at the 'Top of Elk'. The 2026 season ends this Sunday.",
+        "No phone or street address on the home page, so the phone here is not confirmed by it."
+      ]
+    },
+    "gunnison-farmers-market": {
+      "status": "ok",
+      "notes": [
+        "Site confirms Saturdays, June 6 to Oct 17, 2026, 9:30 am–1 pm, at Main and Virginia next to IOOF Park.",
+        "Contact on the site is an email, not a phone; the phone here is not confirmed by it."
+      ],
+      "fixes": {
+        "email": "gunnyfarmersmarket@gmail.com"
+      }
+    },
+    "gunnison-gardens": {
+      "status": "ok",
+      "notes": [
+        "Site is current (© 2026, items dated Feb 2026). Sells vegetables, eggs ($8/dozen), pasture-raised chicken, seedlings; CSA pickups at 513 S Main St, Gunnison and in CB South; sells at the Gunnison and CB South markets.",
+        "The site gives no street address for the farm or phone; the 600 W Hwy 50 address and phone are not confirmed by it. Its CSA schedule is described two ways (14-week share vs July–October), so confirm."
+      ]
+    },
+    "gunnison-jerky-co": {
+      "status": "ok",
+      "notes": [
+        "Site is current (© 2026, live shop). Sells its own beef jerky plus other Colorado foods such as honey, jams and teas.",
+        "No address, phone or hours on the home page, so those are not confirmed by it."
+      ]
+    },
+    "gunnison-vitamin-health-food-store": {
+      "status": "ok",
+      "notes": [
+        "Site confirms address (804 N Main St), phone and hours (Mon–Sat 8–7, closed Sun).",
+        "Says it features 'organic, local and natural foods' but names no specific local products."
+      ],
+      "fixes": {
+        "email": "gvhf.store.one@gmail.com"
+      }
+    },
+    "lb-specialty-beef": {
+      "status": "ok",
+      "notes": [
+        "Site is up (© 2025) with a shop and phone (970) 596-5976. Grass-fed beef.",
+        "It gives only a PO Box and Lick Creek Lane, Gunnison, so there is no public street address to pin. It does not say how sales work (shares, pickup, shipping)."
+      ],
+      "fixes": {
+        "email": "info@lbspecialtybeef.com"
+      }
+    },
+    "parker-pastures": {
+      "status": "ok",
+      "notes": [
+        "Site is current (© 2026, live shop). Grass-fed beef, chicken, bison and salmon, shipped Mon/Tue to all 50 states.",
+        "The site (home, About and Contact pages) states no town, state, address, pickup or phone, only an email and a form. So nothing on its own site places it in Gunnison; the Gunnison location comes from a directory listing. It is an online shipper, not a local pickup.",
+        "By choice, the ranch's location is not looked up or published: the pin marks the town of Gunnison, not the ranch. (Directories and press place it in Gunnison; Audubon Rockies lists it as certified bird-friendly ranchland, 370 acres, since 2020.)"
+      ],
+      "fixes": {
+        "email": "info@parkerpastures.com"
+      },
+      "pinAtTown": true
+    },
+    "peterson-ranch-double-j-cattle-hay": {
+      "status": "ok",
+      "notes": [
+        "Site is up (© 2026), 'just outside of Gunnison' in the Tomichi Valley. It says it is primarily wholesale beef and that its meat is not intended for resale; ground beef was sold out.",
+        "A 'Wholesale Orders Open for Fall 2025' banner is out of date, and hay sales and trucking are 'coming soon'. No phone on the home page."
+      ]
+    },
+    "the-sunflower": {
+      "status": "ok",
+      "notes": [
+        "Site confirms 214 Elk Ave and phone (970) 417-7767, with a menu and reservations link. It says the supper menu 'revolves around what is in season and available from the farms'.",
+        "No hours on the home page; the footer still reads © 2018 although images date to Dec 2025."
+      ]
+    },
+    "two-twelve": {
+      "status": "ok",
+      "notes": [
+        "Site confirms address, phone and hours (dinner Tue–Sat, 5–9 pm).",
+        "It says it works with small farms and producers across the Western Slope and Colorado, including a partnership with Mountain Roots. Footer © 2025."
+      ],
+      "fixes": {
+        "email": "jason@twotwelvecb.com"
+      }
+    },
+    "mountain-earth-organic-grocer": {
+      "status": "unverified",
+      "notes": [
+        "No website to check. Its record rests on a Google Maps listing."
+      ]
+    },
+    "rivergate-ranch": {
+      "status": "unverified",
+      "notes": [
+        "No website to check. Its record rests on the CSU Extension Gunnison County local-beef directory, which listed beef 'ready to go Fall of 2025'."
+      ]
+    }
+  },
+  "disqualified": [
+    {
+      "name": "Crested Butte Catering Co.",
+      "date": "2026-10-08",
+      "reason": "Not a local-food business on the evidence: private-chef and event catering, site (© 2021) names no local farms or ingredient sources, no address or phone on it. Disqualified by David."
+    },
+    {
+      "name": "Vermont Sticky",
+      "date": "2026-10-08",
+      "reason": "Not a Gunnison Valley producer: the maple syrup is made in Vermont and sold online and through retailers; the site gives only a Crested Butte PO Box and looks unmaintained (images from about 2020-2023). Disqualified by David."
+    },
+    {
+      "name": "High Alpine Brewing Co.",
+      "date": "2026-10-08",
+      "reason": "Brewpub/restaurant, not a food producer; its home page makes no local-sourcing statement (the research notes cite menu and beer sub-pages, not read). Disqualified by David."
+    }
+  ]
+}
