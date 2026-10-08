@@ -2,7 +2,7 @@
 
 Generated from `source-data/phase2/curated_records.csv` rows with `Status = call` (checked 2026-10-08). Each needs a call or a check of its Facebook/Instagram before it can go on the map. After a call, update the row (`Status` to `add`, fill the fields) and rerun `python scripts/scrape/build.py`.
 
-31 businesses.
+30 businesses.
 
 | Business | Town | What to confirm / what we know | Sources |
 |---|---|---|---|
@@ -11,7 +11,6 @@ Generated from `source-data/phase2/curated_records.csv` rows with `Status = call
 | Mountain Earth Organic Grocer | Crested Butte | 405 4th St per CSU Extension (carries LB Specialty Beef); own site unreachable. Confirm open, phone, hours. | https://extension.colostate.edu/gunnison/local-beef |
 | Crested Butte Catering Co. | Crested Butte | formerly Crested Butte Personal Chefs; a third-party snippet says its market sells local meat and produce; its own page makes no local claim. Confirm the market still runs and the address. | https://crestedbuttecateringcompany.com |
 | Revelden | Crested Butte | only an old 5280 article (buys mostly Colorado ingredients). Confirm open, address, suppliers. | https://5280.com/where-to-eat-and-drink-in-crested-butte-this-summer/ |
-| Peterson Ranch / Double J Cattle & Hay | Gunnison | Tomichi Valley beef; latest promo fall 2025 and its site says meat is not for resale. Confirm whether it sells to the public in 2026. | https://extension.colostate.edu/gunnison/local-beef |
 | Rockin J Spear Cattle Co (Rockin' JC Ranch) | Gunnison | Highland/grass-fed beef, 970-641-7090 per the beef directory; site unreadable. Confirm operating and sales. | https://www.cobeef.com/cooking/local-beef-directory |
 | Rivergate Ranch | Powderhorn | beef shares and hay, 10313 Hwy 149, 970-765-1176, from CSU Extension only. Confirm 2026 availability and that the address is public. | https://extension.colostate.edu/gunnison/local-beef |
 | Tassinong Farms | Crested Butte South | CALL (likely skip): hydroponic container farm; only 2015-2017 Crested Butte News articles found. |  |
