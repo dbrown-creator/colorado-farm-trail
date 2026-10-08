@@ -196,3 +196,11 @@ Colorado Farm to Table,Salida,Address,set,7750 County Road 150,"Farm location as
 Vail Farmers' Market,Vail,Hours,set,Sun: 9:30am - 3:00pm (Jun 14 - Oct 4); Thu: 1:00pm - 5:30pm (Jun 18 - Sep 17),"Season dates from vailfarmersmarket.com vendor pages: Sunday market June 14 - October 4, 2026; Thursday Meadow Market June 18 - September 17, 2026 (its blurb says Sept 4; the event listing says Sept 17) (checked 2026-10-04)",2026-10-04
 High On The Hill Farm,Cañon City,Notes,set,"High On the Hill Farm is a small, all natural fruit, vegetable, culinary herb and medicinal herb farm and is the home of The Anāhata Yoga & Meditation Center.  We offer wellness counseling utilizing mindful presence, a fresh, high nutrient density plant based diet and Ashtanga Yoga.  see our website for more info",Source text lost a character (garbled 'Anāhata'); same text with the yoga studio's name restored,2026-10-04
 Caring & Sharing – Sanctuary Soup Kitchen,,Address,set,220 W 4th St,"Chaffee Provides' map lists 220 W 4th St (shared with the Chaffee Community Resource Center, now a separate listing)",2026-10-05
+Zephyros Farm and Garden,Paonia,Address,set,11466 3725 Rd,"Real Organic Project directory lists 11466 3725 Rd, Paonia 81428 (checked 2026-10-08)",2026-10-08
+Zephyros Farm and Garden,Paonia,Zip,set,81428,Real Organic Project directory (checked 2026-10-08),2026-10-08
+Zephyros Farm and Garden,Paonia,Phone,set,970-270-2510,Real Organic Project directory (checked 2026-10-08),2026-10-08
+Zephyros Farm and Garden,Paonia,Website,set,https://zephyrosfarmandgarden.com,"Farm's own site, operating in 2026 (checked 2026-10-08)",2026-10-08
+"Borden Farms, LLC",Delta,Phone,set,970-200-6919,pedrosfarm.com (own site) lists 970-200-6919; the directory number was the old Borden Farms line (checked 2026-10-08),2026-10-08
+Parker Pastures,Gunnison,County,set,Gunnison,Town only (no public address); Gunnison is in Gunnison County (checked 2026-10-08),2026-10-08
+LB Specialty Beef,Gunnison,County,set,Gunnison,Town only (no public address); Gunnison is in Gunnison County (checked 2026-10-08),2026-10-08
+Zephyros Farm and Garden,Paonia,County,set,Delta,Paonia is in Delta County; Real Organic Project lists a Paonia address (checked 2026-10-08),2026-10-08
