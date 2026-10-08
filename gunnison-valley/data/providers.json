@@ -1,7 +1,7 @@
 {
  "meta": {
   "generated": "2026-10-08",
-  "count": 6,
+  "count": 11,
   "counties": [
    "Gunnison"
   ],
@@ -37,11 +37,12 @@
    "December"
   ],
   "vendorLeads": {
-   "count": 98,
+   "count": 86,
    "markets": [
-    "Crested Butte Farmers Market"
+    "Crested Butte Farmers Market",
+    "Salida Farmers Market"
    ],
-   "byCountyColumn": false
+   "byCountyColumn": true
   }
  },
  "providers": [
@@ -281,6 +282,220 @@
    "offerings": [
     "beef-meat"
    ]
+  },
+  {
+   "name": "Gunnison Vitamin & Health Food Store",
+   "categories": [
+    "Grocery Store"
+   ],
+   "address": "804 N Main St",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 641-5928",
+   "callFirst": false,
+   "website": "https://gunnisonvitamin.com",
+   "email": "gvhf.store.one@gmail.com",
+   "facebook": "https://facebook.com/gunnisonvitamin",
+   "instagram": "https://instagram.com/gunnisonvitamin",
+   "hours": "Mon-Sat 8am-7pm; closed Sun",
+   "monthsOpen": [],
+   "products": "Organic, local and natural foods; local beef",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Locally owned natural grocer. CSU Extension's local-beef page lists it as a retailer of Parker Pastures and LB Specialty Beef beef.",
+   "lat": 38.552395770443,
+   "lng": -106.926832723933,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "gunnison-vitamin-health-food-store",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "market"
+   ],
+   "offerings": [
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "LB Specialty Beef",
+   "categories": [
+    "Meat Producer & Packer",
+    "Farm Products (online)"
+   ],
+   "address": "",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 596-5976",
+   "callFirst": false,
+   "website": "https://www.lbspecialtybeef.com",
+   "email": "info@lbspecialtybeef.com",
+   "facebook": "https://facebook.com/LB.Beef",
+   "instagram": "https://instagram.com/LB_Beef",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Free-range, hormone-free, grass-fed beef; cuts and shares",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Gunnison ranch selling beef through an online shop and local retailers (Gunnison Vitamin & Health). Only a road name and PO Box are public, so town only. Own site is dated 2025; CSU Extension's 2026 local-beef page lists it. Pinned at the center of Gunnison (Census gazetteer): the site lists only the town, no street address or pickup (checked 2026-10-08).",
+   "lat": null,
+   "lng": null,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "lb-specialty-beef",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "veggies",
+    "beef-meat"
+   ]
+  },
+  {
+   "name": "Mountain Roots Food Project",
+   "categories": [
+    "CSA Farm",
+    "Food Hub",
+    "Organization"
+   ],
+   "address": "107 E Georgia Ave Ste 3B",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "(970) 417-7848",
+   "callFirst": false,
+   "website": "https://mountainrootsfoodproject.org",
+   "email": "info@mountainrootsfoodproject.org",
+   "facebook": "https://facebook.com/mountainrootsfoodproject",
+   "instagram": "https://instagram.com/mountainroots_foodproject",
+   "hours": "2026 CSA: 16 weeks, Jun 25-Oct 15, Thursday pickups 4-6pm (513 S Main St, Gunnison; 620 Second St, Crested Butte). Backyard Harvest free-produce packing Tue 10am",
+   "monthsOpen": [],
+   "products": "Vegetable, fruit, whole-diet, bread, egg and sauce CSA shares; free produce boxes; Farm to School",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Gunnison nonprofit food-systems group: two in-ground farms and four hydroponic container farms, a CSA with SNAP half-price and work-trade shares, and free fresh food through Backyard Harvest. The Food Hub page says \"coming soon\". Address is the office; farm field addresses are not published (call). Site lists two packing addresses (101 N 8th St vs 101 N Main St). Coordinates are from its Colorado Proud finder profile.",
+   "lat": 38.546356,
+   "lng": -106.9265438,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "mountain-roots-food-project",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm",
+    "community"
+   ],
+   "offerings": [
+    "veggies",
+    "fruit",
+    "poultry-eggs",
+    "staples"
+   ]
+  },
+  {
+   "name": "Parker Pastures",
+   "categories": [
+    "Meat Producer & Packer",
+    "Farm Products (online)"
+   ],
+   "address": "",
+   "city": "Gunnison",
+   "county": "Gunnison",
+   "zip": "81230",
+   "phone": "",
+   "callFirst": false,
+   "website": "https://www.parkerpastures.com",
+   "email": "info@parkerpastures.com",
+   "facebook": "https://www.facebook.com/profile.php?id=100064882744254",
+   "instagram": "https://www.instagram.com/parkerpasturesgrassfed/",
+   "hours": "Online orders; ships Mon/Tue",
+   "monthsOpen": [],
+   "products": "Grass-fed and -finished beef, pasture-raised chicken, bison, wild-caught salmon, bulk beef, subscription box",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Gunnison regenerative ranch selling online and shipping nationwide; no address or pickup published, so town only. Not confirmed which products are raised on the ranch (salmon is not). A different \"Parker Pastures\" listing on LocalHarvest (57564 US Hwy 50, raw-milk herdshares, 970-641-3710) conflicts and is not used. Call to confirm farm visits/pickup and phone. Pinned at the center of Gunnison (Census gazetteer): the site lists only the town, no street address or pickup (checked 2026-10-08).",
+   "lat": null,
+   "lng": null,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "parker-pastures",
+   "town": "Gunnison",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "farm"
+   ],
+   "offerings": [
+    "veggies",
+    "beef-meat",
+    "poultry-eggs"
+   ]
+  },
+  {
+   "name": "The Sunflower",
+   "categories": [
+    "Restaurant"
+   ],
+   "address": "214 Elk Ave",
+   "city": "Crested Butte",
+   "county": "Gunnison",
+   "zip": "81224",
+   "phone": "(970) 417-7767",
+   "callFirst": false,
+   "website": "https://www.sunflowercb.com",
+   "email": "",
+   "facebook": "",
+   "instagram": "",
+   "hours": "",
+   "monthsOpen": [],
+   "products": "Seasonal made-from-scratch supper menu",
+   "organic": false,
+   "snap": false,
+   "ada": false,
+   "notes": "Own site says the supper menu follows what nearby farms have in season; it names no suppliers. A 5280 2026 listing confirms it is open. Hours are not published on the site.",
+   "lat": 38.869699445716,
+   "lng": -106.98718188781,
+   "sources": [
+    "curated"
+   ],
+   "status": "unverified",
+   "verified": "",
+   "id": "the-sunflower",
+   "town": "Crested Butte",
+   "sourceLabels": [
+    "Farmers market vendor lists, checked by hand"
+   ],
+   "types": [
+    "dining"
+   ],
+   "offerings": []
   },
   {
    "name": "Vermont Sticky",

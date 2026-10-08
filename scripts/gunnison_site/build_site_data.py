@@ -198,6 +198,8 @@ def main():
         p["verified"] = st.get("checked", "") if st else ""
         p["id"] = slug(p["name"])
         p["town"] = p["city"] or f"{p['county']} County"
+        if not p["address"]:  # town-only record: its coordinates are a town centre, not the place
+            p["lat"] = p["lng"] = None
         p["sourceLabels"] = list(dict.fromkeys(SOURCE_LABELS.get(s, s) for s in p["sources"]))
         facets(p)
         out.append(p)
