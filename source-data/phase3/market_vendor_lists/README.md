@@ -14,9 +14,24 @@ them. Prospects need their own verification before they go anywhere near the map
 | `raw/<market-slug>.json` | One per market checked: whether it publishes a list, the list URL and season, site status, notes, and every vendor captured. |
 | `markets_checked.csv` | One row per market (generated). |
 | `all_vendors.csv` | One row per vendor × market, with a farm signal (generated). |
+| `county_by_city.csv` | City → county lookup (hand-maintained input). Reused from the Phase 2 dataset's Census/FCC-derived counties; `Basis` marks hand-keyed rows and `Note` flags cities that span counties. |
+| `county_overrides.csv` | Researched per-vendor county corrections (input). Wins over everything else. |
 | `targets.json` | The Phase 2 markets with websites that were queued for checking. |
 
 Rebuild the CSVs and the prospect list with `python scripts/phase3/build_prospects.py`.
+
+## County columns
+
+`all_vendors.csv` and `prospective_farms.csv` carry `County` and `County Source`. The source says
+how the county was found, in order of trust: `manual` (a researched row in `county_overrides.csv`),
+`location_stated` (the town the market's list gives for that vendor), `market_city` (the market's
+own town, a fallback only: vendors often come from a neighboring county, e.g. Delta County
+growers at Crested Butte), or `unresolved` (no usable town, e.g. the "Denver metro" markets).
+A prospect sold at several markets with no stated town lists each market town's county.
+
+The counties are saved in the CSVs and rebuilt identically each run from the raw JSON plus the two
+input files above, so reruns never lose them. To fix one, add a row to `county_overrides.csv`
+(blank `Market` = applies at every market) and rerun the build.
 
 ## Coverage (checked 2026-10-03)
 

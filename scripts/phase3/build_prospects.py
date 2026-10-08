@@ -12,6 +12,16 @@ Outputs
   source-data/phase3/market_vendor_lists/all_vendors.csv       one row per vendor x market
   data-compiled/phase3/prospective_farms.csv                   farm-like vendors, deduped
 
+County columns (saved in both vendor CSVs; rebuilt the same way every run)
+  source-data/phase3/market_vendor_lists/county_by_city.csv    city -> county lookup (reused from the
+      Phase 2 dataset's Census/FCC-derived counties; hand-keyed rows are marked in Basis)
+  source-data/phase3/market_vendor_lists/county_overrides.csv  researched per-vendor corrections
+  County Source says where each county came from, in this order of trust:
+    manual           county_overrides.csv (a researched fact, e.g. the vendor's own site)
+    location_stated  the town the market's list gives for that vendor
+    market_city      the market's own town; only a fallback, vendors may be from a neighboring county
+    unresolved       no usable town (e.g. "Denver metro" markets)
+
 Farm classification uses only what the list itself says (section heading, the vendor's
 name, the list's product blurb). Every prospect is unresearched; "Already Known" only
 compares names against datasets already in the repo.
@@ -72,10 +82,12 @@ FARM_DESC = re.compile(
 FIELDS_MARKETS = ["Market Slug", "Market", "City", "Publishes Vendor List", "Vendor List URL",
                   "List Season", "Site Status", "Vendors Captured", "Checked", "Notes"]
 FIELDS_VENDORS = ["Vendor Name", "Market", "Market City", "List Category", "Location Stated",
-                  "Description Stated", "List Season", "Vendor List URL", "Farm Signal"]
+                  "Description Stated", "List Season", "Vendor List URL", "Farm Signal",
+                  "County", "County Source"]
 FIELDS_PROSPECTS = ["Prospect Name", "Farm Signal", "Signal Detail", "List Categories",
                     "Locations Stated", "Description Stated", "Market Count", "Markets",
-                    "List Seasons", "Already Known", "Known Match", "Possible Match", "Status"]
+                    "List Seasons", "Already Known", "Known Match", "Possible Match", "Status",
+                    "County", "County Source"]
 
 
 def clean(s):
@@ -112,6 +124,57 @@ def farm_signal(v):
     return "", ""
 
 
+def load_county_tables():
+    by_city, overrides = {}, {}
+    with open(OUT_SRC / "county_by_city.csv", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            by_city[r["City"].strip().lower()] = r["County"].strip()
+    path = OUT_SRC / "county_overrides.csv"
+    if path.exists():
+        with open(path, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                overrides[(norm(r["Vendor Name"]), clean(r["Market"]).lower())] = r["County"].strip()
+    return by_city, overrides
+
+
+def stated_counties(location, by_city):
+    """Counties for a 'Town, CO' / 'Town, CO, Town2, CO' / 'X County' location string."""
+    counties = []
+    for part in re.split(r",\s*(?:CO|Colorado)\b,?\s*", clean(location)):
+        part = part.strip(" ,")
+        if not part:
+            continue
+        if part.lower().endswith(" county"):
+            c = part[:-7].strip()
+        else:
+            c = by_city.get(part.lower(), "")
+        if c and c not in counties:
+            counties.append(c)
+    return counties
+
+
+def vendor_county(name, market, city, location, tables):
+    """(county, source) for one vendor at one market."""
+    by_city, overrides = tables
+    for key in ((norm(name), clean(market).lower()), (norm(name), "")):
+        if key in overrides:
+            return overrides[key], "manual"
+    cs = stated_counties(location, by_city)
+    if cs:
+        return "; ".join(cs), "location_stated"
+    c = by_city.get(clean(city).lower(), "")
+    return (c, "market_city") if c else ("", "unresolved")
+
+
+def load_first_pass():
+    """Prospect name -> verdict from the first-pass screen (first_pass.csv), if it exists."""
+    path = OUT_SRC / "first_pass.csv"
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return {r["Prospect Name"]: r["Verdict"] for r in csv.DictReader(f)}
+
+
 def load_known():
     known = {}
     for label, path, col in KNOWN_SOURCES:
@@ -133,6 +196,7 @@ def near_match(key, known):
 
 def main():
     markets, vendor_rows = [], []
+    tables = load_county_tables()
     for p in sorted(RAW.glob("*.json")):
         d = json.loads(p.read_text(encoding="utf-8"))
         vendors = d.get("vendors") or []
@@ -147,13 +211,15 @@ def main():
             if not clean(v.get("name")):
                 continue
             strength, _ = farm_signal(v)
+            county, county_src = vendor_county(v["name"], d.get("market"), d.get("city"),
+                                               v.get("location_stated"), tables)
             vendor_rows.append({
                 "Vendor Name": clean(v["name"]), "Market": clean(d.get("market")),
                 "Market City": clean(d.get("city")), "List Category": clean(v.get("list_category")),
                 "Location Stated": clean(v.get("location_stated")),
                 "Description Stated": clean(v.get("description_stated")),
                 "List Season": d.get("list_season") or "", "Vendor List URL": d.get("vendor_list_url") or "",
-                "Farm Signal": strength, "_v": v,
+                "Farm Signal": strength, "County": county, "County Source": county_src, "_v": v,
             })
 
     rank = {"strong": 3, "medium": 2, "weak": 1, "": 0}
@@ -163,6 +229,7 @@ def main():
             groups[norm(r["Vendor Name"])].append(r)
 
     known = load_known()
+    first_pass = load_first_pass()
     prospects = []
     for key, rows in groups.items():
         best = max(rows, key=lambda r: rank[r["Farm Signal"]])
@@ -172,6 +239,16 @@ def main():
         uniq = lambda field: "; ".join(dict.fromkeys(r[field] for r in rows if r[field]))
         market_names = list(dict.fromkeys(r["Market"] for r in rows))
         desc = max((r["Description Stated"] for r in rows), key=len, default="")
+        # Best evidence wins: researched > the vendor's stated town > the markets' towns.
+        # market_city counties are only candidates (a vendor may come from a neighboring county).
+        for src in ("manual", "location_stated", "market_city"):
+            hit = [r["County"] for r in rows if r["County Source"] == src and r["County"]]
+            if hit:
+                county = "; ".join(dict.fromkeys(c for h in hit for c in h.split("; ")))
+                county_src = src
+                break
+        else:
+            county, county_src = "", "unresolved"
         prospects.append({
             "Prospect Name": display, "Farm Signal": best["Farm Signal"],
             "Signal Detail": detail, "List Categories": uniq("List Category"),
@@ -180,7 +257,9 @@ def main():
             "List Seasons": uniq("List Season"),
             "Already Known": "yes" if key in known else "no", "Known Match": known.get(key, ""),
             "Possible Match": "" if key in known else near_match(key, known),
-            "Status": "prospect - unresearched",
+            "Status": ("first pass: " + first_pass[display].replace("_", " ")) if display in first_pass
+                      else "prospect - unresearched",
+            "County": county, "County Source": county_src,
         })
     prospects.sort(key=lambda p: (p["Already Known"] == "yes", -rank[p["Farm Signal"]],
                                   -p["Market Count"], p["Prospect Name"].lower()))
@@ -191,6 +270,9 @@ def main():
           [{k: v for k, v in r.items() if k != "_v"} for r in vendor_rows])
     write(OUT_COMPILED / "prospective_farms.csv", FIELDS_PROSPECTS, prospects)
 
+    print("county sources: " + ", ".join(
+        f"{s}: {sum(r['County Source'] == s for r in vendor_rows)}"
+        for s in ("manual", "location_stated", "market_city", "unresolved")))
     yes = sum(m["Publishes Vendor List"] == "yes" for m in markets)
     new = sum(p["Already Known"] == "no" for p in prospects)
     print(f"markets checked: {len(markets)} | with vendor lists: {yes} | vendor rows: {len(vendor_rows)}")

@@ -5,7 +5,9 @@ the 2026 Salida Farmers Market list that were missing from our data). The resear
 lives in the CSV itself: one row per business, a `Status` decision, and a
 `Source URLs` cell backing the stated values.
 
-Only rows with Status `add` become records. `market-only` (real, but sells only at
+Rows with Status `add` become records, and so do rows with Status `closed` (a business
+we are confident once operated and has shut down; it is kept, marked Closed, and left off
+the map, so nobody researches or adds it again). `market-only` (real, but sells only at
 markets/online, so there's no place of its own to pin) and `skip` rows stay in the CSV
 as the research record, so the same name isn't researched twice.
 
@@ -35,12 +37,15 @@ NORMALIZE = {"phone": phone, "website": clean_url, "facebook": clean_url,
 def parse(rows: List[dict]) -> List[Market]:
     out: List[Market] = []
     for r in rows:
-        if (r.get("Status") or "").strip().lower() != "add":
+        status = (r.get("Status") or "").strip().lower()
+        if status not in ("add", "closed"):
             continue
         name = (r.get("Business Name") or "").strip()
         if not name:
             continue
         m = Market(source=SOURCE, category=(r.get("Category") or "").strip())
+        if status == "closed":
+            m.status = "Closed"
         for attr, col in ATTR_TO_COLUMN.items():
             val = (r.get(col) or "").strip()
             if attr in NORMALIZE and val:

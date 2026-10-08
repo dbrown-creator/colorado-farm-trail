@@ -232,6 +232,11 @@
   .pop .where b{ display:block; font-size:.72rem; text-transform:uppercase; letter-spacing:.05em;
     color:var(--muted); margin-bottom:3px; }
   .pop .where ul{ margin:0; padding-left:18px; }
+  .pop .vendors{ margin:9px 0 2px; font-size:.84rem; }
+  .pop .vendors summary{ cursor:pointer; font-weight:700; color:var(--accent); }
+  .pop .vendors ul{ margin:6px 0 4px; padding-left:18px; max-height:170px; overflow-y:auto; }
+  .pop .vendors li{ margin:2px 0; }
+  .pop .vendors .vl{ display:inline-block; margin-top:2px; font-weight:600; }
   .pop .links{ margin-top:9px; display:flex; flex-wrap:wrap; gap:12px; font-size:.85rem; font-weight:600; }
 
   /* ---- Near me ---- */
@@ -609,6 +614,19 @@
     if(m.facebook) links.push('<a href="'+esc(m.facebook)+'" target="_blank" rel="noopener">Facebook</a>');
     if(m.instagram) links.push('<a href="'+esc(m.instagram)+'" target="_blank" rel="noopener">Instagram</a>');
     if(links.length) h += '<div class="links">'+links.join("")+'</div>';
+    // A market's vendor list: vendors with no published location live here instead of on the
+    // map. Pinned vendors link to their pin; others link out to their own site or social page.
+    if(m.vendors && m.vendors.length){
+      h += '<details class="vendors"><summary>Vendors ('+m.vendors.length+')</summary><ul>';
+      m.vendors.forEach(function(v){
+        if(v.m) h += '<li><a href="#" data-vendor="'+esc(v.m)+'">'+esc(v.n)+'</a> 📍</li>';
+        else if(v.u) h += '<li><a href="'+esc(v.u)+'" target="_blank" rel="noopener">'+esc(v.n)+' ↗</a></li>';
+        else h += '<li>'+esc(v.n)+'</li>';
+      });
+      h += '</ul>';
+      if(m.vendorList) h += '<a class="vl" href="'+esc(m.vendorList)+'" target="_blank" rel="noopener">Official vendor list ↗</a>';
+      h += '</details>';
+    }
     if(!wholesaleOnly) h += '<a class="dir" href="https://www.google.com/maps/dir/?api=1&destination='+m.lat+','+m.lng+'" target="_blank" rel="noopener">🧭 Directions</a>';
     h += '</div>';
     return h;
@@ -764,6 +782,21 @@
       document.getElementById("sidebar").classList.toggle("expanded");
     });
   }
+
+  // Vendor names in a market's popup open that vendor's own pin.
+  document.addEventListener("click", function(e){
+    var a = e.target.closest && e.target.closest("a[data-vendor]");
+    if(!a) return;
+    e.preventDefault();
+    var name = a.getAttribute("data-vendor");
+    for(var i = 0; i < ALL.length; i++){
+      if(ALL[i].name === name && ALL[i]._marker){
+        map.setView([ALL[i].lat, ALL[i].lng], Math.max(map.getZoom(), 12));
+        ALL[i]._marker.openPopup();
+        return;
+      }
+    }
+  });
 
   // ---- Load ----
   fetch("./data/markets.json")

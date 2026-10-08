@@ -85,6 +85,14 @@ Query all records (attributes + lat/long) as JSON:
 - **Latitude/Longitude are dedicated columns** so Google My Maps places pins exactly,
   with no geocoding.
 
+## Status: closed businesses are kept
+
+The raw CSV (`source-data/phase2/co_farmers_markets_all_raw.csv`) has a `Status` column,
+`Open` or `Closed`. Closed farms, ranches and businesses stay in it (only ones that would have
+qualified, that we know existed and have shut down) so they are never researched or added again; the My Maps file
+and the map leave them out. Everything else is assumed open until found otherwise. How to mark
+one: `scripts/scrape/README.md`, "Closed businesses stay in the dataset".
+
 ## Deduplication & data-quality notes
 
 The all-Colorado farmers-market dataset (`data/co_farmers_markets_all_raw.csv`)

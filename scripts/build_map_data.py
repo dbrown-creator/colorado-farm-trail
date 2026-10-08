@@ -22,7 +22,7 @@ from pathlib import Path
 
 # URL normalization is shared with the Phase 2 scraper (one copy, same rules).
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from scrape.normalize import social_url, website_url  # noqa: E402
+from scrape.normalize import name_key, social_url, website_url  # noqa: E402
 from scrape import categories as cat_groups  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
@@ -31,6 +31,8 @@ REPO = Path(__file__).resolve().parent.parent
 SRC = REPO / "data-compiled" / "phase2" / "co_farmers_markets_all_mymaps.csv"
 GROUP_LABEL = {key: label for key, label, _, _ in cat_groups.GROUPS}
 OUT = REPO / "data" / "markets.json"
+VENDORS = REPO / "source-data" / "phase3" / "market_vendor_lists" / "all_vendors.csv"
+FIRST_PASS = REPO / "source-data" / "phase3" / "market_vendor_lists" / "first_pass.csv"
 
 
 def _lf(value):
@@ -61,6 +63,54 @@ def split_list(value):
     if not value:
         return []
     return [part.strip() for part in _lf(value).split(",") if part.strip()]
+
+
+def attach_vendors(markets, rows):
+    """Add each farmers' market's published vendor list (farm-type vendors only) as
+    `vendors`: [{"n": name, "m": map record name?, "u": link?}]. A vendor with its own pin
+    links to that pin ("m"); one with no pin but a website/social gets that link ("u");
+    the rest are plain names. Vendors with no published location therefore live here, not
+    on the map. `vendorList` is the market's own published list, when we have its URL."""
+    if not VENDORS.exists():
+        return 0
+    verdict = {}
+    if FIRST_PASS.exists():
+        with FIRST_PASS.open(encoding="utf-8", newline="") as fh:
+            verdict = {name_key(r["Prospect Name"]): r["Verdict"] for r in csv.DictReader(fh)}
+    pinned = {m["name"] and name_key(m["name"]): m["name"] for m in markets}
+    links = {}
+    for row in rows:                      # includes records with no coordinates
+        url = (website_url(row.get("Website")) or social_url(row.get("Facebook"), "https://facebook.com/")
+               or social_url(row.get("Instagram"), "https://instagram.com/"))
+        if url:
+            links[name_key(row.get("Business Name") or "")] = url
+    by_market = {(name_key(m["name"]), (m["city"] or "").lower()): m for m in markets
+                 if "Farmers' Markets" in m["categories"]}
+    seen, count = {}, 0
+    with VENDORS.open(encoding="utf-8", newline="") as fh:
+        for v in csv.DictReader(fh):
+            if not v.get("Farm Signal"):
+                continue
+            mk = by_market.get((name_key(v["Market"]), v["Market City"].lower()))
+            if mk is None:
+                continue
+            k = name_key(v["Vendor Name"])
+            if verdict.get(k) in ("not_qualified", "closed") or (mk["name"], k) in seen:
+                continue
+            seen[(mk["name"], k)] = True
+            entry = {"n": v["Vendor Name"]}
+            if k in pinned:
+                entry["m"] = pinned[k]
+            elif k in links:
+                entry["u"] = links[k]
+            mk.setdefault("vendors", []).append(entry)
+            if v.get("Vendor List URL"):
+                mk["vendorList"] = v["Vendor List URL"]
+            count += 1
+    for mk in markets:
+        if "vendors" in mk:
+            mk["vendors"].sort(key=lambda e: e["n"].lower())
+    return count
 
 
 def main():
@@ -129,6 +179,7 @@ def main():
             }
         )
 
+    n_vendors = attach_vendors(markets, rows)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with OUT.open("w", encoding="utf-8") as fh:
         json.dump(markets, fh, ensure_ascii=False, separators=(",", ":"))
@@ -137,6 +188,7 @@ def main():
     # Summary
     print(f"Read {len(rows)} rows from {SRC.relative_to(REPO)}")
     print(f"Wrote {len(markets)} markets -> {OUT.relative_to(REPO)}")
+    print(f"Attached {n_vendors} vendors to farmers' market listings")
     print(f"Skipped {len(skipped)} rows")
     for line_no, name, reason in skipped:
         print(f"  - line {line_no}: {name or '(no name)'} -> {reason}")
